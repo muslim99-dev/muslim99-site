@@ -12,10 +12,7 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
-      "prettier --write"
-    ],
-    "**/*.{json,md}": "prettier --write"
+    "*.{js,jsx,ts,tsx,mjs,cjs,css,scss,json,md}": "prettier --write"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.11",
