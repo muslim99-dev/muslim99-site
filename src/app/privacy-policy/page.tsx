@@ -1,3 +1,5 @@
+import { CONTACT } from '@/constants/constants';
+
 export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-white">
@@ -134,9 +136,9 @@ export default function PrivacyPolicy() {
             In case of any questions regarding Privacy policy or any other matter, we are easily
             reachable at{' '}
             <a
-              href="mailto:muslim99help@gmail.com"
+              href={`mailto:${CONTACT.supportEmail}`}
               className="text-primary hover:text-primary/60 font-poppins underline">
-              muslim99help@gmail.com
+              {CONTACT.supportEmail}
             </a>
           </p>
         </section>
@@ -160,9 +162,9 @@ export default function PrivacyPolicy() {
           <p className="text-foreground font-poppins mb-4 text-lg leading-relaxed">
             If you wish to delete your data, please contact us on{' '}
             <a
-              href="mailto:muslim99help@gmail.com"
+              href={`mailto:${CONTACT.supportEmail}`}
               className="text-primary hover:text-primary/60 underline">
-              muslim99help@gmail.com
+              {CONTACT.supportEmail}
             </a>
             . We will delete your data within 15 days. Please note that if the data is deleted, you
             will not be able to access it anymore.

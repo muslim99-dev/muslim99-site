@@ -1,6 +1,8 @@
+import { STORE_URLS } from '@/constants/constants';
+
 export default function DownloadApp() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-[#DF98FA] to-[#9055FF]">
+    <div className="min-h-screen bg-linear-to-r from-[#DF98FA] to-[#9055FF]">
       <div className="flex min-h-screen items-center justify-center px-6 py-20">
         <div className="w-full max-w-[900px] text-center">
           {/* Heading */}
@@ -17,10 +19,10 @@ export default function DownloadApp() {
           <div className="flex w-full flex-col items-center justify-center gap-6 md:flex-row">
             {/* Google Play Store */}
             <a
-              href="#"
+              href={STORE_URLS.playStore}
               className="flex h-[89px] w-full items-center gap-4 rounded-2xl bg-white px-5 py-0 shadow-lg transition hover:shadow-xl md:w-[280px] md:p-8">
               {/* Play Store Icon */}
-              <div className="">
+              <div className="shrink-0">
                 <svg
                   className="h-12 w-12 text-[#34A853] md:h-14 md:w-14"
                   viewBox="0 0 24 24"
@@ -40,10 +42,10 @@ export default function DownloadApp() {
 
             {/* App Store */}
             <a
-              href="#"
+              href={STORE_URLS.appStore}
               className="group flex h-[89px] w-full items-center gap-4 rounded-2xl bg-white px-5 py-0 shadow-lg transition hover:shadow-xl md:w-[280px] md:p-8">
               {/* Apple Icon */}
-              <div className="">
+              <div className="shrink-0">
                 <svg
                   className="text-foreground h-12 w-12 md:h-14 md:w-14"
                   viewBox="0 0 24 24"

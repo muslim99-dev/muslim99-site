@@ -1,3 +1,4 @@
+import { SOCIAL_MEDIA, STORE_URLS } from '@/constants/constants';
 import Images from '@/constants/images';
 import { Facebook, Instagram, Youtube } from 'lucide-react';
 import Image from 'next/image';
@@ -40,7 +41,7 @@ export const Footer = () => {
             </p>
             <div className="flex flex-col items-start space-y-3">
               <a
-                href="https://play.google.com/store"
+                href={STORE_URLS.appStore}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block">
@@ -52,7 +53,7 @@ export const Footer = () => {
                 />
               </a>
               <a
-                href="https://apps.apple.com"
+                href={STORE_URLS.playStore}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block">
@@ -73,7 +74,7 @@ export const Footer = () => {
           </p>
           <div className="flex flex-col space-y-3">
             <a
-              href="https://facebook.com"
+              href={SOCIAL_MEDIA.facebook}
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center space-x-3 text-gray-700 transition-colors hover:text-blue-600">
@@ -83,7 +84,7 @@ export const Footer = () => {
               <span className="font-poppins-medium text-base font-medium">Facebook</span>
             </a>
             <a
-              href="https://instagram.com"
+              href={SOCIAL_MEDIA.instagram}
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center space-x-3 text-gray-700 transition-colors hover:text-pink-600">
@@ -93,7 +94,7 @@ export const Footer = () => {
               <span className="font-poppins-medium text-base font-medium">Instagram</span>
             </a>
             <a
-              href="https://youtube.com"
+              href={SOCIAL_MEDIA.youtube}
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center space-x-3 text-gray-700 transition-colors hover:text-red-600">

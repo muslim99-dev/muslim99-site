@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
@@ -14,11 +16,11 @@ export default function Home() {
             Experience accurate prayer times, Quran recitation, Qibla direction, and Islamic
             knowledge all in one beautiful app. Stay connected with your faith, anytime, anywhere.
           </p>
-          <a
+          <Link
             href="/download-app"
             className="font-poppins-medium inline-block rounded-full bg-[#F4C15D] px-12 py-5 text-xl font-semibold text-gray-900 shadow-lg transition hover:bg-[#F4C15D]/90 hover:shadow-xl">
             Download App
-          </a>
+          </Link>
         </div>
       </section>
 
