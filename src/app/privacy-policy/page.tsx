@@ -1,4 +1,19 @@
 import { CONTACT } from '@/constants/constants';
+import { generatePageMetadata } from '@/utils/metadata';
+
+export const metadata = generatePageMetadata({
+  title: 'Privacy Policy',
+  description:
+    'Read our privacy policy to learn how Muslim99 protects your data and respects your privacy.',
+  path: '/privacy-policy',
+  keywords: [
+    'Muslim99 privacy policy',
+    'privacy',
+    'data protection',
+    'Islamic app privacy',
+    'user data',
+  ],
+});
 
 export default function PrivacyPolicy() {
   return (

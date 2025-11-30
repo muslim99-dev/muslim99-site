@@ -1,4 +1,22 @@
 import { STORE_URLS } from '@/constants/constants';
+import { generatePageMetadata } from '@/utils/metadata';
+
+export const metadata = generatePageMetadata({
+  title: 'Download App',
+  description:
+    'Download Muslim99 on iOS and Android. Get accurate prayer times, Quran recitation, and Islamic knowledge on your device.',
+  path: '/download-app',
+
+  keywords: [
+    'Download Muslim99',
+    'Muslim99 app download',
+    'Islamic app download',
+    'Prayer app iOS',
+    'Prayer app Android',
+    'Muslim99 App Store',
+    'Muslim99 Google Play',
+  ],
+});
 
 export default function DownloadApp() {
   return (
