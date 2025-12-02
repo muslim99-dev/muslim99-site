@@ -1,10 +1,10 @@
 {
-    "name": "Muslim99 - Islamic Companion",
-    "short_name": "Muslim99",
-    "description": "Your Complete Islamic Companion - Prayer Times, Quran, Qibla Direction",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#863ed5",
-    "orientation": "portrait"
+  "name": "Muslim99 - Islamic Companion",
+  "short_name": "Muslim99",
+  "description": "Your Complete Islamic Companion - Prayer Times, Quran, Qibla Direction",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#863ed5",
+  "orientation": "portrait"
 }
