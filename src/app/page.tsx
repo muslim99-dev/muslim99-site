@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="h-[85vh] bg-linear-to-r from-[#DF98FA] to-[#9055FF] px-6 py-24">
+      <section className="flex h-[85vh] items-center justify-center bg-linear-to-r from-[#DF98FA] to-[#9055FF] px-6 py-24">
         <div className="mx-auto max-w-[1100px] text-center">
           <h1 className="font-poppins-medium mb-6 text-5xl font-bold text-white md:text-6xl lg:text-7xl">
             Muslim99
