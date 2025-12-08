@@ -12,8 +12,8 @@ export const STORE_URLS = {
 } as const;
 
 export const CONTACT = {
-  email: 'muslim99help@gmail.com',
-  supportEmail: 'muslim99help@gmail.com',
+  email: 'social@themuslim99.com',
+  supportEmail: 'social@themuslim99.com',
   website: 'https://themuslim99.com',
 } as const;
 
