@@ -1,10 +1,3 @@
-export const APP_INFO = {
-  name: 'Muslim99',
-  tagline: 'Your Complete Islamic Companion',
-  description:
-    'Experience accurate prayer times, Quran recitation, Qibla direction, and Islamic knowledge all in one beautiful app. Stay connected with your faith, anytime, anywhere.',
-} as const;
-
 export const STORE_URLS = {
   playStore: 'https://play.google.com/store/apps/details?id=com.muslim99',
   appStore: 'https://apps.apple.com/app/muslim99/id123456789',
