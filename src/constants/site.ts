@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
   title: 'Muslim99 - Your Complete Islamic Companion',
   description:
     'Experience accurate prayer times, Quran recitation, Qibla direction, and Islamic knowledge all in one beautiful app. Stay connected with your faith, anytime, anywhere.',
-  url: 'https://www.themuslim99.com/',
+  url: 'https://themuslim99.com',
   ogImage: '/og-image.png',
   author: 'Muslim99 Team',
 
