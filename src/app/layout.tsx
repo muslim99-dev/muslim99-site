@@ -52,6 +52,9 @@ export const metadata: Metadata = {
   publisher: SITE_CONFIG.creator.name,
   applicationName: SITE_CONFIG.name,
 
+  verification: {
+    google: 'iYL1LyyX4v1PupPnPKLErqOS_-RqIxW-xSxX-LHKwyE',
+  },
   appLinks: {
     android: {
       package: 'com.muslim99',

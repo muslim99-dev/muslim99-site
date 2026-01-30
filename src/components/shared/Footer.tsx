@@ -2,6 +2,7 @@ import { SOCIAL_MEDIA, STORE_URLS } from '@/constants/constants';
 import Images from '@/constants/images';
 import { Facebook, Instagram, Youtube } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -40,23 +41,23 @@ export const Footer = () => {
               Available On:
             </p>
             <div className="flex flex-col items-start space-y-3">
-              <a
-                href={STORE_URLS.appStore}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block">
+              {/* App Store - Coming Soon */}
+              <div className="relative inline-block opacity-60">
                 <Image
                   src={Images.appstore_logo.src}
-                  alt="Appstore logo"
+                  alt="Appstore logo - Coming Soon"
                   width={120}
                   height={120}
+                  className="grayscale"
                 />
-              </a>
+              </div>
+
+              {/* Play Store */}
               <a
                 href={STORE_URLS.playStore}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block">
+                className="inline-block transition hover:opacity-80">
                 <Image
                   src={Images.playstore_logo.src}
                   alt="Playstore logo"
@@ -119,18 +120,18 @@ export const Footer = () => {
             </a>
           </li>
           <li>
-            <a
-              href="#"
+            <Link
+              href="/privacy-policy"
               className="text-muted-foreground font-poppins-medium hover:text-primary/90 text-sm font-medium transition-colors duration-300">
               Privacy Policy
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
+            <Link
+              href="/terms-and-conditions"
               className="text-muted-foreground font-poppins-medium hover:text-primary/90 text-sm font-medium transition-colors duration-300">
               Terms &amp; Conditions
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
