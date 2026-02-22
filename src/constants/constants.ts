@@ -7,7 +7,7 @@ export const STORE_URLS = {
 export const CONTACT = {
   email: 'social@themuslim99.com',
   supportEmail: 'social@themuslim99.com',
-  website: 'https://themuslim99.com',
+  website: 'https://www.themuslim99.com',
 } as const;
 
 export const SOCIAL_MEDIA = {
