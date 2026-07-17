@@ -1,167 +1,164 @@
-@import 'tailwindcss';
-@import 'tw-animate-css';
-
-@custom-variant dark (&:is(.dark *));
+@import "tailwindcss";
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  --color-sidebar-ring: var(--sidebar-ring);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar: var(--sidebar);
-  --color-chart-5: var(--chart-5);
-  --color-chart-4: var(--chart-4);
-  --color-chart-3: var(--chart-3);
-  --color-chart-2: var(--chart-2);
-  --color-chart-1: var(--chart-1);
-  --color-ring: var(--ring);
-  --color-input: var(--input);
-  --color-border: var(--border);
-  --color-destructive: var(--destructive);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-accent: var(--accent);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-muted: var(--muted);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-secondary: var(--secondary);
-  --color-primary-foreground: var(--primary-foreground);
   --color-primary: var(--primary);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-popover: var(--popover);
-  --color-card-foreground: var(--card-foreground);
+  --color-primary-strong: var(--primary-strong);
+  --color-primary-ink: var(--primary-ink);
+  --color-bg: var(--bg);
   --color-card: var(--card);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
-  --font-poppins: var(--font-poppins);
-  --font-poppins-medium: var(--font-poppins-medium);
+  --color-card-2: var(--card-2);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --font-arabic: "Amiri", serif;
+  --radius-hero: var(--r-hero);
+  --radius-card: var(--r-card);
+  --radius-btn: var(--r-btn);
+  --radius-chip: var(--r-chip);
 }
 
-:root {
-  --background: hsl(223.8136 -172.5242% 100%);
-  --foreground: hsl(240 12.5% 21.9608%);
-  --card: hsl(223.8136 0.0002% 96.0587%);
-  --card-foreground: hsl(259.6875 68.0851% 18.4314%);
-  --popover: hsl(223.8136 -172.5242% 100%);
-  --popover-foreground: hsl(223.8136 0% 3.9388%);
-  --primary: hsl(268.6093 64.2553% 53.9216%);
-  --primary-foreground: hsl(223.8136 0.0004% 98.0256%);
-  --secondary: hsl(264.5833 62.069% 45.4902%);
-  --secondary-foreground: hsl(223.8136 0.0004% 98.0256%);
-  --muted: hsl(223.8136 0.0002% 96.0587%);
-  --muted-foreground: hsl(240 12.4183% 30%);
-  --accent: hsl(223.8136 0.0002% 96.0587%);
-  --accent-foreground: hsl(223.8136 0% 9.0527%);
-  --destructive: hsl(351.7303 123.6748% 40.5257%);
-  --destructive-foreground: hsl(223.8136 -172.5242% 100%);
-  --border: hsl(214.2857 9.589% 85.6863%);
-  --input: hsl(240 4.3478% 95.4902%);
-  --ring: hsl(223.8136 0% 63.0163%);
-  --chart-1: hsl(211.788 101.9718% 78.6759%);
-  --chart-2: hsl(217.4076 91.3672% 59.5787%);
-  --chart-3: hsl(221.4336 86.3731% 54.0624%);
-  --chart-4: hsl(223.6587 78.718% 47.8635%);
-  --chart-5: hsl(226.5426 70.0108% 39.9224%);
-  --sidebar: hsl(223.8136 0.0004% 98.0256%);
-  --sidebar-foreground: hsl(223.8136 0% 3.9388%);
-  --sidebar-primary: hsl(223.8136 0% 9.0527%);
-  --sidebar-primary-foreground: hsl(223.8136 0.0004% 98.0256%);
-  --sidebar-accent: hsl(223.8136 0.0002% 96.0587%);
-  --sidebar-accent-foreground: hsl(223.8136 0% 9.0527%);
-  --sidebar-border: hsl(223.8136 0.0001% 89.8161%);
-  --sidebar-ring: hsl(223.8136 0% 63.0163%);
-  --font-sans: Poppins, ui-sans-serif, sans-serif, system-ui;
-  --font-serif: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
-  --font-mono:
-    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
-    monospace;
-  --radius: 0.625rem;
-  --shadow-x: 0;
-  --shadow-y: 1px;
-  --shadow-blur: 3px;
-  --shadow-spread: 0px;
-  --shadow-opacity: 0.1;
-  --shadow-color: oklch(0 0 0);
-  --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
-  --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
-  --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
-  --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
-  --shadow-md: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
-  --shadow-lg: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
-  --shadow-xl: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
-  --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
-  --tracking-normal: 0em;
-  --spacing: 0.25rem;
+/* ============ Design tokens — ported 1:1 from the Muslim99 app theme.jsx ============ */
+:root,
+[data-theme="light"] {
+  --primary: #269398;
+  --primary-strong: #1c7074;
+  --primary-ink: #fafdfe;
+
+  --grad-a: #269398;
+  --grad-b: #1c7074;
+  --soft: rgba(38, 147, 152, 0.12);
+  --soft-text: #269398;
+  --glow: #269398;
+
+  --bg: #fbfefe;
+  --card: #ffffff;
+  --card-2: #ffffff;
+  --text: #161818;
+  --muted: #525252;
+  --faint: rgba(22, 24, 24, 0.42);
+  --border: #d1d6d7;
+  --hair: rgba(22, 24, 24, 0.07);
+
+  --card-grad: linear-gradient(180deg, #ffffff 0%, #f4f8f8 100%);
+  --bevel-card: inset 0 1px 0 #ffffff;
+
+  /* warm gold accent for Islamic ornamentation — derived, not primary */
+  --gold: #b4893a;
+  --gold-soft: rgba(180, 137, 58, 0.14);
+
+  --shadow-xs: 0px 1px 3px 0px hsl(0 0% 0% / 0.09);
+  --shadow-sm: 0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 1px 2px -1px hsl(0 0% 0% / 0.17);
+  --shadow-md: 0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 2px 4px -1px hsl(0 0% 0% / 0.17);
+  --shadow-lg: 0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 4px 6px -1px hsl(0 0% 0% / 0.17);
+  --shadow-xl: 0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 8px 10px -1px hsl(0 0% 0% / 0.17);
+  --shadow-card: 0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 1px 2px -1px hsl(0 0% 0% / 0.17);
+  --shadow-hero: 0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 4px 6px -1px hsl(0 0% 0% / 0.17);
+
+  --r-hero: 18px;
+  --r-card: 16px;
+  --r-btn: 12px;
+  --r-chip: 10px;
+  --r-sm: 8px;
+
+  --grad-hero: linear-gradient(180deg, #33aab0 0%, #269398 52%, #1c7074 100%);
+  --grad-btn: linear-gradient(180deg, #2ea7ac 0%, #269398 55%, #1f7e83 100%);
+  --bevel: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.12);
+
+  color-scheme: light;
 }
 
-.dark {
-  --background: hsl(224.5161 79.4872% 7.6471%);
-  --foreground: hsl(223.8136 0.0004% 98.0256%);
-  --card: hsl(226.4516 46.2687% 13.1373%);
-  --card-foreground: hsl(0 0% 100%);
-  --popover: hsl(223.8136 0% 14.9382%);
-  --popover-foreground: hsl(223.8136 0.0004% 98.0256%);
-  --primary: hsl(269.8343 100% 64.5098%);
-  --primary-foreground: hsl(0 0% 100%);
-  --secondary: hsl(0 0% 100%);
-  --secondary-foreground: hsl(223.8136 0% 14.9382%);
-  --muted: hsl(223.8136 0% 14.9382%);
-  --muted-foreground: hsl(247.3171 26.1146% 69.2157%);
-  --accent: hsl(223.8136 0% 25.0471%);
-  --accent-foreground: hsl(223.8136 0.0004% 98.0256%);
-  --destructive: hsl(358.7594 101.8439% 69.8357%);
-  --destructive-foreground: hsl(223.8136 0.0004% 98.0256%);
-  --border: hsl(229.5 43.4783% 18.0392%);
-  --input: hsl(227.5862 43.2836% 13.1373%);
-  --ring: hsl(223.8136 0% 45.1519%);
-  --chart-1: hsl(211.788 101.9718% 78.6759%);
-  --chart-2: hsl(217.4076 91.3672% 59.5787%);
-  --chart-3: hsl(221.4336 86.3731% 54.0624%);
-  --chart-4: hsl(223.6587 78.718% 47.8635%);
-  --chart-5: hsl(226.5426 70.0108% 39.9224%);
-  --sidebar: hsl(226.4516 46.2687% 13.1373%);
-  --sidebar-foreground: hsl(223.8136 0.0004% 98.0256%);
-  --sidebar-primary: hsl(225.3451 84.0953% 48.9841%);
-  --sidebar-primary-foreground: hsl(223.8136 0.0004% 98.0256%);
-  --sidebar-accent: hsl(223.8136 0% 14.9382%);
-  --sidebar-accent-foreground: hsl(223.8136 0.0004% 98.0256%);
-  --sidebar-border: hsl(223.8136 0% 15.5096%);
-  --sidebar-ring: hsl(223.8136 0% 32.1993%);
-  --font-sans: Poppins, ui-sans-serif, sans-serif, system-ui;
-  --font-serif: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
-  --font-mono:
-    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
-    monospace;
-  --radius: 0.625rem;
-  --shadow-x: 0;
-  --shadow-y: 1px;
-  --shadow-blur: 3px;
-  --shadow-spread: 0px;
-  --shadow-opacity: 0.1;
-  --shadow-color: oklch(0 0 0);
-  --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
-  --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
-  --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
-  --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
-  --shadow-md: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
-  --shadow-lg: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
-  --shadow-xl: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
-  --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+[data-theme="dark"] {
+  --primary: #269398;
+  --primary-strong: #1c7074;
+  --primary-ink: #f7fdfd;
+
+  --grad-a: #269398;
+  --grad-b: #1c7074;
+  --soft: rgba(38, 147, 152, 0.2);
+  --soft-text: #3bb3b8;
+  --glow: #269398;
+
+  --bg: #111313;
+  --card: #161818;
+  --card-2: #1e1f20;
+  --text: #f7fdfd;
+  --muted: #b2b2b2;
+  --faint: rgba(247, 253, 253, 0.4);
+  --border: #2d2f2f;
+  --hair: rgba(255, 255, 255, 0.07);
+
+  --card-grad: linear-gradient(180deg, #1c1e1e 0%, #161818 100%);
+  --bevel-card: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+
+  --gold: #d9b467;
+  --gold-soft: rgba(217, 180, 103, 0.14);
+
+  --grad-hero: linear-gradient(180deg, #33aab0 0%, #269398 52%, #1c7074 100%);
+  --grad-btn: linear-gradient(180deg, #2ea7ac 0%, #269398 55%, #1f7e83 100%);
+  --bevel: inset 0 1px 0 rgba(255, 255, 255, 0.08), inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+
+  color-scheme: dark;
 }
 
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Outfit", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+.font-arabic {
+  font-family: "Amiri", serif;
+}
+
+/* ============ Signature motif: repeating 8-point Islamic star lattice ============ */
+.geo-lattice {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='84' height='84' viewBox='0 0 84 84'%3E%3Cg fill='none' stroke='%23269398' stroke-width='1' opacity='0.5'%3E%3Cpath d='M42 4 L54 20 L74 20 L62 36 L74 52 L54 52 L42 68 L30 52 L10 52 L22 36 L10 20 L30 20 Z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 84px 84px;
+}
+
+.card-surface {
+  background: var(--card-grad);
+  border: 1px solid var(--border);
+  border-radius: var(--r-card);
+  box-shadow: var(--bevel-card), var(--shadow-card);
+}
+
+.btn-primary {
+  background: var(--grad-btn);
+  color: var(--primary-ink);
+  border-radius: var(--r-btn);
+  box-shadow: var(--bevel), var(--shadow-md);
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
   }
 }
