@@ -1,0 +1,40 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "وَاَمَّا",
+        "urdu": "اور رہا"
+      },
+      {
+        "arabic": "السَّآئِلَ",
+        "urdu": "سوالی"
+      },
+      {
+        "arabic": "فَلَا",
+        "urdu": "پس نہ"
+      },
+      {
+        "arabic": "تَنۡہَرۡ",
+        "urdu": "آپ جھڑکیے(اسے)"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "وَاَمَّا",
+        "urdu": "اور لیکن"
+      },
+      {
+        "arabic": "السَّآئِلَ",
+        "urdu": "سائل"
+      },
+      {
+        "arabic": "فَلَا تَنۡہَرۡ",
+        "urdu": "تو مت تم جھڑکو"
+      }
+    ]
+  }
+]
