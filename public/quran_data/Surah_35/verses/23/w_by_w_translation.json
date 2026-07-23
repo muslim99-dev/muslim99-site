@@ -1,0 +1,44 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "اِنۡ",
+        "urdu": "نہیں ہیں"
+      },
+      {
+        "arabic": "اَنۡتَ",
+        "urdu": "آپ"
+      },
+      {
+        "arabic": "اِلَّا",
+        "urdu": "مگر"
+      },
+      {
+        "arabic": "نَذِیۡرٌ",
+        "urdu": "ڈرانے والے"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "اِنۡ",
+        "urdu": "نہیں"
+      },
+      {
+        "arabic": "اَنۡتَ",
+        "urdu": "آپ"
+      },
+      {
+        "arabic": "اِلَّا",
+        "urdu": "مگر"
+      },
+      {
+        "arabic": "نَذِیۡرٌ",
+        "urdu": "ایک خبردار کردینے والے"
+      }
+    ]
+  }
+]
