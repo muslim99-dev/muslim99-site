@@ -1,0 +1,40 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "اَمۡ",
+        "urdu": "کیا ہے"
+      },
+      {
+        "arabic": "لِلۡاِنۡسَانِ",
+        "urdu": "انسان کے لیے"
+      },
+      {
+        "arabic": "مَا",
+        "urdu": "جو"
+      },
+      {
+        "arabic": "تَمَنّٰی",
+        "urdu": "وہ تمنا کرے"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "اَمۡ",
+        "urdu": "یا"
+      },
+      {
+        "arabic": "لِلۡاِنۡسَانِ",
+        "urdu": "انسان کے لیے ہے"
+      },
+      {
+        "arabic": "مَا تَمَنّٰی",
+        "urdu": "جس کی وہ خواہش کرتا ہے"
+      }
+    ]
+  }
+]

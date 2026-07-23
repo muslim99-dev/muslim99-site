@@ -1,0 +1,52 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "اِنَّ",
+        "urdu": "بےشک"
+      },
+      {
+        "arabic": "ہٰذَا",
+        "urdu": "یہ"
+      },
+      {
+        "arabic": "لَہُوَ",
+        "urdu": "البتہ وہی ہے"
+      },
+      {
+        "arabic": "حَقُّ",
+        "urdu": "جو حق ہے"
+      },
+      {
+        "arabic": "الۡیَقِیۡنِ",
+        "urdu": "یقینی"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "اِنَّ",
+        "urdu": "یقیناً"
+      },
+      {
+        "arabic": "ہٰذَا",
+        "urdu": "یہی"
+      },
+      {
+        "arabic": "لَہُوَ",
+        "urdu": "یقیناً وہ"
+      },
+      {
+        "arabic": "حَقُّ",
+        "urdu": "حق ہے"
+      },
+      {
+        "arabic": "الۡیَقِیۡنِ",
+        "urdu": "قطعی"
+      }
+    ]
+  }
+]
