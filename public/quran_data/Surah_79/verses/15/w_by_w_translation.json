@@ -1,0 +1,44 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "ہَلۡ",
+        "urdu": "کیا"
+      },
+      {
+        "arabic": "اَتٰىکَ",
+        "urdu": "آئی ہے آپ کے پاس"
+      },
+      {
+        "arabic": "حَدِیۡثُ",
+        "urdu": "خبر"
+      },
+      {
+        "arabic": "مُوۡسٰی",
+        "urdu": "موسیٰ کی"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "ہَلۡ",
+        "urdu": "کیا"
+      },
+      {
+        "arabic": "اَتٰىکَ",
+        "urdu": "آئی ہے تمہارے پاس"
+      },
+      {
+        "arabic": "حَدِیۡثُ",
+        "urdu": "بات"
+      },
+      {
+        "arabic": "مُوۡسٰی",
+        "urdu": "مو سیٰ کی"
+      }
+    ]
+  }
+]

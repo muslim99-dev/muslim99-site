@@ -1,0 +1,44 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "فَلَا",
+        "urdu": "پس نہ"
+      },
+      {
+        "arabic": "صَدَّقَ",
+        "urdu": "اس نے تصدیق کی"
+      },
+      {
+        "arabic": "وَلَا",
+        "urdu": "اور نہ"
+      },
+      {
+        "arabic": "صَلّٰی",
+        "urdu": "اس نے نماز پڑھی"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "فَلَا",
+        "urdu": "سونہ"
+      },
+      {
+        "arabic": "صَدَّقَ",
+        "urdu": "اس نے سچ مانا"
+      },
+      {
+        "arabic": "وَلَا",
+        "urdu": "اورنہ"
+      },
+      {
+        "arabic": "صَلّٰی",
+        "urdu": "نمازپڑھی"
+      }
+    ]
+  }
+]

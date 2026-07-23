@@ -1,0 +1,36 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "ہٰذَا",
+        "urdu": "یہ"
+      },
+      {
+        "arabic": "یَوۡمُ",
+        "urdu": "دن ہے"
+      },
+      {
+        "arabic": "لَایَنۡطِقُوۡنَ",
+        "urdu": "نہ وہ بول سکیں گے"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "ہٰذَا",
+        "urdu": "یہ"
+      },
+      {
+        "arabic": "یَوۡمُ",
+        "urdu": "دن"
+      },
+      {
+        "arabic": "لَایَنۡطِقُوۡنَ",
+        "urdu": "وہ نہیں بولیں گے"
+      }
+    ]
+  }
+]
