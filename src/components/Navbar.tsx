@@ -9,6 +9,7 @@ import { Menu, X } from "lucide-react";
 const LINKS = [
   { href: "#features", label: "Features" },
   { href: "#quran", label: "Quran & Hadith" },
+  { href: "/quran", label: "Read Quran" },
   { href: "#screens", label: "Preview" },
   { href: "#reviews", label: "Reviews" },
 ];

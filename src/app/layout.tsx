@@ -8,6 +8,7 @@ import "@fontsource/amiri/700.css";
 import "./globals.css";
 import { MobileApplication, WithContext } from 'schema-dts';
 import { ThemeProvider } from "@/components/ThemeProvider";
+import AssistantWidget from "@/components/assistant/AssistantWidget";
 import { SITE_CONFIG } from "@/constants/site";
 import Script from "next/script";
 
@@ -129,7 +130,10 @@ export default function RootLayout({
       />
       <Script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
       <body className="antialiased" suppressHydrationWarning>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          {children}
+          <AssistantWidget />
+        </ThemeProvider>
       </body>
     </html>
   );
