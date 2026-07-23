@@ -1,0 +1,36 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "لَمۡ",
+        "urdu": "نہ"
+      },
+      {
+        "arabic": "یَلِدۡ",
+        "urdu": "اس نے جنا"
+      },
+      {
+        "arabic": "وَلَمۡ",
+        "urdu": "اور نہ"
+      },
+      {
+        "arabic": "یُوۡلَدۡ",
+        "urdu": "وہ جنا گیا"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "لَمۡ یَلِدۡ",
+        "urdu": "نہ اس نے (کسی کو )جنا"
+      },
+      {
+        "arabic": "وَلَمۡ یُوۡلَدۡ",
+        "urdu": "اور نہ  وہ (کسی سے )جنا گیا"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "قُلۡ",
+        "urdu": "کہہ دیجئے"
+      },
+      {
+        "arabic": "ہُوَ",
+        "urdu": "وہ"
+      },
+      {
+        "arabic": "اللّٰہُ",
+        "urdu": "اللہ"
+      },
+      {
+        "arabic": "اَحَدٌ",
+        "urdu": "ایک ہے"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "قُلۡ",
+        "urdu": "آپ کہہ دیجیے"
+      },
+      {
+        "arabic": "ہُوَ",
+        "urdu": "وہ"
+      },
+      {
+        "arabic": "اللّٰہُ",
+        "urdu": "اللہ تعالیٰ"
+      },
+      {
+        "arabic": "اَحَدٌ",
+        "urdu": "ایک ہے"
+      }
+    ]
+  }
+]
