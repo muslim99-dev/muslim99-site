@@ -7,3 +7,4 @@ out
 
 # Source archive for the Quran data — the extracted JSON lives in public/quran_data
 quran_data.zip
+tsconfig.tsbuildinfo

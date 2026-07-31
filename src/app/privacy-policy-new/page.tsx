@@ -5,7 +5,7 @@ export const metadata = generatePageMetadata({
     title: 'Privacy Policy',
     description:
         'Read our privacy policy to learn how Muslim99 protects your data and respects your privacy.',
-    path: '/privacy-policy',
+    path: '/privacy-policy-new',
     keywords: [
         'Muslim99 privacy policy',
         'privacy',

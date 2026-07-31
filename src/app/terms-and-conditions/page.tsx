@@ -180,7 +180,7 @@ export default function TermsAndConditions() {
                     <p className="text-foreground font-poppins text-lg leading-relaxed">
                         For detailed information about how we collect and use your data, please refer to our{' '}
                         <a
-                            href="/privacy-policy"
+                            href="/privacy-policy-new"
                             className="text-primary hover:text-primary/60 font-poppins underline">
                             Privacy Policy
                         </a>

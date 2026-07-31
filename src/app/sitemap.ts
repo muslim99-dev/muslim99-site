@@ -62,7 +62,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...hadithRoutes,
     {
-      url: `${SITE_CONFIG.url}/privacy-policy`,
+      url: `${SITE_CONFIG.url}/privacy-policy-new`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.5,
