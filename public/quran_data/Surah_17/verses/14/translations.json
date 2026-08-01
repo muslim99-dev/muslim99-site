@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "(and We will say to him) :Read your book. Enough are you today to take your own account."
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "（说：）你读你的本子吧！今天，你已足为自己的清算人。"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "\"Lies dein Buch! Du selbst genügst heute als Abrechner über dich.\""
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "«نامه‌ات را بخوان؛ كافى است كه امروز خودت حسابرس خود باشى.»"
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "ته خپل كتاب ولوله، نن ورځ ستا په خلاف هم ستا خپل نفس كافي دى، حساب كوونكى"
   }
 ]

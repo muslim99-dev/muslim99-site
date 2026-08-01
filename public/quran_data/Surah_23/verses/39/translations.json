@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "He said, :My Lord, help me, for they have rejected me."
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "他说：我的主啊！求你援助我，因为他们已经否认我了。"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "Er sagte: \"Mein Herr, hilf mir, wo sie mich der Lüge bezichtigen.\""
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "گفت: «پروردگارا، از آن روى كه مرا دروغزن خواندند ياريم كن.»"
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "هغه (نبي) وویل: اى زما ربه! ته زما مدد وكړه، په سبب د دې چې دوى زه دروغجن وګڼلم"
   }
 ]

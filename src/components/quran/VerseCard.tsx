@@ -24,7 +24,7 @@ const TABS: { key: TabKey; label: string; icon: typeof Languages }[] = [
   { key: "roots", label: "Root words", icon: Sprout },
 ];
 
-const LANG_FILTERS = ["All", "Urdu", "English", "Hindi"] as const;
+const LANG_FILTERS = ["All", "Urdu", "English", "Hindi", "Chinese", "German", "Persian", "Pashto"] as const;
 
 interface PlaybackProps {
   isPlaying: boolean;
@@ -290,7 +290,8 @@ function TranslationsPanel({
 
       <ul className="mt-4 space-y-4">
         {filtered.map((t, i) => {
-          const isRtl = languageGroup(t.language) === "Urdu";
+          const group = languageGroup(t.language);
+          const isRtl = group === "Urdu" || group === "Persian" || group === "Pashto";
           return (
             <li key={`${t.translator}-${i}`} className="border-b pb-4 last:border-b-0 last:pb-0" style={{ borderColor: "var(--hair)" }}>
               <p className="mb-1.5 text-[11.5px] font-semibold uppercase tracking-wide" style={{ color: "var(--soft-text)" }}>

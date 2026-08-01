@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "and fruits and fodder,"
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "水果和牧草，"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "und Früchte und Futter,"
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "و ميوه و چراگاه،"
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "او مېوې او ګياه (واښه)"
   }
 ]

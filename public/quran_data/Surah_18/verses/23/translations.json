@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "And never say about anything, :I will do this tomorrow,"
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "你不要为某事而说：明天我一定做那件事。"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "Und sag ja nur nicht von einer Sache: \"Ich werde dies morgen tun\","
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "و زنهار در مورد چيزى مگوى كه من آن را فردا انجام خواهم داد."
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "او ته د هېڅ شي په باره كې له سره داسې مه وایه چې بېشكه زه سبا ته د دغه كار كوونكى یم"
   }
 ]

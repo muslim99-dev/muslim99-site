@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "- a book whose verses are elaborated in the form of an Arabic Qur‘an for a people who understand,"
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "这是一部节文详明的天经，是为有知识的民众而降示的阿拉 伯文的《古兰经》，"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "ein Buch, dessen Zeichen ausführlich dargelegt sind, als ein arabischer Qur'an, für Leute, die Bescheid wissen,"
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "كتابى است كه آيات آن، به روشنى بيان شده. قرآنى است به زبان عربى براى مردمى كه مى‌دانند."
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "داسې كتاب چې د ده ایتونه په تفصیل سره بیان شوي دي، په داسې حال كې چې عربي قرآن دى، د هغه قوم لپاره چې پوهېږي"
   }
 ]

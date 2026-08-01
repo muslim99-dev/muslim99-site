@@ -7,19 +7,33 @@ import { useQari } from "./QariProvider";
 import { RECITATION_VOICES, TRANSLATION_VOICES } from "@/lib/reciters";
 import { useClickOutside } from "@/hooks/useClickOutside";
 
+type Tab = "reciter" | "translation";
+
 export default function QariSelector() {
-  const { reciter, reciterId, setReciterId, translationVoiceOn, setTranslationVoiceOn, autoContinue, setAutoContinue } =
-    useQari();
+  const {
+    reciter,
+    reciterId,
+    setReciterId,
+    translationVoiceOn,
+    setTranslationVoiceOn,
+    translationVoice,
+    translationVoiceId,
+    setTranslationVoiceId,
+    autoContinue,
+    setAutoContinue,
+  } = useQari();
   const [open, setOpen] = useState(false);
+  const [tab, setTab] = useState<Tab>("reciter");
   const [query, setQuery] = useState("");
   const ref = useRef<HTMLDivElement>(null);
   useClickOutside(ref, () => setOpen(false));
 
+  const voices = tab === "reciter" ? RECITATION_VOICES : TRANSLATION_VOICES;
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return RECITATION_VOICES;
-    return RECITATION_VOICES.filter((r) => r.name.toLowerCase().includes(q) || r.style?.toLowerCase().includes(q));
-  }, [query]);
+    if (!q) return voices;
+    return voices.filter((r) => r.name.toLowerCase().includes(q) || r.style?.toLowerCase().includes(q) || r.language?.toLowerCase().includes(q));
+  }, [voices, query]);
 
   return (
     <div ref={ref} className="relative">
@@ -43,9 +57,29 @@ export default function QariSelector() {
             className="absolute right-0 top-[calc(100%+8px)] z-50 w-80 max-w-[92vw] overflow-hidden rounded-[var(--r-card)] border"
             style={{ background: "var(--card)", borderColor: "var(--border)", boxShadow: "var(--shadow-lg)" }}
           >
+            <div className="flex gap-1 p-3 pb-0">
+              {(["reciter", "translation"] as Tab[]).map((t) => {
+                const active = tab === t;
+                return (
+                  <button
+                    key={t}
+                    type="button"
+                    onClick={() => {
+                      setTab(t);
+                      setQuery("");
+                    }}
+                    className="flex-1 rounded-[var(--r-chip)] px-3 py-2 text-[12.5px] font-semibold transition-colors"
+                    style={{ background: active ? "var(--soft)" : "transparent", color: active ? "var(--soft-text)" : "var(--muted)" }}
+                  >
+                    {t === "reciter" ? "Reciter" : "Translation audio"}
+                  </button>
+                );
+              })}
+            </div>
+
             <div className="p-3">
               <p className="px-1 text-[11px] font-semibold uppercase tracking-wider" style={{ color: "var(--faint)" }}>
-                Choose your reciter
+                {tab === "reciter" ? "Choose your reciter" : `Choose translation voice · ${TRANSLATION_VOICES.length} languages`}
               </p>
               <div className="relative mt-2">
                 <Search size={15} className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2" style={{ color: "var(--faint)" }} />
@@ -53,7 +87,7 @@ export default function QariSelector() {
                   type="search"
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
-                  placeholder="Search qari…"
+                  placeholder={tab === "reciter" ? "Search qari…" : "Search language…"}
                   className="w-full rounded-[var(--r-btn)] border py-2 pl-9 pr-3 text-[13.5px] outline-none"
                   style={{ background: "var(--card-2)", borderColor: "var(--border)", color: "var(--text)" }}
                 />
@@ -62,14 +96,19 @@ export default function QariSelector() {
 
             <div className="max-h-64 overflow-y-auto px-2 pb-2">
               {filtered.map((r) => {
-                const active = r.id === reciterId;
+                const active = tab === "reciter" ? r.id === reciterId : r.id === translationVoiceId;
                 return (
                   <button
                     key={r.id}
                     type="button"
                     onClick={() => {
-                      setReciterId(r.id);
-                      setOpen(false);
+                      if (tab === "reciter") {
+                        setReciterId(r.id);
+                        setOpen(false);
+                      } else {
+                        setTranslationVoiceId(r.id);
+                        setTranslationVoiceOn(true);
+                      }
                     }}
                     className="flex w-full items-center justify-between gap-2 rounded-[var(--r-chip)] px-3 py-2 text-left text-[13.5px] transition-colors"
                     style={{ background: active ? "var(--soft)" : "transparent", color: active ? "var(--soft-text)" : "var(--text)" }}
@@ -78,27 +117,26 @@ export default function QariSelector() {
                       {r.name}
                       {r.style && <span style={{ color: "var(--faint)" }}> · {r.style}</span>}
                     </span>
-                    {active && <Check size={14} className="shrink-0" />}
+                    {active && tab === "translation" && translationVoiceOn && <Check size={14} className="shrink-0" />}
+                    {active && tab === "reciter" && <Check size={14} className="shrink-0" />}
                   </button>
                 );
               })}
               {filtered.length === 0 && (
                 <p className="px-3 py-4 text-[13px]" style={{ color: "var(--faint)" }}>
-                  No reciter matches &ldquo;{query}&rdquo;.
+                  No {tab === "reciter" ? "reciter" : "language"} matches &ldquo;{query}&rdquo;.
                 </p>
               )}
             </div>
 
             <div className="space-y-1 border-t p-3" style={{ borderColor: "var(--hair)" }}>
-              {TRANSLATION_VOICES.length > 0 && (
-                <ToggleRow
-                  icon={Languages}
-                  label={`Also play ${TRANSLATION_VOICES[0].language} translation audio`}
-                  sub={TRANSLATION_VOICES[0].style}
-                  checked={translationVoiceOn}
-                  onChange={setTranslationVoiceOn}
-                />
-              )}
+              <ToggleRow
+                icon={Languages}
+                label={translationVoice ? `Also play ${translationVoice.language} translation audio` : "Also play translation audio"}
+                sub={translationVoice?.style ?? "Pick a language above first"}
+                checked={translationVoiceOn}
+                onChange={setTranslationVoiceOn}
+              />
               <ToggleRow
                 icon={SkipForward}
                 label="Auto-continue to next surah"

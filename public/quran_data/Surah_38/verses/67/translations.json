@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "Say, :It is a great news"
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "你说：那是一个重大的消息，"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "Sag: Es ist eine gewaltige Kunde,"
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "بگو: «اين خبرى بزرگ است،"
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "ته (دوى ته) ووایه: دغه (قرآن) ډېر لوى خبر دى"
   }
 ]

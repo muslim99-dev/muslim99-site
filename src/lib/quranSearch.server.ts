@@ -8,20 +8,27 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import type { SurahSummary, VerseBase } from "./quran";
 
-interface IndexedVerse {
+export interface IndexedVerse {
   surahNumber: number;
   surahName: string;
+  surahNameArabic: string;
   surahNameTranslation: string;
   verseNumber: number;
   verse: string;
   verseEnglish: string;
+  verseUrdu: string;
+  verseHindi?: string;
 }
 
 const DATA_ROOT = join(process.cwd(), "public", "quran_data");
 
 let indexPromise: Promise<IndexedVerse[]> | null = null;
 
-async function loadIndex(): Promise<IndexedVerse[]> {
+// Shared, process-wide cache of every verse (with surah metadata) used by
+// both the AI assistant's grounding search and the site-wide multi-language
+// search box — reading all 114 surah files once and keeping them in memory
+// is far cheaper than re-reading per request.
+export async function loadQuranSearchIndex(): Promise<IndexedVerse[]> {
   if (!indexPromise) {
     indexPromise = (async () => {
       const raw = await readFile(join(DATA_ROOT, "index.json"), "utf8");
@@ -35,10 +42,13 @@ async function loadIndex(): Promise<IndexedVerse[]> {
             all.push({
               surahNumber: s.surahNumber,
               surahName: s.surahName,
+              surahNameArabic: s.surahNameArabic,
               surahNameTranslation: s.surahNameTranslation,
               verseNumber: v.verseNumber,
               verse: v.verse,
               verseEnglish: v.verseEnglish,
+              verseUrdu: v.verseUrdu,
+              verseHindi: v.verseHindi,
             });
           }
         })
@@ -74,7 +84,7 @@ export async function searchVerses(query: string, limit = 6): Promise<VerseMatch
   const tokens = tokenize(query);
   if (tokens.length === 0) return [];
 
-  const verses = await loadIndex();
+  const verses = await loadQuranSearchIndex();
   const scored: VerseMatch[] = [];
   for (const v of verses) {
     const haystack = v.verseEnglish.toLowerCase();

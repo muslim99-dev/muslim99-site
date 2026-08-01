@@ -5,7 +5,6 @@ import Link from "next/link";
 import { Info, ChevronLeft, ChevronRight, ListMusic, Play, Languages } from "lucide-react";
 import { useQari } from "./QariProvider";
 import { useAyahPlayer } from "@/hooks/useAyahPlayer";
-import { TRANSLATION_VOICES } from "@/lib/reciters";
 import ReadingModeSwitcher from "./ReadingModeSwitcher";
 import { cleanVerseText, type SurahFile, type VerseBase } from "@/lib/quran";
 
@@ -50,8 +49,7 @@ export default function MushafLines({
   const pages = useMemo(() => paginate(verses), [verses]);
   const [pageIdx, setPageIdx] = useState(0);
   const [showTranslation, setShowTranslation] = useState(false);
-  const { reciter, translationVoiceOn, autoContinue } = useQari();
-  const translationVoice = translationVoiceOn ? TRANSLATION_VOICES[0] ?? null : null;
+  const { reciter, translationVoice, autoContinue } = useQari();
 
   const player = useAyahPlayer({
     surahNumber: details.surahNumber,

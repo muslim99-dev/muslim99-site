@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "and it is not a joke."
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "这不是笑话。"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "er ist kein Scherz."
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "و آن شوخى نيست."
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "او دا هیڅكله عبثه (او د ټوقو) خبره نه ده"
   }
 ]

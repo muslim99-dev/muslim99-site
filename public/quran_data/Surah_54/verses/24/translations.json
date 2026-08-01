@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "So they said, :Shall we follow a single human being from among us? Then we will be in error and insanity."
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "故他们说：我们同族的一个凡人，我们能顺从他吗？如果那样，我们必定陷于迷误和疯狂之中。"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "Sie sagten: \"Sollen wir denn einem menschlichen Wesen von uns, einem einzelnen, folgen? Dann befänden wir uns wahrlich im Irrtum und Wahnsinn."
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "و گفتند: «آيا تنها بشرى از خودمان را پيروى كنيم؟ در اين صورت، ما واقعاً در گمراهى و جنون خواهيم بود.»"
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "پس دوى وویل: ایا د يو داسې بشر چې زمونږ ځنې دى (او) یو دى، مونږ به د ده پیروي كوو؟ بېشكه مونږ به په دغه وخت كې خامخا په ګمراهۍ او لېونتوب كې یو"
   }
 ]

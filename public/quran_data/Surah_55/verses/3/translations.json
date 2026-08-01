@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "He has created man."
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "他创造了人，"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "Er hat den Menschen erschaffen."
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "انسان را آفريد،"
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "هغه انسان پیدا كړى دى"
   }
 ]

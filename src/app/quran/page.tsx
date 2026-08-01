@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BookMarked, Rows3, Mic2, ArrowRight } from "lucide-react";
 import { getSurahIndex } from "@/lib/quran.server";
-import { RECITATION_VOICES } from "@/lib/reciters";
+import { RECITATION_VOICES, TRANSLATION_VOICES } from "@/lib/reciters";
 import QuranHeader from "@/components/quran/QuranHeader";
 import SurahBrowser from "@/components/quran/SurahBrowser";
 import Eyebrow from "@/components/Eyebrow";
@@ -21,7 +21,7 @@ export default async function QuranIndexPage() {
 
   return (
     <>
-      <QuranHeader />
+      <QuranHeader showQariSelector={false} />
       <main className="relative min-h-screen pb-24">
         {/* Hero */}
         <section className="relative overflow-hidden">
@@ -116,8 +116,9 @@ export default async function QuranIndexPage() {
               <Mic2 size={20} />
             </div>
             <p className="text-[14px] leading-relaxed" style={{ color: "var(--muted)" }}>
-              <strong style={{ color: "var(--text)" }}>{RECITATION_VOICES.length} qari voices</strong> are
-              available ayah-by-ayah in every reading mode — pick yours from the mic icon in the header, play a
+              <strong style={{ color: "var(--text)" }}>{RECITATION_VOICES.length} qari voices</strong> plus{" "}
+              <strong style={{ color: "var(--text)" }}>{TRANSLATION_VOICES.length} translation-audio languages</strong>{" "}
+              are available ayah-by-ayah in every reading mode — pick yours from the mic icon in the header, play a
               single ayah or the complete surah, and optionally continue straight into the next surah.
             </p>
           </div>

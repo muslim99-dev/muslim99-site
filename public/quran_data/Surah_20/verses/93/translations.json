@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "Did you then disobey my command?"
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "你为何不跟随我？难道你要违背我的命令吗？"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "mir zu folgen? Hast du dich denn meinem Befehl widersetzt? \""
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "كه از من پيروى كنى؟ آيا از فرمانم سر باز زدى؟»"
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "چې تا زما پیروي ونه كړه، ایا نو تا زما د حكم نافرماني وكړه؟"
   }
 ]

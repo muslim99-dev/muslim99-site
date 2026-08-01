@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "It has seven gates. For each gate there is a group apportioned from them."
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "火狱有7道门，每道门将收容他们中被派定的一部分人。"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "Sie hat sieben Tore, und jedem Tor wird ein Teil von ihnen zugewiesen."
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "[دوزخى‌] كه براى آن هفت در است، و از هر درى بخشى معين از آنان [وارد مى‌شوند]."
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "د هغه اوه دروازې دي، د هرې دروازې لپاره به تقسیم (بېله) كړى شوې برخه وي له دوى نه"
   }
 ]

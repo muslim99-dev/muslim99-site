@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "Alif, Lam, Mim, Sad."
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "艾列弗，俩目，米目，萨德。"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "Alif-Lam-Mim-Sad"
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "الف، لام، ميم، صاد."
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "الف، لام، ميم، صاد"
   }
 ]

@@ -6,7 +6,6 @@ import { Search, MapPin, BookOpen, Layers, X, ChevronLeft, ChevronRight, BookMar
 import VerseCard from "./VerseCard";
 import { useQari } from "./QariProvider";
 import { useAyahPlayer } from "@/hooks/useAyahPlayer";
-import { TRANSLATION_VOICES } from "@/lib/reciters";
 import type { SurahFile } from "@/lib/quran";
 
 type ReadingLang = "both" | "english" | "urdu";
@@ -28,8 +27,7 @@ export default function SurahReader({
   const { details, verses } = data;
   const [query, setQuery] = useState("");
   const [lang, setLang] = useState<ReadingLang>("both");
-  const { reciter, translationVoiceOn, autoContinue } = useQari();
-  const translationVoice = translationVoiceOn ? TRANSLATION_VOICES[0] ?? null : null;
+  const { reciter, translationVoice, autoContinue } = useQari();
 
   const player = useAyahPlayer({
     surahNumber: details.surahNumber,

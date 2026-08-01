@@ -1,19 +1,21 @@
 "use client";
 
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
-import { DEFAULT_RECITER_ID, getReciter, type Reciter } from "@/lib/reciters";
+import { DEFAULT_RECITER_ID, getReciter, getTranslationVoice, TRANSLATION_VOICES, type Reciter } from "@/lib/reciters";
 
 const STORAGE_KEY = "muslim99-qari-settings";
 
 interface QariSettings {
   reciterId: string;
   translationVoiceOn: boolean;
+  translationVoiceId: string;
   autoContinue: boolean;
 }
 
 const DEFAULT_SETTINGS: QariSettings = {
   reciterId: DEFAULT_RECITER_ID,
   translationVoiceOn: false,
+  translationVoiceId: TRANSLATION_VOICES[0]?.id ?? "",
   autoContinue: false,
 };
 
@@ -23,6 +25,9 @@ interface QariContextValue {
   setReciterId: (id: string) => void;
   translationVoiceOn: boolean;
   setTranslationVoiceOn: (on: boolean) => void;
+  translationVoice: Reciter | null;
+  translationVoiceId: string;
+  setTranslationVoiceId: (id: string) => void;
   autoContinue: boolean;
   setAutoContinue: (on: boolean) => void;
 }
@@ -59,6 +64,9 @@ export function QariProvider({ children }: { children: React.ReactNode }) {
       setReciterId: (id) => setSettings((s) => ({ ...s, reciterId: id })),
       translationVoiceOn: settings.translationVoiceOn,
       setTranslationVoiceOn: (on) => setSettings((s) => ({ ...s, translationVoiceOn: on })),
+      translationVoice: settings.translationVoiceOn ? getTranslationVoice(settings.translationVoiceId) : null,
+      translationVoiceId: settings.translationVoiceId,
+      setTranslationVoiceId: (id) => setSettings((s) => ({ ...s, translationVoiceId: id })),
       autoContinue: settings.autoContinue,
       setAutoContinue: (on) => setSettings((s) => ({ ...s, autoContinue: on })),
     }),

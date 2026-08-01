@@ -6,7 +6,15 @@ import Logo from "@/components/Logo";
 import ThemeToggle from "@/components/ThemeToggle";
 import QariSelector from "./QariSelector";
 
-export default function QuranHeader({ backHref, backLabel }: { backHref?: string; backLabel?: string }) {
+export default function QuranHeader({
+  backHref,
+  backLabel,
+  showQariSelector = true,
+}: {
+  backHref?: string;
+  backLabel?: string;
+  showQariSelector?: boolean;
+}) {
   return (
     <header className="sticky top-0 z-40">
       <div
@@ -37,7 +45,7 @@ export default function QuranHeader({ backHref, backLabel }: { backHref?: string
           >
             All Surahs
           </Link>
-          <QariSelector />
+          {showQariSelector && <QariSelector />}
           <ThemeToggle />
         </div>
       </div>

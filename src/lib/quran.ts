@@ -30,6 +30,7 @@ export interface VerseBase {
   verseUrdu: string;
   verseEnglish: string;
   verseAudioUrl: string;
+  verseHindi?: string;
 }
 
 export interface SurahFile {
@@ -86,11 +87,17 @@ export function surahDisplayName(s: SurahSummary): string {
 }
 
 // Broad language grouping so a single filter covers the many translator rows.
-export function languageGroup(language: string): "Urdu" | "English" | "Hindi" | "Other" {
+export type LanguageGroup = "Urdu" | "English" | "Hindi" | "Chinese" | "German" | "Persian" | "Pashto" | "Other";
+
+export function languageGroup(language: string): LanguageGroup {
   const l = language.toLowerCase();
   if (l.includes("urdu")) return "Urdu";
   if (l.includes("english")) return "English";
   if (l.includes("hindi")) return "Hindi";
+  if (l.includes("chinese")) return "Chinese";
+  if (l.includes("german")) return "German";
+  if (l.includes("persian")) return "Persian";
+  if (l.includes("pashto")) return "Pashto";
   return "Other";
 }
 
@@ -106,4 +113,60 @@ export function cleanVerseText(text: string): string {
   const puaIndex = text.search(/[-]/);
   const truncated = puaIndex === -1 ? text : text.slice(0, puaIndex);
   return truncated.replace(/\s*[0-9]+\s*$/, "").trim();
+}
+
+// Arabic and Urdu ayah text is heavily marked with harakat (short vowels),
+// Quranic recitation signs, and tatweel — a user searching "الله" or a
+// transliteration-adjacent Urdu word won't type those marks, so strip them
+// from both sides before comparing. Devanagari (Hindi) and Latin (English)
+// text need no such normalization.
+//
+// Built from explicit hex code points (rather than a regex literal with
+// embedded Unicode ranges) so the ranges are unambiguous: only combining
+// diacritic/recitation-mark blocks are listed here, never base letters.
+const ARABIC_DIACRITIC_RANGES: [number, number][] = [
+  [0x064b, 0x065f], // fatha, damma, kasra, shadda, sukun + small Quranic marks
+  [0x0610, 0x061a], // Quranic honorific/annotation signs
+  [0x06d6, 0x06ed], // small high/low Quranic recitation marks
+  [0x08d3, 0x08ff], // extended Quranic annotation marks (Arabic Extended-A)
+];
+const ARABIC_DIACRITIC_SINGLES = [0x0670, 0x0640]; // superscript alef, tatweel
+
+const DIACRITIC_REGEX = new RegExp(
+  "[" +
+    ARABIC_DIACRITIC_RANGES.map(([a, b]) => `\\u{${a.toString(16)}}-\\u{${b.toString(16)}}`).join("") +
+    ARABIC_DIACRITIC_SINGLES.map((c) => `\\u{${c.toString(16)}}`).join("") +
+    "]",
+  "gu"
+);
+
+export function stripArabicDiacritics(text: string): string {
+  return text.replace(DIACRITIC_REGEX, "").trim();
+}
+
+// This dataset is set in Indo-Pak script, which uses different letterforms
+// than standard Arabic for a few sounds (e.g. heh goal "ہ" vs standard heh
+// "ه"). A user typing on a standard Arabic keyboard won't produce those
+// variant forms, so map them to their standard-Arabic equivalent as well —
+// applied on top of diacritic stripping, to both the query and the ayah
+// text, so either spelling matches.
+const LETTER_VARIANTS: [number, number][] = [
+  [0x06c1, 0x0647], // heh goal -> heh
+  [0x06be, 0x0647], // heh doachashmee -> heh
+  [0x06cc, 0x064a], // farsi yeh -> arabic yeh
+  [0x06d2, 0x064a], // yeh barree -> arabic yeh
+  [0x06d3, 0x064a], // yeh barree with hamza above -> arabic yeh
+  [0x06c3, 0x0647], // teh marbuta goal -> heh
+  [0x0629, 0x0647], // teh marbuta -> heh (commonly interchangeable when searching)
+];
+
+export function normalizeArabicForSearch(text: string): string {
+  const stripped = stripArabicDiacritics(text);
+  let out = "";
+  for (const ch of stripped) {
+    const cp = ch.codePointAt(0)!;
+    const mapped = LETTER_VARIANTS.find(([from]) => from === cp);
+    out += mapped ? String.fromCodePoint(mapped[1]) : ch;
+  }
+  return out;
 }

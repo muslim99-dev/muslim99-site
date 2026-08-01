@@ -54,12 +54,25 @@ async function main() {
         continue;
       }
       const v = await readJson(versePath);
+
+      // Pull the Hindi translation (present for ~every verse) out of the
+      // per-verse translations.json so it's searchable without fetching
+      // thousands of small files at query time.
+      let verseHindi;
+      try {
+        const translations = await readJson(join(versesRoot, String(n), "translations.json"));
+        verseHindi = translations.find((t) => t.language === "Hindi")?.text;
+      } catch {
+        verseHindi = undefined;
+      }
+
       verses.push({
         verseNumber: v.verseNumber,
         verse: v.verse,
         verseUrdu: v.verseUrdu,
         verseEnglish: v.verseEnglish,
         verseAudioUrl: v.verseAudioUrl,
+        ...(verseHindi ? { verseHindi } : {}),
       });
     }
 

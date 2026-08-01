@@ -5,7 +5,6 @@ import Link from "next/link";
 import { Type, Play, Pause, ListMusic, ChevronLeft, ChevronRight } from "lucide-react";
 import { useQari } from "./QariProvider";
 import { useAyahPlayer } from "@/hooks/useAyahPlayer";
-import { TRANSLATION_VOICES } from "@/lib/reciters";
 import ReadingModeSwitcher from "./ReadingModeSwitcher";
 import { cleanVerseText, type SurahFile } from "@/lib/quran";
 
@@ -31,8 +30,7 @@ export default function ContinuousReader({
   const { details, verses } = data;
   const [translationLang, setTranslationLang] = useState<TranslationLang>("english");
   const [fontSize, setFontSize] = useState<FontSize>("base");
-  const { reciter, translationVoiceOn, autoContinue } = useQari();
-  const translationVoice = translationVoiceOn ? TRANSLATION_VOICES[0] ?? null : null;
+  const { reciter, translationVoice, autoContinue } = useQari();
 
   const player = useAyahPlayer({
     surahNumber: details.surahNumber,

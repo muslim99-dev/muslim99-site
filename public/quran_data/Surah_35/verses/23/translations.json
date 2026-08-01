@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "You are but a warner."
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "你只是一个警告者。"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "Du bist nur ein Warner."
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "تو جز هشداردهنده‌اى [بيش‌] نيستى."
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "نه يې ته مګر وېروونكى"
   }
 ]

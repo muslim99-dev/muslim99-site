@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "Whoever acts righteously, it is for his own benefit, and who does evil, it is against his own soul. Then towards your Lord, you will be returned."
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "行善者自受其益，作恶者自受其害。然后，你们要被召归于你们的主。"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "Wer rechtschaffen handelt, der (tut es) zu seinem eigenen Vorteil, und wer Böses tut, der (tut es) zu seinem eigenen Nachteil. Hierauf werdet ihr zu eurem Herrn zurückgebracht."
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "هر كه كارى شايسته كند، به سود خود اوست، و هر كه بدى كند به زيانش باشد. سپس به سوى پروردگارتان برگردانيده مى‌شويد."
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "هر څوك چې نېك عمل وكړي، نو د خپل ځان لپاره يې دى، او څوك چې بد وكړي، نو په همده يې ضرر دى، بیا به خاص خپل رب ته تاسو بېرته بیول كېږئ"
   }
 ]

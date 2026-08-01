@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": ""
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "与偶数和奇数，"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "und dem geraden und dem ungeraden (Tag)"
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "و به جفت و تاق،"
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "او په جفت او طاق باندې"
   }
 ]

@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "Say, :You hold an appointment for a day that you can neither put back for a while, nor can you put it forward."
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "你说：你们的约期是有时日的，你们不得稍稍迟到，也不得稍稍早到。"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "Sag: Für euch ist eine Verabredung auf einen Tag (festgelegt), von dem ihr (euer Schicksal) weder um eine Stunde hinausschieben noch vorverlegen könnt."
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "بگو: «ميعاد شما روزى است كه نه ساعتى از آن پس توانيد رفت، و نه پيشى توانيد جُست.»"
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "ته (دوى ته) ووایه: تاسو لپاره د داسې ورځې وعده ده چې تاسو به له هغې نه نه يوه ګړۍ وروسته كېږي او نه به تاسو ړومبى كېږئ"
   }
 ]

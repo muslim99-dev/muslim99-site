@@ -133,5 +133,25 @@
     "language": "English",
     "translator": "Mufti Taqi Usmani",
     "text": "Say, :Wait! I am waiting with you, too."
+  },
+  {
+    "language": "Chinese",
+    "translator": "Ma Jian",
+    "text": "你说：你们等待吧！我确是与你们一同等待的。"
+  },
+  {
+    "language": "German",
+    "translator": "Bubenheim & Elyas",
+    "text": "Sag: Wartet ab! Gewiß, ich gehöre mit euch zu denjenigen, die abwarten."
+  },
+  {
+    "language": "Persian",
+    "translator": "Mohammad Mahdi Fooladvand",
+    "text": "بگو: «منتظر باشيد كه من [نيز] با شما از منتظرانم.»"
+  },
+  {
+    "language": "Pashto",
+    "translator": "Abdul Wali",
+    "text": "ته (دوى ته) ووایه: تاسو انتظار كوئ، پس بېشكه زه له تاسو سره له انتظار كوونكو ځنې یم"
   }
 ]
