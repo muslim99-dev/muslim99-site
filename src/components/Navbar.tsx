@@ -10,6 +10,7 @@ const LINKS = [
   { href: "#features", label: "Features" },
   { href: "#quran", label: "Quran & Hadith" },
   { href: "/quran", label: "Read Quran" },
+  { href: "/hadith", label: "Read Hadith" },
   { href: "#screens", label: "Preview" },
   { href: "#reviews", label: "Reviews" },
 ];

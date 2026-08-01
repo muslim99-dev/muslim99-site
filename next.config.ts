@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   // build time (SSG) and otherwise served as static assets. Exclude it from
   // server output file tracing so the ~128k data files aren't bundled.
   outputFileTracingExcludes: {
-    "*": ["public/quran_data/**"],
+    "*": ["public/quran_data/**", "public/hadith_data/**"],
   },
 };
 

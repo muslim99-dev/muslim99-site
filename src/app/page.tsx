@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import VerseShowcase from "@/components/VerseShowcase";
 import QuranIntro from "@/components/QuranIntro";
+import HadithIntro from "@/components/HadithIntro";
 import PrayerTimes from "@/components/PrayerTimes";
 import ScreensGallery from "@/components/ScreensGallery";
 import Stats from "@/components/Stats";
@@ -19,6 +20,7 @@ export default function Home() {
         <Features />
         <VerseShowcase />
         <QuranIntro />
+        <HadithIntro />
         <PrayerTimes />
         <ScreensGallery />
         <Stats />
