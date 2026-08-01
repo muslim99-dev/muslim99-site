@@ -104,7 +104,7 @@ export default function GlobalHadithSearch() {
               <Search size={18} style={{ color: "var(--faint)" }} />
               <input
                 ref={inputRef}
-                type="search"
+                type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search hadiths, narrators, chapters…"
