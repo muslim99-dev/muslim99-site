@@ -21,7 +21,7 @@ export const SOCIAL_MEDIA = {
 
 export const ROUTES = {
   home: "/",
-  privacyPolicy: "/privacy-policy-new",
+  privacyPolicy: "/privacy-policy",
   downloadApp: "/download-app",
   termsOfService: "/terms-of-service",
   contact: "/contact",
