@@ -19,6 +19,13 @@ export interface BookSummary {
   authorYear: string;
   totalHadiths: number;
   languages: HadithLanguage[];
+  // The language SSR/routing treats as authoritative for this book — not
+  // every collection has full English coverage, so this isn't always "eng".
+  defaultLanguage: LanguageCode;
+  // false for large collections added later whose chapters render on
+  // demand instead of being enumerated in generateStaticParams, to keep
+  // `next build` fast. Defaults to true when absent (older data).
+  prerender?: boolean;
 }
 
 export interface Chapter {
@@ -31,6 +38,11 @@ export interface HadithGrade {
   grade: string;
 }
 
+export interface AlternateTranslation {
+  translator: string;
+  text: string;
+}
+
 export interface Hadith {
   hadithNumber: number;
   arabicNumber: number;
@@ -38,6 +50,10 @@ export interface Hadith {
   grades: HadithGrade[];
   chapterNumber: number | null;
   hadithInChapter: number | null;
+  // Scholarly commentary/explanation of the hadith, when the source provides one.
+  explanation?: string;
+  // Other translators' renderings of the same hadith, beyond the primary `text`.
+  alternateTranslations?: AlternateTranslation[];
 }
 
 export interface BookEdition {

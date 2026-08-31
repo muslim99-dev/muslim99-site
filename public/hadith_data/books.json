@@ -4,60 +4,54 @@
     "name": "Sahih al-Bukhari",
     "author": "Imam Muhammad al-Bukhari",
     "authorYear": "194-256 AH",
-    "totalHadiths": 7589,
+    "totalHadiths": 8357,
+    "prerender": true,
+    "defaultLanguage": "eng",
     "languages": [
       {
         "code": "ara",
-        "prefix": "ara",
         "name": "Arabic",
         "nativeName": "العربية",
         "direction": "rtl"
       },
       {
         "code": "eng",
-        "prefix": "eng",
         "name": "English",
         "nativeName": "English",
         "direction": "ltr"
       },
       {
         "code": "urd",
-        "prefix": "urd",
         "name": "Urdu",
         "nativeName": "اردو",
         "direction": "rtl"
       },
       {
         "code": "ben",
-        "prefix": "ben",
         "name": "Bengali",
         "nativeName": "বাংলা",
         "direction": "ltr"
       },
       {
         "code": "fra",
-        "prefix": "fra",
         "name": "French",
         "nativeName": "Français",
         "direction": "ltr"
       },
       {
         "code": "ind",
-        "prefix": "ind",
         "name": "Indonesian",
         "nativeName": "Bahasa Indonesia",
         "direction": "ltr"
       },
       {
         "code": "rus",
-        "prefix": "rus",
         "name": "Russian",
         "nativeName": "Русский",
         "direction": "ltr"
       },
       {
         "code": "tur",
-        "prefix": "tur",
         "name": "Turkish",
         "nativeName": "Türkçe",
         "direction": "ltr"
@@ -69,60 +63,54 @@
     "name": "Sahih Muslim",
     "author": "Imam Muslim ibn al-Hajjaj",
     "authorYear": "206-261 AH",
-    "totalHadiths": 7563,
+    "totalHadiths": 7463,
+    "prerender": true,
+    "defaultLanguage": "eng",
     "languages": [
       {
         "code": "ara",
-        "prefix": "ara",
         "name": "Arabic",
         "nativeName": "العربية",
         "direction": "rtl"
       },
       {
         "code": "eng",
-        "prefix": "eng",
         "name": "English",
         "nativeName": "English",
         "direction": "ltr"
       },
       {
         "code": "urd",
-        "prefix": "urd",
         "name": "Urdu",
         "nativeName": "اردو",
         "direction": "rtl"
       },
       {
         "code": "ben",
-        "prefix": "ben",
         "name": "Bengali",
         "nativeName": "বাংলা",
         "direction": "ltr"
       },
       {
         "code": "fra",
-        "prefix": "fra",
         "name": "French",
         "nativeName": "Français",
         "direction": "ltr"
       },
       {
         "code": "ind",
-        "prefix": "ind",
         "name": "Indonesian",
         "nativeName": "Bahasa Indonesia",
         "direction": "ltr"
       },
       {
         "code": "rus",
-        "prefix": "rus",
         "name": "Russian",
         "nativeName": "Русский",
         "direction": "ltr"
       },
       {
         "code": "tur",
-        "prefix": "tur",
         "name": "Turkish",
         "nativeName": "Türkçe",
         "direction": "ltr"
@@ -134,60 +122,54 @@
     "name": "Sunan Abu Dawud",
     "author": "Imam Abu Dawud as-Sijistani",
     "authorYear": "202-275 AH",
-    "totalHadiths": 5274,
+    "totalHadiths": 5485,
+    "prerender": true,
+    "defaultLanguage": "eng",
     "languages": [
       {
         "code": "ara",
-        "prefix": "ara",
         "name": "Arabic",
         "nativeName": "العربية",
         "direction": "rtl"
       },
       {
         "code": "eng",
-        "prefix": "eng",
         "name": "English",
         "nativeName": "English",
         "direction": "ltr"
       },
       {
         "code": "urd",
-        "prefix": "urd",
         "name": "Urdu",
         "nativeName": "اردو",
         "direction": "rtl"
       },
       {
         "code": "ben",
-        "prefix": "ben",
         "name": "Bengali",
         "nativeName": "বাংলা",
         "direction": "ltr"
       },
       {
         "code": "fra",
-        "prefix": "fra",
         "name": "French",
         "nativeName": "Français",
         "direction": "ltr"
       },
       {
         "code": "ind",
-        "prefix": "ind",
         "name": "Indonesian",
         "nativeName": "Bahasa Indonesia",
         "direction": "ltr"
       },
       {
         "code": "rus",
-        "prefix": "rus",
         "name": "Russian",
         "nativeName": "Русский",
         "direction": "ltr"
       },
       {
         "code": "tur",
-        "prefix": "tur",
         "name": "Turkish",
         "nativeName": "Türkçe",
         "direction": "ltr"
@@ -199,46 +181,42 @@
     "name": "Jami at-Tirmidhi",
     "author": "Imam Abu Isa at-Tirmidhi",
     "authorYear": "209-279 AH",
-    "totalHadiths": 3998,
+    "totalHadiths": 4186,
+    "prerender": true,
+    "defaultLanguage": "eng",
     "languages": [
       {
         "code": "ara",
-        "prefix": "ara",
         "name": "Arabic",
         "nativeName": "العربية",
         "direction": "rtl"
       },
       {
         "code": "eng",
-        "prefix": "eng",
         "name": "English",
         "nativeName": "English",
         "direction": "ltr"
       },
       {
         "code": "urd",
-        "prefix": "urd",
         "name": "Urdu",
         "nativeName": "اردو",
         "direction": "rtl"
       },
       {
         "code": "ben",
-        "prefix": "ben",
         "name": "Bengali",
         "nativeName": "বাংলা",
         "direction": "ltr"
       },
       {
         "code": "ind",
-        "prefix": "ind",
         "name": "Indonesian",
         "nativeName": "Bahasa Indonesia",
         "direction": "ltr"
       },
       {
         "code": "tur",
-        "prefix": "tur",
         "name": "Turkish",
         "nativeName": "Türkçe",
         "direction": "ltr"
@@ -250,53 +228,48 @@
     "name": "Sunan an-Nasai",
     "author": "Imam Ahmad an-Nasai",
     "authorYear": "215-303 AH",
-    "totalHadiths": 5765,
+    "totalHadiths": 5878,
+    "prerender": true,
+    "defaultLanguage": "eng",
     "languages": [
       {
         "code": "ara",
-        "prefix": "ara",
         "name": "Arabic",
         "nativeName": "العربية",
         "direction": "rtl"
       },
       {
         "code": "eng",
-        "prefix": "eng",
         "name": "English",
         "nativeName": "English",
         "direction": "ltr"
       },
       {
         "code": "urd",
-        "prefix": "urd",
         "name": "Urdu",
         "nativeName": "اردو",
         "direction": "rtl"
       },
       {
         "code": "ben",
-        "prefix": "ben",
         "name": "Bengali",
         "nativeName": "বাংলা",
         "direction": "ltr"
       },
       {
         "code": "fra",
-        "prefix": "fra",
         "name": "French",
         "nativeName": "Français",
         "direction": "ltr"
       },
       {
         "code": "ind",
-        "prefix": "ind",
         "name": "Indonesian",
         "nativeName": "Bahasa Indonesia",
         "direction": "ltr"
       },
       {
         "code": "tur",
-        "prefix": "tur",
         "name": "Turkish",
         "nativeName": "Türkçe",
         "direction": "ltr"
@@ -308,56 +281,333 @@
     "name": "Sunan Ibn Majah",
     "author": "Imam Muhammad ibn Majah",
     "authorYear": "209-273 AH",
-    "totalHadiths": 4343,
+    "totalHadiths": 4222,
+    "prerender": true,
+    "defaultLanguage": "eng",
     "languages": [
       {
         "code": "ara",
-        "prefix": "ara",
         "name": "Arabic",
         "nativeName": "العربية",
         "direction": "rtl"
       },
       {
         "code": "eng",
-        "prefix": "eng",
         "name": "English",
         "nativeName": "English",
         "direction": "ltr"
       },
       {
         "code": "urd",
-        "prefix": "urd",
         "name": "Urdu",
         "nativeName": "اردو",
         "direction": "rtl"
       },
       {
         "code": "ben",
-        "prefix": "ben",
         "name": "Bengali",
         "nativeName": "বাংলা",
         "direction": "ltr"
       },
       {
         "code": "fra",
-        "prefix": "fra",
         "name": "French",
         "nativeName": "Français",
         "direction": "ltr"
       },
       {
         "code": "ind",
-        "prefix": "ind",
         "name": "Indonesian",
         "nativeName": "Bahasa Indonesia",
         "direction": "ltr"
       },
       {
         "code": "tur",
-        "prefix": "tur",
         "name": "Turkish",
         "nativeName": "Türkçe",
         "direction": "ltr"
+      }
+    ]
+  },
+  {
+    "slug": "musnad-ahmad",
+    "name": "Musnad Ahmad",
+    "author": "Imam Ahmad ibn Hanbal",
+    "authorYear": "164-241 AH",
+    "totalHadiths": 6933,
+    "prerender": false,
+    "defaultLanguage": "urd",
+    "languages": [
+      {
+        "code": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية",
+        "direction": "rtl"
+      },
+      {
+        "code": "urd",
+        "name": "Urdu",
+        "nativeName": "اردو",
+        "direction": "rtl"
+      }
+    ]
+  },
+  {
+    "slug": "muwatta-malik",
+    "name": "Muwatta Imam Malik",
+    "author": "Imam Malik ibn Anas",
+    "authorYear": "93-179 AH",
+    "totalHadiths": 1861,
+    "prerender": false,
+    "defaultLanguage": "urd",
+    "languages": [
+      {
+        "code": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية",
+        "direction": "rtl"
+      },
+      {
+        "code": "urd",
+        "name": "Urdu",
+        "nativeName": "اردو",
+        "direction": "rtl"
+      }
+    ]
+  },
+  {
+    "slug": "mishkat",
+    "name": "Mishkat al-Masabih",
+    "author": "Al-Khatib at-Tabrizi",
+    "authorYear": "d. 741 AH",
+    "totalHadiths": 5669,
+    "prerender": false,
+    "defaultLanguage": "urd",
+    "languages": [
+      {
+        "code": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية",
+        "direction": "rtl"
+      },
+      {
+        "code": "urd",
+        "name": "Urdu",
+        "nativeName": "اردو",
+        "direction": "rtl"
+      }
+    ]
+  },
+  {
+    "slug": "adab-al-mufrad",
+    "name": "Al-Adab Al-Mufrad",
+    "author": "Imam Muhammad al-Bukhari",
+    "authorYear": "194-256 AH",
+    "totalHadiths": 1335,
+    "prerender": false,
+    "defaultLanguage": "urd",
+    "languages": [
+      {
+        "code": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية",
+        "direction": "rtl"
+      },
+      {
+        "code": "urd",
+        "name": "Urdu",
+        "nativeName": "اردو",
+        "direction": "rtl"
+      }
+    ]
+  },
+  {
+    "slug": "mujam-saghir-tabarani",
+    "name": "Al-Mu'jam as-Saghir",
+    "author": "Imam Sulayman at-Tabarani",
+    "authorYear": "260-360 AH",
+    "totalHadiths": 1214,
+    "prerender": false,
+    "defaultLanguage": "urd",
+    "languages": [
+      {
+        "code": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية",
+        "direction": "rtl"
+      },
+      {
+        "code": "urd",
+        "name": "Urdu",
+        "nativeName": "اردو",
+        "direction": "rtl"
+      }
+    ]
+  },
+  {
+    "slug": "mustadrak-hakim",
+    "name": "Al-Mustadrak ala as-Sahihain",
+    "author": "Imam al-Hakim an-Naysaburi",
+    "authorYear": "321-405 AH",
+    "totalHadiths": 1434,
+    "prerender": false,
+    "defaultLanguage": "urd",
+    "languages": [
+      {
+        "code": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية",
+        "direction": "rtl"
+      },
+      {
+        "code": "urd",
+        "name": "Urdu",
+        "nativeName": "اردو",
+        "direction": "rtl"
+      }
+    ]
+  },
+  {
+    "slug": "sunan-kubra-bayhaqi",
+    "name": "Sunan al-Kubra",
+    "author": "Imam Ahmad al-Bayhaqi",
+    "authorYear": "384-458 AH",
+    "totalHadiths": 21886,
+    "prerender": false,
+    "defaultLanguage": "urd",
+    "languages": [
+      {
+        "code": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية",
+        "direction": "rtl"
+      },
+      {
+        "code": "urd",
+        "name": "Urdu",
+        "nativeName": "اردو",
+        "direction": "rtl"
+      }
+    ]
+  },
+  {
+    "slug": "sunan-darimi",
+    "name": "Sunan ad-Darimi",
+    "author": "Imam Abdullah ad-Darimi",
+    "authorYear": "181-255 AH",
+    "totalHadiths": 3505,
+    "prerender": false,
+    "defaultLanguage": "urd",
+    "languages": [
+      {
+        "code": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية",
+        "direction": "rtl"
+      },
+      {
+        "code": "urd",
+        "name": "Urdu",
+        "nativeName": "اردو",
+        "direction": "rtl"
+      }
+    ]
+  },
+  {
+    "slug": "musannaf-ibn-abi-shaybah",
+    "name": "Musannaf Ibn Abi Shaybah",
+    "author": "Imam Abu Bakr ibn Abi Shaybah",
+    "authorYear": "159-235 AH",
+    "totalHadiths": 12,
+    "prerender": false,
+    "defaultLanguage": "urd",
+    "languages": [
+      {
+        "code": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية",
+        "direction": "rtl"
+      },
+      {
+        "code": "urd",
+        "name": "Urdu",
+        "nativeName": "اردو",
+        "direction": "rtl"
+      }
+    ]
+  },
+  {
+    "slug": "shamail-tirmidhi",
+    "name": "Shama'il al-Tirmidhi",
+    "author": "Imam Abu Isa at-Tirmidhi",
+    "authorYear": "209-279 AH",
+    "totalHadiths": 408,
+    "prerender": false,
+    "defaultLanguage": "eng",
+    "languages": [
+      {
+        "code": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية",
+        "direction": "rtl"
+      },
+      {
+        "code": "eng",
+        "name": "English",
+        "nativeName": "English",
+        "direction": "ltr"
+      },
+      {
+        "code": "urd",
+        "name": "Urdu",
+        "nativeName": "اردو",
+        "direction": "rtl"
+      }
+    ]
+  },
+  {
+    "slug": "silsila-sahiha",
+    "name": "Silsilat al-Ahadith as-Sahihah",
+    "author": "Sheikh Muhammad Nasiruddin al-Albani",
+    "authorYear": "1332-1420 AH",
+    "totalHadiths": 4099,
+    "prerender": false,
+    "defaultLanguage": "urd",
+    "languages": [
+      {
+        "code": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية",
+        "direction": "rtl"
+      },
+      {
+        "code": "urd",
+        "name": "Urdu",
+        "nativeName": "اردو",
+        "direction": "rtl"
+      }
+    ]
+  },
+  {
+    "slug": "fath-al-rabbani",
+    "name": "Al-Fath ar-Rabbani (Musnad Ahmad, Fiqh Order)",
+    "author": "Ahmad Abd ar-Rahman al-Banna (as-Sa'ati)",
+    "authorYear": "1310-1378 AH",
+    "totalHadiths": 13252,
+    "prerender": false,
+    "defaultLanguage": "urd",
+    "languages": [
+      {
+        "code": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية",
+        "direction": "rtl"
+      },
+      {
+        "code": "urd",
+        "name": "Urdu",
+        "nativeName": "اردو",
+        "direction": "rtl"
       }
     ]
   }

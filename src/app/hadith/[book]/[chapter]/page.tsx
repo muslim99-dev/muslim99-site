@@ -10,7 +10,8 @@ export async function generateStaticParams() {
   const books = await getBooks();
   const params: { book: string; chapter: string }[] = [];
   for (const book of books) {
-    const edition = await getBookEdition(book.slug, "eng");
+    if (book.prerender === false) continue; // rendered on demand instead — see BookSummary.prerender
+    const edition = await getBookEdition(book.slug, book.defaultLanguage);
     for (const chapter of edition?.chapters ?? []) {
       params.push({ book: book.slug, chapter: String(chapter.number) });
     }
@@ -21,7 +22,8 @@ export async function generateStaticParams() {
 export async function generateMetadata(props: PageProps<"/hadith/[book]/[chapter]">): Promise<Metadata> {
   const { book: slug, chapter } = await props.params;
   const book = await getBook(slug);
-  const edition = await getBookEdition(slug, "eng");
+  if (!book) return { title: "Chapter not found" };
+  const edition = await getBookEdition(slug, book.defaultLanguage);
   const chapterNumber = Number(chapter);
   const chapterInfo = edition?.chapters.find((c) => c.number === chapterNumber);
   if (!book || !chapterInfo) return { title: "Chapter not found" };
@@ -37,11 +39,14 @@ export default async function ChapterPage(props: PageProps<"/hadith/[book]/[chap
   const chapterNumber = Number(chapter);
   if (!Number.isInteger(chapterNumber)) notFound();
 
-  const [book, books, edition] = await Promise.all([getBook(slug), getBooks(), getBookEdition(slug, "eng")]);
-  if (!book || !edition) notFound();
+  const book = await getBook(slug);
+  if (!book) notFound();
+  const edition = await getBookEdition(slug, book.defaultLanguage);
+  if (!edition) notFound();
 
   const chapterInfo = edition.chapters.find((c) => c.number === chapterNumber);
   if (!chapterInfo) notFound();
+  const initialDirection = book.languages.find((l) => l.code === book.defaultLanguage)?.direction ?? "ltr";
 
   const initialHadiths = edition.hadiths.filter((h) => h.chapterNumber === chapterNumber);
   const chapterIndex = edition.chapters.findIndex((c) => c.number === chapterNumber);
@@ -82,7 +87,9 @@ export default async function ChapterPage(props: PageProps<"/hadith/[book]/[chap
               chapterNumber={chapterNumber}
               initialChapterName={chapterInfo.name}
               initialHadiths={initialHadiths}
-              initialDirection="ltr"
+              initialDirection={initialDirection}
+              initialLanguage={book.defaultLanguage}
+              availableLanguages={book.languages}
             />
           </div>
 

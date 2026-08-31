@@ -26,8 +26,9 @@ export default async function BookPage(props: PageProps<"/hadith/[book]">) {
   const book = await getBook(slug);
   if (!book) notFound();
 
-  const englishEdition = await getBookEdition(slug, "eng");
-  const initialChapters = englishEdition?.chapters ?? [];
+  const defaultEdition = await getBookEdition(slug, book.defaultLanguage);
+  const initialChapters = defaultEdition?.chapters ?? [];
+  const initialDirection = book.languages.find((l) => l.code === book.defaultLanguage)?.direction ?? "ltr";
 
   return (
     <>
@@ -59,7 +60,13 @@ export default async function BookPage(props: PageProps<"/hadith/[book]">) {
             <h2 className="mb-4 text-[13px] font-semibold uppercase tracking-wide" style={{ color: "var(--faint)" }}>
               Chapters
             </h2>
-            <ChapterList bookSlug={book.slug} initialChapters={initialChapters} initialDirection="ltr" />
+            <ChapterList
+              bookSlug={book.slug}
+              initialChapters={initialChapters}
+              initialDirection={initialDirection}
+              initialLanguage={book.defaultLanguage}
+              availableLanguages={book.languages}
+            />
           </div>
         </div>
       </main>

@@ -6,7 +6,7 @@ import { HadithCardSkeleton } from "./Skeletons";
 import { ErrorState, EmptyState } from "./StateViews";
 import HadithCard from "./HadithCard";
 import { BookOpen } from "lucide-react";
-import type { Hadith, TextDirection } from "@/lib/hadith";
+import type { Hadith, HadithLanguage, LanguageCode, TextDirection } from "@/lib/hadith";
 
 const LANGUAGE_NAMES: Record<string, string> = {
   ara: "Arabic",
@@ -26,6 +26,8 @@ export default function HadithList({
   initialChapterName,
   initialHadiths,
   initialDirection,
+  initialLanguage,
+  availableLanguages,
 }: {
   bookSlug: string;
   bookName: string;
@@ -33,6 +35,8 @@ export default function HadithList({
   initialChapterName: string | null;
   initialHadiths: Hadith[];
   initialDirection: TextDirection;
+  initialLanguage: LanguageCode;
+  availableLanguages: HadithLanguage[];
 }) {
   const { language, setLastReadChapter } = useHadithPreferences();
   const [hadiths, setHadiths] = useState<Hadith[]>(initialHadiths);
@@ -40,7 +44,7 @@ export default function HadithList({
   const [direction, setDirection] = useState<TextDirection>(initialDirection);
   const [loading, setLoading] = useState(false);
   const [errored, setErrored] = useState(false);
-  const loadedLangRef = useRef<string>("eng");
+  const loadedLangRef = useRef<string>(initialLanguage);
 
   async function load(lang: string) {
     setLoading(true);
@@ -61,7 +65,7 @@ export default function HadithList({
   }
 
   useEffect(() => {
-    if (language !== loadedLangRef.current) load(language);
+    if (language !== loadedLangRef.current && availableLanguages.some((l) => l.code === language)) load(language);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [language]);
 

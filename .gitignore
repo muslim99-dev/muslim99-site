@@ -7,4 +7,6 @@ out
 
 # Source archive for the Quran data — the extracted JSON lives in public/quran_data
 quran_data.zip
+# Source archive for the 18-collection hadith import — converted into public/hadith_data
+hadith_data.zip
 tsconfig.tsbuildinfo

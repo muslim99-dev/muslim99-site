@@ -7,23 +7,27 @@ import { ChevronRight, History } from "lucide-react";
 import { useHadithPreferences } from "./HadithPreferencesProvider";
 import { ChapterRowSkeleton } from "./Skeletons";
 import { ErrorState, EmptyState, BookX } from "./StateViews";
-import type { Chapter, TextDirection } from "@/lib/hadith";
+import type { Chapter, HadithLanguage, LanguageCode, TextDirection } from "@/lib/hadith";
 
 export default function ChapterList({
   bookSlug,
   initialChapters,
   initialDirection,
+  initialLanguage,
+  availableLanguages,
 }: {
   bookSlug: string;
   initialChapters: Chapter[];
   initialDirection: TextDirection;
+  initialLanguage: LanguageCode;
+  availableLanguages: HadithLanguage[];
 }) {
   const { language, lastReadChapter } = useHadithPreferences();
   const [chapters, setChapters] = useState<Chapter[]>(initialChapters);
   const [direction, setDirection] = useState<TextDirection>(initialDirection);
   const [loading, setLoading] = useState(false);
   const [errored, setErrored] = useState(false);
-  const loadedLangRef = useRef<string>("eng");
+  const loadedLangRef = useRef<string>(initialLanguage);
 
   async function load(lang: string) {
     setLoading(true);
@@ -43,7 +47,7 @@ export default function ChapterList({
   }
 
   useEffect(() => {
-    if (language !== loadedLangRef.current) load(language);
+    if (language !== loadedLangRef.current && availableLanguages.some((l) => l.code === language)) load(language);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [language]);
 
