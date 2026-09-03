@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getBook, getBooks, getBookEdition } from "@/lib/hadith.server";
-import HadithHeader from "@/components/hadith/HadithHeader";
-import ChapterList from "@/components/hadith/ChapterList";
+import Navbar from "@/components/Navbar";
+import BookList from "@/components/hadith/BookList";
+import LanguageSwitcher from "@/components/hadith/LanguageSwitcher";
 import { BookOpen, User, Layers } from "lucide-react";
 
 export async function generateStaticParams() {
@@ -15,7 +16,7 @@ export async function generateMetadata(props: PageProps<"/hadith/[book]">): Prom
   const book = await getBook(slug);
   if (!book) return { title: "Book not found" };
   return {
-    title: `${book.name} — Chapters and Hadiths`,
+    title: `${book.name} — Books, Chapters and Hadiths`,
     description: `Browse ${book.name} by ${book.author}, ${book.totalHadiths.toLocaleString()} hadiths across ${book.languages.length} languages, with narrator, grading, and reference for each hadith.`,
     alternates: { canonical: `/hadith/${book.slug}` },
   };
@@ -27,15 +28,18 @@ export default async function BookPage(props: PageProps<"/hadith/[book]">) {
   if (!book) notFound();
 
   const defaultEdition = await getBookEdition(slug, book.defaultLanguage);
-  const initialChapters = defaultEdition?.chapters ?? [];
-  const initialDirection = book.languages.find((l) => l.code === book.defaultLanguage)?.direction ?? "ltr";
+  const books = defaultEdition?.books ?? [];
 
   return (
     <>
-      <HadithHeader backHref="/hadith" backLabel="All books" availableLanguages={book.languages} />
-      <main className="min-h-screen pb-24">
-        <div className="mx-auto max-w-3xl px-5 sm:px-6">
-          {/* Book hero */}
+      <Navbar
+        backHref="/hadith"
+        backLabel="All books"
+        extra={book.languages.length > 1 ? <LanguageSwitcher availableLanguages={book.languages} currentLanguage={book.defaultLanguage} /> : undefined}
+      />
+      <main className="min-h-screen pb-24 pt-24 sm:pt-28">
+        <div className="mx-auto max-w-[1200px] px-5 sm:px-6">
+          {/* Collection hero */}
           <div className="relative mt-6 overflow-hidden rounded-[var(--r-hero)] p-8 text-center sm:p-10" style={{ background: "var(--grad-hero)" }}>
             <div className="pointer-events-none absolute inset-0 geo-lattice opacity-[0.16]" />
             <div className="relative">
@@ -50,23 +54,19 @@ export default async function BookPage(props: PageProps<"/hadith/[book]">) {
                 <span className="inline-flex items-center gap-1.5">
                   <Layers size={14} /> {book.totalHadiths.toLocaleString()} hadiths
                 </span>
-                <span className="inline-flex items-center gap-1.5">{initialChapters.length} chapters</span>
+                <span className="inline-flex items-center gap-1.5">{books.length} books</span>
               </div>
             </div>
           </div>
 
-          {/* Chapters */}
+          {/* Books */}
           <div className="mt-8">
             <h2 className="mb-4 text-[13px] font-semibold uppercase tracking-wide" style={{ color: "var(--faint)" }}>
-              Chapters
+              Books
             </h2>
-            <ChapterList
-              bookSlug={book.slug}
-              initialChapters={initialChapters}
-              initialDirection={initialDirection}
-              initialLanguage={book.defaultLanguage}
-              availableLanguages={book.languages}
-            />
+            {defaultEdition && (
+              <BookList bookSlug={book.slug} initialEdition={defaultEdition} initialLanguage={book.defaultLanguage} availableLanguages={book.languages} />
+            )}
           </div>
         </div>
       </main>

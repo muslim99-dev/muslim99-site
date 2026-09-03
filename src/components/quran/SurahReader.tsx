@@ -38,15 +38,19 @@ export default function SurahReader({
     nextSurahNumber: nextSurah?.surahNumber ?? null,
   });
 
-  const autoplayHandled = useRef(false);
+  // Keyed by surah number (not a plain boolean) because Next.js reuses this
+  // component across surah navigations instead of remounting it — a plain
+  // "have I handled autoplay yet" flag would only ever fire once per page
+  // load and silently break auto-continue into the next surah.
+  const autoplayHandledFor = useRef<number | null>(null);
   useEffect(() => {
-    if (autoplayHandled.current) return;
-    autoplayHandled.current = true;
+    if (autoplayHandledFor.current === details.surahNumber) return;
+    autoplayHandledFor.current = details.surahNumber;
     if (new URLSearchParams(window.location.search).get("autoplay") === "1") {
       player.playFrom(0);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [details.surahNumber]);
 
   const verseIndexByNumber = useMemo(() => new Map(verses.map((v, i) => [v.verseNumber, i])), [verses]);
 
@@ -65,7 +69,7 @@ export default function SurahReader({
   const playingVerse = player.playingIndex !== null ? verses[player.playingIndex] : null;
 
   return (
-    <div className="mx-auto max-w-3xl px-5 pb-28 sm:px-6">
+    <div className="mx-auto max-w-[1200px] px-5 pb-28 sm:px-6">
       {/* Surah header */}
       <div className="relative mt-6 overflow-hidden rounded-[var(--r-hero)] p-8 text-center sm:p-10" style={{ background: "var(--grad-hero)" }}>
         <div className="pointer-events-none absolute inset-0 geo-lattice opacity-[0.16]" />
@@ -73,7 +77,7 @@ export default function SurahReader({
           <p className="text-[13px] font-semibold uppercase tracking-widest" style={{ color: "rgba(255,255,255,0.82)" }}>
             Surah {details.surahNumber}
           </p>
-          <p dir="rtl" className="font-arabic mt-3 text-[40px] leading-none text-white">
+          <p dir="rtl" className="font-arabic-text mt-3 text-[40px] leading-none text-white">
             {details.surahNameArabic}
           </p>
           <h1 className="mt-3 text-[22px] font-semibold text-white">
@@ -112,7 +116,7 @@ export default function SurahReader({
       </div>
 
       {/* Toolbar */}
-      <div className="sticky top-[64px] z-30 -mx-5 mt-6 px-5 py-3 backdrop-blur-xl sm:-mx-6 sm:px-6" style={{ background: "color-mix(in srgb, var(--bg) 85%, transparent)" }}>
+      <div className="sticky top-[80px] z-30 -mx-5 mt-6 px-5 py-3 backdrop-blur-xl sm:-mx-6 sm:px-6" style={{ background: "color-mix(in srgb, var(--bg) 85%, transparent)" }}>
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
           <div className="relative flex-1">
             <Search size={17} className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2" style={{ color: "var(--faint)" }} />
@@ -212,7 +216,7 @@ export default function SurahReader({
       {/* Mini player */}
       {player.playingIndex !== null && playingVerse && (
         <div className="fixed inset-x-0 bottom-0 z-40 pb-[env(safe-area-inset-bottom)]">
-          <div className="mx-auto max-w-3xl px-4 pb-4">
+          <div className="mx-auto max-w-[1200px] px-4 pb-4">
             <div
               className="flex items-center gap-3 rounded-[var(--r-card)] border px-4 py-3 backdrop-blur-xl"
               style={{ background: "color-mix(in srgb, var(--card) 92%, transparent)", borderColor: "var(--border)", boxShadow: "var(--shadow-lg)" }}

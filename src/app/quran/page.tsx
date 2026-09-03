@@ -3,7 +3,7 @@ import Link from "next/link";
 import { BookMarked, Rows3, Mic2, ArrowRight } from "lucide-react";
 import { getSurahIndex } from "@/lib/quran.server";
 import { RECITATION_VOICES, TRANSLATION_VOICES } from "@/lib/reciters";
-import QuranHeader from "@/components/quran/QuranHeader";
+import Navbar from "@/components/Navbar";
 import SurahBrowser from "@/components/quran/SurahBrowser";
 import Eyebrow from "@/components/Eyebrow";
 
@@ -21,16 +21,16 @@ export default async function QuranIndexPage() {
 
   return (
     <>
-      <QuranHeader showQariSelector={false} />
+      <Navbar />
       <main className="relative min-h-screen pb-24">
         {/* Hero */}
         <section className="relative overflow-hidden">
           <div className="pointer-events-none absolute inset-0 geo-lattice opacity-[0.14]" />
-          <div className="relative mx-auto max-w-6xl px-6 pt-14 pb-10 text-center sm:pt-20">
+          <div className="relative mx-auto max-w-[1200px] px-6 pt-32 pb-10 text-center sm:pt-40">
             <div className="flex justify-center">
               <Eyebrow>Read, reflect, remember</Eyebrow>
             </div>
-            <p dir="rtl" className="font-arabic mx-auto mt-6 text-[30px] leading-tight sm:text-[38px]" style={{ color: "var(--soft-text)" }}>
+            <p dir="rtl" className="font-arabic-text mx-auto mt-6 text-[30px] leading-tight sm:text-[38px]" style={{ color: "var(--soft-text)" }}>
               الْقُرْآنُ الْكَرِيْم
             </p>
             <h1
@@ -55,7 +55,7 @@ export default async function QuranIndexPage() {
         </section>
 
         {/* Reading modes */}
-        <section className="relative mx-auto max-w-6xl px-6 pb-16">
+        <section className="relative mx-auto max-w-[1200px] px-6 pb-16">
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
             <Link
               href="/quran/1/read"
@@ -125,7 +125,7 @@ export default async function QuranIndexPage() {
         </section>
 
         {/* Browser */}
-        <section className="relative mx-auto max-w-6xl px-6">
+        <section className="relative mx-auto max-w-[1200px] px-6">
           <SurahBrowser surahs={surahs} />
         </section>
       </main>

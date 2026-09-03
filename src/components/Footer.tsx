@@ -15,7 +15,7 @@ const COLUMNS = [
 export default function Footer() {
   return (
     <footer className="relative pt-20" style={{ background: "var(--card-2)", borderTop: "1px solid var(--border)" }}>
-      <div className="mx-auto max-w-6xl px-6 pb-10">
+      <div className="mx-auto max-w-[1200px] px-6 pb-10">
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-[1.4fr_1fr_1fr]">
           <div>
             <Logo size={38} />
@@ -65,7 +65,7 @@ export default function Footer() {
           style={{ borderTop: "1px solid var(--border)", color: "var(--muted)" }}
         >
           <p>&copy; {new Date().getFullYear()} Muslim99. All rights reserved.</p>
-          <p dir="rtl" className="font-arabic text-[14px]" style={{ color: "var(--soft-text)" }}>
+          <p dir="rtl" className="font-arabic-text text-[14px]" style={{ color: "var(--soft-text)" }}>
             جَزَاكَ اللَّهُ خَيْرًا
           </p>
         </div>

@@ -76,10 +76,20 @@ function formatRemaining(ms: number) {
   return `${remainingMinutes}m`;
 }
 
-function getPakistanHijriDate(date: Date) {
-  const pakistanDate = new Date(date);
-  pakistanDate.setHours(pakistanDate.getHours() + 3);
-  return toHijri(pakistanDate.getFullYear(), pakistanDate.getMonth() + 1, pakistanDate.getDate());
+// The Hijri day begins at Maghrib, not midnight — once the sun has set
+// locally, the Islamic date has already advanced to tomorrow's Gregorian
+// date everywhere, not just in one region. Falls back to a plain midnight
+// rollover only until the user's location (and therefore actual local
+// Maghrib time) is known.
+function getHijriDate(date: Date, coords: Coordinates | null) {
+  let effectiveDate = date;
+  if (coords) {
+    const todayMaghrib = new AdhanPrayerTimes(coords, date, CalculationMethod.MuslimWorldLeague()).maghrib;
+    if (date.getTime() >= todayMaghrib.getTime()) {
+      effectiveDate = new Date(date.getTime() + 24 * 60 * 60000);
+    }
+  }
+  return toHijri(effectiveDate.getFullYear(), effectiveDate.getMonth() + 1, effectiveDate.getDate());
 }
 
 function getPrayerTimesForDate(date: Date, coords: Coordinates, madhhab: MadhhabOption) {
@@ -135,9 +145,7 @@ export default function PrayerTimes() {
     }
 
     const displayDate = now;
-    const hijri = coords && coords.latitude >= 23.5 && coords.latitude <= 37.1 && coords.longitude >= 60 && coords.longitude <= 77
-      ? getPakistanHijriDate(displayDate)
-      : toHijri(displayDate.getFullYear(), displayDate.getMonth() + 1, displayDate.getDate());
+    const hijri = getHijriDate(displayDate, coords);
     const monthName = HIJRI_MONTHS[hijri.hm - 1] ?? "Islamic Month";
     const gregorian = displayDate.toLocaleDateString([], {
       weekday: "long",
@@ -162,77 +170,116 @@ export default function PrayerTimes() {
     }
 
     const displayDate = now;
-    const todayTimes = getPrayerTimesForDate(displayDate, coords, madhhab);
+    const nowTime = displayDate.getTime();
+    const ISHRAQ_OFFSET = 20 * 60000;
+    const TAHAJJUD_START_OFFSET = 45 * 60000; // after Isha
+    const WITR_OFFSET = 30 * 60000;
+
+    const yesterday = new Date(displayDate);
+    yesterday.setDate(yesterday.getDate() - 1);
     const tomorrow = new Date(displayDate);
     tomorrow.setDate(tomorrow.getDate() + 1);
+
+    const yesterdayTimes = getPrayerTimesForDate(yesterday, coords, madhhab);
+    const todayTimes = getPrayerTimesForDate(displayDate, coords, madhhab);
     const tomorrowTimes = getPrayerTimesForDate(tomorrow, coords, madhhab);
 
-    const upcoming = PRAYER_ORDER.map((key) => ({ key, time: todayTimes[key] }))
-      .filter(({ time }) => time.getTime() > displayDate.getTime());
-
-    const nextPrayer = upcoming.length > 0 ? upcoming[0] : { key: "fajr" as PrayerKey, time: tomorrowTimes.fajr };
-
-    let currentStage: FlowKey = "tahajjud";
-    const nowTime = displayDate.getTime();
-
+    // One continuous, strictly chronological sequence spanning yesterday's
+    // Isha through tomorrow's Fajr, so "now" always lands in exactly one
+    // window — crucially including the early-morning hours before today's
+    // Fajr. Those hours previously matched nothing (the old Tahajjud window
+    // was only ever computed from *today's* Isha and *tomorrow's* Fajr,
+    // both still hours in the future at 3am), so the countdown/current-stage
+    // silently fell back to a stale ~26-hour-away window.
     const flow = [
-      { key: "tahajjud" as const, start: todayTimes.isha.getTime() + 45 * 60000, end: tomorrowTimes.fajr.getTime() },
+      { key: "tahajjud" as const, start: yesterdayTimes.isha.getTime() + TAHAJJUD_START_OFFSET, end: todayTimes.fajr.getTime() },
       { key: "fajr" as const, start: todayTimes.fajr.getTime(), end: todayTimes.sunrise.getTime() },
-      { key: "sunrise" as const, start: todayTimes.sunrise.getTime(), end: todayTimes.sunrise.getTime() + 20 * 60000 },
-      { key: "ishraq" as const, start: todayTimes.sunrise.getTime() + 20 * 60000, end: todayTimes.dhuhr.getTime() },
+      { key: "sunrise" as const, start: todayTimes.sunrise.getTime(), end: todayTimes.sunrise.getTime() + ISHRAQ_OFFSET },
+      { key: "ishraq" as const, start: todayTimes.sunrise.getTime() + ISHRAQ_OFFSET, end: todayTimes.dhuhr.getTime() },
       { key: "dhuhr" as const, start: todayTimes.dhuhr.getTime(), end: todayTimes.asr.getTime() },
       { key: "asr" as const, start: todayTimes.asr.getTime(), end: todayTimes.maghrib.getTime() },
       { key: "maghrib" as const, start: todayTimes.maghrib.getTime(), end: todayTimes.isha.getTime() },
-      { key: "isha" as const, start: todayTimes.isha.getTime(), end: todayTimes.isha.getTime() + 45 * 60000 },
-    ] as const;
+      { key: "isha" as const, start: todayTimes.isha.getTime(), end: todayTimes.isha.getTime() + TAHAJJUD_START_OFFSET },
+      { key: "tahajjud" as const, start: todayTimes.isha.getTime() + TAHAJJUD_START_OFFSET, end: tomorrowTimes.fajr.getTime() },
+    ];
 
-    const activeStep = flow.find((step) => nowTime >= step.start && nowTime < step.end);
-    currentStage = activeStep ? activeStep.key : "tahajjud";
+    const activeStep = flow.find((step) => nowTime >= step.start && nowTime < step.end) ?? flow[0];
+    const currentStage: FlowKey = activeStep.key;
+    const currentStart = activeStep.start;
+    const currentEnd = activeStep.end;
+    const remainingMs = Math.max(0, currentEnd - nowTime);
+    const progress = currentEnd > currentStart ? Math.min(1, Math.max(0, (nowTime - currentStart) / (currentEnd - currentStart))) : 0;
 
-    const currentStep = flow.find((step) => step.key === currentStage) ?? flow[0];
-    const currentStart = currentStep.start;
-    const currentEnd = currentStep.end;
-    const remainingMs = Math.max(0, currentEnd - displayDate.getTime());
-    const progress = currentEnd > currentStart ? Math.min(1, Math.max(0, (displayDate.getTime() - currentStart) / (currentEnd - currentStart))) : 0;
+    // The single "Tahajjud" window relevant right now — before today's Fajr
+    // that's tonight's leftover from yesterday's Isha; after today's Isha
+    // it's tonight's window running into tomorrow's Fajr. Used for the list
+    // below so its highlighted card always matches `currentStage` exactly.
+    const tahajjudWindow =
+      nowTime < todayTimes.fajr.getTime()
+        ? { start: new Date(yesterdayTimes.isha.getTime() + TAHAJJUD_START_OFFSET), end: new Date(todayTimes.fajr.getTime()) }
+        : { start: new Date(todayTimes.isha.getTime() + TAHAJJUD_START_OFFSET), end: new Date(tomorrowTimes.fajr.getTime()) };
 
-    const nextStep = flow.find((step) => step.start > nowTime) ?? flow[flow.length - 1];
-    const nextPrayerFromNow = Math.max(0, nextStep.start - displayDate.getTime());
-    const nextPrayerWindowMs = Math.max(1, nextStep.end - nextStep.start);
-    const nextPrayerProgress = Math.min(1, Math.max(0, 1 - nextPrayerFromNow / Math.max(nextPrayerWindowMs, 1)));
+    // Always the *next* occurrence of each marker — once today's has
+    // passed, roll forward to tomorrow's rather than dropping it from the
+    // list for the rest of the day.
+    const nextOccurrence = (todayTime: Date, tomorrowTime: Date) => (todayTime.getTime() >= nowTime ? todayTime : tomorrowTime);
 
     const specialTimes = [
-      { key: "sunrise", label: "Sunrise", time: todayTimes.sunrise, color: "text-amber-600", note: "Start of the day" },
-      { key: "ishraq", label: "Ishraq / Chasht", time: new Date(todayTimes.sunrise.getTime() + 20 * 60000), color: "text-cyan-700", note: "A recommended post-sunrise window" },
-      { key: "zawal", label: "Zawal", time: todayTimes.dhuhr, color: "text-orange-600", note: "Avoided for Sunnah" },
-      { key: "tahajjud", label: "Tahajjud", time: new Date(todayTimes.fajr.getTime() - 90 * 60000), color: "text-emerald-700", note: "Night prayer" },
-      { key: "witr", label: "Witr", time: new Date(todayTimes.isha.getTime() + 30 * 60000), color: "text-fuchsia-700", note: "Final night prayer" },
-    ].filter((item) => item.time.getTime() >= displayDate.getTime());
+      { key: "sunrise", label: "Sunrise", time: nextOccurrence(todayTimes.sunrise, tomorrowTimes.sunrise), color: "text-amber-600", note: "Start of the day" },
+      {
+        key: "ishraq",
+        label: "Ishraq / Chasht",
+        time: nextOccurrence(new Date(todayTimes.sunrise.getTime() + ISHRAQ_OFFSET), new Date(tomorrowTimes.sunrise.getTime() + ISHRAQ_OFFSET)),
+        color: "text-cyan-700",
+        note: "A recommended post-sunrise window",
+      },
+      { key: "zawal", label: "Zawal", time: nextOccurrence(todayTimes.dhuhr, tomorrowTimes.dhuhr), color: "text-orange-600", note: "Avoided for Sunnah" },
+      {
+        key: "tahajjud",
+        label: "Tahajjud",
+        time: nextOccurrence(new Date(todayTimes.fajr.getTime() - 90 * 60000), new Date(tomorrowTimes.fajr.getTime() - 90 * 60000)),
+        color: "text-emerald-700",
+        note: "Night prayer",
+      },
+      {
+        key: "witr",
+        label: "Witr",
+        time: nextOccurrence(new Date(todayTimes.isha.getTime() + WITR_OFFSET), new Date(tomorrowTimes.isha.getTime() + WITR_OFFSET)),
+        color: "text-fuchsia-700",
+        note: "Final night prayer",
+      },
+    ];
 
-    const nextEvent = specialTimes.length > 0 ? specialTimes[0] : { key: "fajr", label: "Fajr", time: tomorrowTimes.fajr, color: "text-cyan-700" };
+    // "Next up" must follow the real prayer sequence (Dhuhr → Asr → ...),
+    // not whichever of the side special-times markers (which include Witr
+    // and Tahajjud, both hours away) happens to be soonest — that showed
+    // "Witr" as next up while Dhuhr was still current, skipping Asr entirely.
+    const nextFlowStep = flow.find((step) => step.start > nowTime) ?? flow[flow.length - 1];
+    const nextEvent = { key: nextFlowStep.key, label: FLOW_LABELS[nextFlowStep.key].name, time: new Date(nextFlowStep.start) };
 
+    // Matches FLOW_ORDER's chronological sequence — Tahajjud (the last third
+    // of the night) comes last, after Isha, not first.
     const listWindows = [
-      { key: "tahajjud", label: FLOW_LABELS.tahajjud, start: new Date(todayTimes.isha.getTime() + 45 * 60000), end: new Date(tomorrowTimes.fajr.getTime()) },
       { key: "fajr", label: PRAYER_LABELS.fajr, start: todayTimes.fajr, end: todayTimes.sunrise },
-      { key: "sunrise", label: FLOW_LABELS.sunrise, start: todayTimes.sunrise, end: new Date(todayTimes.sunrise.getTime() + 20 * 60000) },
-      { key: "ishraq", label: FLOW_LABELS.ishraq, start: new Date(todayTimes.sunrise.getTime() + 20 * 60000), end: todayTimes.dhuhr },
+      { key: "sunrise", label: FLOW_LABELS.sunrise, start: todayTimes.sunrise, end: new Date(todayTimes.sunrise.getTime() + ISHRAQ_OFFSET) },
+      { key: "ishraq", label: FLOW_LABELS.ishraq, start: new Date(todayTimes.sunrise.getTime() + ISHRAQ_OFFSET), end: todayTimes.dhuhr },
       { key: "dhuhr", label: PRAYER_LABELS.dhuhr, start: todayTimes.dhuhr, end: todayTimes.asr },
       { key: "asr", label: PRAYER_LABELS.asr, start: todayTimes.asr, end: todayTimes.maghrib },
       { key: "maghrib", label: PRAYER_LABELS.maghrib, start: todayTimes.maghrib, end: todayTimes.isha },
-      { key: "isha", label: PRAYER_LABELS.isha, start: todayTimes.isha, end: new Date(todayTimes.isha.getTime() + 45 * 60000) },
+      { key: "isha", label: PRAYER_LABELS.isha, start: todayTimes.isha, end: new Date(todayTimes.isha.getTime() + TAHAJJUD_START_OFFSET) },
+      { key: "tahajjud", label: FLOW_LABELS.tahajjud, start: tahajjudWindow.start, end: tahajjudWindow.end },
     ];
 
     return {
       times: todayTimes,
       currentStage,
       currentStageLabel: FLOW_LABELS[currentStage],
-      nextPrayer,
       remaining: formatRemaining(remainingMs),
       progress,
       currentStartedAt: new Date(currentStart),
       currentWindowEnd: new Date(currentEnd),
       nextEvent,
       specialTimes,
-      nextPrayerProgress,
       listWindows,
     };
   }, [coords, now, madhhab]);
@@ -240,7 +287,7 @@ export default function PrayerTimes() {
   return (
     <section id="prayers" className="relative overflow-hidden py-24 sm:py-32">
       <div className="pointer-events-none absolute inset-0 geo-lattice opacity-[0.18]" />
-      <div className="relative mx-auto max-w-6xl px-6">
+      <div className="relative mx-auto max-w-[1200px] px-6">
         <div className="mx-auto max-w-2xl text-center">
           <p className="inline-flex items-center justify-center gap-2 rounded-full border border-current/10 bg-white/80 px-4 py-2 text-sm font-semibold text-slate-900 shadow-sm backdrop-blur-sm dark:bg-slate-950/80 dark:text-slate-100">
             <MapPin size={16} /> Prayer times by location

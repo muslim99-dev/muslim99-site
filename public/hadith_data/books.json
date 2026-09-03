@@ -5,7 +5,7 @@
     "author": "Imam Muhammad al-Bukhari",
     "authorYear": "194-256 AH",
     "totalHadiths": 8357,
-    "prerender": true,
+    "prerender": false,
     "defaultLanguage": "eng",
     "languages": [
       {
@@ -64,7 +64,7 @@
     "author": "Imam Muslim ibn al-Hajjaj",
     "authorYear": "206-261 AH",
     "totalHadiths": 7463,
-    "prerender": true,
+    "prerender": false,
     "defaultLanguage": "eng",
     "languages": [
       {
@@ -123,7 +123,7 @@
     "author": "Imam Abu Dawud as-Sijistani",
     "authorYear": "202-275 AH",
     "totalHadiths": 5485,
-    "prerender": true,
+    "prerender": false,
     "defaultLanguage": "eng",
     "languages": [
       {
@@ -182,7 +182,7 @@
     "author": "Imam Abu Isa at-Tirmidhi",
     "authorYear": "209-279 AH",
     "totalHadiths": 4186,
-    "prerender": true,
+    "prerender": false,
     "defaultLanguage": "eng",
     "languages": [
       {
@@ -229,7 +229,7 @@
     "author": "Imam Ahmad an-Nasai",
     "authorYear": "215-303 AH",
     "totalHadiths": 5878,
-    "prerender": true,
+    "prerender": false,
     "defaultLanguage": "eng",
     "languages": [
       {
@@ -282,7 +282,7 @@
     "author": "Imam Muhammad ibn Majah",
     "authorYear": "209-273 AH",
     "totalHadiths": 4222,
-    "prerender": true,
+    "prerender": false,
     "defaultLanguage": "eng",
     "languages": [
       {

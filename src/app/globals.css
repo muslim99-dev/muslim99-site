@@ -13,7 +13,26 @@
   --color-gold: var(--gold);
   --color-gold-soft: var(--gold-soft);
   --font-sans: "Outfit", system-ui, sans-serif;
-  --font-arabic: "Amiri", serif;
+  /* Quranic/Arabic text — Amiri Quran, a Naskh face purpose-built for
+     Mushaf reproduction (correct ayah-end/sajda marks), is the real,
+     always-loaded font here. KFGQPC Uthmanic Script HAFS (bundled under
+     public/fonts, see @font-face below) is deliberately NOT in this stack:
+     this site's Quran dataset is encoded in the Indo-Pak Mushaf convention
+     (e.g. U+06E1, U+06A9, U+06D1), not the Saudi "Uthmani Hafs" encoding
+     that font's ligature tables expect — feeding it this text renders
+     broken filled-circle glyphs instead of falling back, since the font
+     does have *some* glyph mapped to those codepoints, just the wrong one.
+     Al Qalam Quran Majeed (the correct Indo-Pak-style font for this data)
+     takes over automatically if its font file is ever supplied under
+     public/fonts. */
+  --font-arabic: "Al Qalam Quran Majeed", "Amiri Quran", "Amiri", serif;
+  /* General (non-Quran) Arabic text — hadith wording, book/surah names,
+     decorative phrases. Amiri handles ordinary Arabic prose correctly. */
+  --font-arabic-text: "Amiri", serif;
+  /* Urdu text — Noto Nastaliq Urdu is a proper, professionally designed
+     Nastaliq typeface and loads today. Jameel Noori Nastaleeq takes over
+     automatically if its font file is ever supplied under public/fonts. */
+  --font-urdu: "Jameel Noori Nastaleeq", "Noto Nastaliq Urdu", "Amiri", serif;
   --radius-hero: var(--r-hero);
   --radius-card: var(--r-card);
   --radius-btn: var(--r-btn);
@@ -120,8 +139,59 @@ body {
   transition: background-color 0.35s ease, color 0.35s ease;
 }
 
+/* KFGQPC Uthmanic Script HAFS — the official Madinah Mushaf typeface,
+   bundled at public/fonts/KFGQPCUthmanicScriptHAFS.otf. Its embedded EULA
+   (King Fahd Glorious Quran Printing Complex, fonts.qurancomplex.gov.sa)
+   grants free use, copying, and distribution — just not selling, modifying,
+   or reverse-engineering the font software itself.
+   NOT referenced by --font-arabic: this font only has correct glyphs for
+   the Saudi "Uthmani Hafs" text encoding, and this site's Quran dataset is
+   in the Indo-Pak Mushaf encoding instead — using it here renders broken
+   filled-circle glyphs. Defined for future use if an Uthmani-encoded text
+   source is ever adopted. */
+@font-face {
+  font-family: "KFGQPC Uthmanic Script HAFS";
+  src: url("/fonts/KFGQPCUthmanicScriptHAFS.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Optional further upgrades for Quranic Arabic and Urdu Nastaliq text. Both
+   @font-face rules below point to files that must be supplied under
+   public/fonts/ (see README note there) — until then, `font-display: swap`
+   plus the Amiri Quran / Noto Nastaliq Urdu fallback in
+   --font-arabic/--font-urdu above (both real, always-loaded fonts — see the
+   @fontsource imports in layout.tsx) means the site already looks polished
+   today, and would only improve further if these commercial fonts are ever
+   added. Al Qalam Quran Majeed in particular is the correct Indo-Pak-style
+   Quran font for this site's verse data (see the note above). */
+@font-face {
+  font-family: "Al Qalam Quran Majeed";
+  src: url("/fonts/AlQalamQuranMajeed.woff2") format("woff2"), url("/fonts/AlQalamQuranMajeed.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jameel Noori Nastaleeq";
+  src: url("/fonts/JameelNooriNastaleeq.woff2") format("woff2"), url("/fonts/JameelNooriNastaleeq.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .font-arabic {
-  font-family: "Amiri", serif;
+  font-family: var(--font-arabic);
+}
+
+.font-arabic-text {
+  font-family: var(--font-arabic-text);
+}
+
+.font-urdu {
+  font-family: var(--font-urdu);
 }
 
 /* ============ Signature motif: repeating 8-point Islamic star lattice ============ */

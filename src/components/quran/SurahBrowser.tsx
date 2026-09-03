@@ -207,7 +207,7 @@ export default function SurahBrowser({ surahs }: { surahs: SurahSummary[] }) {
                   <h3 className="truncate text-[15.5px] font-semibold" style={{ color: "var(--text)" }}>
                     {s.surahName}
                   </h3>
-                  <span dir="rtl" className="font-arabic shrink-0 text-[18px]" style={{ color: "var(--soft-text)" }}>
+                  <span dir="rtl" className="font-arabic-text shrink-0 text-[18px]" style={{ color: "var(--soft-text)" }}>
                     {s.surahNameArabic}
                   </span>
                 </div>
@@ -338,7 +338,7 @@ function VerseMatchCard({ match, rawQuery }: { match: GlobalVerseMatch; rawQuery
             <span className="truncate text-[13.5px] font-semibold" style={{ color: "var(--text)" }}>
               {match.surahName}
             </span>
-            <span dir="rtl" className="font-arabic shrink-0 text-[13px]" style={{ color: "var(--soft-text)" }}>
+            <span dir="rtl" className="font-arabic-text shrink-0 text-[13px]" style={{ color: "var(--soft-text)" }}>
               {match.surahNameArabic}
             </span>
             <span className="shrink-0 text-[11.5px]" style={{ color: "var(--faint)" }}>
@@ -391,7 +391,7 @@ function VerseMatchCard({ match, rawQuery }: { match: GlobalVerseMatch; rawQuery
         {highlightPlain(match.verseEnglish, match.matchedIn.includes("english") ? rawQuery : "")}
       </p>
       {match.matchedIn.includes("urdu") && (
-        <p dir="rtl" lang="ur" className="font-arabic mt-1.5 text-[15.5px] leading-[1.9]" style={{ color: "var(--muted)" }}>
+        <p dir="rtl" lang="ur" className="font-urdu mt-1.5 text-[15.5px] leading-[1.9]" style={{ color: "var(--muted)" }}>
           {match.verseUrdu}
         </p>
       )}

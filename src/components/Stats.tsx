@@ -27,7 +27,7 @@ function Counter({ value }: { value: number }) {
 export default function Stats() {
   return (
     <section className="relative py-20" style={{ background: "var(--grad-hero)" }}>
-      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-8 px-6 sm:grid-cols-4">
+      <div className="mx-auto grid max-w-[1200px] grid-cols-2 gap-8 px-6 sm:grid-cols-4">
         {STATS.map((s, i) => (
           <motion.div
             key={s.label}

@@ -9,11 +9,12 @@ import ReadingModeSwitcher from "./ReadingModeSwitcher";
 import { cleanVerseText, type SurahFile, type VerseBase } from "@/lib/quran";
 
 // Approximate characters-per-line at the fixed reading size below, tuned for
-// a ~680px page width. This is a heuristic page-break — not a reproduction
-// of any certified printed 16-line Indo-Pak mushaf, which relies on a
-// precise per-word line-break dataset we don't have. Whole ayat are always
-// kept together on one page.
-const CHARS_PER_LINE = 60;
+// the page's ~1050px effective text width (1200px container minus padding).
+// This is a heuristic page-break — not a reproduction of any certified
+// printed 16-line Indo-Pak mushaf, which relies on a precise per-word
+// line-break dataset we don't have. Whole ayat are always kept together on
+// one page.
+const CHARS_PER_LINE = 95;
 const LINES_PER_PAGE = 16;
 const MAX_CHARS_PER_PAGE = CHARS_PER_LINE * LINES_PER_PAGE;
 
@@ -61,15 +62,19 @@ export default function MushafLines({
     nextSurahPathTemplate: (s) => `/quran/${s}/lines`,
   });
 
-  const autoplayHandled = useRef(false);
+  // Keyed by surah number (not a plain boolean) because Next.js reuses this
+  // component across surah navigations instead of remounting it — a plain
+  // "have I handled autoplay yet" flag would only ever fire once per page
+  // load and silently break auto-continue into the next surah.
+  const autoplayHandledFor = useRef<number | null>(null);
   useEffect(() => {
-    if (autoplayHandled.current) return;
-    autoplayHandled.current = true;
+    if (autoplayHandledFor.current === details.surahNumber) return;
+    autoplayHandledFor.current = details.surahNumber;
     if (new URLSearchParams(window.location.search).get("autoplay") === "1") {
       player.playFrom(0);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [details.surahNumber]);
 
   const verseIndexByNumber = useMemo(() => new Map(verses.map((v, i) => [v.verseNumber, i])), [verses]);
   const playingVerseNumber = player.playingIndex !== null ? verses[player.playingIndex]?.verseNumber ?? null : null;
@@ -77,7 +82,7 @@ export default function MushafLines({
   const page = pages[pageIdx] ?? [];
 
   return (
-    <div className="mx-auto max-w-3xl px-5 pb-28 sm:px-6">
+    <div className="mx-auto max-w-[1200px] px-5 pb-28 sm:px-6">
       <div className="mt-6 flex items-center justify-between gap-3">
         <div>
           <p className="text-[12px] font-semibold uppercase tracking-wider" style={{ color: "var(--faint)" }}>
@@ -103,7 +108,7 @@ export default function MushafLines({
       </div>
 
       {/* Controls */}
-      <div className="sticky top-[64px] z-30 -mx-5 mt-4 flex flex-wrap items-center gap-2 px-5 py-3 backdrop-blur-xl sm:-mx-6 sm:px-6" style={{ background: "color-mix(in srgb, var(--bg) 85%, transparent)" }}>
+      <div className="sticky top-[80px] z-30 -mx-5 mt-4 flex flex-wrap items-center gap-2 px-5 py-3 backdrop-blur-xl sm:-mx-6 sm:px-6" style={{ background: "color-mix(in srgb, var(--bg) 85%, transparent)" }}>
         <div className="flex items-center gap-1.5 rounded-[var(--r-btn)] border px-1 py-1" style={{ background: "var(--card)", borderColor: "var(--border)" }}>
           <button
             type="button"
@@ -232,7 +237,7 @@ export default function MushafLines({
       {/* Mini player */}
       {player.playingIndex !== null && (
         <div className="fixed inset-x-0 bottom-0 z-40 pb-[env(safe-area-inset-bottom)]">
-          <div className="mx-auto max-w-3xl px-4 pb-4">
+          <div className="mx-auto max-w-[1200px] px-4 pb-4">
             <div
               className="flex items-center gap-3 rounded-[var(--r-card)] border px-4 py-3 backdrop-blur-xl"
               style={{ background: "color-mix(in srgb, var(--card) 92%, transparent)", borderColor: "var(--border)", boxShadow: "var(--shadow-lg)" }}

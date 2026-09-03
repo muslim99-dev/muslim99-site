@@ -67,6 +67,15 @@ export function useAyahPlayer({
     setState({ playingIndex: null, isQueue: false, isLoading: false });
   }, []);
 
+  // Next.js reuses this component instance across surah navigations (same
+  // route pattern, new params) rather than unmounting it, so the mount
+  // effect above only creates the <audio> element once. Without this, audio
+  // left playing from the previous surah keeps going in the background —
+  // and if playback is then started on the new surah, both overlap.
+  useEffect(() => {
+    stop();
+  }, [surahNumber, stop]);
+
   playIndexRef.current = (index: number, queue: boolean) => {
     const el = audioRef.current;
     const { surahNumber, verses, reciter, translationVoice, autoContinue, nextSurahNumber, nextSurahPathTemplate } =

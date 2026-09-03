@@ -180,7 +180,7 @@ export default function VerseCard({
         </p>
       )}
       {!isBismillah && (readingLang === "both" || readingLang === "urdu") && (
-        <p dir="rtl" lang="ur" className="font-arabic mt-3 text-[19px] leading-[2]" style={{ color: "var(--muted)" }}>
+        <p dir="rtl" lang="ur" className="font-urdu mt-3 text-[19px] leading-[2]" style={{ color: "var(--muted)" }}>
           {verse.verseUrdu}
         </p>
       )}
@@ -299,7 +299,7 @@ function TranslationsPanel({
               </p>
               <p
                 dir={isRtl ? "rtl" : "ltr"}
-                className={isRtl ? "font-arabic text-[18px] leading-[2]" : "text-[14.5px] leading-relaxed"}
+                className={isRtl ? "font-urdu text-[18px] leading-[2]" : "text-[14.5px] leading-relaxed"}
                 style={{ color: "var(--text)" }}
               >
                 {t.text}
@@ -355,7 +355,7 @@ function TafseerPanel({ data, idx, setIdx }: { data: Tafseer[] | null; idx: numb
       <p
         dir="rtl"
         lang="ur"
-        className="font-arabic mt-2 whitespace-pre-line text-[18px] leading-[2.15]"
+        className="font-urdu mt-2 whitespace-pre-line text-[18px] leading-[2.15]"
         style={{ color: "var(--text)" }}
       >
         {current.text}
@@ -408,7 +408,7 @@ function WbwPanel({ data, idx, setIdx }: { data: WbwEntry[] | null; idx: number;
             <span className="font-arabic text-[20px] leading-tight" style={{ color: "var(--text)" }}>
               {w.arabic}
             </span>
-            <span className="font-arabic mt-1 text-[13px]" style={{ color: "var(--soft-text)" }}>
+            <span className="font-urdu mt-1 text-[13px]" style={{ color: "var(--soft-text)" }}>
               {w.urdu}
             </span>
           </div>
@@ -437,7 +437,7 @@ function RootsPanel({ data }: { data: RootWord[] | null }) {
           className="inline-flex items-center gap-1.5 rounded-[var(--r-chip)] px-3 py-2 transition-transform hover:scale-[1.03]"
           style={{ background: "var(--gold-soft)", border: "1px solid var(--gold)" }}
         >
-          <span className="font-arabic text-[19px]" style={{ color: "var(--text)" }}>
+          <span className="font-arabic-text text-[19px]" style={{ color: "var(--text)" }}>
             {r.word}
           </span>
           <ExternalLink size={12} style={{ color: "var(--gold)" }} />

@@ -16,7 +16,7 @@ export default function HadithIntro() {
   return (
     <section id="hadith" className="relative py-24 sm:py-32">
       <div className="pointer-events-none absolute inset-0 geo-lattice opacity-[0.12]" />
-      <div className="relative mx-auto max-w-6xl px-6">
+      <div className="relative mx-auto max-w-[1200px] px-6">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
           {/* Left: pillar cards */}
           <div className="order-2 grid grid-cols-2 gap-4 lg:order-1">

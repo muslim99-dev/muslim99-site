@@ -3,17 +3,32 @@ import { MetadataRoute } from "next";
 
 const TOTAL_SURAHS = 114;
 
-// Fixed, known-stable chapter counts per book — hardcoded (rather than read
-// from public/hadith_data at build time) to avoid the file-tracing bloat a
-// filesystem read here would cause across ~44 multi-MB data files.
-const HADITH_BOOK_CHAPTER_COUNTS: Record<string, number> = {
-  bukhari: 97,
-  muslim: 56,
-  abudawud: 43,
-  tirmidhi: 49,
-  nasai: 51,
-  ibnmajah: 37,
-};
+// The 18 hadith collection slugs — hardcoded (rather than read from
+// public/hadith_data at build time) to avoid the file-tracing bloat a
+// filesystem read here would cause across ~44 multi-MB data files. Only the
+// collection-level URL is listed; books/chapters are reachable from there
+// and are too numerous (and too deep, given the Kitab → Bab → Hadith
+// structure) to enumerate here.
+const HADITH_COLLECTION_SLUGS = [
+  "bukhari",
+  "muslim",
+  "abudawud",
+  "tirmidhi",
+  "nasai",
+  "ibnmajah",
+  "musnad-ahmad",
+  "muwatta-malik",
+  "mishkat",
+  "adab-al-mufrad",
+  "mujam-saghir-tabarani",
+  "mustadrak-hakim",
+  "sunan-kubra-bayhaqi",
+  "sunan-darimi",
+  "musannaf-ibn-abi-shaybah",
+  "shamail-tirmidhi",
+  "silsila-sahiha",
+  "fath-al-rabbani",
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -25,20 +40,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  const hadithRoutes: MetadataRoute.Sitemap = Object.entries(HADITH_BOOK_CHAPTER_COUNTS).flatMap(([slug, chapterCount]) => [
-    {
-      url: `${SITE_CONFIG.url}/hadith/${slug}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    ...Array.from({ length: chapterCount }, (_, i) => ({
-      url: `${SITE_CONFIG.url}/hadith/${slug}/${i + 1}`,
-      lastModified: now,
-      changeFrequency: "yearly" as const,
-      priority: 0.5,
-    })),
-  ]);
+  const hadithRoutes: MetadataRoute.Sitemap = HADITH_COLLECTION_SLUGS.map((slug) => ({
+    url: `${SITE_CONFIG.url}/hadith/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
 
   return [
     {

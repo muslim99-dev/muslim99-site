@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@fontsource/amiri": "^5.2.8",
+    "@fontsource/amiri-quran": "^5.3.0",
+    "@fontsource/noto-nastaliq-urdu": "^5.3.0",
     "@fontsource/outfit": "^5.2.8",
     "adhan": "^4.4.4",
     "clsx": "^2.1.1",

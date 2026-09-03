@@ -31,6 +31,26 @@ export interface BookSummary {
 export interface Chapter {
   number: number;
   name: string;
+  // A second-language title shown alongside `name` — English when the
+  // edition's own language is Urdu, or Urdu when it's English/Arabic.
+  secondaryName: string | null;
+  bookNumber: number;
+  totalHadiths: number;
+}
+
+// The classical "Kitab" grouping — e.g. Sahih al-Bukhari's "Book of
+// Revelation" — one level above chapters/babs. `number` is unique within a
+// collection and matches `Chapter.bookNumber`.
+export interface BookInfo {
+  number: number;
+  name: string;
+  nativeName: string | null;
+  // Which script/font `nativeName` needs — it can be either Urdu or Arabic
+  // depending on the edition's own language (see pickBookNativeName in the
+  // conversion script).
+  nativeNameLang: "urd" | "ara" | null;
+  totalChapters: number;
+  totalHadiths: number;
 }
 
 export interface HadithGrade {
@@ -59,6 +79,7 @@ export interface Hadith {
 export interface BookEdition {
   language: LanguageCode;
   direction: TextDirection;
+  books: BookInfo[];
   chapters: Chapter[];
   hadiths: Hadith[];
 }

@@ -16,7 +16,7 @@ export default function Hero() {
         style={{ background: "var(--soft)" }}
       />
 
-      <div className="relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-16 px-6 lg:grid-cols-[1.05fr_0.95fr]">
+      <div className="relative mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-16 px-6 lg:grid-cols-[1.05fr_0.95fr]">
         <div>
           <motion.div
             initial={{ opacity: 0, y: 14 }}

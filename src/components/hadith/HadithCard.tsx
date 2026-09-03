@@ -15,6 +15,7 @@ export default function HadithCard({
   chapterNumber,
   direction,
   languageName,
+  language,
 }: {
   hadith: Hadith;
   bookSlug: string;
@@ -23,6 +24,7 @@ export default function HadithCard({
   chapterNumber: number | null;
   direction: TextDirection;
   languageName: string;
+  language: string;
 }) {
   const { isBookmarked, toggleBookmark } = useHadithPreferences();
   const [copied, setCopied] = useState(false);
@@ -121,7 +123,12 @@ export default function HadithCard({
           {narrator}
         </p>
       )}
-      <p dir={direction} lang={direction === "rtl" ? undefined : "en"} className={`mt-2 leading-relaxed ${direction === "rtl" ? "font-arabic text-[19px] leading-[2]" : "text-[15px]"}`} style={{ color: "var(--text)" }}>
+      <p
+        dir={direction}
+        lang={direction === "rtl" ? undefined : "en"}
+        className={`mt-2 leading-relaxed ${direction === "rtl" ? `${language === "urd" ? "font-urdu" : "font-arabic-text"} text-[19px] leading-[2]` : "text-[15px]"}`}
+        style={{ color: "var(--text)" }}
+      >
         {body}
       </p>
 

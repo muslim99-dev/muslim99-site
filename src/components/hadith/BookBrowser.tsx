@@ -21,7 +21,11 @@ export default function BookBrowser({ books }: { books: BookSummary[] }) {
             transition={{ duration: 0.32, delay: i * 0.05 }}
           >
             <Link
-              href={resumeChapter ? `/hadith/${book.slug}/${resumeChapter}` : `/hadith/${book.slug}`}
+              href={
+                resumeChapter
+                  ? `/hadith/${book.slug}/${resumeChapter.bookNumber}/${resumeChapter.chapterNumber}`
+                  : `/hadith/${book.slug}`
+              }
               className="card-surface group relative flex h-full flex-col p-5 transition-transform duration-200 hover:-translate-y-1"
             >
               <div className="flex items-start justify-between gap-3">

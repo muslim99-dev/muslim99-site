@@ -35,16 +35,18 @@ const LEGACY_EXTRA_LANGUAGES = {
   ibnmajah: ["ben", "fra", "ind", "tur"],
 };
 
-// prerender: true keeps a book in generateStaticParams (full build-time SSG,
-// same as today); false renders its chapters on demand at request time
-// instead, to keep `next build` fast for the large newly-added collections.
+// prerender: true would keep a book in generateStaticParams (full
+// build-time SSG); false renders its chapters/hadiths on demand at request
+// time instead. All 18 collections are on-demand — pre-generating the ~13K
+// chapter/hadith pages for just the 6 "major" books was filling the disk
+// during `next build` (4 output files per page: .html/.meta/.rsc/.segments).
 const COLLECTIONS = [
-  { folder: "Sahih Bukhari", slug: "bukhari", name: "Sahih al-Bukhari", author: "Imam Muhammad al-Bukhari", authorYear: "194-256 AH", prerender: true },
-  { folder: "Sahih Muslim", slug: "muslim", name: "Sahih Muslim", author: "Imam Muslim ibn al-Hajjaj", authorYear: "206-261 AH", prerender: true },
-  { folder: "Sunnan Abu Dawood", slug: "abudawud", name: "Sunan Abu Dawud", author: "Imam Abu Dawud as-Sijistani", authorYear: "202-275 AH", prerender: true },
-  { folder: "Jam-e-Tirmazi", slug: "tirmidhi", name: "Jami at-Tirmidhi", author: "Imam Abu Isa at-Tirmidhi", authorYear: "209-279 AH", prerender: true },
-  { folder: "Sunnan Nisai", slug: "nasai", name: "Sunan an-Nasai", author: "Imam Ahmad an-Nasai", authorYear: "215-303 AH", prerender: true },
-  { folder: "Sunnan Ibn e Maja", slug: "ibnmajah", name: "Sunan Ibn Majah", author: "Imam Muhammad ibn Majah", authorYear: "209-273 AH", prerender: true },
+  { folder: "Sahih Bukhari", slug: "bukhari", name: "Sahih al-Bukhari", author: "Imam Muhammad al-Bukhari", authorYear: "194-256 AH", prerender: false },
+  { folder: "Sahih Muslim", slug: "muslim", name: "Sahih Muslim", author: "Imam Muslim ibn al-Hajjaj", authorYear: "206-261 AH", prerender: false },
+  { folder: "Sunnan Abu Dawood", slug: "abudawud", name: "Sunan Abu Dawud", author: "Imam Abu Dawud as-Sijistani", authorYear: "202-275 AH", prerender: false },
+  { folder: "Jam-e-Tirmazi", slug: "tirmidhi", name: "Jami at-Tirmidhi", author: "Imam Abu Isa at-Tirmidhi", authorYear: "209-279 AH", prerender: false },
+  { folder: "Sunnan Nisai", slug: "nasai", name: "Sunan an-Nasai", author: "Imam Ahmad an-Nasai", authorYear: "215-303 AH", prerender: false },
+  { folder: "Sunnan Ibn e Maja", slug: "ibnmajah", name: "Sunan Ibn Majah", author: "Imam Muhammad ibn Majah", authorYear: "209-273 AH", prerender: false },
 
   { folder: "Musnad Ahmad", slug: "musnad-ahmad", name: "Musnad Ahmad", author: "Imam Ahmad ibn Hanbal", authorYear: "164-241 AH", prerender: false },
   { folder: "Muwatta Imam Malik", slug: "muwatta-malik", name: "Muwatta Imam Malik", author: "Imam Malik ibn Anas", authorYear: "93-179 AH", prerender: false },
@@ -84,6 +86,40 @@ function pickChapterName(chap, lang) {
   return chain.find((s) => s && s.trim().length > 0) ?? `Chapter ${chap.number}`;
 }
 
+// Arabic/Urdu share the same script block — some collections mislabel an
+// Arabic chapter caption as "english" when no real translation exists.
+// Treat anything with Arabic-script characters as not-actually-English.
+const ARABIC_SCRIPT = /[؀-ۿ]/;
+
+// English alongside an Urdu (or Arabic) chapter title, or Urdu alongside an
+// English one — whichever the main `name` isn't already showing.
+function pickChapterSecondaryName(chap, lang) {
+  const secondary = lang === "eng" ? chap.urdu : chap.english;
+  if (!secondary || !secondary.trim()) return null;
+  if (lang !== "eng" && ARABIC_SCRIPT.test(secondary)) return null;
+  return secondary.trim();
+}
+
+function pickBookName(book, lang, bookNumber) {
+  const chain = lang === "eng" ? [book.english, book.urdu, book.arabic] : lang === "urd" ? [book.urdu, book.english, book.arabic] : [book.arabic, book.urdu, book.english];
+  return chain.find((s) => s && s.trim().length > 0) ?? `Book ${bookNumber}`;
+}
+
+// A secondary title shown alongside the main one — Urdu for an English-led
+// edition (matching how these classical collections are traditionally
+// presented), or Arabic when the edition's own language is already Urdu.
+// Returns which script it's actually in, since that determines which font
+// (Urdu Nastaliq vs Quranic Arabic) the UI should render it with.
+function pickBookNativeName(book, lang) {
+  const preferredLang = lang === "urd" ? "ara" : "urd";
+  const fallbackLang = lang === "urd" ? "urd" : "ara";
+  const preferred = lang === "urd" ? book.arabic : book.urdu;
+  const fallback = lang === "urd" ? book.urdu : book.arabic;
+  if (preferred && preferred.trim()) return { text: preferred.trim(), lang: preferredLang };
+  if (fallback && fallback.trim()) return { text: fallback.trim(), lang: fallbackLang };
+  return { text: null, lang: null };
+}
+
 function pickHadithText(h, lang) {
   const text = lang === "ara" ? h.arabic_text : lang === "eng" ? h.english_translation : h.urdu_translation;
   if (text && text.trim().length > 0) return text.trim();
@@ -92,15 +128,25 @@ function pickHadithText(h, lang) {
 
 async function convertCollection(col) {
   const collectionRoot = join(EXTRACT_ROOT, col.folder);
-  const books = await listNumbered(join(collectionRoot, "books"), "Book_");
+  const bookDirs = await listNumbered(join(collectionRoot, "books"), "Book_");
 
-  const editions = Object.fromEntries(LANGS.map((l) => [l, { chapters: [], hadiths: [] }]));
+  const editions = Object.fromEntries(LANGS.map((l) => [l, { books: [], chapters: [], hadiths: [] }]));
   const coverage = Object.fromEntries(LANGS.map((l) => [l, 0]));
   let totalHadiths = 0;
 
-  for (const bookEntry of books) {
+  for (const bookEntry of bookDirs) {
     const bookDir = join(collectionRoot, "books", bookEntry.name);
+    let bookJson = {};
+    try {
+      bookJson = JSON.parse(await readFile(join(bookDir, "book.json"), "utf8"));
+    } catch {
+      // missing/unreadable book.json — fall back to numeric-only naming below
+    }
+    const bookNumber = bookJson.number ?? bookEntry.n;
+
     const chapterFiles = await listNumbered(join(bookDir, "chapters"), "chap_", ".json");
+    let bookChapterCount = 0;
+    let bookHadithCount = 0;
 
     for (const chapFile of chapterFiles) {
       let chap;
@@ -110,12 +156,21 @@ async function convertCollection(col) {
         process.stdout.write(`  ! skipped unreadable ${col.folder}/${bookEntry.name}/${chapFile.name}: ${err.message}\n`);
         continue;
       }
-
-      for (const lang of LANGS) {
-        editions[lang].chapters.push({ number: chap.number, name: pickChapterName(chap, lang) });
-      }
+      bookChapterCount++;
 
       const hadiths = Array.isArray(chap.hadiths) ? chap.hadiths : [];
+      bookHadithCount += hadiths.length;
+
+      for (const lang of LANGS) {
+        editions[lang].chapters.push({
+          number: chap.number,
+          name: pickChapterName(chap, lang),
+          secondaryName: pickChapterSecondaryName(chap, lang),
+          bookNumber,
+          totalHadiths: hadiths.length,
+        });
+      }
+
       hadiths.forEach((h, i) => {
         totalHadiths++;
         const hadithNumber = h.hadith_number ?? totalHadiths;
@@ -146,6 +201,18 @@ async function convertCollection(col) {
         }
       });
     }
+
+    for (const lang of LANGS) {
+      const native = pickBookNativeName(bookJson, lang);
+      editions[lang].books.push({
+        number: bookNumber,
+        name: pickBookName(bookJson, lang, bookNumber),
+        nativeName: native.text,
+        nativeNameLang: native.lang,
+        totalChapters: bookChapterCount,
+        totalHadiths: bookHadithCount,
+      });
+    }
   }
 
   // Only keep a language edition (and list it as available) if it has
@@ -161,6 +228,7 @@ async function convertCollection(col) {
     const edition = {
       language: lang,
       direction: LANG_DIRECTION[lang],
+      books: editions[lang].books,
       chapters: editions[lang].chapters,
       hadiths: editions[lang].hadiths,
     };

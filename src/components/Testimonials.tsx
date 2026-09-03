@@ -8,7 +8,7 @@ import { TESTIMONIALS } from "@/lib/data";
 export default function Testimonials() {
   return (
     <section id="reviews" className="relative py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-[1200px] px-6">
         <div className="mx-auto max-w-2xl text-center">
           <Eyebrow>What worshippers say</Eyebrow>
           <h2

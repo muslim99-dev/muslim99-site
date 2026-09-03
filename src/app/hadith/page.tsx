@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { getBooks } from "@/lib/hadith.server";
-import HadithHeader from "@/components/hadith/HadithHeader";
+import Navbar from "@/components/Navbar";
 import BookBrowser from "@/components/hadith/BookBrowser";
-import SearchTriggerButton from "@/components/hadith/SearchTriggerButton";
 import Eyebrow from "@/components/Eyebrow";
 
 export const metadata: Metadata = {
@@ -19,15 +18,15 @@ export default async function HadithIndexPage() {
 
   return (
     <>
-      <HadithHeader />
+      <Navbar />
       <main className="relative min-h-screen pb-24">
         <section className="relative overflow-hidden">
           <div className="pointer-events-none absolute inset-0 geo-lattice opacity-[0.14]" />
-          <div className="relative mx-auto max-w-6xl px-6 pt-14 pb-10 text-center sm:pt-20">
+          <div className="relative mx-auto max-w-[1200px] px-6 pt-32 pb-10 text-center sm:pt-40">
             <div className="flex justify-center">
               <Eyebrow>The words and life of the Prophet ﷺ</Eyebrow>
             </div>
-            <p dir="rtl" className="font-arabic mx-auto mt-6 text-[28px] leading-tight sm:text-[36px]" style={{ color: "var(--soft-text)" }}>
+            <p dir="rtl" className="font-arabic-text mx-auto mt-6 text-[28px] leading-tight sm:text-[36px]" style={{ color: "var(--soft-text)" }}>
               كُتُبُ الْحَدِيْثِ
             </p>
             <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-[2.8rem]" style={{ color: "var(--text)" }}>
@@ -45,12 +44,10 @@ export default async function HadithIndexPage() {
               <Divider />
               <Stat value={String(languageCount)} label="Languages" />
             </div>
-
-            <SearchTriggerButton />
           </div>
         </section>
 
-        <section className="relative mx-auto max-w-6xl px-6">
+        <section className="relative mx-auto max-w-[1200px] px-6">
           <BookBrowser books={books} />
         </section>
       </main>

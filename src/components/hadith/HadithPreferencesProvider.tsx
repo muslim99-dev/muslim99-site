@@ -15,32 +15,33 @@ export interface Bookmark {
 }
 
 interface ReadingPosition {
+  bookNumber: number;
   chapterNumber: number;
   updatedAt: number;
 }
 
 interface Preferences {
-  language: LanguageCode;
   bookmarks: Bookmark[];
   lastRead: Record<string, ReadingPosition>;
+  language: LanguageCode | null;
 }
 
 const DEFAULT_PREFERENCES: Preferences = {
-  language: "eng",
   bookmarks: [],
   lastRead: {},
+  language: null,
 };
 
 interface HadithPreferencesContextValue {
-  language: LanguageCode;
-  setLanguage: (l: LanguageCode) => void;
   bookmarks: Bookmark[];
   isBookmarked: (bookSlug: string, hadithNumber: number) => boolean;
   toggleBookmark: (bookmark: Bookmark) => void;
-  lastReadChapter: (bookSlug: string) => number | null;
-  setLastReadChapter: (bookSlug: string, chapterNumber: number) => void;
-  searchOpen: boolean;
-  setSearchOpen: (open: boolean) => void;
+  lastReadChapter: (bookSlug: string) => { bookNumber: number; chapterNumber: number } | null;
+  setLastReadChapter: (bookSlug: string, bookNumber: number, chapterNumber: number) => void;
+  // null means "use each book's own default language" — only set once the
+  // reader explicitly picks a language from the filter.
+  language: LanguageCode | null;
+  setLanguage: (l: LanguageCode | null) => void;
 }
 
 const HadithPreferencesContext = createContext<HadithPreferencesContextValue | null>(null);
@@ -48,7 +49,6 @@ const HadithPreferencesContext = createContext<HadithPreferencesContextValue | n
 export function HadithPreferencesProvider({ children }: { children: React.ReactNode }) {
   const [prefs, setPrefs] = useState<Preferences>(DEFAULT_PREFERENCES);
   const [hydrated, setHydrated] = useState(false);
-  const [searchOpen, setSearchOpen] = useState(false);
 
   useEffect(() => {
     try {
@@ -71,8 +71,6 @@ export function HadithPreferencesProvider({ children }: { children: React.ReactN
 
   const value = useMemo<HadithPreferencesContextValue>(
     () => ({
-      language: prefs.language,
-      setLanguage: (l) => setPrefs((p) => ({ ...p, language: l })),
       bookmarks: prefs.bookmarks,
       isBookmarked: (bookSlug, hadithNumber) =>
         prefs.bookmarks.some((b) => b.bookSlug === bookSlug && b.hadithNumber === hadithNumber),
@@ -88,16 +86,19 @@ export function HadithPreferencesProvider({ children }: { children: React.ReactN
               : [bookmark, ...p.bookmarks].slice(0, 200),
           };
         }),
-      lastReadChapter: (bookSlug) => prefs.lastRead[bookSlug]?.chapterNumber ?? null,
-      setLastReadChapter: (bookSlug, chapterNumber) =>
+      lastReadChapter: (bookSlug) => {
+        const pos = prefs.lastRead[bookSlug];
+        return pos ? { bookNumber: pos.bookNumber, chapterNumber: pos.chapterNumber } : null;
+      },
+      setLastReadChapter: (bookSlug, bookNumber, chapterNumber) =>
         setPrefs((p) => ({
           ...p,
-          lastRead: { ...p.lastRead, [bookSlug]: { chapterNumber, updatedAt: Date.now() } },
+          lastRead: { ...p.lastRead, [bookSlug]: { bookNumber, chapterNumber, updatedAt: Date.now() } },
         })),
-      searchOpen,
-      setSearchOpen,
+      language: prefs.language,
+      setLanguage: (l) => setPrefs((p) => ({ ...p, language: l })),
     }),
-    [prefs, searchOpen]
+    [prefs]
   );
 
   return <HadithPreferencesContext.Provider value={value}>{children}</HadithPreferencesContext.Provider>;

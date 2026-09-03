@@ -1,12 +1,12 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect } from "react";
 import { useHadithPreferences } from "./HadithPreferencesProvider";
-import { HadithCardSkeleton } from "./Skeletons";
-import { ErrorState, EmptyState } from "./StateViews";
+import { EmptyState } from "./StateViews";
 import HadithCard from "./HadithCard";
 import { BookOpen } from "lucide-react";
-import type { Hadith, HadithLanguage, LanguageCode, TextDirection } from "@/lib/hadith";
+import { useHadithEdition } from "@/lib/useHadithEdition";
+import type { BookEdition, HadithLanguage, LanguageCode } from "@/lib/hadith";
 
 const LANGUAGE_NAMES: Record<string, string> = {
   ara: "Arabic",
@@ -22,88 +22,42 @@ const LANGUAGE_NAMES: Record<string, string> = {
 export default function HadithList({
   bookSlug,
   bookName,
+  bookNumber,
   chapterNumber,
-  initialChapterName,
-  initialHadiths,
-  initialDirection,
+  initialEdition,
   initialLanguage,
   availableLanguages,
 }: {
   bookSlug: string;
   bookName: string;
+  bookNumber: number;
   chapterNumber: number;
-  initialChapterName: string | null;
-  initialHadiths: Hadith[];
-  initialDirection: TextDirection;
+  initialEdition: BookEdition;
   initialLanguage: LanguageCode;
   availableLanguages: HadithLanguage[];
 }) {
-  const { language, setLastReadChapter } = useHadithPreferences();
-  const [hadiths, setHadiths] = useState<Hadith[]>(initialHadiths);
-  const [chapterName, setChapterName] = useState<string | null>(initialChapterName);
-  const [direction, setDirection] = useState<TextDirection>(initialDirection);
-  const [loading, setLoading] = useState(false);
-  const [errored, setErrored] = useState(false);
-  const loadedLangRef = useRef<string>(initialLanguage);
+  const { edition, direction, currentLanguage } = useHadithEdition(bookSlug, initialEdition, initialLanguage, availableLanguages);
+  const chapterInfo = edition.chapters.find((c) => c.number === chapterNumber);
+  const hadiths = edition.hadiths.filter((h) => h.chapterNumber === chapterNumber);
+  const languageName = LANGUAGE_NAMES[currentLanguage] ?? currentLanguage;
 
-  async function load(lang: string) {
-    setLoading(true);
-    setErrored(false);
-    try {
-      const res = await fetch(`/api/hadith/${bookSlug}/${chapterNumber}?lang=${lang}`);
-      if (!res.ok) throw new Error(String(res.status));
-      const data = await res.json();
-      setHadiths(data.hadiths ?? []);
-      setChapterName(data.chapter?.name ?? null);
-      setDirection(data.direction ?? "ltr");
-      loadedLangRef.current = lang;
-    } catch {
-      setErrored(true);
-    } finally {
-      setLoading(false);
-    }
-  }
-
-  useEffect(() => {
-    if (language !== loadedLangRef.current && availableLanguages.some((l) => l.code === language)) load(language);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [language]);
+  const { setLastReadChapter } = useHadithPreferences();
 
   // Remember this as the last-read chapter for "Continue reading".
   useEffect(() => {
-    setLastReadChapter(bookSlug, chapterNumber);
+    setLastReadChapter(bookSlug, bookNumber, chapterNumber);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [bookSlug, chapterNumber]);
-
-  if (loading) {
-    return (
-      <div className="space-y-4">
-        <HadithCardSkeleton />
-        <HadithCardSkeleton />
-        <HadithCardSkeleton />
-      </div>
-    );
-  }
-
-  if (errored) {
-    return <ErrorState onRetry={() => load(language)} />;
-  }
+  }, [bookSlug, bookNumber, chapterNumber]);
 
   if (hadiths.length === 0) {
-    return (
-      <EmptyState
-        icon={BookOpen}
-        title="No hadiths in this chapter"
-        description="This chapter doesn't have hadith text in the selected language yet. Try switching to another language from the header."
-      />
-    );
+    return <EmptyState icon={BookOpen} title="No hadiths in this chapter" description="This chapter doesn't have hadith text yet." />;
   }
 
   return (
     <div className="space-y-4">
-      {chapterName && (
+      {chapterInfo && (
         <h2 dir={direction} className="text-[18px] font-semibold" style={{ color: "var(--text)" }}>
-          {chapterName}
+          {chapterInfo.name}
         </h2>
       )}
       {hadiths.map((h) => (
@@ -112,10 +66,11 @@ export default function HadithList({
           hadith={h}
           bookSlug={bookSlug}
           bookName={bookName}
-          chapterName={chapterName}
+          chapterName={chapterInfo?.name ?? null}
           chapterNumber={chapterNumber}
           direction={direction}
-          languageName={LANGUAGE_NAMES[language] ?? language}
+          languageName={languageName}
+          language={currentLanguage}
         />
       ))}
     </div>

@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getSurah, getSurahIndex } from "@/lib/quran.server";
-import QuranHeader from "@/components/quran/QuranHeader";
+import Navbar from "@/components/Navbar";
 import ContinuousReader from "@/components/quran/ContinuousReader";
+import QariSelector from "@/components/quran/QariSelector";
 
 export async function generateStaticParams() {
   const index = await getSurahIndex();
@@ -34,8 +35,8 @@ export default async function SurahReadPage(props: PageProps<"/quran/[surah]/rea
 
   return (
     <>
-      <QuranHeader backHref={`/quran/${num}`} backLabel="Back to surah" />
-      <main className="min-h-screen">
+      <Navbar backHref={`/quran/${num}`} backLabel="Back to surah" extra={<QariSelector />} />
+      <main className="min-h-screen pt-24 sm:pt-28">
         <ContinuousReader
           data={data}
           prevSurah={prev ? { surahNumber: prev.surahNumber, surahName: prev.surahName } : null}
