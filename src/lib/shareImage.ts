@@ -13,7 +13,7 @@ export interface ShareImageContent {
   // for general Arabic wording like hadith text (that font renders standard
   // Arabic diacritics as broken glyphs outside genuine Quran text).
   primaryScript: "quran" | "arabic";
-  secondaryText?: string | null; // Urdu translation, when present
+  secondaryText?: string | null; // English translation, when present
   reference: string;
 }
 
@@ -141,19 +141,12 @@ export async function generateShareImage(content: ShareImageContent): Promise<Bl
   }
 
   if (content.secondaryText) {
-    cursorY += 16;
-    ctx.strokeStyle = "#e2e8f0";
-    ctx.lineWidth = 1;
-    ctx.beginPath();
-    ctx.moveTo(cardX + 80, cursorY);
-    ctx.lineTo(cardX + cardW - 80, cursorY);
-    ctx.stroke();
-    cursorY += 46;
-
-    ctx.font = "500 32px 'Noto Nastaliq Urdu', serif";
+    cursorY += 24;
+    ctx.direction = "ltr";
+    ctx.font = "italic 500 28px system-ui, -apple-system, sans-serif";
     ctx.fillStyle = "#334155";
-    const secondaryLines = wrapText(ctx, content.secondaryText, maxTextWidth);
-    const secondaryLineHeight = 54;
+    const secondaryLines = wrapText(ctx, `“${content.secondaryText}”`, maxTextWidth);
+    const secondaryLineHeight = 42;
     for (const line of secondaryLines) {
       ctx.fillText(line, SIZE / 2, cursorY);
       cursorY += secondaryLineHeight;

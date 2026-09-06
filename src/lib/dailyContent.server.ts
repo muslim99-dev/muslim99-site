@@ -6,22 +6,12 @@
 import { getSurah } from "./quran.server";
 import { getBook, getBookEdition } from "./hadith.server";
 import { cleanVerseText } from "./quran";
-import { splitNarrator } from "./hadith";
+import { splitNarrator, primaryGrade } from "./hadith";
 
 const TOTAL_SURAHS = 114;
-// Classical Urdu-translated collections — matches the Urdu reading experience
-// of the daily-inspiration card. Rotates across all of them for variety.
-const HADITH_COLLECTIONS = [
-  "mishkat",
-  "musnad-ahmad",
-  "muwatta-malik",
-  "adab-al-mufrad",
-  "mujam-saghir-tabarani",
-  "mustadrak-hakim",
-  "sunan-kubra-bayhaqi",
-  "sunan-darimi",
-  "musannaf-ibn-abi-shaybah",
-] as const;
+// Classical, widely-quoted, English-default collections — good fits for a
+// short daily excerpt. Rotates across both for variety.
+const HADITH_COLLECTIONS = ["bukhari", "muslim"] as const;
 // Keeps the card readable — long, multi-part hadiths don't fit a shareable
 // quote card well.
 const MAX_HADITH_LENGTH = 260;
@@ -34,7 +24,7 @@ function dayOfYear(date: Date): number {
 
 export interface VerseOfDay {
   arabic: string;
-  urdu: string;
+  english: string;
   surahName: string;
   surahNumber: number;
   verseNumber: number;
@@ -42,9 +32,11 @@ export interface VerseOfDay {
 
 export interface HadithOfDay {
   arabic: string | null;
-  text: string;
+  english: string;
   collectionName: string;
+  bookNumber: number | null;
   hadithNumber: number;
+  grade: string | null;
 }
 
 export async function getVerseOfDay(date: Date = new Date()): Promise<VerseOfDay | null> {
@@ -61,7 +53,7 @@ export async function getVerseOfDay(date: Date = new Date()): Promise<VerseOfDay
 
   return {
     arabic: cleanVerseText(verse.verse),
-    urdu: verse.verseUrdu,
+    english: verse.verseEnglish,
     surahName: surah.details.surahName,
     surahNumber: surah.details.surahNumber,
     verseNumber: verse.verseNumber,
@@ -82,8 +74,9 @@ export async function getHadithOfDay(date: Date = new Date()): Promise<HadithOfD
   if (candidates.length === 0) return null;
 
   const pick = candidates[seed % candidates.length];
+  const chapter = edition.chapters.find((c) => c.number === pick.hadith.chapterNumber);
 
-  // Best-effort: pair the same hadith's Arabic wording alongside the Urdu
+  // Best-effort: pair the same hadith's Arabic wording alongside the English
   // translation, matched by hadithNumber. This is the original text as
   // narrated (including the isnad/chain of narrators), not a clean
   // matn-only extract — there's no reliable way to strip the chain
@@ -96,8 +89,10 @@ export async function getHadithOfDay(date: Date = new Date()): Promise<HadithOfD
 
   return {
     arabic,
-    text: pick.body,
+    english: pick.body,
     collectionName: book.name,
+    bookNumber: chapter?.bookNumber ?? null,
     hadithNumber: pick.hadith.hadithNumber,
+    grade: primaryGrade(pick.hadith.grades),
   };
 }

@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
   outputFileTracingExcludes: {
     "*": ["public/quran_data/**", "public/hadith_data/**"],
   },
+  images: {
+    remotePatterns: [{ protocol: "https", hostname: "talhaghauri.vercel.app" }],
+  },
 };
 
 export default nextConfig;

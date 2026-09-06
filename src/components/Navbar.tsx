@@ -11,8 +11,8 @@ import { SITE_CONFIG } from "@/constants/site";
 const LINKS = [
   { href: "/quran", label: "Read Quran" },
   { href: "/hadith", label: "Read Hadith" },
-  { href: "/#screens", label: "Preview" },
   { href: "/#reviews", label: "Reviews" },
+  { href: "/about", label: "About" },
 ];
 
 // The one navbar for the whole site — homepage, Quran, and Hadith pages all

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { BookMarked, Rows3, Mic2, ArrowRight } from "lucide-react";
-import { getSurahIndex } from "@/lib/quran.server";
+import { getSurahIndex, getContentSourceCounts } from "@/lib/quran.server";
 import { RECITATION_VOICES, TRANSLATION_VOICES } from "@/lib/reciters";
 import Navbar from "@/components/Navbar";
 import SurahBrowser from "@/components/quran/SurahBrowser";
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 export default async function QuranIndexPage() {
-  const surahs = await getSurahIndex();
+  const [surahs, contentCounts] = await Promise.all([getSurahIndex(), getContentSourceCounts()]);
 
   const totalVerses = surahs.reduce((sum, s) => sum + s.totalVerses, 0);
 
@@ -40,16 +40,18 @@ export default async function QuranIndexPage() {
               The Holy Quran
             </h1>
             <p className="mx-auto mt-4 max-w-2xl text-[16px] leading-relaxed" style={{ color: "var(--muted)" }}>
-              All {surahs.length} surahs with Arabic, word-by-word meaning, multiple translations,
-              tafseer from renowned scholars, and root-word breakdowns.
+              All {surahs.length} surahs with Arabic, word-by-word meaning and root-word breakdowns,
+              {contentCounts.translations > 0 ? ` ${contentCounts.translations} translations,` : " multiple translations,"}
+              {" "}and tafseer from renowned scholars.
             </p>
 
-            <div className="mx-auto mt-8 flex max-w-md items-center justify-center gap-8">
+            <div className="mx-auto mt-8 grid max-w-2xl grid-cols-3 gap-x-6 gap-y-6 sm:grid-cols-6 sm:gap-x-4">
               <Stat value={String(surahs.length)} label="Surahs" />
-              <Divider />
               <Stat value={totalVerses.toLocaleString()} label="Verses" />
-              <Divider />
-              <Stat value="7+" label="Tafaseer" />
+              <Stat value={String(contentCounts.translations)} label="Translations" />
+              <Stat value={String(contentCounts.tafaseer)} label="Tafaseer" />
+              <Stat value={String(RECITATION_VOICES.length)} label="Qari voices" />
+              <Stat value={String(TRANSLATION_VOICES.length)} label="Translation voices" />
             </div>
           </div>
         </section>
@@ -144,8 +146,4 @@ function Stat({ value, label }: { value: string; label: string }) {
       </p>
     </div>
   );
-}
-
-function Divider() {
-  return <span className="h-8 w-px" style={{ background: "var(--border)" }} />;
 }

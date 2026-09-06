@@ -27,8 +27,18 @@ export default async function BookPage(props: PageProps<"/hadith/[book]">) {
   const book = await getBook(slug);
   if (!book) notFound();
 
-  const defaultEdition = await getBookEdition(slug, book.defaultLanguage);
-  const books = defaultEdition?.books ?? [];
+  const fullEdition = await getBookEdition(slug, book.defaultLanguage);
+  const books = fullEdition?.books ?? [];
+  // This page only ever lists Kitab-level books (BookList reads `.books`
+  // and nothing else) — but `fullEdition` is the entire per-language JSON,
+  // full hadith text and all, which can run 30+ MB for large collections
+  // (Bukhari, Muslim, Fath al-Rabbani, Sunan al-Kubra al-Bayhaqi). Passing
+  // that whole object into the client component would bake all of it into
+  // this static page's payload, blowing past Vercel's ISR fallback size
+  // limit. Strip it down to just what the index actually renders.
+  const defaultEdition = fullEdition
+    ? { language: fullEdition.language, direction: fullEdition.direction, books: fullEdition.books, chapters: [], hadiths: [] }
+    : null;
 
   return (
     <>

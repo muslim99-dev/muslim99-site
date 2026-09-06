@@ -48,6 +48,9 @@ export interface Tafseer {
   name: string;
   author: string;
   text: string;
+  // Absent on a few entries added before this field existed; treat as
+  // unknown/uncategorized rather than assuming a default.
+  language?: string;
 }
 
 export interface RootWord {
