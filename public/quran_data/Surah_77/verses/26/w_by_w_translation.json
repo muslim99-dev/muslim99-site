@@ -1,0 +1,28 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "اَحۡیَآءً",
+        "urdu": "زندوں"
+      },
+      {
+        "arabic": "وَّاَمۡوَاتًا",
+        "urdu": "اور مردوں کو"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "اَحۡیَآءً",
+        "urdu": "زندوں کو"
+      },
+      {
+        "arabic": "وَّاَمۡوَاتًا",
+        "urdu": "اورمردوں کوبھی"
+      }
+    ]
+  }
+]

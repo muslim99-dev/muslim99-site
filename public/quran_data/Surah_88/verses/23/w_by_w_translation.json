@@ -1,0 +1,44 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "اِلَّا",
+        "urdu": "مگر"
+      },
+      {
+        "arabic": "مَنۡ",
+        "urdu": "وہ جس نے"
+      },
+      {
+        "arabic": "تَوَلّٰی",
+        "urdu": "منہ موڑا"
+      },
+      {
+        "arabic": "وَکَفَرَ",
+        "urdu": "اور اس نے انکار کیا"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "اِلَّا",
+        "urdu": "مگر"
+      },
+      {
+        "arabic": "مَنۡ",
+        "urdu": "جس نے"
+      },
+      {
+        "arabic": "تَوَلّٰی",
+        "urdu": "منہ موڑا"
+      },
+      {
+        "arabic": "وَکَفَرَ",
+        "urdu": "اور کفر کیا"
+      }
+    ]
+  }
+]

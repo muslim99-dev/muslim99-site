@@ -1,0 +1,32 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "عَلَی الۡکٰفِرِیۡنَ",
+        "urdu": "کافروں پر"
+      },
+      {
+        "arabic": "غَیۡرُ",
+        "urdu": "نہ ہو گا"
+      },
+      {
+        "arabic": "یَسِیۡرٍ",
+        "urdu": "آسان"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "عَلَی الۡکٰفِرِیۡنَ",
+        "urdu": "کافروں پر"
+      },
+      {
+        "arabic": "غَیۡرُ یَسِیۡرٍ",
+        "urdu": "آسان نہیں"
+      }
+    ]
+  }
+]

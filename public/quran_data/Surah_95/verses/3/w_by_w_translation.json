@@ -1,0 +1,32 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "وَہٰذَا",
+        "urdu": "اور اس"
+      },
+      {
+        "arabic": "الۡبَلَدِ",
+        "urdu": "شہر"
+      },
+      {
+        "arabic": "الۡاَمِیۡنِ",
+        "urdu": "امن والے کی"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "وَہٰذَا الۡبَلَدِ",
+        "urdu": "اور اس شہر کی"
+      },
+      {
+        "arabic": "الۡاَمِیۡنِ",
+        "urdu": "پرامن"
+      }
+    ]
+  }
+]

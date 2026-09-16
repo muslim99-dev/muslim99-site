@@ -1,0 +1,36 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "لَّا",
+        "urdu": "نہ"
+      },
+      {
+        "arabic": "بَارِدٍ",
+        "urdu": "ٹھنڈا"
+      },
+      {
+        "arabic": "وَّلَا",
+        "urdu": "اور نہ"
+      },
+      {
+        "arabic": "کَرِیۡمٍ",
+        "urdu": "عمدہ"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "لَّابَارِدٍ",
+        "urdu": "نہ ٹھنڈا ہے"
+      },
+      {
+        "arabic": "وَّلَا کَرِیۡمٍ",
+        "urdu": "اور نہ باعزت"
+      }
+    ]
+  }
+]

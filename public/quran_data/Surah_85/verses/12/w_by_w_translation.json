@@ -1,0 +1,44 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "اِنَّ",
+        "urdu": "بےشک"
+      },
+      {
+        "arabic": "بَطۡشَ",
+        "urdu": "پکڑ"
+      },
+      {
+        "arabic": "رَبِّکَ",
+        "urdu": "آپ کے رب کی"
+      },
+      {
+        "arabic": "لَشَدِیۡدٌ",
+        "urdu": "البتہ بہت شدید ہے"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "اِنَّ",
+        "urdu": "بلاشبہ"
+      },
+      {
+        "arabic": "بَطۡشَ",
+        "urdu": "پکڑ"
+      },
+      {
+        "arabic": "رَبِّکَ",
+        "urdu": "تیرے رب کی"
+      },
+      {
+        "arabic": "لَشَدِیۡدٌ",
+        "urdu": "یقیناً بڑی سخت ہے"
+      }
+    ]
+  }
+]

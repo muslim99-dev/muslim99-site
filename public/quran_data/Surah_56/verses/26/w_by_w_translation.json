@@ -1,0 +1,44 @@
+[
+  {
+    "translator": "Dr Farhat Hashmi",
+    "words": [
+      {
+        "arabic": "اِلَّا",
+        "urdu": "مگر"
+      },
+      {
+        "arabic": "قِیۡلًا",
+        "urdu": "کہنا"
+      },
+      {
+        "arabic": "سَلٰمًا",
+        "urdu": "سلام"
+      },
+      {
+        "arabic": "سَلٰمًا",
+        "urdu": "سلام"
+      }
+    ]
+  },
+  {
+    "translator": "Nighat Hashmi",
+    "words": [
+      {
+        "arabic": "اِلَّا",
+        "urdu": "سوائے"
+      },
+      {
+        "arabic": "قِیۡلًا",
+        "urdu": "کہنا"
+      },
+      {
+        "arabic": "سَلٰمًا",
+        "urdu": "سلام ہی"
+      },
+      {
+        "arabic": "سَلٰمًا",
+        "urdu": "سلام"
+      }
+    ]
+  }
+]
