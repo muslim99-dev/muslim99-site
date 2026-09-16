@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #F7FCFC;
+  --color-surface: #FFFFFF;
+  --color-primary: #18A5A8;
+  --color-primary-deep: #087D82;
+  --color-teal-dark: #123E40;
+  --color-aqua: #DDF7F5;
+  --color-gold: #C9A646;
+  --color-muted: #5D7475;
+  --color-border: #D8ECEB;
+  --color-text: #0F2A2B;
+}
+
+[data-theme="dark"] {
+  --color-bg: #0D2426;
+  --color-surface: #123E40;
+  --color-primary: #2FC0C3;
+  --color-primary-deep: #18A5A8;
+  --color-teal-dark: #DDF7F5;
+  --color-aqua: #16474A;
+  --color-gold: #D8BC71;
+  --color-muted: #9FC2C2;
+  --color-border: #1B4E51;
+  --color-text: #EAF7F6;
+}
+
+[data-theme="sepia"] {
+  --color-bg: #F6EFDD;
+  --color-surface: #FBF5E7;
+  --color-primary: #8A6A2F;
+  --color-primary-deep: #6B5122;
+  --color-teal-dark: #3B2E15;
+  --color-aqua: #EFE3C4;
+  --color-gold: #A9791E;
+  --color-muted: #7A6A4D;
+  --color-border: #E3D3AA;
+  --color-text: #2E2410;
+}
+
+html,
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+.font-quran {
+  font-family: var(--font-arabic), serif;
+  line-height: 2.6 !important;
+  letter-spacing: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
