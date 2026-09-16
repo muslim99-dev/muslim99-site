@@ -105,6 +105,39 @@ export function ayahAudioUrl(globalAyahNumber: number, reciter: string = "ar.ala
   return `https://cdn.islamic.network/quran/audio/128/${reciter}/${globalAyahNumber}.mp3`;
 }
 
+/** Full-surah recitation audio (one file per surah), via the same CDN. Used
+ * by the reciters list, which covers many more qaris than have per-ayah
+ * files — see RECITERS in lib/reciters.ts. */
+export function surahAudioUrl(surahNumber: number, reciter: string) {
+  return `https://cdn.islamic.network/quran/audio-surah/128/${reciter}/${surahNumber}.mp3`;
+}
+
+export type VerseTiming = { verseKey: string; from: number; to: number };
+
+/**
+ * For the handful of reciters with a `timingRecitationId` (see
+ * lib/reciters.ts), quran.com's backend publishes the exact millisecond
+ * range each verse occupies within the full-surah recording. This is what
+ * lets the reader highlight the live verse for a single continuous audio
+ * file instead of only being able to say "the surah is playing".
+ */
+export async function getSurahTiming(recitationId: number, surahNumber: number) {
+  const res = await fetch(
+    `https://api.qurancdn.com/api/qdc/audio/reciters/${recitationId}/audio_files?chapter=${surahNumber}&segments=true`,
+    { next: { revalidate: 86400 } }
+  );
+  if (!res.ok) throw new Error(`Timing request failed: ${res.status}`);
+  const json = await res.json();
+  const file = json.audio_files?.[0];
+  if (!file) throw new Error("No audio file for this reciter/surah");
+  const timings: VerseTiming[] = (file.verse_timings ?? []).map((t: { verse_key: string; timestamp_from: number; timestamp_to: number }) => ({
+    verseKey: t.verse_key,
+    from: t.timestamp_from,
+    to: t.timestamp_to
+  }));
+  return { audioUrl: file.audio_url as string, timings };
+}
+
 export const TRANSLATION_EDITIONS: { id: string; label: string; language: string }[] = [
   { id: "en.sahih", label: "Saheeh International", language: "English" },
   { id: "ur.jalandhry", label: "Fateh Muhammad Jalandhry", language: "Urdu" },

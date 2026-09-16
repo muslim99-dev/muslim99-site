@@ -3,7 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
-import { ayahAudioUrl, TRANSLATION_EDITIONS } from "@/lib/quranApi";
+import { ayahAudioUrl, surahAudioUrl, getSurahTiming, type VerseTiming, TRANSLATION_EDITIONS } from "@/lib/quranApi";
+import { RECITERS, DEFAULT_RECITER_ID, findReciter } from "@/lib/reciters";
 
 type AyahRow = { numberInSurah: number; globalNumber: number; arabic: string; translation: string };
 
@@ -25,8 +26,21 @@ export default function SurahReaderClient({
   const [playingAyah, setPlayingAyah] = useState<number | null>(null);
   const [autoplay, setAutoplay] = useState(true);
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
+  const [reciterId, setReciterId] = useState(DEFAULT_RECITER_ID);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const { status } = useSession();
+  const reciter = findReciter(reciterId);
+  const timingsRef = useRef<VerseTiming[] | null>(null);
+
+  useEffect(() => {
+    const saved = localStorage.getItem("reciter");
+    if (saved) setReciterId(saved);
+  }, []);
+
+  function changeReciter(id: string) {
+    setReciterId(id);
+    localStorage.setItem("reciter", id);
+  }
 
   useEffect(() => {
     if (status !== "authenticated") return;
@@ -60,11 +74,46 @@ export default function SurahReaderClient({
     });
   }
 
-  function playAyah(globalNumber: number, index: number) {
-    setPlayingAyah(globalNumber);
+  async function playAyah(globalNumber: number, index: number) {
     const audio = audioRef.current;
     if (!audio) return;
-    audio.src = ayahAudioUrl(globalNumber);
+
+    if (reciter.timingRecitationId) {
+      // One continuous file, but we have the exact ms range each verse
+      // occupies in it — so we can seek straight to this verse and keep
+      // the highlight in sync as playback continues (see the timeupdate
+      // listener below), instead of only knowing "the surah is playing".
+      try {
+        if (!timingsRef.current || audio.dataset.timingSurah !== String(surahNumber)) {
+          const { audioUrl, timings } = await getSurahTiming(reciter.timingRecitationId, surahNumber);
+          audio.src = audioUrl;
+          audio.dataset.timingSurah = String(surahNumber);
+          timingsRef.current = timings;
+        }
+        const key = `${surahNumber}:${ayahs[index].numberInSurah}`;
+        const t = timingsRef.current.find((v) => v.verseKey === key);
+        if (t) audio.currentTime = t.from / 1000;
+        setPlayingAyah(globalNumber);
+        audio.play().catch(() => setPlayingAyah(null));
+        audio.onended = () => setPlayingAyah(null);
+      } catch {
+        setPlayingAyah(null);
+      }
+      return;
+    }
+
+    if (reciter.mode === "surah") {
+      // Only one recording exists for this reciter (the whole surah), so
+      // playing "this verse" really means playing the surah from the start.
+      setPlayingAyah(ayahs[0]?.globalNumber ?? globalNumber);
+      audio.src = surahAudioUrl(surahNumber, reciter.id);
+      audio.play().catch(() => setPlayingAyah(null));
+      audio.onended = () => setPlayingAyah(null);
+      return;
+    }
+
+    setPlayingAyah(globalNumber);
+    audio.src = ayahAudioUrl(globalNumber, reciter.id);
     audio.play().catch(() => setPlayingAyah(null));
     audio.onended = () => {
       if (autoplay && index + 1 < ayahs.length) {
@@ -74,6 +123,31 @@ export default function SurahReaderClient({
       }
     };
   }
+
+  // For timed reciters, keep the highlighted verse in sync with actual
+  // playback position instead of only marking it at the moment of seek.
+  useEffect(() => {
+    if (!reciter.timingRecitationId) return;
+    const audio = audioRef.current;
+    if (!audio) return;
+    const onTimeUpdate = () => {
+      const timings = timingsRef.current;
+      if (!timings) return;
+      const ms = audio.currentTime * 1000;
+      const current = timings.find((t) => ms >= t.from && ms < t.to);
+      if (!current) return;
+      const ayah = ayahs.find((a) => `${surahNumber}:${a.numberInSurah}` === current.verseKey);
+      if (ayah) setPlayingAyah(ayah.globalNumber);
+    };
+    audio.addEventListener("timeupdate", onTimeUpdate);
+    return () => audio.removeEventListener("timeupdate", onTimeUpdate);
+  }, [reciter.timingRecitationId, ayahs, surahNumber]);
+
+  // Reset cached timings when the reciter or surah changes so stale data
+  // from a previous selection is never reused.
+  useEffect(() => {
+    timingsRef.current = null;
+  }, [reciterId, surahNumber]);
 
   return (
     <div>
@@ -97,6 +171,18 @@ export default function SurahReaderClient({
           <button onClick={() => setFontSize((s) => Math.min(44, s + 2))} className="h-8 w-8 rounded-full border border-border">
             A+
           </button>
+          <select
+            value={reciterId}
+            onChange={(e) => changeReciter(e.target.value)}
+            className="rounded-full border border-border px-3 py-1.5 bg-white text-xs max-w-[160px]"
+            aria-label="Reciter"
+          >
+            {RECITERS.map((r) => (
+              <option key={r.id} value={r.id}>
+                {r.name}
+              </option>
+            ))}
+          </select>
           <label className="flex items-center gap-1.5 rounded-full border border-border px-3 py-1.5">
             <input type="checkbox" checked={showTranslation} onChange={(e) => setShowTranslation(e.target.checked)} />
             Translation
@@ -109,7 +195,13 @@ export default function SurahReaderClient({
       </div>
 
       <p className="text-[11px] text-muted mt-3">
-        Translation: {TRANSLATION_EDITIONS.find((e) => e.id === editionId)?.label ?? editionId}
+        Translation: {TRANSLATION_EDITIONS.find((e) => e.id === editionId)?.label ?? editionId} · Reciter:{" "}
+        {reciter.name}
+        {reciter.timingRecitationId
+          ? " (full-surah audio, verse-tracked)"
+          : reciter.mode === "surah"
+            ? " (full-surah audio — play starts from the beginning)"
+            : ""}
       </p>
 
       {/* Ayahs */}
