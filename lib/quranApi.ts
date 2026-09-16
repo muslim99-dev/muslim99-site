@@ -53,15 +53,57 @@ export async function getSurahMeta(number: number): Promise<SurahMeta> {
   return data;
 }
 
+/**
+ * A handful of specific, well-known translations (e.g. Dr. Israr Ahmad's
+ * Bayan-ul-Quran) don't exist in alquran.cloud's catalog at all, but do
+ * exist on quran.com's own translation catalog under a numeric resource
+ * id. Those are registered in lib/translations.ts with an id prefixed
+ * "qdc." (e.g. "qdc.158") — this fetches their text from quran.com,
+ * keyed by verse_key so it still aligns exactly with the Arabic ayahs
+ * from alquran.cloud below.
+ */
+async function getQuranComTranslation(resourceId: number, surahNumber: number): Promise<Map<string, string>> {
+  const res = await fetch(
+    `https://api.quran.com/api/v4/quran/translations/${resourceId}?chapter_number=${surahNumber}&fields=verse_key`,
+    { next: { revalidate: 3600 } }
+  );
+  if (!res.ok) throw new Error(`Translation request failed: ${res.status}`);
+  const json = await res.json();
+  const map = new Map<string, string>();
+  for (const t of json.translations ?? []) {
+    // Strip footnote markers like <sup foot_note=...>1</sup> that some
+    // quran.com translations embed inline.
+    map.set(t.verse_key, String(t.text).replace(/<sup[^>]*>.*?<\/sup>/g, "").trim());
+  }
+  return map;
+}
+
+type SurahEdition = { ayahs: Ayah[]; englishName: string; name: string; numberOfAyahs: number; revelationType: string };
+
 /** Arabic (Uthmani script) + one translation edition, aligned by ayah. */
 export async function getSurahWithTranslation(
   number: number,
   translationEdition: string = "en.sahih"
 ) {
-  const data = await getJSON<[{ ayahs: Ayah[]; englishName: string; name: string; numberOfAyahs: number; revelationType: string }, { ayahs: Ayah[] }]>(
-    `${BASE}/surah/${number}/editions/quran-uthmani,${translationEdition}`
-  );
-  const [arabic, translation] = data;
+  const qdcMatch = translationEdition.match(/^qdc\.(\d+)$/);
+
+  let arabic: SurahEdition;
+  let translationAyahs: Ayah[] | null = null;
+  let qdcMap: Map<string, string> | null = null;
+
+  if (qdcMatch) {
+    [arabic, qdcMap] = await Promise.all([
+      getJSON<SurahEdition>(`${BASE}/surah/${number}/quran-uthmani`),
+      getQuranComTranslation(Number(qdcMatch[1]), number)
+    ]);
+  } else {
+    const data = await getJSON<[SurahEdition, { ayahs: Ayah[] }]>(
+      `${BASE}/surah/${number}/editions/quran-uthmani,${translationEdition}`
+    );
+    [arabic] = data;
+    translationAyahs = data[1].ayahs;
+  }
+
   return {
     number,
     name: arabic.name,
@@ -72,7 +114,7 @@ export async function getSurahWithTranslation(
       numberInSurah: a.numberInSurah,
       globalNumber: a.number,
       arabic: a.text,
-      translation: translation.ayahs[i]?.text ?? ""
+      translation: qdcMap ? (qdcMap.get(`${number}:${a.numberInSurah}`) ?? "") : (translationAyahs?.[i]?.text ?? "")
     }))
   };
 }
@@ -137,13 +179,3 @@ export async function getSurahTiming(recitationId: number, surahNumber: number) 
   }));
   return { audioUrl: file.audio_url as string, timings };
 }
-
-export const TRANSLATION_EDITIONS: { id: string; label: string; language: string }[] = [
-  { id: "en.sahih", label: "Saheeh International", language: "English" },
-  { id: "ur.jalandhry", label: "Fateh Muhammad Jalandhry", language: "Urdu" },
-  { id: "fr.hamidullah", label: "Muhammad Hamidullah", language: "French" },
-  { id: "id.indonesian", label: "Kementerian Agama", language: "Indonesian" },
-  { id: "tr.diyanet", label: "Diyanet İşleri", language: "Turkish" },
-  { id: "bn.bengali", label: "Muhiuddin Khan", language: "Bengali" },
-  { id: "hi.hindi", label: "Suhel Farooq Khan", language: "Hindi" }
-];

@@ -2,9 +2,12 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { useRouter, usePathname } from "next/navigation";
 import { useSession } from "next-auth/react";
-import { ayahAudioUrl, surahAudioUrl, getSurahTiming, type VerseTiming, TRANSLATION_EDITIONS } from "@/lib/quranApi";
+import { ayahAudioUrl, surahAudioUrl, getSurahTiming, type VerseTiming } from "@/lib/quranApi";
 import { RECITERS, DEFAULT_RECITER_ID, findReciter } from "@/lib/reciters";
+import { TRANSLATIONS, findTranslation } from "@/lib/translations";
+import { TRANSLATION_VOICES } from "@/lib/translationVoices";
 
 type AyahRow = { numberInSurah: number; globalNumber: number; arabic: string; translation: string };
 
@@ -27,10 +30,34 @@ export default function SurahReaderClient({
   const [autoplay, setAutoplay] = useState(true);
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
   const [reciterId, setReciterId] = useState(DEFAULT_RECITER_ID);
+  const [translationVoiceId, setTranslationVoiceId] = useState("");
+  const [playingTranslationAyah, setPlayingTranslationAyah] = useState<number | null>(null);
+  const [readWithTranslation, setReadWithTranslation] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const translationAudioRef = useRef<HTMLAudioElement | null>(null);
   const { status } = useSession();
   const reciter = findReciter(reciterId);
   const timingsRef = useRef<VerseTiming[] | null>(null);
+  const router = useRouter();
+  const pathname = usePathname();
+  const translation = findTranslation(editionId);
+  const [langFilter, setLangFilter] = useState(translation.language);
+  const languages = Array.from(new Set(TRANSLATIONS.map((t) => t.language))).sort();
+  const visibleTranslations = TRANSLATIONS.filter((t) => t.language === langFilter);
+
+  function changeTranslation(id: string) {
+    router.push(`${pathname}?translation=${id}`);
+  }
+
+  function changeLangFilter(lang: string) {
+    setLangFilter(lang);
+    const first = TRANSLATIONS.find((t) => t.language === lang);
+    if (first) changeTranslation(first.id);
+  }
+
+  useEffect(() => {
+    setLangFilter(translation.language);
+  }, [translation.language]);
 
   useEffect(() => {
     const saved = localStorage.getItem("reciter");
@@ -116,11 +143,36 @@ export default function SurahReaderClient({
     audio.src = ayahAudioUrl(globalNumber, reciter.id);
     audio.play().catch(() => setPlayingAyah(null));
     audio.onended = () => {
-      if (autoplay && index + 1 < ayahs.length) {
-        playAyah(ayahs[index + 1].globalNumber, index + 1);
+      const goNext = () => {
+        if (autoplay && index + 1 < ayahs.length) {
+          playAyah(ayahs[index + 1].globalNumber, index + 1);
+        } else {
+          setPlayingAyah(null);
+        }
+      };
+      // With the switch on, read the translation narration for this same
+      // verse right after the recitation, then move on — so each verse
+      // plays as: Arabic, then its translation, before the next verse.
+      if (readWithTranslation && translationVoiceId) {
+        playTranslationAyah(globalNumber, goNext);
       } else {
-        setPlayingAyah(null);
+        goNext();
       }
+    };
+  }
+
+  function playTranslationAyah(globalNumber: number, onDone?: () => void) {
+    const audio = translationAudioRef.current;
+    if (!audio || !translationVoiceId) return;
+    setPlayingTranslationAyah(globalNumber);
+    audio.src = ayahAudioUrl(globalNumber, translationVoiceId);
+    audio.play().catch(() => {
+      setPlayingTranslationAyah(null);
+      onDone?.();
+    });
+    audio.onended = () => {
+      setPlayingTranslationAyah(null);
+      onDone?.();
     };
   }
 
@@ -194,9 +246,78 @@ export default function SurahReaderClient({
         </div>
       </div>
 
+      {/* Translation language + translator — its own section, separate from
+          the reciter/display controls above, since picking a language first
+          then a translator within it is much easier than one 118-item list. */}
+      <div className="mt-4 flex flex-wrap items-center gap-2 rounded-card border border-border bg-white px-4 py-3">
+        <span className="text-xs font-medium text-teal-dark shrink-0">Translation language</span>
+        <select
+          value={langFilter}
+          onChange={(e) => changeLangFilter(e.target.value)}
+          className="rounded-full border border-border px-3 py-1.5 bg-white text-xs"
+          aria-label="Translation language"
+        >
+          {languages.map((lang) => (
+            <option key={lang} value={lang}>
+              {lang}
+            </option>
+          ))}
+        </select>
+        <select
+          value={editionId}
+          onChange={(e) => changeTranslation(e.target.value)}
+          className="rounded-full border border-border px-3 py-1.5 bg-white text-xs flex-1 min-w-[180px]"
+          aria-label="Translator"
+        >
+          {visibleTranslations.map((t) => (
+            <option key={t.id} value={t.id}>
+              {t.author}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      {/* Translation audio — a small, honestly-scoped set: pre-recorded
+          narration of a translation's meaning (not Quran recitation) is
+          genuinely rare content, verified working for only these 5. */}
+      <div className="mt-3 flex flex-wrap items-center gap-2 rounded-card border border-border bg-white px-4 py-3">
+        <span className="text-xs font-medium text-teal-dark shrink-0">Translation audio</span>
+        <select
+          value={translationVoiceId}
+          onChange={(e) => setTranslationVoiceId(e.target.value)}
+          className="rounded-full border border-border px-3 py-1.5 bg-white text-xs"
+          aria-label="Translation audio narrator"
+        >
+          <option value="">None</option>
+          {TRANSLATION_VOICES.map((v) => (
+            <option key={v.id} value={v.id}>
+              {v.language} — {v.narrator}
+            </option>
+          ))}
+        </select>
+        {translationVoiceId && reciter.mode === "ayah" && (
+          <label className="flex items-center gap-1.5 rounded-full border border-border px-3 py-1.5 text-xs">
+            <input
+              type="checkbox"
+              checked={readWithTranslation}
+              onChange={(e) => setReadWithTranslation(e.target.checked)}
+            />
+            Play translation after each verse
+          </label>
+        )}
+        {translationVoiceId && reciter.mode !== "ayah" && (
+          <span className="text-[11px] text-muted">
+            Tap the speaker icon on a verse to hear it narrated. (Auto-chaining after each verse needs a reciter with
+            exact per-verse audio — the current one only has full-surah audio.)
+          </span>
+        )}
+        {translationVoiceId && reciter.mode === "ayah" && !readWithTranslation && (
+          <span className="text-[11px] text-muted">Or tap the speaker icon on a verse to hear it on its own.</span>
+        )}
+      </div>
+
       <p className="text-[11px] text-muted mt-3">
-        Translation: {TRANSLATION_EDITIONS.find((e) => e.id === editionId)?.label ?? editionId} · Reciter:{" "}
-        {reciter.name}
+        Translation: {translation.author} ({translation.language}) · Reciter: {reciter.name}
         {reciter.timingRecitationId
           ? " (full-surah audio, verse-tracked)"
           : reciter.mode === "surah"
@@ -225,6 +346,19 @@ export default function SurahReaderClient({
                 >
                   {playingAyah === a.globalNumber ? <PauseIcon /> : <PlayIcon />}
                 </button>
+                {translationVoiceId && (
+                  <button
+                    aria-label="Play translation narration"
+                    onClick={() =>
+                      playingTranslationAyah === a.globalNumber
+                        ? translationAudioRef.current?.pause()
+                        : playTranslationAyah(a.globalNumber)
+                    }
+                    className="grid h-8 w-8 place-items-center rounded-full hover:bg-aqua"
+                  >
+                    {playingTranslationAyah === a.globalNumber ? <PauseIcon /> : <SpeakerIcon />}
+                  </button>
+                )}
                 <button
                   aria-label="Bookmark ayah"
                   onClick={() => toggleBookmark(a.numberInSurah)}
@@ -248,6 +382,7 @@ export default function SurahReaderClient({
       </div>
 
       <audio ref={audioRef} className="hidden" />
+      <audio ref={translationAudioRef} className="hidden" />
     </div>
   );
 }
@@ -264,6 +399,15 @@ function PauseIcon() {
     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
       <rect x="6" y="5" width="4" height="14" />
       <rect x="14" y="5" width="4" height="14" />
+    </svg>
+  );
+}
+function SpeakerIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+      <path d="M4 9v6h4l5 4V5L8 9H4Z" strokeLinejoin="round" />
+      <path d="M16.5 8.5a5 5 0 0 1 0 7" strokeLinecap="round" />
+      <path d="M19 6a8.5 8.5 0 0 1 0 12" strokeLinecap="round" />
     </svg>
   );
 }
