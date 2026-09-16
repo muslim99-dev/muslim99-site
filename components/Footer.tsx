@@ -10,7 +10,7 @@ const cols = [
 export default function Footer() {
   return (
     <footer className="hidden md:block border-t border-border bg-white">
-      <div className="mx-auto max-w-7xl px-8 py-12 grid grid-cols-2 lg:grid-cols-5 gap-10">
+      <div className="mx-auto max-w-app px-8 py-12 grid grid-cols-2 lg:grid-cols-5 gap-10">
         <div className="col-span-2">
           <div className="flex items-center gap-2.5">
             <Image src="/logo.png" alt="Muslim99" width={34} height={34} className="rounded-lg" />

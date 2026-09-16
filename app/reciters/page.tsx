@@ -16,7 +16,7 @@ export default function RecitersPage() {
   }
 
   return (
-    <div className="mx-auto max-w-4xl px-5 lg:px-8 py-10">
+    <div className="mx-auto max-w-app px-5 lg:px-8 py-10">
       <h1 className="text-2xl sm:text-3xl font-semibold text-teal-dark">Reciters</h1>
       <p className="mt-2 text-sm text-muted">
         {RECITERS.length} reciters, verified against the audio source. Reciters marked{" "}
@@ -24,7 +24,7 @@ export default function RecitersPage() {
         surah with that reciter's voice, since that's the only recording that exists for them. Recordings are
         served from the Islamic Network audio CDN with the reciter's name shown on every play.
       </p>
-      <div className="mt-8 grid sm:grid-cols-2 gap-4">
+      <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {RECITERS.map((r) => (
           <div
             key={r.id}

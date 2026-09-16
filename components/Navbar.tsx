@@ -9,13 +9,14 @@ const links = [
   { href: "/prayer-times", label: "Prayer Times" },
   { href: "/qibla", label: "Qibla" },
   { href: "/calendar", label: "Calendar" },
-  { href: "/duas", label: "Duas" }
+  { href: "/duas", label: "Duas" },
+  { href: "/ask", label: "Ask" }
 ];
 
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-white/90 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 lg:px-8">
+      <div className="mx-auto flex h-16 max-w-app items-center justify-between px-5 lg:px-8">
         <Link href="/" className="flex items-center gap-2.5 shrink-0">
           <Image src="/logo.png" alt="Muslim99" width={36} height={36} className="rounded-lg" />
           <span className="text-lg font-semibold text-teal-dark">Muslim99</span>

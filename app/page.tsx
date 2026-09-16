@@ -25,7 +25,7 @@ export default function Home() {
     <div>
       {/* HERO */}
       <section className="relative overflow-hidden bg-gradient-to-b from-aqua/70 to-bg">
-        <div className="mx-auto max-w-7xl px-5 lg:px-8 pt-14 pb-20 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="mx-auto max-w-app px-5 lg:px-8 pt-14 pb-20 grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <Image src="/logo.png" alt="Muslim99" width={56} height={56} className="rounded-2xl" />
             <h1 className="mt-6 text-4xl sm:text-5xl font-semibold leading-[1.1] text-teal-dark">
@@ -61,7 +61,7 @@ export default function Home() {
       </section>
 
       {/* FEATURES */}
-      <section className="mx-auto max-w-7xl px-5 lg:px-8 py-20">
+      <section className="mx-auto max-w-app px-5 lg:px-8 py-20">
         <h2 className="text-2xl sm:text-3xl font-semibold text-teal-dark">Everything for your daily practice</h2>
         <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {features.map((f) => (
@@ -82,7 +82,7 @@ export default function Home() {
 
       {/* QURAN SECTION */}
       <section className="bg-white border-y border-border">
-        <div className="mx-auto max-w-7xl px-5 lg:px-8 py-20 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="mx-auto max-w-app px-5 lg:px-8 py-20 grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-2xl sm:text-3xl font-semibold text-teal-dark">Read. Listen. Understand.</h2>
             <p className="mt-4 text-muted leading-relaxed max-w-md">
@@ -103,7 +103,7 @@ export default function Home() {
       </section>
 
       {/* AUDIO / RECITERS */}
-      <section className="mx-auto max-w-7xl px-5 lg:px-8 py-20">
+      <section className="mx-auto max-w-app px-5 lg:px-8 py-20">
         <h2 className="text-2xl sm:text-3xl font-semibold text-teal-dark">Listen to the Quran, ayah by ayah</h2>
         <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {reciters.map((r) => (

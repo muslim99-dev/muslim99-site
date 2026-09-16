@@ -1,0 +1,27 @@
+npm notice run muslim99@0.1.0 dev
+npm notice run next dev
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 2.4s
+ ○ Compiling /tafsir/[surah] ...
+ ✓ Compiled / in 6s (661 modules)
+ GET /tafsir/1 200 in 6443ms
+ GET / 200 in 1354ms
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 679ms (581 modules)
+ GET /api/auth/session 200 in 1947ms
+ GET /api/auth/session 200 in 13ms
+ ✓ Compiled /quran in 163ms (900 modules)
+ ✓ Compiled /quran/[surah] in 269ms (916 modules)
+   Reload env: .env.local
+ ✓ Compiled in 163ms (658 modules)
+ ✓ Compiled in 87ms (334 modules)
+ ✓ Compiled in 105ms (334 modules)
+ ✓ Compiled in 139ms (672 modules)
+ ✓ Compiled in 85ms (334 modules)
+ ✓ Compiled in 104ms (334 modules)
+ ✓ Compiled in 104ms (658 modules)
+ ✓ Compiled in 289ms (672 modules)

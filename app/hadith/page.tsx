@@ -23,13 +23,13 @@ export default async function HadithPage() {
   }
 
   return (
-    <div className="mx-auto max-w-4xl px-5 lg:px-0 py-10">
+    <div className="mx-auto max-w-app px-5 lg:px-8 py-10">
       <h1 className="text-2xl sm:text-3xl font-semibold text-teal-dark">Hadith</h1>
       <p className="mt-2 text-sm text-muted">
         {books.length} classical collections, each available in multiple languages. Every narration carries its
         reference and grading where the source provides one.
       </p>
-      <div className="mt-8 grid sm:grid-cols-2 gap-4">
+      <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {books.map((book) => {
           const languages = Array.from(new Set(book.editions.map(editionLabel)));
           return (

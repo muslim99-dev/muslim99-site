@@ -23,6 +23,9 @@ const config: Config = {
       borderRadius: {
         card: "20px"
       },
+      maxWidth: {
+        app: "1300px"
+      },
       boxShadow: {
         card: "0 8px 30px -12px rgba(18, 62, 64, 0.18)"
       }
