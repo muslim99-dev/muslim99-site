@@ -1,17 +1,18 @@
 import Link from "next/link";
-import { getHadithBooks, editionLabel } from "@/lib/hadith";
+import { getCollections, getCollectionLanguages } from "@/lib/hadith";
+import HadithSearchBox from "@/components/HadithSearchBox";
 
 export const metadata = { title: "Hadith — Muslim99" };
 
 export default async function HadithPage() {
-  let books;
+  let collections;
   try {
-    books = await getHadithBooks();
+    collections = await getCollections();
   } catch {
-    books = null;
+    collections = null;
   }
 
-  if (!books) {
+  if (!collections) {
     return (
       <div className="mx-auto max-w-2xl px-5 py-16 text-center">
         <div className="rounded-card border border-border bg-white p-10">
@@ -22,27 +23,46 @@ export default async function HadithPage() {
     );
   }
 
+  const totalHadiths = collections.reduce((sum, c) => sum + c.total_hadiths, 0);
+  const languagesBySlug = new Map(
+    await Promise.all(collections.map(async (c) => [c.slug, await getCollectionLanguages(c.slug)] as const))
+  );
+
   return (
     <div className="mx-auto max-w-app px-5 lg:px-8 py-10">
       <h1 className="text-2xl sm:text-3xl font-semibold text-teal-dark">Hadith</h1>
       <p className="mt-2 text-sm text-muted">
-        {books.length} classical collections, each available in multiple languages. Every narration carries its
-        reference and grading where the source provides one.
+        {collections.length} classical collections, {totalHadiths.toLocaleString()} hadiths total. Every collection
+        has Arabic text and Urdu translation; some also include an English translation, shown on each card below.
       </p>
+
+      <div className="mt-6">
+        <HadithSearchBox mode="hadiths" placeholder="Search hadith text across all 18 collections…" />
+      </div>
+
       <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {books.map((book) => {
-          const languages = Array.from(new Set(book.editions.map(editionLabel)));
-          return (
-            <Link
-              key={book.slug}
-              href={`/hadith/${book.slug}`}
-              className="rounded-card border border-border bg-white p-5 transition-transform hover:-translate-y-0.5"
-            >
-              <p className="font-medium text-teal-dark">{book.name}</p>
-              <p className="mt-1.5 text-xs text-muted">{languages.length} languages: {languages.join(", ")}</p>
-            </Link>
-          );
-        })}
+        {collections.map((c) => (
+          <Link
+            key={c.slug}
+            href={`/hadith/${c.slug}`}
+            className="rounded-card border border-border bg-white p-5 transition-transform hover:-translate-y-0.5"
+          >
+            <p className="font-medium text-teal-dark">{c.name}</p>
+            {c.name_urdu && (
+              <p dir="rtl" className="mt-1 text-sm text-muted font-urdu">
+                {c.name_urdu}
+              </p>
+            )}
+            <p className="mt-1.5 text-xs text-muted">
+              {c.total_hadiths.toLocaleString()} hadiths · {c.total_books} books
+            </p>
+            {(languagesBySlug.get(c.slug)?.length ?? 0) > 0 && (
+              <p className="mt-1.5 text-[11px] text-primary-deep">
+                {languagesBySlug.get(c.slug)!.join(" · ")}
+              </p>
+            )}
+          </Link>
+        ))}
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { searchQuran, attachTafsir, searchHadith } from "@/lib/rag";
 import { askGroq } from "@/lib/groq";
 import { TAFSIRS } from "@/lib/tafsir";
-import { getHadithBooks } from "@/lib/hadith";
+import { getCollections } from "@/lib/hadith";
 import { TRANSLATIONS } from "@/lib/translations";
 import { RECITERS } from "@/lib/reciters";
 import { TRANSLATION_VOICES } from "@/lib/translationVoices";
@@ -50,10 +50,10 @@ export async function POST(req: NextRequest) {
 
   const tafsirLibrary = TAFSIRS.map((t) => `${t.name} — ${t.author}`).join("; ");
 
-  let hadithLibrary = "(couldn't load the hadith book list right now)";
+  let hadithLibrary = "(couldn't load the hadith collection list right now)";
   try {
-    const books = await getHadithBooks();
-    hadithLibrary = books.map((b) => b.name).join(", ");
+    const collections = await getCollections();
+    hadithLibrary = collections.map((c) => c.name).join(", ");
   } catch {
     // keep the fallback string
   }
@@ -156,7 +156,7 @@ CRITICAL — never guess at facts you cannot verify, especially book titles, aut
 
 This app's own tafsir library (the only tafsir commentary this app actually provides, each independently verified for public-domain/safe licensing status) is: ${tafsirLibrary}. If asked whether a specific tafsir book is available here, or to identify its author, check against this exact list — if it's not on the list, say this app doesn't currently provide it and that you don't have independently verified authorship details to share, rather than inventing an author name.
 
-This app's Hadith library (real collections it actually provides, each in multiple languages) is: ${hadithLibrary}. This is real data the app has — never claim the app has "no hadith data" or "no specific data about hadith books" when these collections do exist; if asked whether a hadith book is available, check this list and say yes/no accurately. A live keyword search of Sahih al-Bukhari and Sahih Muslim's actual text (see the retrieved hadiths below) runs for every question, so when it finds real matches, cite and use them — but if nothing relevant was retrieved for this specific question, don't invent a hadith's wording or grading; say so and suggest the user browse the app's Hadith section (which also has 8 more collections beyond these two) for the exact text.
+This app's Hadith library (real collections it actually provides, each with Arabic text, English translation, multiple Urdu translator variants, and grading) is: ${hadithLibrary}. This is real data the app has — never claim the app has "no hadith data" when these collections do exist; if asked whether a hadith book is available, check this list and say yes/no accurately. A live keyword search across Sahih al-Bukhari, Sahih Muslim, Jami at-Tirmidhi, and Sunan Abu Dawud's actual text (see the retrieved hadiths below) runs for every question, so when it finds real matches, cite and use them — but if nothing relevant was retrieved for this specific question, don't invent a hadith's wording or grading; say so and suggest the user browse the app's Hadith section (which has all 18 collections) for the exact text.
 
 This app also provides many Quran translations (many languages, with translator attribution), many reciters/qaris for audio, and a handful of separate translation-narration audio voices. You don't have the full lists of those memorized in this conversation, so for a specific one: ${matchedSourceInfo ?? "no specific one was confirmed as available for this question — say you're not certain rather than guessing whether it's available."} Never invent whether a specific translation, reciter, or narration voice exists — only state it's available if told so above, and otherwise say you're not sure and suggest checking the app's Quran/Reciters pages directly.
 

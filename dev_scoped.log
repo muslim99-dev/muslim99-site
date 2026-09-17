@@ -1,0 +1,27 @@
+npm notice run muslim99@0.1.0 dev
+npm notice run next dev
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 2s
+ ✓ Compiled /api/hadith-search in 271ms (57 modules)
+ GET /api/hadith-search?q=revelation&collection=sahih-bukhari&mode=books 200 in 929ms
+ GET /api/hadith-search?q=3&collection=sahih-bukhari&book=1&mode=chapters 200 in 14ms
+ GET /api/hadith-search?q=intention&collection=sahih-bukhari&book=1&chapter=1&mode=hadiths 200 in 734ms
+ ○ Compiling /hadith/[book] ...
+ ✓ Compiled /hadith/[book] in 3.2s (683 modules)
+ GET /hadith/sahih-bukhari 200 in 3700ms
+ ○ Compiling /hadith/[book]/[bookNum] ...
+ ✓ Compiled /hadith/[book]/[bookNum] in 1336ms (685 modules)
+ GET /hadith/sahih-bukhari/1 200 in 1640ms
+ ✓ Compiled /hadith/[book]/[bookNum]/[chapter] in 165ms (678 modules)
+ GET /hadith/sahih-bukhari/1/1 200 in 456ms
+ ✓ Compiled in 26ms
+ ✓ Compiled in 171ms (326 modules)
+ ✓ Compiled in 103ms (326 modules)
+ ✓ Compiled in 96ms (326 modules)
+ ✓ Compiled in 130ms (326 modules)
+ ✓ Compiled in 106ms (326 modules)
+ ✓ Compiled in 112ms (326 modules)

@@ -136,38 +136,55 @@ export type RetrievedHadith = {
 };
 
 /**
- * Real hadith retrieval: unlike the Quran, there's no hosted search API for
- * this dataset, so the actual book JSON (already used by the site's /hadith
- * pages — see lib/hadith.ts) is fetched and searched locally by keyword.
- * Limited to Bukhari and Muslim by default (the two largest, most commonly
- * asked-about collections) to keep latency reasonable — searching all 10
- * books' full text on every question would be slow.
+ * Real hadith retrieval using the live hadith API's own /api/search
+ * endpoint — a genuine keyword search across a collection's actual text
+ * (Arabic/Urdu/English), not a local fetch-and-filter. Searches the most
+ * commonly asked-about collections in parallel; a real full-text search
+ * across all 18 on every question would be needlessly slow.
  */
 export async function searchHadith(
   question: string,
   limit = 4,
-  bookSlugs: string[] = ["bukhari", "muslim"]
+  collectionSlugs: string[] = ["sahih-bukhari", "sahih-muslim", "jam-e-tirmazi", "sunnan-abu-dawood"]
 ): Promise<RetrievedHadith[]> {
-  const { getHadithBook, getHadithEdition } = await import("./hadith");
+  const { getCollection, searchCollection, getChapter } = await import("./hadith");
   const terms = extractSearchTerms(question);
   if (terms.length === 0) return [];
+  // The search endpoint matches a single literal query, not multi-term OR —
+  // same lesson learned from the Quran search — so use the single most
+  // specific (longest) extracted term.
+  const query = terms.sort((a, b) => b.length - a.length)[0];
 
   const results = await Promise.all(
-    bookSlugs.map(async (slug) => {
+    collectionSlugs.map(async (slug) => {
       try {
-        const book = await getHadithBook(slug);
-        const englishEdition = book?.editions.find((e) => e.language === "English");
-        if (!englishEdition) return [];
-        const edition = await getHadithEdition(englishEdition.name);
-        return edition.hadiths
-          .filter((h) => terms.some((t) => h.text.toLowerCase().includes(t)))
-          .slice(0, limit)
-          .map((h) => ({
-            bookName: book!.name,
-            bookSlug: slug,
-            hadithnumber: h.hadithnumber,
-            text: h.text.length > 400 ? h.text.slice(0, 400) + "…" : h.text
-          }));
+        const [collection, hits] = await Promise.all([getCollection(slug), searchCollection(slug, query, { limit })]);
+        if (!collection) return [];
+        // The search endpoint only returns a snippet + location, not the
+        // full hadith fields — fetch the actual chapter for full text.
+        const withText = await Promise.all(
+          hits.map(async (hit) => {
+            try {
+              const chapter = await getChapter(slug, hit.book, hit.chapter);
+              const h = chapter.hadiths.find((x) => x.hadith_number === hit.hadith_number);
+              const text = h?.english_translation || hit.snippet;
+              return {
+                bookName: collection.name,
+                bookSlug: slug,
+                hadithnumber: hit.hadith_number,
+                text: text.length > 400 ? text.slice(0, 400) + "…" : text
+              };
+            } catch {
+              return {
+                bookName: collection.name,
+                bookSlug: slug,
+                hadithnumber: hit.hadith_number,
+                text: hit.snippet
+              };
+            }
+          })
+        );
+        return withText;
       } catch {
         return [];
       }

@@ -1,0 +1,64 @@
+npm notice run muslim99@0.1.0 dev
+npm notice run next dev
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 1600ms
+ ○ Compiling /hadith ...
+ ✓ Compiled /hadith in 1724ms (645 modules)
+ GET /hadith 200 in 2838ms
+ ✓ Compiled /hadith/[book] in 327ms (652 modules)
+ GET /hadith/sahih-bukhari 200 in 1695ms
+ ✓ Compiled /hadith/[book]/[bookNum] in 160ms (640 modules)
+ GET /hadith/sahih-bukhari/1 200 in 948ms
+ ✓ Compiled /hadith/[book]/[bookNum]/[chapter] in 270ms (647 modules)
+ GET /hadith/sahih-bukhari/1/1 200 in 813ms
+ GET /hadith/sahih-bukhari/1/1 200 in 69ms
+ GET /hadith/sahih-bukhari/1/1 200 in 33ms
+ GET /hadith/sahih-bukhari/1/1 200 in 60ms
+ ✓ Compiled /api/ask in 147ms (372 modules)
+Failed to set fetch cache https://raw.githubusercontent.com/spa5k/tafsir_api/main/tafsir/ar-tafsir-ibn-kathir/2.json Error: Failed to set Next.js data cache, items over 2MB can not be cached (8407770 bytes)
+    at IncrementalCache.set (D:\code\muslim99-site\node_modules\next\dist\server\lib\incremental-cache\index.js:388:23)
+    at D:\code\muslim99-site\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:54468
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async getTafsirForSurah (webpack-internal:///(rsc)/./lib/tafsir.ts:232:17)
+    at async eval (webpack-internal:///(rsc)/./lib/rag.ts:93:27)
+    at async Promise.all (index 0)
+    at async attachTafsir (webpack-internal:///(rsc)/./lib/rag.ts:91:5)
+    at async POST (webpack-internal:///(rsc)/./app/api/ask/route.ts:53:20)
+    at async D:\code\muslim99-site\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (D:\code\muslim99-site\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (D:\code\muslim99-site\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (D:\code\muslim99-site\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (D:\code\muslim99-site\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\code\muslim99-site\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (D:\code\muslim99-site\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (D:\code\muslim99-site\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\code\muslim99-site\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\code\muslim99-site\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\code\muslim99-site\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\code\muslim99-site\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\code\muslim99-site\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\code\muslim99-site\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\code\muslim99-site\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\code\muslim99-site\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\code\muslim99-site\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\code\muslim99-site\node_modules\next\dist\server\lib\start-server.js:141:13)
+ POST /api/ask 200 in 7847ms
+ ✓ Compiled in 43ms
+ ✓ Compiled in 343ms (325 modules)
+ ✓ Compiled in 134ms (325 modules)
+ ✓ Compiled in 206ms (325 modules)
+ ✓ Compiled in 189ms (325 modules)
+ ✓ Compiled in 109ms (325 modules)
+ ✓ Compiled in 116ms (325 modules)
+ ✓ Compiled in 78ms (325 modules)
+ ✓ Compiled in 103ms (325 modules)
+ ✓ Compiled in 108ms (325 modules)
+ ✓ Compiled in 108ms (325 modules)
+ ✓ Compiled in 118ms (325 modules)
+ ✓ Compiled in 120ms (325 modules)
+ ✓ Compiled in 81ms (325 modules)
+ ✓ Compiled in 92ms (325 modules)
