@@ -1,9 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import type { Chapter, Hadith } from "@/lib/hadith";
 import { GradeBadge } from "@/components/hadith/HadithUI";
+import { useSavedHadith } from "@/components/hadith/useSavedHadith";
+import { saveReadingPosition } from "@/lib/hadithHistory";
+import type { HadithLocation, SavedKind } from "@/lib/hadithRefs";
 
 type Lang = "arabic" | "english" | "urdu";
 const ARABIC_SIZES = ["text-xl", "text-2xl", "text-[1.7rem]", "text-[2rem]"];
@@ -23,22 +26,69 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
   );
 }
 
+function BookmarkIcon({ filled }: { filled: boolean }) {
+  return (
+    <svg viewBox="0 0 24 24" className="h-4 w-4" fill={filled ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2" strokeLinejoin="round">
+      <path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1z" />
+    </svg>
+  );
+}
+
+function HeartIcon({ filled }: { filled: boolean }) {
+  return (
+    <svg viewBox="0 0 24 24" className="h-4 w-4" fill={filled ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2" strokeLinejoin="round">
+      <path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.8 3.6 4.5 7 4.5c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 3.4 0 5.5 3.3 4.3 6.6-1.8 4.8-9.3 9.4-9.3 9.4z" />
+    </svg>
+  );
+}
+
+function SaveButton({
+  active,
+  onClick,
+  kind
+}: {
+  active: boolean;
+  onClick: () => void;
+  kind: SavedKind;
+}) {
+  const label = kind === "bookmark" ? (active ? "Remove bookmark" : "Bookmark") : active ? "Remove from favourites" : "Add to favourites";
+  const activeStyle = kind === "bookmark" ? "border-primary bg-aqua text-primary-deep" : "border-rose-200 bg-rose-50 text-rose-600";
+  return (
+    <button
+      onClick={onClick}
+      aria-pressed={active}
+      aria-label={label}
+      title={label}
+      className={`grid h-7 w-7 place-items-center rounded-full border transition-colors ${
+        active ? activeStyle : "border-border text-muted hover:border-primary hover:text-primary-deep"
+      }`}
+    >
+      {kind === "bookmark" ? <BookmarkIcon filled={active} /> : <HeartIcon filled={active} />}
+    </button>
+  );
+}
+
 function HadithCard({
   h,
+  loc,
   collectionName,
   show,
   arabicSize,
-  highlighted
+  highlighted,
+  isSaved,
+  onToggle
 }: {
   h: Hadith;
+  loc: HadithLocation;
   collectionName: string;
   show: Record<Lang, boolean>;
   arabicSize: string;
   highlighted: boolean;
+  isSaved: (loc: HadithLocation, kind: SavedKind) => boolean;
+  onToggle: (loc: HadithLocation, kind: SavedKind) => void;
 }) {
   const [copied, setCopied] = useState<"text" | "link" | null>(null);
   const ref = referenceLabel(h);
-  const variants = h.urdu_translations?.filter((t) => t.text && t.text.trim() !== h.urdu_translation?.trim()) ?? [];
 
   async function copy(kind: "text" | "link") {
     const url = `${window.location.origin}${window.location.pathname}?hadith=${h.hadith_number}`;
@@ -60,6 +110,7 @@ function HadithCard({
   return (
     <article
       id={`hadith-${h.hadith_number}`}
+      data-hadith={h.hadith_number}
       className={`scroll-mt-28 overflow-hidden rounded-card border bg-white transition-shadow ${
         highlighted ? "border-primary ring-4 ring-primary/15 shadow-card" : "border-border hover:shadow-card"
       }`}
@@ -76,8 +127,10 @@ function HadithCard({
             {ref && <p className="text-[11px] text-muted">{ref}</p>}
           </div>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           <GradeBadge status={h.status} />
+          <SaveButton kind="bookmark" active={isSaved(loc, "bookmark")} onClick={() => onToggle(loc, "bookmark")} />
+          <SaveButton kind="favourite" active={isSaved(loc, "favourite")} onClick={() => onToggle(loc, "favourite")} />
           <button
             onClick={() => copy("text")}
             className="rounded-full border border-border px-3 py-1 text-[11px] font-medium text-muted transition-colors hover:border-primary hover:text-primary-deep"
@@ -115,50 +168,6 @@ function HadithCard({
             </p>
           </div>
         )}
-
-        {(show.urdu && variants.length > 0) || h.explanation ? (
-          <div className="space-y-2 border-t border-border pt-4">
-            {show.urdu && variants.length > 0 && (
-              <details className="group rounded-2xl bg-bg/70 open:bg-aqua/30">
-                <summary className="flex cursor-pointer list-none items-center justify-between gap-2 px-4 py-3 text-xs font-medium text-primary-deep">
-                  <span>
-                    {variants.length} other Urdu translation{variants.length > 1 ? "s" : ""}
-                  </span>
-                  <span aria-hidden className="transition-transform group-open:rotate-180">
-                    ▾
-                  </span>
-                </summary>
-                <div className="space-y-5 px-4 pb-4">
-                  {variants.map((t, i) => (
-                    <div key={i}>
-                      <p dir="rtl" className="text-right font-urdu text-xs leading-[2] text-gold">
-                        {t.translator}
-                      </p>
-                      <p dir="rtl" lang="ur" className="mt-1 whitespace-pre-line text-right font-urdu text-[15px] leading-[2.3] text-muted">
-                        {t.text}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-              </details>
-            )}
-            {h.explanation && (
-              <details className="group rounded-2xl bg-bg/70 open:bg-aqua/30">
-                <summary className="flex cursor-pointer list-none items-center justify-between gap-2 px-4 py-3 text-xs font-medium text-primary-deep">
-                  <span>
-                    Explanation · <span className="font-urdu">تشریح</span>
-                  </span>
-                  <span aria-hidden className="transition-transform group-open:rotate-180">
-                    ▾
-                  </span>
-                </summary>
-                <p dir="rtl" lang="ur" className="whitespace-pre-line px-4 pb-4 text-right font-urdu text-[15px] leading-[2.3] text-muted">
-                  {h.explanation}
-                </p>
-              </details>
-            )}
-          </div>
-        ) : null}
       </div>
     </article>
   );
@@ -174,6 +183,28 @@ export default function HadithChapterView({ chapter, collectionName }: { chapter
   const [sizeIndex, setSizeIndex] = useState(1);
   const searchParams = useSearchParams();
   const targetHadith = searchParams.get("hadith");
+  const { isSaved, toggle: toggleSaved } = useSavedHadith();
+  const listRef = useRef<HTMLDivElement>(null);
+  const chapterTitle = chapter.english || chapter.urdu || chapter.arabic || `Chapter ${chapter.number}`;
+
+  // Continue reading: remember the hadith currently in the upper part of
+  // the screen. Opening a chapter counts as reading its first hadith.
+  useEffect(() => {
+    const first = chapter.hadiths[0];
+    if (!first) return;
+    const record = (hadith: number) =>
+      saveReadingPosition({ slug: chapter.collection, collectionName, book: chapter.book, chapter: chapter.number, hadith, chapterTitle });
+    if (!targetHadith) record(first.hadith_number);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries.filter((e) => e.isIntersecting);
+        if (visible.length) record(Number((visible[0].target as HTMLElement).dataset.hadith));
+      },
+      { rootMargin: "-20% 0px -60% 0px" }
+    );
+    listRef.current?.querySelectorAll("[data-hadith]").forEach((el) => observer.observe(el));
+    return () => observer.disconnect();
+  }, [chapter, collectionName, chapterTitle, targetHadith]);
 
   // Reader preferences are a per-visitor convenience — fine if storage is unavailable.
   useEffect(() => {
@@ -252,11 +283,14 @@ export default function HadithChapterView({ chapter, collectionName }: { chapter
         </div>
       </div>
 
-      <div className="mt-6 space-y-5">
+      <div ref={listRef} className="mt-6 space-y-5">
         {chapter.hadiths.map((h, i) => (
           <HadithCard
             key={`${h.hadith_number}-${i}`}
             h={h}
+            loc={{ slug: chapter.collection, book: chapter.book, chapter: chapter.number, hadith: h.hadith_number }}
+            isSaved={isSaved}
+            onToggle={toggleSaved}
             collectionName={collectionName}
             show={show}
             arabicSize={ARABIC_SIZES[sizeIndex]}

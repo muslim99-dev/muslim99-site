@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCollections, type Collection } from "@/lib/hadith";
 import HadithSearchBox from "@/components/HadithSearchBox";
+import ContinueReading from "@/components/hadith/ContinueReading";
 import { ErrorCard, HeroStat, LanguageTags, PageHero } from "@/components/hadith/HadithUI";
 
 export const metadata = { title: "Hadith — Muslim99" };
@@ -90,12 +91,27 @@ export default async function HadithPage() {
         subtitle="Classical hadith collections with the original Arabic, Urdu translations from multiple scholars, English where available, and the grading of each narration."
         arabic="الحديث النبوي الشريف"
       >
-        <div className="grid grid-cols-3 gap-3 sm:max-w-lg">
-          <HeroStat value={collections.length} label="Collections" />
-          <HeroStat value={totalBooks} label="Books" />
-          <HeroStat value={totalHadiths} label="Hadiths" />
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div className="grid grid-cols-3 gap-3 sm:max-w-lg sm:flex-1">
+            <HeroStat value={collections.length} label="Collections" />
+            <HeroStat value={totalBooks} label="Books" />
+            <HeroStat value={totalHadiths} label="Hadiths" />
+          </div>
+          <Link
+            href="/hadith/saved"
+            className="inline-flex items-center justify-center gap-2 self-start rounded-full bg-white px-5 py-2.5 text-sm font-medium text-teal-dark shadow-sm transition-colors hover:bg-aqua sm:self-auto"
+          >
+            <svg aria-hidden viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round">
+              <path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1z" />
+            </svg>
+            My Hadith
+          </Link>
         </div>
       </PageHero>
+
+      <div className="mt-6 empty:hidden">
+        <ContinueReading />
+      </div>
 
       <div className="mt-6">
         <HadithSearchBox mode="hadiths" placeholder={`Search hadith text across all ${collections.length} collections — Arabic, Urdu or English…`} />

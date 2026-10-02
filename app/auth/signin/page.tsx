@@ -22,7 +22,10 @@ export default function SignInPage() {
       setError("Incorrect email or password.");
       return;
     }
-    router.push("/profile");
+    // Return to the page that asked for sign-in (e.g. bookmarking a hadith);
+    // only same-site paths, never an absolute URL.
+    const callbackUrl = new URLSearchParams(window.location.search).get("callbackUrl");
+    router.push(callbackUrl?.startsWith("/") && !callbackUrl.startsWith("//") ? callbackUrl : "/profile");
     router.refresh();
   }
 

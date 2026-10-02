@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCollection, getBooks } from "@/lib/hadith";
 import HadithSearchBox from "@/components/HadithSearchBox";
+import ContinueReading from "@/components/hadith/ContinueReading";
 import { Breadcrumbs, HeroStat, LanguageTags, NumberBadge, PageHero } from "@/components/hadith/HadithUI";
 
 export async function generateMetadata({ params }: { params: { book: string } }) {
@@ -30,6 +31,10 @@ export default async function HadithCollectionPage({ params }: { params: { book:
             <LanguageTags languages={collection.languages} tone="dark" />
           </div>
         </PageHero>
+      </div>
+
+      <div className="mt-6 empty:hidden">
+        <ContinueReading slug={params.book} />
       </div>
 
       <div className="mt-6 grid gap-4 lg:grid-cols-2">

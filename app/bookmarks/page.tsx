@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
+import { hadithHref, locationKey, parseHadithRefId } from "@/lib/hadithRefs";
+import type { HadithPreview } from "@/app/api/hadith-lookup/route";
 
 type Bookmark = { id: string; type: string; refId: string; folder: string; createdAt: string };
 
@@ -18,12 +20,26 @@ export default function BookmarksPage() {
   const { data: session, status } = useSession();
   const [bookmarks, setBookmarks] = useState<Bookmark[] | null>(null);
   const [filter, setFilter] = useState<string>("ALL");
+  const [hadithPreviews, setHadithPreviews] = useState<Record<string, HadithPreview>>({});
 
   useEffect(() => {
     if (status !== "authenticated") return;
     fetch("/api/bookmarks")
       .then((r) => r.json())
-      .then((d) => setBookmarks(d.bookmarks ?? []));
+      .then((d) => {
+        const list: Bookmark[] = d.bookmarks ?? [];
+        setBookmarks(list);
+        const hadithRefs = list.filter((b) => b.type === "HADITH").map((b) => b.refId);
+        if (hadithRefs.length === 0) return;
+        return fetch("/api/hadith-lookup", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ refs: hadithRefs })
+        })
+          .then((r) => r.json())
+          .then((res) => setHadithPreviews(res.previews ?? {}));
+      })
+      .catch(() => {});
   }, [status]);
 
   async function remove(b: Bookmark) {
@@ -80,17 +96,37 @@ export default function BookmarksPage() {
         </div>
       ) : (
         <ul className="mt-6 space-y-3">
-          {filtered.map((b) => (
-            <li key={b.id} className="flex items-center justify-between rounded-card border border-border bg-white p-4">
+          {filtered.map((b) => {
+            const loc = b.type === "HADITH" ? parseHadithRefId(b.refId) : null;
+            const preview = loc ? hadithPreviews[locationKey(loc)] : undefined;
+            return (
+            <li key={b.id} className="flex items-center justify-between gap-4 rounded-card border border-border bg-white p-4">
+              {loc ? (
+                <Link href={hadithHref(loc)} className="min-w-0 group">
+                  <p className="text-xs text-muted">
+                    Hadith · {loc.kind === "favourite" ? "♥ Favourite" : "Bookmark"}
+                  </p>
+                  <p className="font-medium text-teal-dark group-hover:text-primary-deep">
+                    {preview?.collectionName ?? loc.slug} #{loc.hadith}
+                  </p>
+                  {preview?.translation && (
+                    <p dir="auto" className="mt-1 text-sm text-muted line-clamp-2">
+                      {preview.translation}
+                    </p>
+                  )}
+                </Link>
+              ) : (
               <div>
                 <p className="text-xs text-muted">{TYPE_LABEL[b.type] ?? b.type}</p>
                 <p className="font-medium text-teal-dark">{b.refId}</p>
               </div>
-              <button onClick={() => remove(b)} className="text-xs text-muted hover:text-red-600">
+              )}
+              <button onClick={() => remove(b)} className="shrink-0 text-xs text-muted hover:text-red-600">
                 Remove
               </button>
             </li>
-          ))}
+            );
+          })}
         </ul>
       )}
     </div>
