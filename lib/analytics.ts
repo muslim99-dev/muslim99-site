@@ -67,7 +67,7 @@ export function cleanPath(path: unknown) {
   return path.split(/[?#]/)[0].slice(0, 200) || "/";
 }
 
-export const ONLINE_WINDOW_MS = 2 * 60 * 1000; // heartbeat every 30s; 2 minutes of silence = gone
+export const ONLINE_WINDOW_MS = 60 * 1000; // heartbeat every 15s; a minute of silence = gone
 
 export function adminEmails() {
   return (process.env.ADMIN_EMAILS ?? "")

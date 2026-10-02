@@ -50,16 +50,16 @@ model VerificationToken {
 // --- App user + data ---
 
 model User {
-  id             String    @id @default(cuid())
-  name           String?
-  email          String?   @unique
-  emailVerified  DateTime?
-  image          String?
-  passwordHash   String?
-  createdAt      DateTime  @default(now())
+  id            String    @id @default(cuid())
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  passwordHash  String?
+  createdAt     DateTime  @default(now())
 
-  accounts  Account[]
-  sessions  Session[]
+  accounts Account[]
+  sessions Session[]
 
   bookmarks       Bookmark[]
   notes           Note[]
@@ -91,14 +91,14 @@ model Bookmark {
 }
 
 model Note {
-  id        String   @id @default(cuid())
+  id        String       @id @default(cuid())
   userId    String
   refType   BookmarkType
   refId     String
-  content   String   @db.Text
-  tags      String[] @default([])
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  content   String       @db.Text
+  tags      String[]     @default([])
+  createdAt DateTime     @default(now())
+  updatedAt DateTime     @updatedAt
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
@@ -106,22 +106,22 @@ model Note {
 }
 
 model ReadingProgress {
-  id          String   @id @default(cuid())
-  userId      String   @unique
-  surah       Int      @default(1)
-  ayah        Int      @default(1)
-  updatedAt   DateTime @updatedAt
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  surah     Int      @default(1)
+  ayah      Int      @default(1)
+  updatedAt DateTime @updatedAt
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
 model Khatmah {
-  id         String    @id @default(cuid())
-  userId     String
-  startDate  DateTime  @default(now())
-  targetDays Int
-  pagesRead  Int       @default(0)
-  status     String    @default("active") // active | completed | abandoned
+  id          String    @id @default(cuid())
+  userId      String
+  startDate   DateTime  @default(now())
+  targetDays  Int
+  pagesRead   Int       @default(0)
+  status      String    @default("active") // active | completed | abandoned
   completedAt DateTime?
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
@@ -130,12 +130,12 @@ model Khatmah {
 }
 
 model PrayerSettings {
-  id          String @id @default(cuid())
-  userId      String @unique
-  method      Int    @default(2) // Aladhan calculation method id
-  asrMadhhab  String @default("shafii") // "hanafi" | "shafii"
-  format24h   Boolean @default(false)
-  adjustments Json    @default("{}")
+  id            String  @id @default(cuid())
+  userId        String  @unique
+  method        Int     @default(2) // Aladhan calculation method id
+  asrMadhhab    String  @default("shafii") // "hanafi" | "shafii"
+  format24h     Boolean @default(false)
+  adjustments   Json    @default("{}")
   notifyFajr    Boolean @default(true)
   notifyDhuhr   Boolean @default(true)
   notifyAsr     Boolean @default(true)
@@ -148,19 +148,20 @@ model PrayerSettings {
 // --- Traffic analytics (first-party, no IPs or personal data stored) ---
 
 model PageView {
-  id        String   @id @default(cuid())
-  visitorId String // random id kept in the visitor's browser
-  sessionId String // random id per browser tab session
-  path      String
-  section   String // first path segment: "quran", "hadith", "tafsir", ...
-  referrer  String? // referring host, external only
-  country   String? // ISO code from the hosting edge (Vercel)
-  city      String?
-  device    String // mobile | tablet | desktop
-  browser   String
-  os        String
-  userId    String? // set when the visitor is signed in
-  createdAt DateTime @default(now())
+  id         String   @id @default(cuid())
+  visitorId  String // random id kept in the visitor's browser
+  sessionId  String // random id per browser tab session
+  path       String
+  section    String // first path segment: "quran", "hadith", "tafsir", ...
+  referrer   String? // referring host, external only
+  country    String? // ISO code from the hosting edge (Vercel)
+  city       String?
+  device     String // mobile | tablet | desktop
+  browser    String
+  os         String
+  userId     String? // set when the visitor is signed in
+  durationMs Int? // time the page was actually visible, updated by heartbeats and on leave
+  createdAt  DateTime @default(now())
 
   @@index([createdAt])
   @@index([visitorId, createdAt])

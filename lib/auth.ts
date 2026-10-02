@@ -3,6 +3,7 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import bcrypt from "bcryptjs";
 import { prisma } from "@/lib/prisma";
+import { isAdminEmail } from "@/lib/analytics";
 
 export const authOptions: NextAuthOptions = {
   adapter: PrismaAdapter(prisma),
@@ -35,6 +36,8 @@ export const authOptions: NextAuthOptions = {
     async session({ session, token }) {
       if (session.user && token.sub) {
         (session.user as { id?: string }).id = token.sub;
+        // Lets the UI show admin-only links; every admin page/API re-checks on the server.
+        (session.user as { isAdmin?: boolean }).isAdmin = isAdminEmail(session.user.email);
       }
       return session;
     }

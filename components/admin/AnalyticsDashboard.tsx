@@ -1,9 +1,12 @@
 "use client";
 
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
+import dynamic from "next/dynamic";
 import type { AnalyticsData, Range } from "@/lib/analyticsStats";
 
-const REFRESH_MS = 10_000;
+const WorldMap = dynamic(() => import("@/components/admin/WorldMap"), { ssr: false });
+
+const REFRESH_MS = 5_000;
 const RANGES: { key: Range; label: string }[] = [
   { key: "24h", label: "Last 24 hours" },
   { key: "7d", label: "Last 7 days" },
@@ -13,6 +16,13 @@ const RANGES: { key: Range; label: string }[] = [
 // ---------------------------------------------------------------- helpers
 
 const fmt = (v: number) => v.toLocaleString();
+function formatMs(ms: number) {
+  if (!ms) return "0s";
+  const s = Math.round(ms / 1000);
+  if (s < 60) return `${s}s`;
+  const m = Math.floor(s / 60);
+  return m < 60 ? `${m}m ${s % 60}s` : `${Math.floor(m / 60)}h ${m % 60}m`;
+}
 const regionNames = typeof Intl !== "undefined" && "DisplayNames" in Intl ? new Intl.DisplayNames(["en"], { type: "region" }) : null;
 function countryName(code: string) {
   if (!code || code === "Unknown" || code.length !== 2) return "Unknown";
@@ -88,12 +98,14 @@ function useWidth<T extends HTMLElement>() {
   return [ref, width] as const;
 }
 
-function Delta({ now, prev }: { now: number; prev: number }) {
+/** Change vs the previous period; `lowerIsBetter` flips which way is good. */
+function Delta({ now, prev, lowerIsBetter = false }: { now: number; prev: number; lowerIsBetter?: boolean }) {
   if (!prev) return <span className="text-xs text-[var(--viz-muted)]">no previous data</span>;
   const pct = Math.round(((now - prev) / prev) * 100);
   const up = pct >= 0;
+  const good = lowerIsBetter ? !up : up;
   return (
-    <span className={`text-xs font-medium ${up ? "text-[var(--viz-up)]" : "text-[var(--viz-down)]"}`}>
+    <span className={`text-xs font-medium ${good ? "text-[var(--viz-up)]" : "text-[var(--viz-down)]"}`}>
       <span aria-hidden>{up ? "▲" : "▼"}</span> {Math.abs(pct)}% <span className="font-normal text-[var(--viz-muted)]">vs previous</span>
     </span>
   );
@@ -273,12 +285,14 @@ function Ranked({
   rows,
   total,
   label = (s: string) => s,
-  empty = "No data yet"
+  empty = "No data yet",
+  showTime = false
 }: {
-  rows: { label: string; views: number }[];
+  rows: { label: string; views: number; avgMs?: number }[];
   total: number;
   label?: (s: string) => React.ReactNode;
   empty?: string;
+  showTime?: boolean;
 }) {
   if (!rows.length) return <p className="py-6 text-center text-sm text-[var(--viz-muted)]">{empty}</p>;
   const max = Math.max(...rows.map((r) => r.views));
@@ -292,6 +306,7 @@ function Ranked({
             </span>
             <span className="shrink-0 text-[var(--viz-ink-2)]" style={{ fontVariantNumeric: "tabular-nums" }}>
               {fmt(r.views)} <span className="text-[var(--viz-muted)]">· {total ? Math.round((r.views / total) * 100) : 0}%</span>
+              {showTime && <span className="ml-2 inline-block min-w-[3.5rem] text-right text-[var(--viz-muted)]">⏱ {formatMs(r.avgMs ?? 0)}</span>}
             </span>
           </div>
           <div className="mt-1 h-1.5 overflow-hidden rounded-full bg-[var(--viz-track)]">
@@ -305,6 +320,25 @@ function Ranked({
 
 // ---------------------------------------------------------------- dashboard
 
+function Tile({ label, value, children }: { label: React.ReactNode; value: string; children?: React.ReactNode }) {
+  return (
+    <div className="rounded-card border border-[var(--viz-border)] bg-[var(--viz-surface)] p-5">
+      <p className="flex items-center gap-2 text-xs font-medium uppercase tracking-wide text-[var(--viz-muted)]">{label}</p>
+      <p className="mt-2 text-3xl font-semibold text-[var(--viz-ink)]">{value}</p>
+      <div className="mt-1 min-h-[1rem] text-xs">{children}</div>
+    </div>
+  );
+}
+
+function LiveDot() {
+  return (
+    <span className="relative flex h-2.5 w-2.5">
+      <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--viz-live)] opacity-60" />
+      <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-[var(--viz-live)]" />
+    </span>
+  );
+}
+
 export default function AnalyticsDashboard() {
   const [range, setRange] = useState<Range>("24h");
   const [data, setData] = useState<AnalyticsData | null>(null);
@@ -312,6 +346,7 @@ export default function AnalyticsDashboard() {
   const [updatedAt, setUpdatedAt] = useState<number | null>(null);
   const [now, setNow] = useState(Date.now());
   const [showTable, setShowTable] = useState(false);
+  const [mapMode, setMapMode] = useState<"live" | "period">("period");
   const inFlight = useRef(false);
 
   const load = useCallback(async () => {
@@ -332,7 +367,7 @@ export default function AnalyticsDashboard() {
     }
   }, [range]);
 
-  // Initial load + live refresh while the tab is visible.
+  // Initial load + live refresh while the tab is visible (old data stays on screen while refetching).
   useEffect(() => {
     load();
     const timer = setInterval(() => document.visibilityState === "visible" && load(), REFRESH_MS);
@@ -347,6 +382,8 @@ export default function AnalyticsDashboard() {
 
   const rangeLabel = RANGES.find((r) => r.key === range)!.label.toLowerCase();
   const total = data?.current.views ?? 0;
+  const c = data?.current;
+  const p = data?.previous;
 
   return (
     <div className="viz-root">
@@ -368,11 +405,8 @@ export default function AnalyticsDashboard() {
           ))}
         </div>
         <p className="flex items-center gap-2 text-xs text-[var(--viz-muted)]">
-          <span className="relative flex h-2 w-2">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--viz-live)] opacity-60" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--viz-live)]" />
-          </span>
-          Live · {updatedAt ? `updated ${timeAgo(new Date(updatedAt).toISOString(), now)}` : "loading…"} · refreshes every 10s
+          <LiveDot />
+          Live · {updatedAt ? `updated ${timeAgo(new Date(updatedAt).toISOString(), now)}` : "loading…"} · every 5s
           {data && ` · ${data.timeZone}`}
         </p>
       </div>
@@ -383,77 +417,153 @@ export default function AnalyticsDashboard() {
         </p>
       )}
 
-      {!data ? (
+      {!data || !c || !p ? (
         !error && <p className="mt-10 text-center text-sm text-[var(--viz-muted)]">Loading analytics…</p>
       ) : (
         <>
-          {/* Headline numbers */}
-          <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
-            <div className="rounded-card border border-[var(--viz-border)] bg-[var(--viz-surface)] p-5 lg:col-span-1">
-              <p className="flex items-center gap-2 text-xs font-medium uppercase tracking-wide text-[var(--viz-muted)]">
-                <span className="h-2 w-2 rounded-full bg-[var(--viz-live)]" /> Online now
-              </p>
-              <p className="mt-2 text-4xl font-semibold text-[var(--viz-ink)]">{fmt(data.online.count)}</p>
-              <p className="mt-1 text-xs text-[var(--viz-muted)]">active in the last 2 minutes</p>
-            </div>
-            {(
-              [
-                ["Page views", data.current.views, data.previous.views],
-                ["Unique visitors", data.current.visitors, data.previous.visitors],
-                ["Sessions", data.current.sessions, data.previous.sessions]
-              ] as const
-            ).map(([label, v, p]) => (
-              <div key={label} className="rounded-card border border-[var(--viz-border)] bg-[var(--viz-surface)] p-5">
-                <p className="text-xs font-medium uppercase tracking-wide text-[var(--viz-muted)]">{label}</p>
-                <p className="mt-2 text-3xl font-semibold text-[var(--viz-ink)]">{fmt(v)}</p>
-                <p className="mt-1">
-                  <Delta now={v} prev={p} />
+          {/* ---------- Live now ---------- */}
+          <div className="mt-5 grid gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
+            <div className="flex flex-col gap-4">
+              <div className="rounded-card border border-[var(--viz-border)] bg-[var(--viz-surface)] p-5">
+                <p className="flex items-center gap-2 text-xs font-medium uppercase tracking-wide text-[var(--viz-muted)]">
+                  <LiveDot /> Online now
                 </p>
+                <p className="mt-2 text-5xl font-semibold text-[var(--viz-ink)]">{fmt(data.online.count)}</p>
+                <p className="mt-1 text-xs text-[var(--viz-muted)]">visitors active in the last minute</p>
+                {data.online.devices.length > 0 && (
+                  <p className="mt-3 text-xs capitalize text-[var(--viz-ink-2)]">
+                    {data.online.devices.map((d) => `${d.visitors} ${d.label}`).join(" · ")}
+                  </p>
+                )}
               </div>
-            ))}
-            <div className="rounded-card border border-[var(--viz-border)] bg-[var(--viz-surface)] p-5">
-              <p className="text-xs font-medium uppercase tracking-wide text-[var(--viz-muted)]">Pages / session</p>
-              <p className="mt-2 text-3xl font-semibold text-[var(--viz-ink)]">
-                {data.current.sessions ? (data.current.views / data.current.sessions).toFixed(1) : "0"}
-              </p>
-              <p className="mt-1 text-xs text-[var(--viz-muted)]">{rangeLabel}</p>
-            </div>
-          </div>
-
-          {/* Real-time */}
-          <div className="mt-4 grid gap-4 lg:grid-cols-3">
-            <div className="lg:col-span-2">
-              <Card
-                title="Last 30 minutes"
-                subtitle={`${fmt(data.lastMinutes.reduce((s, m) => s + m.views, 0))} page views · per minute`}
-              >
+              <Card title="Last 30 minutes" subtitle={`${fmt(data.lastMinutes.reduce((s, m) => s + m.views, 0))} page views · per minute`}>
                 <MinuteBars data={data.lastMinutes} />
               </Card>
             </div>
-            <Card title="Being read right now" subtitle={`${data.online.count} ${data.online.count === 1 ? "visitor" : "visitors"} online`}>
-              {data.online.pages.length ? (
-                <ul className="space-y-2">
-                  {data.online.pages.map((p) => (
-                    <li key={p.label} className="flex items-center justify-between gap-3 text-sm">
-                      <a href={p.label} target="_blank" rel="noreferrer" className="min-w-0 truncate text-[var(--viz-ink)] hover:underline" title={p.label}>
-                        {p.label}
-                      </a>
-                      <span className="shrink-0 rounded-full bg-[var(--viz-track)] px-2 py-0.5 text-xs text-[var(--viz-ink-2)]">{p.visitors}</span>
-                    </li>
-                  ))}
-                </ul>
+            <Card title="Visitors online right now" subtitle="Where they are, what they are reading, how long they have stayed">
+              {data.online.visitors.length ? (
+                <div className="max-h-[22rem] overflow-auto">
+                  <table className="w-full min-w-[520px] text-sm">
+                    <thead className="sticky top-0 bg-[var(--viz-surface)] text-left text-xs text-[var(--viz-muted)]">
+                      <tr>
+                        <th className="pb-2 font-medium">Location</th>
+                        <th className="pb-2 font-medium">Reading now</th>
+                        <th className="pb-2 font-medium">Device</th>
+                        <th className="pb-2 text-right font-medium">On site</th>
+                        <th className="pb-2 text-right font-medium">Pages</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {data.online.visitors.map((v) => (
+                        <tr key={v.id} className="border-t border-[var(--viz-border)]">
+                          <td className="whitespace-nowrap py-2 pr-3 text-[var(--viz-ink)]">
+                            {v.country ? `${flag(v.country)} ${countryName(v.country)}` : "🌐 Unknown"}
+                          </td>
+                          <td className="max-w-[220px] truncate py-2 pr-3 text-[var(--viz-ink)]" title={v.path}>
+                            {v.path}
+                          </td>
+                          <td className="whitespace-nowrap py-2 pr-3 capitalize text-[var(--viz-ink-2)]">{v.device}</td>
+                          <td className="whitespace-nowrap py-2 pr-3 text-right text-[var(--viz-ink)]" style={{ fontVariantNumeric: "tabular-nums" }}>
+                            {formatMs(v.onSiteMs)}
+                          </td>
+                          <td className="py-2 text-right text-[var(--viz-ink-2)]" style={{ fontVariantNumeric: "tabular-nums" }}>
+                            {v.pages}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
               ) : (
-                <p className="py-6 text-center text-sm text-[var(--viz-muted)]">Nobody online at the moment</p>
-              )}
-              {data.online.countries.length > 0 && (
-                <p className="mt-4 border-t border-[var(--viz-border)] pt-3 text-xs text-[var(--viz-muted)]">
-                  {data.online.countries.map((c) => `${flag(c.label)} ${countryName(c.label)} ${c.visitors}`).join("  ·  ")}
-                </p>
+                <p className="py-10 text-center text-sm text-[var(--viz-muted)]">Nobody online at the moment</p>
               )}
             </Card>
           </div>
 
-          {/* Trend */}
+          {/* ---------- Headline numbers for the range ---------- */}
+          <h2 className="mt-8 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--viz-muted)]">Overview · {rangeLabel}</h2>
+          <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+            <Tile label="Page views" value={fmt(c.views)}>
+              <Delta now={c.views} prev={p.views} />
+            </Tile>
+            <Tile label="Unique visitors" value={fmt(c.visitors)}>
+              <Delta now={c.visitors} prev={p.visitors} />
+            </Tile>
+            <Tile label="Sessions" value={fmt(c.sessions)}>
+              <Delta now={c.sessions} prev={p.sessions} />
+            </Tile>
+            <Tile label="Avg. session" value={formatMs(c.avgSessionMs)}>
+              <Delta now={c.avgSessionMs} prev={p.avgSessionMs} />
+            </Tile>
+            <Tile label="Avg. time on page" value={formatMs(c.avgViewMs)}>
+              <Delta now={c.avgViewMs} prev={p.avgViewMs} />
+            </Tile>
+            <Tile label="Bounce rate" value={`${Math.round(c.bounceRate * 100)}%`}>
+              {p.sessions ? (
+                <Delta now={c.bounceRate} prev={p.bounceRate} lowerIsBetter />
+              ) : (
+                <span className="text-[var(--viz-muted)]">one-page sessions</span>
+              )}
+            </Tile>
+          </div>
+
+          {/* ---------- Locations ---------- */}
+          <div className="mt-4 grid gap-4 xl:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
+            <Card
+              title="Visitor locations"
+              subtitle={
+                mapMode === "live"
+                  ? (() => {
+                      const k = data.online.countries.filter((x) => x.label !== "Unknown").length;
+                      return `${data.online.count} online now in ${k} ${k === 1 ? "country" : "countries"}`;
+                    })()
+                  : `${data.countries.length} countries, ${rangeLabel}`
+              }
+              right={
+                <div className="inline-flex rounded-full border border-[var(--viz-border)] p-0.5 text-xs" role="tablist" aria-label="Map mode">
+                  {(["period", "live"] as const).map((m) => (
+                    <button
+                      key={m}
+                      role="tab"
+                      aria-selected={mapMode === m}
+                      onClick={() => setMapMode(m)}
+                      className={`rounded-full px-3 py-1 font-medium transition-colors ${mapMode === m ? "bg-teal-dark text-white" : "text-[var(--viz-ink-2)]"}`}
+                    >
+                      {m === "live" ? "● Live" : "Period"}
+                    </button>
+                  ))}
+                </div>
+              }
+            >
+              <WorldMap countries={data.countries} live={data.online.countries} mode={mapMode} />
+            </Card>
+            <div className="flex flex-col gap-4">
+              <Card title="Top countries" subtitle="Views · share · avg. time on page">
+                <Ranked rows={data.countries.slice(0, 8)} total={total} label={(x) => `${flag(x)} ${countryName(x)}`} showTime />
+              </Card>
+              <Card title="Top cities">
+                {data.cities.length ? (
+                  <ul className="space-y-2 text-sm">
+                    {data.cities.map((ct) => (
+                      <li key={ct.label} className="flex items-center justify-between gap-3">
+                        <span className="truncate text-[var(--viz-ink)]">
+                          {ct.country ? `${flag(ct.country)} ` : ""}
+                          {ct.label}
+                        </span>
+                        <span className="shrink-0 text-[var(--viz-ink-2)]" style={{ fontVariantNumeric: "tabular-nums" }}>
+                          {fmt(ct.views)}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="py-4 text-center text-sm text-[var(--viz-muted)]">City data appears once the site is live on Vercel</p>
+                )}
+              </Card>
+            </div>
+          </div>
+
+          {/* ---------- Trend ---------- */}
           <div className="mt-4">
             <Card
               title="Traffic"
@@ -504,24 +614,31 @@ export default function AnalyticsDashboard() {
             </Card>
           </div>
 
-          {/* Breakdowns */}
+          {/* ---------- Engagement ---------- */}
           <div className="mt-4 grid gap-4 lg:grid-cols-3">
+            <Card title="Time on page" subtitle="How long each page view was actually on screen">
+              <Ranked
+                rows={data.durations.map((d) => ({ label: d.label, views: d.views }))}
+                total={data.durations.reduce((s, d) => s + d.views, 0)}
+              />
+            </Card>
             <div className="lg:col-span-2">
-              <Card title="Top pages" subtitle={`By page views, ${rangeLabel}`}>
-                <Ranked rows={data.pages} total={total} />
+              <Card title="Top pages" subtitle={`Views · share · avg. time on page, ${rangeLabel}`}>
+                <Ranked rows={data.pages} total={total} showTime />
               </Card>
             </div>
+          </div>
+
+          {/* ---------- Audience ---------- */}
+          <div className="mt-4 grid gap-4 lg:grid-cols-3">
             <Card title="Sections" subtitle="Which parts of the site are read">
-              <Ranked rows={data.sections} total={total} label={sectionLabel} />
-            </Card>
-            <Card title="Countries">
-              <Ranked rows={data.countries} total={total} label={(c) => `${flag(c)} ${countryName(c)}`} />
+              <Ranked rows={data.sections} total={total} label={sectionLabel} showTime />
             </Card>
             <Card title="Referrers" subtitle="Where visitors came from">
               <Ranked rows={data.referrers} total={data.referrers.reduce((s, r) => s + r.views, 0)} empty="No external referrers yet" />
             </Card>
             <Card title="Devices">
-              <Ranked rows={data.devices} total={total} label={(d) => d[0].toUpperCase() + d.slice(1)} />
+              <Ranked rows={data.devices} total={total} label={(d) => d[0].toUpperCase() + d.slice(1)} showTime />
               <div className="mt-5 grid grid-cols-2 gap-4 border-t border-[var(--viz-border)] pt-4">
                 <div>
                   <p className="mb-2 text-xs font-medium text-[var(--viz-muted)]">Browsers</p>
@@ -535,12 +652,12 @@ export default function AnalyticsDashboard() {
             </Card>
           </div>
 
-          {/* Live feed */}
+          {/* ---------- Live feed ---------- */}
           <div className="mt-4">
-            <Card title="Recent page views" subtitle="Latest 15, newest first">
+            <Card title="Live feed" subtitle="Latest 20 page views, newest first">
               {data.recent.length ? (
                 <div className="overflow-x-auto">
-                  <table className="w-full min-w-[640px] text-sm">
+                  <table className="w-full min-w-[720px] text-sm">
                     <thead className="text-left text-xs text-[var(--viz-muted)]">
                       <tr>
                         <th className="pb-2 font-medium">When</th>
@@ -548,13 +665,14 @@ export default function AnalyticsDashboard() {
                         <th className="pb-2 font-medium">Location</th>
                         <th className="pb-2 font-medium">Device</th>
                         <th className="pb-2 font-medium">From</th>
+                        <th className="pb-2 text-right font-medium">Time on page</th>
                       </tr>
                     </thead>
                     <tbody>
                       {data.recent.map((r) => (
                         <tr key={r.id} className="border-t border-[var(--viz-border)]">
                           <td className="whitespace-nowrap py-2 pr-3 text-[var(--viz-muted)]">{timeAgo(r.createdAt, now)}</td>
-                          <td className="max-w-[260px] truncate py-2 pr-3 text-[var(--viz-ink)]" title={r.path}>
+                          <td className="max-w-[240px] truncate py-2 pr-3 text-[var(--viz-ink)]" title={r.path}>
                             {r.path}
                           </td>
                           <td className="whitespace-nowrap py-2 pr-3 text-[var(--viz-ink-2)]">
@@ -563,7 +681,10 @@ export default function AnalyticsDashboard() {
                           <td className="whitespace-nowrap py-2 pr-3 text-[var(--viz-ink-2)]">
                             {r.device} · {r.browser}
                           </td>
-                          <td className="whitespace-nowrap py-2 text-[var(--viz-ink-2)]">{r.referrer ?? "Direct"}</td>
+                          <td className="whitespace-nowrap py-2 pr-3 text-[var(--viz-ink-2)]">{r.referrer ?? "Direct"}</td>
+                          <td className="whitespace-nowrap py-2 text-right text-[var(--viz-ink)]" style={{ fontVariantNumeric: "tabular-nums" }}>
+                            {r.durationMs ? formatMs(r.durationMs) : <span className="text-[var(--viz-muted)]">—</span>}
+                          </td>
                         </tr>
                       ))}
                     </tbody>

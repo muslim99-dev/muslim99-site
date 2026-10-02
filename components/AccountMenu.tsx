@@ -21,8 +21,19 @@ export default function AccountMenu() {
     );
   }
 
+  const isAdmin = (session.user as { isAdmin?: boolean } | undefined)?.isAdmin;
+
   return (
     <div className="flex items-center gap-2">
+      {isAdmin && (
+        <Link
+          href="/admin/analytics"
+          className="flex items-center gap-1.5 rounded-full bg-teal-dark px-3 py-1.5 text-xs font-medium text-white hover:bg-primary-deep transition-colors"
+        >
+          <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" aria-hidden />
+          Analytics
+        </Link>
+      )}
       <Link
         href="/profile"
         className="text-sm text-teal-dark hover:text-primary-deep transition-colors max-w-[9rem] truncate"
