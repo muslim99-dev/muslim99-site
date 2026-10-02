@@ -78,3 +78,35 @@ body {
 [data-tf-hide-translation] .tf-translation {
   display: none;
 }
+
+/* Analytics dashboard chart tokens (validated: series 1/2 pass CVD + contrast on the light surface) */
+.viz-root {
+  --viz-surface: #ffffff;
+  --viz-ink: #0f2a2b;
+  --viz-ink-2: #4b5f60;
+  --viz-muted: #7d8b8c;
+  --viz-grid: #e6eeee;
+  --viz-axis: #c6d3d3;
+  --viz-track: #eef4f4;
+  --viz-border: #d8eceb;
+  --viz-1: #0a9396;
+  --viz-2: #eb6834;
+  --viz-live: #0ca30c;
+  --viz-up: #006300;
+  --viz-down: #c23434;
+}
+:root[data-theme="dark"] .viz-root {
+  --viz-surface: #123e40;
+  --viz-ink: #ffffff;
+  --viz-ink-2: #c8dcdc;
+  --viz-muted: #8fb0b0;
+  --viz-grid: #1d4f52;
+  --viz-axis: #2c6467;
+  --viz-track: #1b4e51;
+  --viz-border: #1b4e51;
+  --viz-1: #1ba9ac;
+  --viz-2: #e5672f;
+  --viz-live: #0ca30c;
+  --viz-up: #3ecf3e;
+  --viz-down: #f07070;
+}

@@ -144,3 +144,36 @@ model PrayerSettings {
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
+
+// --- Traffic analytics (first-party, no IPs or personal data stored) ---
+
+model PageView {
+  id        String   @id @default(cuid())
+  visitorId String // random id kept in the visitor's browser
+  sessionId String // random id per browser tab session
+  path      String
+  section   String // first path segment: "quran", "hadith", "tafsir", ...
+  referrer  String? // referring host, external only
+  country   String? // ISO code from the hosting edge (Vercel)
+  city      String?
+  device    String // mobile | tablet | desktop
+  browser   String
+  os        String
+  userId    String? // set when the visitor is signed in
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([visitorId, createdAt])
+}
+
+// One row per visitor, refreshed by a heartbeat while a page is open —
+// "online now" is every row seen in the last couple of minutes.
+model ActiveVisitor {
+  visitorId String   @id
+  path      String
+  country   String?
+  device    String
+  lastSeen  DateTime @default(now())
+
+  @@index([lastSeen])
+}

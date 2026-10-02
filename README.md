@@ -56,6 +56,11 @@ with placeholder text:
   `GOOGLE_CLIENT_ID`/`GOOGLE_CLIENT_SECRET` in `.env.local`.
 - After changing `prisma/schema.prisma`, run `npx prisma db push` (or `migrate dev` once you want tracked
   migrations) to sync Neon, then `npx prisma generate`.
+- **Traffic analytics**: `components/AnalyticsTracker.tsx` records page views and a 30-second heartbeat to
+  `/api/analytics/collect` (tables `PageView`, `ActiveVisitor`; anonymous visitor ids, no IPs, bots and Do Not
+  Track skipped). The real-time dashboard is `/admin/analytics`, visible only to accounts whose email is in
+  `ADMIN_EMAILS` (comma-separated) — set it in `.env.local` and in Vercel's environment variables.
+- **Content APIs**: tafsir comes from `TAFSIR_API_URL` (defaults to the Hostinger deployment).
 
 ## Architecture notes for extending this
 
