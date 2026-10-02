@@ -2,10 +2,16 @@
  * Builds the lightweight indexes the Hadith section reads at runtime from
  * the raw on-disk dataset in data/hadith_data (unzipped hadith_data.zip):
  *
- *   data/hadith_index/manifest.json      every collection → book → chapter
- *                                        with titles and real hadith counts
- *   data/hadith_index/search/<slug>.json one compact row per hadith with
- *                                        normalized text for keyword search
+ *   data/hadith_index/manifest.json.gz        every collection → book →
+ *                                             chapter with titles and counts
+ *   data/hadith_index/search/<slug>.json.gz   one compact row per hadith with
+ *                                             normalized text for search
+ *   data/hadith_index/chapters/<slug>/<book>/<chapter>.json.gz
+ *                                             full chapter text
+ *
+ * Everything is gzipped because the site reads only this folder at
+ * runtime, and it has to fit inside a serverless function bundle (Vercel
+ * caps those at 250 MB; the raw dataset alone is ~430 MB).
  *
  * Counts come from the files actually present, not the collection.json /
  * book.json metadata, which overstates some collections (e.g. Musannaf).
@@ -14,6 +20,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import zlib from "node:zlib";
 
 const ROOT = path.join(process.cwd(), "data", "hadith_data");
 const OUT = path.join(process.cwd(), "data", "hadith_index");
@@ -34,7 +41,12 @@ function normalize(s) {
     .trim();
 }
 
-fs.mkdirSync(path.join(OUT, "search"), { recursive: true });
+const writeGz = (file, data) => {
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, zlib.gzipSync(JSON.stringify(data), { level: 9 }));
+};
+
+fs.rmSync(OUT, { recursive: true, force: true });
 
 const collections = [];
 for (const dir of fs.readdirSync(ROOT).sort()) {
@@ -52,14 +64,23 @@ for (const dir of fs.readdirSync(ROOT).sort()) {
     const bookMeta = readJSON(path.join(bookPath, "book.json"));
     const bookNumber = num(bookDir);
     const chapters = [];
-    const chapterFiles = fs
-      .readdirSync(path.join(bookPath, "chapters"))
+    // Some books ship with an empty chapters folder, which git doesn't keep —
+    // so in a fresh checkout the folder is missing entirely.
+    const chaptersDir = path.join(bookPath, "chapters");
+    const chapterFiles = (fs.existsSync(chaptersDir) ? fs.readdirSync(chaptersDir) : [])
       .filter((f) => f.endsWith(".json"))
       .sort((a, b) => num(a) - num(b));
+    if (chapterFiles.length === 0) continue; // nothing to read — don't list an empty book
 
     for (const file of chapterFiles) {
       const ch = readJSON(path.join(bookPath, "chapters", file));
       const hadiths = ch.hadiths || [];
+      writeGz(path.join(OUT, "chapters", slug, String(bookNumber), `${num(file)}.json.gz`), {
+        arabic: ch.arabic || "",
+        urdu: ch.urdu || "",
+        english: ch.english || "",
+        hadiths
+      });
       chapters.push({
         number: num(file),
         arabic: ch.arabic || "",
@@ -92,7 +113,7 @@ for (const dir of fs.readdirSync(ROOT).sort()) {
     });
   }
 
-  fs.writeFileSync(path.join(OUT, "search", `${slug}.json`), JSON.stringify(rows));
+  writeGz(path.join(OUT, "search", `${slug}.json.gz`), rows);
   collections.push({
     slug,
     dir,
@@ -107,5 +128,5 @@ for (const dir of fs.readdirSync(ROOT).sort()) {
   console.log(`${slug.padEnd(40)} ${String(books.length).padStart(4)} books ${String(rows.length).padStart(7)} hadiths`);
 }
 
-fs.writeFileSync(path.join(OUT, "manifest.json"), JSON.stringify({ collections }));
+writeGz(path.join(OUT, "manifest.json.gz"), { collections });
 console.log(`\nWrote ${collections.length} collections to ${path.relative(process.cwd(), OUT)}`);

@@ -1,24 +1,27 @@
 /**
  * HadithProvider
  * ------------------------------------------------------------------
- * Source: the local on-disk dataset in data/hadith_data (unzipped from
+ * Source: the on-disk dataset in data/hadith_data (unzipped from
  * hadith_data.zip) — 18 classical hadith collections, each hadith carrying
  * Arabic text, Urdu translation (often several translator variants), an
  * English translation where the source has one, a grading, a reference
  * number and, for some collections, an Urdu explanation (sharh).
  *
- * Browsing and search read two indexes generated from that dataset by
- * `node scripts/build-hadith-index.mjs` (data/hadith_index): a manifest of
- * every collection/book/chapter with titles and real counts, and a compact
- * per-collection search index. Full hadith text is read straight from the
- * chapter JSON files. Everything is cached in memory after the first read.
+ * The site never reads that raw folder directly. `node
+ * scripts/build-hadith-index.mjs` (run before dev/build) turns it into
+ * gzipped files in data/hadith_index: a manifest of every collection/book/
+ * chapter with titles and real counts, a compact per-collection search
+ * index, and one file per chapter with the full text. Kept compressed so
+ * it fits in a serverless function bundle. Cached in memory after reading.
  *
  * Server-only: uses the filesystem.
  */
 import fs from "node:fs/promises";
 import path from "node:path";
+import { gunzip } from "node:zlib";
+import { promisify } from "node:util";
 
-const DATA_DIR = path.join(process.cwd(), "data", "hadith_data");
+const gunzipAsync = promisify(gunzip);
 const INDEX_DIR = path.join(process.cwd(), "data", "hadith_index");
 
 // Survives dev-mode module reloads so the indexes aren't re-parsed per edit.
@@ -32,8 +35,8 @@ const cache = ((globalThis as any).__hadithCache ??= {
   chapters: Map<string, Promise<Chapter>>;
 };
 
-async function readJSON<T>(file: string): Promise<T> {
-  return JSON.parse(await fs.readFile(file, "utf8")) as T;
+async function readGzJSON<T>(file: string): Promise<T> {
+  return JSON.parse((await gunzipAsync(await fs.readFile(file))).toString("utf8")) as T;
 }
 
 export type ChapterSummary = {
@@ -73,7 +76,7 @@ type Manifest = { collections: ManifestCollection[] };
 
 function loadManifest(): Promise<Manifest> {
   if (!cache.manifest) {
-    cache.manifest = readJSON<Manifest>(path.join(INDEX_DIR, "manifest.json")).catch((err) => {
+    cache.manifest = readGzJSON<Manifest>(path.join(INDEX_DIR, "manifest.json.gz")).catch((err) => {
       cache.manifest = null;
       throw new Error(
         `Hadith index missing — run "node scripts/build-hadith-index.mjs" after unzipping hadith_data.zip into data/. (${err})`
@@ -169,10 +172,9 @@ export async function getChapter(slug: string, bookNumber: number, chapterNumber
   let pending = cache.chapters.get(key);
   if (!pending) {
     pending = (async () => {
-      const c = await findCollection(slug);
-      if (!c) throw new Error(`Unknown hadith collection: ${slug}`);
-      const file = path.join(DATA_DIR, c.dir, "books", `Book_${bookNumber}`, "chapters", `chap_${chapterNumber}.json`);
-      const raw = await readJSON<Omit<Chapter, "collection" | "book">>(file);
+      if (!(await findCollection(slug))) throw new Error(`Unknown hadith collection: ${slug}`);
+      const file = path.join(INDEX_DIR, "chapters", slug, String(bookNumber), `${chapterNumber}.json.gz`);
+      const raw = await readGzJSON<Omit<Chapter, "collection" | "book" | "number">>(file);
       const hadiths = raw.hadiths ?? [];
       return { ...raw, collection: slug, book: bookNumber, number: chapterNumber, total_hadiths: hadiths.length, hadiths };
     })();
@@ -206,7 +208,7 @@ export function normalize(s: string): string {
 function loadSearchIndex(slug: string): Promise<SearchRow[]> {
   let pending = cache.search.get(slug);
   if (!pending) {
-    pending = readJSON<SearchRow[]>(path.join(INDEX_DIR, "search", `${slug}.json`));
+    pending = readGzJSON<SearchRow[]>(path.join(INDEX_DIR, "search", `${slug}.json.gz`));
     pending.catch(() => cache.search.delete(slug));
     cache.search.set(slug, pending);
   }
