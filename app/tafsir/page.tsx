@@ -1,52 +1,37 @@
-import Link from "next/link";
+import { cookies } from "next/headers";
 import { getSurahList } from "@/lib/quranApi";
-import { TAFSIRS } from "@/lib/tafsir";
+import { DEFAULT_TAFSIR, TAFSIRS, tafsirLanguages } from "@/lib/tafsir";
+import { EDITION_COOKIE } from "@/lib/tafsirPrefs";
+import { HeroStat, PageHero } from "@/components/hadith/HadithUI";
+import TafsirHomeClient from "@/components/tafsir/TafsirHomeClient";
 
-export const metadata = { title: "Tafsir — Muslim99" };
+export const metadata = {
+  title: "Tafsir — Muslim99",
+  description: `${TAFSIRS.length} Qur'an commentaries in ${tafsirLanguages().length} languages — classical Arabic tafsir, Urdu, English and more.`
+};
 
 export default async function TafsirHome() {
-  let surahs = [] as Awaited<ReturnType<typeof getSurahList>>;
-  let error = false;
-  try {
-    surahs = await getSurahList();
-  } catch {
-    error = true;
-  }
+  const surahs = await getSurahList().catch(() => null);
+  const initialEdition = cookies().get(EDITION_COOKIE)?.value ?? DEFAULT_TAFSIR;
 
   return (
-    <div className="mx-auto max-w-app px-5 lg:px-8 py-10">
-      <h1 className="text-2xl sm:text-3xl font-semibold text-teal-dark">Tafsir</h1>
-      <p className="mt-2 text-sm text-muted">
-        {TAFSIRS.length} classical commentaries, each attributed to its named author. Pick a surah, then choose
-        which tafsir to read.
-      </p>
+    <div className="mx-auto max-w-app px-5 lg:px-8 py-8 sm:py-10">
+      <PageHero
+        eyebrow="Commentary on the Qur'an"
+        title="Tafsir"
+        subtitle="Understand every ayah with the great commentaries — choose your language and tafsir once, then read any surah."
+        arabic="تفسير القرآن الكريم"
+      >
+        <div className="grid grid-cols-3 gap-3 sm:max-w-md">
+          <HeroStat value={TAFSIRS.length} label="Tafsirs" />
+          <HeroStat value={tafsirLanguages().length} label="Languages" />
+          <HeroStat value={114} label="Surahs" />
+        </div>
+      </PageHero>
 
-      {error ? (
-        <div className="mt-10 rounded-card border border-border bg-white p-8 text-center">
-          <p className="text-teal-dark font-medium">Couldn't load the surah list.</p>
-          <p className="text-sm text-muted mt-1">Check your connection and try again.</p>
-        </div>
-      ) : (
-        <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-          {surahs.map((s) => (
-            <Link
-              key={s.number}
-              href={`/tafsir/${s.number}`}
-              className="flex items-center gap-3 rounded-card border border-border bg-white px-4 py-3 transition-transform hover:-translate-y-0.5"
-            >
-              <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-aqua text-[11px] font-medium text-primary-deep">
-                {s.number}
-              </span>
-              <div className="min-w-0">
-                <p className="truncate text-sm text-teal-dark">{s.englishName}</p>
-                <p dir="rtl" className="truncate text-xs text-muted font-quran">
-                  {s.name}
-                </p>
-              </div>
-            </Link>
-          ))}
-        </div>
-      )}
+      <div className="mt-6">
+        <TafsirHomeClient surahs={surahs} initialEdition={initialEdition} />
+      </div>
     </div>
   );
 }

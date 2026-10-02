@@ -1,0 +1,1101 @@
+[
+ {
+  "slug": "abu-bakr-jabir-al-jazairi",
+  "name": "Aysar al-Tafasir",
+  "author": "Abu Bakr Jabir al-Jaza'iri",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "adwa-al-bayan",
+  "name": "Adwa' al-Bayan",
+  "author": "Muhammad al-Amin al-Shinqiti",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "al-bahr-al-muhit",
+  "name": "Al-Bahr al-Muhit",
+  "author": "Abu Hayyan al-Gharnati",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "al-basit",
+  "name": "Al-Tafsir al-Basit",
+  "author": "Al-Wahidi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "al-dur-al-masun-lil-samin-al-halabi",
+  "name": "Al-Durr al-Masun",
+  "author": "Al-Samin al-Halabi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Grammar & I'rab",
+  "surahs": 114
+ },
+ {
+  "slug": "al-durr-al-manthur",
+  "name": "Al-Durr al-Manthur",
+  "author": "Jalal al-Din al-Suyuti",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "al-i-rab-al-muyassar",
+  "name": "Al-I'rab al-Muyassar",
+  "author": "",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Grammar & I'rab",
+  "surahs": 114
+ },
+ {
+  "slug": "al-jadwal-fi-i-rab-al-quran",
+  "name": "Al-Jadwal fi I'rab al-Qur'an",
+  "author": "Mahmud Safi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Grammar & I'rab",
+  "surahs": 114
+ },
+ {
+  "slug": "al-kashshaf-al-zamakhshari",
+  "name": "Al-Kashshaf",
+  "author": "Al-Zamakhshari",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "al-lubab-fi-ulum-al-kitab",
+  "name": "Al-Lubab fi 'Ulum al-Kitab",
+  "author": "Ibn 'Adil al-Hanbali",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "al-muharrar-al-wajiz-ibn-atiyyah",
+  "name": "Al-Muharrar al-Wajiz",
+  "author": "Ibn 'Atiyyah",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "al-muyassar-fi-al-gharib",
+  "name": "Al-Muyassar fi Gharib al-Qur'an",
+  "author": "",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Vocabulary (Gharib)",
+  "surahs": 114
+ },
+ {
+  "slug": "al-nashr-li-ibn-al-jazari",
+  "name": "Al-Nashr fi al-Qira'at al-'Ashr",
+  "author": "Ibn al-Jazari",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Qira'at (Recitations)",
+  "surahs": 114
+ },
+ {
+  "slug": "al-qira-at-al-mawsoo-ah-al-qur-aniyyah",
+  "name": "Al-Qira'at (Al-Mawsu'ah al-Qur'aniyyah)",
+  "author": "",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Qira'at (Recitations)",
+  "surahs": 114
+ },
+ {
+  "slug": "al-wajiz-wahidi",
+  "name": "Al-Wajiz",
+  "author": "Al-Wahidi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "alrab-al-quran-li-da-as",
+  "name": "I'rab al-Qur'an",
+  "author": "Al-Da''as, Hamidan & Al-Qasim",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Grammar & I'rab",
+  "surahs": 114
+ },
+ {
+  "slug": "ar-tafseer-al-qurtubi",
+  "name": "Al-Jami' li-Ahkam al-Qur'an (Tafsir al-Qurtubi)",
+  "author": "Al-Qurtubi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ar-tafseer-al-saddi",
+  "name": "Tafsir As-Sa'di",
+  "author": "'Abd al-Rahman al-Sa'di",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ar-tafseer-tahrir-al-tanwir",
+  "name": "Al-Tahrir wa al-Tanwir",
+  "author": "Muhammad al-Tahir ibn 'Ashur",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ar-tafseer-tanwir-al-miqbas",
+  "name": "Tanwir al-Miqbas min Tafsir Ibn 'Abbas",
+  "author": "Attributed to Ibn 'Abbas",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ar-tafsir-al-baghawi",
+  "name": "Ma'alim al-Tanzil (Tafsir al-Baghawi)",
+  "author": "Al-Baghawi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ar-tafsir-al-jalalayn",
+  "name": "Tafsir al-Jalalayn",
+  "author": "Jalal al-Din al-Mahalli & Jalal al-Din al-Suyuti",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ar-tafsir-al-mukhtasar",
+  "name": "Al-Mukhtasar fi Tafsir al-Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "ar-tafsir-al-tabari",
+  "name": "Jami' al-Bayan (Tafsir al-Tabari)",
+  "author": "Ibn Jarir al-Tabari",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ar-tafsir-al-tha-alibi",
+  "name": "Tafsir al-Tha'alibi",
+  "author": "",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ar-tafsir-al-tha-alibi-527",
+  "name": "Tafsir al-Tha'alibi (second edition)",
+  "author": "",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ar-tafsir-al-wasit",
+  "name": "Al-Tafsir al-Wasit",
+  "author": "",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ar-tafsir-as-saadi",
+  "name": "Taysir al-Karim al-Rahman (Tafsir al-Sa'di)",
+  "author": "'Abd al-Rahman al-Sa'di",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ar-tafsir-ibn-kathir",
+  "name": "Tafsir Ibn Kathir",
+  "author": "Hafiz Ibn Kathir",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ar-tafsir-muyassar",
+  "name": "Al-Tafsir al-Muyassar",
+  "author": "King Fahd Qur'an Printing Complex",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "assamese-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Assamese",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "asseraj-fi-bayan-gharib-alquran",
+  "name": "Al-Siraj fi Bayan Gharib al-Qur'an",
+  "author": "Muhammad al-Khudayri",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Vocabulary (Gharib)",
+  "surahs": 114
+ },
+ {
+  "slug": "ayah-dependency-graphs",
+  "name": "Ayah Dependency Graphs",
+  "author": "",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Grammar & I'rab",
+  "surahs": 114
+ },
+ {
+  "slug": "azeri-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Azerbaijani",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "bengali-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Bengali",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "bn-tafisr-fathul-majid",
+  "name": "Tafsir Fathul Majid",
+  "author": "AbdulRahman Bin Hasan Al-Alshaikh",
+  "language": "Bengali",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "bn-tafseer-ibn-e-kaseer",
+  "name": "Tafsir Ibn Kathir",
+  "author": "Hafiz Ibn Kathir (Tawheed Publication)",
+  "language": "Bengali",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "bn-tafsir-abu-bakr-zakaria",
+  "name": "Tafsir Abu Bakr Zakaria",
+  "author": "King Fahd Quran Printing Complex",
+  "language": "Bengali",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "bn-tafsir-ahsanul-bayaan",
+  "name": "Tafsir Ahsanul Bayaan",
+  "author": "Bayaan Foundation",
+  "language": "Bengali",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "bosnian-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Bosnian",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "chinese-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Chinese",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "en-al-jalalayn",
+  "name": "Tafsir al-Jalalayn",
+  "author": "Jalal al-Din al-Mahalli & Jalal al-Din al-Suyuti",
+  "language": "English",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "en-al-qushairi-tafsir",
+  "name": "Lata'if al-Isharat",
+  "author": "Abu al-Qasim al-Qushayri",
+  "language": "English",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "en-asbab-al-nuzul-by-al-wahidi",
+  "name": "Asbab al-Nuzul",
+  "author": "Al-Wahidi",
+  "language": "English",
+  "dir": "ltr",
+  "type": "Occasions of Revelation",
+  "surahs": 77
+ },
+ {
+  "slug": "en-kashani-tafsir",
+  "name": "Tafsir al-Kashani",
+  "author": "'Abd al-Razzaq al-Kashani",
+  "language": "English",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "en-kashf-al-asrar-tafsir",
+  "name": "Kashf al-Asrar",
+  "author": "Rashid al-Din Maybudi",
+  "language": "English",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 69
+ },
+ {
+  "slug": "en-tafisr-ibn-kathir",
+  "name": "Tafsir Ibn Kathir",
+  "author": "Hafiz Ibn Kathir",
+  "language": "English",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "en-tafsir-al-mukhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "English",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "en-tafsir-al-tustari",
+  "name": "Tafsir al-Tustari",
+  "author": "Sahl al-Tustari",
+  "language": "English",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "en-tafsir-ibn-abbas",
+  "name": "Tanwir al-Miqbas min Tafsir Ibn 'Abbas",
+  "author": "Attributed to Ibn 'Abbas",
+  "language": "English",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "en-tafsir-maarif-ul-quran",
+  "name": "Maarif-ul-Quran",
+  "author": "Mufti Muhammad Shafi",
+  "language": "English",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "en-tazkirul-quran",
+  "name": "Tazkirul Quran",
+  "author": "Maulana Wahiduddin Khan",
+  "language": "English",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "fath-al-bayan-li-al-qanuji",
+  "name": "Fath al-Bayan fi Maqasid al-Qur'an",
+  "author": "Siddiq Hasan Khan al-Qannauji",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "fath-al-qadir-al-shawkani",
+  "name": "Fath al-Qadir",
+  "author": "Al-Shawkani",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "fr-tafsir-as-saadi",
+  "name": "Tafsir As-Sa'di",
+  "author": "'Abd al-Rahman al-Sa'di",
+  "language": "Persian",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "french-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "French",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "fulani-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Fulani",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "hindi-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Hindi",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "i-rab-al-quran-li-al-darwish",
+  "name": "I'rab al-Qur'an wa Bayanuh",
+  "author": "Muhyi al-Din al-Darwish",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Grammar & I'rab",
+  "surahs": 114
+ },
+ {
+  "slug": "id-tafsir-as-saadi",
+  "name": "Tafsir As-Sa'di",
+  "author": "'Abd al-Rahman al-Sa'di",
+  "language": "Indonesian",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "in-tafsir-jalalayn",
+  "name": "Tafsir al-Jalalayn",
+  "author": "Jalal al-Din al-Mahalli & Jalal al-Din al-Suyuti",
+  "language": "Indonesian",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114,
+  "empty": true
+ },
+ {
+  "slug": "indonesian-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Indonesian",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "italian-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Italian",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "jamia-al-bayan-aliji",
+  "name": "Jami' al-Bayan",
+  "author": "Al-Iji",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "japanese-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Japanese",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "kashf-al-asrar-tafsir",
+  "name": "Kashf al-Asrar (alternate text)",
+  "author": "Rashid al-Din Maybudi",
+  "language": "English",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 30
+ },
+ {
+  "slug": "khmer-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Khmer",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "kurd-tafsir-rebar",
+  "name": "Rebar Kurdish Tafsir",
+  "author": "",
+  "language": "Kurdish",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "kurdish-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Kurdish",
+  "dir": "rtl",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "kyrgyz-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Kyrgyz",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "mahasin-al-ta-wil-al-qasimi",
+  "name": "Mahasin al-Ta'wil",
+  "author": "Jamal al-Din al-Qasimi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "malayalam-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Malayalam",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "mawsoo-at-al-tafsir-al-ma-thoor",
+  "name": "Mawsu'at al-Tafsir al-Ma'thur",
+  "author": "",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "nazam-al-durar-al-biqa-i",
+  "name": "Nazm al-Durar",
+  "author": "Burhan al-Din al-Biqa'i",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "pashto-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Pashto",
+  "dir": "rtl",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "persian-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Persian",
+  "dir": "rtl",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "ru-tafseer-al-saddi",
+  "name": "Tafsir As-Sa'di",
+  "author": "'Abd al-Rahman al-Sa'di",
+  "language": "Russian",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ru-tafsir-ibne-kahtir",
+  "name": "Tafsir Ibn Kathir",
+  "author": "Hafiz Ibn Kathir",
+  "language": "Russian",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "russian-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Russian",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "serbian-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Serbian",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "sinhalese-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Sinhala",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "spanish-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Spanish",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "sq-saadi",
+  "name": "Tafsir As-Sa'di",
+  "author": "'Abd al-Rahman al-Sa'di",
+  "language": "Albanian",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tadabbur-wa-amal",
+  "name": "Tadabbur wa 'Amal",
+  "author": "",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafisr-fathul-majid-bn",
+  "name": "Tafsir Fathul Majid",
+  "author": "AbdulRahman Bin Hasan Al-Alshaikh",
+  "language": "Bengali",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafseer-ibn-e-kaseer-urdu",
+  "name": "Tafsir Ibn Kathir",
+  "author": "Hafiz Ibn Kathir",
+  "language": "Urdu",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-abi-al-su-ood",
+  "name": "Irshad al-'Aql al-Salim",
+  "author": "Abu al-Su'ud",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-al-alusi",
+  "name": "Ruh al-Ma'ani",
+  "author": "Al-Alusi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-al-baydawi",
+  "name": "Anwar al-Tanzil",
+  "author": "Al-Baydawi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-al-jalalayn",
+  "name": "Tafsir al-Jalalayn (second English edition)",
+  "author": "Jalal al-Din al-Mahalli & Jalal al-Din al-Suyuti",
+  "language": "English",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-al-mawardi",
+  "name": "Al-Nukat wa al-'Uyun",
+  "author": "Al-Mawardi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-al-nasafi",
+  "name": "Madarik al-Tanzil",
+  "author": "Al-Nasafi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-al-razi",
+  "name": "Mafatih al-Ghayb",
+  "author": "Fakhr al-Din al-Razi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-al-sam-ani",
+  "name": "Tafsir al-Sam'ani",
+  "author": "Abu al-Muzaffar al-Sam'ani",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-al-samarqandi",
+  "name": "Bahr al-'Ulum",
+  "author": "Abu al-Layth al-Samarqandi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-as-saadi-russian",
+  "name": "Tafsir As-Sa'di",
+  "author": "'Abd al-Rahman al-Sa'di",
+  "language": "Russian",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-bayan-ul-quran",
+  "name": "Bayan ul Quran",
+  "author": "Dr. Israr Ahmad",
+  "language": "Urdu",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-fe-zalul-quran-syed-qatab",
+  "name": "Fi Zilal al-Qur'an",
+  "author": "Sayyid Qutb",
+  "language": "Urdu",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-ibn-abi-hatim",
+  "name": "Tafsir Ibn Abi Hatim",
+  "author": "Ibn Abi Hatim al-Razi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-ibn-abi-zamanin",
+  "name": "Tafsir Ibn Abi Zamanin",
+  "author": "Ibn Abi Zamanin",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-ibn-al-jawzi",
+  "name": "Zad al-Masir",
+  "author": "Ibn al-Jawzi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-ibn-al-qayyim",
+  "name": "Tafsir Ibn al-Qayyim",
+  "author": "Ibn Qayyim al-Jawziyyah",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-ibn-juzay",
+  "name": "Al-Tashil li 'Ulum al-Tanzil",
+  "author": "Ibn Juzayy al-Kalbi",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-ibn-uthaymeen",
+  "name": "Tafsir Ibn 'Uthaymin",
+  "author": "Muhammad ibn Salih al-'Uthaymin",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tafsir-makhi",
+  "name": "Al-Hidayah ila Bulugh al-Nihayah",
+  "author": "Makki ibn Abi Talib",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tagalog-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Tagalog",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "tahlil-kalimat-al-qur-an",
+  "name": "Tahlil Kalimat al-Qur'an",
+  "author": "",
+  "language": "Arabic",
+  "dir": "rtl",
+  "type": "Vocabulary (Gharib)",
+  "surahs": 114
+ },
+ {
+  "slug": "tamil-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Tamil",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "tazkiru-quran-ur",
+  "name": "Tazkirul Quran",
+  "author": "Maulana Wahiduddin Khan",
+  "language": "Urdu",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "tazkirul-quran-en",
+  "name": "Tazkirul Quran",
+  "author": "Maulana Wahiduddin Khan",
+  "language": "English",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "telugu-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Telugu",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "thai-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Thai",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "tr-tafsir-ibne-kathir",
+  "name": "Tafsir Ibn Kathir",
+  "author": "Hafiz Ibn Kathir",
+  "language": "Turkish",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "turkish-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Turkish",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "turkish-tafsir-as-saadi-turkish",
+  "name": "Tafsir As-Sa'di",
+  "author": "'Abd al-Rahman al-Sa'di",
+  "language": "Turkish",
+  "dir": "ltr",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ur-tafseer-ibn-e-kaseer",
+  "name": "Tafsir Ibn Kathir",
+  "author": "Hafiz Ibn Kathir",
+  "language": "Urdu",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ur-tafsir-as-saadi-urdu",
+  "name": "Tafsir As-Sa'di",
+  "author": "'Abd al-Rahman al-Sa'di",
+  "language": "Urdu",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ur-tafsir-bayan-ul-quran",
+  "name": "Bayan ul Quran (second edition)",
+  "author": "Dr. Israr Ahmad",
+  "language": "Urdu",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "ur-tazkirul-quran",
+  "name": "Tazkirul Quran",
+  "author": "Maulana Wahiduddin Khan",
+  "language": "Urdu",
+  "dir": "rtl",
+  "type": "Tafsir",
+  "surahs": 114
+ },
+ {
+  "slug": "uyghur-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Uyghur",
+  "dir": "rtl",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "uzbek-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Uzbek",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ },
+ {
+  "slug": "vietnamese-mokhtasar",
+  "name": "Al-Mukhtasar in Interpreting the Noble Qur'an",
+  "author": "Tafsir Center for Quranic Studies",
+  "language": "Vietnamese",
+  "dir": "ltr",
+  "type": "Concise (Al-Mukhtasar)",
+  "surahs": 114
+ }
+]

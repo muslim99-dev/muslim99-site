@@ -67,3 +67,14 @@ body {
 .scrollbar-none::-webkit-scrollbar {
   display: none;
 }
+
+/* Tafsir reader: text size and translation toggle set by ReaderSettings */
+.tf-arabic {
+  font-size: calc(1.7rem * var(--tf-scale, 1));
+}
+.tf-body {
+  font-size: calc(1rem * var(--tf-scale, 1));
+}
+[data-tf-hide-translation] .tf-translation {
+  display: none;
+}

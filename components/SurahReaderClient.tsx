@@ -330,7 +330,8 @@ export default function SurahReaderClient({
         {ayahs.map((a, i) => (
           <div
             key={a.globalNumber}
-            className={`rounded-card border p-5 transition-colors ${
+            id={`ayah-${a.numberInSurah}`}
+            className={`scroll-mt-24 rounded-card border p-5 transition-colors ${
               playingAyah === a.globalNumber ? "bg-aqua/50 border-primary" : "bg-white border-border"
             }`}
           >
