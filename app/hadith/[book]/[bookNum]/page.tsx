@@ -5,8 +5,17 @@ import HadithSearchBox from "@/components/HadithSearchBox";
 import { Breadcrumbs, HeroStat, NumberBadge, PageHero } from "@/components/hadith/HadithUI";
 
 export async function generateMetadata({ params }: { params: { book: string; bookNum: string } }) {
-  const book = await getBook(params.book, Number(params.bookNum)).catch(() => undefined);
-  return { title: book ? `${book.english || book.urdu || `Book ${book.number}`} — Hadith — Muslim99` : "Hadith — Muslim99" };
+  const [book, collection] = await Promise.all([
+    getBook(params.book, Number(params.bookNum)).catch(() => undefined),
+    getCollection(params.book).catch(() => undefined)
+  ]);
+  if (!book || !collection) return { title: "Hadith — Muslim99" };
+  const name = (book.english || book.urdu || `Book ${book.number}`).replace(/[\s.]+$/, "");
+  return {
+    title: `${name} — ${collection.name}, Book ${book.number} | Muslim99`,
+    description: `${collection.name}, Book ${book.number}: ${name}${book.urdu && book.english ? ` (${book.urdu})` : ""}. ${book.total_hadiths} hadiths in ${book.total_chapters} chapters with Arabic text, translation and grading.`,
+    alternates: { canonical: `/hadith/${params.book}/${book.number}` }
+  };
 }
 
 export default async function HadithBookPage({ params }: { params: { book: string; bookNum: string } }) {

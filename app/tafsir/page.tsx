@@ -6,7 +6,8 @@ import { HeroStat, PageHero } from "@/components/hadith/HadithUI";
 import TafsirHomeClient from "@/components/tafsir/TafsirHomeClient";
 
 export const metadata = {
-  title: "Tafsir — Muslim99",
+  title: "Tafsir of the Quran — Ibn Kathir, Tabari, Bayan ul Quran & 120+ More | Muslim99",
+  alternates: { canonical: "/tafsir" },
   description: `${TAFSIRS.length} Qur'an commentaries in ${tafsirLanguages().length} languages — classical Arabic tafsir, Urdu, English and more.`
 };
 

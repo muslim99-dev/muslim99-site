@@ -1,10 +1,25 @@
 import Link from "next/link";
+import JsonLd from "@/components/JsonLd";
+import { SITE_NAME, absoluteUrl } from "@/lib/site";
 
 /** Shared presentational pieces for the Hadith section. */
 
 export function Breadcrumbs({ items }: { items: { label: string; href?: string }[] }) {
+  // Same trail as structured data, so search results show "Muslim99 › Hadith › …".
+  const trail = [{ label: SITE_NAME, href: "/" }, ...items];
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: trail.map((it, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: it.label,
+      ...(it.href ? { item: absoluteUrl(it.href) } : {})
+    }))
+  };
   return (
     <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-xs text-muted">
+      <JsonLd data={breadcrumbJsonLd} />
       {items.map((item, i) => (
         <span key={i} className="flex items-center gap-1.5">
           {i > 0 && <span aria-hidden className="text-border">/</span>}

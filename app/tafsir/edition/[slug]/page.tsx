@@ -8,7 +8,12 @@ import TafsirSearch from "@/components/tafsir/TafsirSearch";
 
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const t = getTafsir(params.slug);
-  return { title: t ? `${t.name}${t.author ? ` — ${t.author}` : ""} — Tafsir — Muslim99` : "Tafsir — Muslim99" };
+  if (!t) return { title: "Tafsir — Muslim99" };
+  return {
+    title: `${t.name}${t.author ? ` by ${t.author}` : ""} — ${t.language} Tafsir | Muslim99`,
+    description: `Read ${t.name}${t.author ? ` by ${t.author}` : ""}, ${/^[AEIOU]/.test(t.language) ? "an" : "a"} ${t.language} ${t.type.toLowerCase()} of the Qur'an, ayah by ayah for ${t.surahs === 114 ? "all 114 surahs" : `${t.surahs} surahs`} — with search and side-by-side comparison.`,
+    alternates: { canonical: `/tafsir/edition/${t.slug}` }
+  };
 }
 
 export default async function TafsirEditionPage({ params }: { params: { slug: string } }) {

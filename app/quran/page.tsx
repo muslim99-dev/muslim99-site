@@ -1,7 +1,12 @@
 import { getSurahList } from "@/lib/quranApi";
 import SurahListClient from "@/components/SurahListClient";
 
-export const metadata = { title: "Quran — Muslim99" };
+export const metadata = {
+  title: "Read Quran Online — All 114 Surahs with Translation | Muslim99",
+  description:
+    "Read the Holy Qur'an online: all 114 surahs in Arabic with English and Urdu translations, audio recitation by renowned qaris, and tafsir for every ayah.",
+  alternates: { canonical: "/quran" }
+};
 
 export default async function QuranHome() {
   let surahs = [] as Awaited<ReturnType<typeof getSurahList>>;

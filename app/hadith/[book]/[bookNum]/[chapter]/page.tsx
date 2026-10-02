@@ -9,7 +9,15 @@ type Params = { book: string; bookNum: string; chapter: string };
 
 export async function generateMetadata({ params }: { params: Params }) {
   const collection = await getCollection(params.book).catch(() => undefined);
-  return { title: `${collection?.name ?? "Hadith"} · Chapter ${params.chapter} — Muslim99` };
+  const chapter = await getChapter(params.book, Number(params.bookNum), Number(params.chapter)).catch(() => undefined);
+  const name = (chapter?.english || chapter?.urdu || `Chapter ${params.chapter}`).replace(/\s+/g, " ").replace(/[\s.]+$/, "");
+  const first = chapter?.hadiths[0];
+  const snippet = (first?.english_translation || first?.urdu_translation || "").replace(/\s+/g, " ").slice(0, 120);
+  return {
+    title: `${name} — ${collection?.name ?? "Hadith"} | Muslim99`,
+    description: `${collection?.name ?? "Hadith"}, Book ${params.bookNum}, Chapter ${params.chapter}: ${name}.${snippet ? ` ${snippet}…` : ""}`,
+    alternates: { canonical: `/hadith/${params.book}/${params.bookNum}/${params.chapter}` }
+  };
 }
 
 export default async function HadithChapterPage({ params }: { params: Params }) {

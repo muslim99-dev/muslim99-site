@@ -7,7 +7,12 @@ import { Breadcrumbs, HeroStat, LanguageTags, NumberBadge, PageHero } from "@/co
 
 export async function generateMetadata({ params }: { params: { book: string } }) {
   const collection = await getCollection(params.book).catch(() => undefined);
-  return { title: collection ? `${collection.name} — Hadith — Muslim99` : "Hadith — Muslim99" };
+  if (!collection) return { title: "Hadith — Muslim99" };
+  return {
+    title: `${collection.name} — Read Online in Arabic, Urdu${collection.languages.includes("English") ? " & English" : ""} | Muslim99`,
+    description: `Read ${collection.name} (${collection.name_urdu}) online: ${collection.total_hadiths.toLocaleString()} hadiths in ${collection.total_books} books with ${collection.languages.join(", ")} text and the grading of each hadith.`,
+    alternates: { canonical: `/hadith/${params.book}` }
+  };
 }
 
 export default async function HadithCollectionPage({ params }: { params: { book: string } }) {

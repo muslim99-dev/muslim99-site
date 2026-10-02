@@ -12,7 +12,15 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { category: string } }) {
   const c = getDuaCategory(params.category);
-  return { title: c ? `${c.title} — Duas — Muslim99` : "Duas — Muslim99" };
+  if (!c) return { title: "Duas — Muslim99" };
+  return {
+    title: `${c.title} Duas — ${c.source === "quran" ? "Supplications from the Qur'an" : "Hisn al-Muslim"} | Muslim99`,
+    description: `${c.total} ${c.title.toLowerCase()} duas with Arabic text, Urdu and English translations and references: ${c.chapters
+      .slice(0, 4)
+      .map((ch) => ch.title)
+      .join(", ")} and more.`,
+    alternates: { canonical: `/duas/${c.slug}` }
+  };
 }
 
 export default function DuaCategoryPage({ params }: { params: { category: string } }) {

@@ -1,7 +1,17 @@
-import { getSurahWithTranslation } from "@/lib/quranApi";
+import { getSurahList, getSurahWithTranslation } from "@/lib/quranApi";
 import { DEFAULT_TRANSLATION_ID, findTranslation } from "@/lib/translations";
 import SurahReaderClient from "@/components/SurahReaderClient";
 import { notFound } from "next/navigation";
+
+export async function generateMetadata({ params }: { params: { surah: string } }) {
+  const meta = (await getSurahList().catch(() => [])).find((s) => s.number === Number(params.surah));
+  if (!meta) return { title: "Quran — Muslim99" };
+  return {
+    title: `Surah ${meta.englishName} (${meta.number})${meta.englishNameTranslation !== meta.englishName ? ` — ${meta.englishNameTranslation}` : ""} | Read Quran Online | Muslim99`,
+    description: `Read Surah ${meta.englishName} (${meta.name}), surah ${meta.number} of the Qur'an — ${meta.englishNameTranslation}, ${meta.numberOfAyahs} ayahs, ${meta.revelationType} — in Arabic with translation and audio recitation.`,
+    alternates: { canonical: `/quran/${meta.number}` }
+  };
+}
 
 export default async function SurahPage({
   params,

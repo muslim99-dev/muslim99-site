@@ -4,7 +4,8 @@ import { HeroStat, PageHero } from "@/components/hadith/HadithUI";
 import DuaSearchBox from "@/components/duas/DuaSearchBox";
 
 export const metadata = {
-  title: "Duas — Muslim99",
+  title: "Duas & Azkar — Authentic Supplications with References | Muslim99",
+  alternates: { canonical: "/duas" },
   description: `${totalDuas} authentic duas from the Qur'an and Hisn al-Muslim, with Arabic text, translations and references.`
 };
 

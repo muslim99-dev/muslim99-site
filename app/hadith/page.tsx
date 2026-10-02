@@ -4,7 +4,12 @@ import HadithSearchBox from "@/components/HadithSearchBox";
 import ContinueReading from "@/components/hadith/ContinueReading";
 import { ErrorCard, HeroStat, LanguageTags, PageHero } from "@/components/hadith/HadithUI";
 
-export const metadata = { title: "Hadith — Muslim99" };
+export const metadata = {
+  title: "Hadith Collections — Sahih Bukhari, Sahih Muslim & More | Muslim99",
+  description:
+    "Read and search 18 classical hadith collections — Sahih Bukhari, Sahih Muslim, Abu Dawood, Tirmidhi, Nasa'i, Ibn Majah, Muwatta Malik, Musnad Ahmad and more — in Arabic with Urdu and English translations and gradings.",
+  alternates: { canonical: "/hadith" }
+};
 
 // The six canonical collections, in their traditional order.
 const KUTUB_AL_SITTAH = [

@@ -26,6 +26,8 @@ const nextConfig = {
       "/api/hadith-search": [manifest, search],
       "/api/hadith-lookup": [manifest, chapters],
       "/hadith/saved": [manifest],
+      "/sitemap.xml": [manifest],
+      "/": [manifest],
       "/api/ask": [manifest, search, chapters]
     }
   }

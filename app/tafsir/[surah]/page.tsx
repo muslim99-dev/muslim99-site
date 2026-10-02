@@ -17,7 +17,15 @@ function resolveEdition(searchParams: Search) {
 }
 
 export async function generateMetadata({ params, searchParams }: { params: { surah: string }; searchParams: Search }) {
-  return { title: `Surah ${params.surah} · ${resolveEdition(searchParams).name} — Tafsir — Muslim99` };
+  const edition = resolveEdition(searchParams);
+  const meta = (await getSurahList().catch(() => [])).find((s) => s.number === Number(params.surah));
+  const name = meta ? `Surah ${meta.englishName} (${meta.number})` : `Surah ${params.surah}`;
+  return {
+    title: `Tafsir of ${name} — ${edition.name} | Muslim99`,
+    description: `Tafsir of ${name}${meta ? ` — ${meta.englishNameTranslation}, ${meta.numberOfAyahs} ayahs` : ""}: read the commentary of ${edition.name}${edition.author ? ` by ${edition.author}` : ""} and 120+ other tafsirs ayah by ayah.`,
+    // One canonical page per surah, whatever edition/page/ayah is selected.
+    alternates: { canonical: `/tafsir/${params.surah}` }
+  };
 }
 
 async function loadSurah(n: number, language: string) {

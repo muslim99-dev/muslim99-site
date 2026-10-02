@@ -1,6 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import DailyAyah from "@/components/DailyAyah";
+import JsonLd from "@/components/JsonLd";
+import { SITE_DESCRIPTION, SITE_FAQ, SITE_NAME, SITE_SECTIONS, SITE_TAGLINE } from "@/lib/site";
+import { getCollections } from "@/lib/hadith";
+import { TAFSIRS, tafsirLanguages } from "@/lib/tafsir";
+import { totalDuas } from "@/lib/duas";
+
+export const metadata = {
+  title: { absolute: `${SITE_NAME} — ${SITE_TAGLINE} | Quran, Hadith, Tafsir & Duas` },
+  description: SITE_DESCRIPTION,
+  alternates: { canonical: "/" }
+};
 
 const features = [
   { title: "Quran", desc: "Full mushaf with translation, word-by-word, and tafsir side by side.", href: "/quran" },
@@ -20,7 +31,22 @@ const reciters = [
   { id: "ar.sudais", name: "Abdur-Rahman As-Sudais", country: "Saudi Arabia" }
 ];
 
-export default function Home() {
+export default async function Home() {
+  const collections = await getCollections().catch(() => []);
+  const hadithCount = collections.reduce((n, c) => n + c.total_hadiths, 0);
+  const stats = [
+    { value: "114", label: "Surahs of the Qur'an" },
+    { value: String(collections.length || 18), label: "Hadith collections" },
+    { value: hadithCount ? `${Math.floor(hadithCount / 1000)}k+` : "90k+", label: "Hadiths" },
+    { value: String(TAFSIRS.length), label: `Tafsirs in ${tafsirLanguages().length} languages` },
+    { value: `${totalDuas}`, label: "Duas with references" }
+  ];
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: SITE_FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } }))
+  };
+
   return (
     <div>
       {/* HERO */}
@@ -29,6 +55,7 @@ export default function Home() {
           <div>
             <Image src="/logo.png" alt="Muslim99" width={56} height={56} className="rounded-2xl" />
             <h1 className="mt-6 text-4xl sm:text-5xl font-semibold leading-[1.1] text-teal-dark">
+              <span className="block text-primary-deep">Muslim99</span>
               Your Complete Islamic Companion
             </h1>
             <p className="mt-5 text-[17px] leading-relaxed text-muted max-w-lg">
@@ -119,6 +146,60 @@ export default function Home() {
         <Link href="/reciters" className="mt-6 inline-block text-sm text-primary-deep">
           View all reciters →
         </Link>
+      </section>
+
+      {/* WHAT IS MUSLIM99 — the plain overview search engines and AI assistants summarise */}
+      <section className="border-t border-border bg-white" aria-labelledby="about-muslim99">
+        <JsonLd data={faqJsonLd} />
+        <div className="mx-auto max-w-app px-5 lg:px-8 py-20">
+          <div className="grid gap-12 lg:grid-cols-[1.1fr_1fr]">
+            <div>
+              <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-gold">About</p>
+              <h2 id="about-muslim99" className="mt-2 text-2xl sm:text-3xl font-semibold text-teal-dark">
+                What is Muslim99?
+              </h2>
+              <p className="mt-4 text-[17px] leading-relaxed text-muted">{SITE_FAQ[0].a}</p>
+              <dl className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
+                {stats.map((s) => (
+                  <div key={s.label} className="rounded-card border border-border bg-bg p-4">
+                    <dt className="text-xs text-muted">{s.label}</dt>
+                    <dd className="mt-1 text-2xl font-semibold text-teal-dark">{s.value}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+            <nav aria-label="Muslim99 sections">
+              <ul className="divide-y divide-border rounded-card border border-border">
+                {SITE_SECTIONS.map((s) => (
+                  <li key={s.path}>
+                    <Link href={s.path} className="group flex items-start justify-between gap-4 px-5 py-4 hover:bg-aqua/30 transition-colors">
+                      <span>
+                        <span className="block font-medium text-teal-dark group-hover:text-primary-deep">{s.name}</span>
+                        <span className="mt-0.5 block text-sm text-muted">{s.description}</span>
+                      </span>
+                      <span aria-hidden className="mt-1 text-muted group-hover:text-primary-deep">→</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          </div>
+
+          <div className="mt-14">
+            <h2 className="text-xl font-semibold text-teal-dark">Frequently asked questions</h2>
+            <div className="mt-5 grid gap-3 lg:grid-cols-2">
+              {SITE_FAQ.map((f) => (
+                <details key={f.q} className="group rounded-card border border-border bg-bg p-5 open:bg-white">
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-3 font-medium text-teal-dark">
+                    {f.q}
+                    <span aria-hidden className="text-muted transition-transform group-open:rotate-45">+</span>
+                  </summary>
+                  <p className="mt-3 text-sm leading-relaxed text-muted">{f.a}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* FINAL CTA */}
