@@ -1,0 +1,26 @@
+{
+  "number": 68,
+  "arabic": "",
+  "urdu": "دونوں ہتھیلیاں کتنی بار دھوئی جائیں ؟",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 83,
+      "arabic_text": "أَخْبَرَنَا حُمَيْدُ بْنُ مَسْعَدَةَ، ‏‏‏‏‏‏عَنْ سُفْيَانَ وَهُوَ ابْنُ حَبِيبٍ، ‏‏‏‏‏‏عَنْ شُعْبَةَ، ‏‏‏‏‏‏عَنْ النُّعْمَانِ بْنِ سَالِمٍ، ‏‏‏‏‏‏عَنْ ابْنِ أَوْسِ بْنِ أَبِي أَوْسٍ، ‏‏‏‏‏‏عَنْ جَدِّهِ، ‏‏‏‏‏‏قال:‏‏‏‏ رَأَيْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ اسْتَوْكَفَ ثَلَاثًا .",
+      "urdu_translation": "میں نے رسول اللہ صلی اللہ علیہ وسلم کو دیکھا آپ نے  ( اپنی ہتھیلیوں پر )  تین بار پانی ٹپکایا۔",
+      "english_translation": "It was narrated from (Aws bin) Abi Aws that his grandfather said:\n I saw the Messenger of Allah (ﷺ) trickle water into his hand until it started to drip from his hand, three times.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ابواوس رضی اللہ عنہ کہتے ہیں کہ  میں نے رسول اللہ صلی اللہ علیہ وسلم کو دیکھا آپ نے  ( اپنی ہتھیلیوں پر )  تین بار پانی ٹپکایا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "83",
+        "arabic_number": "ترقیم  : 83"
+      }
+    }
+  ]
+}

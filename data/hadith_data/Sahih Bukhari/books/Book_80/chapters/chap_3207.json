@@ -1,0 +1,31 @@
+{
+  "number": 3207,
+  "arabic": "بَابُ لاَ يَتَنَاجَى اثْنَانِ دُونَ الثَّالِثِ",
+  "urdu": "کسی جگہ صرف تین آدمی ہوں تو ایک کو اکیلا چھوڑ کر دو آدمی سرگوشی نہ کریں",
+  "english": "(45) CHAPTER. No two persons should talk secretly excluding a third person (who is present with them). And the Statement of Allah:   O you who believe! When you hold secret counsel, do it not for sin and wrongdoing, and disobedience towards the Messenger (Muhammad ), but do it for Al-Birr (righteousness) and Taqwa (virtues and piety); and fear Allah unto Whom you shall be gathered. Secret counsels (conspiracies) are only from Satan, in order that he may cause grief to the believers. But he cannot harm them in the least, except as Allah permits, and in Allah let the believers put their trust.   (V.58:9,10) And also the Statement of Allah:   O you who believe! When you (want to) consult the Messenger (Muhammad) in private, spend something in charity before your private consultation. That will be better and purer for you. But if you find not (the means for it), then verily, Allah is Oft-Forgivind, Most Merciful. Are you afraid of spending in charity before your private consultation (with him)? If then you do it not, and Allah has forgive you, then (at least) perform Salat (prayers) (Iqamat-as-Salat) and give Zakat and obey Allah (i.e., do all what Allah and His Prophet order you to do). And Allah is All-Aware of what you do.   (V.58:12,13)",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 6288,
+      "arabic_text": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ ، أَخْبَرَنَا مَالِكٌ . ح وحَدَّثَنَا إِسْمَاعِيلُ ، قَالَ : حَدَّثَنِي مَالِكٌ ، عَنْ نَافِعٍ ، عَنْ عَبْدِ اللَّهِ رَضِيَ اللَّهُ عَنْهُ ، أَنّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ ، قَالَ :    إِذَا كَانُوا ثَلَاثَةٌ ، فَلَا يَتَنَاجَى اثْنَانِ دُونَ الثَّالِثِ    .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا ”جب تین آدمی ساتھ ہوں تو تیسرے ساتھی کو چھوڑ کر دو آپس میں کانا پھوسی  ( سرگوشی )  نہ کریں۔“",
+      "english_translation": "Narrated `Abdullah: the Prophet said   When three persons are together, then no two of them should hold secret counsel excluding the third person.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: مولانا محمد داؤد راز",
+          "text": "ہم سے عبداللہ بن یوسف نے بیان کیا، کہا ہم کو امام مالک نے خبر دی (دوسری سند) امام بخاری رحمہ اللہ نے کہا کہ ہم سے اسماعیل بن ابی اویس نے بیان کیا، کہا کہ مجھ سے امام مالک نے بیان کیا، ان سے نافع نے اور ان سے عبداللہ رضی اللہ عنہ نے کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا ”جب تین آدمی ساتھ ہوں تو تیسرے ساتھی کو چھوڑ کر دو آپس میں کانا پھوسی  ( سرگوشی )  نہ کریں۔“"
+        },
+        {
+          "translator": "ترجمہ: شیخ الحدیث حافظ عبد الستار حماد",
+          "text": "حضرت عبداللہ بن عمر ؓ سے روایت ہے کہ رسول اللہ ﷺ نے فرمایا: ”جب تین شخص ہوں تو تیسرے سے علیحدہ ہو کر دو آدمی آپس میں سرگوشی نہ کریں۔“"
+        }
+      ],
+      "reference": {
+        "international_number": "6288",
+        "arabic_number": "ترقیم  : 6288"
+      },
+      "explanation": "دوسری روایت کسی کی صحبت میں بیٹھے تو وہ امانت کی باتیں اپنے دل میں رکھے اور افشاء نہ کرے کہ ان سے اس بھائی کو دکھ ہو۔"
+    }
+  ]
+}

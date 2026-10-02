@@ -1,0 +1,83 @@
+VALIDATION REPORT - Book 28: Chapters on sacrifices
+Generated: 2026-08-13 17:16:16
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1137.json - Chapter 1137
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1138.json - Chapter 1138
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1139.json - Chapter 1139
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1140.json - Chapter 1140
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1141.json - Chapter 1141
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1142.json - Chapter 1142
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1143.json - Chapter 1143
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1144.json - Chapter 1144
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1145.json - Chapter 1145
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1146.json - Chapter 1146
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1147.json - Chapter 1147
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1148.json - Chapter 1148
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1149.json - Chapter 1149
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1150.json - Chapter 1150
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1151.json - Chapter 1151
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1152.json - Chapter 1152
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1153.json - Chapter 1153
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 35
+  - Book metadata: 1
+  - Chapters: 34
+  - Hadiths: 0
+================================================================================

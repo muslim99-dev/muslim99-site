@@ -1,0 +1,393 @@
+VALIDATION REPORT - Book 48: Chapters on tafsir
+Generated: 2026-08-12 20:33:58
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1459.json - Chapter 1459
+  ✗ arabic: EMPTY
+
+  chap_1820.json - Chapter 1820
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1821.json - Chapter 1821
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #2953:
+    ✗ english_translation: EMPTY
+
+  chap_1822.json - Chapter 1822
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1823.json - Chapter 1823
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1824.json - Chapter 1824
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1825.json - Chapter 1825
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1826.json - Chapter 1826
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1827.json - Chapter 1827
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1828.json - Chapter 1828
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1829.json - Chapter 1829
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1830.json - Chapter 1830
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1831.json - Chapter 1831
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1832.json - Chapter 1832
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1833.json - Chapter 1833
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1834.json - Chapter 1834
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1835.json - Chapter 1835
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1836.json - Chapter 1836
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1837.json - Chapter 1837
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1838.json - Chapter 1838
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1839.json - Chapter 1839
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1840.json - Chapter 1840
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1841.json - Chapter 1841
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1842.json - Chapter 1842
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1843.json - Chapter 1843
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1844.json - Chapter 1844
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1845.json - Chapter 1845
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1846.json - Chapter 1846
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1847.json - Chapter 1847
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1848.json - Chapter 1848
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1849.json - Chapter 1849
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1850.json - Chapter 1850
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1851.json - Chapter 1851
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1852.json - Chapter 1852
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1853.json - Chapter 1853
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1854.json - Chapter 1854
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1855.json - Chapter 1855
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1856.json - Chapter 1856
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1857.json - Chapter 1857
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1858.json - Chapter 1858
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1859.json - Chapter 1859
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1860.json - Chapter 1860
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1861.json - Chapter 1861
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1862.json - Chapter 1862
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1863.json - Chapter 1863
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1864.json - Chapter 1864
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1865.json - Chapter 1865
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1866.json - Chapter 1866
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1867.json - Chapter 1867
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1868.json - Chapter 1868
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1869.json - Chapter 1869
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1870.json - Chapter 1870
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1871.json - Chapter 1871
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1872.json - Chapter 1872
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1873.json - Chapter 1873
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1874.json - Chapter 1874
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1875.json - Chapter 1875
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1876.json - Chapter 1876
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1877.json - Chapter 1877
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1878.json - Chapter 1878
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1879.json - Chapter 1879
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1880.json - Chapter 1880
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1881.json - Chapter 1881
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1882.json - Chapter 1882
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1883.json - Chapter 1883
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1884.json - Chapter 1884
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1885.json - Chapter 1885
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1886.json - Chapter 1886
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1887.json - Chapter 1887
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1888.json - Chapter 1888
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1889.json - Chapter 1889
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1890.json - Chapter 1890
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1891.json - Chapter 1891
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1892.json - Chapter 1892
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1893.json - Chapter 1893
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1894.json - Chapter 1894
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1895.json - Chapter 1895
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1896.json - Chapter 1896
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1897.json - Chapter 1897
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1898.json - Chapter 1898
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1899.json - Chapter 1899
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1900.json - Chapter 1900
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1901.json - Chapter 1901
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1902.json - Chapter 1902
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1903.json - Chapter 1903
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1904.json - Chapter 1904
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1905.json - Chapter 1905
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1906.json - Chapter 1906
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1907.json - Chapter 1907
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1908.json - Chapter 1908
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1909.json - Chapter 1909
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1910.json - Chapter 1910
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1911.json - Chapter 1911
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1912.json - Chapter 1912
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 189
+  - Book metadata: 1
+  - Chapters: 188
+  - Hadiths: 0
+================================================================================

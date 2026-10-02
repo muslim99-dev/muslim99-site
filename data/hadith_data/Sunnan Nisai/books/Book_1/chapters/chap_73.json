@@ -1,0 +1,43 @@
+{
+  "number": 73,
+  "arabic": "",
+  "urdu": "ناک جھاڑنے کا حکم۔",
+  "english": "",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 88,
+      "arabic_text": "أَخْبَرَنَا قُتَيْبَةُ، ‏‏‏‏‏‏عَنْ مَالِكٍ، ‏‏‏‏‏‏ح وحَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، ‏‏‏‏‏‏قال:‏‏‏‏ حَدَّثَنَا عَبْدُ الرَّحْمَنِ، ‏‏‏‏‏‏عَنْ مَالِكٍ، ‏‏‏‏‏‏عَنْ ابْنِ شِهَابٍ، ‏‏‏‏‏‏عَنْ أَبِي إِدْرِيسَ الْخَوْلَانِيِّ، ‏‏‏‏‏‏عَنْ أَبِي هُرَيْرَةَ، ‏‏‏‏‏‏أَنّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، ‏‏‏‏‏‏قَالَ:‏‏‏‏  مَنْ تَوَضَّأَ فَلْيَسْتَنْثِرْ، ‏‏‏‏‏‏وَمَنِ اسْتَجْمَرَ فَلْيُوتِرْ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  جو وضو کرے تو اسے چاہیئے کہ ناک جھاڑے، اور جو استنجاء میں پتھر استعمال کرے تو اسے چاہیئے کہ طاق استعمال کرے ۔",
+      "english_translation": "It was narrated from Abu Hurairah that the Messenger of Allah (ﷺ) said:\n Whoever performs Wudu' then let him sniff water in the nose and blow it out, and whoever uses small stones (to remove filth) then make it odd (numbered).",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ابوہریرہ رضی اللہ عنہ سے روایت ہے کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  جو وضو کرے تو اسے چاہیئے کہ ناک جھاڑے، اور جو استنجاء میں پتھر استعمال کرے تو اسے چاہیئے کہ طاق استعمال کرے ۔"
+        }
+      ],
+      "reference": {
+        "international_number": "88",
+        "arabic_number": "ترقیم  : 88"
+      }
+    },
+    {
+      "hadith_number": 89,
+      "arabic_text": "أَخْبَرَنَا قُتَيْبَةُ، ‏‏‏‏‏‏قال:‏‏‏‏ حَدَّثَنَا حَمَّادٌ، ‏‏‏‏‏‏عَنْ مَنْصُورٍ، ‏‏‏‏‏‏عَنْ هِلَالِ بْنِ يَسَافٍ، ‏‏‏‏‏‏عَنْ سَلَمَةَ بْنِ قَيْسٍ، ‏‏‏‏‏‏أَنّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، ‏‏‏‏‏‏قَالَ:‏‏‏‏  إِذَا تَوَضَّأْتَ فَاسْتَنْثِرْ، ‏‏‏‏‏‏وَإِذَا اسْتَجْمَرْتَ فَأَوْتِرْ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  جب وضو کرو تو ناک جھاڑو، اور جب ڈھیلے سے استنجاء کرو تو طاق ڈھیلا استعمال کرو ۔",
+      "english_translation": "It was narrated from Salamah bin Qais that the Messenger of Allah (ﷺ) said:\n When you perform Wudu', sniff water in your nose and blow it out, and when you use small stones (to remove filth), then make it off (numbered).",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "سلمہ بن قیس رضی اللہ عنہ سے روایت ہے کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  جب وضو کرو تو ناک جھاڑو، اور جب ڈھیلے سے استنجاء کرو تو طاق ڈھیلا استعمال کرو ۔"
+        }
+      ],
+      "reference": {
+        "international_number": "89",
+        "arabic_number": "ترقیم  : 89"
+      }
+    }
+  ]
+}

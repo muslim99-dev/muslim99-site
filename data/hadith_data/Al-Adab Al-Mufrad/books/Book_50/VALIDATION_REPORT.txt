@@ -1,0 +1,132 @@
+VALIDATION REPORT - Book 50: Sleep and night lodging
+Generated: 2026-08-22 06:41:53
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_575.json - Chapter 575
+  ✗ english: EMPTY
+
+  Hadith #1211:
+    ✗ english_translation: EMPTY
+
+  Hadith #1212:
+    ✗ english_translation: EMPTY
+
+  Hadith #1213:
+    ✗ english_translation: EMPTY
+
+  Hadith #1214:
+    ✗ english_translation: EMPTY
+
+  Hadith #1215:
+    ✗ english_translation: EMPTY
+
+  Hadith #1216:
+    ✗ english_translation: EMPTY
+
+  Hadith #1217:
+    ✗ english_translation: EMPTY
+
+  Hadith #1218:
+    ✗ english_translation: EMPTY
+
+  chap_576.json - Chapter 576
+  ✗ english: EMPTY
+
+  Hadith #1219:
+    ✗ english_translation: EMPTY
+
+  Hadith #1220:
+    ✗ english_translation: EMPTY
+
+  chap_577.json - Chapter 577
+  ✗ english: EMPTY
+
+  Hadith #1221:
+    ✗ english_translation: EMPTY
+
+  chap_578.json - Chapter 578
+  ✗ english: EMPTY
+
+  Hadith #1222:
+    ✗ english_translation: EMPTY
+
+  chap_579.json - Chapter 579
+  ✗ english: EMPTY
+
+  Hadith #1223:
+    ✗ english_translation: EMPTY
+
+  chap_580.json - Chapter 580
+  ✗ english: EMPTY
+
+  Hadith #1224:
+    ✗ english_translation: EMPTY
+
+  chap_581.json - Chapter 581
+  ✗ english: EMPTY
+
+  Hadith #1225:
+    ✗ english_translation: EMPTY
+
+  Hadith #1226:
+    ✗ english_translation: EMPTY
+
+  chap_582.json - Chapter 582
+  ✗ english: EMPTY
+
+  Hadith #1227:
+    ✗ english_translation: EMPTY
+
+  Hadith #1228:
+    ✗ english_translation: EMPTY
+
+  Hadith #1229:
+    ✗ english_translation: EMPTY
+
+  chap_583.json - Chapter 583
+  ✗ english: EMPTY
+
+  Hadith #1230:
+    ✗ english_translation: EMPTY
+
+  Hadith #1231:
+    ✗ english_translation: EMPTY
+
+  Hadith #1232:
+    ✗ english_translation: EMPTY
+
+  Hadith #1233:
+    ✗ english_translation: EMPTY
+
+  chap_584.json - Chapter 584
+  ✗ english: EMPTY
+
+  Hadith #1234:
+    ✗ english_translation: EMPTY
+
+  chap_585.json - Chapter 585
+  ✗ english: EMPTY
+
+  Hadith #1235:
+    ✗ english_translation: EMPTY
+
+  chap_586.json - Chapter 586
+  ✗ english: EMPTY
+
+  Hadith #1236:
+    ✗ english_translation: EMPTY
+
+  chap_587.json - Chapter 587
+  ✗ english: EMPTY
+
+  Hadith #1237:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 40
+  - Book metadata: 0
+  - Chapters: 40
+  - Hadiths: 0
+================================================================================

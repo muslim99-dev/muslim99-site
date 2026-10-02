@@ -1,0 +1,60 @@
+VALIDATION REPORT - Book 124: 
+Generated: 2026-08-15 00:32:53
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1295.json - Chapter 1295
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7172:
+    ✗ english_translation: EMPTY
+
+  Hadith #7173:
+    ✗ english_translation: EMPTY
+
+  Hadith #7174:
+    ✗ english_translation: EMPTY
+
+  chap_1296.json - Chapter 1296
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7175:
+    ✗ english_translation: EMPTY
+
+  Hadith #7176:
+    ✗ english_translation: EMPTY
+
+  Hadith #7177:
+    ✗ english_translation: EMPTY
+
+  Hadith #7178:
+    ✗ english_translation: EMPTY
+
+  Hadith #7179:
+    ✗ english_translation: EMPTY
+
+  Hadith #7180:
+    ✗ english_translation: EMPTY
+
+  Hadith #7181:
+    ✗ english_translation: EMPTY
+
+  Hadith #7182:
+    ✗ english_translation: EMPTY
+
+  Hadith #7183:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 18
+  - Book metadata: 2
+  - Chapters: 16
+  - Hadiths: 0
+================================================================================

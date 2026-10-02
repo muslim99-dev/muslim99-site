@@ -1,0 +1,120 @@
+VALIDATION REPORT - Book 38: Tribulations
+Generated: 2026-08-13 17:49:39
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1460.json - Chapter 1460
+  ✗ arabic: EMPTY
+
+  chap_1461.json - Chapter 1461
+  ✗ arabic: EMPTY
+
+  chap_1462.json - Chapter 1462
+  ✗ arabic: EMPTY
+
+  chap_1463.json - Chapter 1463
+  ✗ arabic: EMPTY
+
+  chap_1464.json - Chapter 1464
+  ✗ arabic: EMPTY
+
+  chap_1465.json - Chapter 1465
+  ✗ arabic: EMPTY
+
+  chap_1466.json - Chapter 1466
+  ✗ arabic: EMPTY
+
+  chap_1467.json - Chapter 1467
+  ✗ arabic: EMPTY
+
+  chap_1468.json - Chapter 1468
+  ✗ arabic: EMPTY
+
+  chap_1469.json - Chapter 1469
+  ✗ arabic: EMPTY
+
+  chap_1470.json - Chapter 1470
+  ✗ arabic: EMPTY
+
+  chap_1471.json - Chapter 1471
+  ✗ arabic: EMPTY
+
+  chap_1472.json - Chapter 1472
+  ✗ arabic: EMPTY
+
+  chap_1473.json - Chapter 1473
+  ✗ arabic: EMPTY
+
+  chap_1474.json - Chapter 1474
+  ✗ arabic: EMPTY
+
+  chap_1475.json - Chapter 1475
+  ✗ arabic: EMPTY
+
+  chap_1476.json - Chapter 1476
+  ✗ arabic: EMPTY
+
+  chap_1477.json - Chapter 1477
+  ✗ arabic: EMPTY
+
+  chap_1478.json - Chapter 1478
+  ✗ arabic: EMPTY
+
+  chap_1479.json - Chapter 1479
+  ✗ arabic: EMPTY
+
+  chap_1480.json - Chapter 1480
+  ✗ arabic: EMPTY
+
+  chap_1481.json - Chapter 1481
+  ✗ arabic: EMPTY
+
+  chap_1482.json - Chapter 1482
+  ✗ arabic: EMPTY
+
+  chap_1483.json - Chapter 1483
+  ✗ arabic: EMPTY
+
+  chap_1484.json - Chapter 1484
+  ✗ arabic: EMPTY
+
+  chap_1485.json - Chapter 1485
+  ✗ arabic: EMPTY
+
+  chap_1486.json - Chapter 1486
+  ✗ arabic: EMPTY
+
+  chap_1487.json - Chapter 1487
+  ✗ arabic: EMPTY
+
+  chap_1488.json - Chapter 1488
+  ✗ arabic: EMPTY
+
+  chap_1489.json - Chapter 1489
+  ✗ arabic: EMPTY
+
+  chap_1490.json - Chapter 1490
+  ✗ arabic: EMPTY
+
+  chap_1491.json - Chapter 1491
+  ✗ arabic: EMPTY
+
+  chap_1492.json - Chapter 1492
+  ✗ arabic: EMPTY
+
+  chap_1493.json - Chapter 1493
+  ✗ arabic: EMPTY
+
+  chap_1494.json - Chapter 1494
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 36
+  - Book metadata: 1
+  - Chapters: 35
+  - Hadiths: 0
+================================================================================

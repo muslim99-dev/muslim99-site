@@ -1,0 +1,42 @@
+VALIDATION REPORT - Book 1: Introduction
+Generated: 2026-08-12 13:12:54
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_6.json - Chapter 6
+  ✗ english: EMPTY
+
+  chap_7.json - Chapter 7
+  ✗ english: EMPTY
+
+  chap_9.json - Chapter 9
+  ✗ english: EMPTY
+
+  chap_10.json - Chapter 10
+  ✗ english: EMPTY
+
+  chap_11.json - Chapter 11
+  ✗ english: EMPTY
+
+  chap_12.json - Chapter 12
+  ✗ english: EMPTY
+
+  chap_15.json - Chapter 15
+  ✗ english: EMPTY
+
+  chap_17.json - Chapter 17
+  ✗ english: EMPTY
+
+  chap_18.json - Chapter 18
+  ✗ english: EMPTY
+
+  chap_31.json - Chapter 31
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 10
+  - Book metadata: 0
+  - Chapters: 10
+  - Hadiths: 0
+================================================================================

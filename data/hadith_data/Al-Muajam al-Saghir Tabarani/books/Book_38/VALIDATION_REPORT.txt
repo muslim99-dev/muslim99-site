@@ -1,0 +1,65 @@
+VALIDATION REPORT - Book 38: 
+Generated: 2026-08-22 13:14:07
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1077.json - Chapter 1077
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1148:
+    ✗ english_translation: EMPTY
+
+  chap_1078.json - Chapter 1078
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1149:
+    ✗ english_translation: EMPTY
+
+  chap_1079.json - Chapter 1079
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1150:
+    ✗ english_translation: EMPTY
+
+  chap_1080.json - Chapter 1080
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1151:
+    ✗ english_translation: EMPTY
+
+  chap_1081.json - Chapter 1081
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1152:
+    ✗ english_translation: EMPTY
+
+  chap_1082.json - Chapter 1082
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1153:
+    ✗ english_translation: EMPTY
+
+  chap_1083.json - Chapter 1083
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1154:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 23
+  - Book metadata: 2
+  - Chapters: 21
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,183 @@
+VALIDATION REPORT - Book 24: Wages (kitab al-ijarah)
+Generated: 2026-08-13 01:45:41
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1241.json - Chapter 1241
+  ✗ arabic: EMPTY
+
+  chap_1242.json - Chapter 1242
+  ✗ arabic: EMPTY
+
+  chap_1243.json - Chapter 1243
+  ✗ arabic: EMPTY
+
+  chap_1244.json - Chapter 1244
+  ✗ arabic: EMPTY
+
+  chap_1245.json - Chapter 1245
+  ✗ arabic: EMPTY
+
+  chap_1246.json - Chapter 1246
+  ✗ arabic: EMPTY
+
+  chap_1247.json - Chapter 1247
+  ✗ arabic: EMPTY
+
+  chap_1248.json - Chapter 1248
+  ✗ arabic: EMPTY
+
+  chap_1249.json - Chapter 1249
+  ✗ arabic: EMPTY
+
+  chap_1250.json - Chapter 1250
+  ✗ arabic: EMPTY
+
+  chap_1251.json - Chapter 1251
+  ✗ arabic: EMPTY
+
+  chap_1252.json - Chapter 1252
+  ✗ arabic: EMPTY
+
+  chap_1253.json - Chapter 1253
+  ✗ arabic: EMPTY
+
+  chap_1254.json - Chapter 1254
+  ✗ arabic: EMPTY
+
+  chap_1255.json - Chapter 1255
+  ✗ arabic: EMPTY
+
+  chap_1256.json - Chapter 1256
+  ✗ arabic: EMPTY
+
+  chap_1257.json - Chapter 1257
+  ✗ arabic: EMPTY
+
+  chap_1258.json - Chapter 1258
+  ✗ arabic: EMPTY
+
+  chap_1259.json - Chapter 1259
+  ✗ arabic: EMPTY
+
+  chap_1260.json - Chapter 1260
+  ✗ arabic: EMPTY
+
+  chap_1261.json - Chapter 1261
+  ✗ arabic: EMPTY
+
+  chap_1262.json - Chapter 1262
+  ✗ arabic: EMPTY
+
+  chap_1263.json - Chapter 1263
+  ✗ arabic: EMPTY
+
+  chap_1264.json - Chapter 1264
+  ✗ arabic: EMPTY
+
+  chap_1265.json - Chapter 1265
+  ✗ arabic: EMPTY
+
+  chap_1266.json - Chapter 1266
+  ✗ arabic: EMPTY
+
+  chap_1267.json - Chapter 1267
+  ✗ arabic: EMPTY
+
+  chap_1268.json - Chapter 1268
+  ✗ arabic: EMPTY
+
+  chap_1269.json - Chapter 1269
+  ✗ arabic: EMPTY
+
+  chap_1270.json - Chapter 1270
+  ✗ arabic: EMPTY
+
+  chap_1271.json - Chapter 1271
+  ✗ arabic: EMPTY
+
+  chap_1272.json - Chapter 1272
+  ✗ arabic: EMPTY
+
+  chap_1273.json - Chapter 1273
+  ✗ arabic: EMPTY
+
+  chap_1274.json - Chapter 1274
+  ✗ arabic: EMPTY
+
+  chap_1275.json - Chapter 1275
+  ✗ arabic: EMPTY
+
+  chap_1276.json - Chapter 1276
+  ✗ arabic: EMPTY
+
+  chap_1277.json - Chapter 1277
+  ✗ arabic: EMPTY
+
+  chap_1278.json - Chapter 1278
+  ✗ arabic: EMPTY
+
+  chap_1279.json - Chapter 1279
+  ✗ arabic: EMPTY
+
+  chap_1280.json - Chapter 1280
+  ✗ arabic: EMPTY
+
+  chap_1281.json - Chapter 1281
+  ✗ arabic: EMPTY
+
+  chap_1282.json - Chapter 1282
+  ✗ arabic: EMPTY
+
+  chap_1283.json - Chapter 1283
+  ✗ arabic: EMPTY
+
+  chap_1284.json - Chapter 1284
+  ✗ arabic: EMPTY
+
+  chap_1285.json - Chapter 1285
+  ✗ arabic: EMPTY
+
+  chap_1286.json - Chapter 1286
+  ✗ arabic: EMPTY
+
+  chap_1287.json - Chapter 1287
+  ✗ arabic: EMPTY
+
+  chap_1288.json - Chapter 1288
+  ✗ arabic: EMPTY
+
+  chap_1289.json - Chapter 1289
+  ✗ arabic: EMPTY
+
+  chap_1290.json - Chapter 1290
+  ✗ arabic: EMPTY
+
+  chap_1291.json - Chapter 1291
+  ✗ arabic: EMPTY
+
+  chap_1292.json - Chapter 1292
+  ✗ arabic: EMPTY
+
+  chap_1293.json - Chapter 1293
+  ✗ arabic: EMPTY
+
+  chap_1294.json - Chapter 1294
+  ✗ arabic: EMPTY
+
+  chap_1295.json - Chapter 1295
+  ✗ arabic: EMPTY
+
+  chap_1296.json - Chapter 1296
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 57
+  - Book metadata: 1
+  - Chapters: 56
+  - Hadiths: 0
+================================================================================

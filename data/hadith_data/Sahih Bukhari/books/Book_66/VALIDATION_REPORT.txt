@@ -1,0 +1,94 @@
+VALIDATION REPORT - Book 66: The book of commentary.
+Generated: 2026-08-12 04:46:00
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_1418.json - Chapter 1418
+
+  Hadith #4954:
+    ✗ english_translation: EMPTY
+
+  chap_2181.json - Chapter 2181
+
+  Hadith #4514:
+    ✗ english_translation: EMPTY
+
+  Hadith #4515:
+    ✗ english_translation: EMPTY
+
+  chap_2189.json - Chapter 2189
+
+  Hadith #4525:
+    ✗ english_translation: EMPTY
+
+  chap_2190.json - Chapter 2190
+
+  Hadith #4527:
+    ✗ english_translation: EMPTY
+
+  chap_2203.json - Chapter 2203
+
+  Hadith #4543:
+    ✗ english_translation: EMPTY
+
+  chap_2278.json - Chapter 2278
+
+  Hadith #4645:
+    ✗ english_translation: EMPTY
+
+  chap_2292.json - Chapter 2292
+
+  Hadith #4661:
+    ✗ english_translation: EMPTY
+
+  chap_2295.json - Chapter 2295
+  ✗ urdu: EMPTY
+
+  chap_2318.json - Chapter 2318
+  ✗ english: EMPTY
+
+  Hadith #4695:
+    ✗ urdu_translation: EMPTY
+    ✗ english_translation: EMPTY
+
+  Hadith #4696:
+    ✗ urdu_translation: EMPTY
+    ✗ english_translation: EMPTY
+
+  chap_2369.json - Chapter 2369
+
+  Hadith #4758:
+    ✗ english_translation: EMPTY
+
+  chap_2413.json - Chapter 2413
+
+  Hadith #4829:
+    ✗ english_translation: EMPTY
+
+  chap_2419.json - Chapter 2419
+
+  Hadith #4842:
+    ✗ english_translation: EMPTY
+
+  chap_2440.json - Chapter 2440
+
+  Hadith #4880:
+    ✗ english_translation: EMPTY
+
+  chap_2460.json - Chapter 2460
+
+  Hadith #4910:
+    ✗ english_translation: EMPTY
+
+  chap_2480.json - Chapter 2480
+
+  Hadith #4933:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 20
+  - Book metadata: 0
+  - Chapters: 20
+  - Hadiths: 0
+================================================================================

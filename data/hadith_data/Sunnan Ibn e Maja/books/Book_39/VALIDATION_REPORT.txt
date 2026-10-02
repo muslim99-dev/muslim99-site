@@ -1,0 +1,171 @@
+VALIDATION REPORT - Book 39: Zuhd
+Generated: 2026-08-13 17:56:49
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1495.json - Chapter 1495
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1496.json - Chapter 1496
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1497.json - Chapter 1497
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1498.json - Chapter 1498
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1499.json - Chapter 1499
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1500.json - Chapter 1500
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1501.json - Chapter 1501
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1502.json - Chapter 1502
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1503.json - Chapter 1503
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1504.json - Chapter 1504
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1505.json - Chapter 1505
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1506.json - Chapter 1506
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1507.json - Chapter 1507
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1508.json - Chapter 1508
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1509.json - Chapter 1509
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1510.json - Chapter 1510
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1511.json - Chapter 1511
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1512.json - Chapter 1512
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1513.json - Chapter 1513
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1514.json - Chapter 1514
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1515.json - Chapter 1515
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1516.json - Chapter 1516
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1517.json - Chapter 1517
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1518.json - Chapter 1518
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1519.json - Chapter 1519
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1520.json - Chapter 1520
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1521.json - Chapter 1521
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1522.json - Chapter 1522
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1523.json - Chapter 1523
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1524.json - Chapter 1524
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1525.json - Chapter 1525
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1526.json - Chapter 1526
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1527.json - Chapter 1527
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1528.json - Chapter 1528
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1529.json - Chapter 1529
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1530.json - Chapter 1530
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1531.json - Chapter 1531
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1532.json - Chapter 1532
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1533.json - Chapter 1533
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 79
+  - Book metadata: 1
+  - Chapters: 78
+  - Hadiths: 0
+================================================================================

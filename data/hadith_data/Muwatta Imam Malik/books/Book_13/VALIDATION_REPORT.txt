@@ -1,0 +1,46 @@
+VALIDATION REPORT - Book 13: 
+Generated: 2026-08-22 10:27:20
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_118.json - Chapter 118
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #448:
+    ✗ english_translation: EMPTY
+
+  chap_119.json - Chapter 119
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #449:
+    ✗ english_translation: EMPTY
+
+  Hadith #450:
+    ✗ english_translation: EMPTY
+
+  chap_120.json - Chapter 120
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #451:
+    ✗ english_translation: EMPTY
+
+  Hadith #452:
+    ✗ english_translation: EMPTY
+
+  Hadith #453:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 14
+  - Book metadata: 2
+  - Chapters: 12
+  - Hadiths: 0
+================================================================================

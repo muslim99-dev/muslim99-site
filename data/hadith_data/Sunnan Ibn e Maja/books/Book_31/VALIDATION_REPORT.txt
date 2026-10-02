@@ -1,0 +1,259 @@
+VALIDATION REPORT - Book 31: chapters on food
+Generated: 2026-08-13 17:24:25
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1189.json - Chapter 1189
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1190.json - Chapter 1190
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1191.json - Chapter 1191
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1192.json - Chapter 1192
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1193.json - Chapter 1193
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1194.json - Chapter 1194
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1195.json - Chapter 1195
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1196.json - Chapter 1196
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1197.json - Chapter 1197
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1198.json - Chapter 1198
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1199.json - Chapter 1199
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1200.json - Chapter 1200
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1201.json - Chapter 1201
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1202.json - Chapter 1202
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1203.json - Chapter 1203
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1204.json - Chapter 1204
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1205.json - Chapter 1205
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1206.json - Chapter 1206
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1207.json - Chapter 1207
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1208.json - Chapter 1208
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1209.json - Chapter 1209
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1210.json - Chapter 1210
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1211.json - Chapter 1211
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1212.json - Chapter 1212
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1213.json - Chapter 1213
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1214.json - Chapter 1214
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1215.json - Chapter 1215
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1216.json - Chapter 1216
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1217.json - Chapter 1217
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1218.json - Chapter 1218
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1219.json - Chapter 1219
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1220.json - Chapter 1220
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1221.json - Chapter 1221
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1222.json - Chapter 1222
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1223.json - Chapter 1223
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1224.json - Chapter 1224
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1225.json - Chapter 1225
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1226.json - Chapter 1226
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1227.json - Chapter 1227
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1228.json - Chapter 1228
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1229.json - Chapter 1229
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1230.json - Chapter 1230
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1231.json - Chapter 1231
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1232.json - Chapter 1232
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1233.json - Chapter 1233
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1234.json - Chapter 1234
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1235.json - Chapter 1235
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1236.json - Chapter 1236
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1237.json - Chapter 1237
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1238.json - Chapter 1238
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1239.json - Chapter 1239
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1240.json - Chapter 1240
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1241.json - Chapter 1241
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1242.json - Chapter 1242
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1243.json - Chapter 1243
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1244.json - Chapter 1244
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1245.json - Chapter 1245
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1246.json - Chapter 1246
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1247.json - Chapter 1247
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1248.json - Chapter 1248
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1249.json - Chapter 1249
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 123
+  - Book metadata: 1
+  - Chapters: 122
+  - Hadiths: 0
+================================================================================

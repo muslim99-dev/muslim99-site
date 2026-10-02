@@ -1,0 +1,45 @@
+VALIDATION REPORT - Book 37: Interpretation of dreams
+Generated: 2026-08-13 17:44:18
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1450.json - Chapter 1450
+  ✗ arabic: EMPTY
+
+  chap_1451.json - Chapter 1451
+  ✗ arabic: EMPTY
+
+  chap_1452.json - Chapter 1452
+  ✗ arabic: EMPTY
+
+  chap_1453.json - Chapter 1453
+  ✗ arabic: EMPTY
+
+  chap_1454.json - Chapter 1454
+  ✗ arabic: EMPTY
+
+  chap_1455.json - Chapter 1455
+  ✗ arabic: EMPTY
+
+  chap_1456.json - Chapter 1456
+  ✗ arabic: EMPTY
+
+  chap_1457.json - Chapter 1457
+  ✗ arabic: EMPTY
+
+  chap_1458.json - Chapter 1458
+  ✗ arabic: EMPTY
+
+  chap_1459.json - Chapter 1459
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 11
+  - Book metadata: 1
+  - Chapters: 10
+  - Hadiths: 0
+================================================================================

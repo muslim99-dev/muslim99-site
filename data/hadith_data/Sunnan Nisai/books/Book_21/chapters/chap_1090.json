@@ -1,0 +1,26 @@
+{
+  "number": 1090,
+  "arabic": "",
+  "urdu": "باب: قبر میں رکھ دیئے جانے کے بعد مردے کو نکالنے کا بیان۔",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 2023,
+      "arabic_text": "أخبرنا العباس بن عبد العظيم عن سعيد بن عامر عن شعبة عن بن أبي نجيح عن عطاء عن جابر قال:‏‏‏‏ دفن مع أبي رجل في القبر فلم يطب قلبي حتى أخرجته ودفنته على حدة ‏.‏",
+      "urdu_translation": "میرے والد کے ساتھ قبر میں ایک شخص اور دفن کیا گیا تھا، میرا دل خوش نہیں ہوا یہاں تک کہ میں نے اسے نکالا، اور انہیں علاحدہ دفن کیا۔",
+      "english_translation": "It was narrated that Jabir said:\n A man was buried with my father in the same grave and I felt restless until I brought him out and buried him on his own.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "جابر بن عبداللہ رضی الله عنہما کہتے ہیں کہ  میرے والد کے ساتھ قبر میں ایک شخص اور دفن کیا گیا تھا، میرا دل خوش نہیں ہوا یہاں تک کہ میں نے اسے نکالا، اور انہیں علاحدہ دفن کیا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "2023",
+        "arabic_number": "ترقیم  : 2023"
+      }
+    }
+  ]
+}

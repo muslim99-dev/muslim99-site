@@ -1,0 +1,204 @@
+VALIDATION REPORT - Book 14: Excellence in character
+Generated: 2026-08-22 06:09:49
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_131.json - Chapter 131
+  ✗ english: EMPTY
+
+  Hadith #260:
+    ✗ english_translation: EMPTY
+
+  chap_132.json - Chapter 132
+  ✗ english: EMPTY
+
+  Hadith #261:
+    ✗ english_translation: EMPTY
+
+  Hadith #262:
+    ✗ english_translation: EMPTY
+
+  Hadith #263:
+    ✗ english_translation: EMPTY
+
+  chap_133.json - Chapter 133
+  ✗ english: EMPTY
+
+  Hadith #264:
+    ✗ english_translation: EMPTY
+
+  Hadith #265:
+    ✗ english_translation: EMPTY
+
+  Hadith #266:
+    ✗ english_translation: EMPTY
+
+  Hadith #267:
+    ✗ english_translation: EMPTY
+
+  Hadith #268:
+    ✗ english_translation: EMPTY
+
+  chap_134.json - Chapter 134
+  ✗ english: EMPTY
+
+  Hadith #269:
+    ✗ english_translation: EMPTY
+
+  Hadith #270:
+    ✗ english_translation: EMPTY
+
+  chap_135.json - Chapter 135
+  ✗ english: EMPTY
+
+  Hadith #271:
+    ✗ english_translation: EMPTY
+
+  Hadith #272:
+    ✗ english_translation: EMPTY
+
+  Hadith #273:
+    ✗ english_translation: EMPTY
+
+  Hadith #274:
+    ✗ english_translation: EMPTY
+
+  Hadith #275:
+    ✗ english_translation: EMPTY
+
+  Hadith #276:
+    ✗ english_translation: EMPTY
+
+  chap_136.json - Chapter 136
+  ✗ english: EMPTY
+
+  Hadith #277:
+    ✗ english_translation: EMPTY
+
+  Hadith #278:
+    ✗ english_translation: EMPTY
+
+  Hadith #279:
+    ✗ english_translation: EMPTY
+
+  Hadith #280:
+    ✗ english_translation: EMPTY
+
+  Hadith #281:
+    ✗ english_translation: EMPTY
+
+  chap_137.json - Chapter 137
+  ✗ english: EMPTY
+
+  Hadith #282:
+    ✗ english_translation: EMPTY
+
+  Hadith #283:
+    ✗ english_translation: EMPTY
+
+  Hadith #284:
+    ✗ english_translation: EMPTY
+
+  chap_138.json - Chapter 138
+  ✗ english: EMPTY
+
+  Hadith #285:
+    ✗ english_translation: EMPTY
+
+  Hadith #286:
+    ✗ english_translation: EMPTY
+
+  Hadith #287:
+    ✗ english_translation: EMPTY
+
+  Hadith #288:
+    ✗ english_translation: EMPTY
+
+  Hadith #289:
+    ✗ english_translation: EMPTY
+
+  Hadith #290:
+    ✗ english_translation: EMPTY
+
+  Hadith #291:
+    ✗ english_translation: EMPTY
+
+  Hadith #292:
+    ✗ english_translation: EMPTY
+
+  Hadith #293:
+    ✗ english_translation: EMPTY
+
+  Hadith #294:
+    ✗ english_translation: EMPTY
+
+  Hadith #295:
+    ✗ english_translation: EMPTY
+
+  Hadith #296:
+    ✗ english_translation: EMPTY
+
+  chap_139.json - Chapter 139
+  ✗ english: EMPTY
+
+  Hadith #297:
+    ✗ english_translation: EMPTY
+
+  Hadith #298:
+    ✗ english_translation: EMPTY
+
+  Hadith #299:
+    ✗ english_translation: EMPTY
+
+  chap_140.json - Chapter 140
+  ✗ english: EMPTY
+
+  Hadith #300:
+    ✗ english_translation: EMPTY
+
+  chap_141.json - Chapter 141
+  ✗ english: EMPTY
+
+  Hadith #301:
+    ✗ english_translation: EMPTY
+
+  chap_142.json - Chapter 142
+  ✗ english: EMPTY
+
+  Hadith #302:
+    ✗ english_translation: EMPTY
+
+  Hadith #303:
+    ✗ english_translation: EMPTY
+
+  Hadith #304:
+    ✗ english_translation: EMPTY
+
+  Hadith #305:
+    ✗ english_translation: EMPTY
+
+  chap_143.json - Chapter 143
+  ✗ english: EMPTY
+
+  Hadith #306:
+    ✗ english_translation: EMPTY
+
+  Hadith #307:
+    ✗ english_translation: EMPTY
+
+  chap_144.json - Chapter 144
+  ✗ english: EMPTY
+
+  Hadith #308:
+    ✗ english_translation: EMPTY
+
+  Hadith #309:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 64
+  - Book metadata: 0
+  - Chapters: 64
+  - Hadiths: 0
+================================================================================

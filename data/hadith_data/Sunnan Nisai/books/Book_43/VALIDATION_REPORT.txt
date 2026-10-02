@@ -1,0 +1,167 @@
+VALIDATION REPORT - Book 43: The book of hunting and slaughtering
+Generated: 2026-08-13 06:52:29
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1917.json - Chapter 1917
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1918.json - Chapter 1918
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1919.json - Chapter 1919
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1920.json - Chapter 1920
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1921.json - Chapter 1921
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1922.json - Chapter 1922
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1923.json - Chapter 1923
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1924.json - Chapter 1924
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1925.json - Chapter 1925
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1926.json - Chapter 1926
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1927.json - Chapter 1927
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1928.json - Chapter 1928
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1929.json - Chapter 1929
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1930.json - Chapter 1930
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1931.json - Chapter 1931
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1932.json - Chapter 1932
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1933.json - Chapter 1933
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1934.json - Chapter 1934
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1935.json - Chapter 1935
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1936.json - Chapter 1936
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1937.json - Chapter 1937
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1938.json - Chapter 1938
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1939.json - Chapter 1939
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1940.json - Chapter 1940
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1941.json - Chapter 1941
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1942.json - Chapter 1942
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1943.json - Chapter 1943
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1944.json - Chapter 1944
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1945.json - Chapter 1945
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1946.json - Chapter 1946
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1947.json - Chapter 1947
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1948.json - Chapter 1948
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1949.json - Chapter 1949
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1950.json - Chapter 1950
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1951.json - Chapter 1951
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1952.json - Chapter 1952
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1953.json - Chapter 1953
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1954.json - Chapter 1954
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 77
+  - Book metadata: 1
+  - Chapters: 76
+  - Hadiths: 0
+================================================================================

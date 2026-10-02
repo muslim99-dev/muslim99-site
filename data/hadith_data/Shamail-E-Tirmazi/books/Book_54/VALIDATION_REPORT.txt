@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 54: Narration of the death of the messenger of allah (peace and blessings of allah be upon him).
+Generated: 2026-08-17 13:48:29
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_54.json - Chapter 54
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

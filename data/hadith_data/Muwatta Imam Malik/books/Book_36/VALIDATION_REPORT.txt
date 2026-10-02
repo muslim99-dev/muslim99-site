@@ -1,0 +1,35 @@
+VALIDATION REPORT - Book 36: 
+Generated: 2026-08-22 10:57:43
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_433.json - Chapter 433
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1403:
+    ✗ english_translation: EMPTY
+
+  Hadith #1404:
+    ✗ english_translation: EMPTY
+
+  Hadith #1405:
+    ✗ english_translation: EMPTY
+
+  Hadith #1406:
+    ✗ english_translation: EMPTY
+
+  Hadith #1407:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 9
+  - Book metadata: 2
+  - Chapters: 7
+  - Hadiths: 0
+================================================================================

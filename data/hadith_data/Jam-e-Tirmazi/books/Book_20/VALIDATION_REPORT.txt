@@ -1,0 +1,78 @@
+VALIDATION REPORT - Book 20: The book on sacrifices
+Generated: 2026-08-12 19:20:01
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1012.json - Chapter 1012
+  ✗ arabic: EMPTY
+
+  chap_1013.json - Chapter 1013
+  ✗ arabic: EMPTY
+
+  chap_1014.json - Chapter 1014
+  ✗ arabic: EMPTY
+
+  chap_1015.json - Chapter 1015
+  ✗ arabic: EMPTY
+
+  chap_1016.json - Chapter 1016
+  ✗ arabic: EMPTY
+
+  chap_1017.json - Chapter 1017
+  ✗ arabic: EMPTY
+
+  chap_1018.json - Chapter 1018
+  ✗ arabic: EMPTY
+
+  chap_1019.json - Chapter 1019
+  ✗ arabic: EMPTY
+
+  chap_1020.json - Chapter 1020
+  ✗ arabic: EMPTY
+
+  chap_1021.json - Chapter 1021
+  ✗ arabic: EMPTY
+
+  chap_1022.json - Chapter 1022
+  ✗ arabic: EMPTY
+
+  chap_1023.json - Chapter 1023
+  ✗ arabic: EMPTY
+
+  chap_1024.json - Chapter 1024
+  ✗ arabic: EMPTY
+
+  chap_1025.json - Chapter 1025
+  ✗ arabic: EMPTY
+
+  chap_1026.json - Chapter 1026
+  ✗ arabic: EMPTY
+
+  chap_1027.json - Chapter 1027
+  ✗ arabic: EMPTY
+
+  chap_1028.json - Chapter 1028
+  ✗ arabic: EMPTY
+
+  chap_1029.json - Chapter 1029
+  ✗ arabic: EMPTY
+
+  chap_1030.json - Chapter 1030
+  ✗ arabic: EMPTY
+
+  chap_1031.json - Chapter 1031
+  ✗ arabic: EMPTY
+
+  chap_1032.json - Chapter 1032
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 22
+  - Book metadata: 1
+  - Chapters: 21
+  - Hadiths: 0
+================================================================================

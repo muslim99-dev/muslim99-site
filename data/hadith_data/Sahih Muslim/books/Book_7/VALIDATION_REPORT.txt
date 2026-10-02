@@ -1,0 +1,84 @@
+VALIDATION REPORT - Book 7: The book of prayer - travellers
+Generated: 2026-08-12 13:58:37
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_291.json - Chapter 291
+  ✗ english: EMPTY
+
+  chap_292.json - Chapter 292
+  ✗ english: EMPTY
+
+  chap_293.json - Chapter 293
+  ✗ english: EMPTY
+
+  chap_294.json - Chapter 294
+  ✗ english: EMPTY
+
+  chap_295.json - Chapter 295
+  ✗ english: EMPTY
+
+  chap_296.json - Chapter 296
+  ✗ english: EMPTY
+
+  chap_297.json - Chapter 297
+  ✗ english: EMPTY
+
+  chap_298.json - Chapter 298
+  ✗ english: EMPTY
+
+  chap_299.json - Chapter 299
+  ✗ english: EMPTY
+
+  chap_300.json - Chapter 300
+  ✗ english: EMPTY
+
+  chap_301.json - Chapter 301
+  ✗ english: EMPTY
+
+  chap_302.json - Chapter 302
+  ✗ english: EMPTY
+
+  chap_303.json - Chapter 303
+  ✗ english: EMPTY
+
+  chap_304.json - Chapter 304
+  ✗ english: EMPTY
+
+  chap_305.json - Chapter 305
+  ✗ english: EMPTY
+
+  chap_306.json - Chapter 306
+  ✗ english: EMPTY
+
+  chap_307.json - Chapter 307
+  ✗ english: EMPTY
+
+  chap_308.json - Chapter 308
+  ✗ english: EMPTY
+
+  chap_309.json - Chapter 309
+  ✗ english: EMPTY
+
+  chap_310.json - Chapter 310
+  ✗ english: EMPTY
+
+  chap_311.json - Chapter 311
+  ✗ english: EMPTY
+
+  chap_312.json - Chapter 312
+  ✗ english: EMPTY
+
+  chap_313.json - Chapter 313
+  ✗ english: EMPTY
+
+  chap_314.json - Chapter 314
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 24
+  - Book metadata: 0
+  - Chapters: 24
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,128 @@
+VALIDATION REPORT - Book 31: 
+Generated: 2026-08-14 06:19:22
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_317.json - Chapter 317
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1826:
+    ✗ english_translation: EMPTY
+
+  Hadith #1827:
+    ✗ english_translation: EMPTY
+
+  Hadith #1828:
+    ✗ english_translation: EMPTY
+
+  Hadith #1829:
+    ✗ english_translation: EMPTY
+
+  Hadith #1830:
+    ✗ english_translation: EMPTY
+
+  Hadith #1831:
+    ✗ english_translation: EMPTY
+
+  Hadith #1832:
+    ✗ english_translation: EMPTY
+
+  Hadith #1833:
+    ✗ english_translation: EMPTY
+
+  chap_318.json - Chapter 318
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1834:
+    ✗ english_translation: EMPTY
+
+  Hadith #1835:
+    ✗ english_translation: EMPTY
+
+  Hadith #1836:
+    ✗ english_translation: EMPTY
+
+  chap_319.json - Chapter 319
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1837:
+    ✗ english_translation: EMPTY
+
+  Hadith #1838:
+    ✗ english_translation: EMPTY
+
+  chap_320.json - Chapter 320
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1839:
+    ✗ english_translation: EMPTY
+
+  Hadith #1840:
+    ✗ english_translation: EMPTY
+
+  Hadith #1841:
+    ✗ english_translation: EMPTY
+
+  Hadith #1842:
+    ✗ english_translation: EMPTY
+
+  Hadith #1843:
+    ✗ english_translation: EMPTY
+
+  Hadith #1844:
+    ✗ english_translation: EMPTY
+
+  chap_321.json - Chapter 321
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1845:
+    ✗ english_translation: EMPTY
+
+  Hadith #1846:
+    ✗ english_translation: EMPTY
+
+  Hadith #1847:
+    ✗ english_translation: EMPTY
+
+  chap_322.json - Chapter 322
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1848:
+    ✗ english_translation: EMPTY
+
+  Hadith #1849:
+    ✗ english_translation: EMPTY
+
+  Hadith #1850:
+    ✗ english_translation: EMPTY
+
+  Hadith #1851:
+    ✗ english_translation: EMPTY
+
+  chap_333.json - Chapter 333
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1852:
+    ✗ english_translation: EMPTY
+
+  Hadith #1853:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 44
+  - Book metadata: 2
+  - Chapters: 42
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,20 @@
+VALIDATION REPORT - Book 16: The book of aetikaaf
+Generated: 2026-08-12 14:45:39
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_501.json - Chapter 501
+
+  Hadith #2950:
+    ✗ english_translation: EMPTY
+
+  chap_513.json - Chapter 513
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 0
+  - Chapters: 2
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,39 @@
+VALIDATION REPORT - Book 36: Signet-rings (kitab al-khatam)
+Generated: 2026-08-13 02:10:42
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1528.json - Chapter 1528
+  ✗ arabic: EMPTY
+
+  chap_1529.json - Chapter 1529
+  ✗ arabic: EMPTY
+
+  chap_1530.json - Chapter 1530
+  ✗ arabic: EMPTY
+
+  chap_1531.json - Chapter 1531
+  ✗ arabic: EMPTY
+
+  chap_1532.json - Chapter 1532
+  ✗ arabic: EMPTY
+
+  chap_1533.json - Chapter 1533
+  ✗ arabic: EMPTY
+
+  chap_1534.json - Chapter 1534
+  ✗ arabic: EMPTY
+
+  chap_1535.json - Chapter 1535
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 9
+  - Book metadata: 1
+  - Chapters: 8
+  - Hadiths: 0
+================================================================================

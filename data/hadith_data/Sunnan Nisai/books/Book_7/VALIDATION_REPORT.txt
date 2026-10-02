@@ -1,0 +1,189 @@
+VALIDATION REPORT - Book 7: The book of the adhan (the call to prayer)
+Generated: 2026-08-13 04:27:07
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_348.json - Chapter 348
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_349.json - Chapter 349
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_350.json - Chapter 350
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_351.json - Chapter 351
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_352.json - Chapter 352
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_353.json - Chapter 353
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_354.json - Chapter 354
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_355.json - Chapter 355
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_356.json - Chapter 356
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_357.json - Chapter 357
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_358.json - Chapter 358
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_359.json - Chapter 359
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_360.json - Chapter 360
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_361.json - Chapter 361
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_362.json - Chapter 362
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #649:
+    ✗ urdu_translation: EMPTY
+
+  chap_363.json - Chapter 363
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #652:
+    ✗ urdu_translation: EMPTY
+
+  chap_364.json - Chapter 364
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_365.json - Chapter 365
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_366.json - Chapter 366
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_367.json - Chapter 367
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_368.json - Chapter 368
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_369.json - Chapter 369
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_370.json - Chapter 370
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_371.json - Chapter 371
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_372.json - Chapter 372
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_373.json - Chapter 373
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_374.json - Chapter 374
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_375.json - Chapter 375
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_376.json - Chapter 376
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_377.json - Chapter 377
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_378.json - Chapter 378
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_379.json - Chapter 379
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_380.json - Chapter 380
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_381.json - Chapter 381
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_382.json - Chapter 382
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_383.json - Chapter 383
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_384.json - Chapter 384
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_385.json - Chapter 385
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_386.json - Chapter 386
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_387.json - Chapter 387
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_388.json - Chapter 388
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_389.json - Chapter 389
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 87
+  - Book metadata: 1
+  - Chapters: 86
+  - Hadiths: 0
+================================================================================

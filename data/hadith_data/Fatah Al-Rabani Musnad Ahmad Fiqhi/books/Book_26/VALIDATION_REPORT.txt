@@ -1,0 +1,104 @@
+VALIDATION REPORT - Book 26: 
+Generated: 2026-08-14 06:08:23
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_263.json - Chapter 263
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1449:
+    ✗ english_translation: EMPTY
+
+  Hadith #1450:
+    ✗ english_translation: EMPTY
+
+  Hadith #1451:
+    ✗ english_translation: EMPTY
+
+  Hadith #1452:
+    ✗ english_translation: EMPTY
+
+  Hadith #1453:
+    ✗ english_translation: EMPTY
+
+  Hadith #1454:
+    ✗ english_translation: EMPTY
+
+  chap_264.json - Chapter 264
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1455:
+    ✗ english_translation: EMPTY
+
+  Hadith #1456:
+    ✗ english_translation: EMPTY
+
+  Hadith #1457:
+    ✗ english_translation: EMPTY
+
+  chap_265.json - Chapter 265
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1458:
+    ✗ english_translation: EMPTY
+
+  Hadith #1459:
+    ✗ english_translation: EMPTY
+
+  Hadith #1460:
+    ✗ english_translation: EMPTY
+
+  Hadith #1461:
+    ✗ english_translation: EMPTY
+
+  Hadith #1462:
+    ✗ english_translation: EMPTY
+
+  chap_266.json - Chapter 266
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1463:
+    ✗ english_translation: EMPTY
+
+  Hadith #1464:
+    ✗ english_translation: EMPTY
+
+  Hadith #1465:
+    ✗ english_translation: EMPTY
+
+  Hadith #1466:
+    ✗ english_translation: EMPTY
+
+  Hadith #1467:
+    ✗ english_translation: EMPTY
+
+  Hadith #1468:
+    ✗ english_translation: EMPTY
+
+  Hadith #1469:
+    ✗ english_translation: EMPTY
+
+  Hadith #1470:
+    ✗ english_translation: EMPTY
+
+  Hadith #1471:
+    ✗ english_translation: EMPTY
+
+  Hadith #1472:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 34
+  - Book metadata: 2
+  - Chapters: 32
+  - Hadiths: 0
+================================================================================

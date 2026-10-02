@@ -1,0 +1,195 @@
+VALIDATION REPORT - Book 14: The book of jumu'ah (friday prayer)
+Generated: 2026-08-13 05:00:24
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_806.json - Chapter 806
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_807.json - Chapter 807
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_808.json - Chapter 808
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_809.json - Chapter 809
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_810.json - Chapter 810
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_811.json - Chapter 811
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_812.json - Chapter 812
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_813.json - Chapter 813
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_814.json - Chapter 814
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_815.json - Chapter 815
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_816.json - Chapter 816
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_817.json - Chapter 817
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_818.json - Chapter 818
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_819.json - Chapter 819
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_820.json - Chapter 820
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_821.json - Chapter 821
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_822.json - Chapter 822
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_823.json - Chapter 823
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_824.json - Chapter 824
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_825.json - Chapter 825
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_826.json - Chapter 826
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_827.json - Chapter 827
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_828.json - Chapter 828
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_829.json - Chapter 829
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_830.json - Chapter 830
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_831.json - Chapter 831
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_832.json - Chapter 832
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_833.json - Chapter 833
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_834.json - Chapter 834
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_835.json - Chapter 835
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_836.json - Chapter 836
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_837.json - Chapter 837
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_838.json - Chapter 838
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_839.json - Chapter 839
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_840.json - Chapter 840
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_841.json - Chapter 841
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_842.json - Chapter 842
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_843.json - Chapter 843
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_844.json - Chapter 844
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_845.json - Chapter 845
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_846.json - Chapter 846
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_847.json - Chapter 847
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_848.json - Chapter 848
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_849.json - Chapter 849
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_850.json - Chapter 850
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 91
+  - Book metadata: 1
+  - Chapters: 90
+  - Hadiths: 0
+================================================================================

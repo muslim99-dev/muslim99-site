@@ -1,0 +1,293 @@
+VALIDATION REPORT - Book 50: Chapters on virtues
+Generated: 2026-08-12 20:53:38
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_317.json - Chapter 317
+  ✗ arabic: EMPTY
+
+  chap_1459.json - Chapter 1459
+  ✗ arabic: EMPTY
+
+  chap_1996.json - Chapter 1996
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1997.json - Chapter 1997
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1998.json - Chapter 1998
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1999.json - Chapter 1999
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2000.json - Chapter 2000
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2001.json - Chapter 2001
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2002.json - Chapter 2002
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2003.json - Chapter 2003
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2004.json - Chapter 2004
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2005.json - Chapter 2005
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2006.json - Chapter 2006
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2007.json - Chapter 2007
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2008.json - Chapter 2008
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2009.json - Chapter 2009
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2010.json - Chapter 2010
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2011.json - Chapter 2011
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2012.json - Chapter 2012
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2013.json - Chapter 2013
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2014.json - Chapter 2014
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2015.json - Chapter 2015
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2016.json - Chapter 2016
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2017.json - Chapter 2017
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2018.json - Chapter 2018
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2019.json - Chapter 2019
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2020.json - Chapter 2020
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2021.json - Chapter 2021
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2022.json - Chapter 2022
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2023.json - Chapter 2023
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2024.json - Chapter 2024
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2025.json - Chapter 2025
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2026.json - Chapter 2026
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2027.json - Chapter 2027
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2028.json - Chapter 2028
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2029.json - Chapter 2029
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2030.json - Chapter 2030
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2031.json - Chapter 2031
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2032.json - Chapter 2032
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2033.json - Chapter 2033
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2034.json - Chapter 2034
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2035.json - Chapter 2035
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2036.json - Chapter 2036
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2037.json - Chapter 2037
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2038.json - Chapter 2038
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2039.json - Chapter 2039
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2040.json - Chapter 2040
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2041.json - Chapter 2041
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2042.json - Chapter 2042
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2043.json - Chapter 2043
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2044.json - Chapter 2044
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2045.json - Chapter 2045
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2046.json - Chapter 2046
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2047.json - Chapter 2047
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2048.json - Chapter 2048
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2049.json - Chapter 2049
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2050.json - Chapter 2050
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2051.json - Chapter 2051
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2052.json - Chapter 2052
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2053.json - Chapter 2053
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2054.json - Chapter 2054
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2055.json - Chapter 2055
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2056.json - Chapter 2056
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2057.json - Chapter 2057
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2058.json - Chapter 2058
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2059.json - Chapter 2059
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2060.json - Chapter 2060
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2061.json - Chapter 2061
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2062.json - Chapter 2062
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2063.json - Chapter 2063
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 139
+  - Book metadata: 1
+  - Chapters: 138
+  - Hadiths: 0
+================================================================================

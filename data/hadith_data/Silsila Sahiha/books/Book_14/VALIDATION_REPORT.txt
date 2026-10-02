@@ -1,0 +1,743 @@
+VALIDATION REPORT - Book 14: 
+Generated: 2026-08-14 01:57:24
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1117.json - Chapter 1117
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1659:
+    ✗ english_translation: EMPTY
+
+  Hadith #1660:
+    ✗ english_translation: EMPTY
+
+  Hadith #1661:
+    ✗ english_translation: EMPTY
+
+  chap_1118.json - Chapter 1118
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1662:
+    ✗ english_translation: EMPTY
+
+  chap_1119.json - Chapter 1119
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1663:
+    ✗ english_translation: EMPTY
+
+  Hadith #1664:
+    ✗ english_translation: EMPTY
+
+  Hadith #1665:
+    ✗ english_translation: EMPTY
+
+  chap_1120.json - Chapter 1120
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1666:
+    ✗ english_translation: EMPTY
+
+  Hadith #1667:
+    ✗ english_translation: EMPTY
+
+  Hadith #1668:
+    ✗ english_translation: EMPTY
+
+  Hadith #1669:
+    ✗ english_translation: EMPTY
+
+  Hadith #1670:
+    ✗ english_translation: EMPTY
+
+  Hadith #1671:
+    ✗ english_translation: EMPTY
+
+  Hadith #1672:
+    ✗ english_translation: EMPTY
+
+  Hadith #1673:
+    ✗ english_translation: EMPTY
+
+  Hadith #1674:
+    ✗ english_translation: EMPTY
+
+  Hadith #1675:
+    ✗ english_translation: EMPTY
+
+  Hadith #1676:
+    ✗ english_translation: EMPTY
+
+  Hadith #1677:
+    ✗ english_translation: EMPTY
+
+  chap_1121.json - Chapter 1121
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1678:
+    ✗ english_translation: EMPTY
+
+  Hadith #1679:
+    ✗ english_translation: EMPTY
+
+  chap_1122.json - Chapter 1122
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1680:
+    ✗ english_translation: EMPTY
+
+  chap_1123.json - Chapter 1123
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1681:
+    ✗ english_translation: EMPTY
+
+  chap_1124.json - Chapter 1124
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1682:
+    ✗ english_translation: EMPTY
+
+  chap_1125.json - Chapter 1125
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1683:
+    ✗ english_translation: EMPTY
+
+  chap_1126.json - Chapter 1126
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1684:
+    ✗ english_translation: EMPTY
+
+  chap_1127.json - Chapter 1127
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1685:
+    ✗ english_translation: EMPTY
+
+  chap_1128.json - Chapter 1128
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1686:
+    ✗ english_translation: EMPTY
+
+  Hadith #1687:
+    ✗ english_translation: EMPTY
+
+  chap_1129.json - Chapter 1129
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1688:
+    ✗ english_translation: EMPTY
+
+  chap_1130.json - Chapter 1130
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1689:
+    ✗ english_translation: EMPTY
+
+  Hadith #1690:
+    ✗ english_translation: EMPTY
+
+  Hadith #1691:
+    ✗ english_translation: EMPTY
+
+  Hadith #1692:
+    ✗ english_translation: EMPTY
+
+  chap_1131.json - Chapter 1131
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1693:
+    ✗ english_translation: EMPTY
+
+  chap_1132.json - Chapter 1132
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1694:
+    ✗ english_translation: EMPTY
+
+  chap_1133.json - Chapter 1133
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1695:
+    ✗ english_translation: EMPTY
+
+  chap_1134.json - Chapter 1134
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1696:
+    ✗ english_translation: EMPTY
+
+  chap_1135.json - Chapter 1135
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1697:
+    ✗ english_translation: EMPTY
+
+  chap_1136.json - Chapter 1136
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1698:
+    ✗ english_translation: EMPTY
+
+  chap_1137.json - Chapter 1137
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1699:
+    ✗ english_translation: EMPTY
+
+  Hadith #1700:
+    ✗ english_translation: EMPTY
+
+  Hadith #1701:
+    ✗ english_translation: EMPTY
+
+  Hadith #1702:
+    ✗ english_translation: EMPTY
+
+  Hadith #1703:
+    ✗ english_translation: EMPTY
+
+  Hadith #1704:
+    ✗ english_translation: EMPTY
+
+  Hadith #1705:
+    ✗ english_translation: EMPTY
+
+  chap_1138.json - Chapter 1138
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1706:
+    ✗ english_translation: EMPTY
+
+  Hadith #1707:
+    ✗ english_translation: EMPTY
+
+  chap_1139.json - Chapter 1139
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1708:
+    ✗ english_translation: EMPTY
+
+  chap_1140.json - Chapter 1140
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1709:
+    ✗ english_translation: EMPTY
+
+  chap_1141.json - Chapter 1141
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1710:
+    ✗ english_translation: EMPTY
+
+  chap_1142.json - Chapter 1142
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1711:
+    ✗ english_translation: EMPTY
+
+  chap_1143.json - Chapter 1143
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1712:
+    ✗ english_translation: EMPTY
+
+  Hadith #1713:
+    ✗ english_translation: EMPTY
+
+  Hadith #1714:
+    ✗ english_translation: EMPTY
+
+  chap_1144.json - Chapter 1144
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1715:
+    ✗ english_translation: EMPTY
+
+  chap_1145.json - Chapter 1145
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1716:
+    ✗ english_translation: EMPTY
+
+  chap_1146.json - Chapter 1146
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1717:
+    ✗ english_translation: EMPTY
+
+  chap_1147.json - Chapter 1147
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1718:
+    ✗ english_translation: EMPTY
+
+  chap_1148.json - Chapter 1148
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1719:
+    ✗ english_translation: EMPTY
+
+  chap_1149.json - Chapter 1149
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1720:
+    ✗ english_translation: EMPTY
+
+  chap_1150.json - Chapter 1150
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1721:
+    ✗ english_translation: EMPTY
+
+  chap_1151.json - Chapter 1151
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1722:
+    ✗ english_translation: EMPTY
+
+  Hadith #1723:
+    ✗ english_translation: EMPTY
+
+  Hadith #1724:
+    ✗ english_translation: EMPTY
+
+  chap_1152.json - Chapter 1152
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1725:
+    ✗ english_translation: EMPTY
+
+  chap_1153.json - Chapter 1153
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1726:
+    ✗ english_translation: EMPTY
+
+  chap_1154.json - Chapter 1154
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1727:
+    ✗ english_translation: EMPTY
+
+  chap_1155.json - Chapter 1155
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1728:
+    ✗ english_translation: EMPTY
+
+  chap_1156.json - Chapter 1156
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1729:
+    ✗ english_translation: EMPTY
+
+  chap_1157.json - Chapter 1157
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1730:
+    ✗ english_translation: EMPTY
+
+  chap_1158.json - Chapter 1158
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1731:
+    ✗ english_translation: EMPTY
+
+  Hadith #1732:
+    ✗ english_translation: EMPTY
+
+  chap_1159.json - Chapter 1159
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1733:
+    ✗ english_translation: EMPTY
+
+  chap_1160.json - Chapter 1160
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1734:
+    ✗ english_translation: EMPTY
+
+  chap_1161.json - Chapter 1161
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1735:
+    ✗ english_translation: EMPTY
+
+  chap_1162.json - Chapter 1162
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1736:
+    ✗ english_translation: EMPTY
+
+  chap_1163.json - Chapter 1163
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1737:
+    ✗ english_translation: EMPTY
+
+  Hadith #1738:
+    ✗ english_translation: EMPTY
+
+  chap_1164.json - Chapter 1164
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1739:
+    ✗ english_translation: EMPTY
+
+  chap_1165.json - Chapter 1165
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1740:
+    ✗ english_translation: EMPTY
+
+  Hadith #1741:
+    ✗ english_translation: EMPTY
+
+  Hadith #1742:
+    ✗ english_translation: EMPTY
+
+  Hadith #1743:
+    ✗ english_translation: EMPTY
+
+  chap_1166.json - Chapter 1166
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1744:
+    ✗ english_translation: EMPTY
+
+  chap_1167.json - Chapter 1167
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1745:
+    ✗ english_translation: EMPTY
+
+  Hadith #1746:
+    ✗ english_translation: EMPTY
+
+  chap_1168.json - Chapter 1168
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1747:
+    ✗ english_translation: EMPTY
+
+  chap_1169.json - Chapter 1169
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1748:
+    ✗ english_translation: EMPTY
+
+  Hadith #1749:
+    ✗ english_translation: EMPTY
+
+  chap_1170.json - Chapter 1170
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1750:
+    ✗ english_translation: EMPTY
+
+  chap_1171.json - Chapter 1171
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1751:
+    ✗ english_translation: EMPTY
+
+  chap_1172.json - Chapter 1172
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1752:
+    ✗ english_translation: EMPTY
+
+  chap_1173.json - Chapter 1173
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1753:
+    ✗ english_translation: EMPTY
+
+  chap_1174.json - Chapter 1174
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1754:
+    ✗ english_translation: EMPTY
+
+  chap_1175.json - Chapter 1175
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1755:
+    ✗ english_translation: EMPTY
+
+  chap_1176.json - Chapter 1176
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1756:
+    ✗ english_translation: EMPTY
+
+  chap_1177.json - Chapter 1177
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1757:
+    ✗ english_translation: EMPTY
+
+  chap_1178.json - Chapter 1178
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1758:
+    ✗ english_translation: EMPTY
+
+  Hadith #1759:
+    ✗ english_translation: EMPTY
+
+  Hadith #1760:
+    ✗ english_translation: EMPTY
+
+  chap_1179.json - Chapter 1179
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1761:
+    ✗ english_translation: EMPTY
+
+  chap_1180.json - Chapter 1180
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1762:
+    ✗ english_translation: EMPTY
+
+  Hadith #1763:
+    ✗ english_translation: EMPTY
+
+  chap_1181.json - Chapter 1181
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1764:
+    ✗ english_translation: EMPTY
+
+  chap_1182.json - Chapter 1182
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1765:
+    ✗ english_translation: EMPTY
+
+  chap_1183.json - Chapter 1183
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1766:
+    ✗ english_translation: EMPTY
+
+  Hadith #1767:
+    ✗ arabic_text: EMPTY
+    ✗ english_translation: EMPTY
+
+  chap_1184.json - Chapter 1184
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1768:
+    ✗ english_translation: EMPTY
+
+  chap_1185.json - Chapter 1185
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1769:
+    ✗ english_translation: EMPTY
+
+  chap_1186.json - Chapter 1186
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1770:
+    ✗ english_translation: EMPTY
+
+  chap_1187.json - Chapter 1187
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1771:
+    ✗ english_translation: EMPTY
+
+  Hadith #1772:
+    ✗ english_translation: EMPTY
+
+  Hadith #1773:
+    ✗ english_translation: EMPTY
+
+  chap_1188.json - Chapter 1188
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1774:
+    ✗ english_translation: EMPTY
+
+  chap_1189.json - Chapter 1189
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1775:
+    ✗ english_translation: EMPTY
+
+  chap_1190.json - Chapter 1190
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1776:
+    ✗ english_translation: EMPTY
+
+  chap_1191.json - Chapter 1191
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1777:
+    ✗ english_translation: EMPTY
+
+  chap_1192.json - Chapter 1192
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1778:
+    ✗ english_translation: EMPTY
+
+  chap_1193.json - Chapter 1193
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1779:
+    ✗ english_translation: EMPTY
+
+  chap_1194.json - Chapter 1194
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1780:
+    ✗ english_translation: EMPTY
+
+  chap_1195.json - Chapter 1195
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1781:
+    ✗ english_translation: EMPTY
+
+  chap_1196.json - Chapter 1196
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1782:
+    ✗ english_translation: EMPTY
+
+  chap_1197.json - Chapter 1197
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1783:
+    ✗ english_translation: EMPTY
+
+  chap_1198.json - Chapter 1198
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1784:
+    ✗ english_translation: EMPTY
+
+  chap_1199.json - Chapter 1199
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1785:
+    ✗ english_translation: EMPTY
+
+  chap_1200.json - Chapter 1200
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1786:
+    ✗ english_translation: EMPTY
+
+  chap_1201.json - Chapter 1201
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1787:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 301
+  - Book metadata: 1
+  - Chapters: 300
+  - Hadiths: 0
+================================================================================

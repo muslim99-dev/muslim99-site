@@ -1,0 +1,53 @@
+VALIDATION REPORT - Book 18: 
+Generated: 2026-08-22 10:33:22
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_173.json - Chapter 173
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #644:
+    ✗ english_translation: EMPTY
+
+  Hadith #645:
+    ✗ english_translation: EMPTY
+
+  Hadith #646:
+    ✗ english_translation: EMPTY
+
+  chap_174.json - Chapter 174
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #647:
+    ✗ english_translation: EMPTY
+
+  chap_175.json - Chapter 175
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #648:
+    ✗ english_translation: EMPTY
+
+  chap_176.json - Chapter 176
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #649:
+    ✗ english_translation: EMPTY
+
+  Hadith #650:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 17
+  - Book metadata: 2
+  - Chapters: 15
+  - Hadiths: 0
+================================================================================

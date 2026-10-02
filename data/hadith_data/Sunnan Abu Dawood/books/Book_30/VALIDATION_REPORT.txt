@@ -1,0 +1,27 @@
+VALIDATION REPORT - Book 30: Divination and omens (kitab al-kahanah wa al-tatayyur)
+Generated: 2026-08-13 01:59:25
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1437.json - Chapter 1437
+  ✗ arabic: EMPTY
+
+  chap_1438.json - Chapter 1438
+  ✗ arabic: EMPTY
+
+  chap_1439.json - Chapter 1439
+  ✗ arabic: EMPTY
+
+  chap_1440.json - Chapter 1440
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 5
+  - Book metadata: 1
+  - Chapters: 4
+  - Hadiths: 0
+================================================================================

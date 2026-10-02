@@ -1,0 +1,159 @@
+VALIDATION REPORT - Book 12: The chapters on divorce
+Generated: 2026-08-13 16:32:59
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_652.json - Chapter 652
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_653.json - Chapter 653
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_654.json - Chapter 654
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_655.json - Chapter 655
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_656.json - Chapter 656
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_657.json - Chapter 657
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_658.json - Chapter 658
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_659.json - Chapter 659
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_660.json - Chapter 660
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_661.json - Chapter 661
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_662.json - Chapter 662
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_663.json - Chapter 663
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_664.json - Chapter 664
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_665.json - Chapter 665
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_666.json - Chapter 666
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_667.json - Chapter 667
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_668.json - Chapter 668
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_669.json - Chapter 669
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_670.json - Chapter 670
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_671.json - Chapter 671
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_672.json - Chapter 672
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_673.json - Chapter 673
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_674.json - Chapter 674
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_675.json - Chapter 675
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_676.json - Chapter 676
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_677.json - Chapter 677
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_678.json - Chapter 678
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_679.json - Chapter 679
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_680.json - Chapter 680
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_681.json - Chapter 681
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_682.json - Chapter 682
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_683.json - Chapter 683
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_684.json - Chapter 684
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_685.json - Chapter 685
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_686.json - Chapter 686
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_687.json - Chapter 687
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 73
+  - Book metadata: 1
+  - Chapters: 72
+  - Hadiths: 0
+================================================================================

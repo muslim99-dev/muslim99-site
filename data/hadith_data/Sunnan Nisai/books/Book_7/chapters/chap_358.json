@@ -1,0 +1,27 @@
+{
+  "number": 358,
+  "arabic": "",
+  "urdu": "نماز کا وقت ہوئے بغیر اذان دینے کا بیان۔",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 642,
+      "arabic_text": "أَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، ‏‏‏‏‏‏قال:‏‏‏‏ أَنْبَأَنَا الْمُعْتَمِرُ بْنُ سُلَيْمَانَ، ‏‏‏‏‏‏عَنْ أَبِيهِ، ‏‏‏‏‏‏عَنْ أَبِي عُثْمَانَ، ‏‏‏‏‏‏عَنْ ابْنِ مَسْعُودٍ، ‏‏‏‏‏‏عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، ‏‏‏‏‏‏قَالَ:‏‏‏‏  إِنَّ بِلَالًا يُؤَذِّنُ بِلَيْلٍ لِيُوقِظَ نَائِمَكُمْ وَلِيَرْجِعَ قَائِمَكُمْ، ‏‏‏‏‏‏وَلَيْسَ أَنْ يَقُولَ هَكَذَا يَعْنِي فِي الصُّبْحِ .",
+      "urdu_translation": "نبی اکرم صلی اللہ علیہ وسلم نے فرمایا:  بلال رات رہتی ہے تبھی اذان دے دیتے ہیں تاکہ سونے والوں کو جگا دیں، اور تہجد پڑھنے والوں کو  ( سحری کھانے کے لیے )  گھر لوٹا دیں، اور وہ اس طرح نہیں کرتے یعنی صبح ہونے پر اذان نہیں دیتے ہیں بلکہ پہلے ہی دیتے ہیں  ۱؎۔",
+      "english_translation": "It was narrated from Ibn Mas'ud that the Prophet (ﷺ) said:\n Bilal calls the Adhan during the night to wake those who are sleeping and so that those who are praying Qiyam can return.[1] Not to say it is like this.  The break of dawn is not like this. [2] [1] Meaning to finish. Ash-Shawkani said:  To return to sleeping or return to sitting from praying  Nail Al-Awtar. [2] Indicating with an up and down motion. The true dawn is from right to left.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن مسعود رضی اللہ عنہ کہتے ہیں کہ  نبی اکرم صلی اللہ علیہ وسلم نے فرمایا:  بلال رات رہتی ہے تبھی اذان دے دیتے ہیں تاکہ سونے والوں کو جگا دیں، اور تہجد پڑھنے والوں کو  ( سحری کھانے کے لیے )  گھر لوٹا دیں، اور وہ اس طرح نہیں کرتے یعنی صبح ہونے پر اذان نہیں دیتے ہیں بلکہ پہلے ہی دیتے ہیں  ۱؎۔"
+        }
+      ],
+      "reference": {
+        "international_number": "642",
+        "arabic_number": "ترقیم  : 642"
+      },
+      "explanation": "وضاحت: ۱؎: لہٰذا ان کی اذان پر کھانا پینا نہ چھوڑو۔"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "number": 1408,
+  "arabic": "",
+  "urdu": "وعظ و نصیحت کرنے کا بیان",
+  "english": "Chapter: Stories (for the purpose of exhortation)",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 3753,
+      "arabic_text": "حَدَّثَنَا هِشَامُ بْنُ عَمَّارٍ،‏‏‏‏ حَدَّثَنَا الْهِقْلُ بْنُ زِيَادٍ،‏‏‏‏ حَدَّثَنَا الْأَوْزَاعِيُّ،‏‏‏‏ عَنْ عَبْدِ اللَّهِ بْنِ عَامِرٍ الْأَسْلَمِيِّ،‏‏‏‏ عَنْ عَمْرِو بْنِ شُعَيْبٍ،‏‏‏‏ عَنْ أَبِيهِ،‏‏‏‏ عَنْ جَدِّهِ،‏‏‏‏ أَنّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ،‏‏‏‏ قَالَ:‏‏‏‏  لَا يَقُصُّ عَلَى النَّاسِ،‏‏‏‏ إِلَّا أَمِيرٌ أَوْ مَأْمُورٌ أَوْ مُرَاءٍ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  لوگوں کو وعظ و نصیحت وہی کرتا ہے جو حاکم ہو، یا وہ شخص جو حاکم کی جانب سے مقرر ہو، یا جو ریا کار ہو  ۱؎۔",
+      "english_translation": "It was narrated from Amr bin Shuaib, from his father, from his grandfather, that the Messenger of Allah(ﷺ) said:\n\n No one tells the stories to the people (for the purpose of exhortation) except a ruler, one appointed by a ruler, or a show-off.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن عمرو بن العاص رضی اللہ عنہما سے روایت ہے کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  لوگوں کو وعظ و نصیحت وہی کرتا ہے جو حاکم ہو، یا وہ شخص جو حاکم کی جانب سے مقرر ہو، یا جو ریا کار ہو  ۱؎۔"
+        }
+      ],
+      "reference": {
+        "international_number": "3753",
+        "arabic_number": "ترقیم  : 3753"
+      },
+      "explanation": "اور ریاکار وہ ہے جو لوگوں میں اپنی ناموری اور شہرت کے لئے وعظ کہتا ہے، اور لوگوں کو بری بات سے منع کرتا ہے، اور خود سب سے زیادہ برے کاموں میں پھنسا رہتا ہے۔"
+    },
+    {
+      "hadith_number": 3754,
+      "arabic_text": "حَدَّثَنَا عَلِيُّ بْنُ مُحَمَّدٍ،‏‏‏‏ حَدَّثَنَا وَكِيعٌ،‏‏‏‏ عَنْ الْعُمَرِيِّ،‏‏‏‏ عَنْ نَافِعٍ،‏‏‏‏ عَنْ ابْنِ عُمَرَ،‏‏‏‏ قَالَ:‏‏‏‏  لَمْ يَكُنِ الْقَصَصُ فِي زَمَنِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ،‏‏‏‏ وَلَا زَمَنِ أَبِي بَكْرٍ،‏‏‏‏ وَلَا زَمَنِ عُمَرَ .",
+      "urdu_translation": "یہ قصہ گوئی نہ رسول صلی اللہ علیہ وسلم کے زمانہ میں تھی، اور نہ ابوبکرو عمر رضی اللہ عنہما کے زمانہ میں۔",
+      "english_translation": "It was narrated that Ibn Umar said:\n\n Stories (for the purpose of exhortation) were unknown at the time of the Messenger of Allah(ﷺ), the time of Abu Bakr and Umar.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن عمر رضی اللہ عنہما کہتے ہیں  یہ قصہ گوئی نہ رسول صلی اللہ علیہ وسلم کے زمانہ میں تھی، اور نہ ابوبکرو عمر رضی اللہ عنہما کے زمانہ میں۔"
+        }
+      ],
+      "reference": {
+        "international_number": "3754",
+        "arabic_number": "ترقیم  : 3754"
+      }
+    }
+  ]
+}

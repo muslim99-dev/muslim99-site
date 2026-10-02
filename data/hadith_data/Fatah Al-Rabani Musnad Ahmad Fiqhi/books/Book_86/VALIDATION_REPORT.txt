@@ -1,0 +1,110 @@
+VALIDATION REPORT - Book 86: 
+Generated: 2026-08-14 08:07:15
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_949.json - Chapter 949
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #5486:
+    ✗ english_translation: EMPTY
+
+  Hadith #5487:
+    ✗ english_translation: EMPTY
+
+  Hadith #5488:
+    ✗ english_translation: EMPTY
+
+  Hadith #5489:
+    ✗ english_translation: EMPTY
+
+  Hadith #5490:
+    ✗ english_translation: EMPTY
+
+  Hadith #5491:
+    ✗ english_translation: EMPTY
+
+  Hadith #5492:
+    ✗ english_translation: EMPTY
+
+  Hadith #5493:
+    ✗ english_translation: EMPTY
+
+  Hadith #5494:
+    ✗ english_translation: EMPTY
+
+  Hadith #5495:
+    ✗ english_translation: EMPTY
+
+  Hadith #5496:
+    ✗ english_translation: EMPTY
+
+  Hadith #5497:
+    ✗ english_translation: EMPTY
+
+  Hadith #5498:
+    ✗ english_translation: EMPTY
+
+  Hadith #5499:
+    ✗ english_translation: EMPTY
+
+  Hadith #5500:
+    ✗ english_translation: EMPTY
+
+  Hadith #5501:
+    ✗ english_translation: EMPTY
+
+  Hadith #5502:
+    ✗ english_translation: EMPTY
+
+  Hadith #5503:
+    ✗ english_translation: EMPTY
+
+  Hadith #5504:
+    ✗ english_translation: EMPTY
+
+  Hadith #5505:
+    ✗ english_translation: EMPTY
+
+  Hadith #5506:
+    ✗ english_translation: EMPTY
+
+  Hadith #5507:
+    ✗ english_translation: EMPTY
+
+  Hadith #5508:
+    ✗ english_translation: EMPTY
+
+  Hadith #5509:
+    ✗ english_translation: EMPTY
+
+  Hadith #5510:
+    ✗ english_translation: EMPTY
+
+  Hadith #5511:
+    ✗ english_translation: EMPTY
+
+  Hadith #5512:
+    ✗ english_translation: EMPTY
+
+  Hadith #5513:
+    ✗ english_translation: EMPTY
+
+  Hadith #5514:
+    ✗ english_translation: EMPTY
+
+  Hadith #5515:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 34
+  - Book metadata: 2
+  - Chapters: 32
+  - Hadiths: 0
+================================================================================

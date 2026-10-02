@@ -1,0 +1,159 @@
+VALIDATION REPORT - Book 23: The chapters on blood money
+Generated: 2026-08-13 16:57:42
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_920.json - Chapter 920
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_921.json - Chapter 921
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_922.json - Chapter 922
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_923.json - Chapter 923
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_924.json - Chapter 924
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_925.json - Chapter 925
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_926.json - Chapter 926
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_927.json - Chapter 927
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_928.json - Chapter 928
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_929.json - Chapter 929
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_930.json - Chapter 930
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_931.json - Chapter 931
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_932.json - Chapter 932
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_933.json - Chapter 933
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_934.json - Chapter 934
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_935.json - Chapter 935
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_936.json - Chapter 936
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_937.json - Chapter 937
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_938.json - Chapter 938
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_939.json - Chapter 939
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_940.json - Chapter 940
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_941.json - Chapter 941
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_942.json - Chapter 942
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_943.json - Chapter 943
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_944.json - Chapter 944
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_945.json - Chapter 945
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_946.json - Chapter 946
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_947.json - Chapter 947
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_948.json - Chapter 948
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_949.json - Chapter 949
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_950.json - Chapter 950
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_951.json - Chapter 951
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_952.json - Chapter 952
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_953.json - Chapter 953
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_954.json - Chapter 954
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_955.json - Chapter 955
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 73
+  - Book metadata: 1
+  - Chapters: 72
+  - Hadiths: 0
+================================================================================

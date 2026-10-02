@@ -1,0 +1,93 @@
+VALIDATION REPORT - Book 5: Looking after children
+Generated: 2026-08-22 06:02:50
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_45.json - Chapter 45
+  ✗ english: EMPTY
+
+  Hadith #84:
+    ✗ english_translation: EMPTY
+
+  Hadith #85:
+    ✗ english_translation: EMPTY
+
+  chap_46.json - Chapter 46
+  ✗ english: EMPTY
+
+  Hadith #86:
+    ✗ english_translation: EMPTY
+
+  chap_47.json - Chapter 47
+  ✗ english: EMPTY
+
+  Hadith #87:
+    ✗ english_translation: EMPTY
+
+  chap_48.json - Chapter 48
+  ✗ english: EMPTY
+
+  Hadith #88:
+    ✗ english_translation: EMPTY
+
+  chap_49.json - Chapter 49
+  ✗ english: EMPTY
+
+  Hadith #89:
+    ✗ english_translation: EMPTY
+
+  chap_50.json - Chapter 50
+  ✗ english: EMPTY
+
+  Hadith #90:
+    ✗ english_translation: EMPTY
+
+  Hadith #91:
+    ✗ english_translation: EMPTY
+
+  chap_51.json - Chapter 51
+  ✗ english: EMPTY
+
+  Hadith #92:
+    ✗ english_translation: EMPTY
+
+  Hadith #93:
+    ✗ english_translation: EMPTY
+
+  chap_52.json - Chapter 52
+  ✗ english: EMPTY
+
+  Hadith #94:
+    ✗ english_translation: EMPTY
+
+  chap_53.json - Chapter 53
+  ✗ english: EMPTY
+
+  Hadith #95:
+    ✗ english_translation: EMPTY
+
+  Hadith #96:
+    ✗ english_translation: EMPTY
+
+  Hadith #97:
+    ✗ english_translation: EMPTY
+
+  Hadith #98:
+    ✗ english_translation: EMPTY
+
+  Hadith #99:
+    ✗ english_translation: EMPTY
+
+  chap_54.json - Chapter 54
+  ✗ english: EMPTY
+
+  Hadith #100:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 27
+  - Book metadata: 0
+  - Chapters: 27
+  - Hadiths: 0
+================================================================================

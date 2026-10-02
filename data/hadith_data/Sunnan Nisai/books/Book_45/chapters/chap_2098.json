@@ -1,0 +1,26 @@
+{
+  "number": 2098,
+  "arabic": "",
+  "urdu": "باب: قرض کسی اور کے حوالہ کرنے کا بیان۔",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 4695,
+      "arabic_text": "حدثنا محمد بن سلمة ، والحارث بن مسكين قراءة عليه وانا اسمع واللفظ له ، عن ابن القاسم قال:‏‏‏‏ حدثني مالك عن ابي الزناد عن الاعرج عن ابي هريرة:‏‏‏‏ ان رسول الله صلى الله عليه وسلم قال:‏‏‏‏   مطل الغني ظلم وإذا اتبع احدكم على مليء فليتبع  .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا: ”مالدار کا ٹال مٹول کرنا ظلم ہے، اگر تم میں سے کوئی مالدار آدمی کی حوالگی میں دیا جائے تو چاہیئے کہ اس کی حوالگی قبول کر لے“۔",
+      "english_translation": "It was narrated that Abu Hurairah said:\n The Messenger of Allah said: 'Wrongdoing is when a rich man takes a long time to repay a debt, and if one of you is referred to a rich man (to help repay debt), he should accept that referral. '",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ابوہریرہ رضی اللہ عنہ سے روایت ہے کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا: ”مالدار کا ٹال مٹول کرنا ظلم ہے، اگر تم میں سے کوئی مالدار آدمی کی حوالگی میں دیا جائے تو چاہیئے کہ اس کی حوالگی قبول کر لے“۔"
+        }
+      ],
+      "reference": {
+        "international_number": "4695",
+        "arabic_number": "ترقیم  : 4695"
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+VALIDATION REPORT - Book 13: The chapters on expiation
+Generated: 2026-08-13 16:34:46
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_688.json - Chapter 688
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_689.json - Chapter 689
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_690.json - Chapter 690
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_691.json - Chapter 691
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_692.json - Chapter 692
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_693.json - Chapter 693
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_694.json - Chapter 694
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_695.json - Chapter 695
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_696.json - Chapter 696
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_697.json - Chapter 697
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_698.json - Chapter 698
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_699.json - Chapter 699
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_700.json - Chapter 700
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_701.json - Chapter 701
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_702.json - Chapter 702
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_703.json - Chapter 703
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_704.json - Chapter 704
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_705.json - Chapter 705
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_706.json - Chapter 706
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_707.json - Chapter 707
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_708.json - Chapter 708
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 43
+  - Book metadata: 1
+  - Chapters: 42
+  - Hadiths: 0
+================================================================================

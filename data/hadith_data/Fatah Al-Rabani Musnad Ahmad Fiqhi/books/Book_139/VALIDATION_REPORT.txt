@@ -1,0 +1,124 @@
+VALIDATION REPORT - Book 139: 
+Generated: 2026-08-15 00:55:00
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1415.json - Chapter 1415
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7871:
+    ✗ english_translation: EMPTY
+
+  Hadith #7871:
+    ✗ english_translation: EMPTY
+
+  Hadith #7872:
+    ✗ english_translation: EMPTY
+
+  Hadith #7873:
+    ✗ english_translation: EMPTY
+
+  Hadith #7874:
+    ✗ english_translation: EMPTY
+
+  chap_1416.json - Chapter 1416
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7875:
+    ✗ english_translation: EMPTY
+
+  Hadith #7876:
+    ✗ english_translation: EMPTY
+
+  chap_1417.json - Chapter 1417
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7877:
+    ✗ english_translation: EMPTY
+
+  Hadith #7878:
+    ✗ english_translation: EMPTY
+
+  Hadith #7879:
+    ✗ english_translation: EMPTY
+
+  chap_1418.json - Chapter 1418
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7880:
+    ✗ english_translation: EMPTY
+
+  Hadith #7881:
+    ✗ english_translation: EMPTY
+
+  Hadith #7882:
+    ✗ english_translation: EMPTY
+
+  Hadith #7883:
+    ✗ english_translation: EMPTY
+
+  Hadith #7884:
+    ✗ english_translation: EMPTY
+
+  Hadith #7885:
+    ✗ english_translation: EMPTY
+
+  Hadith #7886:
+    ✗ english_translation: EMPTY
+
+  chap_1419.json - Chapter 1419
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7887:
+    ✗ english_translation: EMPTY
+
+  Hadith #7888:
+    ✗ english_translation: EMPTY
+
+  Hadith #7889:
+    ✗ english_translation: EMPTY
+
+  Hadith #7890:
+    ✗ english_translation: EMPTY
+
+  Hadith #7891:
+    ✗ english_translation: EMPTY
+
+  Hadith #7892:
+    ✗ english_translation: EMPTY
+
+  chap_1420.json - Chapter 1420
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7893:
+    ✗ english_translation: EMPTY
+
+  Hadith #7894:
+    ✗ english_translation: EMPTY
+
+  Hadith #7895:
+    ✗ english_translation: EMPTY
+
+  Hadith #7896:
+    ✗ english_translation: EMPTY
+
+  Hadith #7897:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 42
+  - Book metadata: 2
+  - Chapters: 40
+  - Hadiths: 0
+================================================================================

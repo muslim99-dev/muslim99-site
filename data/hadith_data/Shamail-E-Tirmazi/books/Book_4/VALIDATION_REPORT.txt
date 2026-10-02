@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 4: Narration of the messenger of allah (peace and blessings of allah be upon him) combing
+Generated: 2026-08-17 13:37:03
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_4.json - Chapter 4
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

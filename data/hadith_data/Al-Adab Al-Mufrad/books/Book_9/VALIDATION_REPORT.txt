@@ -1,0 +1,258 @@
+VALIDATION REPORT - Book 9: Being a master
+Generated: 2026-08-22 06:06:38
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_82.json - Chapter 82
+  ✗ english: EMPTY
+
+  Hadith #156:
+    ✗ english_translation: EMPTY
+
+  Hadith #157:
+    ✗ english_translation: EMPTY
+
+  Hadith #158:
+    ✗ english_translation: EMPTY
+
+  chap_83.json - Chapter 83
+  ✗ english: EMPTY
+
+  Hadith #159:
+    ✗ english_translation: EMPTY
+
+  Hadith #160:
+    ✗ english_translation: EMPTY
+
+  Hadith #161:
+    ✗ english_translation: EMPTY
+
+  chap_84.json - Chapter 84
+  ✗ english: EMPTY
+
+  Hadith #162:
+    ✗ english_translation: EMPTY
+
+  chap_85.json - Chapter 85
+  ✗ english: EMPTY
+
+  Hadith #163:
+    ✗ english_translation: EMPTY
+
+  Hadith #164:
+    ✗ english_translation: EMPTY
+
+  chap_86.json - Chapter 86
+  ✗ english: EMPTY
+
+  Hadith #165:
+    ✗ english_translation: EMPTY
+
+  chap_87.json - Chapter 87
+  ✗ english: EMPTY
+
+  Hadith #166:
+    ✗ english_translation: EMPTY
+
+  chap_88.json - Chapter 88
+  ✗ english: EMPTY
+
+  Hadith #167:
+    ✗ english_translation: EMPTY
+
+  chap_89.json - Chapter 89
+  ✗ english: EMPTY
+
+  Hadith #168:
+    ✗ english_translation: EMPTY
+
+  Hadith #169:
+    ✗ english_translation: EMPTY
+
+  chap_90.json - Chapter 90
+  ✗ english: EMPTY
+
+  Hadith #170:
+    ✗ english_translation: EMPTY
+
+  Hadith #171:
+    ✗ english_translation: EMPTY
+
+  chap_91.json - Chapter 91
+  ✗ english: EMPTY
+
+  Hadith #172:
+    ✗ english_translation: EMPTY
+
+  Hadith #173:
+    ✗ english_translation: EMPTY
+
+  chap_92.json - Chapter 92
+  ✗ english: EMPTY
+
+  Hadith #174:
+    ✗ english_translation: EMPTY
+
+  Hadith #175:
+    ✗ english_translation: EMPTY
+
+  chap_93.json - Chapter 93
+  ✗ english: EMPTY
+
+  Hadith #176:
+    ✗ english_translation: EMPTY
+
+  Hadith #177:
+    ✗ english_translation: EMPTY
+
+  Hadith #178:
+    ✗ english_translation: EMPTY
+
+  Hadith #179:
+    ✗ english_translation: EMPTY
+
+  Hadith #180:
+    ✗ english_translation: EMPTY
+
+  chap_94.json - Chapter 94
+  ✗ english: EMPTY
+
+  Hadith #181:
+    ✗ english_translation: EMPTY
+
+  Hadith #182:
+    ✗ english_translation: EMPTY
+
+  Hadith #183:
+    ✗ english_translation: EMPTY
+
+  Hadith #184:
+    ✗ english_translation: EMPTY
+
+  Hadith #185:
+    ✗ english_translation: EMPTY
+
+  Hadith #186:
+    ✗ english_translation: EMPTY
+
+  chap_95.json - Chapter 95
+  ✗ english: EMPTY
+
+  Hadith #187:
+    ✗ english_translation: EMPTY
+
+  Hadith #188:
+    ✗ english_translation: EMPTY
+
+  chap_96.json - Chapter 96
+  ✗ english: EMPTY
+
+  Hadith #189:
+    ✗ english_translation: EMPTY
+
+  chap_97.json - Chapter 97
+  ✗ english: EMPTY
+
+  Hadith #190:
+    ✗ english_translation: EMPTY
+
+  Hadith #191:
+    ✗ english_translation: EMPTY
+
+  chap_98.json - Chapter 98
+  ✗ english: EMPTY
+
+  Hadith #192:
+    ✗ english_translation: EMPTY
+
+  Hadith #193:
+    ✗ english_translation: EMPTY
+
+  Hadith #194:
+    ✗ english_translation: EMPTY
+
+  chap_99.json - Chapter 99
+  ✗ english: EMPTY
+
+  Hadith #195:
+    ✗ english_translation: EMPTY
+
+  Hadith #196:
+    ✗ english_translation: EMPTY
+
+  Hadith #197:
+    ✗ english_translation: EMPTY
+
+  chap_100.json - Chapter 100
+  ✗ english: EMPTY
+
+  Hadith #198:
+    ✗ english_translation: EMPTY
+
+  chap_101.json - Chapter 101
+  ✗ english: EMPTY
+
+  Hadith #199:
+    ✗ english_translation: EMPTY
+
+  chap_102.json - Chapter 102
+  ✗ english: EMPTY
+
+  Hadith #200:
+    ✗ english_translation: EMPTY
+
+  Hadith #201:
+    ✗ english_translation: EMPTY
+
+  chap_103.json - Chapter 103
+  ✗ english: EMPTY
+
+  Hadith #202:
+    ✗ english_translation: EMPTY
+
+  Hadith #203:
+    ✗ english_translation: EMPTY
+
+  Hadith #204:
+    ✗ english_translation: EMPTY
+
+  Hadith #205:
+    ✗ english_translation: EMPTY
+
+  chap_104.json - Chapter 104
+  ✗ english: EMPTY
+
+  Hadith #206:
+    ✗ english_translation: EMPTY
+
+  Hadith #207:
+    ✗ english_translation: EMPTY
+
+  chap_105.json - Chapter 105
+  ✗ english: EMPTY
+
+  Hadith #208:
+    ✗ english_translation: EMPTY
+
+  chap_106.json - Chapter 106
+  ✗ english: EMPTY
+
+  Hadith #209:
+    ✗ english_translation: EMPTY
+
+  chap_107.json - Chapter 107
+  ✗ english: EMPTY
+
+  Hadith #210:
+    ✗ english_translation: EMPTY
+
+  Hadith #211:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 82
+  - Book metadata: 0
+  - Chapters: 82
+  - Hadiths: 0
+================================================================================

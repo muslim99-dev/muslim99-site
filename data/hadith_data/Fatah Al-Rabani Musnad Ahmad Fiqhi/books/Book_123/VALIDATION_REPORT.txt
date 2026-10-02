@@ -1,0 +1,123 @@
+VALIDATION REPORT - Book 123: 
+Generated: 2026-08-15 00:32:28
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1287.json - Chapter 1287
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7147:
+    ✗ english_translation: EMPTY
+
+  Hadith #7148:
+    ✗ english_translation: EMPTY
+
+  Hadith #7149:
+    ✗ english_translation: EMPTY
+
+  Hadith #7150:
+    ✗ english_translation: EMPTY
+
+  Hadith #7151:
+    ✗ english_translation: EMPTY
+
+  chap_1288.json - Chapter 1288
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7152:
+    ✗ english_translation: EMPTY
+
+  Hadith #7153:
+    ✗ english_translation: EMPTY
+
+  Hadith #7154:
+    ✗ english_translation: EMPTY
+
+  Hadith #7155:
+    ✗ english_translation: EMPTY
+
+  Hadith #7156:
+    ✗ english_translation: EMPTY
+
+  chap_1289.json - Chapter 1289
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7157:
+    ✗ english_translation: EMPTY
+
+  Hadith #7158:
+    ✗ english_translation: EMPTY
+
+  Hadith #7159:
+    ✗ english_translation: EMPTY
+
+  chap_1290.json - Chapter 1290
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7160:
+    ✗ english_translation: EMPTY
+
+  Hadith #7161:
+    ✗ english_translation: EMPTY
+
+  Hadith #7162:
+    ✗ english_translation: EMPTY
+
+  Hadith #7163:
+    ✗ english_translation: EMPTY
+
+  Hadith #7164:
+    ✗ english_translation: EMPTY
+
+  chap_1291.json - Chapter 1291
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7165:
+    ✗ english_translation: EMPTY
+
+  Hadith #7166:
+    ✗ english_translation: EMPTY
+
+  chap_1292.json - Chapter 1292
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7167:
+    ✗ english_translation: EMPTY
+
+  Hadith #7168:
+    ✗ english_translation: EMPTY
+
+  chap_1293.json - Chapter 1293
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7169:
+    ✗ english_translation: EMPTY
+
+  Hadith #7170:
+    ✗ english_translation: EMPTY
+
+  chap_1294.json - Chapter 1294
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7171:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 43
+  - Book metadata: 2
+  - Chapters: 41
+  - Hadiths: 0
+================================================================================

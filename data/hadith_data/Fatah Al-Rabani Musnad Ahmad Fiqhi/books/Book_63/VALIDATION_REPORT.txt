@@ -1,0 +1,67 @@
+VALIDATION REPORT - Book 63: 
+Generated: 2026-08-14 07:03:59
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_583.json - Chapter 583
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #3343:
+    ✗ english_translation: EMPTY
+
+  Hadith #3344:
+    ✗ english_translation: EMPTY
+
+  Hadith #3345:
+    ✗ english_translation: EMPTY
+
+  Hadith #3346:
+    ✗ english_translation: EMPTY
+
+  Hadith #3347:
+    ✗ english_translation: EMPTY
+
+  chap_584.json - Chapter 584
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #3348:
+    ✗ english_translation: EMPTY
+
+  Hadith #3349:
+    ✗ english_translation: EMPTY
+
+  Hadith #3350:
+    ✗ english_translation: EMPTY
+
+  chap_585.json - Chapter 585
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #3351:
+    ✗ english_translation: EMPTY
+
+  Hadith #3352:
+    ✗ english_translation: EMPTY
+
+  Hadith #3353:
+    ✗ english_translation: EMPTY
+
+  Hadith #3354:
+    ✗ english_translation: EMPTY
+
+  Hadith #3355:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 21
+  - Book metadata: 2
+  - Chapters: 19
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,35 @@
+VALIDATION REPORT - Book 41: 
+Generated: 2026-08-14 06:34:48
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_413.json - Chapter 413
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #2378:
+    ✗ english_translation: EMPTY
+
+  Hadith #2379:
+    ✗ english_translation: EMPTY
+
+  Hadith #2380:
+    ✗ english_translation: EMPTY
+
+  Hadith #2381:
+    ✗ english_translation: EMPTY
+
+  Hadith #2382:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 9
+  - Book metadata: 2
+  - Chapters: 7
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,111 @@
+VALIDATION REPORT - Book 41: Types of blood-wit (kitab al-diyat)
+Generated: 2026-08-13 02:23:04
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1600.json - Chapter 1600
+  ✗ arabic: EMPTY
+
+  chap_1601.json - Chapter 1601
+  ✗ arabic: EMPTY
+
+  chap_1602.json - Chapter 1602
+  ✗ arabic: EMPTY
+
+  chap_1603.json - Chapter 1603
+  ✗ arabic: EMPTY
+
+  chap_1604.json - Chapter 1604
+  ✗ arabic: EMPTY
+
+  chap_1605.json - Chapter 1605
+  ✗ arabic: EMPTY
+
+  chap_1606.json - Chapter 1606
+  ✗ arabic: EMPTY
+
+  chap_1607.json - Chapter 1607
+  ✗ arabic: EMPTY
+
+  chap_1608.json - Chapter 1608
+  ✗ arabic: EMPTY
+
+  chap_1609.json - Chapter 1609
+  ✗ arabic: EMPTY
+
+  chap_1610.json - Chapter 1610
+  ✗ arabic: EMPTY
+
+  chap_1611.json - Chapter 1611
+  ✗ arabic: EMPTY
+
+  chap_1612.json - Chapter 1612
+  ✗ arabic: EMPTY
+
+  chap_1613.json - Chapter 1613
+  ✗ arabic: EMPTY
+
+  chap_1614.json - Chapter 1614
+  ✗ arabic: EMPTY
+
+  chap_1615.json - Chapter 1615
+  ✗ arabic: EMPTY
+
+  chap_1616.json - Chapter 1616
+  ✗ arabic: EMPTY
+
+  chap_1617.json - Chapter 1617
+  ✗ arabic: EMPTY
+
+  chap_1618.json - Chapter 1618
+  ✗ arabic: EMPTY
+
+  chap_1619.json - Chapter 1619
+  ✗ arabic: EMPTY
+
+  chap_1620.json - Chapter 1620
+  ✗ arabic: EMPTY
+
+  chap_1621.json - Chapter 1621
+  ✗ arabic: EMPTY
+
+  chap_1622.json - Chapter 1622
+  ✗ arabic: EMPTY
+
+  chap_1623.json - Chapter 1623
+  ✗ arabic: EMPTY
+
+  chap_1624.json - Chapter 1624
+  ✗ arabic: EMPTY
+
+  chap_1625.json - Chapter 1625
+  ✗ arabic: EMPTY
+
+  chap_1626.json - Chapter 1626
+  ✗ arabic: EMPTY
+
+  chap_1627.json - Chapter 1627
+  ✗ arabic: EMPTY
+
+  chap_1628.json - Chapter 1628
+  ✗ arabic: EMPTY
+
+  chap_1629.json - Chapter 1629
+  ✗ arabic: EMPTY
+
+  chap_1630.json - Chapter 1630
+  ✗ arabic: EMPTY
+
+  chap_1631.json - Chapter 1631
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 33
+  - Book metadata: 1
+  - Chapters: 32
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 49: The book pertaining to the remembrance of allah , supplication , repentance and seeking forgiveness
+Generated: 2026-08-12 16:35:28
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_1199.json - Chapter 1199
+  ✗ english: EMPTY
+
+  chap_1203.json - Chapter 1203
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 0
+  - Chapters: 2
+  - Hadiths: 0
+================================================================================

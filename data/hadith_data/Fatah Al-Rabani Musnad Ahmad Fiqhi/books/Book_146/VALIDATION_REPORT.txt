@@ -1,0 +1,44 @@
+VALIDATION REPORT - Book 146: 
+Generated: 2026-08-15 01:10:19
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1506.json - Chapter 1506
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #8412:
+    ✗ english_translation: EMPTY
+
+  Hadith #8413:
+    ✗ english_translation: EMPTY
+
+  Hadith #8414:
+    ✗ english_translation: EMPTY
+
+  Hadith #8415:
+    ✗ english_translation: EMPTY
+
+  Hadith #8416:
+    ✗ english_translation: EMPTY
+
+  Hadith #8426:
+    ✗ english_translation: EMPTY
+
+  Hadith #8417:
+    ✗ english_translation: EMPTY
+
+  Hadith #8418:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 12
+  - Book metadata: 2
+  - Chapters: 10
+  - Hadiths: 0
+================================================================================

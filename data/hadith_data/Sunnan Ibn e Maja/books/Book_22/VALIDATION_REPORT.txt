@@ -1,0 +1,167 @@
+VALIDATION REPORT - Book 22: The chapters on legal punishments
+Generated: 2026-08-13 16:54:28
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_882.json - Chapter 882
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_883.json - Chapter 883
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_884.json - Chapter 884
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_885.json - Chapter 885
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_886.json - Chapter 886
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_887.json - Chapter 887
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_888.json - Chapter 888
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_889.json - Chapter 889
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_890.json - Chapter 890
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_891.json - Chapter 891
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_892.json - Chapter 892
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_893.json - Chapter 893
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_894.json - Chapter 894
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_895.json - Chapter 895
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_896.json - Chapter 896
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_897.json - Chapter 897
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_898.json - Chapter 898
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_899.json - Chapter 899
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_900.json - Chapter 900
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_901.json - Chapter 901
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_902.json - Chapter 902
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_903.json - Chapter 903
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_904.json - Chapter 904
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_905.json - Chapter 905
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_906.json - Chapter 906
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_907.json - Chapter 907
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_908.json - Chapter 908
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_909.json - Chapter 909
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_910.json - Chapter 910
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_911.json - Chapter 911
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_912.json - Chapter 912
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_913.json - Chapter 913
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_914.json - Chapter 914
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_915.json - Chapter 915
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_916.json - Chapter 916
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_917.json - Chapter 917
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_918.json - Chapter 918
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_919.json - Chapter 919
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 77
+  - Book metadata: 1
+  - Chapters: 76
+  - Hadiths: 0
+================================================================================

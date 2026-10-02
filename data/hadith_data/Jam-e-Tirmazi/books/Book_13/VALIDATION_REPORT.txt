@@ -1,0 +1,72 @@
+VALIDATION REPORT - Book 13: The book on suckling
+Generated: 2026-08-12 19:02:35
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_317.json - Chapter 317
+  ✗ arabic: EMPTY
+
+  chap_783.json - Chapter 783
+  ✗ arabic: EMPTY
+
+  chap_784.json - Chapter 784
+  ✗ arabic: EMPTY
+
+  chap_785.json - Chapter 785
+  ✗ arabic: EMPTY
+
+  chap_786.json - Chapter 786
+  ✗ arabic: EMPTY
+
+  chap_787.json - Chapter 787
+  ✗ arabic: EMPTY
+
+  chap_788.json - Chapter 788
+  ✗ arabic: EMPTY
+
+  chap_789.json - Chapter 789
+  ✗ arabic: EMPTY
+
+  chap_790.json - Chapter 790
+  ✗ arabic: EMPTY
+
+  chap_791.json - Chapter 791
+  ✗ arabic: EMPTY
+
+  chap_792.json - Chapter 792
+  ✗ arabic: EMPTY
+
+  chap_793.json - Chapter 793
+  ✗ arabic: EMPTY
+
+  chap_794.json - Chapter 794
+  ✗ arabic: EMPTY
+
+  chap_795.json - Chapter 795
+  ✗ arabic: EMPTY
+
+  chap_796.json - Chapter 796
+  ✗ arabic: EMPTY
+
+  chap_797.json - Chapter 797
+  ✗ arabic: EMPTY
+
+  chap_798.json - Chapter 798
+  ✗ arabic: EMPTY
+
+  chap_799.json - Chapter 799
+  ✗ arabic: EMPTY
+
+  chap_800.json - Chapter 800
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 20
+  - Book metadata: 1
+  - Chapters: 19
+  - Hadiths: 0
+================================================================================

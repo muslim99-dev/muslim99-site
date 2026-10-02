@@ -1,0 +1,105 @@
+VALIDATION REPORT - Book 22: 
+Generated: 2026-08-22 07:26:20
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_22.json - Chapter 22
+  ✗ arabic: EMPTY
+  ✗ urdu: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #2644:
+    ✗ english_translation: EMPTY
+
+  Hadith #2645:
+    ✗ english_translation: EMPTY
+
+  Hadith #2646:
+    ✗ english_translation: EMPTY
+
+  Hadith #2647:
+    ✗ english_translation: EMPTY
+
+  Hadith #2648:
+    ✗ english_translation: EMPTY
+
+  Hadith #2649:
+    ✗ english_translation: EMPTY
+
+  Hadith #2650:
+    ✗ english_translation: EMPTY
+
+  Hadith #2651:
+    ✗ english_translation: EMPTY
+
+  Hadith #2652:
+    ✗ english_translation: EMPTY
+
+  Hadith #2653:
+    ✗ english_translation: EMPTY
+
+  Hadith #2654:
+    ✗ english_translation: EMPTY
+
+  Hadith #2655:
+    ✗ english_translation: EMPTY
+
+  Hadith #2656:
+    ✗ english_translation: EMPTY
+
+  Hadith #2657:
+    ✗ english_translation: EMPTY
+
+  Hadith #2658:
+    ✗ english_translation: EMPTY
+
+  Hadith #2659:
+    ✗ english_translation: EMPTY
+
+  Hadith #2660:
+    ✗ english_translation: EMPTY
+
+  Hadith #2661:
+    ✗ english_translation: EMPTY
+
+  Hadith #2662:
+    ✗ english_translation: EMPTY
+
+  Hadith #2663:
+    ✗ english_translation: EMPTY
+
+  Hadith #2664:
+    ✗ english_translation: EMPTY
+
+  Hadith #2665:
+    ✗ english_translation: EMPTY
+
+  Hadith #2666:
+    ✗ english_translation: EMPTY
+
+  Hadith #2667:
+    ✗ english_translation: EMPTY
+
+  Hadith #2668:
+    ✗ english_translation: EMPTY
+
+  Hadith #2669:
+    ✗ english_translation: EMPTY
+
+  Hadith #2670:
+    ✗ english_translation: EMPTY
+
+  Hadith #2671:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 33
+  - Book metadata: 2
+  - Chapters: 31
+  - Hadiths: 0
+================================================================================

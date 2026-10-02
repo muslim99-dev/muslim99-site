@@ -1,0 +1,322 @@
+VALIDATION REPORT - Book 28: The book of divorce
+Generated: 2026-08-13 06:24:56
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1666.json - Chapter 1666
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1667.json - Chapter 1667
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1668.json - Chapter 1668
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1669.json - Chapter 1669
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1670.json - Chapter 1670
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1671.json - Chapter 1671
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1672.json - Chapter 1672
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1673.json - Chapter 1673
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1674.json - Chapter 1674
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1675.json - Chapter 1675
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1676.json - Chapter 1676
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1677.json - Chapter 1677
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1678.json - Chapter 1678
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1679.json - Chapter 1679
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1680.json - Chapter 1680
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1681.json - Chapter 1681
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1682.json - Chapter 1682
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1683.json - Chapter 1683
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #3452:
+    ✗ english_translation: EMPTY
+
+  chap_1684.json - Chapter 1684
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1685.json - Chapter 1685
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1686.json - Chapter 1686
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1687.json - Chapter 1687
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1688.json - Chapter 1688
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1689.json - Chapter 1689
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1690.json - Chapter 1690
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1691.json - Chapter 1691
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1692.json - Chapter 1692
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1693.json - Chapter 1693
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1694.json - Chapter 1694
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1695.json - Chapter 1695
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1696.json - Chapter 1696
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1697.json - Chapter 1697
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1698.json - Chapter 1698
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1699.json - Chapter 1699
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1700.json - Chapter 1700
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1701.json - Chapter 1701
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1702.json - Chapter 1702
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1703.json - Chapter 1703
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1704.json - Chapter 1704
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1705.json - Chapter 1705
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1706.json - Chapter 1706
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1707.json - Chapter 1707
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1708.json - Chapter 1708
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1709.json - Chapter 1709
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1710.json - Chapter 1710
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1711.json - Chapter 1711
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1712.json - Chapter 1712
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1713.json - Chapter 1713
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1714.json - Chapter 1714
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1715.json - Chapter 1715
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1716.json - Chapter 1716
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1717.json - Chapter 1717
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1718.json - Chapter 1718
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1719.json - Chapter 1719
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1720.json - Chapter 1720
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1721.json - Chapter 1721
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1722.json - Chapter 1722
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1723.json - Chapter 1723
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1724.json - Chapter 1724
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1725.json - Chapter 1725
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1726.json - Chapter 1726
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1727.json - Chapter 1727
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1728.json - Chapter 1728
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1729.json - Chapter 1729
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1730.json - Chapter 1730
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1731.json - Chapter 1731
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1732.json - Chapter 1732
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1733.json - Chapter 1733
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1734.json - Chapter 1734
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1735.json - Chapter 1735
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1736.json - Chapter 1736
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1737.json - Chapter 1737
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1738.json - Chapter 1738
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1739.json - Chapter 1739
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1740.json - Chapter 1740
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1741.json - Chapter 1741
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 154
+  - Book metadata: 1
+  - Chapters: 153
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,83 @@
+VALIDATION REPORT - Book 29: The book of horses, races and shooting
+Generated: 2026-08-13 06:26:21
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1742.json - Chapter 1742
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1743.json - Chapter 1743
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1744.json - Chapter 1744
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1745.json - Chapter 1745
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1746.json - Chapter 1746
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1747.json - Chapter 1747
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1748.json - Chapter 1748
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1749.json - Chapter 1749
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1750.json - Chapter 1750
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1751.json - Chapter 1751
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1752.json - Chapter 1752
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1753.json - Chapter 1753
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1754.json - Chapter 1754
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1755.json - Chapter 1755
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1756.json - Chapter 1756
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1757.json - Chapter 1757
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1758.json - Chapter 1758
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 35
+  - Book metadata: 1
+  - Chapters: 34
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,207 @@
+VALIDATION REPORT - Book 29: Visiting the sick
+Generated: 2026-08-22 06:17:53
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_226.json - Chapter 226
+  ✗ english: EMPTY
+
+  Hadith #495:
+    ✗ english_translation: EMPTY
+
+  Hadith #496:
+    ✗ english_translation: EMPTY
+
+  Hadith #497:
+    ✗ english_translation: EMPTY
+
+  Hadith #498:
+    ✗ english_translation: EMPTY
+
+  Hadith #499:
+    ✗ english_translation: EMPTY
+
+  chap_227.json - Chapter 227
+  ✗ english: EMPTY
+
+  Hadith #500:
+    ✗ english_translation: EMPTY
+
+  Hadith #501:
+    ✗ english_translation: EMPTY
+
+  Hadith #502:
+    ✗ english_translation: EMPTY
+
+  Hadith #503:
+    ✗ english_translation: EMPTY
+
+  chap_228.json - Chapter 228
+  ✗ english: EMPTY
+
+  Hadith #504:
+    ✗ english_translation: EMPTY
+
+  Hadith #505:
+    ✗ english_translation: EMPTY
+
+  Hadith #506:
+    ✗ english_translation: EMPTY
+
+  Hadith #507:
+    ✗ english_translation: EMPTY
+
+  Hadith #508:
+    ✗ english_translation: EMPTY
+
+  Hadith #509:
+    ✗ english_translation: EMPTY
+
+  Hadith #510:
+    ✗ english_translation: EMPTY
+
+  Hadith #511:
+    ✗ english_translation: EMPTY
+
+  Hadith #512:
+    ✗ english_translation: EMPTY
+
+  chap_229.json - Chapter 229
+  ✗ english: EMPTY
+
+  Hadith #513:
+    ✗ english_translation: EMPTY
+
+  Hadith #514:
+    ✗ english_translation: EMPTY
+
+  chap_230.json - Chapter 230
+  ✗ english: EMPTY
+
+  Hadith #515:
+    ✗ english_translation: EMPTY
+
+  chap_231.json - Chapter 231
+  ✗ english: EMPTY
+
+  Hadith #516:
+    ✗ english_translation: EMPTY
+
+  chap_232.json - Chapter 232
+  ✗ english: EMPTY
+
+  Hadith #517:
+    ✗ english_translation: EMPTY
+
+  chap_233.json - Chapter 233
+  ✗ english: EMPTY
+
+  Hadith #518:
+    ✗ english_translation: EMPTY
+
+  chap_234.json - Chapter 234
+  ✗ english: EMPTY
+
+  Hadith #519:
+    ✗ english_translation: EMPTY
+
+  Hadith #520:
+    ✗ english_translation: EMPTY
+
+  Hadith #521:
+    ✗ english_translation: EMPTY
+
+  Hadith #522:
+    ✗ english_translation: EMPTY
+
+  Hadith #523:
+    ✗ english_translation: EMPTY
+
+  chap_235.json - Chapter 235
+  ✗ english: EMPTY
+
+  Hadith #524:
+    ✗ english_translation: EMPTY
+
+  chap_236.json - Chapter 236
+  ✗ english: EMPTY
+
+  Hadith #525:
+    ✗ english_translation: EMPTY
+
+  chap_237.json - Chapter 237
+  ✗ english: EMPTY
+
+  Hadith #526:
+    ✗ english_translation: EMPTY
+
+  chap_238.json - Chapter 238
+  ✗ english: EMPTY
+
+  Hadith #527:
+    ✗ english_translation: EMPTY
+
+  chap_239.json - Chapter 239
+  ✗ english: EMPTY
+
+  Hadith #528:
+    ✗ english_translation: EMPTY
+
+  chap_240.json - Chapter 240
+  ✗ english: EMPTY
+
+  Hadith #529:
+    ✗ english_translation: EMPTY
+
+  Hadith #530:
+    ✗ english_translation: EMPTY
+
+  Hadith #531:
+    ✗ english_translation: EMPTY
+
+  chap_241.json - Chapter 241
+  ✗ english: EMPTY
+
+  Hadith #532:
+    ✗ english_translation: EMPTY
+
+  chap_242.json - Chapter 242
+  ✗ english: EMPTY
+
+  Hadith #533:
+    ✗ english_translation: EMPTY
+
+  chap_243.json - Chapter 243
+  ✗ english: EMPTY
+
+  Hadith #534:
+    ✗ english_translation: EMPTY
+
+  chap_244.json - Chapter 244
+  ✗ english: EMPTY
+
+  Hadith #535:
+    ✗ english_translation: EMPTY
+
+  chap_245.json - Chapter 245
+  ✗ english: EMPTY
+
+  Hadith #536:
+    ✗ english_translation: EMPTY
+
+  Hadith #537:
+    ✗ english_translation: EMPTY
+
+  Hadith #538:
+    ✗ english_translation: EMPTY
+
+  Hadith #539:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 65
+  - Book metadata: 0
+  - Chapters: 65
+  - Hadiths: 0
+================================================================================

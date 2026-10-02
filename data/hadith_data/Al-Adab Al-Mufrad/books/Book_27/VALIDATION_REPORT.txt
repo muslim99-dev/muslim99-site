@@ -1,0 +1,36 @@
+VALIDATION REPORT - Book 27: Attending to this world
+Generated: 2026-08-22 06:16:08
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_222.json - Chapter 222
+  ✗ english: EMPTY
+
+  Hadith #482:
+    ✗ english_translation: EMPTY
+
+  Hadith #483:
+    ✗ english_translation: EMPTY
+
+  Hadith #484:
+    ✗ english_translation: EMPTY
+
+  chap_223.json - Chapter 223
+  ✗ english: EMPTY
+
+  Hadith #485:
+    ✗ english_translation: EMPTY
+
+  chap_224.json - Chapter 224
+  ✗ english: EMPTY
+
+  Hadith #486:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 8
+  - Book metadata: 0
+  - Chapters: 8
+  - Hadiths: 0
+================================================================================

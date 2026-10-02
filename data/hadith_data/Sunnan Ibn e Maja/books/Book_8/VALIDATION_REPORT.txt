@@ -1,0 +1,275 @@
+VALIDATION REPORT - Book 8: Chapters regarding funerals
+Generated: 2026-08-13 16:15:57
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_428.json - Chapter 428
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_429.json - Chapter 429
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_430.json - Chapter 430
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_431.json - Chapter 431
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_432.json - Chapter 432
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_433.json - Chapter 433
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_434.json - Chapter 434
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_435.json - Chapter 435
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_436.json - Chapter 436
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_437.json - Chapter 437
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_438.json - Chapter 438
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_439.json - Chapter 439
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_440.json - Chapter 440
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_441.json - Chapter 441
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_442.json - Chapter 442
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_443.json - Chapter 443
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_444.json - Chapter 444
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_445.json - Chapter 445
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_446.json - Chapter 446
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_447.json - Chapter 447
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_448.json - Chapter 448
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_449.json - Chapter 449
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_450.json - Chapter 450
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_451.json - Chapter 451
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_452.json - Chapter 452
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_453.json - Chapter 453
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_454.json - Chapter 454
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_455.json - Chapter 455
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_456.json - Chapter 456
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_457.json - Chapter 457
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_458.json - Chapter 458
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_459.json - Chapter 459
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_460.json - Chapter 460
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_461.json - Chapter 461
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_462.json - Chapter 462
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_463.json - Chapter 463
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_464.json - Chapter 464
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_465.json - Chapter 465
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_466.json - Chapter 466
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_467.json - Chapter 467
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_468.json - Chapter 468
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_469.json - Chapter 469
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_470.json - Chapter 470
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_471.json - Chapter 471
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_472.json - Chapter 472
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_473.json - Chapter 473
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_474.json - Chapter 474
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_475.json - Chapter 475
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_476.json - Chapter 476
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_477.json - Chapter 477
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_478.json - Chapter 478
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_479.json - Chapter 479
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_480.json - Chapter 480
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_481.json - Chapter 481
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_482.json - Chapter 482
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_483.json - Chapter 483
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_484.json - Chapter 484
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_485.json - Chapter 485
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_486.json - Chapter 486
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_487.json - Chapter 487
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_488.json - Chapter 488
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_489.json - Chapter 489
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_490.json - Chapter 490
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_491.json - Chapter 491
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_492.json - Chapter 492
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 131
+  - Book metadata: 1
+  - Chapters: 130
+  - Hadiths: 0
+================================================================================

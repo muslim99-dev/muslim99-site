@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 46: Narration of the bed of the messenger of allah (peace and blessings of allah be upon him).
+Generated: 2026-08-17 13:46:22
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_46.json - Chapter 46
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

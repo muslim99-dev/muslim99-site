@@ -1,0 +1,102 @@
+VALIDATION REPORT - Book 38: Consequences
+Generated: 2026-08-22 06:30:05
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_395.json - Chapter 395
+  ✗ english: EMPTY
+
+  Hadith #892:
+    ✗ english_translation: EMPTY
+
+  Hadith #893:
+    ✗ english_translation: EMPTY
+
+  chap_396.json - Chapter 396
+  ✗ english: EMPTY
+
+  Hadith #894:
+    ✗ english_translation: EMPTY
+
+  Hadith #895:
+    ✗ english_translation: EMPTY
+
+  chap_397.json - Chapter 397
+  ✗ english: EMPTY
+
+  Hadith #896:
+    ✗ english_translation: EMPTY
+
+  chap_398.json - Chapter 398
+  ✗ english: EMPTY
+
+  Hadith #897:
+    ✗ english_translation: EMPTY
+
+  chap_399.json - Chapter 399
+  ✗ english: EMPTY
+
+  Hadith #898:
+    ✗ english_translation: EMPTY
+
+  Hadith #899:
+    ✗ english_translation: EMPTY
+
+  chap_400.json - Chapter 400
+  ✗ english: EMPTY
+
+  Hadith #900:
+    ✗ english_translation: EMPTY
+
+  Hadith #901:
+    ✗ english_translation: EMPTY
+
+  Hadith #902:
+    ✗ english_translation: EMPTY
+
+  Hadith #903:
+    ✗ english_translation: EMPTY
+
+  chap_401.json - Chapter 401
+  ✗ english: EMPTY
+
+  Hadith #904:
+    ✗ english_translation: EMPTY
+
+  Hadith #905:
+    ✗ english_translation: EMPTY
+
+  chap_402.json - Chapter 402
+  ✗ english: EMPTY
+
+  Hadith #906:
+    ✗ english_translation: EMPTY
+
+  Hadith #907:
+    ✗ english_translation: EMPTY
+
+  chap_403.json - Chapter 403
+  ✗ english: EMPTY
+
+  Hadith #908:
+    ✗ english_translation: EMPTY
+
+  chap_404.json - Chapter 404
+  ✗ english: EMPTY
+
+  Hadith #909:
+    ✗ english_translation: EMPTY
+
+  chap_405.json - Chapter 405
+  ✗ english: EMPTY
+
+  Hadith #910:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 30
+  - Book metadata: 0
+  - Chapters: 30
+  - Hadiths: 0
+================================================================================

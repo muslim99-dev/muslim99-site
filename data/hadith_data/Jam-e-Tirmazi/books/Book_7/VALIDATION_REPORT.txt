@@ -1,0 +1,147 @@
+VALIDATION REPORT - Book 7: The book on traveling
+Generated: 2026-08-12 18:35:59
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_389.json - Chapter 389
+  ✗ arabic: EMPTY
+
+  chap_390.json - Chapter 390
+  ✗ arabic: EMPTY
+
+  chap_391.json - Chapter 391
+  ✗ arabic: EMPTY
+
+  chap_392.json - Chapter 392
+  ✗ arabic: EMPTY
+
+  chap_393.json - Chapter 393
+  ✗ arabic: EMPTY
+
+  chap_394.json - Chapter 394
+  ✗ arabic: EMPTY
+
+  chap_395.json - Chapter 395
+  ✗ arabic: EMPTY
+
+  chap_396.json - Chapter 396
+  ✗ arabic: EMPTY
+
+  chap_397.json - Chapter 397
+  ✗ arabic: EMPTY
+
+  chap_398.json - Chapter 398
+  ✗ arabic: EMPTY
+
+  chap_399.json - Chapter 399
+  ✗ arabic: EMPTY
+
+  chap_400.json - Chapter 400
+  ✗ arabic: EMPTY
+
+  chap_401.json - Chapter 401
+  ✗ arabic: EMPTY
+
+  chap_402.json - Chapter 402
+  ✗ arabic: EMPTY
+
+  chap_403.json - Chapter 403
+  ✗ arabic: EMPTY
+
+  chap_404.json - Chapter 404
+  ✗ arabic: EMPTY
+
+  chap_405.json - Chapter 405
+  ✗ arabic: EMPTY
+
+  chap_406.json - Chapter 406
+  ✗ arabic: EMPTY
+
+  chap_407.json - Chapter 407
+  ✗ arabic: EMPTY
+
+  chap_408.json - Chapter 408
+  ✗ arabic: EMPTY
+
+  chap_409.json - Chapter 409
+  ✗ arabic: EMPTY
+
+  chap_410.json - Chapter 410
+  ✗ arabic: EMPTY
+
+  chap_411.json - Chapter 411
+  ✗ arabic: EMPTY
+
+  chap_412.json - Chapter 412
+  ✗ arabic: EMPTY
+
+  chap_413.json - Chapter 413
+  ✗ arabic: EMPTY
+
+  chap_414.json - Chapter 414
+  ✗ arabic: EMPTY
+
+  chap_415.json - Chapter 415
+  ✗ arabic: EMPTY
+
+  chap_416.json - Chapter 416
+  ✗ arabic: EMPTY
+
+  chap_417.json - Chapter 417
+  ✗ arabic: EMPTY
+
+  chap_418.json - Chapter 418
+  ✗ arabic: EMPTY
+
+  chap_419.json - Chapter 419
+  ✗ arabic: EMPTY
+
+  chap_420.json - Chapter 420
+  ✗ arabic: EMPTY
+
+  chap_421.json - Chapter 421
+  ✗ arabic: EMPTY
+
+  chap_422.json - Chapter 422
+  ✗ arabic: EMPTY
+
+  chap_423.json - Chapter 423
+  ✗ arabic: EMPTY
+
+  chap_424.json - Chapter 424
+  ✗ arabic: EMPTY
+
+  chap_425.json - Chapter 425
+  ✗ arabic: EMPTY
+
+  chap_426.json - Chapter 426
+  ✗ arabic: EMPTY
+
+  chap_427.json - Chapter 427
+  ✗ arabic: EMPTY
+
+  chap_428.json - Chapter 428
+  ✗ arabic: EMPTY
+
+  chap_429.json - Chapter 429
+  ✗ arabic: EMPTY
+
+  chap_430.json - Chapter 430
+  ✗ arabic: EMPTY
+
+  chap_431.json - Chapter 431
+  ✗ arabic: EMPTY
+
+  chap_432.json - Chapter 432
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 45
+  - Book metadata: 1
+  - Chapters: 44
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,399 @@
+VALIDATION REPORT - Book 13: The book of forgetfulness (in prayer)
+Generated: 2026-08-13 04:57:23
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_706.json - Chapter 706
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_711.json - Chapter 711
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_712.json - Chapter 712
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_713.json - Chapter 713
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_714.json - Chapter 714
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_715.json - Chapter 715
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_716.json - Chapter 716
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_717.json - Chapter 717
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_718.json - Chapter 718
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_719.json - Chapter 719
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_720.json - Chapter 720
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_721.json - Chapter 721
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_722.json - Chapter 722
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_723.json - Chapter 723
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_724.json - Chapter 724
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_725.json - Chapter 725
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_726.json - Chapter 726
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_727.json - Chapter 727
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_728.json - Chapter 728
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_729.json - Chapter 729
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_730.json - Chapter 730
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_731.json - Chapter 731
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_732.json - Chapter 732
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_733.json - Chapter 733
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_734.json - Chapter 734
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_735.json - Chapter 735
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_736.json - Chapter 736
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_737.json - Chapter 737
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_738.json - Chapter 738
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_739.json - Chapter 739
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_740.json - Chapter 740
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_741.json - Chapter 741
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_742.json - Chapter 742
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_743.json - Chapter 743
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_744.json - Chapter 744
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_745.json - Chapter 745
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_746.json - Chapter 746
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_747.json - Chapter 747
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_748.json - Chapter 748
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_749.json - Chapter 749
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_750.json - Chapter 750
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_751.json - Chapter 751
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_752.json - Chapter 752
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_753.json - Chapter 753
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_754.json - Chapter 754
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_755.json - Chapter 755
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_756.json - Chapter 756
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_757.json - Chapter 757
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_758.json - Chapter 758
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_759.json - Chapter 759
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_760.json - Chapter 760
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_761.json - Chapter 761
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_762.json - Chapter 762
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_763.json - Chapter 763
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_764.json - Chapter 764
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_765.json - Chapter 765
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_766.json - Chapter 766
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_767.json - Chapter 767
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_768.json - Chapter 768
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_769.json - Chapter 769
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_770.json - Chapter 770
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_771.json - Chapter 771
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_772.json - Chapter 772
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_773.json - Chapter 773
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_774.json - Chapter 774
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_775.json - Chapter 775
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_776.json - Chapter 776
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_777.json - Chapter 777
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_778.json - Chapter 778
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_779.json - Chapter 779
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_780.json - Chapter 780
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_781.json - Chapter 781
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_782.json - Chapter 782
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_783.json - Chapter 783
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_784.json - Chapter 784
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_785.json - Chapter 785
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_786.json - Chapter 786
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_787.json - Chapter 787
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_788.json - Chapter 788
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_789.json - Chapter 789
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_790.json - Chapter 790
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_791.json - Chapter 791
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_792.json - Chapter 792
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_793.json - Chapter 793
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_794.json - Chapter 794
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_795.json - Chapter 795
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_796.json - Chapter 796
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_797.json - Chapter 797
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_798.json - Chapter 798
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_799.json - Chapter 799
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_800.json - Chapter 800
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_801.json - Chapter 801
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_802.json - Chapter 802
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_803.json - Chapter 803
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_804.json - Chapter 804
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_805.json - Chapter 805
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 193
+  - Book metadata: 1
+  - Chapters: 192
+  - Hadiths: 0
+================================================================================

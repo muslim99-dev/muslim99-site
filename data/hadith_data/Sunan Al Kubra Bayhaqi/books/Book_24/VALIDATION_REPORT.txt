@@ -1,0 +1,72 @@
+VALIDATION REPORT - Book 24: 
+Generated: 2026-08-16 08:13:56
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_2412.json - Chapter 2412
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #11425:
+    ✗ english_translation: EMPTY
+
+  Hadith #11426:
+    ✗ english_translation: EMPTY
+
+  Hadith #11427:
+    ✗ english_translation: EMPTY
+
+  Hadith #11428:
+    ✗ english_translation: EMPTY
+
+  chap_2413.json - Chapter 2413
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #11429:
+    ✗ english_translation: EMPTY
+
+  Hadith #11430:
+    ✗ english_translation: EMPTY
+
+  chap_2414.json - Chapter 2414
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #11431:
+    ✗ english_translation: EMPTY
+
+  Hadith #11432:
+    ✗ english_translation: EMPTY
+
+  chap_2415.json - Chapter 2415
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #11433:
+    ✗ english_translation: EMPTY
+
+  chap_2416.json - Chapter 2416
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #11434:
+    ✗ english_translation: EMPTY
+
+  Hadith #11435:
+    ✗ english_translation: EMPTY
+
+  Hadith #11436:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 24
+  - Book metadata: 2
+  - Chapters: 22
+  - Hadiths: 0
+================================================================================

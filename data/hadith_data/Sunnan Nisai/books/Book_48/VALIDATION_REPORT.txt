@@ -1,0 +1,147 @@
+VALIDATION REPORT - Book 48: The book of faith and its signs
+Generated: 2026-08-13 07:18:27
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_2171.json - Chapter 2171
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2172.json - Chapter 2172
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2173.json - Chapter 2173
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2174.json - Chapter 2174
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2175.json - Chapter 2175
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2176.json - Chapter 2176
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2177.json - Chapter 2177
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2178.json - Chapter 2178
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2179.json - Chapter 2179
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2180.json - Chapter 2180
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2181.json - Chapter 2181
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2182.json - Chapter 2182
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2183.json - Chapter 2183
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2184.json - Chapter 2184
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2185.json - Chapter 2185
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2186.json - Chapter 2186
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2187.json - Chapter 2187
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2188.json - Chapter 2188
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2189.json - Chapter 2189
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2190.json - Chapter 2190
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2191.json - Chapter 2191
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2192.json - Chapter 2192
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2193.json - Chapter 2193
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2194.json - Chapter 2194
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2195.json - Chapter 2195
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2196.json - Chapter 2196
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2197.json - Chapter 2197
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2198.json - Chapter 2198
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2199.json - Chapter 2199
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2200.json - Chapter 2200
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2201.json - Chapter 2201
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2202.json - Chapter 2202
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2203.json - Chapter 2203
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 67
+  - Book metadata: 1
+  - Chapters: 66
+  - Hadiths: 0
+================================================================================

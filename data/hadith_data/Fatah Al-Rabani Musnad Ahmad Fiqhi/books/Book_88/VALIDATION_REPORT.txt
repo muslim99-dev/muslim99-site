@@ -1,0 +1,71 @@
+VALIDATION REPORT - Book 88: 
+Generated: 2026-08-14 08:09:56
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_958.json - Chapter 958
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #5569:
+    ✗ english_translation: EMPTY
+
+  Hadith #5570:
+    ✗ english_translation: EMPTY
+
+  chap_959.json - Chapter 959
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #5571:
+    ✗ english_translation: EMPTY
+
+  Hadith #5572:
+    ✗ english_translation: EMPTY
+
+  chap_960.json - Chapter 960
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #5573:
+    ✗ english_translation: EMPTY
+
+  Hadith #5574:
+    ✗ english_translation: EMPTY
+
+  Hadith #5575:
+    ✗ english_translation: EMPTY
+
+  Hadith #5576:
+    ✗ english_translation: EMPTY
+
+  Hadith #5577:
+    ✗ english_translation: EMPTY
+
+  Hadith #5578:
+    ✗ english_translation: EMPTY
+
+  Hadith #5579:
+    ✗ english_translation: EMPTY
+
+  chap_961.json - Chapter 961
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #5580:
+    ✗ english_translation: EMPTY
+
+  Hadith #5581:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 23
+  - Book metadata: 2
+  - Chapters: 21
+  - Hadiths: 0
+================================================================================

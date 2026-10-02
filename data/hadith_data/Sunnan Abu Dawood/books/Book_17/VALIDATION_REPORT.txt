@@ -1,0 +1,27 @@
+VALIDATION REPORT - Book 17: Game (kitab al-said)
+Generated: 2026-08-13 01:18:55
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1011.json - Chapter 1011
+  ✗ arabic: EMPTY
+
+  chap_1012.json - Chapter 1012
+  ✗ arabic: EMPTY
+
+  chap_1013.json - Chapter 1013
+  ✗ arabic: EMPTY
+
+  chap_1014.json - Chapter 1014
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 5
+  - Book metadata: 1
+  - Chapters: 4
+  - Hadiths: 0
+================================================================================

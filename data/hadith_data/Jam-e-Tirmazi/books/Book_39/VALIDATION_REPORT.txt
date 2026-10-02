@@ -1,0 +1,117 @@
+VALIDATION REPORT - Book 39: Chapters on the description of paradise
+Generated: 2026-08-12 19:59:59
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1459.json - Chapter 1459
+  ✗ arabic: EMPTY
+
+  chap_1618.json - Chapter 1618
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1619.json - Chapter 1619
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1620.json - Chapter 1620
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1621.json - Chapter 1621
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1622.json - Chapter 1622
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #2534:
+    ✗ english_translation: EMPTY
+
+  chap_1623.json - Chapter 1623
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1624.json - Chapter 1624
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1625.json - Chapter 1625
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1626.json - Chapter 1626
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1627.json - Chapter 1627
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1628.json - Chapter 1628
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1629.json - Chapter 1629
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1630.json - Chapter 1630
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1631.json - Chapter 1631
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1632.json - Chapter 1632
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1633.json - Chapter 1633
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1634.json - Chapter 1634
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1635.json - Chapter 1635
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1636.json - Chapter 1636
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1637.json - Chapter 1637
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1638.json - Chapter 1638
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1639.json - Chapter 1639
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1640.json - Chapter 1640
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1641.json - Chapter 1641
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 51
+  - Book metadata: 1
+  - Chapters: 50
+  - Hadiths: 0
+================================================================================

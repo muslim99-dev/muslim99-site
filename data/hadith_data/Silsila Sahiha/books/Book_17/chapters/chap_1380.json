@@ -1,0 +1,26 @@
+{
+  "number": 1380,
+  "arabic": "",
+  "urdu": "تضمیر",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 2121,
+      "arabic_text": "-\" كان يضمر الخيل يسابق بها\".-\" كان يضمر الخيل يسابق بها\".",
+      "urdu_translation": "سیدنا عبداللہ بن عمر رضی اللہ عنہما سے روایت ہے کہ گھوڑوں کی دوڑ کرانے کے لیے ان کی تضمیر کرتے تھے۔",
+      "english_translation": "",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: محمد محفوظ احمد",
+          "text": "سیدنا عبداللہ بن عمر رضی اللہ عنہما سے روایت ہے کہ گھوڑوں کی دوڑ کرانے کے لیے ان کی تضمیر کرتے تھے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "2121",
+        "arabic_number": "ترقیم  : 2133"
+      }
+    }
+  ]
+}

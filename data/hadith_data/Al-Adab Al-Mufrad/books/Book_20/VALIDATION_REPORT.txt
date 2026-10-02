@@ -1,0 +1,66 @@
+VALIDATION REPORT - Book 20: Mercy
+Generated: 2026-08-22 06:12:37
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_174.json - Chapter 174
+  ✗ english: EMPTY
+
+  Hadith #375:
+    ✗ english_translation: EMPTY
+
+  Hadith #376:
+    ✗ english_translation: EMPTY
+
+  Hadith #377:
+    ✗ english_translation: EMPTY
+
+  Hadith #378:
+    ✗ english_translation: EMPTY
+
+  chap_175.json - Chapter 175
+  ✗ english: EMPTY
+
+  Hadith #379:
+    ✗ english_translation: EMPTY
+
+  Hadith #380:
+    ✗ english_translation: EMPTY
+
+  chap_176.json - Chapter 176
+  ✗ english: EMPTY
+
+  Hadith #381:
+    ✗ english_translation: EMPTY
+
+  Hadith #382:
+    ✗ english_translation: EMPTY
+
+  Hadith #383:
+    ✗ english_translation: EMPTY
+
+  Hadith #384:
+    ✗ english_translation: EMPTY
+
+  chap_177.json - Chapter 177
+  ✗ english: EMPTY
+
+  Hadith #385:
+    ✗ english_translation: EMPTY
+
+  chap_178.json - Chapter 178
+  ✗ english: EMPTY
+
+  Hadith #386:
+    ✗ english_translation: EMPTY
+
+  Hadith #387:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 18
+  - Book metadata: 0
+  - Chapters: 18
+  - Hadiths: 0
+================================================================================

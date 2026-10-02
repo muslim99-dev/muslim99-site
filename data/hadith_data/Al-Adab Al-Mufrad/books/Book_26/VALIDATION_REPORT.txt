@@ -1,0 +1,75 @@
+VALIDATION REPORT - Book 26: Compassion
+Generated: 2026-08-22 06:15:55
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_217.json - Chapter 217
+  ✗ english: EMPTY
+
+  Hadith #466:
+    ✗ english_translation: EMPTY
+
+  Hadith #467:
+    ✗ english_translation: EMPTY
+
+  Hadith #468:
+    ✗ english_translation: EMPTY
+
+  Hadith #469:
+    ✗ english_translation: EMPTY
+
+  Hadith #470:
+    ✗ english_translation: EMPTY
+
+  Hadith #471:
+    ✗ english_translation: EMPTY
+
+  Hadith #472:
+    ✗ english_translation: EMPTY
+
+  Hadith #473:
+    ✗ english_translation: EMPTY
+
+  Hadith #474:
+    ✗ english_translation: EMPTY
+
+  chap_218.json - Chapter 218
+  ✗ english: EMPTY
+
+  Hadith #475:
+    ✗ english_translation: EMPTY
+
+  chap_219.json - Chapter 219
+  ✗ english: EMPTY
+
+  Hadith #476:
+    ✗ english_translation: EMPTY
+
+  chap_220.json - Chapter 220
+  ✗ english: EMPTY
+
+  Hadith #477:
+    ✗ english_translation: EMPTY
+
+  Hadith #478:
+    ✗ english_translation: EMPTY
+
+  chap_221.json - Chapter 221
+  ✗ english: EMPTY
+
+  Hadith #479:
+    ✗ english_translation: EMPTY
+
+  Hadith #480:
+    ✗ english_translation: EMPTY
+
+  Hadith #481:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 21
+  - Book metadata: 0
+  - Chapters: 21
+  - Hadiths: 0
+================================================================================

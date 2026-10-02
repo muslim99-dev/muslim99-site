@@ -1,0 +1,31 @@
+VALIDATION REPORT - Book 19: The chapters on pre-emption
+Generated: 2026-08-13 16:49:39
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_864.json - Chapter 864
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_865.json - Chapter 865
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_866.json - Chapter 866
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_867.json - Chapter 867
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 9
+  - Book metadata: 1
+  - Chapters: 8
+  - Hadiths: 0
+================================================================================

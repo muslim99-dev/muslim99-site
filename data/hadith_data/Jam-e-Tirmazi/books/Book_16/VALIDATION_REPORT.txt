@@ -1,0 +1,141 @@
+VALIDATION REPORT - Book 16: The chapters on judgements from the messenger of allah
+Generated: 2026-08-12 19:12:52
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_899.json - Chapter 899
+  ✗ arabic: EMPTY
+
+  chap_900.json - Chapter 900
+  ✗ arabic: EMPTY
+
+  chap_901.json - Chapter 901
+  ✗ arabic: EMPTY
+
+  chap_902.json - Chapter 902
+  ✗ arabic: EMPTY
+
+  chap_903.json - Chapter 903
+  ✗ arabic: EMPTY
+
+  chap_904.json - Chapter 904
+  ✗ arabic: EMPTY
+
+  chap_905.json - Chapter 905
+  ✗ arabic: EMPTY
+
+  chap_906.json - Chapter 906
+  ✗ arabic: EMPTY
+
+  chap_907.json - Chapter 907
+  ✗ arabic: EMPTY
+
+  chap_908.json - Chapter 908
+  ✗ arabic: EMPTY
+
+  chap_909.json - Chapter 909
+  ✗ arabic: EMPTY
+
+  chap_910.json - Chapter 910
+  ✗ arabic: EMPTY
+
+  chap_911.json - Chapter 911
+  ✗ arabic: EMPTY
+
+  chap_912.json - Chapter 912
+  ✗ arabic: EMPTY
+
+  chap_913.json - Chapter 913
+  ✗ arabic: EMPTY
+
+  chap_914.json - Chapter 914
+  ✗ arabic: EMPTY
+
+  chap_915.json - Chapter 915
+  ✗ arabic: EMPTY
+
+  chap_916.json - Chapter 916
+  ✗ arabic: EMPTY
+
+  chap_917.json - Chapter 917
+  ✗ arabic: EMPTY
+
+  chap_918.json - Chapter 918
+  ✗ arabic: EMPTY
+
+  chap_919.json - Chapter 919
+  ✗ arabic: EMPTY
+
+  chap_920.json - Chapter 920
+  ✗ arabic: EMPTY
+
+  chap_921.json - Chapter 921
+  ✗ arabic: EMPTY
+
+  chap_922.json - Chapter 922
+  ✗ arabic: EMPTY
+
+  chap_923.json - Chapter 923
+  ✗ arabic: EMPTY
+
+  chap_924.json - Chapter 924
+  ✗ arabic: EMPTY
+
+  chap_925.json - Chapter 925
+  ✗ arabic: EMPTY
+
+  chap_926.json - Chapter 926
+  ✗ arabic: EMPTY
+
+  chap_927.json - Chapter 927
+  ✗ arabic: EMPTY
+
+  chap_928.json - Chapter 928
+  ✗ arabic: EMPTY
+
+  chap_929.json - Chapter 929
+  ✗ arabic: EMPTY
+
+  chap_930.json - Chapter 930
+  ✗ arabic: EMPTY
+
+  chap_931.json - Chapter 931
+  ✗ arabic: EMPTY
+
+  chap_932.json - Chapter 932
+  ✗ arabic: EMPTY
+
+  chap_933.json - Chapter 933
+  ✗ arabic: EMPTY
+
+  chap_934.json - Chapter 934
+  ✗ arabic: EMPTY
+
+  chap_935.json - Chapter 935
+  ✗ arabic: EMPTY
+
+  chap_936.json - Chapter 936
+  ✗ arabic: EMPTY
+
+  chap_937.json - Chapter 937
+  ✗ arabic: EMPTY
+
+  chap_938.json - Chapter 938
+  ✗ arabic: EMPTY
+
+  chap_939.json - Chapter 939
+  ✗ arabic: EMPTY
+
+  chap_940.json - Chapter 940
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 43
+  - Book metadata: 1
+  - Chapters: 42
+  - Hadiths: 0
+================================================================================

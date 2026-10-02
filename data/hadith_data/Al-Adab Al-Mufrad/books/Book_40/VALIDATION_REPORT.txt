@@ -1,0 +1,162 @@
+VALIDATION REPORT - Book 40: Sneezing and yawning
+Generated: 2026-08-22 06:31:43
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_414.json - Chapter 414
+  ✗ english: EMPTY
+
+  Hadith #923:
+    ✗ english_translation: EMPTY
+
+  chap_415.json - Chapter 415
+  ✗ english: EMPTY
+
+  Hadith #924:
+    ✗ english_translation: EMPTY
+
+  Hadith #925:
+    ✗ english_translation: EMPTY
+
+  chap_416.json - Chapter 416
+  ✗ english: EMPTY
+
+  Hadith #926:
+    ✗ english_translation: EMPTY
+
+  Hadith #927:
+    ✗ english_translation: EMPTY
+
+  Hadith #928:
+    ✗ english_translation: EMPTY
+
+  Hadith #929:
+    ✗ english_translation: EMPTY
+
+  chap_417.json - Chapter 417
+  ✗ english: EMPTY
+
+  Hadith #930:
+    ✗ english_translation: EMPTY
+
+  chap_418.json - Chapter 418
+  ✗ english: EMPTY
+
+  Hadith #931:
+    ✗ english_translation: EMPTY
+
+  Hadith #932:
+    ✗ english_translation: EMPTY
+
+  Hadith #933:
+    ✗ english_translation: EMPTY
+
+  Hadith #934:
+    ✗ english_translation: EMPTY
+
+  chap_419.json - Chapter 419
+  ✗ english: EMPTY
+
+  Hadith #935:
+    ✗ english_translation: EMPTY
+
+  Hadith #936:
+    ✗ english_translation: EMPTY
+
+  chap_420.json - Chapter 420
+  ✗ english: EMPTY
+
+  Hadith #937:
+    ✗ english_translation: EMPTY
+
+  Hadith #938:
+    ✗ english_translation: EMPTY
+
+  Hadith #939:
+    ✗ english_translation: EMPTY
+
+  chap_421.json - Chapter 421
+  ✗ english: EMPTY
+
+  Hadith #940:
+    ✗ english_translation: EMPTY
+
+  chap_422.json - Chapter 422
+  ✗ english: EMPTY
+
+  Hadith #941:
+    ✗ english_translation: EMPTY
+
+  chap_423.json - Chapter 423
+  ✗ english: EMPTY
+
+  Hadith #942:
+    ✗ english_translation: EMPTY
+
+  Hadith #943:
+    ✗ english_translation: EMPTY
+
+  chap_424.json - Chapter 424
+  ✗ english: EMPTY
+
+  Hadith #944:
+    ✗ english_translation: EMPTY
+
+  chap_425.json - Chapter 425
+  ✗ english: EMPTY
+
+  Hadith #945:
+    ✗ english_translation: EMPTY
+
+  chap_426.json - Chapter 426
+  ✗ english: EMPTY
+
+  Hadith #946:
+    ✗ english_translation: EMPTY
+
+  chap_427.json - Chapter 427
+  ✗ english: EMPTY
+
+  Hadith #947:
+    ✗ english_translation: EMPTY
+
+  chap_428.json - Chapter 428
+  ✗ english: EMPTY
+
+  Hadith #948:
+    ✗ english_translation: EMPTY
+
+  Hadith #949:
+    ✗ english_translation: EMPTY
+
+  Hadith #950:
+    ✗ english_translation: EMPTY
+
+  Hadith #951:
+    ✗ english_translation: EMPTY
+
+  chap_429.json - Chapter 429
+  ✗ english: EMPTY
+
+  Hadith #952:
+    ✗ english_translation: EMPTY
+
+  chap_430.json - Chapter 430
+  ✗ english: EMPTY
+
+  Hadith #953:
+    ✗ english_translation: EMPTY
+
+  Hadith #954:
+    ✗ english_translation: EMPTY
+
+  Hadith #955:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 50
+  - Book metadata: 0
+  - Chapters: 50
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,144 @@
+VALIDATION REPORT - Book 6: Neighbours
+Generated: 2026-08-22 06:03:51
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_55.json - Chapter 55
+  ✗ english: EMPTY
+
+  Hadith #101:
+    ✗ english_translation: EMPTY
+
+  Hadith #102:
+    ✗ english_translation: EMPTY
+
+  chap_56.json - Chapter 56
+  ✗ english: EMPTY
+
+  Hadith #103:
+    ✗ english_translation: EMPTY
+
+  chap_57.json - Chapter 57
+  ✗ english: EMPTY
+
+  Hadith #104:
+    ✗ english_translation: EMPTY
+
+  Hadith #105:
+    ✗ english_translation: EMPTY
+
+  Hadith #106:
+    ✗ english_translation: EMPTY
+
+  chap_58.json - Chapter 58
+  ✗ english: EMPTY
+
+  Hadith #107:
+    ✗ english_translation: EMPTY
+
+  Hadith #108:
+    ✗ english_translation: EMPTY
+
+  chap_59.json - Chapter 59
+  ✗ english: EMPTY
+
+  Hadith #109:
+    ✗ english_translation: EMPTY
+
+  Hadith #110:
+    ✗ english_translation: EMPTY
+
+  chap_60.json - Chapter 60
+  ✗ english: EMPTY
+
+  Hadith #111:
+    ✗ english_translation: EMPTY
+
+  chap_61.json - Chapter 61
+  ✗ english: EMPTY
+
+  Hadith #112:
+    ✗ english_translation: EMPTY
+
+  chap_62.json - Chapter 62
+  ✗ english: EMPTY
+
+  Hadith #113:
+    ✗ english_translation: EMPTY
+
+  Hadith #114:
+    ✗ english_translation: EMPTY
+
+  chap_63.json - Chapter 63
+  ✗ english: EMPTY
+
+  Hadith #115:
+    ✗ english_translation: EMPTY
+
+  chap_64.json - Chapter 64
+  ✗ english: EMPTY
+
+  Hadith #116:
+    ✗ english_translation: EMPTY
+
+  chap_65.json - Chapter 65
+  ✗ english: EMPTY
+
+  Hadith #117:
+    ✗ english_translation: EMPTY
+
+  Hadith #118:
+    ✗ english_translation: EMPTY
+
+  chap_66.json - Chapter 66
+  ✗ english: EMPTY
+
+  Hadith #119:
+    ✗ english_translation: EMPTY
+
+  Hadith #120:
+    ✗ english_translation: EMPTY
+
+  Hadith #121:
+    ✗ english_translation: EMPTY
+
+  chap_67.json - Chapter 67
+  ✗ english: EMPTY
+
+  Hadith #122:
+    ✗ english_translation: EMPTY
+
+  Hadith #123:
+    ✗ english_translation: EMPTY
+
+  chap_68.json - Chapter 68
+  ✗ english: EMPTY
+
+  Hadith #124:
+    ✗ english_translation: EMPTY
+
+  Hadith #125:
+    ✗ english_translation: EMPTY
+
+  Hadith #126:
+    ✗ english_translation: EMPTY
+
+  chap_69.json - Chapter 69
+  ✗ english: EMPTY
+
+  Hadith #127:
+    ✗ english_translation: EMPTY
+
+  chap_70.json - Chapter 70
+  ✗ english: EMPTY
+
+  Hadith #128:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 44
+  - Book metadata: 0
+  - Chapters: 44
+  - Hadiths: 0
+================================================================================

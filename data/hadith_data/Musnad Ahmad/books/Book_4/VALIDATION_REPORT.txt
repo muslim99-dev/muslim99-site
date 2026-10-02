@@ -1,0 +1,167 @@
+VALIDATION REPORT - Book 4: 
+Generated: 2026-08-21 05:32:50
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_17.json - Chapter 17
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1718:
+    ✗ english_translation: EMPTY
+
+  Hadith #1719:
+    ✗ english_translation: EMPTY
+
+  Hadith #1720:
+    ✗ english_translation: EMPTY
+
+  Hadith #1721:
+    ✗ english_translation: EMPTY
+
+  Hadith #1722:
+    ✗ english_translation: EMPTY
+
+  Hadith #1723:
+    ✗ english_translation: EMPTY
+
+  Hadith #1724:
+    ✗ english_translation: EMPTY
+
+  Hadith #1725:
+    ✗ english_translation: EMPTY
+
+  Hadith #1726:
+    ✗ english_translation: EMPTY
+
+  Hadith #1727:
+    ✗ english_translation: EMPTY
+
+  Hadith #1728:
+    ✗ english_translation: EMPTY
+
+  Hadith #1729:
+    ✗ english_translation: EMPTY
+
+  chap_18.json - Chapter 18
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1730:
+    ✗ english_translation: EMPTY
+
+  Hadith #1731:
+    ✗ english_translation: EMPTY
+
+  Hadith #1732:
+    ✗ english_translation: EMPTY
+
+  Hadith #1733:
+    ✗ english_translation: EMPTY
+
+  Hadith #1734:
+    ✗ english_translation: EMPTY
+
+  Hadith #1735:
+    ✗ english_translation: EMPTY
+
+  Hadith #1736:
+    ✗ english_translation: EMPTY
+
+  Hadith #1737:
+    ✗ english_translation: EMPTY
+
+  chap_19.json - Chapter 19
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1738:
+    ✗ english_translation: EMPTY
+
+  Hadith #1739:
+    ✗ english_translation: EMPTY
+
+  chap_20.json - Chapter 20
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_21.json - Chapter 21
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1741:
+    ✗ english_translation: EMPTY
+
+  Hadith #1742:
+    ✗ english_translation: EMPTY
+
+  Hadith #1743:
+    ✗ english_translation: EMPTY
+
+  Hadith #1744:
+    ✗ english_translation: EMPTY
+
+  Hadith #1745:
+    ✗ english_translation: EMPTY
+
+  Hadith #1746:
+    ✗ english_translation: EMPTY
+
+  Hadith #1747:
+    ✗ english_translation: EMPTY
+
+  Hadith #1748:
+    ✗ english_translation: EMPTY
+
+  Hadith #1749:
+    ✗ english_translation: EMPTY
+
+  Hadith #1750:
+    ✗ english_translation: EMPTY
+
+  Hadith #1751:
+    ✗ english_translation: EMPTY
+
+  Hadith #1752:
+    ✗ english_translation: EMPTY
+
+  Hadith #1753:
+    ✗ english_translation: EMPTY
+
+  Hadith #1754:
+    ✗ english_translation: EMPTY
+
+  Hadith #1755:
+    ✗ english_translation: EMPTY
+
+  Hadith #1756:
+    ✗ english_translation: EMPTY
+
+  Hadith #1757:
+    ✗ english_translation: EMPTY
+
+  Hadith #1758:
+    ✗ english_translation: EMPTY
+
+  Hadith #1759:
+    ✗ english_translation: EMPTY
+
+  Hadith #1760:
+    ✗ english_translation: EMPTY
+
+  Hadith #1761:
+    ✗ english_translation: EMPTY
+
+  Hadith #1762:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 55
+  - Book metadata: 1
+  - Chapters: 54
+  - Hadiths: 0
+================================================================================

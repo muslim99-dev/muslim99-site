@@ -1,0 +1,42 @@
+VALIDATION REPORT - Book 45: Chapters on parables
+Generated: 2026-08-12 20:16:21
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1459.json - Chapter 1459
+  ✗ arabic: EMPTY
+
+  chap_1788.json - Chapter 1788
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1789.json - Chapter 1789
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1790.json - Chapter 1790
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1791.json - Chapter 1791
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1792.json - Chapter 1792
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1793.json - Chapter 1793
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 14
+  - Book metadata: 1
+  - Chapters: 13
+  - Hadiths: 0
+================================================================================

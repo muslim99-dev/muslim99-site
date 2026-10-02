@@ -1,0 +1,26 @@
+{
+  "number": 248,
+  "arabic": "",
+  "urdu": "خطیب کا منبر پر چڑھ کر سلام کہنا",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 373,
+      "arabic_text": "-\" كان إذا صعد المنبر سلم\".-\" كان إذا صعد المنبر سلم\".",
+      "urdu_translation": "سیدنا جابر رضی اللہ عنہ سے روایت ہے کہ جب رسول اللہ  صلی اللہ علیہ وسلم  منبر پر چڑھتے تو سلام کہتے۔",
+      "english_translation": "",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: محمد محفوظ احمد",
+          "text": "سیدنا جابر رضی اللہ عنہ سے روایت ہے کہ جب رسول اللہ  صلی اللہ علیہ وسلم  منبر پر چڑھتے تو سلام کہتے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "373",
+        "arabic_number": "ترقیم  : 2076"
+      }
+    }
+  ]
+}

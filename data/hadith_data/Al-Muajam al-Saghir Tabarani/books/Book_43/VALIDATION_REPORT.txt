@@ -1,0 +1,23 @@
+VALIDATION REPORT - Book 43: 
+Generated: 2026-08-22 13:16:06
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1113.json - Chapter 1113
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1185:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 5
+  - Book metadata: 2
+  - Chapters: 3
+  - Hadiths: 0
+================================================================================

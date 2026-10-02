@@ -1,0 +1,123 @@
+VALIDATION REPORT - Book 24: Disparaging
+Generated: 2026-08-22 06:14:41
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_196.json - Chapter 196
+  ✗ english: EMPTY
+
+  Hadith #420:
+    ✗ english_translation: EMPTY
+
+  chap_197.json - Chapter 197
+  ✗ english: EMPTY
+
+  Hadith #421:
+    ✗ english_translation: EMPTY
+
+  chap_198.json - Chapter 198
+  ✗ english: EMPTY
+
+  Hadith #422:
+    ✗ english_translation: EMPTY
+
+  Hadith #423:
+    ✗ english_translation: EMPTY
+
+  Hadith #424:
+    ✗ english_translation: EMPTY
+
+  chap_199.json - Chapter 199
+  ✗ english: EMPTY
+
+  Hadith #425:
+    ✗ english_translation: EMPTY
+
+  chap_200.json - Chapter 200
+  ✗ english: EMPTY
+
+  Hadith #426:
+    ✗ english_translation: EMPTY
+
+  Hadith #427:
+    ✗ english_translation: EMPTY
+
+  Hadith #428:
+    ✗ english_translation: EMPTY
+
+  Hadith #429:
+    ✗ english_translation: EMPTY
+
+  chap_201.json - Chapter 201
+  ✗ english: EMPTY
+
+  Hadith #430:
+    ✗ english_translation: EMPTY
+
+  Hadith #431:
+    ✗ english_translation: EMPTY
+
+  chap_202.json - Chapter 202
+  ✗ english: EMPTY
+
+  Hadith #432:
+    ✗ english_translation: EMPTY
+
+  Hadith #433:
+    ✗ english_translation: EMPTY
+
+  Hadith #434:
+    ✗ english_translation: EMPTY
+
+  Hadith #435:
+    ✗ english_translation: EMPTY
+
+  Hadith #436:
+    ✗ english_translation: EMPTY
+
+  Hadith #437:
+    ✗ english_translation: EMPTY
+
+  Hadith #438:
+    ✗ english_translation: EMPTY
+
+  Hadith #439:
+    ✗ english_translation: EMPTY
+
+  chap_203.json - Chapter 203
+  ✗ english: EMPTY
+
+  Hadith #440:
+    ✗ english_translation: EMPTY
+
+  Hadith #441:
+    ✗ english_translation: EMPTY
+
+  chap_204.json - Chapter 204
+  ✗ english: EMPTY
+
+  Hadith #442:
+    ✗ english_translation: EMPTY
+
+  chap_205.json - Chapter 205
+  ✗ english: EMPTY
+
+  Hadith #443:
+    ✗ english_translation: EMPTY
+
+  Hadith #444:
+    ✗ english_translation: EMPTY
+
+  chap_206.json - Chapter 206
+  ✗ english: EMPTY
+
+  Hadith #445:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 37
+  - Book metadata: 0
+  - Chapters: 37
+  - Hadiths: 0
+================================================================================

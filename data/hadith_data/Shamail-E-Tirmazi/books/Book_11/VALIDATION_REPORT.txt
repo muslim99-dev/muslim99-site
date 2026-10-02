@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 11: Narration of the messenger of allah, may god bless him and grant him peace
+Generated: 2026-08-17 13:38:35
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_11.json - Chapter 11
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

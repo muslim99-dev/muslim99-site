@@ -1,0 +1,26 @@
+{
+  "number": 1310,
+  "arabic": "",
+  "urdu": "سرخ یا ریشمی زین پوش منع ہے",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 1982,
+      "arabic_text": "-\" نهى عن ميثرة الارجوان\".-\" نهى عن ميثرة الأرجوان\".",
+      "urdu_translation": "سیدنا عمران بن حصین رضی اللہ عنہ سے مروی ہے کہ رسول اللہ  صلی اللہ علیہ وسلم  نے سرخ زین پوش سے منع کیا۔",
+      "english_translation": "",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: محمد محفوظ احمد",
+          "text": "سیدنا عمران بن حصین رضی اللہ عنہ سے مروی ہے کہ رسول اللہ  صلی اللہ علیہ وسلم  نے سرخ زین پوش سے منع کیا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "1982",
+        "arabic_number": "ترقیم  : 2396"
+      }
+    }
+  ]
+}

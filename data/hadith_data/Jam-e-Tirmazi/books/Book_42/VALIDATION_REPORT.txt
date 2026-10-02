@@ -1,0 +1,72 @@
+VALIDATION REPORT - Book 42: Chapters on knowledge
+Generated: 2026-08-12 20:06:15
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1667.json - Chapter 1667
+  ✗ arabic: EMPTY
+
+  chap_1668.json - Chapter 1668
+  ✗ arabic: EMPTY
+
+  chap_1669.json - Chapter 1669
+  ✗ arabic: EMPTY
+
+  chap_1670.json - Chapter 1670
+  ✗ arabic: EMPTY
+
+  chap_1671.json - Chapter 1671
+  ✗ arabic: EMPTY
+
+  chap_1672.json - Chapter 1672
+  ✗ arabic: EMPTY
+
+  chap_1673.json - Chapter 1673
+  ✗ arabic: EMPTY
+
+  chap_1674.json - Chapter 1674
+  ✗ arabic: EMPTY
+
+  chap_1675.json - Chapter 1675
+  ✗ arabic: EMPTY
+
+  chap_1676.json - Chapter 1676
+  ✗ arabic: EMPTY
+
+  chap_1677.json - Chapter 1677
+  ✗ arabic: EMPTY
+
+  chap_1678.json - Chapter 1678
+  ✗ arabic: EMPTY
+
+  chap_1679.json - Chapter 1679
+  ✗ arabic: EMPTY
+
+  chap_1680.json - Chapter 1680
+  ✗ arabic: EMPTY
+
+  chap_1681.json - Chapter 1681
+  ✗ arabic: EMPTY
+
+  chap_1682.json - Chapter 1682
+  ✗ arabic: EMPTY
+
+  chap_1683.json - Chapter 1683
+  ✗ arabic: EMPTY
+
+  chap_1684.json - Chapter 1684
+  ✗ arabic: EMPTY
+
+  chap_1685.json - Chapter 1685
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 20
+  - Book metadata: 1
+  - Chapters: 19
+  - Hadiths: 0
+================================================================================

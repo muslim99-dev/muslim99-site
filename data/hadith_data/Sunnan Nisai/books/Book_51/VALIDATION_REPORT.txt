@@ -1,0 +1,415 @@
+VALIDATION REPORT - Book 51: The book of the etiquette of judges
+Generated: 2026-08-13 07:38:20
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_2327.json - Chapter 2327
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2328.json - Chapter 2328
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2329.json - Chapter 2329
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2330.json - Chapter 2330
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2331.json - Chapter 2331
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2332.json - Chapter 2332
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2333.json - Chapter 2333
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2334.json - Chapter 2334
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2335.json - Chapter 2335
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2336.json - Chapter 2336
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2337.json - Chapter 2337
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2338.json - Chapter 2338
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2339.json - Chapter 2339
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2340.json - Chapter 2340
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2341.json - Chapter 2341
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2342.json - Chapter 2342
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2343.json - Chapter 2343
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2344.json - Chapter 2344
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2345.json - Chapter 2345
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2346.json - Chapter 2346
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2347.json - Chapter 2347
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2348.json - Chapter 2348
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2349.json - Chapter 2349
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2350.json - Chapter 2350
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2351.json - Chapter 2351
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2352.json - Chapter 2352
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2353.json - Chapter 2353
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2354.json - Chapter 2354
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2355.json - Chapter 2355
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2356.json - Chapter 2356
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2357.json - Chapter 2357
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2358.json - Chapter 2358
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2359.json - Chapter 2359
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2360.json - Chapter 2360
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2361.json - Chapter 2361
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2362.json - Chapter 2362
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2363.json - Chapter 2363
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2364.json - Chapter 2364
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2365.json - Chapter 2365
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2366.json - Chapter 2366
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2367.json - Chapter 2367
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2368.json - Chapter 2368
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2369.json - Chapter 2369
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2370.json - Chapter 2370
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2371.json - Chapter 2371
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2372.json - Chapter 2372
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2373.json - Chapter 2373
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2374.json - Chapter 2374
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2375.json - Chapter 2375
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2376.json - Chapter 2376
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2377.json - Chapter 2377
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2378.json - Chapter 2378
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2379.json - Chapter 2379
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2380.json - Chapter 2380
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2381.json - Chapter 2381
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2382.json - Chapter 2382
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2383.json - Chapter 2383
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2384.json - Chapter 2384
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2385.json - Chapter 2385
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2386.json - Chapter 2386
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2387.json - Chapter 2387
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2388.json - Chapter 2388
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2389.json - Chapter 2389
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2390.json - Chapter 2390
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2391.json - Chapter 2391
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2392.json - Chapter 2392
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2393.json - Chapter 2393
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2394.json - Chapter 2394
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2395.json - Chapter 2395
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2396.json - Chapter 2396
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2397.json - Chapter 2397
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2398.json - Chapter 2398
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2399.json - Chapter 2399
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2400.json - Chapter 2400
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2401.json - Chapter 2401
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2402.json - Chapter 2402
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2403.json - Chapter 2403
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2404.json - Chapter 2404
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2405.json - Chapter 2405
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2406.json - Chapter 2406
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2407.json - Chapter 2407
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2408.json - Chapter 2408
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2409.json - Chapter 2409
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2410.json - Chapter 2410
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2411.json - Chapter 2411
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2412.json - Chapter 2412
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2413.json - Chapter 2413
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2414.json - Chapter 2414
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2415.json - Chapter 2415
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2416.json - Chapter 2416
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2417.json - Chapter 2417
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2418.json - Chapter 2418
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2419.json - Chapter 2419
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2420.json - Chapter 2420
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2421.json - Chapter 2421
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2422.json - Chapter 2422
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2423.json - Chapter 2423
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2424.json - Chapter 2424
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2425.json - Chapter 2425
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2426.json - Chapter 2426
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 201
+  - Book metadata: 1
+  - Chapters: 200
+  - Hadiths: 0
+================================================================================

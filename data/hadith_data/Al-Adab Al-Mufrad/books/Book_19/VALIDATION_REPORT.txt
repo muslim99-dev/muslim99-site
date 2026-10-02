@@ -1,0 +1,60 @@
+VALIDATION REPORT - Book 19: Children
+Generated: 2026-08-22 06:12:10
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_168.json - Chapter 168
+  ✗ english: EMPTY
+
+  Hadith #365:
+    ✗ english_translation: EMPTY
+
+  chap_169.json - Chapter 169
+  ✗ english: EMPTY
+
+  Hadith #366:
+    ✗ english_translation: EMPTY
+
+  chap_170.json - Chapter 170
+  ✗ english: EMPTY
+
+  Hadith #367:
+    ✗ english_translation: EMPTY
+
+  chap_171.json - Chapter 171
+  ✗ english: EMPTY
+
+  Hadith #368:
+    ✗ english_translation: EMPTY
+
+  Hadith #369:
+    ✗ english_translation: EMPTY
+
+  chap_172.json - Chapter 172
+  ✗ english: EMPTY
+
+  Hadith #370:
+    ✗ english_translation: EMPTY
+
+  Hadith #371:
+    ✗ english_translation: EMPTY
+
+  chap_173.json - Chapter 173
+  ✗ english: EMPTY
+
+  Hadith #372:
+    ✗ english_translation: EMPTY
+
+  Hadith #373:
+    ✗ english_translation: EMPTY
+
+  Hadith #374:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 16
+  - Book metadata: 0
+  - Chapters: 16
+  - Hadiths: 0
+================================================================================

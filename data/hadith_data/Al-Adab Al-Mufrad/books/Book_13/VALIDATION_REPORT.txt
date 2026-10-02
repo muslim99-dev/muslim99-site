@@ -1,0 +1,33 @@
+VALIDATION REPORT - Book 13: Consultation
+Generated: 2026-08-22 06:08:22
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_128.json - Chapter 128
+  ✗ english: EMPTY
+
+  Hadith #256:
+    ✗ english_translation: EMPTY
+
+  chap_129.json - Chapter 129
+  ✗ english: EMPTY
+
+  Hadith #257:
+    ✗ english_translation: EMPTY
+
+  Hadith #258:
+    ✗ english_translation: EMPTY
+
+  chap_130.json - Chapter 130
+  ✗ english: EMPTY
+
+  Hadith #259:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 7
+  - Book metadata: 0
+  - Chapters: 7
+  - Hadiths: 0
+================================================================================

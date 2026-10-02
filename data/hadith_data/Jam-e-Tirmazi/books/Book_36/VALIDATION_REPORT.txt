@@ -1,0 +1,30 @@
+VALIDATION REPORT - Book 36: Chapters on witnesses
+Generated: 2026-08-12 19:49:12
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_317.json - Chapter 317
+  ✗ arabic: EMPTY
+
+  chap_1539.json - Chapter 1539
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1540.json - Chapter 1540
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1541.json - Chapter 1541
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 8
+  - Book metadata: 1
+  - Chapters: 7
+  - Hadiths: 0
+================================================================================

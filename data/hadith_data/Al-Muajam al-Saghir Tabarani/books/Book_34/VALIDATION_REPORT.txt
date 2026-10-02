@@ -1,0 +1,58 @@
+VALIDATION REPORT - Book 34: 
+Generated: 2026-08-22 13:10:30
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1020.json - Chapter 1020
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1086:
+    ✗ english_translation: EMPTY
+
+  chap_1021.json - Chapter 1021
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1087:
+    ✗ english_translation: EMPTY
+
+  chap_1022.json - Chapter 1022
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1088:
+    ✗ english_translation: EMPTY
+
+  chap_1023.json - Chapter 1023
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1089:
+    ✗ english_translation: EMPTY
+
+  chap_1024.json - Chapter 1024
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1090:
+    ✗ english_translation: EMPTY
+
+  chap_1025.json - Chapter 1025
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1091:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 20
+  - Book metadata: 2
+  - Chapters: 18
+  - Hadiths: 0
+================================================================================

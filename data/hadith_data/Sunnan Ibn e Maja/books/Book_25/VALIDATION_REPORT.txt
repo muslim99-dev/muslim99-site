@@ -1,0 +1,87 @@
+VALIDATION REPORT - Book 25: Chapters on shares of inheritance
+Generated: 2026-08-13 17:00:06
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_965.json - Chapter 965
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_966.json - Chapter 966
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_967.json - Chapter 967
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_968.json - Chapter 968
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_969.json - Chapter 969
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_970.json - Chapter 970
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_971.json - Chapter 971
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_972.json - Chapter 972
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_973.json - Chapter 973
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_974.json - Chapter 974
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_975.json - Chapter 975
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_976.json - Chapter 976
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_977.json - Chapter 977
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_978.json - Chapter 978
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_979.json - Chapter 979
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_980.json - Chapter 980
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_981.json - Chapter 981
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_982.json - Chapter 982
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 37
+  - Book metadata: 1
+  - Chapters: 36
+  - Hadiths: 0
+================================================================================

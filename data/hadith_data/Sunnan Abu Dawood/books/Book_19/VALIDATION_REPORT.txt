@@ -1,0 +1,69 @@
+VALIDATION REPORT - Book 19: Shares of inheritance (kitab al-fara'id)
+Generated: 2026-08-13 01:21:38
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1032.json - Chapter 1032
+  ✗ arabic: EMPTY
+
+  chap_1033.json - Chapter 1033
+  ✗ arabic: EMPTY
+
+  chap_1034.json - Chapter 1034
+  ✗ arabic: EMPTY
+
+  chap_1035.json - Chapter 1035
+  ✗ arabic: EMPTY
+
+  chap_1036.json - Chapter 1036
+  ✗ arabic: EMPTY
+
+  chap_1037.json - Chapter 1037
+  ✗ arabic: EMPTY
+
+  chap_1038.json - Chapter 1038
+  ✗ arabic: EMPTY
+
+  chap_1039.json - Chapter 1039
+  ✗ arabic: EMPTY
+
+  chap_1040.json - Chapter 1040
+  ✗ arabic: EMPTY
+
+  chap_1041.json - Chapter 1041
+  ✗ arabic: EMPTY
+
+  chap_1042.json - Chapter 1042
+  ✗ arabic: EMPTY
+
+  chap_1043.json - Chapter 1043
+  ✗ arabic: EMPTY
+
+  chap_1044.json - Chapter 1044
+  ✗ arabic: EMPTY
+
+  chap_1045.json - Chapter 1045
+  ✗ arabic: EMPTY
+
+  chap_1046.json - Chapter 1046
+  ✗ arabic: EMPTY
+
+  chap_1047.json - Chapter 1047
+  ✗ arabic: EMPTY
+
+  chap_1048.json - Chapter 1048
+  ✗ arabic: EMPTY
+
+  chap_1049.json - Chapter 1049
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 19
+  - Book metadata: 1
+  - Chapters: 18
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,75 @@
+VALIDATION REPORT - Book 29: Chapters on slaughtering
+Generated: 2026-08-13 17:17:47
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1154.json - Chapter 1154
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1155.json - Chapter 1155
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1156.json - Chapter 1156
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1157.json - Chapter 1157
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1158.json - Chapter 1158
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1159.json - Chapter 1159
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1160.json - Chapter 1160
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1161.json - Chapter 1161
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1162.json - Chapter 1162
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1163.json - Chapter 1163
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1164.json - Chapter 1164
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1165.json - Chapter 1165
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1166.json - Chapter 1166
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1167.json - Chapter 1167
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1168.json - Chapter 1168
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 31
+  - Book metadata: 1
+  - Chapters: 30
+  - Hadiths: 0
+================================================================================

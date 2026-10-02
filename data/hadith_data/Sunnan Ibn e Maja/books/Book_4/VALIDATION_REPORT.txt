@@ -1,0 +1,54 @@
+VALIDATION REPORT - Book 4: The book of the prayer
+Generated: 2026-08-13 15:38:48
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_184.json - Chapter 184
+  ✗ arabic: EMPTY
+
+  chap_185.json - Chapter 185
+  ✗ arabic: EMPTY
+
+  chap_186.json - Chapter 186
+  ✗ arabic: EMPTY
+
+  chap_187.json - Chapter 187
+  ✗ arabic: EMPTY
+
+  chap_188.json - Chapter 188
+  ✗ arabic: EMPTY
+
+  chap_189.json - Chapter 189
+  ✗ arabic: EMPTY
+
+  chap_190.json - Chapter 190
+  ✗ arabic: EMPTY
+
+  chap_191.json - Chapter 191
+  ✗ arabic: EMPTY
+
+  chap_192.json - Chapter 192
+  ✗ arabic: EMPTY
+
+  chap_193.json - Chapter 193
+  ✗ arabic: EMPTY
+
+  chap_194.json - Chapter 194
+  ✗ arabic: EMPTY
+
+  chap_195.json - Chapter 195
+  ✗ arabic: EMPTY
+
+  chap_196.json - Chapter 196
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 14
+  - Book metadata: 1
+  - Chapters: 13
+  - Hadiths: 0
+================================================================================

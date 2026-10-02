@@ -1,0 +1,111 @@
+VALIDATION REPORT - Book 5: The book of salah
+Generated: 2026-08-13 04:19:03
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_269.json - Chapter 269
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_270.json - Chapter 270
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_271.json - Chapter 271
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_272.json - Chapter 272
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_273.json - Chapter 273
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_274.json - Chapter 274
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_275.json - Chapter 275
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_276.json - Chapter 276
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_277.json - Chapter 277
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_278.json - Chapter 278
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_279.json - Chapter 279
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_280.json - Chapter 280
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_281.json - Chapter 281
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_282.json - Chapter 282
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_283.json - Chapter 283
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_284.json - Chapter 284
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_285.json - Chapter 285
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_286.json - Chapter 286
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_287.json - Chapter 287
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_288.json - Chapter 288
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_289.json - Chapter 289
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_290.json - Chapter 290
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_291.json - Chapter 291
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_292.json - Chapter 292
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 49
+  - Book metadata: 1
+  - Chapters: 48
+  - Hadiths: 0
+================================================================================

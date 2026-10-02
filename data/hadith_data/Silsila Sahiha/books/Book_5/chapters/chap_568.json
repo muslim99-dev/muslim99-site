@@ -1,0 +1,26 @@
+{
+  "number": 568,
+  "arabic": "",
+  "urdu": "وتر رات کی نماز ہے",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 860,
+      "arabic_text": "-\" الوتر بليل\".-\" الوتر بليل\".",
+      "urdu_translation": "سیدنا ابوسعید خدری رضی اللہ عنہ بیان کرتے ہیں کہ رسول اللہ  صلی اللہ علیہ وسلم  نے فرمایا: ”نماز وتر رات کو ہوتی ہے۔“",
+      "english_translation": "",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: محمد محفوظ احمد",
+          "text": "سیدنا ابوسعید خدری رضی اللہ عنہ بیان کرتے ہیں کہ رسول اللہ  صلی اللہ علیہ وسلم  نے فرمایا: ”نماز وتر رات کو ہوتی ہے۔“"
+        }
+      ],
+      "reference": {
+        "international_number": "860",
+        "arabic_number": "ترقیم  : 2413"
+      }
+    }
+  ]
+}

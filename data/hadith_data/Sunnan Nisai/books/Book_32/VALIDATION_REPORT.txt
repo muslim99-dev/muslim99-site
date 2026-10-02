@@ -1,0 +1,19 @@
+VALIDATION REPORT - Book 32: The book of gifts
+Generated: 2026-08-13 06:29:30
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1775.json - Chapter 1775
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 3
+  - Book metadata: 1
+  - Chapters: 2
+  - Hadiths: 0
+================================================================================

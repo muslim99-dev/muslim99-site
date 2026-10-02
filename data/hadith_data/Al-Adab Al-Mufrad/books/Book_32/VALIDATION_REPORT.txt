@@ -1,0 +1,93 @@
+VALIDATION REPORT - Book 32: Guests and spending
+Generated: 2026-08-22 06:24:31
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_309.json - Chapter 309
+  ✗ english: EMPTY
+
+  Hadith #743:
+    ✗ english_translation: EMPTY
+
+  chap_310.json - Chapter 310
+  ✗ english: EMPTY
+
+  Hadith #744:
+    ✗ english_translation: EMPTY
+
+  chap_311.json - Chapter 311
+  ✗ english: EMPTY
+
+  Hadith #745:
+    ✗ english_translation: EMPTY
+
+  chap_312.json - Chapter 312
+  ✗ english: EMPTY
+
+  Hadith #746:
+    ✗ english_translation: EMPTY
+
+  chap_313.json - Chapter 313
+  ✗ english: EMPTY
+
+  Hadith #747:
+    ✗ english_translation: EMPTY
+
+  chap_314.json - Chapter 314
+  ✗ english: EMPTY
+
+  Hadith #748:
+    ✗ english_translation: EMPTY
+
+  chap_315.json - Chapter 315
+  ✗ english: EMPTY
+
+  Hadith #749:
+    ✗ english_translation: EMPTY
+
+  chap_316.json - Chapter 316
+  ✗ english: EMPTY
+
+  Hadith #750:
+    ✗ english_translation: EMPTY
+
+  chap_317.json - Chapter 317
+  ✗ english: EMPTY
+
+  Hadith #751:
+    ✗ english_translation: EMPTY
+
+  chap_318.json - Chapter 318
+  ✗ english: EMPTY
+
+  Hadith #752:
+    ✗ english_translation: EMPTY
+
+  Hadith #753:
+    ✗ english_translation: EMPTY
+
+  Hadith #754:
+    ✗ english_translation: EMPTY
+
+  Hadith #755:
+    ✗ english_translation: EMPTY
+
+  chap_319.json - Chapter 319
+  ✗ english: EMPTY
+
+  Hadith #756:
+    ✗ english_translation: EMPTY
+
+  chap_320.json - Chapter 320
+  ✗ english: EMPTY
+
+  Hadith #757:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 27
+  - Book metadata: 0
+  - Chapters: 27
+  - Hadiths: 0
+================================================================================

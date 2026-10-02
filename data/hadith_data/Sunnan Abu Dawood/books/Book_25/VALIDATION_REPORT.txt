@@ -1,0 +1,108 @@
+VALIDATION REPORT - Book 25: The office of the judge (kitab al-aqdiyah)
+Generated: 2026-08-13 01:48:23
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1297.json - Chapter 1297
+  ✗ arabic: EMPTY
+
+  chap_1298.json - Chapter 1298
+  ✗ arabic: EMPTY
+
+  chap_1299.json - Chapter 1299
+  ✗ arabic: EMPTY
+
+  chap_1300.json - Chapter 1300
+  ✗ arabic: EMPTY
+
+  chap_1301.json - Chapter 1301
+  ✗ arabic: EMPTY
+
+  chap_1302.json - Chapter 1302
+  ✗ arabic: EMPTY
+
+  chap_1303.json - Chapter 1303
+  ✗ arabic: EMPTY
+
+  chap_1304.json - Chapter 1304
+  ✗ arabic: EMPTY
+
+  chap_1305.json - Chapter 1305
+  ✗ arabic: EMPTY
+
+  chap_1306.json - Chapter 1306
+  ✗ arabic: EMPTY
+
+  chap_1307.json - Chapter 1307
+  ✗ arabic: EMPTY
+
+  chap_1308.json - Chapter 1308
+  ✗ arabic: EMPTY
+
+  chap_1309.json - Chapter 1309
+  ✗ arabic: EMPTY
+
+  chap_1310.json - Chapter 1310
+  ✗ arabic: EMPTY
+
+  chap_1311.json - Chapter 1311
+  ✗ arabic: EMPTY
+
+  chap_1312.json - Chapter 1312
+  ✗ arabic: EMPTY
+
+  chap_1313.json - Chapter 1313
+  ✗ arabic: EMPTY
+
+  chap_1314.json - Chapter 1314
+  ✗ arabic: EMPTY
+
+  chap_1315.json - Chapter 1315
+  ✗ arabic: EMPTY
+
+  chap_1316.json - Chapter 1316
+  ✗ arabic: EMPTY
+
+  chap_1317.json - Chapter 1317
+  ✗ arabic: EMPTY
+
+  chap_1318.json - Chapter 1318
+  ✗ arabic: EMPTY
+
+  chap_1319.json - Chapter 1319
+  ✗ arabic: EMPTY
+
+  chap_1320.json - Chapter 1320
+  ✗ arabic: EMPTY
+
+  chap_1321.json - Chapter 1321
+  ✗ arabic: EMPTY
+
+  chap_1322.json - Chapter 1322
+  ✗ arabic: EMPTY
+
+  chap_1323.json - Chapter 1323
+  ✗ arabic: EMPTY
+
+  chap_1324.json - Chapter 1324
+  ✗ arabic: EMPTY
+
+  chap_1325.json - Chapter 1325
+  ✗ arabic: EMPTY
+
+  chap_1326.json - Chapter 1326
+  ✗ arabic: EMPTY
+
+  chap_1327.json - Chapter 1327
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 32
+  - Book metadata: 1
+  - Chapters: 31
+  - Hadiths: 0
+================================================================================

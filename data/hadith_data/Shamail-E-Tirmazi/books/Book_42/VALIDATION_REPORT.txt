@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 42: Narration of post-natal prayer at home
+Generated: 2026-08-17 13:45:22
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_42.json - Chapter 42
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

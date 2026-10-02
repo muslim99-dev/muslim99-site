@@ -1,0 +1,69 @@
+VALIDATION REPORT - Book 16: Praise
+Generated: 2026-08-22 06:11:05
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_153.json - Chapter 153
+  ✗ english: EMPTY
+
+  Hadith #334:
+    ✗ english_translation: EMPTY
+
+  Hadith #335:
+    ✗ english_translation: EMPTY
+
+  Hadith #336:
+    ✗ english_translation: EMPTY
+
+  Hadith #337:
+    ✗ english_translation: EMPTY
+
+  chap_154.json - Chapter 154
+  ✗ english: EMPTY
+
+  Hadith #338:
+    ✗ english_translation: EMPTY
+
+  Hadith #339:
+    ✗ english_translation: EMPTY
+
+  chap_155.json - Chapter 155
+  ✗ english: EMPTY
+
+  Hadith #340:
+    ✗ english_translation: EMPTY
+
+  Hadith #341:
+    ✗ english_translation: EMPTY
+
+  Hadith #342:
+    ✗ english_translation: EMPTY
+
+  chap_156.json - Chapter 156
+  ✗ english: EMPTY
+
+  Hadith #343:
+    ✗ english_translation: EMPTY
+
+  Hadith #344:
+    ✗ english_translation: EMPTY
+
+  chap_157.json - Chapter 157
+  ✗ english: EMPTY
+
+  Hadith #345:
+    ✗ english_translation: EMPTY
+
+  chap_158.json - Chapter 158
+  ✗ english: EMPTY
+
+  Hadith #346:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 19
+  - Book metadata: 0
+  - Chapters: 19
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,60 @@
+VALIDATION REPORT - Book 9: 
+Generated: 2026-08-22 07:17:50
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_9.json - Chapter 9
+  ✗ arabic: EMPTY
+  ✗ urdu: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1202:
+    ✗ english_translation: EMPTY
+
+  Hadith #1203:
+    ✗ english_translation: EMPTY
+
+  Hadith #1204:
+    ✗ english_translation: EMPTY
+
+  Hadith #1205:
+    ✗ english_translation: EMPTY
+
+  Hadith #1206:
+    ✗ english_translation: EMPTY
+
+  Hadith #1207:
+    ✗ english_translation: EMPTY
+
+  Hadith #1208:
+    ✗ english_translation: EMPTY
+
+  Hadith #1209:
+    ✗ english_translation: EMPTY
+
+  Hadith #1210:
+    ✗ english_translation: EMPTY
+
+  Hadith #1211:
+    ✗ english_translation: EMPTY
+
+  Hadith #1212:
+    ✗ english_translation: EMPTY
+
+  Hadith #1213:
+    ✗ english_translation: EMPTY
+
+  Hadith #1214:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 18
+  - Book metadata: 2
+  - Chapters: 16
+  - Hadiths: 0
+================================================================================

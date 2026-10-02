@@ -1,0 +1,119 @@
+VALIDATION REPORT - Book 117: 
+Generated: 2026-08-15 00:21:46
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1216.json - Chapter 1216
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6803:
+    ✗ english_translation: EMPTY
+
+  Hadith #6804:
+    ✗ english_translation: EMPTY
+
+  Hadith #6805:
+    ✗ english_translation: EMPTY
+
+  Hadith #6806:
+    ✗ english_translation: EMPTY
+
+  Hadith #6807:
+    ✗ english_translation: EMPTY
+
+  Hadith #6808:
+    ✗ english_translation: EMPTY
+
+  Hadith #6809:
+    ✗ english_translation: EMPTY
+
+  Hadith #6810:
+    ✗ english_translation: EMPTY
+
+  chap_1217.json - Chapter 1217
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6811:
+    ✗ english_translation: EMPTY
+
+  chap_1218.json - Chapter 1218
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6812:
+    ✗ english_translation: EMPTY
+
+  Hadith #6813:
+    ✗ english_translation: EMPTY
+
+  Hadith #6814:
+    ✗ english_translation: EMPTY
+
+  chap_1219.json - Chapter 1219
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6815:
+    ✗ english_translation: EMPTY
+
+  Hadith #6816:
+    ✗ english_translation: EMPTY
+
+  Hadith #6817:
+    ✗ english_translation: EMPTY
+
+  chap_1220.json - Chapter 1220
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6818:
+    ✗ english_translation: EMPTY
+
+  Hadith #6819:
+    ✗ english_translation: EMPTY
+
+  Hadith #6820:
+    ✗ english_translation: EMPTY
+
+  Hadith #6821:
+    ✗ english_translation: EMPTY
+
+  chap_1221.json - Chapter 1221
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6822:
+    ✗ english_translation: EMPTY
+
+  Hadith #6823:
+    ✗ english_translation: EMPTY
+
+  chap_1222.json - Chapter 1222
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6824:
+    ✗ english_translation: EMPTY
+
+  Hadith #6825:
+    ✗ english_translation: EMPTY
+
+  Hadith #6826:
+    ✗ english_translation: EMPTY
+
+  Hadith #6827:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 41
+  - Book metadata: 2
+  - Chapters: 39
+  - Hadiths: 0
+================================================================================

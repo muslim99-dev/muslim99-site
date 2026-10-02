@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 31: Narration of the drinks of the prophet (peace and blessings of allah be upon him).
+Generated: 2026-08-17 13:42:29
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_31.json - Chapter 31
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

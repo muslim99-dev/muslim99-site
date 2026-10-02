@@ -19,10 +19,6 @@ export async function askGroq(
     body: JSON.stringify({
       model: MODEL,
       messages,
-      // This is a reasoning model — it spends tokens thinking before the
-      // visible answer, so max_tokens needs real headroom or the answer
-      // gets cut off before any content is written. reasoning_effort caps
-      // how much it spends on that hidden reasoning in the first place.
       max_tokens: options?.maxTokens ?? 900,
       temperature: options?.temperature ?? 0.4,
       reasoning_effort: options?.reasoningEffort ?? "medium"

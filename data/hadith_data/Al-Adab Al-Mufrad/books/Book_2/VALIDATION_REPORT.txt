@@ -1,0 +1,135 @@
+VALIDATION REPORT - Book 2: Book on ties of kinship
+Generated: 2026-08-22 06:01:44
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_25.json - Chapter 25
+  ✗ english: EMPTY
+
+  Hadith #47:
+    ✗ english_translation: EMPTY
+
+  Hadith #48:
+    ✗ english_translation: EMPTY
+
+  chap_26.json - Chapter 26
+  ✗ english: EMPTY
+
+  Hadith #49:
+    ✗ english_translation: EMPTY
+
+  Hadith #50:
+    ✗ english_translation: EMPTY
+
+  Hadith #51:
+    ✗ english_translation: EMPTY
+
+  chap_27.json - Chapter 27
+  ✗ english: EMPTY
+
+  Hadith #52:
+    ✗ english_translation: EMPTY
+
+  Hadith #53:
+    ✗ english_translation: EMPTY
+
+  Hadith #54:
+    ✗ english_translation: EMPTY
+
+  Hadith #55:
+    ✗ english_translation: EMPTY
+
+  chap_28.json - Chapter 28
+  ✗ english: EMPTY
+
+  Hadith #56:
+    ✗ english_translation: EMPTY
+
+  Hadith #57:
+    ✗ english_translation: EMPTY
+
+  chap_29.json - Chapter 29
+  ✗ english: EMPTY
+
+  Hadith #58:
+    ✗ english_translation: EMPTY
+
+  Hadith #59:
+    ✗ english_translation: EMPTY
+
+  chap_30.json - Chapter 30
+  ✗ english: EMPTY
+
+  Hadith #60:
+    ✗ english_translation: EMPTY
+
+  Hadith #61:
+    ✗ english_translation: EMPTY
+
+  Hadith #62:
+    ✗ english_translation: EMPTY
+
+  chap_31.json - Chapter 31
+  ✗ english: EMPTY
+
+  Hadith #63:
+    ✗ english_translation: EMPTY
+
+  chap_32.json - Chapter 32
+  ✗ english: EMPTY
+
+  Hadith #64:
+    ✗ english_translation: EMPTY
+
+  Hadith #65:
+    ✗ english_translation: EMPTY
+
+  Hadith #66:
+    ✗ english_translation: EMPTY
+
+  chap_33.json - Chapter 33
+  ✗ english: EMPTY
+
+  Hadith #67:
+    ✗ english_translation: EMPTY
+
+  chap_34.json - Chapter 34
+  ✗ english: EMPTY
+
+  Hadith #68:
+    ✗ english_translation: EMPTY
+
+  chap_35.json - Chapter 35
+  ✗ english: EMPTY
+
+  Hadith #69:
+    ✗ english_translation: EMPTY
+
+  chap_36.json - Chapter 36
+  ✗ english: EMPTY
+
+  Hadith #70:
+    ✗ english_translation: EMPTY
+
+  chap_37.json - Chapter 37
+  ✗ english: EMPTY
+
+  Hadith #71:
+    ✗ english_translation: EMPTY
+
+  chap_38.json - Chapter 38
+  ✗ english: EMPTY
+
+  Hadith #72:
+    ✗ english_translation: EMPTY
+
+  Hadith #73:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 41
+  - Book metadata: 0
+  - Chapters: 41
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,132 @@
+VALIDATION REPORT - Book 24: The book on jihad
+Generated: 2026-08-12 19:30:26
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1123.json - Chapter 1123
+  ✗ arabic: EMPTY
+
+  chap_1124.json - Chapter 1124
+  ✗ arabic: EMPTY
+
+  chap_1125.json - Chapter 1125
+  ✗ arabic: EMPTY
+
+  chap_1126.json - Chapter 1126
+  ✗ arabic: EMPTY
+
+  chap_1127.json - Chapter 1127
+  ✗ arabic: EMPTY
+
+  chap_1128.json - Chapter 1128
+  ✗ arabic: EMPTY
+
+  chap_1129.json - Chapter 1129
+  ✗ arabic: EMPTY
+
+  chap_1130.json - Chapter 1130
+  ✗ arabic: EMPTY
+
+  chap_1131.json - Chapter 1131
+  ✗ arabic: EMPTY
+
+  chap_1132.json - Chapter 1132
+  ✗ arabic: EMPTY
+
+  chap_1133.json - Chapter 1133
+  ✗ arabic: EMPTY
+
+  chap_1134.json - Chapter 1134
+  ✗ arabic: EMPTY
+
+  chap_1135.json - Chapter 1135
+  ✗ arabic: EMPTY
+
+  chap_1136.json - Chapter 1136
+  ✗ arabic: EMPTY
+
+  chap_1137.json - Chapter 1137
+  ✗ arabic: EMPTY
+
+  chap_1138.json - Chapter 1138
+  ✗ arabic: EMPTY
+
+  chap_1139.json - Chapter 1139
+  ✗ arabic: EMPTY
+
+  chap_1140.json - Chapter 1140
+  ✗ arabic: EMPTY
+
+  chap_1141.json - Chapter 1141
+  ✗ arabic: EMPTY
+
+  chap_1142.json - Chapter 1142
+  ✗ arabic: EMPTY
+
+  chap_1143.json - Chapter 1143
+  ✗ arabic: EMPTY
+
+  chap_1144.json - Chapter 1144
+  ✗ arabic: EMPTY
+
+  chap_1145.json - Chapter 1145
+  ✗ arabic: EMPTY
+
+  chap_1146.json - Chapter 1146
+  ✗ arabic: EMPTY
+
+  chap_1147.json - Chapter 1147
+  ✗ arabic: EMPTY
+
+  chap_1148.json - Chapter 1148
+  ✗ arabic: EMPTY
+
+  chap_1149.json - Chapter 1149
+  ✗ arabic: EMPTY
+
+  chap_1150.json - Chapter 1150
+  ✗ arabic: EMPTY
+
+  chap_1151.json - Chapter 1151
+  ✗ arabic: EMPTY
+
+  chap_1152.json - Chapter 1152
+  ✗ arabic: EMPTY
+
+  chap_1153.json - Chapter 1153
+  ✗ arabic: EMPTY
+
+  chap_1154.json - Chapter 1154
+  ✗ arabic: EMPTY
+
+  chap_1155.json - Chapter 1155
+  ✗ arabic: EMPTY
+
+  chap_1156.json - Chapter 1156
+  ✗ arabic: EMPTY
+
+  chap_1157.json - Chapter 1157
+  ✗ arabic: EMPTY
+
+  chap_1158.json - Chapter 1158
+  ✗ arabic: EMPTY
+
+  chap_1159.json - Chapter 1159
+  ✗ arabic: EMPTY
+
+  chap_1160.json - Chapter 1160
+  ✗ arabic: EMPTY
+
+  chap_1161.json - Chapter 1161
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 40
+  - Book metadata: 1
+  - Chapters: 39
+  - Hadiths: 0
+================================================================================

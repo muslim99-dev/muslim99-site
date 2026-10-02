@@ -1,0 +1,123 @@
+VALIDATION REPORT - Book 32: Chapters on drinks
+Generated: 2026-08-13 17:26:50
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1250.json - Chapter 1250
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1251.json - Chapter 1251
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1252.json - Chapter 1252
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1253.json - Chapter 1253
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1254.json - Chapter 1254
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1255.json - Chapter 1255
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1256.json - Chapter 1256
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1257.json - Chapter 1257
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1258.json - Chapter 1258
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1259.json - Chapter 1259
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1260.json - Chapter 1260
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1261.json - Chapter 1261
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1262.json - Chapter 1262
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1263.json - Chapter 1263
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1264.json - Chapter 1264
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1265.json - Chapter 1265
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1266.json - Chapter 1266
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1267.json - Chapter 1267
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1268.json - Chapter 1268
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1269.json - Chapter 1269
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1270.json - Chapter 1270
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1271.json - Chapter 1271
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1272.json - Chapter 1272
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1273.json - Chapter 1273
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1274.json - Chapter 1274
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1275.json - Chapter 1275
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1276.json - Chapter 1276
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 55
+  - Book metadata: 1
+  - Chapters: 54
+  - Hadiths: 0
+================================================================================

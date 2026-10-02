@@ -1,0 +1,110 @@
+VALIDATION REPORT - Book 32: 
+Generated: 2026-08-22 07:33:03
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_32.json - Chapter 32
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4403:
+    ✗ english_translation: EMPTY
+
+  Hadith #4404:
+    ✗ english_translation: EMPTY
+
+  Hadith #4405:
+    ✗ english_translation: EMPTY
+
+  Hadith #4406:
+    ✗ english_translation: EMPTY
+
+  Hadith #4407:
+    ✗ english_translation: EMPTY
+
+  Hadith #4408:
+    ✗ english_translation: EMPTY
+
+  Hadith #4409:
+    ✗ english_translation: EMPTY
+
+  Hadith #4410:
+    ✗ english_translation: EMPTY
+
+  Hadith #4411:
+    ✗ english_translation: EMPTY
+
+  Hadith #4412:
+    ✗ english_translation: EMPTY
+
+  Hadith #4413:
+    ✗ english_translation: EMPTY
+
+  Hadith #4414:
+    ✗ english_translation: EMPTY
+
+  Hadith #4415:
+    ✗ english_translation: EMPTY
+
+  Hadith #4416:
+    ✗ english_translation: EMPTY
+
+  Hadith #4417:
+    ✗ english_translation: EMPTY
+
+  Hadith #4418:
+    ✗ english_translation: EMPTY
+
+  Hadith #4419:
+    ✗ english_translation: EMPTY
+
+  Hadith #4420:
+    ✗ english_translation: EMPTY
+
+  Hadith #4421:
+    ✗ english_translation: EMPTY
+
+  Hadith #4422:
+    ✗ english_translation: EMPTY
+
+  Hadith #4423:
+    ✗ english_translation: EMPTY
+
+  Hadith #4424:
+    ✗ english_translation: EMPTY
+
+  Hadith #4425:
+    ✗ english_translation: EMPTY
+
+  Hadith #4426:
+    ✗ english_translation: EMPTY
+
+  Hadith #4427:
+    ✗ english_translation: EMPTY
+
+  Hadith #4428:
+    ✗ english_translation: EMPTY
+
+  Hadith #4429:
+    ✗ english_translation: EMPTY
+
+  Hadith #4430:
+    ✗ english_translation: EMPTY
+
+  Hadith #4431:
+    ✗ english_translation: EMPTY
+
+  Hadith #4432:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 34
+  - Book metadata: 2
+  - Chapters: 32
+  - Hadiths: 0
+================================================================================

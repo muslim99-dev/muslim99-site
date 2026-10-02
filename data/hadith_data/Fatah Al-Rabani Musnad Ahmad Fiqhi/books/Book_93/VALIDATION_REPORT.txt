@@ -1,0 +1,68 @@
+VALIDATION REPORT - Book 93: 
+Generated: 2026-08-14 19:44:05
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1042.json - Chapter 1042
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6071:
+    ✗ english_translation: EMPTY
+
+  Hadith #6072:
+    ✗ english_translation: EMPTY
+
+  chap_1043.json - Chapter 1043
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6073:
+    ✗ english_translation: EMPTY
+
+  Hadith #6074:
+    ✗ english_translation: EMPTY
+
+  Hadith #6075:
+    ✗ english_translation: EMPTY
+
+  chap_1044.json - Chapter 1044
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6076:
+    ✗ english_translation: EMPTY
+
+  chap_1045.json - Chapter 1045
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6077:
+    ✗ english_translation: EMPTY
+
+  Hadith #6078:
+    ✗ english_translation: EMPTY
+
+  Hadith #6079:
+    ✗ english_translation: EMPTY
+
+  Hadith #6080:
+    ✗ english_translation: EMPTY
+
+  Hadith #6081:
+    ✗ english_translation: EMPTY
+
+  Hadith #6082:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 22
+  - Book metadata: 2
+  - Chapters: 20
+  - Hadiths: 0
+================================================================================

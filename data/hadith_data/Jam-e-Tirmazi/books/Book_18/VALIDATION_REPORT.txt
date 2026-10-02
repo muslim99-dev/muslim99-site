@@ -1,0 +1,105 @@
+VALIDATION REPORT - Book 18: The book on legal punishments (al-hudud)
+Generated: 2026-08-12 19:17:14
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_963.json - Chapter 963
+  ✗ arabic: EMPTY
+
+  chap_964.json - Chapter 964
+  ✗ arabic: EMPTY
+
+  chap_965.json - Chapter 965
+  ✗ arabic: EMPTY
+
+  chap_966.json - Chapter 966
+  ✗ arabic: EMPTY
+
+  chap_967.json - Chapter 967
+  ✗ arabic: EMPTY
+
+  chap_968.json - Chapter 968
+  ✗ arabic: EMPTY
+
+  chap_969.json - Chapter 969
+  ✗ arabic: EMPTY
+
+  chap_970.json - Chapter 970
+  ✗ arabic: EMPTY
+
+  chap_971.json - Chapter 971
+  ✗ arabic: EMPTY
+
+  chap_972.json - Chapter 972
+  ✗ arabic: EMPTY
+
+  chap_973.json - Chapter 973
+  ✗ arabic: EMPTY
+
+  chap_974.json - Chapter 974
+  ✗ arabic: EMPTY
+
+  chap_975.json - Chapter 975
+  ✗ arabic: EMPTY
+
+  chap_976.json - Chapter 976
+  ✗ arabic: EMPTY
+
+  chap_977.json - Chapter 977
+  ✗ arabic: EMPTY
+
+  chap_978.json - Chapter 978
+  ✗ arabic: EMPTY
+
+  chap_979.json - Chapter 979
+  ✗ arabic: EMPTY
+
+  chap_980.json - Chapter 980
+  ✗ arabic: EMPTY
+
+  chap_981.json - Chapter 981
+  ✗ arabic: EMPTY
+
+  chap_982.json - Chapter 982
+  ✗ arabic: EMPTY
+
+  chap_983.json - Chapter 983
+  ✗ arabic: EMPTY
+
+  chap_984.json - Chapter 984
+  ✗ arabic: EMPTY
+
+  chap_985.json - Chapter 985
+  ✗ arabic: EMPTY
+
+  chap_986.json - Chapter 986
+  ✗ arabic: EMPTY
+
+  chap_987.json - Chapter 987
+  ✗ arabic: EMPTY
+
+  chap_988.json - Chapter 988
+  ✗ arabic: EMPTY
+
+  chap_989.json - Chapter 989
+  ✗ arabic: EMPTY
+
+  chap_990.json - Chapter 990
+  ✗ arabic: EMPTY
+
+  chap_991.json - Chapter 991
+  ✗ arabic: EMPTY
+
+  chap_992.json - Chapter 992
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 31
+  - Book metadata: 1
+  - Chapters: 30
+  - Hadiths: 0
+================================================================================

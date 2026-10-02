@@ -1,0 +1,50 @@
+VALIDATION REPORT - Book 15: 
+Generated: 2026-08-22 12:39:07
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_472.json - Chapter 472
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #499:
+    ✗ english_translation: EMPTY
+
+  chap_473.json - Chapter 473
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #500:
+    ✗ english_translation: EMPTY
+
+  Hadith #501:
+    ✗ english_translation: EMPTY
+
+  Hadith #502:
+    ✗ english_translation: EMPTY
+
+  chap_474.json - Chapter 474
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #503:
+    ✗ english_translation: EMPTY
+
+  chap_475.json - Chapter 475
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #504:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 16
+  - Book metadata: 2
+  - Chapters: 14
+  - Hadiths: 0
+================================================================================

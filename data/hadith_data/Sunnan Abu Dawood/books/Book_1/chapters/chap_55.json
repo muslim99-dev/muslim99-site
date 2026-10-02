@@ -1,0 +1,30 @@
+{
+  "number": 55,
+  "arabic": "",
+  "urdu": "باب: موزوں پر مسح کرنے کی مدت کا بیان ۔",
+  "english": "CHAPTER: The Period (Allowed) For Wiping.",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 157,
+      "arabic_text": "تخریج دارالدعوہ: سنن الترمذی/الطھارة ۷۱ (۹۵)، سنن ابن ماجہ/الطھارة ۸۶ (۵۵۴)، (تحفة الأشراف: ۳۵۲۸)، وقد أخرجہ: مسند احمد (۵/۲۱۳) (صحیح)",
+      "urdu_translation": "خزیمہ بن ثابت رضی اللہ عنہ سے روایت ہے کہ",
+      "english_translation": "Narrated Khuzaymah ibn Thabit: The Prophet صلی ‌اللہ ‌علیہ ‌وسلم said: The time limit for wiping over the socks for a traveller is three days (and three nights) and for a resident it is one day and one night. Abu Dawud said: Another version adds: Had we requested him to extend (the period of wiping), he would have extended.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "خزیمہ بن ثابت رضی اللہ عنہ سے روایت ہے کہ"
+        },
+        {
+          "translator": "ترجمہ: ابو عمار عمر فاروق سعیدی",
+          "text": "سیدنا خزیمہ بن ثابت ؓ نبی کریم ﷺ سے بیان کرتے ہیں کہ آپ ﷺ نے فرمایا: ”موزوں پر مسح کرنے کی مدت مسافر کے لیے تین دن اور مقیم کے لیے ایک دن اور ایک رات ہے۔“ امام ابوداؤد رحمہ اللہ کہتے ہیں کہ اس حدیث کو منصور بن معتمر نے اپنی سند سے ابراہیم تیمی سے روایت کیا ہے اور اس میں ہے کہ اگر ہم مسح کی مدت میں اضافہ چاہتے تو آپ اضافہ فرما دیتے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "157",
+        "arabic_number": "ترقیم  : 157"
+      }
+    }
+  ]
+}

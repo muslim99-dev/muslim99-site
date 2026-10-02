@@ -1,0 +1,90 @@
+VALIDATION REPORT - Book 38: Chapters on the description of the day of judgement, ar-riqaq, and al-wara'
+Generated: 2026-08-12 19:57:21
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1459.json - Chapter 1459
+  ✗ arabic: EMPTY
+
+  chap_1600.json - Chapter 1600
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1601.json - Chapter 1601
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1602.json - Chapter 1602
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1603.json - Chapter 1603
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1604.json - Chapter 1604
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1605.json - Chapter 1605
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1606.json - Chapter 1606
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1607.json - Chapter 1607
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1608.json - Chapter 1608
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1609.json - Chapter 1609
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1610.json - Chapter 1610
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1611.json - Chapter 1611
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1612.json - Chapter 1612
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1613.json - Chapter 1613
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1614.json - Chapter 1614
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1615.json - Chapter 1615
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1616.json - Chapter 1616
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1617.json - Chapter 1617
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 38
+  - Book metadata: 1
+  - Chapters: 37
+  - Hadiths: 0
+================================================================================

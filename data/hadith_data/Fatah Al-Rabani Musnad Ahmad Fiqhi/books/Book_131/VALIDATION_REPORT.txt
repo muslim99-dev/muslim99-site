@@ -1,0 +1,41 @@
+VALIDATION REPORT - Book 131: 
+Generated: 2026-08-15 00:36:50
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1324.json - Chapter 1324
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7281:
+    ✗ english_translation: EMPTY
+
+  Hadith #7282:
+    ✗ english_translation: EMPTY
+
+  Hadith #7283:
+    ✗ english_translation: EMPTY
+
+  Hadith #7284:
+    ✗ english_translation: EMPTY
+
+  Hadith #7285:
+    ✗ english_translation: EMPTY
+
+  Hadith #7286:
+    ✗ english_translation: EMPTY
+
+  Hadith #7287:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 11
+  - Book metadata: 2
+  - Chapters: 9
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,102 @@
+VALIDATION REPORT - Book 46: Gatherings
+Generated: 2026-08-22 06:39:01
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_533.json - Chapter 533
+  ✗ english: EMPTY
+
+  Hadith #1141:
+    ✗ english_translation: EMPTY
+
+  chap_534.json - Chapter 534
+  ✗ english: EMPTY
+
+  Hadith #1142:
+    ✗ english_translation: EMPTY
+
+  chap_535.json - Chapter 535
+  ✗ english: EMPTY
+
+  Hadith #1143:
+    ✗ english_translation: EMPTY
+
+  chap_536.json - Chapter 536
+  ✗ english: EMPTY
+
+  Hadith #1144:
+    ✗ english_translation: EMPTY
+
+  chap_537.json - Chapter 537
+  ✗ english: EMPTY
+
+  Hadith #1145:
+    ✗ english_translation: EMPTY
+
+  chap_538.json - Chapter 538
+  ✗ english: EMPTY
+
+  Hadith #1146:
+    ✗ english_translation: EMPTY
+
+  chap_539.json - Chapter 539
+  ✗ english: EMPTY
+
+  Hadith #1147:
+    ✗ english_translation: EMPTY
+
+  chap_540.json - Chapter 540
+  ✗ english: EMPTY
+
+  Hadith #1148:
+    ✗ english_translation: EMPTY
+
+  Hadith #1149:
+    ✗ english_translation: EMPTY
+
+  chap_541.json - Chapter 541
+  ✗ english: EMPTY
+
+  Hadith #1150:
+    ✗ english_translation: EMPTY
+
+  Hadith #1151:
+    ✗ english_translation: EMPTY
+
+  chap_542.json - Chapter 542
+  ✗ english: EMPTY
+
+  Hadith #1152:
+    ✗ english_translation: EMPTY
+
+  chap_543.json - Chapter 543
+  ✗ english: EMPTY
+
+  Hadith #1153:
+    ✗ english_translation: EMPTY
+
+  chap_544.json - Chapter 544
+  ✗ english: EMPTY
+
+  Hadith #1154:
+    ✗ english_translation: EMPTY
+
+  Hadith #1155:
+    ✗ english_translation: EMPTY
+
+  chap_545.json - Chapter 545
+  ✗ english: EMPTY
+
+  Hadith #1156:
+    ✗ english_translation: EMPTY
+
+  Hadith #1157:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 30
+  - Book metadata: 0
+  - Chapters: 30
+  - Hadiths: 0
+================================================================================

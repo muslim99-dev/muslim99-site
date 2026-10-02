@@ -1,0 +1,36 @@
+VALIDATION REPORT - Book 12: 
+Generated: 2026-08-22 10:27:06
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_116.json - Chapter 116
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #444:
+    ✗ english_translation: EMPTY
+
+  Hadith #445:
+    ✗ english_translation: EMPTY
+
+  Hadith #446:
+    ✗ english_translation: EMPTY
+
+  chap_117.json - Chapter 117
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #447:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 10
+  - Book metadata: 2
+  - Chapters: 8
+  - Hadiths: 0
+================================================================================

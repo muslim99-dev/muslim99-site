@@ -1,0 +1,69 @@
+VALIDATION REPORT - Book 41: The book on faith
+Generated: 2026-08-12 20:04:36
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1459.json - Chapter 1459
+  ✗ arabic: EMPTY
+
+  chap_1650.json - Chapter 1650
+  ✗ arabic: EMPTY
+
+  chap_1651.json - Chapter 1651
+  ✗ arabic: EMPTY
+
+  chap_1652.json - Chapter 1652
+  ✗ arabic: EMPTY
+
+  chap_1653.json - Chapter 1653
+  ✗ arabic: EMPTY
+
+  chap_1654.json - Chapter 1654
+  ✗ arabic: EMPTY
+
+  chap_1655.json - Chapter 1655
+  ✗ arabic: EMPTY
+
+  chap_1656.json - Chapter 1656
+  ✗ arabic: EMPTY
+
+  chap_1657.json - Chapter 1657
+  ✗ arabic: EMPTY
+
+  chap_1658.json - Chapter 1658
+  ✗ arabic: EMPTY
+
+  chap_1659.json - Chapter 1659
+  ✗ arabic: EMPTY
+
+  chap_1660.json - Chapter 1660
+  ✗ arabic: EMPTY
+
+  chap_1661.json - Chapter 1661
+  ✗ arabic: EMPTY
+
+  chap_1662.json - Chapter 1662
+  ✗ arabic: EMPTY
+
+  chap_1663.json - Chapter 1663
+  ✗ arabic: EMPTY
+
+  chap_1664.json - Chapter 1664
+  ✗ arabic: EMPTY
+
+  chap_1665.json - Chapter 1665
+  ✗ arabic: EMPTY
+
+  chap_1666.json - Chapter 1666
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 19
+  - Book metadata: 1
+  - Chapters: 18
+  - Hadiths: 0
+================================================================================

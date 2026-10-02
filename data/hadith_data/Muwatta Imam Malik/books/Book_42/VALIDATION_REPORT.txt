@@ -1,0 +1,26 @@
+VALIDATION REPORT - Book 42: 
+Generated: 2026-08-22 11:02:53
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_497.json - Chapter 497
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1538:
+    ✗ english_translation: EMPTY
+
+  Hadith #1539:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 6
+  - Book metadata: 2
+  - Chapters: 4
+  - Hadiths: 0
+================================================================================

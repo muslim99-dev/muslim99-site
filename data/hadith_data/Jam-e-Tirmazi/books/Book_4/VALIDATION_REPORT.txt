@@ -1,0 +1,78 @@
+VALIDATION REPORT - Book 4: The book on al-witr
+Generated: 2026-08-12 18:30:14
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_330.json - Chapter 330
+  ✗ arabic: EMPTY
+
+  chap_331.json - Chapter 331
+  ✗ arabic: EMPTY
+
+  chap_332.json - Chapter 332
+  ✗ arabic: EMPTY
+
+  chap_333.json - Chapter 333
+  ✗ arabic: EMPTY
+
+  chap_334.json - Chapter 334
+  ✗ arabic: EMPTY
+
+  chap_335.json - Chapter 335
+  ✗ arabic: EMPTY
+
+  chap_336.json - Chapter 336
+  ✗ arabic: EMPTY
+
+  chap_337.json - Chapter 337
+  ✗ arabic: EMPTY
+
+  chap_338.json - Chapter 338
+  ✗ arabic: EMPTY
+
+  chap_339.json - Chapter 339
+  ✗ arabic: EMPTY
+
+  chap_340.json - Chapter 340
+  ✗ arabic: EMPTY
+
+  chap_341.json - Chapter 341
+  ✗ arabic: EMPTY
+
+  chap_342.json - Chapter 342
+  ✗ arabic: EMPTY
+
+  chap_343.json - Chapter 343
+  ✗ arabic: EMPTY
+
+  chap_344.json - Chapter 344
+  ✗ arabic: EMPTY
+
+  chap_345.json - Chapter 345
+  ✗ arabic: EMPTY
+
+  chap_346.json - Chapter 346
+  ✗ arabic: EMPTY
+
+  chap_347.json - Chapter 347
+  ✗ arabic: EMPTY
+
+  chap_348.json - Chapter 348
+  ✗ arabic: EMPTY
+
+  chap_349.json - Chapter 349
+  ✗ arabic: EMPTY
+
+  chap_350.json - Chapter 350
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 22
+  - Book metadata: 1
+  - Chapters: 21
+  - Hadiths: 0
+================================================================================

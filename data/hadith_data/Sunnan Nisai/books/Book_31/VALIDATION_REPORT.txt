@@ -1,0 +1,63 @@
+VALIDATION REPORT - Book 31: The book of wills
+Generated: 2026-08-13 06:28:59
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1763.json - Chapter 1763
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1764.json - Chapter 1764
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1765.json - Chapter 1765
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1766.json - Chapter 1766
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1767.json - Chapter 1767
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1768.json - Chapter 1768
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1769.json - Chapter 1769
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1770.json - Chapter 1770
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1771.json - Chapter 1771
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1772.json - Chapter 1772
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1773.json - Chapter 1773
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1774.json - Chapter 1774
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 25
+  - Book metadata: 1
+  - Chapters: 24
+  - Hadiths: 0
+================================================================================

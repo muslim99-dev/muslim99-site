@@ -1,0 +1,26 @@
+{
+  "number": 255,
+  "arabic": "",
+  "urdu": "طہارت میں داہنے سے شروع کرنے کا بیان۔",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 421,
+      "arabic_text": "أَخْبَرَنَا سُوَيْدُ بْنُ نَصْرٍ، ‏‏‏‏‏‏قال:‏‏‏‏ أَنْبَأَنَا عَبْدُ اللَّهِ، ‏‏‏‏‏‏عَنْ شُعْبَةَ، ‏‏‏‏‏‏عَنْ الْأَشْعَثِ بْنِ أَبِي الشَّعْثَاءِ، ‏‏‏‏‏‏عَنْ أَبِيهِ، ‏‏‏‏‏‏عَنْ مَسْرُوقٍ، ‏‏‏‏‏‏عَنْعَائِشَةَ، ‏‏‏‏‏‏قالت:‏‏‏‏ كَانَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يُحِبُّ التَّيَمُّنَ مَا اسْتَطَاعَ فِي طُهُورِهِ وَتَنَعُّلِهِ وَتَرَجُّلِهِ، ‏‏‏‏‏‏وَقَالَ:‏‏‏‏ بِوَاسِطٍ فِي شَأْنِهِ كُلِّهِ .",
+      "urdu_translation": "نبی اکرم صلی اللہ علیہ وسلم طہارت میں، جوتا پہننے میں، اور کنگھا کرنے میں جہاں تک ہو سکتا تھا داہنے کو پسند فرماتے۔",
+      "english_translation": "It was narrated that 'Aishah said:\n The Prophet (ﷺ) used to like to start with the right as much as he could when purifying himself, putting on sandals and combing his hair  - and he (the narrator) said in Wasit (a place in Iraq):  And in all his affairs.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ام المؤمنین عائشہ رضی اللہ عنہا کہتی ہیں کہ  نبی اکرم صلی اللہ علیہ وسلم طہارت میں، جوتا پہننے میں، اور کنگھا کرنے میں جہاں تک ہو سکتا تھا داہنے کو پسند فرماتے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "421",
+        "arabic_number": "ترقیم  : 421"
+      }
+    }
+  ]
+}

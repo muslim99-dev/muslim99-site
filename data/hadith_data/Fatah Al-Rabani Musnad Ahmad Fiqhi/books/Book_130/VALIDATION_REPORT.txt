@@ -1,0 +1,43 @@
+VALIDATION REPORT - Book 130: 
+Generated: 2026-08-15 00:36:35
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1321.json - Chapter 1321
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7276:
+    ✗ english_translation: EMPTY
+
+  chap_1322.json - Chapter 1322
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7277:
+    ✗ english_translation: EMPTY
+
+  Hadith #7278:
+    ✗ english_translation: EMPTY
+
+  chap_1323.json - Chapter 1323
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7279:
+    ✗ english_translation: EMPTY
+
+  Hadith #7280:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 13
+  - Book metadata: 2
+  - Chapters: 11
+  - Hadiths: 0
+================================================================================

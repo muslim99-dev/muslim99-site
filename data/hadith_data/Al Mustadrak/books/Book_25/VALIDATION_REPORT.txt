@@ -1,0 +1,75 @@
+VALIDATION REPORT - Book 25: 
+Generated: 2026-08-22 07:28:16
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_25.json - Chapter 25
+  ✗ arabic: EMPTY
+  ✗ urdu: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #2841:
+    ✗ english_translation: EMPTY
+
+  Hadith #2842:
+    ✗ english_translation: EMPTY
+
+  Hadith #2843:
+    ✗ english_translation: EMPTY
+
+  Hadith #2844:
+    ✗ english_translation: EMPTY
+
+  Hadith #2845:
+    ✗ english_translation: EMPTY
+
+  Hadith #2846:
+    ✗ english_translation: EMPTY
+
+  Hadith #2847:
+    ✗ english_translation: EMPTY
+
+  Hadith #2848:
+    ✗ english_translation: EMPTY
+
+  Hadith #2849:
+    ✗ english_translation: EMPTY
+
+  Hadith #2850:
+    ✗ english_translation: EMPTY
+
+  Hadith #2851:
+    ✗ english_translation: EMPTY
+
+  Hadith #2852:
+    ✗ english_translation: EMPTY
+
+  Hadith #2853:
+    ✗ english_translation: EMPTY
+
+  Hadith #2854:
+    ✗ english_translation: EMPTY
+
+  Hadith #2855:
+    ✗ english_translation: EMPTY
+
+  Hadith #2856:
+    ✗ english_translation: EMPTY
+
+  Hadith #2857:
+    ✗ english_translation: EMPTY
+
+  Hadith #2858:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 23
+  - Book metadata: 2
+  - Chapters: 21
+  - Hadiths: 0
+================================================================================

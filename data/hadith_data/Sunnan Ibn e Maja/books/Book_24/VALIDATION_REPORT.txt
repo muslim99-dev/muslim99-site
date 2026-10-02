@@ -1,0 +1,51 @@
+VALIDATION REPORT - Book 24: The chapters on wills
+Generated: 2026-08-13 16:58:39
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_956.json - Chapter 956
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_957.json - Chapter 957
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_958.json - Chapter 958
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_959.json - Chapter 959
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_960.json - Chapter 960
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_961.json - Chapter 961
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_962.json - Chapter 962
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_963.json - Chapter 963
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_964.json - Chapter 964
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 19
+  - Book metadata: 1
+  - Chapters: 18
+  - Hadiths: 0
+================================================================================

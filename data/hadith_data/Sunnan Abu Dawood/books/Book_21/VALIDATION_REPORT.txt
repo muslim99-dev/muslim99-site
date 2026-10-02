@@ -1,0 +1,267 @@
+VALIDATION REPORT - Book 21: Funerals (kitab al-jana'iz)
+Generated: 2026-08-13 01:33:24
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_632.json - Chapter 632
+  ✗ arabic: EMPTY
+
+  chap_1090.json - Chapter 1090
+  ✗ arabic: EMPTY
+
+  chap_1091.json - Chapter 1091
+  ✗ arabic: EMPTY
+
+  chap_1092.json - Chapter 1092
+  ✗ arabic: EMPTY
+
+  chap_1093.json - Chapter 1093
+  ✗ arabic: EMPTY
+
+  chap_1094.json - Chapter 1094
+  ✗ arabic: EMPTY
+
+  chap_1095.json - Chapter 1095
+  ✗ arabic: EMPTY
+
+  chap_1096.json - Chapter 1096
+  ✗ arabic: EMPTY
+
+  chap_1097.json - Chapter 1097
+  ✗ arabic: EMPTY
+
+  chap_1098.json - Chapter 1098
+  ✗ arabic: EMPTY
+
+  chap_1099.json - Chapter 1099
+  ✗ arabic: EMPTY
+
+  chap_1100.json - Chapter 1100
+  ✗ arabic: EMPTY
+
+  chap_1101.json - Chapter 1101
+  ✗ arabic: EMPTY
+
+  chap_1102.json - Chapter 1102
+  ✗ arabic: EMPTY
+
+  chap_1103.json - Chapter 1103
+  ✗ arabic: EMPTY
+
+  chap_1104.json - Chapter 1104
+  ✗ arabic: EMPTY
+
+  chap_1105.json - Chapter 1105
+  ✗ arabic: EMPTY
+
+  chap_1106.json - Chapter 1106
+  ✗ arabic: EMPTY
+
+  chap_1107.json - Chapter 1107
+  ✗ arabic: EMPTY
+
+  chap_1108.json - Chapter 1108
+  ✗ arabic: EMPTY
+
+  chap_1109.json - Chapter 1109
+  ✗ arabic: EMPTY
+
+  chap_1110.json - Chapter 1110
+  ✗ arabic: EMPTY
+
+  chap_1111.json - Chapter 1111
+  ✗ arabic: EMPTY
+
+  chap_1112.json - Chapter 1112
+  ✗ arabic: EMPTY
+
+  chap_1113.json - Chapter 1113
+  ✗ arabic: EMPTY
+
+  chap_1114.json - Chapter 1114
+  ✗ arabic: EMPTY
+
+  chap_1115.json - Chapter 1115
+  ✗ arabic: EMPTY
+
+  chap_1116.json - Chapter 1116
+  ✗ arabic: EMPTY
+
+  chap_1117.json - Chapter 1117
+  ✗ arabic: EMPTY
+
+  chap_1118.json - Chapter 1118
+  ✗ arabic: EMPTY
+
+  chap_1119.json - Chapter 1119
+  ✗ arabic: EMPTY
+
+  chap_1120.json - Chapter 1120
+  ✗ arabic: EMPTY
+
+  chap_1121.json - Chapter 1121
+  ✗ arabic: EMPTY
+
+  chap_1122.json - Chapter 1122
+  ✗ arabic: EMPTY
+
+  chap_1123.json - Chapter 1123
+  ✗ arabic: EMPTY
+
+  chap_1124.json - Chapter 1124
+  ✗ arabic: EMPTY
+
+  chap_1125.json - Chapter 1125
+  ✗ arabic: EMPTY
+
+  chap_1126.json - Chapter 1126
+  ✗ arabic: EMPTY
+
+  chap_1127.json - Chapter 1127
+  ✗ arabic: EMPTY
+
+  chap_1128.json - Chapter 1128
+  ✗ arabic: EMPTY
+
+  chap_1129.json - Chapter 1129
+  ✗ arabic: EMPTY
+
+  chap_1130.json - Chapter 1130
+  ✗ arabic: EMPTY
+
+  chap_1131.json - Chapter 1131
+  ✗ arabic: EMPTY
+
+  chap_1132.json - Chapter 1132
+  ✗ arabic: EMPTY
+
+  chap_1133.json - Chapter 1133
+  ✗ arabic: EMPTY
+
+  chap_1134.json - Chapter 1134
+  ✗ arabic: EMPTY
+
+  chap_1135.json - Chapter 1135
+  ✗ arabic: EMPTY
+
+  chap_1136.json - Chapter 1136
+  ✗ arabic: EMPTY
+
+  chap_1137.json - Chapter 1137
+  ✗ arabic: EMPTY
+
+  chap_1138.json - Chapter 1138
+  ✗ arabic: EMPTY
+
+  chap_1139.json - Chapter 1139
+  ✗ arabic: EMPTY
+
+  chap_1140.json - Chapter 1140
+  ✗ arabic: EMPTY
+
+  chap_1141.json - Chapter 1141
+  ✗ arabic: EMPTY
+
+  chap_1142.json - Chapter 1142
+  ✗ arabic: EMPTY
+
+  chap_1143.json - Chapter 1143
+  ✗ arabic: EMPTY
+
+  chap_1144.json - Chapter 1144
+  ✗ arabic: EMPTY
+
+  chap_1145.json - Chapter 1145
+  ✗ arabic: EMPTY
+
+  chap_1146.json - Chapter 1146
+  ✗ arabic: EMPTY
+
+  chap_1147.json - Chapter 1147
+  ✗ arabic: EMPTY
+
+  chap_1148.json - Chapter 1148
+  ✗ arabic: EMPTY
+
+  chap_1149.json - Chapter 1149
+  ✗ arabic: EMPTY
+
+  chap_1150.json - Chapter 1150
+  ✗ arabic: EMPTY
+
+  chap_1151.json - Chapter 1151
+  ✗ arabic: EMPTY
+
+  chap_1152.json - Chapter 1152
+  ✗ arabic: EMPTY
+
+  chap_1153.json - Chapter 1153
+  ✗ arabic: EMPTY
+
+  chap_1154.json - Chapter 1154
+  ✗ arabic: EMPTY
+
+  chap_1155.json - Chapter 1155
+  ✗ arabic: EMPTY
+
+  chap_1156.json - Chapter 1156
+  ✗ arabic: EMPTY
+
+  chap_1157.json - Chapter 1157
+  ✗ arabic: EMPTY
+
+  chap_1158.json - Chapter 1158
+  ✗ arabic: EMPTY
+
+  chap_1159.json - Chapter 1159
+  ✗ arabic: EMPTY
+
+  chap_1160.json - Chapter 1160
+  ✗ arabic: EMPTY
+
+  chap_1161.json - Chapter 1161
+  ✗ arabic: EMPTY
+
+  chap_1162.json - Chapter 1162
+  ✗ arabic: EMPTY
+
+  chap_1163.json - Chapter 1163
+  ✗ arabic: EMPTY
+
+  chap_1164.json - Chapter 1164
+  ✗ arabic: EMPTY
+
+  chap_1165.json - Chapter 1165
+  ✗ arabic: EMPTY
+
+  chap_1166.json - Chapter 1166
+  ✗ arabic: EMPTY
+
+  chap_1167.json - Chapter 1167
+  ✗ arabic: EMPTY
+
+  chap_1168.json - Chapter 1168
+  ✗ arabic: EMPTY
+
+  chap_1169.json - Chapter 1169
+  ✗ arabic: EMPTY
+
+  chap_1170.json - Chapter 1170
+  ✗ arabic: EMPTY
+
+  chap_1171.json - Chapter 1171
+  ✗ arabic: EMPTY
+
+  chap_1172.json - Chapter 1172
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 85
+  - Book metadata: 1
+  - Chapters: 84
+  - Hadiths: 0
+================================================================================

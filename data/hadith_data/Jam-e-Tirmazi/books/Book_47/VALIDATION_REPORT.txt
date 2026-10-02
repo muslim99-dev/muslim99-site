@@ -1,0 +1,58 @@
+VALIDATION REPORT - Book 47: Chapters on recitation
+Generated: 2026-08-12 20:20:04
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1459.json - Chapter 1459
+  ✗ arabic: EMPTY
+
+  chap_1810.json - Chapter 1810
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1811.json - Chapter 1811
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1812.json - Chapter 1812
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1813.json - Chapter 1813
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1814.json - Chapter 1814
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1815.json - Chapter 1815
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1816.json - Chapter 1816
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1817.json - Chapter 1817
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1818.json - Chapter 1818
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1819.json - Chapter 1819
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 22
+  - Book metadata: 1
+  - Chapters: 21
+  - Hadiths: 0
+================================================================================

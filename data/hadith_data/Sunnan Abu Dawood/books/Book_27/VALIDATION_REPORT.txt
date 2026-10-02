@@ -1,0 +1,81 @@
+VALIDATION REPORT - Book 27: Drinks (kitab al-ashribah)
+Generated: 2026-08-13 01:51:57
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1341.json - Chapter 1341
+  ✗ arabic: EMPTY
+
+  chap_1342.json - Chapter 1342
+  ✗ arabic: EMPTY
+
+  chap_1343.json - Chapter 1343
+  ✗ arabic: EMPTY
+
+  chap_1344.json - Chapter 1344
+  ✗ arabic: EMPTY
+
+  chap_1345.json - Chapter 1345
+  ✗ arabic: EMPTY
+
+  chap_1346.json - Chapter 1346
+  ✗ arabic: EMPTY
+
+  chap_1347.json - Chapter 1347
+  ✗ arabic: EMPTY
+
+  chap_1348.json - Chapter 1348
+  ✗ arabic: EMPTY
+
+  chap_1349.json - Chapter 1349
+  ✗ arabic: EMPTY
+
+  chap_1350.json - Chapter 1350
+  ✗ arabic: EMPTY
+
+  chap_1351.json - Chapter 1351
+  ✗ arabic: EMPTY
+
+  chap_1352.json - Chapter 1352
+  ✗ arabic: EMPTY
+
+  chap_1353.json - Chapter 1353
+  ✗ arabic: EMPTY
+
+  chap_1354.json - Chapter 1354
+  ✗ arabic: EMPTY
+
+  chap_1355.json - Chapter 1355
+  ✗ arabic: EMPTY
+
+  chap_1356.json - Chapter 1356
+  ✗ arabic: EMPTY
+
+  chap_1357.json - Chapter 1357
+  ✗ arabic: EMPTY
+
+  chap_1358.json - Chapter 1358
+  ✗ arabic: EMPTY
+
+  chap_1359.json - Chapter 1359
+  ✗ arabic: EMPTY
+
+  chap_1360.json - Chapter 1360
+  ✗ arabic: EMPTY
+
+  chap_1361.json - Chapter 1361
+  ✗ arabic: EMPTY
+
+  chap_1362.json - Chapter 1362
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 23
+  - Book metadata: 1
+  - Chapters: 22
+  - Hadiths: 0
+================================================================================

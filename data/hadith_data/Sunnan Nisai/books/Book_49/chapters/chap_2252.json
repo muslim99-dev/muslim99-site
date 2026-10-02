@@ -1,0 +1,43 @@
+{
+  "number": 2252,
+  "arabic": "",
+  "urdu": "باب: انگوٹھی کس ہاتھ میں پہنی جائے؟ اس باب میں علی و عبداللہ بن جعفر (رضی الله عنہما) کی حدیث کا ذکر۔",
+  "english": "",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 5206,
+      "arabic_text": "أَخْبَرَنَا الرَّبِيعُ بْنُ سُلَيْمَانَ، ‏‏‏‏‏‏قَالَ:‏‏‏‏ حَدَّثَنَا ابْنُ وَهْبٍ، ‏‏‏‏‏‏عَنْ سُلَيْمَانَ هُوَ ابْنُ بِلَالٍ، ‏‏‏‏‏‏عَنْ شَرِيكٍ هُوَ ابْنُ أَبِي نَمِرٍ، ‏‏‏‏‏‏عَنْ إِبْرَاهِيمَ بْنِ عَبْدِ اللَّهِ بْنِ حُنَيْنٍ، ‏‏‏‏‏‏عَنْ أَبِيهِ، ‏‏‏‏‏‏عَنْ عَلِيٍّ، ‏‏‏‏‏‏قَالَ شَرِيكٌ:‏‏‏‏ وَأَخْبَرَنِي أَبُو سَلَمَةَ:‏‏‏‏  أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ يَلْبَسُ خَاتَمَهُ فِي يَمِينِهِ .",
+      "urdu_translation": "نبی اکرم صلی اللہ علیہ وسلم انگوٹھی اپنے داہنے ہاتھ میں پہنتے تھے۔",
+      "english_translation": "Ibn Wahab narrated from Sulaiman - and he is Ibn Bilal - from Sharik - and he is Ibn Abi Namr - from Ibrahim Ibn 'Abdullah bin Hunain, from his father, from 'Ali; Sharik said:\n And Abu Salamah informed me  - That the Prophet [SAW] used to wear his ring on his right hand.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "علی رضی اللہ عنہ سے روایت ہے کہ  نبی اکرم صلی اللہ علیہ وسلم انگوٹھی اپنے داہنے ہاتھ میں پہنتے تھے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "5206",
+        "arabic_number": "ترقیم  : 5206"
+      }
+    },
+    {
+      "hadith_number": 5207,
+      "arabic_text": "أَخْبَرَنَا مُحَمَّدُ بْنُ مَعْمَرٍ الْبَحْرَانِيُّ، ‏‏‏‏‏‏قَالَ:‏‏‏‏ حَدَّثَنَا حَبَّانُ بْنُ هِلَالٍ، ‏‏‏‏‏‏قَالَ:‏‏‏‏ حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، ‏‏‏‏‏‏عَنْ ابْنِ أَبِي رَافِعٍ، ‏‏‏‏‏‏عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ:‏‏‏‏  أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ يَتَخَتَّمُ بِيَمِينِهِ .",
+      "urdu_translation": "نبی اکرم صلی اللہ علیہ وسلم اپنے دائیں ہاتھ میں انگوٹھی پہنتے تھے۔",
+      "english_translation": "It was narrated from 'Abdullah bin Ja'far that:\nThe Prophet [SAW] used to wear his ring on his right hand.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن جعفر رضی اللہ عنہما سے روایت ہے کہ  نبی اکرم صلی اللہ علیہ وسلم اپنے دائیں ہاتھ میں انگوٹھی پہنتے تھے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "5207",
+        "arabic_number": "ترقیم  : 5207"
+      }
+    }
+  ]
+}

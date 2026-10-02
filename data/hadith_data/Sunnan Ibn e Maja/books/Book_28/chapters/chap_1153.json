@@ -1,0 +1,26 @@
+{
+  "number": 1153,
+  "arabic": "",
+  "urdu": "عیدگاہ میں ذبح کرنے کا بیان",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 3161,
+      "arabic_text": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، ‏‏‏‏‏‏حَدَّثَنَا أَبُو بَكْرٍ الْحَنَفِيُّ، ‏‏‏‏‏‏حَدَّثَنَا أُسَامَةُ بْنُ زَيْدٍ، ‏‏‏‏‏‏عَنْ نَافِعٍ، ‏‏‏‏‏‏عَنْ ابْنِ عُمَرَ، ‏‏‏‏‏‏عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:‏‏‏‏  أَنَّهُ كَانَ يَذْبَحُ بِالْمُصَلَّى .",
+      "urdu_translation": "نبی اکرم صلی اللہ علیہ وسلم عید گاہ میں ذبح کرتے تھے۔",
+      "english_translation": "It was narrated from Ibn ‘Umar that the Prophet (ﷺ) used to slaughter at the prayer place (of the ‘Eid congregation).",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن عمر رضی اللہ عنہما کہتے ہیں کہ  نبی اکرم صلی اللہ علیہ وسلم عید گاہ میں ذبح کرتے تھے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "3161",
+        "arabic_number": "ترقیم  : 3161"
+      }
+    }
+  ]
+}

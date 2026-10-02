@@ -1,0 +1,30 @@
+{
+  "number": 3397,
+  "arabic": "بَابُ مِيرَاثِ ابْنَةِ الِابْنِ مَعَ بِنْتٍ",
+  "urdu": "بیٹی کی موجودگی میں پوتی کی میراث",
+  "english": "(9) CHAPTER. The shares of inheritance for the (living) paternal grandfather, the father and brothers of the deceased.",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 6737,
+      "arabic_text": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ ، حَدَّثَنَا وُهَيْبٌ ، عَنْ ابْنِ طَاوُسٍ ، عَنْ أَبِيهِ ، عَنْ ابْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا ، عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ ، قَالَ :    أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا ، فَمَا بَقِيَ فَلِأَوْلَى رَجُلٍ ذَكَرٍ    .",
+      "urdu_translation": "نبی کریم صلی اللہ علیہ وسلم نے فرمایا ”میراث اس کے حقدار تک پہنچا دو اور جو باقی رہ جائے وہ سب سے قریب والے مرد کو دے دو۔“",
+      "english_translation": "Narrated Ibn `Abbas: The Prophet said,   Give the Fara'id, (the shares prescribed in the Qur'an) to those who are entitled to receive it, and then whatever remains, should be given to the closest male relative of the deceased.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: مولانا محمد داؤد راز",
+          "text": "ہم سے سلیمان بن حرب نے بیان کیا، کہا ہم سے وہیب نے بیان کیا، ان سے ابن طاؤس نے، ان سے ان کے والد نے اور ان سے ابن عباس رضی اللہ عنہما نے کہ  نبی کریم صلی اللہ علیہ وسلم نے فرمایا ”میراث اس کے حقدار تک پہنچا دو اور جو باقی رہ جائے وہ سب سے قریب والے مرد کو دے دو۔“"
+        },
+        {
+          "translator": "ترجمہ: شیخ الحدیث حافظ عبد الستار حماد",
+          "text": "حضرت ابن عباس ؓ سے روایت ہے وہ نبی ﷺ سے بیان کرتے ہیں کہ آپ نے فرمایا: ”مقررہ حصے ان کے حقداروں تک پہنچا دو اور جو باقی رہ جائے وہ میت کے سب سے زیادہ قریب والے مرد کے لیے ہے۔“"
+        }
+      ],
+      "reference": {
+        "international_number": "6737",
+        "arabic_number": "ترقیم  : 6737"
+      }
+    }
+  ]
+}

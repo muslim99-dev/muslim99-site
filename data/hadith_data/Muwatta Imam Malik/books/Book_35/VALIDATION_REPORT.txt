@@ -1,0 +1,26 @@
+VALIDATION REPORT - Book 35: 
+Generated: 2026-08-22 10:57:32
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_432.json - Chapter 432
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1401:
+    ✗ english_translation: EMPTY
+
+  Hadith #1402:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 6
+  - Book metadata: 2
+  - Chapters: 4
+  - Hadiths: 0
+================================================================================

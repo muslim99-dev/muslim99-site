@@ -1,0 +1,72 @@
+VALIDATION REPORT - Book 39: Omens
+Generated: 2026-08-22 06:30:34
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_406.json - Chapter 406
+  ✗ english: EMPTY
+
+  Hadith #911:
+    ✗ english_translation: EMPTY
+
+  chap_407.json - Chapter 407
+  ✗ english: EMPTY
+
+  Hadith #912:
+    ✗ english_translation: EMPTY
+
+  Hadith #913:
+    ✗ english_translation: EMPTY
+
+  chap_408.json - Chapter 408
+  ✗ english: EMPTY
+
+  Hadith #914:
+    ✗ english_translation: EMPTY
+
+  chap_409.json - Chapter 409
+  ✗ english: EMPTY
+
+  Hadith #915:
+    ✗ english_translation: EMPTY
+
+  chap_410.json - Chapter 410
+  ✗ english: EMPTY
+
+  Hadith #916:
+    ✗ english_translation: EMPTY
+
+  chap_411.json - Chapter 411
+  ✗ english: EMPTY
+
+  Hadith #917:
+    ✗ english_translation: EMPTY
+
+  Hadith #918:
+    ✗ english_translation: EMPTY
+
+  chap_412.json - Chapter 412
+  ✗ english: EMPTY
+
+  Hadith #919:
+    ✗ english_translation: EMPTY
+
+  chap_413.json - Chapter 413
+  ✗ english: EMPTY
+
+  Hadith #920:
+    ✗ english_translation: EMPTY
+
+  Hadith #921:
+    ✗ english_translation: EMPTY
+
+  Hadith #922:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 20
+  - Book metadata: 0
+  - Chapters: 20
+  - Hadiths: 0
+================================================================================

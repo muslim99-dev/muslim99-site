@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 36: The way of humor (humor and fun) of the messenger of allah (peace and blessings of allah be upon him).
+Generated: 2026-08-17 13:43:40
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_36.json - Chapter 36
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

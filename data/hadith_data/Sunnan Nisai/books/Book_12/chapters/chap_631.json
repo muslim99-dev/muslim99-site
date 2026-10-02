@@ -1,0 +1,43 @@
+{
+  "number": 631,
+  "arabic": "",
+  "urdu": "جب امام رکوع سے سر اٹھائے تو کیا کہے ؟",
+  "english": "",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 1060,
+      "arabic_text": "أَخْبَرَنَا سُوَيْدُ بْنُ نَصْرٍ، ‏‏‏‏‏‏قال:‏‏‏‏ أَنْبَأَنَا عَبْدُ اللَّهِ، ‏‏‏‏‏‏عَنْ مَالِكٍ، ‏‏‏‏‏‏عَنِ ابْنِ شِهَابٍ، ‏‏‏‏‏‏عَنْ سَالِمٍ، ‏‏‏‏‏‏عَنِ ابْنِ عُمَرَ، ‏‏‏‏‏‏أَنّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ إِذَا افْتَتَحَ الصَّلَاةَ رَفَعَ يَدَيْهِ حَذْوَ مَنْكِبَيْهِ وَإِذَا كَبَّرَ لِلرُّكُوعِ وَإِذَا رَفَعَ رَأْسَهُ مِنَ الرُّكُوعِ رَفَعَهُمَا كَذَلِكَ أَيْضًا وَقَالَ سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ رَبَّنَا وَلَكَ الْحَمْدُ وَكَانَ لَا يَفْعَلُ ذَلِكَ فِي السُّجُودِ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم جب نماز شروع کرتے تو اپنے دونوں ہاتھ اپنے کندھوں کے بالمقابل اٹھاتے، اور جب رکوع کے لیے اللہ اکبر کہتے، اور جب رکوع سے اپنا سر اٹھاتے تب بھی اسی طرح اپنے دونوں ہاتھ اٹھاتے، اور «سمع اللہ لمن حمده ربنا ولك الحمد»کہتے، اور سجدے میں رفع یدین نہیں کرتے تھے۔",
+      "english_translation": "It was narrated from Ibn 'Umar that:\nWhen the Messenger of Allah (ﷺ) started to pray, he raised his hands until they were in level with his shoulders, and when he said the takbir before bowing, and when he raised his head from bowing he raised (his hands) likewise, and said:  Sami Allahu liman hamidah Rabbana wa lakal-hamd (Allah hears the one who praises Him; Our Lord, and to You be praise),  and he did not do that when prostrating.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن عمر رضی اللہ عنہم سے روایت ہے کہ  رسول اللہ صلی اللہ علیہ وسلم جب نماز شروع کرتے تو اپنے دونوں ہاتھ اپنے کندھوں کے بالمقابل اٹھاتے، اور جب رکوع کے لیے اللہ اکبر کہتے، اور جب رکوع سے اپنا سر اٹھاتے تب بھی اسی طرح اپنے دونوں ہاتھ اٹھاتے، اور «سمع اللہ لمن حمده ربنا ولك الحمد»کہتے، اور سجدے میں رفع یدین نہیں کرتے تھے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "1060",
+        "arabic_number": "ترقیم  : 1060"
+      }
+    },
+    {
+      "hadith_number": 1061,
+      "arabic_text": "أَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، ‏‏‏‏‏‏قال:‏‏‏‏ حَدَّثَنَا عَبْدُ الرَّزَّاقِ، ‏‏‏‏‏‏قال:‏‏‏‏ حَدَّثَنَا مَعْمَرٌ، ‏‏‏‏‏‏عَنِ الزُّهْرِيِّ، ‏‏‏‏‏‏عَنْ أَبِي سَلَمَةَ، ‏‏‏‏‏‏عَنْ أَبِي هُرَيْرَةَ، ‏‏‏‏‏‏قال:‏‏‏‏ كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِذَا رَفَعَ رَأْسَهُ مِنَ الرُّكُوعِ قَالَ:‏‏‏‏  اللَّهُمَّ رَبَّنَا وَلَكَ الْحَمْدُ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم جب رکوع سے اپنا سر اٹھاتے تو «اللہم ربنا ولك الحمد» کہتے۔",
+      "english_translation": "It was narrated that Abu Hurairah said:\n When the Prophet (ﷺ) raised his head from bowing, he said: 'Allahumma Rabbana wa lakal-hamd (O Allah, our Lord and to You be the praise).'",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ابوہریرہ رضی اللہ عنہ کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم جب رکوع سے اپنا سر اٹھاتے تو «اللہم ربنا ولك الحمد» کہتے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "1061",
+        "arabic_number": "ترقیم  : 1061"
+      }
+    }
+  ]
+}

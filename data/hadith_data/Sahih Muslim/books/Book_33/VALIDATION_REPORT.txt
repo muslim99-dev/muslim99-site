@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 33: The book of lost property
+Generated: 2026-08-12 15:26:32
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_785.json - Chapter 785
+  ✗ english: EMPTY
+
+  chap_787.json - Chapter 787
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 0
+  - Chapters: 2
+  - Hadiths: 0
+================================================================================

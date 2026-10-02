@@ -1,0 +1,76 @@
+VALIDATION REPORT - Book 92: 
+Generated: 2026-08-14 19:43:33
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1036.json - Chapter 1036
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6059:
+    ✗ english_translation: EMPTY
+
+  Hadith #6060:
+    ✗ english_translation: EMPTY
+
+  Hadith #6061:
+    ✗ english_translation: EMPTY
+
+  Hadith #6062:
+    ✗ english_translation: EMPTY
+
+  Hadith #6063:
+    ✗ english_translation: EMPTY
+
+  chap_1037.json - Chapter 1037
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6064:
+    ✗ english_translation: EMPTY
+
+  Hadith #6065:
+    ✗ english_translation: EMPTY
+
+  chap_1038.json - Chapter 1038
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6066:
+    ✗ english_translation: EMPTY
+
+  Hadith #6067:
+    ✗ english_translation: EMPTY
+
+  chap_1039.json - Chapter 1039
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6068:
+    ✗ english_translation: EMPTY
+
+  chap_1040.json - Chapter 1040
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6069:
+    ✗ english_translation: EMPTY
+
+  chap_1041.json - Chapter 1041
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6070:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 26
+  - Book metadata: 2
+  - Chapters: 24
+  - Hadiths: 0
+================================================================================

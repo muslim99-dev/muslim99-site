@@ -1,0 +1,45 @@
+VALIDATION REPORT - Book 43: 
+Generated: 2026-08-14 06:35:56
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_416.json - Chapter 416
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #2409:
+    ✗ english_translation: EMPTY
+
+  Hadith #2410:
+    ✗ english_translation: EMPTY
+
+  Hadith #2411:
+    ✗ english_translation: EMPTY
+
+  chap_417.json - Chapter 417
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #2412:
+    ✗ english_translation: EMPTY
+
+  Hadith #2413:
+    ✗ english_translation: EMPTY
+
+  Hadith #2414:
+    ✗ english_translation: EMPTY
+
+  Hadith #2415:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 13
+  - Book metadata: 2
+  - Chapters: 11
+  - Hadiths: 0
+================================================================================

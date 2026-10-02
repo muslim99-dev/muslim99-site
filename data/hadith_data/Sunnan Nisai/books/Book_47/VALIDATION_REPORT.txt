@@ -1,0 +1,92 @@
+VALIDATION REPORT - Book 47: The book of cutting off the hand of the thief
+Generated: 2026-08-13 07:16:04
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_2152.json - Chapter 2152
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2153.json - Chapter 2153
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2154.json - Chapter 2154
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2155.json - Chapter 2155
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2156.json - Chapter 2156
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2157.json - Chapter 2157
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2158.json - Chapter 2158
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2159.json - Chapter 2159
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2160.json - Chapter 2160
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2161.json - Chapter 2161
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2162.json - Chapter 2162
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2163.json - Chapter 2163
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2164.json - Chapter 2164
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2165.json - Chapter 2165
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2166.json - Chapter 2166
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2167.json - Chapter 2167
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2168.json - Chapter 2168
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2169.json - Chapter 2169
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2170.json - Chapter 2170
+  ✗ arabic: EMPTY
+  ✗ urdu: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 40
+  - Book metadata: 1
+  - Chapters: 39
+  - Hadiths: 0
+================================================================================

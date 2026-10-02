@@ -1,0 +1,51 @@
+{
+  "number": 282,
+  "arabic": "",
+  "urdu": "باب: ناک اور پیشانی پر سجدہ کرنے کا بیان ۔",
+  "english": "CHAPTER: Prostrating On The Nose And Forehead.",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 894,
+      "arabic_text": "حَدَّثَنَا ابْنُ الْمُثَنَّى، ‏‏‏‏‏‏حَدَّثَنَا صَفْوَانُ بْنُ عِيسَى، ‏‏‏‏‏‏حَدَّثَنَا مَعْمَرٌ، ‏‏‏‏‏‏عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، ‏‏‏‏‏‏عَنْ أَبِي سَلَمَةَ، ‏‏‏‏‏‏عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، ‏‏‏‏‏‏أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ  رُئِيَ عَلَى جَبْهَتِهِ وَعَلَى أَرْنَبَتِهِ أَثَرُ طِينٍ مِنْ صَلَاةٍ صَلَّاهَا بِالنَّاسِ  .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم کی پیشانی اور ناک پر  ( شب قدر میں )  اس نماز کی وجہ سے جو آپ نے لوگوں کو پڑھائی، مٹی کا اثر دیکھا گیا۔",
+      "english_translation": "Abu saeed al-Khudri said: The mark of earth was seen on the forehead and nose of the Messenger of Allah صلی ‌اللہ ‌علیہ ‌وسلم due to the prayer in which he led the people.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ابو سعید خدری رضی اللہ عنہ کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم کی پیشانی اور ناک پر  ( شب قدر میں )  اس نماز کی وجہ سے جو آپ نے لوگوں کو پڑھائی، مٹی کا اثر دیکھا گیا۔"
+        },
+        {
+          "translator": "ترجمہ: ابو عمار عمر فاروق سعیدی",
+          "text": "سیدنا ابو سعید خدری ؓ کا بیان ہے کہ رسول اللہ ﷺ نے لوگوں کو ایک نماز پڑھائی تو اس میں دیکھا گیا کہ آپ ﷺ کی پیشانی اور ناک کے بانسے پر کیچڑ کا نشان تھا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "894",
+        "arabic_number": "ترقیم  : 894"
+      }
+    },
+    {
+      "hadith_number": 895,
+      "arabic_text": "حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى، ‏‏‏‏‏‏حَدَّثَنَا عَبْدُ الرَّزَّاقِ، ‏‏‏‏‏‏عَنْ مَعْمَرٍ، ‏‏‏‏‏‏نَحْوَهُ.",
+      "urdu_translation": "اسی طرح کی روایت آئی ہے۔",
+      "english_translation": "The above mentioned tradition has also been transmitted by Mamar through a different chain of narrators to the same effect.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "اس سند سے بھی معمر سے  اسی طرح کی روایت آئی ہے۔"
+        },
+        {
+          "translator": "ترجمہ: ابو عمار عمر فاروق سعیدی",
+          "text": "محمد بن یحییٰ بواسطہ عبدالرزاق، معمر سے اسی کی مانند روایت کرتے ہیں۔"
+        }
+      ],
+      "reference": {
+        "international_number": "895",
+        "arabic_number": "ترقیم  : 895"
+      }
+    }
+  ]
+}

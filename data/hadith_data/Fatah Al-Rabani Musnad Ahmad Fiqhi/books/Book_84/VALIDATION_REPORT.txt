@@ -1,0 +1,103 @@
+VALIDATION REPORT - Book 84: 
+Generated: 2026-08-14 08:04:38
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_937.json - Chapter 937
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #5397:
+    ✗ english_translation: EMPTY
+
+  Hadith #5398:
+    ✗ english_translation: EMPTY
+
+  Hadith #5399:
+    ✗ english_translation: EMPTY
+
+  Hadith #5400:
+    ✗ english_translation: EMPTY
+
+  Hadith #5401:
+    ✗ english_translation: EMPTY
+
+  Hadith #5402:
+    ✗ english_translation: EMPTY
+
+  Hadith #5403:
+    ✗ english_translation: EMPTY
+
+  Hadith #5404:
+    ✗ english_translation: EMPTY
+
+  Hadith #5405:
+    ✗ english_translation: EMPTY
+
+  Hadith #5406:
+    ✗ english_translation: EMPTY
+
+  Hadith #5407:
+    ✗ english_translation: EMPTY
+
+  Hadith #5408:
+    ✗ english_translation: EMPTY
+
+  Hadith #5409:
+    ✗ english_translation: EMPTY
+
+  Hadith #5410:
+    ✗ english_translation: EMPTY
+
+  Hadith #5411:
+    ✗ english_translation: EMPTY
+
+  Hadith #5412:
+    ✗ english_translation: EMPTY
+
+  Hadith #5413:
+    ✗ english_translation: EMPTY
+
+  Hadith #5414:
+    ✗ english_translation: EMPTY
+
+  chap_938.json - Chapter 938
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #5415:
+    ✗ english_translation: EMPTY
+
+  Hadith #5416:
+    ✗ english_translation: EMPTY
+
+  Hadith #5417:
+    ✗ english_translation: EMPTY
+
+  chap_939.json - Chapter 939
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #5418:
+    ✗ english_translation: EMPTY
+
+  Hadith #5419:
+    ✗ english_translation: EMPTY
+
+  Hadith #5420:
+    ✗ english_translation: EMPTY
+
+  Hadith #5421:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 33
+  - Book metadata: 2
+  - Chapters: 31
+  - Hadiths: 0
+================================================================================

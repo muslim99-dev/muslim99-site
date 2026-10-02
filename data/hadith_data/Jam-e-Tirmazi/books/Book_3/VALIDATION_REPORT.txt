@@ -1,0 +1,141 @@
+VALIDATION REPORT - Book 3: The book on salat (prayer)
+Generated: 2026-08-12 18:28:39
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_288.json - Chapter 288
+  ✗ arabic: EMPTY
+
+  chap_289.json - Chapter 289
+  ✗ arabic: EMPTY
+
+  chap_290.json - Chapter 290
+  ✗ arabic: EMPTY
+
+  chap_291.json - Chapter 291
+  ✗ arabic: EMPTY
+
+  chap_292.json - Chapter 292
+  ✗ arabic: EMPTY
+
+  chap_293.json - Chapter 293
+  ✗ arabic: EMPTY
+
+  chap_294.json - Chapter 294
+  ✗ arabic: EMPTY
+
+  chap_295.json - Chapter 295
+  ✗ arabic: EMPTY
+
+  chap_296.json - Chapter 296
+  ✗ arabic: EMPTY
+
+  chap_297.json - Chapter 297
+  ✗ arabic: EMPTY
+
+  chap_298.json - Chapter 298
+  ✗ arabic: EMPTY
+
+  chap_299.json - Chapter 299
+  ✗ arabic: EMPTY
+
+  chap_300.json - Chapter 300
+  ✗ arabic: EMPTY
+
+  chap_301.json - Chapter 301
+  ✗ arabic: EMPTY
+
+  chap_302.json - Chapter 302
+  ✗ arabic: EMPTY
+
+  chap_303.json - Chapter 303
+  ✗ arabic: EMPTY
+
+  chap_304.json - Chapter 304
+  ✗ arabic: EMPTY
+
+  chap_305.json - Chapter 305
+  ✗ arabic: EMPTY
+
+  chap_306.json - Chapter 306
+  ✗ arabic: EMPTY
+
+  chap_307.json - Chapter 307
+  ✗ arabic: EMPTY
+
+  chap_308.json - Chapter 308
+  ✗ arabic: EMPTY
+
+  chap_309.json - Chapter 309
+  ✗ arabic: EMPTY
+
+  chap_310.json - Chapter 310
+  ✗ arabic: EMPTY
+
+  chap_311.json - Chapter 311
+  ✗ arabic: EMPTY
+
+  chap_312.json - Chapter 312
+  ✗ arabic: EMPTY
+
+  chap_313.json - Chapter 313
+  ✗ arabic: EMPTY
+
+  chap_314.json - Chapter 314
+  ✗ arabic: EMPTY
+
+  chap_315.json - Chapter 315
+  ✗ arabic: EMPTY
+
+  chap_316.json - Chapter 316
+  ✗ arabic: EMPTY
+
+  chap_317.json - Chapter 317
+  ✗ arabic: EMPTY
+
+  chap_318.json - Chapter 318
+  ✗ arabic: EMPTY
+
+  chap_319.json - Chapter 319
+  ✗ arabic: EMPTY
+
+  chap_320.json - Chapter 320
+  ✗ arabic: EMPTY
+
+  chap_321.json - Chapter 321
+  ✗ arabic: EMPTY
+
+  chap_322.json - Chapter 322
+  ✗ arabic: EMPTY
+
+  chap_323.json - Chapter 323
+  ✗ arabic: EMPTY
+
+  chap_324.json - Chapter 324
+  ✗ arabic: EMPTY
+
+  chap_325.json - Chapter 325
+  ✗ arabic: EMPTY
+
+  chap_326.json - Chapter 326
+  ✗ arabic: EMPTY
+
+  chap_327.json - Chapter 327
+  ✗ arabic: EMPTY
+
+  chap_328.json - Chapter 328
+  ✗ arabic: EMPTY
+
+  chap_329.json - Chapter 329
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 43
+  - Book metadata: 1
+  - Chapters: 42
+  - Hadiths: 0
+================================================================================

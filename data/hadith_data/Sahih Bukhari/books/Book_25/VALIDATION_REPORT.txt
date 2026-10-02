@@ -1,0 +1,22 @@
+VALIDATION REPORT - Book 25: The book of zakat.
+Generated: 2026-08-12 02:22:08
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_882.json - Chapter 882
+
+  Hadith #1428:
+    ✗ english_translation: EMPTY
+
+  chap_916.json - Chapter 916
+
+  Hadith #1482:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 0
+  - Chapters: 2
+  - Hadiths: 0
+================================================================================

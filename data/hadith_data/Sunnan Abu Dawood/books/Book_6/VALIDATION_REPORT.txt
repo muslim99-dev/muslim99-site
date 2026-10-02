@@ -1,0 +1,45 @@
+VALIDATION REPORT - Book 6: Prayer (kitab al-salat): detailed injunctions about ramadan
+Generated: 2026-08-13 00:22:07
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_438.json - Chapter 438
+  ✗ arabic: EMPTY
+
+  chap_439.json - Chapter 439
+  ✗ arabic: EMPTY
+
+  chap_440.json - Chapter 440
+  ✗ arabic: EMPTY
+
+  chap_441.json - Chapter 441
+  ✗ arabic: EMPTY
+
+  chap_442.json - Chapter 442
+  ✗ arabic: EMPTY
+
+  chap_443.json - Chapter 443
+  ✗ arabic: EMPTY
+
+  chap_444.json - Chapter 444
+  ✗ arabic: EMPTY
+
+  chap_445.json - Chapter 445
+  ✗ arabic: EMPTY
+
+  chap_446.json - Chapter 446
+  ✗ arabic: EMPTY
+
+  chap_447.json - Chapter 447
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 11
+  - Book metadata: 1
+  - Chapters: 10
+  - Hadiths: 0
+================================================================================

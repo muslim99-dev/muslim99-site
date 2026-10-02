@@ -1,0 +1,26 @@
+{
+  "number": 2310,
+  "arabic": "",
+  "urdu": "باب: ایک کپڑے میں لپیٹ کر بیٹھنے کی ممانعت کا بیان۔",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 5344,
+      "arabic_text": "حَدَّثَنَا قُتَيْبَةُ، ‏‏‏‏‏‏قَالَ:‏‏‏‏ حَدَّثَنَا اللَّيْثُ، ‏‏‏‏‏‏عَنْ أَبِي الزُّبَيْرِ، ‏‏‏‏‏‏عَنْ جَابِرٍ:‏‏‏‏ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:‏‏‏‏  نَهَى عَنِ اشْتِمَالِ الصَّمَّاءِ، ‏‏‏‏‏‏وَأَنْ يَحْتَبِيَ فِي ثَوْبٍ وَاحِدٍ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے پورے بدن پر کپڑا لپیٹ لینے اور ایک ہی کپڑے میں لپیٹ کر بیٹھنے سے منع فرمایا۔",
+      "english_translation": "It was narrated from Jabir that:\n The Messenger of Allah [SAW] forbade Ishtimal As-Samma' and wrapping oneself in a single garment (that did not cover the private parts).",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "جابر رضی اللہ عنہ سے روایت ہے کہ  رسول اللہ صلی اللہ علیہ وسلم نے پورے بدن پر کپڑا لپیٹ لینے اور ایک ہی کپڑے میں لپیٹ کر بیٹھنے سے منع فرمایا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "5344",
+        "arabic_number": "ترقیم  : 5344"
+      }
+    }
+  ]
+}

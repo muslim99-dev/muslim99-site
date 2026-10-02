@@ -1,0 +1,19 @@
+VALIDATION REPORT - Book 18: The book of the fear prayer
+Generated: 2026-08-13 05:05:46
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_851.json - Chapter 851
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 3
+  - Book metadata: 1
+  - Chapters: 2
+  - Hadiths: 0
+================================================================================

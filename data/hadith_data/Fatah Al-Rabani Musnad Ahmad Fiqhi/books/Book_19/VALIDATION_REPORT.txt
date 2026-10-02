@@ -1,0 +1,103 @@
+VALIDATION REPORT - Book 19: 
+Generated: 2026-08-14 05:54:50
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_186.json - Chapter 186
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #981:
+    ✗ english_translation: EMPTY
+
+  Hadith #982:
+    ✗ english_translation: EMPTY
+
+  Hadith #983:
+    ✗ english_translation: EMPTY
+
+  Hadith #984:
+    ✗ english_translation: EMPTY
+
+  Hadith #985:
+    ✗ english_translation: EMPTY
+
+  Hadith #986:
+    ✗ english_translation: EMPTY
+
+  Hadith #987:
+    ✗ english_translation: EMPTY
+
+  chap_187.json - Chapter 187
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #988:
+    ✗ english_translation: EMPTY
+
+  Hadith #989:
+    ✗ english_translation: EMPTY
+
+  Hadith #990:
+    ✗ english_translation: EMPTY
+
+  Hadith #991:
+    ✗ english_translation: EMPTY
+
+  Hadith #992:
+    ✗ english_translation: EMPTY
+
+  Hadith #993:
+    ✗ english_translation: EMPTY
+
+  chap_188.json - Chapter 188
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #994:
+    ✗ english_translation: EMPTY
+
+  Hadith #995:
+    ✗ english_translation: EMPTY
+
+  Hadith #996:
+    ✗ english_translation: EMPTY
+
+  chap_189.json - Chapter 189
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #997:
+    ✗ english_translation: EMPTY
+
+  Hadith #998:
+    ✗ english_translation: EMPTY
+
+  chap_190.json - Chapter 190
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #999:
+    ✗ english_translation: EMPTY
+
+  Hadith #1000:
+    ✗ english_translation: EMPTY
+
+  chap_191.json - Chapter 191
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1001:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 35
+  - Book metadata: 2
+  - Chapters: 33
+  - Hadiths: 0
+================================================================================

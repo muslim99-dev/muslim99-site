@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 50: Narration of the crucifixion of the messenger of allah (peace and blessings of allah be upon him).
+Generated: 2026-08-17 13:47:27
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_50.json - Chapter 50
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

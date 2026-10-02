@@ -1,0 +1,96 @@
+VALIDATION REPORT - Book 53: Circumcision
+Generated: 2026-08-22 06:43:03
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_595.json - Chapter 595
+  ✗ english: EMPTY
+
+  Hadith #1250:
+    ✗ english_translation: EMPTY
+
+  chap_596.json - Chapter 596
+  ✗ english: EMPTY
+
+  Hadith #1251:
+    ✗ english_translation: EMPTY
+
+  chap_597.json - Chapter 597
+  ✗ english: EMPTY
+
+  Hadith #1252:
+    ✗ english_translation: EMPTY
+
+  chap_598.json - Chapter 598
+  ✗ english: EMPTY
+
+  Hadith #1253:
+    ✗ english_translation: EMPTY
+
+  chap_599.json - Chapter 599
+  ✗ english: EMPTY
+
+  Hadith #1254:
+    ✗ english_translation: EMPTY
+
+  chap_600.json - Chapter 600
+  ✗ english: EMPTY
+
+  Hadith #1255:
+    ✗ english_translation: EMPTY
+
+  chap_601.json - Chapter 601
+  ✗ english: EMPTY
+
+  Hadith #1256:
+    ✗ english_translation: EMPTY
+
+  Hadith #1257:
+    ✗ english_translation: EMPTY
+
+  Hadith #1258:
+    ✗ english_translation: EMPTY
+
+  chap_602.json - Chapter 602
+  ✗ english: EMPTY
+
+  Hadith #1259:
+    ✗ english_translation: EMPTY
+
+  chap_603.json - Chapter 603
+  ✗ english: EMPTY
+
+  Hadith #1260:
+    ✗ english_translation: EMPTY
+
+  chap_604.json - Chapter 604
+  ✗ english: EMPTY
+
+  Hadith #1261:
+    ✗ english_translation: EMPTY
+
+  chap_605.json - Chapter 605
+  ✗ english: EMPTY
+
+  Hadith #1262:
+    ✗ english_translation: EMPTY
+
+  chap_606.json - Chapter 606
+  ✗ english: EMPTY
+
+  Hadith #1263:
+    ✗ english_translation: EMPTY
+
+  chap_607.json - Chapter 607
+  ✗ english: EMPTY
+
+  Hadith #1264:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 28
+  - Book metadata: 0
+  - Chapters: 28
+  - Hadiths: 0
+================================================================================

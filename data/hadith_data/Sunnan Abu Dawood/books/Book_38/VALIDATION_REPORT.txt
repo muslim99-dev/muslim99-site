@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 38: The promised deliverer (kitab al-mahdi)
+Generated: 2026-08-13 02:12:28
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_540.json - Chapter 540
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

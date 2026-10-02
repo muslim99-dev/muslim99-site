@@ -1,0 +1,243 @@
+VALIDATION REPORT - Book 15: The chapters on judgements from the messenger of allah
+Generated: 2026-08-12 19:10:00
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_317.json - Chapter 317
+  ✗ arabic: EMPTY
+
+  chap_824.json - Chapter 824
+  ✗ arabic: EMPTY
+
+  chap_825.json - Chapter 825
+  ✗ arabic: EMPTY
+
+  chap_826.json - Chapter 826
+  ✗ arabic: EMPTY
+
+  chap_827.json - Chapter 827
+  ✗ arabic: EMPTY
+
+  chap_828.json - Chapter 828
+  ✗ arabic: EMPTY
+
+  chap_829.json - Chapter 829
+  ✗ arabic: EMPTY
+
+  chap_830.json - Chapter 830
+  ✗ arabic: EMPTY
+
+  chap_831.json - Chapter 831
+  ✗ arabic: EMPTY
+
+  chap_832.json - Chapter 832
+  ✗ arabic: EMPTY
+
+  chap_833.json - Chapter 833
+  ✗ arabic: EMPTY
+
+  chap_834.json - Chapter 834
+  ✗ arabic: EMPTY
+
+  chap_835.json - Chapter 835
+  ✗ arabic: EMPTY
+
+  chap_836.json - Chapter 836
+  ✗ arabic: EMPTY
+
+  chap_837.json - Chapter 837
+  ✗ arabic: EMPTY
+
+  chap_838.json - Chapter 838
+  ✗ arabic: EMPTY
+
+  chap_839.json - Chapter 839
+  ✗ arabic: EMPTY
+
+  chap_840.json - Chapter 840
+  ✗ arabic: EMPTY
+
+  chap_841.json - Chapter 841
+  ✗ arabic: EMPTY
+
+  chap_842.json - Chapter 842
+  ✗ arabic: EMPTY
+
+  chap_843.json - Chapter 843
+  ✗ arabic: EMPTY
+
+  chap_844.json - Chapter 844
+  ✗ arabic: EMPTY
+
+  chap_845.json - Chapter 845
+  ✗ arabic: EMPTY
+
+  chap_846.json - Chapter 846
+  ✗ arabic: EMPTY
+
+  chap_847.json - Chapter 847
+  ✗ arabic: EMPTY
+
+  chap_848.json - Chapter 848
+  ✗ arabic: EMPTY
+
+  chap_849.json - Chapter 849
+  ✗ arabic: EMPTY
+
+  chap_850.json - Chapter 850
+  ✗ arabic: EMPTY
+
+  chap_851.json - Chapter 851
+  ✗ arabic: EMPTY
+
+  chap_852.json - Chapter 852
+  ✗ arabic: EMPTY
+
+  chap_853.json - Chapter 853
+  ✗ arabic: EMPTY
+
+  chap_854.json - Chapter 854
+  ✗ arabic: EMPTY
+
+  chap_855.json - Chapter 855
+  ✗ arabic: EMPTY
+
+  chap_856.json - Chapter 856
+  ✗ arabic: EMPTY
+
+  chap_857.json - Chapter 857
+  ✗ arabic: EMPTY
+
+  chap_858.json - Chapter 858
+  ✗ arabic: EMPTY
+
+  chap_859.json - Chapter 859
+  ✗ arabic: EMPTY
+
+  chap_860.json - Chapter 860
+  ✗ arabic: EMPTY
+
+  chap_861.json - Chapter 861
+  ✗ arabic: EMPTY
+
+  chap_862.json - Chapter 862
+  ✗ arabic: EMPTY
+
+  chap_863.json - Chapter 863
+  ✗ arabic: EMPTY
+
+  chap_864.json - Chapter 864
+  ✗ arabic: EMPTY
+
+  chap_865.json - Chapter 865
+  ✗ arabic: EMPTY
+
+  chap_866.json - Chapter 866
+  ✗ arabic: EMPTY
+
+  chap_867.json - Chapter 867
+  ✗ arabic: EMPTY
+
+  chap_868.json - Chapter 868
+  ✗ arabic: EMPTY
+
+  chap_869.json - Chapter 869
+  ✗ arabic: EMPTY
+
+  chap_870.json - Chapter 870
+  ✗ arabic: EMPTY
+
+  chap_871.json - Chapter 871
+  ✗ arabic: EMPTY
+
+  chap_872.json - Chapter 872
+  ✗ arabic: EMPTY
+
+  chap_873.json - Chapter 873
+  ✗ arabic: EMPTY
+
+  chap_874.json - Chapter 874
+  ✗ arabic: EMPTY
+
+  chap_875.json - Chapter 875
+  ✗ arabic: EMPTY
+
+  chap_876.json - Chapter 876
+  ✗ arabic: EMPTY
+
+  chap_877.json - Chapter 877
+  ✗ arabic: EMPTY
+
+  chap_878.json - Chapter 878
+  ✗ arabic: EMPTY
+
+  chap_879.json - Chapter 879
+  ✗ arabic: EMPTY
+
+  chap_880.json - Chapter 880
+  ✗ arabic: EMPTY
+
+  chap_881.json - Chapter 881
+  ✗ arabic: EMPTY
+
+  chap_882.json - Chapter 882
+  ✗ arabic: EMPTY
+
+  chap_883.json - Chapter 883
+  ✗ arabic: EMPTY
+
+  chap_884.json - Chapter 884
+  ✗ arabic: EMPTY
+
+  chap_885.json - Chapter 885
+  ✗ arabic: EMPTY
+
+  chap_886.json - Chapter 886
+  ✗ arabic: EMPTY
+
+  chap_887.json - Chapter 887
+  ✗ arabic: EMPTY
+
+  chap_888.json - Chapter 888
+  ✗ arabic: EMPTY
+
+  chap_889.json - Chapter 889
+  ✗ arabic: EMPTY
+
+  chap_890.json - Chapter 890
+  ✗ arabic: EMPTY
+
+  chap_891.json - Chapter 891
+  ✗ arabic: EMPTY
+
+  chap_892.json - Chapter 892
+  ✗ arabic: EMPTY
+
+  chap_893.json - Chapter 893
+  ✗ arabic: EMPTY
+
+  chap_894.json - Chapter 894
+  ✗ arabic: EMPTY
+
+  chap_895.json - Chapter 895
+  ✗ arabic: EMPTY
+
+  chap_896.json - Chapter 896
+  ✗ arabic: EMPTY
+
+  chap_897.json - Chapter 897
+  ✗ arabic: EMPTY
+
+  chap_898.json - Chapter 898
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 77
+  - Book metadata: 1
+  - Chapters: 76
+  - Hadiths: 0
+================================================================================

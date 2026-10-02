@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 5: The book of prayers
+Generated: 2026-08-12 13:46:50
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_208.json - Chapter 208
+  ✗ english: EMPTY
+
+  chap_238.json - Chapter 238
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 0
+  - Chapters: 2
+  - Hadiths: 0
+================================================================================

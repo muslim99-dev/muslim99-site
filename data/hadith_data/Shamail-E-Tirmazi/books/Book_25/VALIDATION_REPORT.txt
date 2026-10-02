@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 25: Kabayan of the bread of the messenger of allah
+Generated: 2026-08-17 13:40:54
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_25.json - Chapter 25
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

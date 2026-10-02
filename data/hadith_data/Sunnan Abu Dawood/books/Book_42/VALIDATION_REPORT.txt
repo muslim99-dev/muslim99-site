@@ -1,0 +1,111 @@
+VALIDATION REPORT - Book 42: Model behavior of the prophet (kitab al-sunnah)
+Generated: 2026-08-13 02:28:35
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1632.json - Chapter 1632
+  ✗ arabic: EMPTY
+
+  chap_1633.json - Chapter 1633
+  ✗ arabic: EMPTY
+
+  chap_1634.json - Chapter 1634
+  ✗ arabic: EMPTY
+
+  chap_1635.json - Chapter 1635
+  ✗ arabic: EMPTY
+
+  chap_1636.json - Chapter 1636
+  ✗ arabic: EMPTY
+
+  chap_1637.json - Chapter 1637
+  ✗ arabic: EMPTY
+
+  chap_1638.json - Chapter 1638
+  ✗ arabic: EMPTY
+
+  chap_1639.json - Chapter 1639
+  ✗ arabic: EMPTY
+
+  chap_1640.json - Chapter 1640
+  ✗ arabic: EMPTY
+
+  chap_1641.json - Chapter 1641
+  ✗ arabic: EMPTY
+
+  chap_1642.json - Chapter 1642
+  ✗ arabic: EMPTY
+
+  chap_1643.json - Chapter 1643
+  ✗ arabic: EMPTY
+
+  chap_1644.json - Chapter 1644
+  ✗ arabic: EMPTY
+
+  chap_1645.json - Chapter 1645
+  ✗ arabic: EMPTY
+
+  chap_1646.json - Chapter 1646
+  ✗ arabic: EMPTY
+
+  chap_1647.json - Chapter 1647
+  ✗ arabic: EMPTY
+
+  chap_1648.json - Chapter 1648
+  ✗ arabic: EMPTY
+
+  chap_1649.json - Chapter 1649
+  ✗ arabic: EMPTY
+
+  chap_1650.json - Chapter 1650
+  ✗ arabic: EMPTY
+
+  chap_1651.json - Chapter 1651
+  ✗ arabic: EMPTY
+
+  chap_1652.json - Chapter 1652
+  ✗ arabic: EMPTY
+
+  chap_1653.json - Chapter 1653
+  ✗ arabic: EMPTY
+
+  chap_1654.json - Chapter 1654
+  ✗ arabic: EMPTY
+
+  chap_1655.json - Chapter 1655
+  ✗ arabic: EMPTY
+
+  chap_1656.json - Chapter 1656
+  ✗ arabic: EMPTY
+
+  chap_1657.json - Chapter 1657
+  ✗ arabic: EMPTY
+
+  chap_1658.json - Chapter 1658
+  ✗ arabic: EMPTY
+
+  chap_1659.json - Chapter 1659
+  ✗ arabic: EMPTY
+
+  chap_1660.json - Chapter 1660
+  ✗ arabic: EMPTY
+
+  chap_1661.json - Chapter 1661
+  ✗ arabic: EMPTY
+
+  chap_1662.json - Chapter 1662
+  ✗ arabic: EMPTY
+
+  chap_1663.json - Chapter 1663
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 33
+  - Book metadata: 1
+  - Chapters: 32
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,168 @@
+VALIDATION REPORT - Book 157: 
+Generated: 2026-08-15 01:43:08
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1858.json - Chapter 1858
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #9300:
+    ✗ english_translation: EMPTY
+
+  Hadith #9301:
+    ✗ english_translation: EMPTY
+
+  Hadith #9302:
+    ✗ english_translation: EMPTY
+
+  Hadith #9303:
+    ✗ english_translation: EMPTY
+
+  Hadith #9304:
+    ✗ english_translation: EMPTY
+
+  Hadith #9305:
+    ✗ english_translation: EMPTY
+
+  Hadith #9306:
+    ✗ english_translation: EMPTY
+
+  Hadith #9307:
+    ✗ english_translation: EMPTY
+
+  Hadith #9308:
+    ✗ english_translation: EMPTY
+
+  Hadith #9309:
+    ✗ english_translation: EMPTY
+
+  Hadith #9310:
+    ✗ english_translation: EMPTY
+
+  Hadith #9311:
+    ✗ english_translation: EMPTY
+
+  chap_1859.json - Chapter 1859
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #9312:
+    ✗ english_translation: EMPTY
+
+  Hadith #9313:
+    ✗ english_translation: EMPTY
+
+  Hadith #9314:
+    ✗ english_translation: EMPTY
+
+  Hadith #9315:
+    ✗ english_translation: EMPTY
+
+  Hadith #9316:
+    ✗ english_translation: EMPTY
+
+  Hadith #9317:
+    ✗ english_translation: EMPTY
+
+  chap_1860.json - Chapter 1860
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #9318:
+    ✗ english_translation: EMPTY
+
+  Hadith #9319:
+    ✗ english_translation: EMPTY
+
+  Hadith #9320:
+    ✗ english_translation: EMPTY
+
+  Hadith #9321:
+    ✗ english_translation: EMPTY
+
+  Hadith #9322:
+    ✗ english_translation: EMPTY
+
+  Hadith #9323:
+    ✗ english_translation: EMPTY
+
+  Hadith #9324:
+    ✗ english_translation: EMPTY
+
+  Hadith #9325:
+    ✗ english_translation: EMPTY
+
+  Hadith #9326:
+    ✗ english_translation: EMPTY
+
+  Hadith #9327:
+    ✗ english_translation: EMPTY
+
+  Hadith #9328:
+    ✗ english_translation: EMPTY
+
+  chap_1861.json - Chapter 1861
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #9329:
+    ✗ english_translation: EMPTY
+
+  Hadith #9330:
+    ✗ english_translation: EMPTY
+
+  chap_1862.json - Chapter 1862
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #9331:
+    ✗ english_translation: EMPTY
+
+  Hadith #9332:
+    ✗ english_translation: EMPTY
+
+  Hadith #9333:
+    ✗ english_translation: EMPTY
+
+  Hadith #9334:
+    ✗ english_translation: EMPTY
+
+  Hadith #9335:
+    ✗ english_translation: EMPTY
+
+  Hadith #9336:
+    ✗ english_translation: EMPTY
+
+  Hadith #9337:
+    ✗ english_translation: EMPTY
+
+  Hadith #9338:
+    ✗ english_translation: EMPTY
+
+  Hadith #9339:
+    ✗ english_translation: EMPTY
+
+  Hadith #9340:
+    ✗ english_translation: EMPTY
+
+  Hadith #9341:
+    ✗ english_translation: EMPTY
+
+  Hadith #9342:
+    ✗ english_translation: EMPTY
+
+  Hadith #9343:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 56
+  - Book metadata: 2
+  - Chapters: 54
+  - Hadiths: 0
+================================================================================

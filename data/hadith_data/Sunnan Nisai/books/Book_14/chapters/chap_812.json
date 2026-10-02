@@ -1,0 +1,26 @@
+{
+  "number": 812,
+  "arabic": "",
+  "urdu": "جمعہ کے دن غسل کرنے کے حکم کا بیان۔",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 1377,
+      "arabic_text": "أَخْبَرَنَا قُتَيْبَةُ، ‏‏‏‏‏‏عَنْ مَالِكٍ، ‏‏‏‏‏‏عَنْ نَافِعٍ، ‏‏‏‏‏‏عَنِ ابْنِ عُمَرَ، ‏‏‏‏‏‏أَنّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ:‏‏‏‏  إِذَا جَاءَ أَحَدُكُمُ الْجُمُعَةَ فَلْيَغْتَسِلْ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  جب تم میں سے کوئی جمعہ  ( کی نماز )  کے لیے آئے تو اسے چاہیئے کہ غسل کر لے ۔",
+      "english_translation": "It was narrated from Ibn 'Umar that:\nThe Messenger of Allah (ﷺ) said:  When any one of you wants to come to Jumu'ah prayer, let him perform ghusl.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن عمر رضی اللہ عنہم سے روایت ہے کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  جب تم میں سے کوئی جمعہ  ( کی نماز )  کے لیے آئے تو اسے چاہیئے کہ غسل کر لے ۔"
+        }
+      ],
+      "reference": {
+        "international_number": "1377",
+        "arabic_number": "ترقیم  : 1377"
+      }
+    }
+  ]
+}

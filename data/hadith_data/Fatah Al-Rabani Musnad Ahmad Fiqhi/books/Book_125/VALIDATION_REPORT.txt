@@ -1,0 +1,44 @@
+VALIDATION REPORT - Book 125: 
+Generated: 2026-08-15 00:33:10
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1297.json - Chapter 1297
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7184:
+    ✗ english_translation: EMPTY
+
+  Hadith #7185:
+    ✗ english_translation: EMPTY
+
+  Hadith #7186:
+    ✗ english_translation: EMPTY
+
+  Hadith #7187:
+    ✗ english_translation: EMPTY
+
+  Hadith #7188:
+    ✗ english_translation: EMPTY
+
+  Hadith #7189:
+    ✗ english_translation: EMPTY
+
+  Hadith #7190:
+    ✗ english_translation: EMPTY
+
+  Hadith #7191:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 12
+  - Book metadata: 2
+  - Chapters: 10
+  - Hadiths: 0
+================================================================================

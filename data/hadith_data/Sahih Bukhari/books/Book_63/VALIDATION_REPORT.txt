@@ -1,0 +1,17 @@
+VALIDATION REPORT - Book 63: The virtues and merits of the companions of the prophet.
+Generated: 2026-08-12 04:01:31
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_2004.json - Chapter 2004
+
+  Hadith #3672:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 1
+  - Book metadata: 0
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

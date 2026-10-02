@@ -1,0 +1,132 @@
+VALIDATION REPORT - Book 40: Prescribed punishments (kitab al-hudud)
+Generated: 2026-08-13 02:19:27
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1561.json - Chapter 1561
+  ✗ arabic: EMPTY
+
+  chap_1562.json - Chapter 1562
+  ✗ arabic: EMPTY
+
+  chap_1563.json - Chapter 1563
+  ✗ arabic: EMPTY
+
+  chap_1564.json - Chapter 1564
+  ✗ arabic: EMPTY
+
+  chap_1565.json - Chapter 1565
+  ✗ arabic: EMPTY
+
+  chap_1566.json - Chapter 1566
+  ✗ arabic: EMPTY
+
+  chap_1567.json - Chapter 1567
+  ✗ arabic: EMPTY
+
+  chap_1568.json - Chapter 1568
+  ✗ arabic: EMPTY
+
+  chap_1569.json - Chapter 1569
+  ✗ arabic: EMPTY
+
+  chap_1570.json - Chapter 1570
+  ✗ arabic: EMPTY
+
+  chap_1571.json - Chapter 1571
+  ✗ arabic: EMPTY
+
+  chap_1572.json - Chapter 1572
+  ✗ arabic: EMPTY
+
+  chap_1573.json - Chapter 1573
+  ✗ arabic: EMPTY
+
+  chap_1574.json - Chapter 1574
+  ✗ arabic: EMPTY
+
+  chap_1575.json - Chapter 1575
+  ✗ arabic: EMPTY
+
+  chap_1576.json - Chapter 1576
+  ✗ arabic: EMPTY
+
+  chap_1577.json - Chapter 1577
+  ✗ arabic: EMPTY
+
+  chap_1578.json - Chapter 1578
+  ✗ arabic: EMPTY
+
+  chap_1579.json - Chapter 1579
+  ✗ arabic: EMPTY
+
+  chap_1580.json - Chapter 1580
+  ✗ arabic: EMPTY
+
+  chap_1581.json - Chapter 1581
+  ✗ arabic: EMPTY
+
+  chap_1582.json - Chapter 1582
+  ✗ arabic: EMPTY
+
+  chap_1583.json - Chapter 1583
+  ✗ arabic: EMPTY
+
+  chap_1584.json - Chapter 1584
+  ✗ arabic: EMPTY
+
+  chap_1585.json - Chapter 1585
+  ✗ arabic: EMPTY
+
+  chap_1586.json - Chapter 1586
+  ✗ arabic: EMPTY
+
+  chap_1587.json - Chapter 1587
+  ✗ arabic: EMPTY
+
+  chap_1588.json - Chapter 1588
+  ✗ arabic: EMPTY
+
+  chap_1589.json - Chapter 1589
+  ✗ arabic: EMPTY
+
+  chap_1590.json - Chapter 1590
+  ✗ arabic: EMPTY
+
+  chap_1591.json - Chapter 1591
+  ✗ arabic: EMPTY
+
+  chap_1592.json - Chapter 1592
+  ✗ arabic: EMPTY
+
+  chap_1593.json - Chapter 1593
+  ✗ arabic: EMPTY
+
+  chap_1594.json - Chapter 1594
+  ✗ arabic: EMPTY
+
+  chap_1595.json - Chapter 1595
+  ✗ arabic: EMPTY
+
+  chap_1596.json - Chapter 1596
+  ✗ arabic: EMPTY
+
+  chap_1597.json - Chapter 1597
+  ✗ arabic: EMPTY
+
+  chap_1598.json - Chapter 1598
+  ✗ arabic: EMPTY
+
+  chap_1599.json - Chapter 1599
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 40
+  - Book metadata: 1
+  - Chapters: 39
+  - Hadiths: 0
+================================================================================

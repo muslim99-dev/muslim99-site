@@ -1,0 +1,37 @@
+VALIDATION REPORT - Book 27: 
+Generated: 2026-08-22 12:55:59
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_773.json - Chapter 773
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #820:
+    ✗ english_translation: EMPTY
+
+  chap_774.json - Chapter 774
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #821:
+    ✗ english_translation: EMPTY
+
+  chap_775.json - Chapter 775
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #822:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 11
+  - Book metadata: 2
+  - Chapters: 9
+  - Hadiths: 0
+================================================================================

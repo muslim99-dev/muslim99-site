@@ -1,0 +1,93 @@
+VALIDATION REPORT - Book 44: People of the scripture
+Generated: 2026-08-22 06:37:38
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_512.json - Chapter 512
+  ✗ english: EMPTY
+
+  Hadith #1106:
+    ✗ english_translation: EMPTY
+
+  chap_513.json - Chapter 513
+  ✗ english: EMPTY
+
+  Hadith #1107:
+    ✗ english_translation: EMPTY
+
+  Hadith #1108:
+    ✗ english_translation: EMPTY
+
+  chap_514.json - Chapter 514
+  ✗ english: EMPTY
+
+  Hadith #1109:
+    ✗ english_translation: EMPTY
+
+  Hadith #1110:
+    ✗ english_translation: EMPTY
+
+  chap_515.json - Chapter 515
+  ✗ english: EMPTY
+
+  Hadith #1111:
+    ✗ english_translation: EMPTY
+
+  Hadith #1112:
+    ✗ english_translation: EMPTY
+
+  chap_516.json - Chapter 516
+  ✗ english: EMPTY
+
+  Hadith #1113:
+    ✗ english_translation: EMPTY
+
+  chap_517.json - Chapter 517
+  ✗ english: EMPTY
+
+  Hadith #1114:
+    ✗ english_translation: EMPTY
+
+  chap_518.json - Chapter 518
+  ✗ english: EMPTY
+
+  Hadith #1115:
+    ✗ english_translation: EMPTY
+
+  chap_519.json - Chapter 519
+  ✗ english: EMPTY
+
+  Hadith #1116:
+    ✗ english_translation: EMPTY
+
+  chap_520.json - Chapter 520
+  ✗ english: EMPTY
+
+  Hadith #1117:
+    ✗ english_translation: EMPTY
+
+  Hadith #1118:
+    ✗ english_translation: EMPTY
+
+  Hadith #1119:
+    ✗ english_translation: EMPTY
+
+  chap_521.json - Chapter 521
+  ✗ english: EMPTY
+
+  Hadith #1120:
+    ✗ english_translation: EMPTY
+
+  chap_522.json - Chapter 522
+  ✗ english: EMPTY
+
+  Hadith #1121:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 27
+  - Book metadata: 0
+  - Chapters: 27
+  - Hadiths: 0
+================================================================================

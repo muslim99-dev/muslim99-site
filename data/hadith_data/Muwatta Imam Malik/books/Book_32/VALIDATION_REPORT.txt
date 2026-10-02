@@ -1,0 +1,33 @@
+VALIDATION REPORT - Book 32: 
+Generated: 2026-08-22 10:54:03
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_390.json - Chapter 390
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1300:
+    ✗ english_translation: EMPTY
+
+  Hadith #1301:
+    ✗ english_translation: EMPTY
+
+  chap_391.json - Chapter 391
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1302:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 9
+  - Book metadata: 2
+  - Chapters: 7
+  - Hadiths: 0
+================================================================================

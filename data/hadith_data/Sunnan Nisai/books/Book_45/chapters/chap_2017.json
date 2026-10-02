@@ -1,0 +1,43 @@
+{
+  "number": 2017,
+  "arabic": "",
+  "urdu": "باب: (مسلمان) بھائی کی بیع پر بیع کرنا منع ہے۔",
+  "english": "",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 4507,
+      "arabic_text": "أَخْبَرَنَا قُتَيْبَةُ بْنُ سَعِيدٍ،‏‏‏‏ عَنْ مَالِكٍ،‏‏‏‏ وَاللَّيْثُ،‏‏‏‏ وَاللَّفْظُ لَهُ،‏‏‏‏ عَنْ نَافِعٍ،‏‏‏‏ عَنْ ابْنِ عُمَرَ،‏‏‏‏ عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنَّهُ قَالَ:‏‏‏‏  لَا يَبِيعُ أَحَدُكُمْ عَلَى بَيْعِ أَخِيهِ .",
+      "urdu_translation": "نبی اکرم صلی اللہ علیہ وسلم نے فرمایا: ”تم میں سے کوئی اپنے  ( مسلمان )  بھائی کی بیع پر بیع نہ کرے“۔",
+      "english_translation": "It was narrated from Ibn 'Umar that the Prophet said:\n No one of you should urge someone to cancel a sale he has already agreed upon with his brother so as to sell him his own goods.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن عمر رضی اللہ عنہما روایت کرتے ہیں کہ  نبی اکرم صلی اللہ علیہ وسلم نے فرمایا: ”تم میں سے کوئی اپنے  ( مسلمان )  بھائی کی بیع پر بیع نہ کرے“۔"
+        }
+      ],
+      "reference": {
+        "international_number": "4507",
+        "arabic_number": "ترقیم  : 4507"
+      }
+    },
+    {
+      "hadith_number": 4508,
+      "arabic_text": "أَخْبَرَنَا إِسْحَاق بْنُ إِبْرَاهِيمَ،‏‏‏‏ قَالَ:‏‏‏‏ حَدَّثَنَا أَبُو مُعَاوِيَةَ،‏‏‏‏ قَالَ:‏‏‏‏ حَدَّثَنَا عُبَيْدُ اللَّهِ،‏‏‏‏ عَنْ نَافِعٍ،‏‏‏‏ عَنْ ابْنِ عُمَرَ،‏‏‏‏ عَنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ:‏‏‏‏  لَا يَبِيعُ الرَّجُلُ عَلَى بَيْعِ أَخِيهِ حَتَّى يَبْتَاعَ،‏‏‏‏ أَوْ يَذَرَ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا: ”آدمی اپنے بھائی کی بیع پر بیع نہ کرے یہاں تک کہ وہ اسے خرید لے یا چھوڑ دے“۔",
+      "english_translation": "It was narrated from Ibn 'Umar that the Messenger of Allah said:\n Do not urge someone to cancel a sale he has already agreed upon so as to sell him your own goods, unless he bys or changes his mind.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن عمر رضی اللہ عنہما روایت کرتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا: ”آدمی اپنے بھائی کی بیع پر بیع نہ کرے یہاں تک کہ وہ اسے خرید لے یا چھوڑ دے“۔"
+        }
+      ],
+      "reference": {
+        "international_number": "4508",
+        "arabic_number": "ترقیم  : 4508"
+      }
+    }
+  ]
+}

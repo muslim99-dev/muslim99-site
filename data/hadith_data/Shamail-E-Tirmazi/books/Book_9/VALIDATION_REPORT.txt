@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 9: Narration of the economy of the messenger of allah (peace and blessings of allah be upon him).
+Generated: 2026-08-17 13:38:10
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_9.json - Chapter 9
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

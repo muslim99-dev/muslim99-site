@@ -1,0 +1,129 @@
+VALIDATION REPORT - Book 48: Sitting and lying down
+Generated: 2026-08-22 06:40:44
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_558.json - Chapter 558
+  ✗ english: EMPTY
+
+  Hadith #1181:
+    ✗ english_translation: EMPTY
+
+  chap_559.json - Chapter 559
+  ✗ english: EMPTY
+
+  Hadith #1182:
+    ✗ english_translation: EMPTY
+
+  Hadith #1183:
+    ✗ english_translation: EMPTY
+
+  chap_560.json - Chapter 560
+  ✗ english: EMPTY
+
+  Hadith #1184:
+    ✗ english_translation: EMPTY
+
+  chap_561.json - Chapter 561
+  ✗ english: EMPTY
+
+  Hadith #1185:
+    ✗ english_translation: EMPTY
+
+  Hadith #1186:
+    ✗ english_translation: EMPTY
+
+  Hadith #1187:
+    ✗ english_translation: EMPTY
+
+  chap_562.json - Chapter 562
+  ✗ english: EMPTY
+
+  Hadith #1188:
+    ✗ english_translation: EMPTY
+
+  Hadith #1189:
+    ✗ english_translation: EMPTY
+
+  chap_563.json - Chapter 563
+  ✗ english: EMPTY
+
+  Hadith #1190:
+    ✗ english_translation: EMPTY
+
+  chap_564.json - Chapter 564
+  ✗ english: EMPTY
+
+  Hadith #1191:
+    ✗ english_translation: EMPTY
+
+  Hadith #1192:
+    ✗ english_translation: EMPTY
+
+  chap_565.json - Chapter 565
+  ✗ english: EMPTY
+
+  Hadith #1193:
+    ✗ english_translation: EMPTY
+
+  Hadith #1194:
+    ✗ english_translation: EMPTY
+
+  chap_566.json - Chapter 566
+  ✗ english: EMPTY
+
+  Hadith #1195:
+    ✗ english_translation: EMPTY
+
+  chap_567.json - Chapter 567
+  ✗ english: EMPTY
+
+  Hadith #1196:
+    ✗ english_translation: EMPTY
+
+  chap_568.json - Chapter 568
+  ✗ english: EMPTY
+
+  Hadith #1197:
+    ✗ english_translation: EMPTY
+
+  chap_569.json - Chapter 569
+  ✗ english: EMPTY
+
+  Hadith #1198:
+    ✗ english_translation: EMPTY
+
+  Hadith #1199:
+    ✗ english_translation: EMPTY
+
+  Hadith #1200:
+    ✗ english_translation: EMPTY
+
+  chap_570.json - Chapter 570
+  ✗ english: EMPTY
+
+  Hadith #1201:
+    ✗ english_translation: EMPTY
+
+  chap_571.json - Chapter 571
+  ✗ english: EMPTY
+
+  Hadith #1202:
+    ✗ english_translation: EMPTY
+
+  Hadith #1203:
+    ✗ english_translation: EMPTY
+
+  chap_572.json - Chapter 572
+  ✗ english: EMPTY
+
+  Hadith #1204:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 39
+  - Book metadata: 0
+  - Chapters: 39
+  - Hadiths: 0
+================================================================================

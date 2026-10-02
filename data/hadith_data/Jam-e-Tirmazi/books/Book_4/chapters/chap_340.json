@@ -1,0 +1,26 @@
+{
+  "number": 340,
+  "arabic": "",
+  "urdu": "باب: وتر پڑھے بغیر سو جانے یا وتر کے بھول جانے کا بیان",
+  "english": "Chapter: What Has Been Related About A Man Who Sleeps Past Al-Witr Or Forgets It",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 465,
+      "arabic_text": "حَدَّثَنَا مَحْمُودُ بْنُ غَيْلَانَ، حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ زَيْدِ بْنِ أَسْلَمَ، عَنْ أَبِيهِ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ:‏‏‏‏ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:‏‏‏‏    مَنْ نَامَ عَنِ الْوِتْرِ أَوْ نَسِيَهُ فَلْيُصَلِّ إِذَا ذَكَرَ وَإِذَا اسْتَيْقَظَ   .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا: ”جو وتر پڑھے بغیر سو جائے، یا اسے پڑھنا بھول جائے تو جب یاد آئے یا جاگے پڑھ لے“۔",
+      "english_translation": "Abu Sa'eed Al-Khudri narrated that :\r\n\r\nAllah's Messenger said:   Whoever sleeps past Al-Witr or forgets it, then let him pray it when he remembers it or when he awakens.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ابو سعید خدری رضی الله عنہ کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا: ”جو وتر پڑھے بغیر سو جائے، یا اسے پڑھنا بھول جائے تو جب یاد آئے یا جاگے پڑھ لے“۔"
+        }
+      ],
+      "reference": {
+        "international_number": "465",
+        "arabic_number": "ترقیم  : 465"
+      }
+    }
+  ]
+}

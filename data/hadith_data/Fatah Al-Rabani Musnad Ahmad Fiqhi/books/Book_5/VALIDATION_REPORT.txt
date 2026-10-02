@@ -1,0 +1,136 @@
+VALIDATION REPORT - Book 5: 
+Generated: 2026-08-14 05:35:59
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_50.json - Chapter 50
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #322:
+    ✗ english_translation: EMPTY
+
+  Hadith #323:
+    ✗ english_translation: EMPTY
+
+  Hadith #324:
+    ✗ english_translation: EMPTY
+
+  Hadith #325:
+    ✗ english_translation: EMPTY
+
+  Hadith #326:
+    ✗ english_translation: EMPTY
+
+  Hadith #327:
+    ✗ english_translation: EMPTY
+
+  chap_51.json - Chapter 51
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #328:
+    ✗ english_translation: EMPTY
+
+  Hadith #329:
+    ✗ english_translation: EMPTY
+
+  Hadith #330:
+    ✗ english_translation: EMPTY
+
+  Hadith #331:
+    ✗ english_translation: EMPTY
+
+  Hadith #332:
+    ✗ english_translation: EMPTY
+
+  Hadith #333:
+    ✗ english_translation: EMPTY
+
+  Hadith #334:
+    ✗ english_translation: EMPTY
+
+  Hadith #335:
+    ✗ english_translation: EMPTY
+
+  chap_52.json - Chapter 52
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #336:
+    ✗ english_translation: EMPTY
+
+  Hadith #337:
+    ✗ english_translation: EMPTY
+
+  Hadith #338:
+    ✗ english_translation: EMPTY
+
+  Hadith #339:
+    ✗ english_translation: EMPTY
+
+  chap_53.json - Chapter 53
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #340:
+    ✗ english_translation: EMPTY
+
+  Hadith #341:
+    ✗ english_translation: EMPTY
+
+  Hadith #342:
+    ✗ english_translation: EMPTY
+
+  Hadith #343:
+    ✗ english_translation: EMPTY
+
+  Hadith #344:
+    ✗ english_translation: EMPTY
+
+  chap_54.json - Chapter 54
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #345:
+    ✗ english_translation: EMPTY
+
+  Hadith #346:
+    ✗ english_translation: EMPTY
+
+  Hadith #347:
+    ✗ english_translation: EMPTY
+
+  Hadith #348:
+    ✗ english_translation: EMPTY
+
+  Hadith #349:
+    ✗ english_translation: EMPTY
+
+  Hadith #350:
+    ✗ english_translation: EMPTY
+
+  chap_55.json - Chapter 55
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #351:
+    ✗ english_translation: EMPTY
+
+  Hadith #352:
+    ✗ english_translation: EMPTY
+
+  Hadith #353:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 46
+  - Book metadata: 2
+  - Chapters: 44
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,15 @@
+VALIDATION REPORT - Book 51: Characteristics of the hypocrites and rulings convering them
+Generated: 2026-08-12 17:39:11
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_1225.json - Chapter 1225
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 1
+  - Book metadata: 0
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

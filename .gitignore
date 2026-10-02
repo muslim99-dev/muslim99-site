@@ -8,3 +8,10 @@ build/
 *.tsbuildinfo
 .DS_Store
 npm-debug.log*
+
+# Hadith data: source zip exceeds GitHub limit; index is generated (scripts/build-hadith-index.mjs)
+hadith_data.zip
+data/hadith_index/
+
+# Local dev server logs
+dev_*.log

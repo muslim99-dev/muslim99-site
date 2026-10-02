@@ -1,0 +1,15 @@
+VALIDATION REPORT - Book 8: The book of the merit of the holy quran
+Generated: 2026-08-12 14:01:31
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_315.json - Chapter 315
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 1
+  - Book metadata: 0
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,72 @@
+VALIDATION REPORT - Book 11: 
+Generated: 2026-08-22 07:18:42
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_11.json - Chapter 11
+  ✗ arabic: EMPTY
+  ✗ urdu: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1228:
+    ✗ english_translation: EMPTY
+
+  Hadith #1229:
+    ✗ english_translation: EMPTY
+
+  Hadith #1230:
+    ✗ english_translation: EMPTY
+
+  Hadith #1231:
+    ✗ english_translation: EMPTY
+
+  Hadith #1232:
+    ✗ english_translation: EMPTY
+
+  Hadith #1233:
+    ✗ english_translation: EMPTY
+
+  Hadith #1234:
+    ✗ english_translation: EMPTY
+
+  Hadith #1235:
+    ✗ english_translation: EMPTY
+
+  Hadith #1236:
+    ✗ english_translation: EMPTY
+
+  Hadith #1237:
+    ✗ english_translation: EMPTY
+
+  Hadith #1238:
+    ✗ english_translation: EMPTY
+
+  Hadith #1239:
+    ✗ english_translation: EMPTY
+
+  Hadith #1240:
+    ✗ english_translation: EMPTY
+
+  Hadith #1241:
+    ✗ english_translation: EMPTY
+
+  Hadith #1242:
+    ✗ english_translation: EMPTY
+
+  Hadith #1243:
+    ✗ english_translation: EMPTY
+
+  Hadith #1244:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 22
+  - Book metadata: 2
+  - Chapters: 20
+  - Hadiths: 0
+================================================================================

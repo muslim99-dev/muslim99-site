@@ -1,0 +1,198 @@
+VALIDATION REPORT - Book 1: The book of the sunnah
+Generated: 2026-08-13 15:15:26
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1.json - Chapter 1
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2.json - Chapter 2
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_3.json - Chapter 3
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_4.json - Chapter 4
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_5.json - Chapter 5
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_6.json - Chapter 6
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_7.json - Chapter 7
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_8.json - Chapter 8
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_9.json - Chapter 9
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_10.json - Chapter 10
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_11.json - Chapter 11
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_12.json - Chapter 12
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_13.json - Chapter 13
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_14.json - Chapter 14
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_15.json - Chapter 15
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_16.json - Chapter 16
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_17.json - Chapter 17
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_18.json - Chapter 18
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_19.json - Chapter 19
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_20.json - Chapter 20
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_21.json - Chapter 21
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_22.json - Chapter 22
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_23.json - Chapter 23
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_24.json - Chapter 24
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_25.json - Chapter 25
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_26.json - Chapter 26
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_27.json - Chapter 27
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_28.json - Chapter 28
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_29.json - Chapter 29
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_30.json - Chapter 30
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_31.json - Chapter 31
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_32.json - Chapter 32
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_33.json - Chapter 33
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #172:
+    ✗ english_translation: EMPTY
+
+  chap_34.json - Chapter 34
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_35.json - Chapter 35
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_36.json - Chapter 36
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_37.json - Chapter 37
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_38.json - Chapter 38
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_39.json - Chapter 39
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_40.json - Chapter 40
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_41.json - Chapter 41
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_42.json - Chapter 42
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_43.json - Chapter 43
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_44.json - Chapter 44
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_45.json - Chapter 45
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 92
+  - Book metadata: 1
+  - Chapters: 91
+  - Hadiths: 0
+================================================================================

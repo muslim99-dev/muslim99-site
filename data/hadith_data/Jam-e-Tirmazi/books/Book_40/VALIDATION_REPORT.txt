@@ -1,0 +1,56 @@
+VALIDATION REPORT - Book 40: The book on the description of hellfire
+Generated: 2026-08-12 20:02:23
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_317.json - Chapter 317
+  ✗ arabic: EMPTY
+
+  chap_1459.json - Chapter 1459
+  ✗ arabic: EMPTY
+
+  chap_1642.json - Chapter 1642
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1643.json - Chapter 1643
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #2576:
+    ✗ english_translation: EMPTY
+
+  chap_1644.json - Chapter 1644
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1645.json - Chapter 1645
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1646.json - Chapter 1646
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1647.json - Chapter 1647
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1648.json - Chapter 1648
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1649.json - Chapter 1649
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 20
+  - Book metadata: 1
+  - Chapters: 19
+  - Hadiths: 0
+================================================================================

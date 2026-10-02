@@ -41,11 +41,7 @@ export async function GET(req: NextRequest) {
       return NextResponse.json({ hadiths });
     }
 
-    let hadiths = await searchCollection(collection, q, { book, limit: chapter ? 50 : 20 });
-    // The search API can scope to a collection or a book, but not down to
-    // one chapter — so when we're on a single chapter's page, filter its
-    // (book-scoped) results down to just this chapter client-side.
-    if (chapter) hadiths = hadiths.filter((h) => h.chapter === chapter).slice(0, 20);
+    const hadiths = await searchCollection(collection, q, { book, chapter, limit: 20 });
     return NextResponse.json({ hadiths });
   } catch {
     return NextResponse.json({ error: "Search is temporarily unavailable." }, { status: 502 });

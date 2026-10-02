@@ -1,0 +1,90 @@
+VALIDATION REPORT - Book 12: Cheerfulness towards people
+Generated: 2026-08-22 06:08:10
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_120.json - Chapter 120
+  ✗ english: EMPTY
+
+  Hadith #238:
+    ✗ english_translation: EMPTY
+
+  Hadith #239:
+    ✗ english_translation: EMPTY
+
+  Hadith #240:
+    ✗ english_translation: EMPTY
+
+  chap_121.json - Chapter 121
+  ✗ english: EMPTY
+
+  Hadith #241:
+    ✗ english_translation: EMPTY
+
+  chap_122.json - Chapter 122
+  ✗ english: EMPTY
+
+  Hadith #242:
+    ✗ english_translation: EMPTY
+
+  chap_123.json - Chapter 123
+  ✗ english: EMPTY
+
+  Hadith #243:
+    ✗ english_translation: EMPTY
+
+  Hadith #244:
+    ✗ english_translation: EMPTY
+
+  Hadith #245:
+    ✗ english_translation: EMPTY
+
+  chap_124.json - Chapter 124
+  ✗ english: EMPTY
+
+  Hadith #246:
+    ✗ english_translation: EMPTY
+
+  Hadith #247:
+    ✗ english_translation: EMPTY
+
+  Hadith #248:
+    ✗ english_translation: EMPTY
+
+  Hadith #249:
+    ✗ english_translation: EMPTY
+
+  chap_125.json - Chapter 125
+  ✗ english: EMPTY
+
+  Hadith #250:
+    ✗ english_translation: EMPTY
+
+  Hadith #251:
+    ✗ english_translation: EMPTY
+
+  chap_126.json - Chapter 126
+  ✗ english: EMPTY
+
+  Hadith #252:
+    ✗ english_translation: EMPTY
+
+  Hadith #253:
+    ✗ english_translation: EMPTY
+
+  Hadith #254:
+    ✗ english_translation: EMPTY
+
+  chap_127.json - Chapter 127
+  ✗ english: EMPTY
+
+  Hadith #255:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 26
+  - Book metadata: 0
+  - Chapters: 26
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,61 @@
+VALIDATION REPORT - Book 21: The chapters on manumission (of slaves)
+Generated: 2026-08-13 16:51:02
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_872.json - Chapter 872
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_873.json - Chapter 873
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_874.json - Chapter 874
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #2518:
+    ✗ english_translation: EMPTY
+
+  chap_875.json - Chapter 875
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_876.json - Chapter 876
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_877.json - Chapter 877
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #2526:
+    ✗ urdu_translation: EMPTY
+
+  chap_878.json - Chapter 878
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_879.json - Chapter 879
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_880.json - Chapter 880
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_881.json - Chapter 881
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 23
+  - Book metadata: 1
+  - Chapters: 22
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,36 @@
+VALIDATION REPORT - Book 49: Mornings and evenings
+Generated: 2026-08-22 06:40:57
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_573.json - Chapter 573
+  ✗ english: EMPTY
+
+  Hadith #1205:
+    ✗ english_translation: EMPTY
+
+  Hadith #1206:
+    ✗ english_translation: EMPTY
+
+  Hadith #1207:
+    ✗ english_translation: EMPTY
+
+  chap_574.json - Chapter 574
+  ✗ english: EMPTY
+
+  Hadith #1208:
+    ✗ english_translation: EMPTY
+
+  Hadith #1209:
+    ✗ english_translation: EMPTY
+
+  Hadith #1210:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 8
+  - Book metadata: 0
+  - Chapters: 8
+  - Hadiths: 0
+================================================================================

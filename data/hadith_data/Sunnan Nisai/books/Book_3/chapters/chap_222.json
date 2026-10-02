@@ -1,0 +1,27 @@
+{
+  "number": 222,
+  "arabic": "",
+  "urdu": "زرد اور مٹیالے رنگ کے حیض میں داخل نہ ہونے کا بیان۔",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 368,
+      "arabic_text": "أَخْبَرَنَا عَمْرُو بْنُ زُرَارَةَ، ‏‏‏‏‏‏قال:‏‏‏‏ أَنْبَأَنَا إِسْمَاعِيلُ، ‏‏‏‏‏‏عَنْ أَيُّوبَ، ‏‏‏‏‏‏عَنْ مُحَمَّدٍ، ‏‏‏‏‏‏قال:‏‏‏‏ قالت أُمُّ عَطِيَّةَ:‏‏‏‏  كُنَّا لَا نَعُدُّ الصُّفْرَةَ وَالْكُدْرَةَ شَيْئًا .",
+      "urdu_translation": "ہم لوگ زردی اور مٹیالا پن کو کچھ نہیں شمار کرتے تھے ۱؎۔",
+      "english_translation": "It was narrated that Muhammad said:\n Umm 'Atiyah said: 'We used not to regard yellowish and brownish discharge as anything important.'",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ام عطیہ رضی اللہ عنہا (نسیبہ) کہتی ہیں کہ  ہم لوگ زردی اور مٹیالا پن کو کچھ نہیں شمار کرتے تھے ۱؎۔"
+        }
+      ],
+      "reference": {
+        "international_number": "368",
+        "arabic_number": "ترقیم  : 368"
+      },
+      "explanation": "وضاحت: ۱؎: یعنی اس کا شمار حیض میں نہیں کرتے تھے۔"
+    }
+  ]
+}

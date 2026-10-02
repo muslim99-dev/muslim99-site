@@ -1,0 +1,23 @@
+VALIDATION REPORT - Book 34: The book of ar-ruqba
+Generated: 2026-08-13 06:30:41
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1780.json - Chapter 1780
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1781.json - Chapter 1781
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 5
+  - Book metadata: 1
+  - Chapters: 4
+  - Hadiths: 0
+================================================================================

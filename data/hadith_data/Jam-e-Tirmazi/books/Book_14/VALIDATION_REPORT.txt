@@ -1,0 +1,84 @@
+VALIDATION REPORT - Book 14: The book on divorce and li'an
+Generated: 2026-08-12 19:04:03
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_801.json - Chapter 801
+  ✗ arabic: EMPTY
+
+  chap_802.json - Chapter 802
+  ✗ arabic: EMPTY
+
+  chap_803.json - Chapter 803
+  ✗ arabic: EMPTY
+
+  chap_804.json - Chapter 804
+  ✗ arabic: EMPTY
+
+  chap_805.json - Chapter 805
+  ✗ arabic: EMPTY
+
+  chap_806.json - Chapter 806
+  ✗ arabic: EMPTY
+
+  chap_807.json - Chapter 807
+  ✗ arabic: EMPTY
+
+  chap_808.json - Chapter 808
+  ✗ arabic: EMPTY
+
+  chap_809.json - Chapter 809
+  ✗ arabic: EMPTY
+
+  chap_810.json - Chapter 810
+  ✗ arabic: EMPTY
+
+  chap_811.json - Chapter 811
+  ✗ arabic: EMPTY
+
+  chap_812.json - Chapter 812
+  ✗ arabic: EMPTY
+
+  chap_813.json - Chapter 813
+  ✗ arabic: EMPTY
+
+  chap_814.json - Chapter 814
+  ✗ arabic: EMPTY
+
+  chap_815.json - Chapter 815
+  ✗ arabic: EMPTY
+
+  chap_816.json - Chapter 816
+  ✗ arabic: EMPTY
+
+  chap_817.json - Chapter 817
+  ✗ arabic: EMPTY
+
+  chap_818.json - Chapter 818
+  ✗ arabic: EMPTY
+
+  chap_819.json - Chapter 819
+  ✗ arabic: EMPTY
+
+  chap_820.json - Chapter 820
+  ✗ arabic: EMPTY
+
+  chap_821.json - Chapter 821
+  ✗ arabic: EMPTY
+
+  chap_822.json - Chapter 822
+  ✗ arabic: EMPTY
+
+  chap_823.json - Chapter 823
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 24
+  - Book metadata: 1
+  - Chapters: 23
+  - Hadiths: 0
+================================================================================

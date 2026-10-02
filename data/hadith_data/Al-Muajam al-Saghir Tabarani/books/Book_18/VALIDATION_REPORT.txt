@@ -1,0 +1,44 @@
+VALIDATION REPORT - Book 18: 
+Generated: 2026-08-22 12:39:38
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_478.json - Chapter 478
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #509:
+    ✗ english_translation: EMPTY
+
+  chap_479.json - Chapter 479
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #510:
+    ✗ english_translation: EMPTY
+
+  chap_480.json - Chapter 480
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #511:
+    ✗ english_translation: EMPTY
+
+  chap_481.json - Chapter 481
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #512:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 14
+  - Book metadata: 2
+  - Chapters: 12
+  - Hadiths: 0
+================================================================================

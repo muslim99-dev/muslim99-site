@@ -1,0 +1,57 @@
+VALIDATION REPORT - Book 10: Supervision
+Generated: 2026-08-22 06:07:00
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_108.json - Chapter 108
+  ✗ english: EMPTY
+
+  Hadith #212:
+    ✗ english_translation: EMPTY
+
+  Hadith #213:
+    ✗ english_translation: EMPTY
+
+  chap_109.json - Chapter 109
+  ✗ english: EMPTY
+
+  Hadith #214:
+    ✗ english_translation: EMPTY
+
+  chap_110.json - Chapter 110
+  ✗ english: EMPTY
+
+  Hadith #215:
+    ✗ english_translation: EMPTY
+
+  Hadith #216:
+    ✗ english_translation: EMPTY
+
+  chap_111.json - Chapter 111
+  ✗ english: EMPTY
+
+  Hadith #217:
+    ✗ english_translation: EMPTY
+
+  chap_112.json - Chapter 112
+  ✗ english: EMPTY
+
+  Hadith #218:
+    ✗ english_translation: EMPTY
+
+  Hadith #219:
+    ✗ english_translation: EMPTY
+
+  chap_113.json - Chapter 113
+  ✗ english: EMPTY
+
+  Hadith #220:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 15
+  - Book metadata: 0
+  - Chapters: 15
+  - Hadiths: 0
+================================================================================

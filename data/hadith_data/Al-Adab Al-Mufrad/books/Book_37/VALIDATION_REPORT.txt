@@ -1,0 +1,75 @@
+VALIDATION REPORT - Book 37: Words
+Generated: 2026-08-22 06:29:24
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_387.json - Chapter 387
+  ✗ english: EMPTY
+
+  Hadith #879:
+    ✗ english_translation: EMPTY
+
+  Hadith #880:
+    ✗ english_translation: EMPTY
+
+  Hadith #881:
+    ✗ english_translation: EMPTY
+
+  chap_388.json - Chapter 388
+  ✗ english: EMPTY
+
+  Hadith #882:
+    ✗ english_translation: EMPTY
+
+  chap_389.json - Chapter 389
+  ✗ english: EMPTY
+
+  Hadith #883:
+    ✗ english_translation: EMPTY
+
+  chap_390.json - Chapter 390
+  ✗ english: EMPTY
+
+  Hadith #884:
+    ✗ english_translation: EMPTY
+
+  Hadith #885:
+    ✗ english_translation: EMPTY
+
+  chap_391.json - Chapter 391
+  ✗ english: EMPTY
+
+  Hadith #886:
+    ✗ english_translation: EMPTY
+
+  chap_392.json - Chapter 392
+  ✗ english: EMPTY
+
+  Hadith #887:
+    ✗ english_translation: EMPTY
+
+  Hadith #888:
+    ✗ english_translation: EMPTY
+
+  Hadith #889:
+    ✗ english_translation: EMPTY
+
+  chap_393.json - Chapter 393
+  ✗ english: EMPTY
+
+  Hadith #890:
+    ✗ english_translation: EMPTY
+
+  chap_394.json - Chapter 394
+  ✗ english: EMPTY
+
+  Hadith #891:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 21
+  - Book metadata: 0
+  - Chapters: 21
+  - Hadiths: 0
+================================================================================

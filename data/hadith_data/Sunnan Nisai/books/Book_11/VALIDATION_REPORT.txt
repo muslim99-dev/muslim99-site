@@ -1,0 +1,367 @@
+VALIDATION REPORT - Book 11: The book of the commencement of the prayer
+Generated: 2026-08-13 04:42:47
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_525.json - Chapter 525
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_526.json - Chapter 526
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_527.json - Chapter 527
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_528.json - Chapter 528
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_529.json - Chapter 529
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_530.json - Chapter 530
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_531.json - Chapter 531
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_532.json - Chapter 532
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_533.json - Chapter 533
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_534.json - Chapter 534
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_535.json - Chapter 535
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_536.json - Chapter 536
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_537.json - Chapter 537
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_538.json - Chapter 538
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_539.json - Chapter 539
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_540.json - Chapter 540
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_541.json - Chapter 541
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_542.json - Chapter 542
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_543.json - Chapter 543
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_544.json - Chapter 544
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_545.json - Chapter 545
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_546.json - Chapter 546
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_547.json - Chapter 547
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_548.json - Chapter 548
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_549.json - Chapter 549
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_550.json - Chapter 550
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_551.json - Chapter 551
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_552.json - Chapter 552
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_553.json - Chapter 553
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_554.json - Chapter 554
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_555.json - Chapter 555
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_556.json - Chapter 556
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_557.json - Chapter 557
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_558.json - Chapter 558
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_559.json - Chapter 559
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_560.json - Chapter 560
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_561.json - Chapter 561
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_562.json - Chapter 562
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_563.json - Chapter 563
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_564.json - Chapter 564
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_565.json - Chapter 565
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_566.json - Chapter 566
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_567.json - Chapter 567
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_568.json - Chapter 568
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_569.json - Chapter 569
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_570.json - Chapter 570
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_571.json - Chapter 571
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_572.json - Chapter 572
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_573.json - Chapter 573
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_574.json - Chapter 574
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_575.json - Chapter 575
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_576.json - Chapter 576
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_577.json - Chapter 577
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_578.json - Chapter 578
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_579.json - Chapter 579
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_580.json - Chapter 580
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_581.json - Chapter 581
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_582.json - Chapter 582
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_583.json - Chapter 583
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_584.json - Chapter 584
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_585.json - Chapter 585
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_586.json - Chapter 586
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_587.json - Chapter 587
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_588.json - Chapter 588
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_589.json - Chapter 589
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_590.json - Chapter 590
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_591.json - Chapter 591
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_592.json - Chapter 592
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_593.json - Chapter 593
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_594.json - Chapter 594
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_595.json - Chapter 595
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_596.json - Chapter 596
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_597.json - Chapter 597
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_598.json - Chapter 598
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_599.json - Chapter 599
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_600.json - Chapter 600
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_601.json - Chapter 601
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_602.json - Chapter 602
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_603.json - Chapter 603
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_604.json - Chapter 604
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_605.json - Chapter 605
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_606.json - Chapter 606
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_607.json - Chapter 607
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_608.json - Chapter 608
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_609.json - Chapter 609
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_610.json - Chapter 610
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_611.json - Chapter 611
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_612.json - Chapter 612
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 177
+  - Book metadata: 1
+  - Chapters: 176
+  - Hadiths: 0
+================================================================================

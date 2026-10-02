@@ -1,0 +1,26 @@
+{
+  "number": 588,
+  "arabic": "",
+  "urdu": "مغرب میں سورۃ الطور پڑھنے کا بیان۔",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 988,
+      "arabic_text": "أَخْبَرَنَا قُتَيْبَةُ، ‏‏‏‏‏‏عَنْ مَالِكٍ، ‏‏‏‏‏‏عَنِ الزُّهْرِيِّ، ‏‏‏‏‏‏عَنْ مُحَمَّدِ بْنِ جُبَيْرِ بْنِ مُطْعِمٍ، ‏‏‏‏‏‏عَنْ أَبِيهِ، ‏‏‏‏‏‏قال:‏‏‏‏ سَمِعْتُ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقْرَأُ فِي الْمَغْرِبِ بِالطُّورِ .",
+      "urdu_translation": "میں نے نبی اکرم صلی اللہ علیہ وسلم کو مغرب میں سورۃ الطور پڑھتے سنا۔",
+      "english_translation": "It was narrated from Muhammad bin Jubair bin Mut'im that:\nHis father said:  I heard the Prophet (ﷺ) recite At-Tur in Maghrib.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "جبیر بن مطعم رضی اللہ عنہ کہتے ہیں کہ  میں نے نبی اکرم صلی اللہ علیہ وسلم کو مغرب میں سورۃ الطور پڑھتے سنا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "988",
+        "arabic_number": "ترقیم  : 988"
+      }
+    }
+  ]
+}

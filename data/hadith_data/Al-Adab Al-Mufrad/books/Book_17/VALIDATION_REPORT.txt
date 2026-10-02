@@ -1,0 +1,51 @@
+VALIDATION REPORT - Book 17: Visitation
+Generated: 2026-08-22 06:11:25
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_159.json - Chapter 159
+  ✗ english: EMPTY
+
+  Hadith #347:
+    ✗ english_translation: EMPTY
+
+  Hadith #348:
+    ✗ english_translation: EMPTY
+
+  chap_160.json - Chapter 160
+  ✗ english: EMPTY
+
+  Hadith #349:
+    ✗ english_translation: EMPTY
+
+  Hadith #350:
+    ✗ english_translation: EMPTY
+
+  Hadith #351:
+    ✗ english_translation: EMPTY
+
+  Hadith #352:
+    ✗ english_translation: EMPTY
+
+  chap_161.json - Chapter 161
+  ✗ english: EMPTY
+
+  Hadith #353:
+    ✗ english_translation: EMPTY
+
+  chap_162.json - Chapter 162
+  ✗ english: EMPTY
+
+  Hadith #354:
+    ✗ english_translation: EMPTY
+
+  Hadith #355:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 13
+  - Book metadata: 0
+  - Chapters: 13
+  - Hadiths: 0
+================================================================================

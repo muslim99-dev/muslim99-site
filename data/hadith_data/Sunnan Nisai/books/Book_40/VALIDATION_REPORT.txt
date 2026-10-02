@@ -1,0 +1,171 @@
+VALIDATION REPORT - Book 40: The book of al-bay'ah
+Generated: 2026-08-13 06:46:15
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1863.json - Chapter 1863
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1864.json - Chapter 1864
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1865.json - Chapter 1865
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1866.json - Chapter 1866
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1867.json - Chapter 1867
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1868.json - Chapter 1868
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1869.json - Chapter 1869
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1870.json - Chapter 1870
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1871.json - Chapter 1871
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1872.json - Chapter 1872
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1873.json - Chapter 1873
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1874.json - Chapter 1874
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1875.json - Chapter 1875
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1876.json - Chapter 1876
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1877.json - Chapter 1877
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1878.json - Chapter 1878
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1879.json - Chapter 1879
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1880.json - Chapter 1880
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1881.json - Chapter 1881
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1882.json - Chapter 1882
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1883.json - Chapter 1883
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1884.json - Chapter 1884
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1885.json - Chapter 1885
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1886.json - Chapter 1886
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1887.json - Chapter 1887
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1888.json - Chapter 1888
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1889.json - Chapter 1889
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1890.json - Chapter 1890
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1891.json - Chapter 1891
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1892.json - Chapter 1892
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1893.json - Chapter 1893
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1894.json - Chapter 1894
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1895.json - Chapter 1895
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1896.json - Chapter 1896
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1897.json - Chapter 1897
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1898.json - Chapter 1898
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1899.json - Chapter 1899
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1900.json - Chapter 1900
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1901.json - Chapter 1901
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 79
+  - Book metadata: 1
+  - Chapters: 78
+  - Hadiths: 0
+================================================================================

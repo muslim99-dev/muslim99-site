@@ -1,0 +1,43 @@
+{
+  "number": 385,
+  "arabic": "",
+  "urdu": "عید کے دن دف بجانے اور کھیلنے کودنے کا بیان",
+  "english": "",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 1302,
+      "arabic_text": "حَدَّثَنَا سُوَيْدُ بْنُ سَعِيدٍ، ‏‏‏‏‏‏حَدَّثَنَا شَرِيكٌ، ‏‏‏‏‏‏عَنْ مُغِيرَةَ، ‏‏‏‏‏‏عَنْ عَامِرٍ، ‏‏‏‏‏‏قَالَ:‏‏‏‏ شَهِدَ عِيَاضٌ الْأَشْعَرِيُّ عِيدًا بِالْأَنْبَارِ، ‏‏‏‏‏‏فَقَالَ:‏‏‏‏  مَا لِي لَا أَرَاكُمْ تُقَلِّسُونَ كَمَا كَانَ يُقَلَّسُ عِنْدَ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ .",
+      "urdu_translation": "عیاض اشعری نے شہر انبار میں عید کی اور کہا: کیا بات ہے کہ میں تم کو اس طرح دف بجاتے اور گاتے نہیں دیکھ رہا ہوں جیسے رسول اللہ صلی اللہ علیہ وسلم کے پاس بجایا، اور گایا جاتا تھا ۱؎۔",
+      "english_translation": "It was narrated that ‘Amir said:\n\n“Iyad Al-Ash’ari was in Anbar at the time of ‘Eid, and he said: ‘Why is it that I do not see you engaged in Taqlis as was done in the presence of the Messenger of Allah (ﷺ)?’”",
+      "status": "Zaeef",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عامر شعبی کہتے ہیں کہ  عیاض اشعری نے شہر انبار میں عید کی اور کہا: کیا بات ہے کہ میں تم کو اس طرح دف بجاتے اور گاتے نہیں دیکھ رہا ہوں جیسے رسول اللہ صلی اللہ علیہ وسلم کے پاس بجایا، اور گایا جاتا تھا ۱؎۔"
+        }
+      ],
+      "reference": {
+        "international_number": "1302",
+        "arabic_number": "ترقیم  : 1302"
+      }
+    },
+    {
+      "hadith_number": 1303,
+      "arabic_text": "حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى، ‏‏‏‏‏‏حَدَّثَنَا أَبُو نُعَيْمٍ، ‏‏‏‏‏‏عَنْ إِسْرَائِيلَ، ‏‏‏‏‏‏عَنْ أَبِي إِسْحَاق، ‏‏‏‏‏‏عَنْ عَامِرٍ، ‏‏‏‏‏‏عَنْ قَيْسِ بْنِ سَعْدٍ، ‏‏‏‏‏‏قَالَ:‏‏‏‏ مَا كَانَ شَيْءٌ عَلَى عَهْدِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، ‏‏‏‏‏‏إِلَّا وَقَدْ رَأَيْتُهُ إِلَّا شَيْءٌ وَاحِدٌ، ‏‏‏‏‏‏فَإِنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:‏‏‏‏  كَانَ يُقَلَّسُ لَهُ يَوْمَ الْفِطْرِ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم کے زمانے میں جتنی چیزیں تھیں، وہ سب میں نے دیکھیں سوائے ایک چیز کے، وہ یہ کہ عید الفطر کے روز آپ کے لیے گانا بجانا ہوتا تھا۔",
+      "english_translation": "It was narrated from ‘Amir that Qais bin Sa’d said:\n\n“There is nothing that happened during the time of the Messenger of Allah (ﷺ) except that I have seen it, except for one thing, which is that Taqlis was performed for the Messenger of Allah (ﷺ) on the Day of Fitr. (Three other chains of narration) with similar wording.",
+      "status": "Zaeef",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "قیس بن سعد رضی اللہ عنہ کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم کے زمانے میں جتنی چیزیں تھیں، وہ سب میں نے دیکھیں سوائے ایک چیز کے، وہ یہ کہ عید الفطر کے روز آپ کے لیے گانا بجانا ہوتا تھا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "1303",
+        "arabic_number": "ترقیم  : 1303"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+VALIDATION REPORT - Book 29: The book of  oaths
+Generated: 2026-08-12 15:16:35
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_727.json - Chapter 727
+  ✗ english: EMPTY
+
+  chap_728.json - Chapter 728
+  ✗ english: EMPTY
+
+  chap_729.json - Chapter 729
+  ✗ english: EMPTY
+
+  chap_730.json - Chapter 730
+  ✗ english: EMPTY
+
+  chap_731.json - Chapter 731
+  ✗ english: EMPTY
+
+  chap_732.json - Chapter 732
+  ✗ english: EMPTY
+
+  chap_733.json - Chapter 733
+  ✗ english: EMPTY
+
+  chap_734.json - Chapter 734
+  ✗ english: EMPTY
+
+  chap_735.json - Chapter 735
+  ✗ english: EMPTY
+
+  chap_736.json - Chapter 736
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 10
+  - Book metadata: 0
+  - Chapters: 10
+  - Hadiths: 0
+================================================================================

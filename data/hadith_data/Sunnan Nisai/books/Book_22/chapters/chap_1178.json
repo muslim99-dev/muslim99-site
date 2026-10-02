@@ -1,0 +1,27 @@
+{
+  "number": 1178,
+  "arabic": "",
+  "urdu": "باب: مسافر کو اجازت ہے کہ کسی دن روزے سے رہے اور کسی دن کھائے پیئے۔",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 2315,
+      "arabic_text": "أَخْبَرَنَا قُتَيْبَةُ، ‏‏‏‏‏‏قَالَ:‏‏‏‏ حَدَّثَنَا سُفْيَانُ، ‏‏‏‏‏‏عَنِ الزُّهْرِيِّ، ‏‏‏‏‏‏عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، ‏‏‏‏‏‏عَنِ ابْنِ عَبَّاسٍ، ‏‏‏‏‏‏قَالَ:‏‏‏‏  خَرَجَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ عَامَ الْفَتْحِ صَائِمًا فِي رَمَضَانَ، ‏‏‏‏‏‏حَتَّى إِذَا كَانَ بِالْكَدِيدِ أَفْطَرَ .",
+      "urdu_translation": "",
+      "english_translation": "It was narrated that Ibn 'Abbas said:\n The Messenger Allah went out in the year of the Conquest, fasting during Ramadan. Then when he was in Al-Kadid, he broke his fast.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن عباس رضی الله عنہما کہتے ہیں کہ"
+        }
+      ],
+      "reference": {
+        "international_number": "2315",
+        "arabic_number": "ترقیم  : 2315"
+      },
+      "explanation": "وضاحت: ۱؎ : کَدِید یا قُدید یہ دونوں مقامات عسفان کے پاس ہیں، اس لیے رواۃ کبھی عسفان کہتے ہیں اور کبھی قُدید اور کبھی کَدِید، واقعہ ایک ہی ہے۔"
+    }
+  ]
+}

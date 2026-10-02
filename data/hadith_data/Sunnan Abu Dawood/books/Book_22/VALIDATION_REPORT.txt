@@ -1,0 +1,111 @@
+VALIDATION REPORT - Book 22: Oaths and vows (kitab al-aiman wa al-nudhur)
+Generated: 2026-08-13 01:36:33
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1173.json - Chapter 1173
+  ✗ arabic: EMPTY
+
+  chap_1174.json - Chapter 1174
+  ✗ arabic: EMPTY
+
+  chap_1175.json - Chapter 1175
+  ✗ arabic: EMPTY
+
+  chap_1176.json - Chapter 1176
+  ✗ arabic: EMPTY
+
+  chap_1177.json - Chapter 1177
+  ✗ arabic: EMPTY
+
+  chap_1178.json - Chapter 1178
+  ✗ arabic: EMPTY
+
+  chap_1179.json - Chapter 1179
+  ✗ arabic: EMPTY
+
+  chap_1180.json - Chapter 1180
+  ✗ arabic: EMPTY
+
+  chap_1181.json - Chapter 1181
+  ✗ arabic: EMPTY
+
+  chap_1182.json - Chapter 1182
+  ✗ arabic: EMPTY
+
+  chap_1183.json - Chapter 1183
+  ✗ arabic: EMPTY
+
+  chap_1184.json - Chapter 1184
+  ✗ arabic: EMPTY
+
+  chap_1185.json - Chapter 1185
+  ✗ arabic: EMPTY
+
+  chap_1186.json - Chapter 1186
+  ✗ arabic: EMPTY
+
+  chap_1187.json - Chapter 1187
+  ✗ arabic: EMPTY
+
+  chap_1188.json - Chapter 1188
+  ✗ arabic: EMPTY
+
+  chap_1189.json - Chapter 1189
+  ✗ arabic: EMPTY
+
+  chap_1190.json - Chapter 1190
+  ✗ arabic: EMPTY
+
+  chap_1191.json - Chapter 1191
+  ✗ arabic: EMPTY
+
+  chap_1192.json - Chapter 1192
+  ✗ arabic: EMPTY
+
+  chap_1193.json - Chapter 1193
+  ✗ arabic: EMPTY
+
+  chap_1194.json - Chapter 1194
+  ✗ arabic: EMPTY
+
+  chap_1195.json - Chapter 1195
+  ✗ arabic: EMPTY
+
+  chap_1196.json - Chapter 1196
+  ✗ arabic: EMPTY
+
+  chap_1197.json - Chapter 1197
+  ✗ arabic: EMPTY
+
+  chap_1198.json - Chapter 1198
+  ✗ arabic: EMPTY
+
+  chap_1199.json - Chapter 1199
+  ✗ arabic: EMPTY
+
+  chap_1200.json - Chapter 1200
+  ✗ arabic: EMPTY
+
+  chap_1201.json - Chapter 1201
+  ✗ arabic: EMPTY
+
+  chap_1202.json - Chapter 1202
+  ✗ arabic: EMPTY
+
+  chap_1203.json - Chapter 1203
+  ✗ arabic: EMPTY
+
+  chap_1204.json - Chapter 1204
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 33
+  - Book metadata: 1
+  - Chapters: 32
+  - Hadiths: 0
+================================================================================

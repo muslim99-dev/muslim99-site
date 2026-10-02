@@ -1,0 +1,67 @@
+VALIDATION REPORT - Book 2: The book of water
+Generated: 2026-08-13 04:12:10
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_52.json - Chapter 52
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_139.json - Chapter 139
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_206.json - Chapter 206
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_207.json - Chapter 207
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_208.json - Chapter 208
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_209.json - Chapter 209
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_210.json - Chapter 210
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_211.json - Chapter 211
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_212.json - Chapter 212
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_213.json - Chapter 213
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_214.json - Chapter 214
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_215.json - Chapter 215
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_216.json - Chapter 216
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 27
+  - Book metadata: 1
+  - Chapters: 26
+  - Hadiths: 0
+================================================================================

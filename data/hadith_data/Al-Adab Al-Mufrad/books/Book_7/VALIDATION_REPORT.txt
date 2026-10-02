@@ -1,0 +1,81 @@
+VALIDATION REPORT - Book 7: Generosity and orphans
+Generated: 2026-08-22 06:04:23
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_71.json - Chapter 71
+  ✗ english: EMPTY
+
+  Hadith #129:
+    ✗ english_translation: EMPTY
+
+  chap_72.json - Chapter 72
+  ✗ english: EMPTY
+
+  Hadith #130:
+    ✗ english_translation: EMPTY
+
+  chap_73.json - Chapter 73
+  ✗ english: EMPTY
+
+  Hadith #131:
+    ✗ english_translation: EMPTY
+
+  chap_74.json - Chapter 74
+  ✗ english: EMPTY
+
+  Hadith #132:
+    ✗ english_translation: EMPTY
+
+  chap_75.json - Chapter 75
+  ✗ english: EMPTY
+
+  Hadith #133:
+    ✗ english_translation: EMPTY
+
+  Hadith #134:
+    ✗ english_translation: EMPTY
+
+  Hadith #135:
+    ✗ english_translation: EMPTY
+
+  Hadith #136:
+    ✗ english_translation: EMPTY
+
+  chap_76.json - Chapter 76
+  ✗ english: EMPTY
+
+  Hadith #137:
+    ✗ english_translation: EMPTY
+
+  chap_77.json - Chapter 77
+  ✗ english: EMPTY
+
+  Hadith #138:
+    ✗ english_translation: EMPTY
+
+  Hadith #139:
+    ✗ english_translation: EMPTY
+
+  Hadith #140:
+    ✗ english_translation: EMPTY
+
+  chap_78.json - Chapter 78
+  ✗ english: EMPTY
+
+  Hadith #141:
+    ✗ english_translation: EMPTY
+
+  chap_79.json - Chapter 79
+  ✗ english: EMPTY
+
+  Hadith #142:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 23
+  - Book metadata: 0
+  - Chapters: 23
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 56: The seeing of rasoolullah in a dream
+Generated: 2026-08-17 13:49:02
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_56.json - Chapter 56
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

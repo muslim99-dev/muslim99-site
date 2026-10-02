@@ -1,0 +1,59 @@
+VALIDATION REPORT - Book 42: The book of al-fara' and al-'atirah
+Generated: 2026-08-13 06:48:48
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_851.json - Chapter 851
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1907.json - Chapter 1907
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1908.json - Chapter 1908
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1909.json - Chapter 1909
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1910.json - Chapter 1910
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1911.json - Chapter 1911
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1912.json - Chapter 1912
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1913.json - Chapter 1913
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1914.json - Chapter 1914
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1915.json - Chapter 1915
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1916.json - Chapter 1916
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 23
+  - Book metadata: 1
+  - Chapters: 22
+  - Hadiths: 0
+================================================================================

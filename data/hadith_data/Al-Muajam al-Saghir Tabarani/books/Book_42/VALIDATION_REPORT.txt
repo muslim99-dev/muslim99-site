@@ -1,0 +1,51 @@
+VALIDATION REPORT - Book 42: 
+Generated: 2026-08-22 13:16:00
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1108.json - Chapter 1108
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1180:
+    ✗ english_translation: EMPTY
+
+  chap_1109.json - Chapter 1109
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1181:
+    ✗ english_translation: EMPTY
+
+  chap_1110.json - Chapter 1110
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1182:
+    ✗ english_translation: EMPTY
+
+  chap_1111.json - Chapter 1111
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1183:
+    ✗ english_translation: EMPTY
+
+  chap_1112.json - Chapter 1112
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1184:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 17
+  - Book metadata: 2
+  - Chapters: 15
+  - Hadiths: 0
+================================================================================

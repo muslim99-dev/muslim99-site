@@ -1,0 +1,559 @@
+VALIDATION REPORT - Book 15: Jihad (kitab al-jihad)
+Generated: 2026-08-13 01:16:13
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_810.json - Chapter 810
+  ✗ arabic: EMPTY
+
+  chap_811.json - Chapter 811
+  ✗ arabic: EMPTY
+
+  chap_812.json - Chapter 812
+  ✗ arabic: EMPTY
+
+  chap_813.json - Chapter 813
+  ✗ arabic: EMPTY
+
+  chap_814.json - Chapter 814
+  ✗ arabic: EMPTY
+
+  chap_815.json - Chapter 815
+  ✗ arabic: EMPTY
+
+  chap_816.json - Chapter 816
+  ✗ arabic: EMPTY
+
+  chap_817.json - Chapter 817
+  ✗ arabic: EMPTY
+
+  chap_818.json - Chapter 818
+  ✗ arabic: EMPTY
+
+  chap_819.json - Chapter 819
+  ✗ arabic: EMPTY
+
+  chap_820.json - Chapter 820
+  ✗ arabic: EMPTY
+
+  chap_821.json - Chapter 821
+  ✗ arabic: EMPTY
+
+  chap_822.json - Chapter 822
+  ✗ arabic: EMPTY
+
+  chap_823.json - Chapter 823
+  ✗ arabic: EMPTY
+
+  chap_824.json - Chapter 824
+  ✗ arabic: EMPTY
+
+  chap_825.json - Chapter 825
+  ✗ arabic: EMPTY
+
+  chap_826.json - Chapter 826
+  ✗ arabic: EMPTY
+
+  chap_827.json - Chapter 827
+  ✗ arabic: EMPTY
+
+  chap_828.json - Chapter 828
+  ✗ arabic: EMPTY
+
+  chap_829.json - Chapter 829
+  ✗ arabic: EMPTY
+
+  chap_830.json - Chapter 830
+  ✗ arabic: EMPTY
+
+  chap_831.json - Chapter 831
+  ✗ arabic: EMPTY
+
+  chap_832.json - Chapter 832
+  ✗ arabic: EMPTY
+
+  chap_833.json - Chapter 833
+  ✗ arabic: EMPTY
+
+  chap_834.json - Chapter 834
+  ✗ arabic: EMPTY
+
+  chap_835.json - Chapter 835
+  ✗ arabic: EMPTY
+
+  chap_836.json - Chapter 836
+  ✗ arabic: EMPTY
+
+  chap_837.json - Chapter 837
+  ✗ arabic: EMPTY
+
+  chap_838.json - Chapter 838
+  ✗ arabic: EMPTY
+
+  chap_839.json - Chapter 839
+  ✗ arabic: EMPTY
+
+  chap_840.json - Chapter 840
+  ✗ arabic: EMPTY
+
+  chap_841.json - Chapter 841
+  ✗ arabic: EMPTY
+
+  chap_842.json - Chapter 842
+  ✗ arabic: EMPTY
+
+  chap_843.json - Chapter 843
+  ✗ arabic: EMPTY
+
+  chap_844.json - Chapter 844
+  ✗ arabic: EMPTY
+
+  chap_845.json - Chapter 845
+  ✗ arabic: EMPTY
+
+  chap_846.json - Chapter 846
+  ✗ arabic: EMPTY
+
+  chap_847.json - Chapter 847
+  ✗ arabic: EMPTY
+
+  chap_848.json - Chapter 848
+  ✗ arabic: EMPTY
+
+  chap_849.json - Chapter 849
+  ✗ arabic: EMPTY
+
+  chap_850.json - Chapter 850
+  ✗ arabic: EMPTY
+
+  chap_851.json - Chapter 851
+  ✗ arabic: EMPTY
+
+  chap_852.json - Chapter 852
+  ✗ arabic: EMPTY
+
+  chap_853.json - Chapter 853
+  ✗ arabic: EMPTY
+
+  chap_854.json - Chapter 854
+  ✗ arabic: EMPTY
+
+  chap_855.json - Chapter 855
+  ✗ arabic: EMPTY
+
+  chap_856.json - Chapter 856
+  ✗ arabic: EMPTY
+
+  chap_857.json - Chapter 857
+  ✗ arabic: EMPTY
+
+  chap_858.json - Chapter 858
+  ✗ arabic: EMPTY
+
+  chap_859.json - Chapter 859
+  ✗ arabic: EMPTY
+
+  chap_860.json - Chapter 860
+  ✗ arabic: EMPTY
+
+  chap_861.json - Chapter 861
+  ✗ arabic: EMPTY
+
+  chap_862.json - Chapter 862
+  ✗ arabic: EMPTY
+
+  chap_863.json - Chapter 863
+  ✗ arabic: EMPTY
+
+  chap_864.json - Chapter 864
+  ✗ arabic: EMPTY
+
+  chap_865.json - Chapter 865
+  ✗ arabic: EMPTY
+
+  chap_866.json - Chapter 866
+  ✗ arabic: EMPTY
+
+  chap_867.json - Chapter 867
+  ✗ arabic: EMPTY
+
+  chap_868.json - Chapter 868
+  ✗ arabic: EMPTY
+
+  chap_869.json - Chapter 869
+  ✗ arabic: EMPTY
+
+  chap_870.json - Chapter 870
+  ✗ arabic: EMPTY
+
+  chap_871.json - Chapter 871
+  ✗ arabic: EMPTY
+
+  chap_872.json - Chapter 872
+  ✗ arabic: EMPTY
+
+  chap_873.json - Chapter 873
+  ✗ arabic: EMPTY
+
+  chap_874.json - Chapter 874
+  ✗ arabic: EMPTY
+
+  chap_875.json - Chapter 875
+  ✗ arabic: EMPTY
+
+  chap_876.json - Chapter 876
+  ✗ arabic: EMPTY
+
+  chap_877.json - Chapter 877
+  ✗ arabic: EMPTY
+
+  chap_878.json - Chapter 878
+  ✗ arabic: EMPTY
+
+  chap_879.json - Chapter 879
+  ✗ arabic: EMPTY
+
+  chap_880.json - Chapter 880
+  ✗ arabic: EMPTY
+
+  chap_881.json - Chapter 881
+  ✗ arabic: EMPTY
+
+  chap_882.json - Chapter 882
+  ✗ arabic: EMPTY
+
+  chap_883.json - Chapter 883
+  ✗ arabic: EMPTY
+
+  chap_884.json - Chapter 884
+  ✗ arabic: EMPTY
+
+  chap_885.json - Chapter 885
+  ✗ arabic: EMPTY
+
+  chap_886.json - Chapter 886
+  ✗ arabic: EMPTY
+
+  chap_887.json - Chapter 887
+  ✗ arabic: EMPTY
+
+  chap_888.json - Chapter 888
+  ✗ arabic: EMPTY
+
+  chap_889.json - Chapter 889
+  ✗ arabic: EMPTY
+
+  chap_890.json - Chapter 890
+  ✗ arabic: EMPTY
+
+  chap_891.json - Chapter 891
+  ✗ arabic: EMPTY
+
+  chap_892.json - Chapter 892
+  ✗ arabic: EMPTY
+
+  chap_893.json - Chapter 893
+  ✗ arabic: EMPTY
+
+  chap_894.json - Chapter 894
+  ✗ arabic: EMPTY
+
+  chap_895.json - Chapter 895
+  ✗ arabic: EMPTY
+
+  chap_896.json - Chapter 896
+  ✗ arabic: EMPTY
+
+  chap_897.json - Chapter 897
+  ✗ arabic: EMPTY
+
+  chap_898.json - Chapter 898
+  ✗ arabic: EMPTY
+
+  chap_899.json - Chapter 899
+  ✗ arabic: EMPTY
+
+  chap_900.json - Chapter 900
+  ✗ arabic: EMPTY
+
+  chap_901.json - Chapter 901
+  ✗ arabic: EMPTY
+
+  chap_902.json - Chapter 902
+  ✗ arabic: EMPTY
+
+  chap_903.json - Chapter 903
+  ✗ arabic: EMPTY
+
+  chap_904.json - Chapter 904
+  ✗ arabic: EMPTY
+
+  chap_905.json - Chapter 905
+  ✗ arabic: EMPTY
+
+  chap_906.json - Chapter 906
+  ✗ arabic: EMPTY
+
+  chap_907.json - Chapter 907
+  ✗ arabic: EMPTY
+
+  chap_908.json - Chapter 908
+  ✗ arabic: EMPTY
+
+  chap_909.json - Chapter 909
+  ✗ arabic: EMPTY
+
+  chap_910.json - Chapter 910
+  ✗ arabic: EMPTY
+
+  chap_911.json - Chapter 911
+  ✗ arabic: EMPTY
+
+  Hadith #2643:
+    ✗ english_translation: EMPTY
+
+  chap_912.json - Chapter 912
+  ✗ arabic: EMPTY
+
+  chap_913.json - Chapter 913
+  ✗ arabic: EMPTY
+
+  chap_914.json - Chapter 914
+  ✗ arabic: EMPTY
+
+  chap_915.json - Chapter 915
+  ✗ arabic: EMPTY
+
+  chap_916.json - Chapter 916
+  ✗ arabic: EMPTY
+
+  chap_917.json - Chapter 917
+  ✗ arabic: EMPTY
+
+  chap_918.json - Chapter 918
+  ✗ arabic: EMPTY
+
+  chap_919.json - Chapter 919
+  ✗ arabic: EMPTY
+
+  chap_920.json - Chapter 920
+  ✗ arabic: EMPTY
+
+  chap_921.json - Chapter 921
+  ✗ arabic: EMPTY
+
+  chap_922.json - Chapter 922
+  ✗ arabic: EMPTY
+
+  chap_923.json - Chapter 923
+  ✗ arabic: EMPTY
+
+  chap_924.json - Chapter 924
+  ✗ arabic: EMPTY
+
+  chap_925.json - Chapter 925
+  ✗ arabic: EMPTY
+
+  chap_926.json - Chapter 926
+  ✗ arabic: EMPTY
+
+  chap_927.json - Chapter 927
+  ✗ arabic: EMPTY
+
+  chap_928.json - Chapter 928
+  ✗ arabic: EMPTY
+
+  chap_929.json - Chapter 929
+  ✗ arabic: EMPTY
+
+  chap_930.json - Chapter 930
+  ✗ arabic: EMPTY
+
+  chap_931.json - Chapter 931
+  ✗ arabic: EMPTY
+
+  chap_932.json - Chapter 932
+  ✗ arabic: EMPTY
+
+  chap_933.json - Chapter 933
+  ✗ arabic: EMPTY
+
+  chap_934.json - Chapter 934
+  ✗ arabic: EMPTY
+
+  chap_935.json - Chapter 935
+  ✗ arabic: EMPTY
+
+  chap_936.json - Chapter 936
+  ✗ arabic: EMPTY
+
+  chap_937.json - Chapter 937
+  ✗ arabic: EMPTY
+
+  chap_938.json - Chapter 938
+  ✗ arabic: EMPTY
+
+  chap_939.json - Chapter 939
+  ✗ arabic: EMPTY
+
+  chap_940.json - Chapter 940
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_941.json - Chapter 941
+  ✗ arabic: EMPTY
+
+  chap_942.json - Chapter 942
+  ✗ arabic: EMPTY
+
+  chap_943.json - Chapter 943
+  ✗ arabic: EMPTY
+
+  chap_944.json - Chapter 944
+  ✗ arabic: EMPTY
+
+  chap_945.json - Chapter 945
+  ✗ arabic: EMPTY
+
+  chap_946.json - Chapter 946
+  ✗ arabic: EMPTY
+
+  chap_947.json - Chapter 947
+  ✗ arabic: EMPTY
+
+  chap_948.json - Chapter 948
+  ✗ arabic: EMPTY
+
+  chap_949.json - Chapter 949
+  ✗ arabic: EMPTY
+
+  chap_950.json - Chapter 950
+  ✗ arabic: EMPTY
+
+  chap_951.json - Chapter 951
+  ✗ arabic: EMPTY
+
+  chap_952.json - Chapter 952
+  ✗ arabic: EMPTY
+
+  chap_953.json - Chapter 953
+  ✗ arabic: EMPTY
+
+  chap_954.json - Chapter 954
+  ✗ arabic: EMPTY
+
+  chap_955.json - Chapter 955
+  ✗ arabic: EMPTY
+
+  chap_956.json - Chapter 956
+  ✗ arabic: EMPTY
+
+  chap_957.json - Chapter 957
+  ✗ arabic: EMPTY
+
+  chap_958.json - Chapter 958
+  ✗ arabic: EMPTY
+
+  chap_959.json - Chapter 959
+  ✗ arabic: EMPTY
+
+  chap_960.json - Chapter 960
+  ✗ arabic: EMPTY
+
+  chap_961.json - Chapter 961
+  ✗ arabic: EMPTY
+
+  chap_962.json - Chapter 962
+  ✗ arabic: EMPTY
+
+  chap_963.json - Chapter 963
+  ✗ arabic: EMPTY
+
+  chap_964.json - Chapter 964
+  ✗ arabic: EMPTY
+
+  chap_965.json - Chapter 965
+  ✗ arabic: EMPTY
+
+  chap_966.json - Chapter 966
+  ✗ arabic: EMPTY
+
+  chap_967.json - Chapter 967
+  ✗ arabic: EMPTY
+
+  chap_968.json - Chapter 968
+  ✗ arabic: EMPTY
+
+  chap_969.json - Chapter 969
+  ✗ arabic: EMPTY
+
+  chap_970.json - Chapter 970
+  ✗ arabic: EMPTY
+
+  chap_971.json - Chapter 971
+  ✗ arabic: EMPTY
+
+  chap_972.json - Chapter 972
+  ✗ arabic: EMPTY
+
+  chap_973.json - Chapter 973
+  ✗ arabic: EMPTY
+
+  chap_974.json - Chapter 974
+  ✗ arabic: EMPTY
+
+  chap_975.json - Chapter 975
+  ✗ arabic: EMPTY
+
+  chap_976.json - Chapter 976
+  ✗ arabic: EMPTY
+
+  chap_977.json - Chapter 977
+  ✗ arabic: EMPTY
+
+  chap_978.json - Chapter 978
+  ✗ arabic: EMPTY
+
+  chap_979.json - Chapter 979
+  ✗ arabic: EMPTY
+
+  chap_980.json - Chapter 980
+  ✗ arabic: EMPTY
+
+  chap_981.json - Chapter 981
+  ✗ arabic: EMPTY
+
+  chap_982.json - Chapter 982
+  ✗ arabic: EMPTY
+
+  chap_983.json - Chapter 983
+  ✗ arabic: EMPTY
+
+  chap_984.json - Chapter 984
+  ✗ arabic: EMPTY
+
+  chap_985.json - Chapter 985
+  ✗ arabic: EMPTY
+
+  chap_986.json - Chapter 986
+  ✗ arabic: EMPTY
+
+  chap_987.json - Chapter 987
+  ✗ arabic: EMPTY
+
+  chap_988.json - Chapter 988
+  ✗ arabic: EMPTY
+
+  chap_989.json - Chapter 989
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 183
+  - Book metadata: 1
+  - Chapters: 182
+  - Hadiths: 0
+================================================================================

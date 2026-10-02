@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 33: Narration of the use of perfume by the messenger of allah (peace be upon him).
+Generated: 2026-08-17 13:43:00
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_33.json - Chapter 33
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

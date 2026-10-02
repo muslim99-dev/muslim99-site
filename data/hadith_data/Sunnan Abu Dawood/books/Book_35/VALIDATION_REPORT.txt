@@ -1,0 +1,78 @@
+VALIDATION REPORT - Book 35: Combing the hair (kitab al-tarajjul)
+Generated: 2026-08-13 02:09:44
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1507.json - Chapter 1507
+  ✗ arabic: EMPTY
+
+  chap_1508.json - Chapter 1508
+  ✗ arabic: EMPTY
+
+  chap_1509.json - Chapter 1509
+  ✗ arabic: EMPTY
+
+  chap_1510.json - Chapter 1510
+  ✗ arabic: EMPTY
+
+  chap_1511.json - Chapter 1511
+  ✗ arabic: EMPTY
+
+  chap_1512.json - Chapter 1512
+  ✗ arabic: EMPTY
+
+  chap_1513.json - Chapter 1513
+  ✗ arabic: EMPTY
+
+  chap_1514.json - Chapter 1514
+  ✗ arabic: EMPTY
+
+  chap_1515.json - Chapter 1515
+  ✗ arabic: EMPTY
+
+  chap_1516.json - Chapter 1516
+  ✗ arabic: EMPTY
+
+  chap_1517.json - Chapter 1517
+  ✗ arabic: EMPTY
+
+  chap_1518.json - Chapter 1518
+  ✗ arabic: EMPTY
+
+  chap_1519.json - Chapter 1519
+  ✗ arabic: EMPTY
+
+  chap_1520.json - Chapter 1520
+  ✗ arabic: EMPTY
+
+  chap_1521.json - Chapter 1521
+  ✗ arabic: EMPTY
+
+  chap_1522.json - Chapter 1522
+  ✗ arabic: EMPTY
+
+  chap_1523.json - Chapter 1523
+  ✗ arabic: EMPTY
+
+  chap_1524.json - Chapter 1524
+  ✗ arabic: EMPTY
+
+  chap_1525.json - Chapter 1525
+  ✗ arabic: EMPTY
+
+  chap_1526.json - Chapter 1526
+  ✗ arabic: EMPTY
+
+  chap_1527.json - Chapter 1527
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 22
+  - Book metadata: 1
+  - Chapters: 21
+  - Hadiths: 0
+================================================================================

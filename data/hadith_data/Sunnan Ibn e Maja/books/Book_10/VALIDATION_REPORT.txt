@@ -1,0 +1,99 @@
+VALIDATION REPORT - Book 10: The chapters regarding zakat
+Generated: 2026-08-13 16:24:02
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_561.json - Chapter 561
+  ✗ arabic: EMPTY
+
+  chap_562.json - Chapter 562
+  ✗ arabic: EMPTY
+
+  chap_563.json - Chapter 563
+  ✗ arabic: EMPTY
+
+  chap_564.json - Chapter 564
+  ✗ arabic: EMPTY
+
+  chap_565.json - Chapter 565
+  ✗ arabic: EMPTY
+
+  chap_566.json - Chapter 566
+  ✗ arabic: EMPTY
+
+  chap_567.json - Chapter 567
+  ✗ arabic: EMPTY
+
+  chap_568.json - Chapter 568
+  ✗ arabic: EMPTY
+
+  chap_569.json - Chapter 569
+  ✗ arabic: EMPTY
+
+  chap_570.json - Chapter 570
+  ✗ arabic: EMPTY
+
+  chap_571.json - Chapter 571
+  ✗ arabic: EMPTY
+
+  chap_572.json - Chapter 572
+  ✗ arabic: EMPTY
+
+  chap_573.json - Chapter 573
+  ✗ arabic: EMPTY
+
+  chap_574.json - Chapter 574
+  ✗ arabic: EMPTY
+
+  chap_575.json - Chapter 575
+  ✗ arabic: EMPTY
+
+  chap_576.json - Chapter 576
+  ✗ arabic: EMPTY
+
+  chap_577.json - Chapter 577
+  ✗ arabic: EMPTY
+
+  chap_578.json - Chapter 578
+  ✗ arabic: EMPTY
+
+  chap_579.json - Chapter 579
+  ✗ arabic: EMPTY
+
+  chap_580.json - Chapter 580
+  ✗ arabic: EMPTY
+
+  chap_581.json - Chapter 581
+  ✗ arabic: EMPTY
+
+  chap_582.json - Chapter 582
+  ✗ arabic: EMPTY
+
+  chap_583.json - Chapter 583
+  ✗ arabic: EMPTY
+
+  chap_584.json - Chapter 584
+  ✗ arabic: EMPTY
+
+  chap_585.json - Chapter 585
+  ✗ arabic: EMPTY
+
+  chap_586.json - Chapter 586
+  ✗ arabic: EMPTY
+
+  chap_587.json - Chapter 587
+  ✗ arabic: EMPTY
+
+  chap_588.json - Chapter 588
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 29
+  - Book metadata: 1
+  - Chapters: 28
+  - Hadiths: 0
+================================================================================

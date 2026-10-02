@@ -1,0 +1,43 @@
+{
+  "number": 543,
+  "arabic": "",
+  "urdu": "سورت سے پہلے سورۃ فاتحہ پڑھنے کا بیان۔",
+  "english": "",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 903,
+      "arabic_text": "أَخْبَرَنَا قُتَيْبَةُ بْنُ سَعِيدٍ قال:‏‏‏‏ حَدَّثَنَا أَبُو عَوَانَةَ، ‏‏‏‏‏‏عَنْ قَتَادَةَ، ‏‏‏‏‏‏عَنْ أَنَسٍ قال:‏‏‏‏ كَانَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَأَبُو بَكْرٍ، ‏‏‏‏‏‏وَعُمَرُ رَضِيَ اللَّهُ عَنْهُمَا يَسْتَفْتِحُونَ الْقِرَاءَةَ بِ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ سورة الفاتحة آية 2 .",
+      "urdu_translation": "نبی اکرم صلی اللہ علیہ وسلم، ابوبکر اور عمر رضی اللہ عنہم «الحمد لله رب العالمين» سے قرآت شروع کرتے تھے۔",
+      "english_translation": "It was narrated from Anas that:\nThe Prophet (ﷺ), Abu Bakr, and Umar, may Allah be pleased with them both, would start their recitation with:  All the praise and thanks be to Allah, the Lord of all that exists.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "انس رضی اللہ عنہ کہتے ہیں کہ  نبی اکرم صلی اللہ علیہ وسلم، ابوبکر اور عمر رضی اللہ عنہم «الحمد لله رب العالمين» سے قرآت شروع کرتے تھے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "903",
+        "arabic_number": "ترقیم  : 903"
+      }
+    },
+    {
+      "hadith_number": 904,
+      "arabic_text": "أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدِ بْنِ عَبْدِ الرَّحْمَنِ الزُّهْرِيُّ قال:‏‏‏‏ حَدَّثَنَا سُفْيَانُ، ‏‏‏‏‏‏عَنْ أَيُّوبَ، ‏‏‏‏‏‏عَنْ قَتَادَةَ، ‏‏‏‏‏‏عَنْ أَنَسٍ قال:‏‏‏‏ صَلَّيْتُ مَعَ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَمَعَ أَبِي بَكْرٍ، ‏‏‏‏‏‏وَعُمَرَ رَضِيَ اللَّهُ عَنْهُمَا فَافْتَتَحُوا بِ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ سورة الفاتحة آية 2 .",
+      "urdu_translation": "میں نے نبی اکرم صلی اللہ علیہ وسلم کے ساتھ اور ابوبکر اور عمر رضی اللہ عنہم کے ساتھ نماز پڑھی تو ان لوگوں نے «الحمد لله رب العالمين» سے قرآت شروع کی۔",
+      "english_translation": "It was narrated from Anas:\n I prayed with the Prophet (ﷺ) and with Abu Bakr and Umar, may Allah be pleased with them both, and they started with  All the praise and thanks be to Allah, the Lord of all that exists.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "انس رضی اللہ عنہ کہتے ہیں کہ  میں نے نبی اکرم صلی اللہ علیہ وسلم کے ساتھ اور ابوبکر اور عمر رضی اللہ عنہم کے ساتھ نماز پڑھی تو ان لوگوں نے «الحمد لله رب العالمين» سے قرآت شروع کی۔"
+        }
+      ],
+      "reference": {
+        "international_number": "904",
+        "arabic_number": "ترقیم  : 904"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+VALIDATION REPORT - Book 22: 
+Generated: 2026-08-16 08:12:35
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_2405.json - Chapter 2405
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #11392:
+    ✗ english_translation: EMPTY
+
+  Hadith #11393:
+    ✗ english_translation: EMPTY
+
+  Hadith #11394:
+    ✗ english_translation: EMPTY
+
+  Hadith #11395:
+    ✗ english_translation: EMPTY
+
+  chap_2406.json - Chapter 2406
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #11396:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 11
+  - Book metadata: 2
+  - Chapters: 9
+  - Hadiths: 0
+================================================================================

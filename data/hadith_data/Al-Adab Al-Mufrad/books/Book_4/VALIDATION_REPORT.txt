@@ -1,0 +1,48 @@
+VALIDATION REPORT - Book 4: Looking after girls
+Generated: 2026-08-22 06:02:11
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_41.json - Chapter 41
+  ✗ english: EMPTY
+
+  Hadith #76:
+    ✗ english_translation: EMPTY
+
+  Hadith #77:
+    ✗ english_translation: EMPTY
+
+  Hadith #78:
+    ✗ english_translation: EMPTY
+
+  chap_42.json - Chapter 42
+  ✗ english: EMPTY
+
+  Hadith #79:
+    ✗ english_translation: EMPTY
+
+  chap_43.json - Chapter 43
+  ✗ english: EMPTY
+
+  Hadith #80:
+    ✗ english_translation: EMPTY
+
+  Hadith #81:
+    ✗ english_translation: EMPTY
+
+  Hadith #82:
+    ✗ english_translation: EMPTY
+
+  chap_44.json - Chapter 44
+  ✗ english: EMPTY
+
+  Hadith #83:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 12
+  - Book metadata: 0
+  - Chapters: 12
+  - Hadiths: 0
+================================================================================

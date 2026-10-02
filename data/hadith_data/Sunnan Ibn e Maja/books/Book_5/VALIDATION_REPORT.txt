@@ -1,0 +1,36 @@
+VALIDATION REPORT - Book 5: The book of the adhan and the sunnah regarding it
+Generated: 2026-08-13 15:40:07
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_197.json - Chapter 197
+  ✗ arabic: EMPTY
+
+  chap_198.json - Chapter 198
+  ✗ arabic: EMPTY
+
+  chap_199.json - Chapter 199
+  ✗ arabic: EMPTY
+
+  chap_200.json - Chapter 200
+  ✗ arabic: EMPTY
+
+  chap_201.json - Chapter 201
+  ✗ arabic: EMPTY
+
+  chap_202.json - Chapter 202
+  ✗ arabic: EMPTY
+
+  chap_203.json - Chapter 203
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 8
+  - Book metadata: 1
+  - Chapters: 7
+  - Hadiths: 0
+================================================================================

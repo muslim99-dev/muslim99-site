@@ -1,0 +1,23 @@
+VALIDATION REPORT - Book 47: 
+Generated: 2026-08-25 06:31:19
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1125.json - Chapter 1125
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1197:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 5
+  - Book metadata: 2
+  - Chapters: 3
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,99 @@
+VALIDATION REPORT - Book 45: Letters
+Generated: 2026-08-22 06:38:18
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_523.json - Chapter 523
+  ✗ english: EMPTY
+
+  Hadith #1122:
+    ✗ english_translation: EMPTY
+
+  chap_524.json - Chapter 524
+  ✗ english: EMPTY
+
+  Hadith #1123:
+    ✗ english_translation: EMPTY
+
+  chap_525.json - Chapter 525
+  ✗ english: EMPTY
+
+  Hadith #1124:
+    ✗ english_translation: EMPTY
+
+  chap_526.json - Chapter 526
+  ✗ english: EMPTY
+
+  Hadith #1125:
+    ✗ english_translation: EMPTY
+
+  Hadith #1126:
+    ✗ english_translation: EMPTY
+
+  chap_527.json - Chapter 527
+  ✗ english: EMPTY
+
+  Hadith #1127:
+    ✗ english_translation: EMPTY
+
+  Hadith #1128:
+    ✗ english_translation: EMPTY
+
+  chap_528.json - Chapter 528
+  ✗ english: EMPTY
+
+  Hadith #1129:
+    ✗ english_translation: EMPTY
+
+  Hadith #1130:
+    ✗ english_translation: EMPTY
+
+  Hadith #1131:
+    ✗ english_translation: EMPTY
+
+  Hadith #1132:
+    ✗ english_translation: EMPTY
+
+  Hadith #1133:
+    ✗ english_translation: EMPTY
+
+  chap_529.json - Chapter 529
+  ✗ english: EMPTY
+
+  Hadith #1134:
+    ✗ english_translation: EMPTY
+
+  Hadith #1135:
+    ✗ english_translation: EMPTY
+
+  chap_530.json - Chapter 530
+  ✗ english: EMPTY
+
+  Hadith #1136:
+    ✗ english_translation: EMPTY
+
+  chap_531.json - Chapter 531
+  ✗ english: EMPTY
+
+  Hadith #1137:
+    ✗ english_translation: EMPTY
+
+  chap_532.json - Chapter 532
+  ✗ english: EMPTY
+
+  Hadith #1138:
+    ✗ english_translation: EMPTY
+
+  Hadith #1139:
+    ✗ english_translation: EMPTY
+
+  Hadith #1140:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 29
+  - Book metadata: 0
+  - Chapters: 29
+  - Hadiths: 0
+================================================================================

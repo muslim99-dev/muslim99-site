@@ -1,0 +1,168 @@
+VALIDATION REPORT - Book 56: Meddling and harshness
+Generated: 2026-08-22 06:45:13
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_621.json - Chapter 621
+  ✗ english: EMPTY
+
+  Hadith #1290:
+    ✗ english_translation: EMPTY
+
+  Hadith #1291:
+    ✗ english_translation: EMPTY
+
+  Hadith #1292:
+    ✗ english_translation: EMPTY
+
+  chap_622.json - Chapter 622
+  ✗ english: EMPTY
+
+  Hadith #1293:
+    ✗ english_translation: EMPTY
+
+  Hadith #1294:
+    ✗ english_translation: EMPTY
+
+  Hadith #1295:
+    ✗ english_translation: EMPTY
+
+  Hadith #1296:
+    ✗ english_translation: EMPTY
+
+  chap_623.json - Chapter 623
+  ✗ english: EMPTY
+
+  Hadith #1297:
+    ✗ english_translation: EMPTY
+
+  chap_624.json - Chapter 624
+  ✗ english: EMPTY
+
+  Hadith #1298:
+    ✗ english_translation: EMPTY
+
+  Hadith #1299:
+    ✗ english_translation: EMPTY
+
+  Hadith #1300:
+    ✗ english_translation: EMPTY
+
+  chap_625.json - Chapter 625
+  ✗ english: EMPTY
+
+  Hadith #1301:
+    ✗ english_translation: EMPTY
+
+  chap_626.json - Chapter 626
+  ✗ english: EMPTY
+
+  Hadith #1302:
+    ✗ english_translation: EMPTY
+
+  chap_627.json - Chapter 627
+  ✗ english: EMPTY
+
+  Hadith #1303:
+    ✗ english_translation: EMPTY
+
+  Hadith #1304:
+    ✗ english_translation: EMPTY
+
+  Hadith #1305:
+    ✗ english_translation: EMPTY
+
+  chap_628.json - Chapter 628
+  ✗ english: EMPTY
+
+  Hadith #1306:
+    ✗ english_translation: EMPTY
+
+  Hadith #1307:
+    ✗ english_translation: EMPTY
+
+  chap_629.json - Chapter 629
+  ✗ english: EMPTY
+
+  Hadith #1308:
+    ✗ english_translation: EMPTY
+
+  chap_630.json - Chapter 630
+  ✗ english: EMPTY
+
+  Hadith #1309:
+    ✗ english_translation: EMPTY
+
+  chap_631.json - Chapter 631
+  ✗ english: EMPTY
+
+  Hadith #1310:
+    ✗ english_translation: EMPTY
+
+  chap_632.json - Chapter 632
+  ✗ english: EMPTY
+
+  Hadith #1311:
+    ✗ english_translation: EMPTY
+
+  Hadith #1312:
+    ✗ english_translation: EMPTY
+
+  chap_633.json - Chapter 633
+  ✗ english: EMPTY
+
+  Hadith #1313:
+    ✗ english_translation: EMPTY
+
+  Hadith #1314:
+    ✗ english_translation: EMPTY
+
+  chap_634.json - Chapter 634
+  ✗ english: EMPTY
+
+  Hadith #1315:
+    ✗ english_translation: EMPTY
+
+  chap_635.json - Chapter 635
+  ✗ english: EMPTY
+
+  Hadith #1316:
+    ✗ english_translation: EMPTY
+
+  chap_636.json - Chapter 636
+  ✗ english: EMPTY
+
+  Hadith #1317:
+    ✗ english_translation: EMPTY
+
+  chap_637.json - Chapter 637
+  ✗ english: EMPTY
+
+  Hadith #1318:
+    ✗ english_translation: EMPTY
+
+  Hadith #1319:
+    ✗ english_translation: EMPTY
+
+  chap_638.json - Chapter 638
+  ✗ english: EMPTY
+
+  Hadith #1320:
+    ✗ english_translation: EMPTY
+
+  Hadith #1321:
+    ✗ english_translation: EMPTY
+
+  chap_639.json - Chapter 639
+  ✗ english: EMPTY
+
+  Hadith #1322:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 52
+  - Book metadata: 0
+  - Chapters: 52
+  - Hadiths: 0
+================================================================================

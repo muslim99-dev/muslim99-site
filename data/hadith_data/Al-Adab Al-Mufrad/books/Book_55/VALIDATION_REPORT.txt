@@ -1,0 +1,36 @@
+VALIDATION REPORT - Book 55: Recognition
+Generated: 2026-08-22 06:44:03
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_619.json - Chapter 619
+  ✗ english: EMPTY
+
+  Hadith #1288:
+    ✗ english_translation: EMPTY
+
+  chap_620.json - Chapter 620
+  ✗ english: EMPTY
+
+  Hadith #1289:
+    ✗ english_translation: EMPTY
+
+  chap_621.json - Chapter 621
+  ✗ english: EMPTY
+
+  Hadith #1290:
+    ✗ english_translation: EMPTY
+
+  Hadith #1291:
+    ✗ english_translation: EMPTY
+
+  Hadith #1292:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 8
+  - Book metadata: 0
+  - Chapters: 8
+  - Hadiths: 0
+================================================================================

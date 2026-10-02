@@ -1,0 +1,39 @@
+VALIDATION REPORT - Book 7: Prayer (kitab al-salat): prostration while reciting the qur'an
+Generated: 2026-08-13 00:22:46
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_448.json - Chapter 448
+  ✗ arabic: EMPTY
+
+  chap_449.json - Chapter 449
+  ✗ arabic: EMPTY
+
+  chap_450.json - Chapter 450
+  ✗ arabic: EMPTY
+
+  chap_451.json - Chapter 451
+  ✗ arabic: EMPTY
+
+  chap_452.json - Chapter 452
+  ✗ arabic: EMPTY
+
+  chap_453.json - Chapter 453
+  ✗ arabic: EMPTY
+
+  chap_454.json - Chapter 454
+  ✗ arabic: EMPTY
+
+  chap_455.json - Chapter 455
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 9
+  - Book metadata: 1
+  - Chapters: 8
+  - Hadiths: 0
+================================================================================

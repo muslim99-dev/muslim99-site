@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { GradeBadge } from "@/components/hadith/HadithUI";
 
 type HadithResult = {
   collection: string;
@@ -94,30 +95,42 @@ export default function HadithSearchBox({
   const searched = books !== null || chapters !== null || hadiths !== null;
 
   return (
-    <div className="rounded-card border border-border bg-white p-4">
+    <div className="rounded-card border border-border bg-white p-3 shadow-sm">
       <form onSubmit={(e) => e.preventDefault()} className="relative">
+        <svg
+          aria-hidden
+          viewBox="0 0 20 20"
+          className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-muted"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+        >
+          <circle cx="9" cy="9" r="6" />
+          <path d="m14 14 4 4" strokeLinecap="round" />
+        </svg>
         <input
+          type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder={placeholder ?? defaultPlaceholder}
-          className="w-full rounded-full border border-border px-4 py-2 pr-9 text-sm outline-none focus:border-primary"
+          className="w-full rounded-full border border-border bg-bg py-2.5 pl-10 pr-10 text-sm text-teal-dark outline-none transition-colors placeholder:text-muted/70 focus:border-primary focus:bg-white"
         />
         {loading && (
-          <span className="pointer-events-none absolute right-3.5 top-1/2 -translate-y-1/2 text-xs text-muted">…</span>
+          <span className="pointer-events-none absolute right-4 top-1/2 h-4 w-4 -translate-y-1/2 animate-spin rounded-full border-2 border-primary/30 border-t-primary" />
         )}
       </form>
 
-      {error && <p className="mt-3 text-xs text-muted">{error}</p>}
+      {error && <p className="mt-3 px-2 text-xs text-muted">{error}</p>}
 
-      {searched && !hasResults && !error && <p className="mt-3 text-sm text-muted">No matches for "{query}".</p>}
+      {searched && !hasResults && !error && <p className="mt-3 px-2 text-sm text-muted">No matches for "{query}".</p>}
 
       {books && books.length > 0 && (
-        <div className="mt-4 space-y-2">
+        <div className="mt-3 max-h-[28rem] space-y-2 overflow-y-auto pr-1">
           {books.map((b) => (
             <Link
               key={`book-${b.number}`}
               href={`/hadith/${collectionSlug}/${b.number}`}
-              className="block rounded-card border border-border px-4 py-2.5 transition-transform hover:-translate-y-0.5"
+              className="block rounded-card border border-border px-4 py-2.5 transition-transform hover:border-primary/40 hover:bg-aqua/30"
             >
               <span className="text-sm text-teal-dark">
                 {b.number}. {b.title}
@@ -129,12 +142,12 @@ export default function HadithSearchBox({
       )}
 
       {chapters && chapters.length > 0 && (
-        <div className="mt-4 space-y-2">
+        <div className="mt-3 max-h-[28rem] space-y-2 overflow-y-auto pr-1">
           {chapters.map((c) => (
             <Link
               key={`chapter-${c.bookNumber}-${c.number}`}
               href={`/hadith/${collectionSlug}/${c.bookNumber}/${c.number}`}
-              className="block rounded-card border border-border px-4 py-2.5 transition-transform hover:-translate-y-0.5"
+              className="block rounded-card border border-border px-4 py-2.5 transition-transform hover:border-primary/40 hover:bg-aqua/30"
             >
               <span className="text-sm text-teal-dark">
                 Chapter {c.number}: {c.title}
@@ -146,24 +159,20 @@ export default function HadithSearchBox({
       )}
 
       {hadiths && hadiths.length > 0 && (
-        <div className="mt-4 space-y-2">
+        <div className="mt-3 max-h-[28rem] space-y-2 overflow-y-auto pr-1">
           {hadiths.map((r) => (
             <Link
               key={`hadith-${r.collection}-${r.hadith_number}`}
               href={`/hadith/${r.collection}/${r.book}/${r.chapter}?hadith=${r.hadith_number}`}
-              className="block rounded-card border border-border px-4 py-3 text-left transition-transform hover:-translate-y-0.5"
+              className="block rounded-card border border-border px-4 py-3 text-left transition-transform hover:border-primary/40 hover:bg-aqua/30"
             >
               <div className="flex items-center justify-between gap-2">
                 <span className="text-xs font-medium text-primary-deep">
                   {r.collectionName ?? `Hadith`} #{r.hadith_number}
                 </span>
-                {r.status && (
-                  <span className="shrink-0 rounded-full bg-aqua px-2 py-0.5 text-[10px] font-medium text-primary-deep">
-                    {r.status}
-                  </span>
-                )}
+                <GradeBadge status={r.status} size="xs" />
               </div>
-              <p className="mt-1.5 text-sm text-muted">{r.snippet}</p>
+              <p dir="auto" className="mt-1.5 text-sm leading-relaxed text-muted line-clamp-3">{r.snippet}</p>
             </Link>
           ))}
         </div>

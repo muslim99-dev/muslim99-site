@@ -1,0 +1,24 @@
+VALIDATION REPORT - Book 52: Midday naps
+Generated: 2026-08-22 06:42:23
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_593.json - Chapter 593
+  ✗ english: EMPTY
+
+  Hadith #1248:
+    ✗ english_translation: EMPTY
+
+  chap_594.json - Chapter 594
+  ✗ english: EMPTY
+
+  Hadith #1249:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 4
+  - Book metadata: 0
+  - Chapters: 4
+  - Hadiths: 0
+================================================================================

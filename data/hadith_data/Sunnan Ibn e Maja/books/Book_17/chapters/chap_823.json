@@ -1,0 +1,27 @@
+{
+  "number": 823,
+  "arabic": "",
+  "urdu": "امانت کا بیان",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 2401,
+      "arabic_text": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ الْجَهْمِ الْأَنْمَاطِيُّ، ‏‏‏‏‏‏حَدَّثَنَا أَيُّوبُ بْنُ سُوَيْدٍ، ‏‏‏‏‏‏عَنِ الْمُثَنَّى، ‏‏‏‏‏‏عَنْ عَمْرِو بْنِ شُعَيْبٍ، ‏‏‏‏‏‏عَنْ أَبِيهِ، ‏‏‏‏‏‏عَنْ جَدِّهِ، ‏‏‏‏‏‏قَالَ:‏‏‏‏ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:‏‏‏‏  مَنْ أُودِعَ وَدِيعَةً فَلَا ضَمَانَ عَلَيْهِ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  جس کے پاس کوئی امانت رکھی گئی تو اس پر تاوان نہیں ہے  ۱؎۔",
+      "english_translation": "It was narrated from 'Amr bin Shu'aib, from his father, that his grandfather said:\n\n“The Messenger of Allah (ﷺ) said: 'Whoever is entrusted with an item for safekeeping, is not responsible for it (so long as he is not negligent).' ”",
+      "status": "Zaeef",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن عمرو بن العاص رضی اللہ عنہما کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  جس کے پاس کوئی امانت رکھی گئی تو اس پر تاوان نہیں ہے  ۱؎۔"
+        }
+      ],
+      "reference": {
+        "international_number": "2401",
+        "arabic_number": "ترقیم  : 2401"
+      },
+      "explanation": "اگر وہ بغیر اس کی کسی کوتاہی یا خیانت کے برباد ہو جائے تو اس پر کوئی تاوان نہیں ہے۔"
+    }
+  ]
+}

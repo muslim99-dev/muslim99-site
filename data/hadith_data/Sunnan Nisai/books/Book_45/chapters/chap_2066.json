@@ -1,0 +1,44 @@
+{
+  "number": 2066,
+  "arabic": "",
+  "urdu": "باب: کئی سال کی بیع کا بیان۔",
+  "english": "",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 4630,
+      "arabic_text": "أَخْبَرَنَا مُحَمَّدُ بْنُ مَنْصُورٍ،‏‏‏‏ قَالَ:‏‏‏‏ حَدَّثَنَا سُفْيَانُ،‏‏‏‏ عَنْ أَبِي الزُّبَيْرِ،‏‏‏‏ عَنْ جَابِرٍ،‏‏‏‏ قَالَ:‏‏‏‏  نَهَى رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ عَنْ بَيْعِ السِّنِينَ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے کئی سال کی بیع کرنے سے منع فرمایا ہے۔",
+      "english_translation": "It was narrated that Jabir said:\n The Messenger of Allah forbade selling the produce several years in advance.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "جابر رضی اللہ عنہ کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم نے کئی سال کی بیع کرنے سے منع فرمایا ہے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "4630",
+        "arabic_number": "ترقیم  : 4630"
+      },
+      "explanation": "وضاحت: ۱؎ : باغ کے پھل کئی سال کے لیے بیچنا، یہ بھی بیع غرر (دھوکہ والی خرید و فروخت) کی قبیل سے ہے، اس میں خریدار کے لیے دھوکہ ہے۔"
+    },
+    {
+      "hadith_number": 4631,
+      "arabic_text": "أَخْبَرَنَا إِسْحَاق بْنُ مَنْصُورٍ،‏‏‏‏ قَالَ:‏‏‏‏ حَدَّثَنَا سُفْيَانُ،‏‏‏‏ عَنْ حُمَيْدٍ الْأَعْرَجِ،‏‏‏‏ عَنْ سُلَيْمَانَ وَهُوَ ابْنُ عَتِيقٍ،‏‏‏‏ عَنْ جَابِرٍ،‏‏‏‏ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:‏‏‏‏  نَهَى عَنْ بَيْعِ السِّنِينَ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے کئی سال کی بیع کرنے سے منع فرمایا۔",
+      "english_translation": "It was narrated from Jabir that:\nthe Messenger of Allah forbade selling the produce several years in advance.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "جابر رضی اللہ عنہ سے روایت ہے کہ  رسول اللہ صلی اللہ علیہ وسلم نے کئی سال کی بیع کرنے سے منع فرمایا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "4631",
+        "arabic_number": "ترقیم  : 4631"
+      }
+    }
+  ]
+}

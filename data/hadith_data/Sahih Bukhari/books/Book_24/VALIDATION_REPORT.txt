@@ -1,0 +1,17 @@
+VALIDATION REPORT - Book 24: The book of al-janaiz (funerals).
+Generated: 2026-08-12 02:16:12
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_819.json - Chapter 819
+
+  Hadith #1313:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 1
+  - Book metadata: 0
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,447 @@
+VALIDATION REPORT - Book 27: Chapters on hajj rituals
+Generated: 2026-08-13 17:14:36
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1029.json - Chapter 1029
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1030.json - Chapter 1030
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1031.json - Chapter 1031
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1032.json - Chapter 1032
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1033.json - Chapter 1033
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1034.json - Chapter 1034
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1035.json - Chapter 1035
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1036.json - Chapter 1036
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1037.json - Chapter 1037
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1038.json - Chapter 1038
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1039.json - Chapter 1039
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1040.json - Chapter 1040
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1041.json - Chapter 1041
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1042.json - Chapter 1042
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1043.json - Chapter 1043
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1044.json - Chapter 1044
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1045.json - Chapter 1045
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1046.json - Chapter 1046
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1047.json - Chapter 1047
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1048.json - Chapter 1048
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1049.json - Chapter 1049
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1050.json - Chapter 1050
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1051.json - Chapter 1051
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1052.json - Chapter 1052
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1053.json - Chapter 1053
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1054.json - Chapter 1054
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1055.json - Chapter 1055
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1056.json - Chapter 1056
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1057.json - Chapter 1057
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1058.json - Chapter 1058
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1059.json - Chapter 1059
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1060.json - Chapter 1060
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1061.json - Chapter 1061
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1062.json - Chapter 1062
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1063.json - Chapter 1063
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1064.json - Chapter 1064
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1065.json - Chapter 1065
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1066.json - Chapter 1066
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1067.json - Chapter 1067
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1068.json - Chapter 1068
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1069.json - Chapter 1069
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1070.json - Chapter 1070
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1071.json - Chapter 1071
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1072.json - Chapter 1072
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1073.json - Chapter 1073
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1074.json - Chapter 1074
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1075.json - Chapter 1075
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1076.json - Chapter 1076
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1077.json - Chapter 1077
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1078.json - Chapter 1078
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1079.json - Chapter 1079
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1080.json - Chapter 1080
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1081.json - Chapter 1081
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1082.json - Chapter 1082
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1083.json - Chapter 1083
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1084.json - Chapter 1084
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1085.json - Chapter 1085
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1086.json - Chapter 1086
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1087.json - Chapter 1087
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1088.json - Chapter 1088
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1089.json - Chapter 1089
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1090.json - Chapter 1090
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1091.json - Chapter 1091
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1092.json - Chapter 1092
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1093.json - Chapter 1093
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1094.json - Chapter 1094
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1095.json - Chapter 1095
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1096.json - Chapter 1096
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1097.json - Chapter 1097
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1098.json - Chapter 1098
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1099.json - Chapter 1099
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1100.json - Chapter 1100
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1101.json - Chapter 1101
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1102.json - Chapter 1102
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1103.json - Chapter 1103
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1104.json - Chapter 1104
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1105.json - Chapter 1105
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1106.json - Chapter 1106
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1107.json - Chapter 1107
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1108.json - Chapter 1108
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1109.json - Chapter 1109
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1110.json - Chapter 1110
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1111.json - Chapter 1111
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1112.json - Chapter 1112
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1113.json - Chapter 1113
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1114.json - Chapter 1114
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1115.json - Chapter 1115
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1116.json - Chapter 1116
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1117.json - Chapter 1117
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1118.json - Chapter 1118
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1119.json - Chapter 1119
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1120.json - Chapter 1120
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1121.json - Chapter 1121
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1122.json - Chapter 1122
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1123.json - Chapter 1123
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1124.json - Chapter 1124
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1125.json - Chapter 1125
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1126.json - Chapter 1126
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1127.json - Chapter 1127
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1128.json - Chapter 1128
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1129.json - Chapter 1129
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1130.json - Chapter 1130
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1131.json - Chapter 1131
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1132.json - Chapter 1132
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1133.json - Chapter 1133
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1134.json - Chapter 1134
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1135.json - Chapter 1135
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1136.json - Chapter 1136
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 217
+  - Book metadata: 1
+  - Chapters: 216
+  - Hadiths: 0
+================================================================================

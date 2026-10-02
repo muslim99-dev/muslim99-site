@@ -1,0 +1,69 @@
+VALIDATION REPORT - Book 39: Battles (kitab al-malahim)
+Generated: 2026-08-13 02:14:34
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1543.json - Chapter 1543
+  ✗ arabic: EMPTY
+
+  chap_1544.json - Chapter 1544
+  ✗ arabic: EMPTY
+
+  chap_1545.json - Chapter 1545
+  ✗ arabic: EMPTY
+
+  chap_1546.json - Chapter 1546
+  ✗ arabic: EMPTY
+
+  chap_1547.json - Chapter 1547
+  ✗ arabic: EMPTY
+
+  chap_1548.json - Chapter 1548
+  ✗ arabic: EMPTY
+
+  chap_1549.json - Chapter 1549
+  ✗ arabic: EMPTY
+
+  chap_1550.json - Chapter 1550
+  ✗ arabic: EMPTY
+
+  chap_1551.json - Chapter 1551
+  ✗ arabic: EMPTY
+
+  chap_1552.json - Chapter 1552
+  ✗ arabic: EMPTY
+
+  chap_1553.json - Chapter 1553
+  ✗ arabic: EMPTY
+
+  chap_1554.json - Chapter 1554
+  ✗ arabic: EMPTY
+
+  chap_1555.json - Chapter 1555
+  ✗ arabic: EMPTY
+
+  chap_1556.json - Chapter 1556
+  ✗ arabic: EMPTY
+
+  chap_1557.json - Chapter 1557
+  ✗ arabic: EMPTY
+
+  chap_1558.json - Chapter 1558
+  ✗ arabic: EMPTY
+
+  chap_1559.json - Chapter 1559
+  ✗ arabic: EMPTY
+
+  chap_1560.json - Chapter 1560
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 19
+  - Book metadata: 1
+  - Chapters: 18
+  - Hadiths: 0
+================================================================================

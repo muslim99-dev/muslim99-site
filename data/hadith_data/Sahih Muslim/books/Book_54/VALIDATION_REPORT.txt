@@ -1,0 +1,21 @@
+VALIDATION REPORT - Book 54: The book of zuhd and softening of hearts
+Generated: 2026-08-12 17:50:21
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_1291.json - Chapter 1291
+  ✗ english: EMPTY
+
+  chap_1292.json - Chapter 1292
+  ✗ english: EMPTY
+
+  chap_1297.json - Chapter 1297
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 3
+  - Book metadata: 0
+  - Chapters: 3
+  - Hadiths: 0
+================================================================================

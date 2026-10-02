@@ -1,0 +1,43 @@
+{
+  "number": 1165,
+  "arabic": "",
+  "urdu": "گھوڑوں کے گوشت کا حکم",
+  "english": "",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 3190,
+      "arabic_text": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، ‏‏‏‏‏‏حَدَّثَنَا وَكِيعٌ، ‏‏‏‏‏‏عَنْ هِشَامِ بْنِ عُرْوَةَ، ‏‏‏‏‏‏عَنْ فَاطِمَةَ بِنْتِ الْمُنْذِرِ، ‏‏‏‏‏‏عَنْ أَسْمَاءَ بِنْتِ أَبِي بَكْرٍ، ‏‏‏‏‏‏قَالَتْ:‏‏‏‏  نَحَرْنَا فَرَسًا فَأَكَلْنَا مِنْ لَحْمِهِ عَلَى عَهْدِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ .",
+      "urdu_translation": "ہم نے رسول اللہ صلی اللہ علیہ وسلم کے زمانے میں ایک گھوڑا ذبح کیا، اور اس کا گوشت کھایا۔",
+      "english_translation": "It was narrated that Asm’a bint Abu Bakr said:\n\n“We slaughtered a horse and ate its meat during the time of the Messenger of Allah (ﷺ).”",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "اسماء بنت ابی بکر رضی اللہ عنہما کہتی ہیں کہ  ہم نے رسول اللہ صلی اللہ علیہ وسلم کے زمانے میں ایک گھوڑا ذبح کیا، اور اس کا گوشت کھایا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "3190",
+        "arabic_number": "ترقیم  : 3190"
+      }
+    },
+    {
+      "hadith_number": 3191,
+      "arabic_text": "حَدَّثَنَا بَكْرُ بْنُ خَلَفٍ أَبُو بِشْرٍ، ‏‏‏‏‏‏حَدَّثَنَا أَبُو عَاصِمٍ، ‏‏‏‏‏‏حَدَّثَنَا ابْنُ جُرَيْجٍ، ‏‏‏‏‏‏أَخْبَرَنِي أَبُو الزُّبَيْرِ، ‏‏‏‏‏‏أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، ‏‏‏‏‏‏يَقُولُ:‏‏‏‏  أَكَلْنَا زَمَنَ خَيْبَرَ الْخَيْلَ، ‏‏‏‏‏‏وَحُمُرَ الْوَحْشِ .",
+      "urdu_translation": "ہم نے خیبر کے زمانہ میں گھوڑے اور نیل گائے۔",
+      "english_translation": "It was narrated from Abu Zubair that he heard Jabir bin ‘Abdullah say:\n\n“At the time of Khaibar we ate horses and wild donkeys.”",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "جابر بن عبداللہ رضی اللہ عنہما کہتے ہیں کہ  ہم نے خیبر کے زمانہ میں گھوڑے اور نیل گائے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "3191",
+        "arabic_number": "ترقیم  : 3191"
+      }
+    }
+  ]
+}

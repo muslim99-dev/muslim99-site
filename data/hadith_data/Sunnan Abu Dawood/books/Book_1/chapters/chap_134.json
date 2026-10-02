@@ -1,0 +1,51 @@
+{
+  "number": 134,
+  "arabic": "",
+  "urdu": "باب: کپڑے میں تھوک لگ جائے تو کیا حکم ہے ؟",
+  "english": "CHAPTER: Saliva Falling On A Garment.",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 389,
+      "arabic_text": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ حَدَّثَنَا حَمَّادٌ أَخْبَرَنَا ثَابِتٌ الْبُنَانِيُّ عَنْ أَبِي نَضْرَةَ قَالَ بَزَقَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي ثَوْبِهِ وَحَكَّ بَعْضَهُ بِبَعْضٍ.",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے اپنے کپڑے میں تھوکا اور اسی میں مل لیا۔",
+      "english_translation": "Narrated Abu Nadrah: The Messenger of Allah صلی ‌اللہ ‌علیہ ‌وسلم spat on his clothe and scrubbed with a part of it.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ابونضرہ (منذر بن مالک) رضی اللہ عنہ کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم نے اپنے کپڑے میں تھوکا اور اسی میں مل لیا۔"
+        },
+        {
+          "translator": "ترجمہ: ابو عمار عمر فاروق سعیدی",
+          "text": "جناب ابونضرہ ؓ (تابعی) بیان کرتے ہیں کہ رسول اللہ ﷺ نے اپنے کپڑے میں تھوکا اور پھر اسے اس میں مسل دیا۔ (یہ روایت مرسل ہے)۔"
+        }
+      ],
+      "reference": {
+        "international_number": "389",
+        "arabic_number": "ترقیم  : 389"
+      }
+    },
+    {
+      "hadith_number": 390,
+      "arabic_text": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ قَالَ حَدَّثَنَا حَمَّادٌ عَنْ حُمَيْدٍ عَنْ أَنَسٍ عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ بِمِثْلِهِ.",
+      "urdu_translation": "نبی اکرم صلی اللہ علیہ وسلم سے مرفوعاً بیان کیا ہے۔",
+      "english_translation": "A similar tradition has also been narrated by Anas from the Prophet صلی ‌اللہ ‌علیہ ‌وسلم through a different chain of narrators.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "انس رضی اللہ عنہ نے اسی طرح  نبی اکرم صلی اللہ علیہ وسلم سے مرفوعاً بیان کیا ہے۔"
+        },
+        {
+          "translator": "ترجمہ: ابو عمار عمر فاروق سعیدی",
+          "text": "حمید نے، سیدنا انس ؓ سے انہوں نے نبی کریم ﷺ سے اسی کے مثل روایت کیا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "390",
+        "arabic_number": "ترقیم  : 390"
+      }
+    }
+  ]
+}

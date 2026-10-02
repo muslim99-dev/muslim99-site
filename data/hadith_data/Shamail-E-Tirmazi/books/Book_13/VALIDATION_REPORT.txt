@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 13: Wearing a ring on the right hand of the messenger of allah (peace be upon him).
+Generated: 2026-08-17 13:39:06
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_13.json - Chapter 13
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

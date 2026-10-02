@@ -1,0 +1,30 @@
+{
+  "number": 3414,
+  "arabic": "بَابُ مِيرَاثِ الأَسِيرِ",
+  "urdu": "مسلمان کافر کا وارث نہیں ہو سکتا اور نہ کافر مسلمان کا اور اگر میراث کی تقسیم سے پہلے اسلام لایا تب بھی میراث میں اس کا حق نہیں ہوگا",
+  "english": "(26) CHAPTER. Neither a Muslim can be the heir of a disbeliever, nor a disbeliever can be the heir of a Muslim. And if somebody becomes a Muslim bfore the property of his dead (disbelievers) relative is divided among the heirs, he will have no share.",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 6764,
+      "arabic_text": "حَدَّثَنَا أَبُو عَاصِمٍ ، عَنْ ابْنِ جُرَيْجٍ ، عَنْ ابْنِ شِهَابٍ ، عَنْ عَلِيِّ بْنِ حُسَيْنٍ ، عَنْ عَمْرِو بْنِ عُثْمَانَ ، عَنْ أُسَامَةَ بْنِ زَيْدٍ رَضِيَ اللَّهُ عَنْهُمَا ، أَنّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ , قَالَ :    لَا يَرِثُ الْمُسْلِمُ الْكَافِرَ ، وَلَا الْكَافِرُ الْمُسْلِمَ    .",
+      "urdu_translation": "نبی کریم صلی اللہ علیہ وسلم نے فرمایا ”مسلمان باپ کافر بیٹے کا وارث نہیں ہوتا اور نہ کافر بیٹا مسلمان باپ کا۔“",
+      "english_translation": "Narrated Usama bin Zaid: the Prophet said,   A Muslim cannot be the heir of a disbeliever, nor can a disbeliever be the heir of a Muslim.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: مولانا محمد داؤد راز",
+          "text": "ہم سے ابوعاصم نے بیان کیا، ان سے ابن جریج نے بیان کیا، ان سے ابن شہاب نے بیان کیا، ان سے علی بن حسین نے بیان کیا، ان سے عمر بن عثمان نے بیان کیا اور ان سے اسامہ بن زید رضی اللہ عنہما نے بیان کیا کہ  نبی کریم صلی اللہ علیہ وسلم نے فرمایا ”مسلمان باپ کافر بیٹے کا وارث نہیں ہوتا اور نہ کافر بیٹا مسلمان باپ کا۔“"
+        },
+        {
+          "translator": "ترجمہ: شیخ الحدیث حافظ عبد الستار حماد",
+          "text": "حضرت اسامہ بن زید ؓ سے روایت ہے کہ نبی ﷺ نے فرمایا: ”مسلمان کافر کا وارث نہیں ہوتا اور نہ کافر کسی مسلمان ہی کا وارث بنتا ہے۔“"
+        }
+      ],
+      "reference": {
+        "international_number": "6764",
+        "arabic_number": "ترقیم  : 6764"
+      }
+    }
+  ]
+}

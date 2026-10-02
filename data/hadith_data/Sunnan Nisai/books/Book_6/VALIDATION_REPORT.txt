@@ -1,0 +1,235 @@
+VALIDATION REPORT - Book 6: The book of the times (of prayer)
+Generated: 2026-08-13 04:24:15
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_293.json - Chapter 293
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_294.json - Chapter 294
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_295.json - Chapter 295
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_296.json - Chapter 296
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_297.json - Chapter 297
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_298.json - Chapter 298
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_299.json - Chapter 299
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_300.json - Chapter 300
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_301.json - Chapter 301
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_302.json - Chapter 302
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_303.json - Chapter 303
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_304.json - Chapter 304
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_305.json - Chapter 305
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_306.json - Chapter 306
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_307.json - Chapter 307
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_308.json - Chapter 308
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_309.json - Chapter 309
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_310.json - Chapter 310
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_311.json - Chapter 311
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_312.json - Chapter 312
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_313.json - Chapter 313
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_314.json - Chapter 314
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_315.json - Chapter 315
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_316.json - Chapter 316
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_317.json - Chapter 317
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_318.json - Chapter 318
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_319.json - Chapter 319
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_320.json - Chapter 320
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_321.json - Chapter 321
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_322.json - Chapter 322
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_323.json - Chapter 323
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_324.json - Chapter 324
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_325.json - Chapter 325
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_326.json - Chapter 326
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_327.json - Chapter 327
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_328.json - Chapter 328
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_329.json - Chapter 329
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_330.json - Chapter 330
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_331.json - Chapter 331
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_332.json - Chapter 332
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_333.json - Chapter 333
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_334.json - Chapter 334
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_335.json - Chapter 335
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_336.json - Chapter 336
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_337.json - Chapter 337
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_338.json - Chapter 338
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_339.json - Chapter 339
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_340.json - Chapter 340
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_341.json - Chapter 341
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_342.json - Chapter 342
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_343.json - Chapter 343
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_344.json - Chapter 344
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_345.json - Chapter 345
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_346.json - Chapter 346
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_347.json - Chapter 347
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 111
+  - Book metadata: 1
+  - Chapters: 110
+  - Hadiths: 0
+================================================================================

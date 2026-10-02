@@ -1,0 +1,27 @@
+{
+  "number": 105,
+  "arabic": "",
+  "urdu": "وضو کی فرضیت کا بیان۔",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 139,
+      "arabic_text": "أَخْبَرَنَا قُتَيْبَةُ، ‏‏‏‏‏‏قال:‏‏‏‏ حَدَّثَنَا أَبُو عَوَانَةَ، ‏‏‏‏‏‏عَنْ قَتَادَةَ، ‏‏‏‏‏‏عَنْ أَبِي الْمَلِيحِ، ‏‏‏‏‏‏عَنْ أَبِيهِ، ‏‏‏‏‏‏قال:‏‏‏‏ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:‏‏‏‏  لَا يَقْبَلُ اللَّهُ صَلَاةً بِغَيْرِ طُهُورٍ، ‏‏‏‏‏‏وَلَا صَدَقَةً مِنْ غُلُولٍ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  اللہ تعالیٰ بغیر وضو کے کوئی نماز قبول نہیں کرتا، اور نہ خیانت کے مال کا صدقہ قبول کرتا ہے  ۱؎۔",
+      "english_translation": "It was narrated from Abu Al-Malih, that his father said:\n The Messenger of Allah (ﷺ) said: 'Allah does not accept Salah without purification, nor charity from Ghulul.'  [1] [1] That which is taken from the spoils of war prior to their distribution.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ابوالملیح کے والد (اسامہ بن عمیر) کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  اللہ تعالیٰ بغیر وضو کے کوئی نماز قبول نہیں کرتا، اور نہ خیانت کے مال کا صدقہ قبول کرتا ہے  ۱؎۔"
+        }
+      ],
+      "reference": {
+        "international_number": "139",
+        "arabic_number": "ترقیم  : 139"
+      },
+      "explanation": "وضاحت: ۱؎: یعنی مال غنیمت میں سے چرا کر اگر کوئی صدقہ دے تو وہ صدقہ مقبول نہ ہو گا، یہی حکم ہر مال حرام کا ہے۔"
+    }
+  ]
+}

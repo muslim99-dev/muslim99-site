@@ -1,0 +1,57 @@
+VALIDATION REPORT - Book 8: Children's death
+Generated: 2026-08-22 06:04:46
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_80.json - Chapter 80
+  ✗ english: EMPTY
+
+  Hadith #143:
+    ✗ english_translation: EMPTY
+
+  Hadith #144:
+    ✗ english_translation: EMPTY
+
+  Hadith #145:
+    ✗ english_translation: EMPTY
+
+  Hadith #146:
+    ✗ english_translation: EMPTY
+
+  Hadith #147:
+    ✗ english_translation: EMPTY
+
+  Hadith #148:
+    ✗ english_translation: EMPTY
+
+  Hadith #149:
+    ✗ english_translation: EMPTY
+
+  Hadith #150:
+    ✗ english_translation: EMPTY
+
+  Hadith #151:
+    ✗ english_translation: EMPTY
+
+  chap_81.json - Chapter 81
+  ✗ english: EMPTY
+
+  Hadith #152:
+    ✗ english_translation: EMPTY
+
+  Hadith #153:
+    ✗ english_translation: EMPTY
+
+  Hadith #154:
+    ✗ english_translation: EMPTY
+
+  Hadith #155:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 15
+  - Book metadata: 0
+  - Chapters: 15
+  - Hadiths: 0
+================================================================================

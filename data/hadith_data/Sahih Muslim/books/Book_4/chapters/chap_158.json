@@ -1,0 +1,30 @@
+{
+  "number": 158,
+  "arabic": "4. باب: ایک مسجد میں دو مؤذن رکھنے کا استحباب۔",
+  "urdu": "اذان کا طریقہ",
+  "english": "Chapter: Description Of The Adhan",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 844,
+      "arabic_text": "وحَدَّثَنَا  ابْنُ نُمَيْرٍ ، حَدَّثَنَا  أَبِي ، حَدَّثَنَا  عُبَيْدُ اللَّهِ ، حَدَّثَنَا  الْقَاسِمُ ، عَنْ  عَائِشَةَ ، مِثْلَهُ.",
+      "urdu_translation": "حضرت عائشہؓ سے بھی اسی  ( سابقہ حدیث )  کے مانند حدیث بیان کی گئی ہے ۔",
+      "english_translation": "This hadith has been narrated on the authority of 'A'isha by another chain of transmitters.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: پروفیسر سلطان محمود جلالپوری",
+          "text": "حضرت عائشہؓ سے بھی اسی  ( سابقہ حدیث )  کے مانند حدیث بیان کی گئی ہے ۔"
+        },
+        {
+          "translator": "ترجمہ: مولانا عبد العزیز علوی",
+          "text": "امام صاحب مذکورہ بالا روایت حضرت عائشہ رضی اللہ تعالی عنہا سے بیان کرتے ہیں۔"
+        }
+      ],
+      "reference": {
+        "international_number": "844",
+        "arabic_number": "ترقیم فؤاد عبد الباقي : 380"
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+VALIDATION REPORT - Book 23: Commercial transactions (kitab al-buyu)
+Generated: 2026-08-13 01:39:59
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1205.json - Chapter 1205
+  ✗ arabic: EMPTY
+
+  chap_1206.json - Chapter 1206
+  ✗ arabic: EMPTY
+
+  chap_1207.json - Chapter 1207
+  ✗ arabic: EMPTY
+
+  chap_1208.json - Chapter 1208
+  ✗ arabic: EMPTY
+
+  chap_1209.json - Chapter 1209
+  ✗ arabic: EMPTY
+
+  chap_1210.json - Chapter 1210
+  ✗ arabic: EMPTY
+
+  chap_1211.json - Chapter 1211
+  ✗ arabic: EMPTY
+
+  chap_1212.json - Chapter 1212
+  ✗ arabic: EMPTY
+
+  chap_1213.json - Chapter 1213
+  ✗ arabic: EMPTY
+
+  chap_1214.json - Chapter 1214
+  ✗ arabic: EMPTY
+
+  chap_1215.json - Chapter 1215
+  ✗ arabic: EMPTY
+
+  chap_1216.json - Chapter 1216
+  ✗ arabic: EMPTY
+
+  chap_1217.json - Chapter 1217
+  ✗ arabic: EMPTY
+
+  chap_1218.json - Chapter 1218
+  ✗ arabic: EMPTY
+
+  chap_1219.json - Chapter 1219
+  ✗ arabic: EMPTY
+
+  chap_1220.json - Chapter 1220
+  ✗ arabic: EMPTY
+
+  chap_1221.json - Chapter 1221
+  ✗ arabic: EMPTY
+
+  chap_1222.json - Chapter 1222
+  ✗ arabic: EMPTY
+
+  chap_1223.json - Chapter 1223
+  ✗ arabic: EMPTY
+
+  chap_1224.json - Chapter 1224
+  ✗ arabic: EMPTY
+
+  chap_1225.json - Chapter 1225
+  ✗ arabic: EMPTY
+
+  chap_1226.json - Chapter 1226
+  ✗ arabic: EMPTY
+
+  chap_1227.json - Chapter 1227
+  ✗ arabic: EMPTY
+
+  chap_1228.json - Chapter 1228
+  ✗ arabic: EMPTY
+
+  chap_1229.json - Chapter 1229
+  ✗ arabic: EMPTY
+
+  chap_1230.json - Chapter 1230
+  ✗ arabic: EMPTY
+
+  chap_1231.json - Chapter 1231
+  ✗ arabic: EMPTY
+
+  chap_1232.json - Chapter 1232
+  ✗ arabic: EMPTY
+
+  chap_1233.json - Chapter 1233
+  ✗ arabic: EMPTY
+
+  chap_1234.json - Chapter 1234
+  ✗ arabic: EMPTY
+
+  chap_1235.json - Chapter 1235
+  ✗ arabic: EMPTY
+
+  chap_1236.json - Chapter 1236
+  ✗ arabic: EMPTY
+
+  chap_1237.json - Chapter 1237
+  ✗ arabic: EMPTY
+
+  chap_1238.json - Chapter 1238
+  ✗ arabic: EMPTY
+
+  chap_1239.json - Chapter 1239
+  ✗ arabic: EMPTY
+
+  chap_1240.json - Chapter 1240
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 37
+  - Book metadata: 1
+  - Chapters: 36
+  - Hadiths: 0
+================================================================================

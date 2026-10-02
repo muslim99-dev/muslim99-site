@@ -1,0 +1,24 @@
+VALIDATION REPORT - Book 3: Mawlas (clients of manumission)
+Generated: 2026-08-22 06:01:52
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_39.json - Chapter 39
+  ✗ english: EMPTY
+
+  Hadith #74:
+    ✗ english_translation: EMPTY
+
+  chap_40.json - Chapter 40
+  ✗ english: EMPTY
+
+  Hadith #75:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 4
+  - Book metadata: 0
+  - Chapters: 4
+  - Hadiths: 0
+================================================================================

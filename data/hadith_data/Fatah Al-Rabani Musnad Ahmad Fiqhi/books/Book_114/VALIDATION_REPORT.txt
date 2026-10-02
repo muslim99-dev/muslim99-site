@@ -1,0 +1,39 @@
+VALIDATION REPORT - Book 114: 
+Generated: 2026-08-15 00:19:18
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1202.json - Chapter 1202
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6747:
+    ✗ english_translation: EMPTY
+
+  Hadith #6748:
+    ✗ english_translation: EMPTY
+
+  Hadith #6749:
+    ✗ english_translation: EMPTY
+
+  chap_1203.json - Chapter 1203
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6750:
+    ✗ english_translation: EMPTY
+
+  Hadith #6751:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 11
+  - Book metadata: 2
+  - Chapters: 9
+  - Hadiths: 0
+================================================================================

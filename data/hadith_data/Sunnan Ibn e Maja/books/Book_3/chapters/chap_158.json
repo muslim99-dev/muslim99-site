@@ -1,0 +1,77 @@
+{
+  "number": 158,
+  "arabic": "",
+  "urdu": "پیشاب یا پاخانہ روک کر نماز پڑھنے کی ممانعت",
+  "english": "",
+  "total_hadiths": 4,
+  "hadiths": [
+    {
+      "hadith_number": 616,
+      "arabic_text": "حَدَّثَنَا مُحَمَّدُ بْنُ الصَّبَّاحِ، ‏‏‏‏‏‏أَنْبَأَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، ‏‏‏‏‏‏عَنْ هِشَامِ بْنِ عُرْوَةَ، ‏‏‏‏‏‏عَنْ أَبِيهِ، ‏‏‏‏‏‏عَنْ عَبْدِ اللَّهِ بْنِ أَرْقَمَ، ‏‏‏‏‏‏قَالَ:‏‏‏‏ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:‏‏‏‏  إِذَا أَرَادَ أَحَدُكُمُ الْغَائِطَ وَأُقِيمَتِ الصَّلَاةُ فَلْيَبْدَأْ بِهِ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  جب کوئی شخص قضائے حاجت کا ارادہ کرے، اور نماز کے لیے اقامت کہی جائے، تو پہلے قضائے حاجت سے فارغ ہو لے ۔",
+      "english_translation": "It was narrated that 'Abdullah bin Arqam said:\n\n\n\n The Messenger of Allah said: 'If anyone of you needs to defecate and the immediate call to prayer (Iqamah) is given, let him start with (relieving himself).'",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن ارقم رضی اللہ عنہ کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  جب کوئی شخص قضائے حاجت کا ارادہ کرے، اور نماز کے لیے اقامت کہی جائے، تو پہلے قضائے حاجت سے فارغ ہو لے ۔"
+        }
+      ],
+      "reference": {
+        "international_number": "616",
+        "arabic_number": "ترقیم  : 616"
+      }
+    },
+    {
+      "hadith_number": 617,
+      "arabic_text": "حَدَّثَنَا بِشْرُ بْنُ آدَمَ، ‏‏‏‏‏‏حَدَّثَنَا زَيْدُ بْنُ الْحُبَابِ، ‏‏‏‏‏‏حَدَّثَنَا مُعَاوِيَةُ بْنُ صَالِحٍ، ‏‏‏‏‏‏عَنِ السَّفْرِ بْنِ نُسَيْر، ‏‏‏‏‏‏عَنْ يَزِيدَ بْنِ شُرَيْحٍ، ‏‏‏‏‏‏عَنْ أَبِي أُمَامَةَ:‏‏‏‏  أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نَهَى أَنْ يُصَلِّيَ الرَّجُلُ وَهُوَ حَاقِنٌ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے منع فرمایا ہے کہ آدمی نماز پڑھے اور وہ پیشاب یا پاخانہ روکے ہوئے ہو۔",
+      "english_translation": "It was narrated from Abu Umamah that:\n\n\n\nThe Messenger of Allah forbade a man to perform prayer when he was suppressing (the urge to urinate or defecate",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ابوامامہ رضی اللہ عنہ سے روایت ہے کہ  رسول اللہ صلی اللہ علیہ وسلم نے منع فرمایا ہے کہ آدمی نماز پڑھے اور وہ پیشاب یا پاخانہ روکے ہوئے ہو۔"
+        }
+      ],
+      "reference": {
+        "international_number": "617",
+        "arabic_number": "ترقیم  : 617"
+      }
+    },
+    {
+      "hadith_number": 618,
+      "arabic_text": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، ‏‏‏‏‏‏حَدَّثَنَا أَبُو أُسَامَةَ، ‏‏‏‏‏‏عَنْ إِدْرِيسَ الْأَوْدِيِّ، ‏‏‏‏‏‏عَنْ أَبِيهِ، ‏‏‏‏‏‏عَنْ أَبِي هُرَيْرَةَ، ‏‏‏‏‏‏قَالَ:‏‏‏‏ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:‏‏‏‏  لَا يَقُومُ أَحَدُكُمْ إِلَى الصَّلَاةِ وَبِهِ أَذًى .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  تم میں سے کوئی پیشاب یا پاخانہ کی اذیت و تکلیف کی حالت میں نماز کے لیے نہ کھڑا ہو ۔",
+      "english_translation": "It was narrated that Abu Hurairah said:\n\n\n\n The Messenger of Allah said, 'No one of you should stand to pray when he feels some discomfort (because of needing to urinate or defecate).'",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ابوہریرہ رضی اللہ عنہ کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  تم میں سے کوئی پیشاب یا پاخانہ کی اذیت و تکلیف کی حالت میں نماز کے لیے نہ کھڑا ہو ۔"
+        }
+      ],
+      "reference": {
+        "international_number": "618",
+        "arabic_number": "ترقیم  : 618"
+      }
+    },
+    {
+      "hadith_number": 619,
+      "arabic_text": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُصَفَّى الْحِمْصِيُّ، ‏‏‏‏‏‏حَدَّثَنَا بَقِيَّةُ، ‏‏‏‏‏‏عَنْ حَبِيبِ بْنِ صَالِحٍ، ‏‏‏‏‏‏عَنْ أَبِي حَيٍّ الْمُؤَذِّنِ، ‏‏‏‏‏‏عَنْ ثَوْبَانَ، ‏‏‏‏‏‏عَنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنَّهُ قَالَ:‏‏‏‏  لَا يَقُومُ أَحَدٌ مِنَ الْمُسْلِمِينَ وَهُوَ حَاقِنٌ حَتَّى يَتَخَفَّفَ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  کوئی مسلمان پیشاب یا پاخانہ روکے ہوئے نماز کے لیے نہ کھڑا ہو جب تک کہ وہ قضائے حاجت کر کے ہلکا نہ ہو جائے ۔",
+      "english_translation": "It was narrated from Thawban that:\n\n\n\nThe Messenger of Allah said:  No one among the Muslims should stand to pray when he is suppressing (the need to urinate or defecate), until he has to relieve himself.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ثوبان رضی اللہ عنہ کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  کوئی مسلمان پیشاب یا پاخانہ روکے ہوئے نماز کے لیے نہ کھڑا ہو جب تک کہ وہ قضائے حاجت کر کے ہلکا نہ ہو جائے ۔"
+        }
+      ],
+      "reference": {
+        "international_number": "619",
+        "arabic_number": "ترقیم  : 619"
+      }
+    }
+  ]
+}

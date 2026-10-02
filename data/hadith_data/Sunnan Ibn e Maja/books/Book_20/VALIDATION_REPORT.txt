@@ -1,0 +1,31 @@
+VALIDATION REPORT - Book 20: The chapters on lost property
+Generated: 2026-08-13 16:50:05
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_868.json - Chapter 868
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_869.json - Chapter 869
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_870.json - Chapter 870
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_871.json - Chapter 871
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 9
+  - Book metadata: 1
+  - Chapters: 8
+  - Hadiths: 0
+================================================================================

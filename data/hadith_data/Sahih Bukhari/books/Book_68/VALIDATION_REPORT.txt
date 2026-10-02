@@ -1,0 +1,17 @@
+VALIDATION REPORT - Book 68: The book of (the wedlock).
+Generated: 2026-08-12 04:59:24
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_2622.json - Chapter 2622
+
+  Hadith #5186:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 1
+  - Book metadata: 0
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

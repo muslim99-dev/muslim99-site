@@ -1,0 +1,26 @@
+{
+  "number": 255,
+  "arabic": "",
+  "urdu": "خواب میں دودھ کی تعبیر",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 380,
+      "arabic_text": "-\" اللبن في المنام فطرة\".-\" اللبن في المنام فطرة\".",
+      "urdu_translation": "سیدنا ابوہریرہ رضی اللہ عنہ نے کہا: خواب میں دودھ دیکھنے (کی تعبیر) فطرت ہے۔",
+      "english_translation": "",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: محمد محفوظ احمد",
+          "text": "سیدنا ابوہریرہ رضی اللہ عنہ نے کہا: خواب میں دودھ دیکھنے (کی تعبیر) فطرت ہے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "380",
+        "arabic_number": "ترقیم  : 2207"
+      }
+    }
+  ]
+}

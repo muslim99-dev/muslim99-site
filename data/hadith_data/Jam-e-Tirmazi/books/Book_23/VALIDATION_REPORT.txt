@@ -1,0 +1,93 @@
+VALIDATION REPORT - Book 23: The book on virtues of jihad
+Generated: 2026-08-12 19:27:59
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1097.json - Chapter 1097
+  ✗ arabic: EMPTY
+
+  chap_1098.json - Chapter 1098
+  ✗ arabic: EMPTY
+
+  chap_1099.json - Chapter 1099
+  ✗ arabic: EMPTY
+
+  chap_1100.json - Chapter 1100
+  ✗ arabic: EMPTY
+
+  chap_1101.json - Chapter 1101
+  ✗ arabic: EMPTY
+
+  chap_1102.json - Chapter 1102
+  ✗ arabic: EMPTY
+
+  chap_1103.json - Chapter 1103
+  ✗ arabic: EMPTY
+
+  chap_1104.json - Chapter 1104
+  ✗ arabic: EMPTY
+
+  chap_1105.json - Chapter 1105
+  ✗ arabic: EMPTY
+
+  chap_1106.json - Chapter 1106
+  ✗ arabic: EMPTY
+
+  chap_1107.json - Chapter 1107
+  ✗ arabic: EMPTY
+
+  chap_1108.json - Chapter 1108
+  ✗ arabic: EMPTY
+
+  chap_1109.json - Chapter 1109
+  ✗ arabic: EMPTY
+
+  chap_1110.json - Chapter 1110
+  ✗ arabic: EMPTY
+
+  chap_1111.json - Chapter 1111
+  ✗ arabic: EMPTY
+
+  chap_1112.json - Chapter 1112
+  ✗ arabic: EMPTY
+
+  chap_1113.json - Chapter 1113
+  ✗ arabic: EMPTY
+
+  chap_1114.json - Chapter 1114
+  ✗ arabic: EMPTY
+
+  chap_1115.json - Chapter 1115
+  ✗ arabic: EMPTY
+
+  chap_1116.json - Chapter 1116
+  ✗ arabic: EMPTY
+
+  chap_1117.json - Chapter 1117
+  ✗ arabic: EMPTY
+
+  chap_1118.json - Chapter 1118
+  ✗ arabic: EMPTY
+
+  chap_1119.json - Chapter 1119
+  ✗ arabic: EMPTY
+
+  chap_1120.json - Chapter 1120
+  ✗ arabic: EMPTY
+
+  chap_1121.json - Chapter 1121
+  ✗ arabic: EMPTY
+
+  chap_1122.json - Chapter 1122
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 27
+  - Book metadata: 1
+  - Chapters: 26
+  - Hadiths: 0
+================================================================================

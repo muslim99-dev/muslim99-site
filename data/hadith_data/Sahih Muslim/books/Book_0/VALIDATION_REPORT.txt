@@ -1,0 +1,24 @@
+VALIDATION REPORT - Book 0: Introduction
+Generated: 2026-08-12 17:35:55
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ number: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_3.json - Chapter 3
+  ✗ english: EMPTY
+
+  chap_4.json - Chapter 4
+  ✗ english: EMPTY
+
+  chap_5.json - Chapter 5
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 4
+  - Book metadata: 1
+  - Chapters: 3
+  - Hadiths: 0
+================================================================================

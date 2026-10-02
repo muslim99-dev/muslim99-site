@@ -1,0 +1,143 @@
+VALIDATION REPORT - Book 4: The book of ghusl and tayammum
+Generated: 2026-08-13 04:16:59
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_119.json - Chapter 119
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_139.json - Chapter 139
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_146.json - Chapter 146
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_203.json - Chapter 203
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_241.json - Chapter 241
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_242.json - Chapter 242
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_243.json - Chapter 243
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_244.json - Chapter 244
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_245.json - Chapter 245
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_246.json - Chapter 246
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_247.json - Chapter 247
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_248.json - Chapter 248
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_249.json - Chapter 249
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_250.json - Chapter 250
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_251.json - Chapter 251
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_252.json - Chapter 252
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_253.json - Chapter 253
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_254.json - Chapter 254
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_255.json - Chapter 255
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_256.json - Chapter 256
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_257.json - Chapter 257
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_258.json - Chapter 258
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_259.json - Chapter 259
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_260.json - Chapter 260
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_261.json - Chapter 261
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_262.json - Chapter 262
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_263.json - Chapter 263
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_264.json - Chapter 264
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_265.json - Chapter 265
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_266.json - Chapter 266
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_267.json - Chapter 267
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_268.json - Chapter 268
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 65
+  - Book metadata: 1
+  - Chapters: 64
+  - Hadiths: 0
+================================================================================

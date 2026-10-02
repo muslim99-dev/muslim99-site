@@ -1,0 +1,195 @@
+VALIDATION REPORT - Book 46: The book of oaths (qasamah), retaliation and blood money
+Generated: 2026-08-13 07:12:22
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_2107.json - Chapter 2107
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2108.json - Chapter 2108
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2109.json - Chapter 2109
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2110.json - Chapter 2110
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2111.json - Chapter 2111
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2112.json - Chapter 2112
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2113.json - Chapter 2113
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2114.json - Chapter 2114
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2115.json - Chapter 2115
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2116.json - Chapter 2116
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2117.json - Chapter 2117
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2118.json - Chapter 2118
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2119.json - Chapter 2119
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2120.json - Chapter 2120
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2121.json - Chapter 2121
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2122.json - Chapter 2122
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2123.json - Chapter 2123
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2124.json - Chapter 2124
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2125.json - Chapter 2125
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2126.json - Chapter 2126
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2127.json - Chapter 2127
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2128.json - Chapter 2128
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2129.json - Chapter 2129
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2130.json - Chapter 2130
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2131.json - Chapter 2131
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2132.json - Chapter 2132
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2133.json - Chapter 2133
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2134.json - Chapter 2134
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2135.json - Chapter 2135
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2136.json - Chapter 2136
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2137.json - Chapter 2137
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2138.json - Chapter 2138
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2139.json - Chapter 2139
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2140.json - Chapter 2140
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2141.json - Chapter 2141
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2142.json - Chapter 2142
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2143.json - Chapter 2143
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2144.json - Chapter 2144
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2145.json - Chapter 2145
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2146.json - Chapter 2146
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2147.json - Chapter 2147
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2148.json - Chapter 2148
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2149.json - Chapter 2149
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2150.json - Chapter 2150
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2151.json - Chapter 2151
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 91
+  - Book metadata: 1
+  - Chapters: 90
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,87 @@
+VALIDATION REPORT - Book 36: Poetry
+Generated: 2026-08-22 06:28:53
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_381.json - Chapter 381
+  ✗ english: EMPTY
+
+  Hadith #860:
+    ✗ english_translation: EMPTY
+
+  Hadith #861:
+    ✗ english_translation: EMPTY
+
+  Hadith #862:
+    ✗ english_translation: EMPTY
+
+  Hadith #863:
+    ✗ english_translation: EMPTY
+
+  Hadith #864:
+    ✗ english_translation: EMPTY
+
+  Hadith #865:
+    ✗ english_translation: EMPTY
+
+  Hadith #866:
+    ✗ english_translation: EMPTY
+
+  Hadith #867:
+    ✗ english_translation: EMPTY
+
+  chap_382.json - Chapter 382
+  ✗ english: EMPTY
+
+  Hadith #868:
+    ✗ english_translation: EMPTY
+
+  Hadith #869:
+    ✗ english_translation: EMPTY
+
+  Hadith #870:
+    ✗ english_translation: EMPTY
+
+  Hadith #871:
+    ✗ english_translation: EMPTY
+
+  Hadith #872:
+    ✗ english_translation: EMPTY
+
+  chap_383.json - Chapter 383
+  ✗ english: EMPTY
+
+  Hadith #873:
+    ✗ english_translation: EMPTY
+
+  chap_384.json - Chapter 384
+  ✗ english: EMPTY
+
+  Hadith #874:
+    ✗ english_translation: EMPTY
+
+  Hadith #875:
+    ✗ english_translation: EMPTY
+
+  chap_385.json - Chapter 385
+  ✗ english: EMPTY
+
+  Hadith #876:
+    ✗ english_translation: EMPTY
+
+  Hadith #877:
+    ✗ english_translation: EMPTY
+
+  chap_386.json - Chapter 386
+  ✗ english: EMPTY
+
+  Hadith #878:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 25
+  - Book metadata: 0
+  - Chapters: 25
+  - Hadiths: 0
+================================================================================

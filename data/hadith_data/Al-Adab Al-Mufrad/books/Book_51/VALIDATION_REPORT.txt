@@ -1,0 +1,57 @@
+VALIDATION REPORT - Book 51: Animals
+Generated: 2026-08-22 06:42:15
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_588.json - Chapter 588
+  ✗ english: EMPTY
+
+  Hadith #1238:
+    ✗ english_translation: EMPTY
+
+  chap_589.json - Chapter 589
+  ✗ english: EMPTY
+
+  Hadith #1239:
+    ✗ english_translation: EMPTY
+
+  Hadith #1240:
+    ✗ english_translation: EMPTY
+
+  Hadith #1241:
+    ✗ english_translation: EMPTY
+
+  chap_590.json - Chapter 590
+  ✗ english: EMPTY
+
+  Hadith #1242:
+    ✗ english_translation: EMPTY
+
+  chap_591.json - Chapter 591
+  ✗ english: EMPTY
+
+  Hadith #1243:
+    ✗ english_translation: EMPTY
+
+  chap_592.json - Chapter 592
+  ✗ english: EMPTY
+
+  Hadith #1244:
+    ✗ english_translation: EMPTY
+
+  Hadith #1245:
+    ✗ english_translation: EMPTY
+
+  Hadith #1246:
+    ✗ english_translation: EMPTY
+
+  Hadith #1247:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 15
+  - Book metadata: 0
+  - Chapters: 15
+  - Hadiths: 0
+================================================================================

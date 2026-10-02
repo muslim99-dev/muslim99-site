@@ -1,0 +1,243 @@
+VALIDATION REPORT - Book 11: The book on jana'iz (funerals)
+Generated: 2026-08-12 18:57:30
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_317.json - Chapter 317
+  ✗ arabic: EMPTY
+
+  chap_664.json - Chapter 664
+  ✗ arabic: EMPTY
+
+  chap_665.json - Chapter 665
+  ✗ arabic: EMPTY
+
+  chap_666.json - Chapter 666
+  ✗ arabic: EMPTY
+
+  chap_667.json - Chapter 667
+  ✗ arabic: EMPTY
+
+  chap_668.json - Chapter 668
+  ✗ arabic: EMPTY
+
+  chap_669.json - Chapter 669
+  ✗ arabic: EMPTY
+
+  chap_670.json - Chapter 670
+  ✗ arabic: EMPTY
+
+  chap_671.json - Chapter 671
+  ✗ arabic: EMPTY
+
+  chap_672.json - Chapter 672
+  ✗ arabic: EMPTY
+
+  chap_673.json - Chapter 673
+  ✗ arabic: EMPTY
+
+  chap_674.json - Chapter 674
+  ✗ arabic: EMPTY
+
+  chap_675.json - Chapter 675
+  ✗ arabic: EMPTY
+
+  chap_676.json - Chapter 676
+  ✗ arabic: EMPTY
+
+  chap_677.json - Chapter 677
+  ✗ arabic: EMPTY
+
+  chap_678.json - Chapter 678
+  ✗ arabic: EMPTY
+
+  chap_679.json - Chapter 679
+  ✗ arabic: EMPTY
+
+  chap_680.json - Chapter 680
+  ✗ arabic: EMPTY
+
+  chap_681.json - Chapter 681
+  ✗ arabic: EMPTY
+
+  chap_682.json - Chapter 682
+  ✗ arabic: EMPTY
+
+  chap_683.json - Chapter 683
+  ✗ arabic: EMPTY
+
+  chap_684.json - Chapter 684
+  ✗ arabic: EMPTY
+
+  chap_685.json - Chapter 685
+  ✗ arabic: EMPTY
+
+  chap_686.json - Chapter 686
+  ✗ arabic: EMPTY
+
+  chap_687.json - Chapter 687
+  ✗ arabic: EMPTY
+
+  chap_688.json - Chapter 688
+  ✗ arabic: EMPTY
+
+  chap_689.json - Chapter 689
+  ✗ arabic: EMPTY
+
+  chap_690.json - Chapter 690
+  ✗ arabic: EMPTY
+
+  chap_691.json - Chapter 691
+  ✗ arabic: EMPTY
+
+  chap_692.json - Chapter 692
+  ✗ arabic: EMPTY
+
+  chap_693.json - Chapter 693
+  ✗ arabic: EMPTY
+
+  chap_694.json - Chapter 694
+  ✗ arabic: EMPTY
+
+  chap_695.json - Chapter 695
+  ✗ arabic: EMPTY
+
+  chap_696.json - Chapter 696
+  ✗ arabic: EMPTY
+
+  chap_697.json - Chapter 697
+  ✗ arabic: EMPTY
+
+  chap_698.json - Chapter 698
+  ✗ arabic: EMPTY
+
+  chap_699.json - Chapter 699
+  ✗ arabic: EMPTY
+
+  chap_700.json - Chapter 700
+  ✗ arabic: EMPTY
+
+  chap_701.json - Chapter 701
+  ✗ arabic: EMPTY
+
+  chap_702.json - Chapter 702
+  ✗ arabic: EMPTY
+
+  chap_703.json - Chapter 703
+  ✗ arabic: EMPTY
+
+  chap_704.json - Chapter 704
+  ✗ arabic: EMPTY
+
+  chap_705.json - Chapter 705
+  ✗ arabic: EMPTY
+
+  chap_706.json - Chapter 706
+  ✗ arabic: EMPTY
+
+  chap_707.json - Chapter 707
+  ✗ arabic: EMPTY
+
+  chap_708.json - Chapter 708
+  ✗ arabic: EMPTY
+
+  chap_709.json - Chapter 709
+  ✗ arabic: EMPTY
+
+  chap_710.json - Chapter 710
+  ✗ arabic: EMPTY
+
+  chap_711.json - Chapter 711
+  ✗ arabic: EMPTY
+
+  chap_712.json - Chapter 712
+  ✗ arabic: EMPTY
+
+  chap_713.json - Chapter 713
+  ✗ arabic: EMPTY
+
+  chap_714.json - Chapter 714
+  ✗ arabic: EMPTY
+
+  chap_715.json - Chapter 715
+  ✗ arabic: EMPTY
+
+  chap_716.json - Chapter 716
+  ✗ arabic: EMPTY
+
+  chap_717.json - Chapter 717
+  ✗ arabic: EMPTY
+
+  chap_718.json - Chapter 718
+  ✗ arabic: EMPTY
+
+  chap_719.json - Chapter 719
+  ✗ arabic: EMPTY
+
+  chap_720.json - Chapter 720
+  ✗ arabic: EMPTY
+
+  chap_721.json - Chapter 721
+  ✗ arabic: EMPTY
+
+  chap_722.json - Chapter 722
+  ✗ arabic: EMPTY
+
+  chap_723.json - Chapter 723
+  ✗ arabic: EMPTY
+
+  chap_724.json - Chapter 724
+  ✗ arabic: EMPTY
+
+  chap_725.json - Chapter 725
+  ✗ arabic: EMPTY
+
+  chap_726.json - Chapter 726
+  ✗ arabic: EMPTY
+
+  chap_727.json - Chapter 727
+  ✗ arabic: EMPTY
+
+  chap_728.json - Chapter 728
+  ✗ arabic: EMPTY
+
+  chap_729.json - Chapter 729
+  ✗ arabic: EMPTY
+
+  chap_730.json - Chapter 730
+  ✗ arabic: EMPTY
+
+  chap_731.json - Chapter 731
+  ✗ arabic: EMPTY
+
+  chap_732.json - Chapter 732
+  ✗ arabic: EMPTY
+
+  chap_733.json - Chapter 733
+  ✗ arabic: EMPTY
+
+  chap_734.json - Chapter 734
+  ✗ arabic: EMPTY
+
+  chap_735.json - Chapter 735
+  ✗ arabic: EMPTY
+
+  chap_736.json - Chapter 736
+  ✗ arabic: EMPTY
+
+  chap_737.json - Chapter 737
+  ✗ arabic: EMPTY
+
+  chap_738.json - Chapter 738
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 77
+  - Book metadata: 1
+  - Chapters: 76
+  - Hadiths: 0
+================================================================================

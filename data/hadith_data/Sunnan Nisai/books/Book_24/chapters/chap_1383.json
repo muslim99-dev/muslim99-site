@@ -1,0 +1,26 @@
+{
+  "number": 1383,
+  "arabic": "",
+  "urdu": "باب: چوہیا مارنے کا بیان۔",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 2833,
+      "arabic_text": "أَخْبَرَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، ‏‏‏‏‏‏قَالَ:‏‏‏‏ حَدَّثَنَا اللَّيْثُ، ‏‏‏‏‏‏عَنْ نَافِعٍ، ‏‏‏‏‏‏عَنْ ابْنِ عُمَرَ، ‏‏‏‏‏‏أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَذِنَ فِي قَتْلِ خَمْسٍ مِنَ الدَّوَابِّ لِلْمُحْرِمِ:‏‏‏‏ الْغُرَابُ، ‏‏‏‏‏‏وَالْحِدَأَةُ، ‏‏‏‏‏‏وَالْفَأْرَةُ، ‏‏‏‏‏‏وَالْكَلْبُ الْعَقُورُ، ‏‏‏‏‏‏وَالْعَقْرَبُ .",
+      "urdu_translation": "عبداللہ بن عمر رضی الله عنہما سے روایت ہے کہ",
+      "english_translation": "It was narrated from Ibn Umar that the Messenger of Allah gave permission fro the Muhrim to kill five kinds of animals:\ncrows, kites, mice and vicious dogs.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن عمر رضی الله عنہما سے روایت ہے کہ  عبداللہ بن عمر رضی الله عنہما سے روایت ہے کہ"
+        }
+      ],
+      "reference": {
+        "international_number": "2833",
+        "arabic_number": "ترقیم  : 2833"
+      }
+    }
+  ]
+}

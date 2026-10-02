@@ -1,0 +1,82 @@
+VALIDATION REPORT - Book 46: Chapters on the virtues of the qur'an
+Generated: 2026-08-12 20:18:33
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1459.json - Chapter 1459
+  ✗ arabic: EMPTY
+
+  chap_1794.json - Chapter 1794
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1795.json - Chapter 1795
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1796.json - Chapter 1796
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1797.json - Chapter 1797
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1798.json - Chapter 1798
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1799.json - Chapter 1799
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1800.json - Chapter 1800
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1801.json - Chapter 1801
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1802.json - Chapter 1802
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1803.json - Chapter 1803
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1804.json - Chapter 1804
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1805.json - Chapter 1805
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1806.json - Chapter 1806
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1807.json - Chapter 1807
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1808.json - Chapter 1808
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1809.json - Chapter 1809
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 34
+  - Book metadata: 1
+  - Chapters: 33
+  - Hadiths: 0
+================================================================================

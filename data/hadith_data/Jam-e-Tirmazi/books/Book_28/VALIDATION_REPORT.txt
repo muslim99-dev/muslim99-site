@@ -1,0 +1,276 @@
+VALIDATION REPORT - Book 28: Chapters on righteousness and maintaining good relations with relatives
+Generated: 2026-08-12 19:46:19
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_965.json - Chapter 965
+  ✗ arabic: EMPTY
+
+  chap_1276.json - Chapter 1276
+  ✗ arabic: EMPTY
+
+  chap_1277.json - Chapter 1277
+  ✗ arabic: EMPTY
+
+  chap_1278.json - Chapter 1278
+  ✗ arabic: EMPTY
+
+  chap_1279.json - Chapter 1279
+  ✗ arabic: EMPTY
+
+  chap_1280.json - Chapter 1280
+  ✗ arabic: EMPTY
+
+  chap_1281.json - Chapter 1281
+  ✗ arabic: EMPTY
+
+  chap_1282.json - Chapter 1282
+  ✗ arabic: EMPTY
+
+  chap_1283.json - Chapter 1283
+  ✗ arabic: EMPTY
+
+  chap_1284.json - Chapter 1284
+  ✗ arabic: EMPTY
+
+  chap_1285.json - Chapter 1285
+  ✗ arabic: EMPTY
+
+  chap_1286.json - Chapter 1286
+  ✗ arabic: EMPTY
+
+  chap_1287.json - Chapter 1287
+  ✗ arabic: EMPTY
+
+  chap_1288.json - Chapter 1288
+  ✗ arabic: EMPTY
+
+  chap_1289.json - Chapter 1289
+  ✗ arabic: EMPTY
+
+  chap_1290.json - Chapter 1290
+  ✗ arabic: EMPTY
+
+  chap_1291.json - Chapter 1291
+  ✗ arabic: EMPTY
+
+  chap_1292.json - Chapter 1292
+  ✗ arabic: EMPTY
+
+  chap_1293.json - Chapter 1293
+  ✗ arabic: EMPTY
+
+  chap_1294.json - Chapter 1294
+  ✗ arabic: EMPTY
+
+  chap_1295.json - Chapter 1295
+  ✗ arabic: EMPTY
+
+  chap_1296.json - Chapter 1296
+  ✗ arabic: EMPTY
+
+  chap_1297.json - Chapter 1297
+  ✗ arabic: EMPTY
+
+  chap_1298.json - Chapter 1298
+  ✗ arabic: EMPTY
+
+  chap_1299.json - Chapter 1299
+  ✗ arabic: EMPTY
+
+  chap_1300.json - Chapter 1300
+  ✗ arabic: EMPTY
+
+  chap_1301.json - Chapter 1301
+  ✗ arabic: EMPTY
+
+  chap_1302.json - Chapter 1302
+  ✗ arabic: EMPTY
+
+  chap_1303.json - Chapter 1303
+  ✗ arabic: EMPTY
+
+  chap_1304.json - Chapter 1304
+  ✗ arabic: EMPTY
+
+  chap_1305.json - Chapter 1305
+  ✗ arabic: EMPTY
+
+  chap_1306.json - Chapter 1306
+  ✗ arabic: EMPTY
+
+  chap_1307.json - Chapter 1307
+  ✗ arabic: EMPTY
+
+  chap_1308.json - Chapter 1308
+  ✗ arabic: EMPTY
+
+  chap_1309.json - Chapter 1309
+  ✗ arabic: EMPTY
+
+  chap_1310.json - Chapter 1310
+  ✗ arabic: EMPTY
+
+  chap_1311.json - Chapter 1311
+  ✗ arabic: EMPTY
+
+  chap_1312.json - Chapter 1312
+  ✗ arabic: EMPTY
+
+  chap_1313.json - Chapter 1313
+  ✗ arabic: EMPTY
+
+  chap_1314.json - Chapter 1314
+  ✗ arabic: EMPTY
+
+  chap_1315.json - Chapter 1315
+  ✗ arabic: EMPTY
+
+  chap_1316.json - Chapter 1316
+  ✗ arabic: EMPTY
+
+  chap_1317.json - Chapter 1317
+  ✗ arabic: EMPTY
+
+  chap_1318.json - Chapter 1318
+  ✗ arabic: EMPTY
+
+  chap_1319.json - Chapter 1319
+  ✗ arabic: EMPTY
+
+  chap_1320.json - Chapter 1320
+  ✗ arabic: EMPTY
+
+  chap_1321.json - Chapter 1321
+  ✗ arabic: EMPTY
+
+  chap_1322.json - Chapter 1322
+  ✗ arabic: EMPTY
+
+  chap_1323.json - Chapter 1323
+  ✗ arabic: EMPTY
+
+  chap_1324.json - Chapter 1324
+  ✗ arabic: EMPTY
+
+  chap_1325.json - Chapter 1325
+  ✗ arabic: EMPTY
+
+  chap_1326.json - Chapter 1326
+  ✗ arabic: EMPTY
+
+  chap_1327.json - Chapter 1327
+  ✗ arabic: EMPTY
+
+  chap_1328.json - Chapter 1328
+  ✗ arabic: EMPTY
+
+  chap_1329.json - Chapter 1329
+  ✗ arabic: EMPTY
+
+  chap_1330.json - Chapter 1330
+  ✗ arabic: EMPTY
+
+  chap_1331.json - Chapter 1331
+  ✗ arabic: EMPTY
+
+  chap_1332.json - Chapter 1332
+  ✗ arabic: EMPTY
+
+  chap_1333.json - Chapter 1333
+  ✗ arabic: EMPTY
+
+  chap_1334.json - Chapter 1334
+  ✗ arabic: EMPTY
+
+  chap_1335.json - Chapter 1335
+  ✗ arabic: EMPTY
+
+  chap_1336.json - Chapter 1336
+  ✗ arabic: EMPTY
+
+  chap_1337.json - Chapter 1337
+  ✗ arabic: EMPTY
+
+  chap_1338.json - Chapter 1338
+  ✗ arabic: EMPTY
+
+  chap_1339.json - Chapter 1339
+  ✗ arabic: EMPTY
+
+  chap_1340.json - Chapter 1340
+  ✗ arabic: EMPTY
+
+  chap_1341.json - Chapter 1341
+  ✗ arabic: EMPTY
+
+  chap_1342.json - Chapter 1342
+  ✗ arabic: EMPTY
+
+  chap_1343.json - Chapter 1343
+  ✗ arabic: EMPTY
+
+  chap_1344.json - Chapter 1344
+  ✗ arabic: EMPTY
+
+  chap_1345.json - Chapter 1345
+  ✗ arabic: EMPTY
+
+  chap_1346.json - Chapter 1346
+  ✗ arabic: EMPTY
+
+  chap_1347.json - Chapter 1347
+  ✗ arabic: EMPTY
+
+  chap_1348.json - Chapter 1348
+  ✗ arabic: EMPTY
+
+  chap_1349.json - Chapter 1349
+  ✗ arabic: EMPTY
+
+  chap_1350.json - Chapter 1350
+  ✗ arabic: EMPTY
+
+  chap_1351.json - Chapter 1351
+  ✗ arabic: EMPTY
+
+  chap_1352.json - Chapter 1352
+  ✗ arabic: EMPTY
+
+  chap_1353.json - Chapter 1353
+  ✗ arabic: EMPTY
+
+  chap_1354.json - Chapter 1354
+  ✗ arabic: EMPTY
+
+  chap_1355.json - Chapter 1355
+  ✗ arabic: EMPTY
+
+  chap_1356.json - Chapter 1356
+  ✗ arabic: EMPTY
+
+  chap_1357.json - Chapter 1357
+  ✗ arabic: EMPTY
+
+  chap_1358.json - Chapter 1358
+  ✗ arabic: EMPTY
+
+  chap_1359.json - Chapter 1359
+  ✗ arabic: EMPTY
+
+  chap_1360.json - Chapter 1360
+  ✗ arabic: EMPTY
+
+  chap_1361.json - Chapter 1361
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 88
+  - Book metadata: 1
+  - Chapters: 87
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,43 @@
+{
+  "number": 862,
+  "arabic": "",
+  "urdu": "درخت کی چوحدی (رقبہ) کا بیان",
+  "english": "",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 2488,
+      "arabic_text": "حَدَّثَنَا عَبْدُ رَبِّهِ بْنُ خَالِدٍ النُّمَيْرِيُّ أَبُو الْمُغَلِّسِ، ‏‏‏‏‏‏حَدَّثَنَا الْفُضَيْلُ بْنُ سُلَيْمَانَ، ‏‏‏‏‏‏حَدَّثَنَا مُوسَى بْنُ عُقْبَةَ، ‏‏‏‏‏‏أَخْبَرَنِيإِسْحَاق بْنُ يَحْيَى بْنِ الْوَلِيدِ، ‏‏‏‏‏‏عَنْ عُبَادَةَ بْنِ الصَّامِتِ، ‏‏‏‏‏‏أَنّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:‏‏‏‏  قَضَى فِي النَّخْلَةِ وَالنَّخْلَتَيْنِ وَالثَّلَاثَةِ لِلرَّجُلِ فِي النَّخْلِ فَيَخْتَلِفُونَ فِي حُقُوقِ ذَلِكَ فَقَضَى أَنَّ لِكُلِّ نَخْلَةٍ مِنْ أُولَئِكَ مِنَ الْأَسْفَلِ مَبْلَغُ جَرِيدِهَا حَرِيمٌ لَهَا .",
+      "urdu_translation": "باغ میں کسی شخص کے ایک یا دو یا تین درخت ہوں، پھر لوگ اختلاف کریں کہ کتنی زمین پر ان کا حق ہے؟ تو اس بارے میں رسول اللہ صلی اللہ علیہ وسلم نے فیصلہ کیا:  ہر درخت کے لیے نیچے کی اتنی زمین ہے جہاں تک اس کی ڈالیاں پھیلی ہیں، وہی اس درخت کی چوحدی ہے ۔",
+      "english_translation": "It was narrated from 'Ubadah bin Samit that :\n\nthe Messenger of Allah (ﷺ) ruled concerning one, two or three date palms belonging to a man among other palm trees - when they differ concerning entitlement to the surrounding land. He ruled that the land around each of those trees, as far as their leaves reach, measured from the bottom of the tree, belongs to the owner of the tree.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبادہ بن صامت رضی اللہ عنہ سے روایت ہے کہ  باغ میں کسی شخص کے ایک یا دو یا تین درخت ہوں، پھر لوگ اختلاف کریں کہ کتنی زمین پر ان کا حق ہے؟ تو اس بارے میں رسول اللہ صلی اللہ علیہ وسلم نے فیصلہ کیا:  ہر درخت کے لیے نیچے کی اتنی زمین ہے جہاں تک اس کی ڈالیاں پھیلی ہیں، وہی اس درخت کی چوحدی ہے ۔"
+        }
+      ],
+      "reference": {
+        "international_number": "2488",
+        "arabic_number": "ترقیم  : 2488"
+      }
+    },
+    {
+      "hadith_number": 2489,
+      "arabic_text": "حَدَّثَنَا سَهْلُ بْنُ أَبِي الصُّغْدِيِّ، ‏‏‏‏‏‏حَدَّثَنَا مَنْصُورُ بْنُ صُقَيْرٍ، ‏‏‏‏‏‏حَدَّثَنَا ثَابِتُ بْنُ مُحَمَّدٍ الْعَبْدِيُّ، ‏‏‏‏‏‏عَنِ ابْنِ عُمَرَ، ‏‏‏‏‏‏قَالَ:‏‏‏‏ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:‏‏‏‏  حَرِيمُ النَّخْلَةِ مَدُّ جَرِيدِهَا .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  کھجور کے درخت کی چوحدی اس کی ڈالیوں کی لمبائی کے برابر ہے ۔",
+      "english_translation": "It was narrated from Ibn 'Umar that the Messenger of Allah Said:\n\n“The land around a date-palm tree, as far as its branches reach, belongs to the owner of the tree.”",
+      "status": "Zaeef",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن عمر رضی اللہ عنہما کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  کھجور کے درخت کی چوحدی اس کی ڈالیوں کی لمبائی کے برابر ہے ۔"
+        }
+      ],
+      "reference": {
+        "international_number": "2489",
+        "arabic_number": "ترقیم  : 2489"
+      }
+    }
+  ]
+}

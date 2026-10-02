@@ -1,0 +1,30 @@
+VALIDATION REPORT - Book 7: 
+Generated: 2026-08-22 12:30:07
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_319.json - Chapter 319
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #336:
+    ✗ english_translation: EMPTY
+
+  chap_320.json - Chapter 320
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #337:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 8
+  - Book metadata: 2
+  - Chapters: 6
+  - Hadiths: 0
+================================================================================

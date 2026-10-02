@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 39: Narration of gold of the messenger of allah (peace and blessings of allah be upon him).
+Generated: 2026-08-17 13:44:20
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_39.json - Chapter 39
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

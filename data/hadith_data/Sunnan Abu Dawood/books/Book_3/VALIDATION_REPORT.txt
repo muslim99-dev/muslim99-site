@@ -1,0 +1,51 @@
+VALIDATION REPORT - Book 3: The book of the prayer for rain (kitab al-istisqa)
+Generated: 2026-08-13 00:14:18
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_378.json - Chapter 378
+  ✗ arabic: EMPTY
+
+  chap_379.json - Chapter 379
+  ✗ arabic: EMPTY
+
+  chap_380.json - Chapter 380
+  ✗ arabic: EMPTY
+
+  chap_381.json - Chapter 381
+  ✗ arabic: EMPTY
+
+  chap_382.json - Chapter 382
+  ✗ arabic: EMPTY
+
+  chap_383.json - Chapter 383
+  ✗ arabic: EMPTY
+
+  chap_384.json - Chapter 384
+  ✗ arabic: EMPTY
+
+  chap_385.json - Chapter 385
+  ✗ arabic: EMPTY
+
+  chap_386.json - Chapter 386
+  ✗ arabic: EMPTY
+
+  chap_387.json - Chapter 387
+  ✗ arabic: EMPTY
+
+  chap_388.json - Chapter 388
+  ✗ arabic: EMPTY
+
+  chap_389.json - Chapter 389
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 13
+  - Book metadata: 1
+  - Chapters: 12
+  - Hadiths: 0
+================================================================================

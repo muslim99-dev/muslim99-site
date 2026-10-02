@@ -1,0 +1,17 @@
+VALIDATION REPORT - Book 57: The book of jihad (fighting for allah’s cause).
+Generated: 2026-08-12 03:39:06
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_1704.json - Chapter 1704
+
+  Hadith #2806:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 1
+  - Book metadata: 0
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

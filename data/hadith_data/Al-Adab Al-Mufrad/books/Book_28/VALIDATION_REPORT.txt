@@ -1,0 +1,39 @@
+VALIDATION REPORT - Book 28: Injustice
+Generated: 2026-08-22 06:16:23
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_225.json - Chapter 225
+  ✗ english: EMPTY
+
+  Hadith #487:
+    ✗ english_translation: EMPTY
+
+  Hadith #488:
+    ✗ english_translation: EMPTY
+
+  Hadith #489:
+    ✗ english_translation: EMPTY
+
+  Hadith #490:
+    ✗ english_translation: EMPTY
+
+  Hadith #491:
+    ✗ english_translation: EMPTY
+
+  Hadith #492:
+    ✗ english_translation: EMPTY
+
+  Hadith #493:
+    ✗ english_translation: EMPTY
+
+  Hadith #494:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 9
+  - Book metadata: 0
+  - Chapters: 9
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,54 @@
+VALIDATION REPORT - Book 18: The elderly
+Generated: 2026-08-22 06:11:46
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_163.json - Chapter 163
+  ✗ english: EMPTY
+
+  Hadith #356:
+    ✗ english_translation: EMPTY
+
+  Hadith #357:
+    ✗ english_translation: EMPTY
+
+  Hadith #358:
+    ✗ english_translation: EMPTY
+
+  Hadith #359:
+    ✗ english_translation: EMPTY
+
+  chap_164.json - Chapter 164
+  ✗ english: EMPTY
+
+  Hadith #360:
+    ✗ english_translation: EMPTY
+
+  Hadith #361:
+    ✗ english_translation: EMPTY
+
+  chap_165.json - Chapter 165
+  ✗ english: EMPTY
+
+  Hadith #362:
+    ✗ english_translation: EMPTY
+
+  chap_166.json - Chapter 166
+  ✗ english: EMPTY
+
+  Hadith #363:
+    ✗ english_translation: EMPTY
+
+  chap_167.json - Chapter 167
+  ✗ english: EMPTY
+
+  Hadith #364:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 14
+  - Book metadata: 0
+  - Chapters: 14
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,44 @@
+{
+  "number": 398,
+  "arabic": "",
+  "urdu": "مسجد قباء اور اس میں نماز کی فضیلت کا بیان۔",
+  "english": "",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 699,
+      "arabic_text": "أَخْبَرَنَا قُتَيْبَةُ، ‏‏‏‏‏‏عَنْ مَالِكٍ، ‏‏‏‏‏‏عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، ‏‏‏‏‏‏عَنْ ابْنِ عُمَرَ، ‏‏‏‏‏‏قال:‏‏‏‏ كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَأْتِي قُبَاءَ رَاكِبًا وَمَاشِيًا .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم مسجد قباء  ( کبھی )  سوار ہو کر اور  ( کبھی )  پیدل جاتے تھے ۱؎۔",
+      "english_translation": "It was narrated that Ibn 'Umar said:\n The Messenger of Allah (ﷺ) used to come to Quba' riding and walking.  [1] Quba' is about three miles to the south of the Prophet's Masjid. This area is named after in that district.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن عمر رضی اللہ عنہم کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم مسجد قباء  ( کبھی )  سوار ہو کر اور  ( کبھی )  پیدل جاتے تھے ۱؎۔"
+        }
+      ],
+      "reference": {
+        "international_number": "699",
+        "arabic_number": "ترقیم  : 699"
+      },
+      "explanation": "وضاحت: ۱؎: صحیحین کی روایت میں ہے کہ آپ ہر ہفتہ مسجد قباء آتے اور وہاں دو رکعتیں پڑھتے۔"
+    },
+    {
+      "hadith_number": 700,
+      "arabic_text": "أَخْبَرَنَا قُتَيْبَةُ، ‏‏‏‏‏‏قال:‏‏‏‏ حَدَّثَنَا مُجَمِّعُ بْنُ يَعْقُوبَ، ‏‏‏‏‏‏عَنْ مُحَمَّدِ بْنِ سُلَيْمَانَ الْكَرْمَانِيِّ، ‏‏‏‏‏‏قال:‏‏‏‏ سَمِعْتُ أَبَا أُمَامَةَ بْنَ سَهْلِ بْنِ حُنَيْفٍ، ‏‏‏‏‏‏قال:‏‏‏‏ قال أَبِي:‏‏‏‏ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:‏‏‏‏  مَنْ خَرَجَ حَتَّى يَأْتِيَ هَذَا الْمَسْجِدَ مَسْجِدَ قُبَاءَ فَصَلَّى فِيهِ كَانَ لَهُ عَدْلَ عُمْرَةٍ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  جو شخص  ( اپنے گھر سے )  نکلے یہاں تک کہ وہ اس مسجد یعنی مسجد قباء میں آ کر اس میں نماز پڑھے تو اس کے لیے عمرہ کے برابر ثواب ہے ۔",
+      "english_translation": "Abu Umamah bin Sahl bin Hunaif said:\n My father said: 'The Messenger of Allah (ﷺ) said: 'Whoever goes out to his Masjid - the Masjid of Quba' and prays therein, that will be equivalent to 'Umrah.'",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "سہل بن حنیف رضی اللہ عنہ کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:  جو شخص  ( اپنے گھر سے )  نکلے یہاں تک کہ وہ اس مسجد یعنی مسجد قباء میں آ کر اس میں نماز پڑھے تو اس کے لیے عمرہ کے برابر ثواب ہے ۔"
+        }
+      ],
+      "reference": {
+        "international_number": "700",
+        "arabic_number": "ترقیم  : 700"
+      }
+    }
+  ]
+}

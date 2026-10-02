@@ -1,0 +1,157 @@
+VALIDATION REPORT - Book 34: 
+Generated: 2026-08-14 06:23:58
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_352.json - Chapter 352
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1972:
+    ✗ english_translation: EMPTY
+
+  Hadith #1973:
+    ✗ english_translation: EMPTY
+
+  Hadith #1974:
+    ✗ english_translation: EMPTY
+
+  Hadith #1975:
+    ✗ english_translation: EMPTY
+
+  Hadith #1976:
+    ✗ english_translation: EMPTY
+
+  Hadith #1977:
+    ✗ english_translation: EMPTY
+
+  Hadith #1978:
+    ✗ english_translation: EMPTY
+
+  Hadith #1979:
+    ✗ english_translation: EMPTY
+
+  Hadith #1980:
+    ✗ english_translation: EMPTY
+
+  Hadith #1981:
+    ✗ english_translation: EMPTY
+
+  Hadith #1982:
+    ✗ english_translation: EMPTY
+
+  Hadith #1983:
+    ✗ english_translation: EMPTY
+
+  Hadith #1984:
+    ✗ english_translation: EMPTY
+
+  Hadith #1985:
+    ✗ english_translation: EMPTY
+
+  Hadith #1986:
+    ✗ english_translation: EMPTY
+
+  Hadith #1987:
+    ✗ english_translation: EMPTY
+
+  Hadith #1988:
+    ✗ english_translation: EMPTY
+
+  chap_353.json - Chapter 353
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1989:
+    ✗ english_translation: EMPTY
+
+  Hadith #1989:
+    ✗ english_translation: EMPTY
+
+  Hadith #1990:
+    ✗ english_translation: EMPTY
+
+  Hadith #1991:
+    ✗ english_translation: EMPTY
+
+  Hadith #1992:
+    ✗ english_translation: EMPTY
+
+  Hadith #1993:
+    ✗ english_translation: EMPTY
+
+  Hadith #1994:
+    ✗ english_translation: EMPTY
+
+  chap_354.json - Chapter 354
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1995:
+    ✗ english_translation: EMPTY
+
+  Hadith #1996:
+    ✗ english_translation: EMPTY
+
+  chap_355.json - Chapter 355
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1997:
+    ✗ english_translation: EMPTY
+
+  Hadith #1998:
+    ✗ english_translation: EMPTY
+
+  Hadith #1999:
+    ✗ english_translation: EMPTY
+
+  Hadith #2000:
+    ✗ english_translation: EMPTY
+
+  Hadith #2001:
+    ✗ english_translation: EMPTY
+
+  chap_356.json - Chapter 356
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #2002:
+    ✗ english_translation: EMPTY
+
+  Hadith #2003:
+    ✗ english_translation: EMPTY
+
+  Hadith #2004:
+    ✗ english_translation: EMPTY
+
+  Hadith #2005:
+    ✗ english_translation: EMPTY
+
+  Hadith #2006:
+    ✗ english_translation: EMPTY
+
+  chap_357.json - Chapter 357
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #2007:
+    ✗ english_translation: EMPTY
+
+  Hadith #2008:
+    ✗ english_translation: EMPTY
+
+  Hadith #2009:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 53
+  - Book metadata: 2
+  - Chapters: 51
+  - Hadiths: 0
+================================================================================

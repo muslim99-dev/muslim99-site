@@ -1,0 +1,31 @@
+VALIDATION REPORT - Book 33: The book of gifts (hiba)
+Generated: 2026-08-13 06:30:09
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1776.json - Chapter 1776
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1777.json - Chapter 1777
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1778.json - Chapter 1778
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1779.json - Chapter 1779
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 9
+  - Book metadata: 1
+  - Chapters: 8
+  - Hadiths: 0
+================================================================================

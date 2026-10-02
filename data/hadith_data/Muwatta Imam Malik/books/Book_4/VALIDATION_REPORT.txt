@@ -1,0 +1,29 @@
+VALIDATION REPORT - Book 4: 
+Generated: 2026-08-22 10:20:02
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_59.json - Chapter 59
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #221:
+    ✗ english_translation: EMPTY
+
+  Hadith #222:
+    ✗ english_translation: EMPTY
+
+  Hadith #223:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 7
+  - Book metadata: 2
+  - Chapters: 5
+  - Hadiths: 0
+================================================================================

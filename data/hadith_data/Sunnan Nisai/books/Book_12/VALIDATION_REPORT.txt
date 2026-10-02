@@ -1,0 +1,407 @@
+VALIDATION REPORT - Book 12: The book of the at-tatbiq (clasping one's hands together)
+Generated: 2026-08-13 04:49:36
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_613.json - Chapter 613
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_614.json - Chapter 614
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_615.json - Chapter 615
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_616.json - Chapter 616
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_617.json - Chapter 617
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_618.json - Chapter 618
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_619.json - Chapter 619
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_620.json - Chapter 620
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_621.json - Chapter 621
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_622.json - Chapter 622
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_623.json - Chapter 623
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_624.json - Chapter 624
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_625.json - Chapter 625
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_626.json - Chapter 626
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_627.json - Chapter 627
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_628.json - Chapter 628
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_629.json - Chapter 629
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_630.json - Chapter 630
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_631.json - Chapter 631
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_632.json - Chapter 632
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_633.json - Chapter 633
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_634.json - Chapter 634
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_635.json - Chapter 635
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_636.json - Chapter 636
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_637.json - Chapter 637
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_638.json - Chapter 638
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_639.json - Chapter 639
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_640.json - Chapter 640
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_641.json - Chapter 641
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_642.json - Chapter 642
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_643.json - Chapter 643
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_644.json - Chapter 644
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_645.json - Chapter 645
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_646.json - Chapter 646
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_647.json - Chapter 647
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_648.json - Chapter 648
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_649.json - Chapter 649
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_650.json - Chapter 650
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_651.json - Chapter 651
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_652.json - Chapter 652
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_653.json - Chapter 653
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_654.json - Chapter 654
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_655.json - Chapter 655
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_656.json - Chapter 656
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_657.json - Chapter 657
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_658.json - Chapter 658
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_659.json - Chapter 659
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_660.json - Chapter 660
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_661.json - Chapter 661
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_662.json - Chapter 662
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_663.json - Chapter 663
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_664.json - Chapter 664
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_665.json - Chapter 665
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_666.json - Chapter 666
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_667.json - Chapter 667
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_668.json - Chapter 668
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_669.json - Chapter 669
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_670.json - Chapter 670
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_671.json - Chapter 671
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_672.json - Chapter 672
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_673.json - Chapter 673
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_674.json - Chapter 674
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_675.json - Chapter 675
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_676.json - Chapter 676
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_677.json - Chapter 677
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_678.json - Chapter 678
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_679.json - Chapter 679
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_680.json - Chapter 680
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_681.json - Chapter 681
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_682.json - Chapter 682
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_683.json - Chapter 683
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_684.json - Chapter 684
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_685.json - Chapter 685
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_686.json - Chapter 686
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_687.json - Chapter 687
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_688.json - Chapter 688
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_689.json - Chapter 689
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_690.json - Chapter 690
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_691.json - Chapter 691
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_692.json - Chapter 692
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_693.json - Chapter 693
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_694.json - Chapter 694
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_695.json - Chapter 695
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_696.json - Chapter 696
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_697.json - Chapter 697
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_698.json - Chapter 698
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_699.json - Chapter 699
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_700.json - Chapter 700
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_701.json - Chapter 701
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_702.json - Chapter 702
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_703.json - Chapter 703
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_704.json - Chapter 704
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_705.json - Chapter 705
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_706.json - Chapter 706
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_707.json - Chapter 707
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_708.json - Chapter 708
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_709.json - Chapter 709
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_710.json - Chapter 710
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 197
+  - Book metadata: 1
+  - Chapters: 196
+  - Hadiths: 0
+================================================================================

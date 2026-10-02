@@ -1,0 +1,42 @@
+VALIDATION REPORT - Book 44: 
+Generated: 2026-08-22 07:41:27
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_44.json - Chapter 44
+  ✗ arabic: EMPTY
+  ✗ urdu: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7837:
+    ✗ english_translation: EMPTY
+
+  Hadith #7838:
+    ✗ english_translation: EMPTY
+
+  Hadith #7839:
+    ✗ english_translation: EMPTY
+
+  Hadith #7840:
+    ✗ english_translation: EMPTY
+
+  Hadith #7841:
+    ✗ english_translation: EMPTY
+
+  Hadith #7842:
+    ✗ english_translation: EMPTY
+
+  Hadith #7843:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 12
+  - Book metadata: 2
+  - Chapters: 10
+  - Hadiths: 0
+================================================================================

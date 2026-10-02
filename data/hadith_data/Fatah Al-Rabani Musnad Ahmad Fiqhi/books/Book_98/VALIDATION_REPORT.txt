@@ -1,0 +1,51 @@
+VALIDATION REPORT - Book 98: 
+Generated: 2026-08-14 19:49:34
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1064.json - Chapter 1064
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6151:
+    ✗ english_translation: EMPTY
+
+  Hadith #6152:
+    ✗ english_translation: EMPTY
+
+  chap_1065.json - Chapter 1065
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6153:
+    ✗ english_translation: EMPTY
+
+  Hadith #6154:
+    ✗ english_translation: EMPTY
+
+  Hadith #6155:
+    ✗ english_translation: EMPTY
+
+  Hadith #6156:
+    ✗ english_translation: EMPTY
+
+  Hadith #6157:
+    ✗ english_translation: EMPTY
+
+  Hadith #6158:
+    ✗ english_translation: EMPTY
+
+  Hadith #6159:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 15
+  - Book metadata: 2
+  - Chapters: 13
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,111 @@
+VALIDATION REPORT - Book 33: 
+Generated: 2026-08-22 07:33:47
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_33.json - Chapter 33
+  ✗ arabic: EMPTY
+  ✗ urdu: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #7003:
+    ✗ english_translation: EMPTY
+
+  Hadith #7004:
+    ✗ english_translation: EMPTY
+
+  Hadith #7005:
+    ✗ english_translation: EMPTY
+
+  Hadith #7006:
+    ✗ english_translation: EMPTY
+
+  Hadith #7007:
+    ✗ english_translation: EMPTY
+
+  Hadith #7008:
+    ✗ english_translation: EMPTY
+
+  Hadith #7009:
+    ✗ english_translation: EMPTY
+
+  Hadith #7010:
+    ✗ english_translation: EMPTY
+
+  Hadith #7011:
+    ✗ english_translation: EMPTY
+
+  Hadith #7012:
+    ✗ english_translation: EMPTY
+
+  Hadith #7013:
+    ✗ english_translation: EMPTY
+
+  Hadith #7014:
+    ✗ english_translation: EMPTY
+
+  Hadith #7015:
+    ✗ english_translation: EMPTY
+
+  Hadith #7016:
+    ✗ english_translation: EMPTY
+
+  Hadith #7017:
+    ✗ english_translation: EMPTY
+
+  Hadith #7018:
+    ✗ english_translation: EMPTY
+
+  Hadith #7019:
+    ✗ english_translation: EMPTY
+
+  Hadith #7020:
+    ✗ english_translation: EMPTY
+
+  Hadith #7021:
+    ✗ english_translation: EMPTY
+
+  Hadith #7022:
+    ✗ english_translation: EMPTY
+
+  Hadith #7023:
+    ✗ english_translation: EMPTY
+
+  Hadith #7024:
+    ✗ english_translation: EMPTY
+
+  Hadith #7025:
+    ✗ english_translation: EMPTY
+
+  Hadith #7026:
+    ✗ english_translation: EMPTY
+
+  Hadith #7027:
+    ✗ english_translation: EMPTY
+
+  Hadith #7028:
+    ✗ english_translation: EMPTY
+
+  Hadith #7029:
+    ✗ english_translation: EMPTY
+
+  Hadith #7030:
+    ✗ english_translation: EMPTY
+
+  Hadith #7031:
+    ✗ english_translation: EMPTY
+
+  Hadith #7032:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 35
+  - Book metadata: 2
+  - Chapters: 33
+  - Hadiths: 0
+================================================================================

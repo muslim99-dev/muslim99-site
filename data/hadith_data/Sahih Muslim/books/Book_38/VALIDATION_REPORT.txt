@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 38: The book of clothes and adornment
+Generated: 2026-08-12 15:53:03
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_921.json - Chapter 921
+  ✗ english: EMPTY
+
+  chap_947.json - Chapter 947
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 0
+  - Chapters: 2
+  - Hadiths: 0
+================================================================================

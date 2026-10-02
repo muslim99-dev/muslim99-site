@@ -1,0 +1,102 @@
+VALIDATION REPORT - Book 25: Extravagance in building
+Generated: 2026-08-22 06:15:24
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_207.json - Chapter 207
+  ✗ english: EMPTY
+
+  Hadith #446:
+    ✗ english_translation: EMPTY
+
+  Hadith #447:
+    ✗ english_translation: EMPTY
+
+  chap_208.json - Chapter 208
+  ✗ english: EMPTY
+
+  Hadith #448:
+    ✗ english_translation: EMPTY
+
+  Hadith #449:
+    ✗ english_translation: EMPTY
+
+  chap_209.json - Chapter 209
+  ✗ english: EMPTY
+
+  Hadith #450:
+    ✗ english_translation: EMPTY
+
+  chap_210.json - Chapter 210
+  ✗ english: EMPTY
+
+  Hadith #451:
+    ✗ english_translation: EMPTY
+
+  chap_211.json - Chapter 211
+  ✗ english: EMPTY
+
+  Hadith #452:
+    ✗ english_translation: EMPTY
+
+  chap_212.json - Chapter 212
+  ✗ english: EMPTY
+
+  Hadith #453:
+    ✗ english_translation: EMPTY
+
+  Hadith #454:
+    ✗ english_translation: EMPTY
+
+  Hadith #455:
+    ✗ english_translation: EMPTY
+
+  Hadith #456:
+    ✗ english_translation: EMPTY
+
+  chap_213.json - Chapter 213
+  ✗ english: EMPTY
+
+  Hadith #457:
+    ✗ english_translation: EMPTY
+
+  Hadith #458:
+    ✗ english_translation: EMPTY
+
+  Hadith #459:
+    ✗ english_translation: EMPTY
+
+  Hadith #460:
+    ✗ english_translation: EMPTY
+
+  chap_214.json - Chapter 214
+  ✗ english: EMPTY
+
+  Hadith #461:
+    ✗ english_translation: EMPTY
+
+  chap_215.json - Chapter 215
+  ✗ english: EMPTY
+
+  Hadith #462:
+    ✗ english_translation: EMPTY
+
+  chap_216.json - Chapter 216
+  ✗ english: EMPTY
+
+  Hadith #463:
+    ✗ english_translation: EMPTY
+
+  Hadith #464:
+    ✗ english_translation: EMPTY
+
+  Hadith #465:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 30
+  - Book metadata: 0
+  - Chapters: 30
+  - Hadiths: 0
+================================================================================

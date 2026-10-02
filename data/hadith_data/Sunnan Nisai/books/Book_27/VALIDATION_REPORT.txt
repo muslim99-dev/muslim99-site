@@ -1,0 +1,112 @@
+VALIDATION REPORT - Book 27: The book of the kind treatment of women
+Generated: 2026-08-13 06:18:07
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1662.json - Chapter 1662
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #3391:
+    ✗ english_translation: EMPTY
+
+  Hadith #3392:
+    ✗ english_translation: EMPTY
+
+  Hadith #3393:
+    ✗ english_translation: EMPTY
+
+  chap_1663.json - Chapter 1663
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #3394:
+    ✗ english_translation: EMPTY
+
+  Hadith #3395:
+    ✗ english_translation: EMPTY
+
+  chap_1664.json - Chapter 1664
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #3396:
+    ✗ english_translation: EMPTY
+
+  Hadith #3397:
+    ✗ english_translation: EMPTY
+
+  Hadith #3398:
+    ✗ english_translation: EMPTY
+
+  Hadith #3399:
+    ✗ english_translation: EMPTY
+
+  Hadith #3400:
+    ✗ english_translation: EMPTY
+
+  Hadith #3401:
+    ✗ english_translation: EMPTY
+
+  Hadith #3402:
+    ✗ english_translation: EMPTY
+
+  Hadith #3403:
+    ✗ english_translation: EMPTY
+
+  Hadith #3404:
+    ✗ english_translation: EMPTY
+
+  Hadith #3405:
+    ✗ english_translation: EMPTY
+
+  Hadith #3406:
+    ✗ english_translation: EMPTY
+
+  chap_1665.json - Chapter 1665
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #3407:
+    ✗ english_translation: EMPTY
+
+  Hadith #3408:
+    ✗ english_translation: EMPTY
+
+  Hadith #3409:
+    ✗ english_translation: EMPTY
+
+  Hadith #3410:
+    ✗ english_translation: EMPTY
+
+  Hadith #3411:
+    ✗ english_translation: EMPTY
+
+  Hadith #3412:
+    ✗ english_translation: EMPTY
+
+  Hadith #3413:
+    ✗ english_translation: EMPTY
+
+  Hadith #3414:
+    ✗ english_translation: EMPTY
+
+  Hadith #3415:
+    ✗ english_translation: EMPTY
+
+  Hadith #3416:
+    ✗ english_translation: EMPTY
+
+  Hadith #3417:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 36
+  - Book metadata: 1
+  - Chapters: 35
+  - Hadiths: 0
+================================================================================

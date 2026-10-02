@@ -1,0 +1,90 @@
+VALIDATION REPORT - Book 22: Abandonment
+Generated: 2026-08-22 06:13:45
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_188.json - Chapter 188
+  ✗ english: EMPTY
+
+  Hadith #400:
+    ✗ english_translation: EMPTY
+
+  chap_189.json - Chapter 189
+  ✗ english: EMPTY
+
+  Hadith #401:
+    ✗ english_translation: EMPTY
+
+  Hadith #402:
+    ✗ english_translation: EMPTY
+
+  Hadith #403:
+    ✗ english_translation: EMPTY
+
+  Hadith #404:
+    ✗ english_translation: EMPTY
+
+  Hadith #405:
+    ✗ english_translation: EMPTY
+
+  Hadith #406:
+    ✗ english_translation: EMPTY
+
+  chap_190.json - Chapter 190
+  ✗ english: EMPTY
+
+  Hadith #407:
+    ✗ english_translation: EMPTY
+
+  Hadith #408:
+    ✗ english_translation: EMPTY
+
+  chap_191.json - Chapter 191
+  ✗ english: EMPTY
+
+  Hadith #409:
+    ✗ english_translation: EMPTY
+
+  Hadith #410:
+    ✗ english_translation: EMPTY
+
+  chap_192.json - Chapter 192
+  ✗ english: EMPTY
+
+  Hadith #411:
+    ✗ english_translation: EMPTY
+
+  Hadith #412:
+    ✗ english_translation: EMPTY
+
+  Hadith #413:
+    ✗ english_translation: EMPTY
+
+  Hadith #414:
+    ✗ english_translation: EMPTY
+
+  Hadith #415:
+    ✗ english_translation: EMPTY
+
+  Hadith #416:
+    ✗ english_translation: EMPTY
+
+  chap_193.json - Chapter 193
+  ✗ english: EMPTY
+
+  Hadith #417:
+    ✗ english_translation: EMPTY
+
+  chap_194.json - Chapter 194
+  ✗ english: EMPTY
+
+  Hadith #418:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 26
+  - Book metadata: 0
+  - Chapters: 26
+  - Hadiths: 0
+================================================================================

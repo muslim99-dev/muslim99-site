@@ -1,0 +1,52 @@
+{
+  "number": 759,
+  "arabic": "1. باب: حاجیوں کی پڑی چیز کا بیان۔",
+  "urdu": "کسی چیز کے) ڈھکنے (یا تھیلی) اور (اس کے) بندھن کی شناخت رکھنا اور گمشدہ بکری اور اونٹ کے بارے میں شریعت کا حکم",
+  "english": "",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 4509,
+      "arabic_text": "حَدَّثَنِي  أَبُو الطَّاهِرِ ،  وَيُونُسُ بْنُ عَبْدِ الْأَعْلَى ، قَالَا: أَخْبَرَنَا  عَبْدُ اللَّهِ بْنُ وَهْبٍ ، أَخْبَرَنِي  عَمْرُو بْنُ الْحَارِثِ ، عَنْ  بُكَيْرِ بْنِ عَبْدِ اللَّهِ بْنِ الْأَشَجِّ ، عَنْ  يَحْيَى بْنِ عَبْدِ الرَّحْمَنِ بْنِ حَاطِبٍ ، عَنْ  عَبْدِ الرَّحْمَنِ بْنِ عُثْمَانَ التَّيْمِيِّ : \" أَنّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نَهَى عَنْ لُقَطَةِ الْحَاجِّ \".",
+      "urdu_translation": "حضرت عبدالرحمان بن عثمان تیمی رضی اللہ عنہ سے روایت ہے کہ رسول اللہ صلی اللہ علیہ وسلم نے حاجیوں کی گری پڑی چیز اٹھانے سے منع فرمایا",
+      "english_translation": "Abd al-Rahman b. 'Uthman al-Taimi reported that Allah's Messenger ( ‌صلی ‌اللہ ‌علیہ ‌وسلم ‌ ) forbade taking into custody the stray thing of the pilgrims.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: پروفیسر سلطان محمود جلالپوری",
+          "text": "حضرت عبدالرحمان بن عثمان تیمی رضی اللہ عنہ سے روایت ہے کہ رسول اللہ صلی اللہ علیہ وسلم نے حاجیوں کی گری پڑی چیز اٹھانے سے منع فرمایا"
+        },
+        {
+          "translator": "ترجمہ: مولانا عبد العزیز علوی",
+          "text": "حضرت عبدالرحمٰن بن عثمان تیمی رضی اللہ تعالی عنہ سے روایت ہے کہ رسول اللہ  صلی اللہ علیہ وسلم  نے حاجیوں کی گری پڑی چیز اٹھانے سے منع فرمایا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "4509",
+        "arabic_number": "ترقیم فؤاد عبد الباقي : 1724"
+      },
+      "explanation": "2KfZhNi02YrYriDYudmF2LEg2YHYp9ix2YjZgiDYs9i52YrYr9mKINit2YHYuCDYp9mE2YTZh9iMINmB2YjYp9im2K8g2Ygg2YXYs9in2KbZhNiMICDYs9mG2YYg2KfYqNmKINiv2KfZiNivINiMINiq2K3YqiDYp9mE2K3Yr9mK2KsgMTcxOcKgwqDCtNmE2YLYt9uB2bAg2qnbjCDZvtuB2obYp9mGINqp2LHYp9mG25Ig2qnYpyDYqNuM2KfZhtuUYCAKINi52KjYr9in2YTYsdit2YXZsNmGINio2YYg2LnYq9mF2KfZhiDYqtuM2YXbjCDYsdi224wg2KfZhNmE24Eg2LnZhtuBINiz25Ig2LHZiNin24zYqiDbgduSINqp24Eg2LHYs9mI2YQg2KfZhNmE24Eg2LXZhNuMINin2YTZhNuBINi52YTbjNuBINmI2LPZhNmFINmG25Ig2K3Yp9is24wg2qnbkiDZhNmC2LfbkiDYs9uSINmF2YbYuSDZgdix2YXYp9uM2KfblCDYp9it2YXYryDaqduB2KrbkiDbgduM2ro6INin2KjZhiDZiNuB2Kgg2YbbkiDaqduB2Kc6INuM2LnZhtuMINit2KfYrNuMINqp25Ig2YTZgti325Ig2qnbkiDYqNin2LHbkiDZhduM2rog2qnbgSDZiNuBINin2LPbkiDahtq+2YjakSDYr9uS2Iwg24zbgdin2rog2KraqSDaqduBINin2LMg2qnYpyDZhdin2YTaqSDYp9iz25Ig2b7YpyDZhNuS2Iwg2KfYqNmGINmF2YjbgdioINmG25IgIMKr2KPYrtio2LHZhtmKINi52YXYsdmIwrsgINqp25Ig2KjYrNin2KbbkiAgwqvYudmGINi52YXYsdmIwrsgINqp24HYpyDbgduS25QgW9iz2YbZhiDYp9io2Yog2K/Yp9mI2K8v2YPYqtin2Kgg2KfZhNmE2YLYt9ipIC/Yrdiv24zYqzogMTcxOV0gMTcxOS4g2KfYsdiv2Ygg2K3Yp9i024zbgTog2LHYp9is2K0g24zbgduMINuB25Ig2qnbgSDYrdin2KzbjNmI2rog2qnbjCDar9ix24wg2b7akduMINin2LTbjNin2KEg2YbbgSDYp9m52r7Yp9im24wg2KzYp9im24zauiDYqtin2qnbgSDYp9izINi024HYsSDaqduMINit2LHZhdiqINin2b7ZhtuSINmI2LPbjNi5INiq2LEg2YXYudin2YbbjCDZhduM2rog2YLYp9im2YUg2KfZiNixINir2KfYqNiqINix24HbkiDYqtin24HZhSDYp9qv2LEg2LbYp9im2Lkg24HZiNis2KfZhtuSINqp2Kcg2KfZhtiv24zYtNuBINuB2YjYqtmIINix2K7YtdiqINuB25Ig2qnbgSDYp9m52r7YpyDZhNuMINis2KfYptuS25TYrNuM2LPbkiDaqduBINi12K3bjNit24zZhiDZhduM2rog2K3Yttix2Kog2KfYqNmIINuB2LHbjNix24Eg2KfZiNixINin2KjZhiDYudio2KfYsyDYs9uSINmF2LHZgdmI2Lkg2KfYrdin2K/bjNirINmF24zauiDYotuM2Kcg24HbktuU2K/bjNqp2r7bjNuSOiAo2LXYrduM2K0g2KfZhNio2K7Yp9ix24wg2KfZhNmE2YLYt9ipINit2K/bjNirOjI0MzMgMjQzNCDZiNi12K3bjNitINmF2LPZhNmFINin2YTZhNmC2LfYqSDYrdiv24zYqzoxNzI0Kdin2YjYsSDYrtmI2Kgg2qnYq9ix2Kog2LPbkiDYp9i52YTYp9mGINqp2LHZhtinINqG2KfbgduM25LblNmF2YXaqdmGINuB25Ig24zbgSDahtuM2LIg2qnYs9uMINii2YHYp9mC24wg2K3Yp9is24wg2qnbjCDbgdmI25TZhtuBINmF2LnZhNmI2YUg2KfYs9uSINiv2YjYqNin2LHbgSDbjNuB2KfauiDYotmG2Kcg2YXbjNiz2LEg2KjavtuMINii2KrYp9uB25Ig24zYpyDZhtuB24zautuU2LnZhNin2YXbgSDYp9io2YYg2KfZhNmC24zZhSDvt6sg2KjavtuMINuM24HbjCDZgdix2YXYp9iq25Ig24HbjNq6INqp24Eg2obZiNmG2qnbgSDYrdis2KfYrCDYqNqR24wg2KzZhNiv24wg2KfZvtmG25Ig2LnZhNin2YLZiNq6INqp2Ygg2YjYp9m+2LMg2obZhNuSINis2KfYqtuSINuB24zauiDYp9izINmE24zbkiDZvtmI2LHbkiDYs9in2YQg2KraqSDYp9izINqp2Kcg2KfYudmE2KfZhiDZhdmF2qnZhiDZhtuB24zauiDYp9izINmE24zbkiDYqNuB2KrYsSDbjNuB24wg24HbkiDaqduBINqG24zYsiDZhtuBINin2bnavtin2KbbjCDYrNin2KbbkiDYp9mI2LEg2Kfar9ixINin2bnavtin2KbbjCDYrNin2KbbkiDYqtmIINio24HYqiDYrNmE2K8g2KfZiNixINio2KfYsSDYqNin2LEg2KfYudmE2KfZhiDaqduM2Kcg2KzYp9im25LblMKgwqDCoNiz2YbZhiDYp9io24wg2K/Yp9mI2K8g2LTYsditINin2LIg2KfZhNi024zYriDYudmF2LEg2YHYp9ix2YjZgiDYs9i52K/bjNiMINit2K/bjNirXNi12YHYrduBINmG2YXYqNixOiAxNzE5"
+    },
+    {
+      "hadith_number": 4510,
+      "arabic_text": "وحَدَّثَنِي  أَبُو الطَّاهِرِ ،  وَيُونُسُ بْنُ عَبْدِ الْأَعْلَى ، قَالَا: حَدَّثَنَا  عَبْدُ اللَّهِ بْنُ وَهْبٍ ، قَالَ: أَخْبَرَنِي  عَمْرُو بْنُ الْحَارِثِ ، عَنْ  بَكْرِ بْنِ سَوَادَةَ ، عَنْ  أَبِي سَالِمٍ الْجَيْشَانِيِّ ، عَنْ  زَيْدِ بْنِ خَالِدٍ الْجُهَنِيِّ ، عَنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، أَنَّهُ قَالَ: \" مَنْ آوَى ضَالَّةً فَهُوَ ضَالٌّ مَا لَمْ يُعَرِّفْهَا \".",
+      "urdu_translation": "حضرت زید بن خالد جہنی رضی اللہ عنہ نے رسول اللہ صلی اللہ علیہ وسلم سے روایت کی ،  آپ نے فرمایا :   \" جس نے  ( کسی کے )  بھٹکتے ہوئے جانور  ( اونٹنی )  کو اپنے پاس رکھ لیا ہے تو وہ  ( خود )  بھٹکا ہوا ہے جب تک اس کی تشہیر نہیں کرتا",
+      "english_translation": "Zaid b. Khalid al-Juhani reported Allah's Messenger ( ‌صلی ‌اللہ ‌علیہ ‌وسلم ‌ ) as sayin.:\nHe who found a stray article is himself led astray if he does not advertise it.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: پروفیسر سلطان محمود جلالپوری",
+          "text": "حضرت زید بن خالد جہنی رضی اللہ عنہ نے رسول اللہ صلی اللہ علیہ وسلم سے روایت کی ،  آپ نے فرمایا :   \" جس نے  ( کسی کے )  بھٹکتے ہوئے جانور  ( اونٹنی )  کو اپنے پاس رکھ لیا ہے تو وہ  ( خود )  بھٹکا ہوا ہے جب تک اس کی تشہیر نہیں کرتا"
+        },
+        {
+          "translator": "ترجمہ: مولانا عبد العزیز علوی",
+          "text": "حضرت زید بن خالد جہنی رضی اللہ تعالی عنہ سے روایت ہے کہ رسول اللہ  صلی اللہ علیہ وسلم  نے فرمایا: ”جس نے گمشدہ حیوان کو رکھ لیا، وہ گم کردہ راہ ہے، جب تک اس کی تشہیر نہیں کرتا۔“"
+        }
+      ],
+      "reference": {
+        "international_number": "4510",
+        "arabic_number": "ترقیم فؤاد عبد الباقي : 1725"
+      }
+    }
+  ]
+}

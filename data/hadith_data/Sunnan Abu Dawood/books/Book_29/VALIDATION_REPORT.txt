@@ -1,0 +1,75 @@
+VALIDATION REPORT - Book 29: Medicine (kitab al-tibb)
+Generated: 2026-08-13 01:58:40
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1417.json - Chapter 1417
+  ✗ arabic: EMPTY
+
+  chap_1418.json - Chapter 1418
+  ✗ arabic: EMPTY
+
+  chap_1419.json - Chapter 1419
+  ✗ arabic: EMPTY
+
+  chap_1420.json - Chapter 1420
+  ✗ arabic: EMPTY
+
+  chap_1421.json - Chapter 1421
+  ✗ arabic: EMPTY
+
+  chap_1422.json - Chapter 1422
+  ✗ arabic: EMPTY
+
+  chap_1423.json - Chapter 1423
+  ✗ arabic: EMPTY
+
+  chap_1424.json - Chapter 1424
+  ✗ arabic: EMPTY
+
+  chap_1425.json - Chapter 1425
+  ✗ arabic: EMPTY
+
+  chap_1426.json - Chapter 1426
+  ✗ arabic: EMPTY
+
+  chap_1427.json - Chapter 1427
+  ✗ arabic: EMPTY
+
+  chap_1428.json - Chapter 1428
+  ✗ arabic: EMPTY
+
+  chap_1429.json - Chapter 1429
+  ✗ arabic: EMPTY
+
+  chap_1430.json - Chapter 1430
+  ✗ arabic: EMPTY
+
+  chap_1431.json - Chapter 1431
+  ✗ arabic: EMPTY
+
+  chap_1432.json - Chapter 1432
+  ✗ arabic: EMPTY
+
+  chap_1433.json - Chapter 1433
+  ✗ arabic: EMPTY
+
+  chap_1434.json - Chapter 1434
+  ✗ arabic: EMPTY
+
+  chap_1435.json - Chapter 1435
+  ✗ arabic: EMPTY
+
+  chap_1436.json - Chapter 1436
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 21
+  - Book metadata: 1
+  - Chapters: 20
+  - Hadiths: 0
+================================================================================

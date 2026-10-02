@@ -1,0 +1,43 @@
+{
+  "number": 1351,
+  "arabic": "",
+  "urdu": "کھڑے ہو کر جوتا پہننے کا بیان",
+  "english": "",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 3618,
+      "arabic_text": "حَدَّثَنَا عَلِيُّ بْنُ مُحَمَّدٍ،‏‏‏‏ حَدَّثَنَا أَبُو مُعَاوِيَةَ،‏‏‏‏ عَنْ الْأَعْمَشِ،‏‏‏‏ عَنْ أَبِي صَالِحٍ،‏‏‏‏ عَنْ أَبِي هُرَيْرَةَ،‏‏‏‏ قَالَ:‏‏‏‏ نَهَى رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنْ يَنْتَعِلَ الرَّجُلُ قَائِمًا .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے کھڑے ہو کر جوتا پہننے سے منع فرمایا",
+      "english_translation": "It was narrated that Abu Hurairah said:\n\n“The Messenger of Allah (ﷺ) forbade putting on sandals whilst standing.”",
+      "status": "Zaeef",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ابوہریرہ رضی اللہ عنہ کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم نے کھڑے ہو کر جوتا پہننے سے منع فرمایا"
+        }
+      ],
+      "reference": {
+        "international_number": "3618",
+        "arabic_number": "ترقیم  : 3618"
+      }
+    },
+    {
+      "hadith_number": 3619,
+      "arabic_text": "حَدَّثَنَا عَلِيُّ بْنُ مُحَمَّدٍ،‏‏‏‏ حَدَّثَنَا وَكِيعٌ،‏‏‏‏ عَنْ سُفْيَانَ،‏‏‏‏ عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ،‏‏‏‏ عَنْ ابْنِ عُمَرَ،‏‏‏‏ قَالَ:‏‏‏‏ نَهَى النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:‏‏‏‏  أَنْ يَنْتَعِلَ الرَّجُلُ قَائِمًا .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے کھڑے کھڑے جوتا پہننے سے منع فرمایا۔",
+      "english_translation": "It was narrated that Ibn ‘Umar said:\n\n“The Prophet (ﷺ) forbade putting on sandals whilst standing.”",
+      "status": "Zaeef",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن عمر رضی اللہ عنہما کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم نے کھڑے کھڑے جوتا پہننے سے منع فرمایا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "3619",
+        "arabic_number": "ترقیم  : 3619"
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+VALIDATION REPORT - Book 21: Social behaviour
+Generated: 2026-08-22 06:13:07
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_179.json - Chapter 179
+  ✗ english: EMPTY
+
+  Hadith #388:
+    ✗ english_translation: EMPTY
+
+  chap_180.json - Chapter 180
+  ✗ english: EMPTY
+
+  Hadith #389:
+    ✗ english_translation: EMPTY
+
+  Hadith #390:
+    ✗ english_translation: EMPTY
+
+  chap_181.json - Chapter 181
+  ✗ english: EMPTY
+
+  Hadith #391:
+    ✗ english_translation: EMPTY
+
+  chap_182.json - Chapter 182
+  ✗ english: EMPTY
+
+  Hadith #392:
+    ✗ english_translation: EMPTY
+
+  Hadith #393:
+    ✗ english_translation: EMPTY
+
+  chap_183.json - Chapter 183
+  ✗ english: EMPTY
+
+  Hadith #394:
+    ✗ english_translation: EMPTY
+
+  Hadith #395:
+    ✗ english_translation: EMPTY
+
+  chap_184.json - Chapter 184
+  ✗ english: EMPTY
+
+  Hadith #396:
+    ✗ english_translation: EMPTY
+
+  chap_185.json - Chapter 185
+  ✗ english: EMPTY
+
+  Hadith #397:
+    ✗ english_translation: EMPTY
+
+  chap_186.json - Chapter 186
+  ✗ english: EMPTY
+
+  Hadith #398:
+    ✗ english_translation: EMPTY
+
+  chap_187.json - Chapter 187
+  ✗ english: EMPTY
+
+  Hadith #399:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 21
+  - Book metadata: 0
+  - Chapters: 21
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,26 @@
+{
+  "number": 430,
+  "arabic": "",
+  "urdu": "اونٹوں کے باڑے میں نماز پڑھنے کی ممانعت کا بیان۔",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 736,
+      "arabic_text": "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، ‏‏‏‏‏‏قال:‏‏‏‏ حَدَّثَنَا يَحْيَى، ‏‏‏‏‏‏عَنْ أَشْعَثَ، ‏‏‏‏‏‏عَنْ الْحَسَنِ، ‏‏‏‏‏‏عَنْ عَبْدِ اللَّهِ بْنِ مُغَفَّلٍ، ‏‏‏‏‏‏أَنّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نَهَى عَنِ الصَّلَاةِ فِي أَعْطَانِ الْإِبِلِ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم نے اونٹوں کے باڑے میں نماز پڑھنے سے روکا ہے۔",
+      "english_translation": "It was narrated from 'Abdullah bin Mughaffal that the Messenger of Allah (ﷺ) forbade praying in the camel pens. [1] A'tan:\nKneeling places, or, where they kneel to drink water.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن مغفل رضی اللہ عنہ سے روایت ہے کہ  رسول اللہ صلی اللہ علیہ وسلم نے اونٹوں کے باڑے میں نماز پڑھنے سے روکا ہے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "736",
+        "arabic_number": "ترقیم  : 736"
+      }
+    }
+  ]
+}

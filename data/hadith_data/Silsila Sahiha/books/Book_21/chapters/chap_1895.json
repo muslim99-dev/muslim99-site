@@ -1,0 +1,26 @@
+{
+  "number": 1895,
+  "arabic": "",
+  "urdu": "غیبت منع ہے",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 2821,
+      "arabic_text": "-\" لا يعضه بعضكم بعضا\".-\" لا يعضه بعضكم بعضا\".",
+      "urdu_translation": "سیدنا عبادہ بن صامت رضی اللہ عنہ سے مروی ہے کہ نبی کریم  صلی اللہ علیہ وسلم  نے فرمایا: ”کوئی کسی کی چغلی نہ کرے۔“",
+      "english_translation": "",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: محمد محفوظ احمد",
+          "text": "سیدنا عبادہ بن صامت رضی اللہ عنہ سے مروی ہے کہ نبی کریم  صلی اللہ علیہ وسلم  نے فرمایا: ”کوئی کسی کی چغلی نہ کرے۔“"
+        }
+      ],
+      "reference": {
+        "international_number": "2821",
+        "arabic_number": "ترقیم  : 2443"
+      }
+    }
+  ]
+}

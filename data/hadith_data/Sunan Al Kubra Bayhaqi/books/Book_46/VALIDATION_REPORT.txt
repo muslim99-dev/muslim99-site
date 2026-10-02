@@ -1,0 +1,38 @@
+VALIDATION REPORT - Book 46: 
+Generated: 2026-08-16 10:01:31
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_3086.json - Chapter 3086
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #15124:
+    ✗ english_translation: EMPTY
+
+  Hadith #15125:
+    ✗ english_translation: EMPTY
+
+  Hadith #15126:
+    ✗ english_translation: EMPTY
+
+  Hadith #15127:
+    ✗ english_translation: EMPTY
+
+  Hadith #15128:
+    ✗ english_translation: EMPTY
+
+  Hadith #15129:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 10
+  - Book metadata: 2
+  - Chapters: 8
+  - Hadiths: 0
+================================================================================

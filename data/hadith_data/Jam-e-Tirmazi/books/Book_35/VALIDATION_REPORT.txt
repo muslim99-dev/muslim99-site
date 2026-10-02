@@ -1,0 +1,55 @@
+VALIDATION REPORT - Book 35: Chapters on dreams
+Generated: 2026-08-12 19:48:06
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1529.json - Chapter 1529
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1530.json - Chapter 1530
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1531.json - Chapter 1531
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1532.json - Chapter 1532
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1533.json - Chapter 1533
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1534.json - Chapter 1534
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1535.json - Chapter 1535
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1536.json - Chapter 1536
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1537.json - Chapter 1537
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1538.json - Chapter 1538
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 21
+  - Book metadata: 1
+  - Chapters: 20
+  - Hadiths: 0
+================================================================================

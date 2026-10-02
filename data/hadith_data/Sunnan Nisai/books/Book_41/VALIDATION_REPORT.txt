@@ -1,0 +1,35 @@
+VALIDATION REPORT - Book 41: Kitab ul aqeeqa
+Generated: 2026-08-13 06:46:42
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1902.json - Chapter 1902
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1903.json - Chapter 1903
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1904.json - Chapter 1904
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1905.json - Chapter 1905
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1906.json - Chapter 1906
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 11
+  - Book metadata: 1
+  - Chapters: 10
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 23: Advising
+Generated: 2026-08-22 06:13:50
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_195.json - Chapter 195
+  ✗ english: EMPTY
+
+  Hadith #419:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 0
+  - Chapters: 2
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,23 @@
+VALIDATION REPORT - Book 16: 
+Generated: 2026-08-22 12:39:13
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_476.json - Chapter 476
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #505:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 5
+  - Book metadata: 2
+  - Chapters: 3
+  - Hadiths: 0
+================================================================================

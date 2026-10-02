@@ -1,0 +1,27 @@
+{
+  "number": 45,
+  "arabic": "",
+  "urdu": "گندگی پڑنے سے نجس نہ ہونے والے پانی کے مقدار کی تحدید",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 52,
+      "arabic_text": "أَخْبَرَنَا هَنَّادُ بْنُ السَّرِيِّ وَالْحُسَيْنُ بْنُ حُرَيْثٍ، ‏‏‏‏‏‏عَنْ أَبِي أُسَامَةَ، ‏‏‏‏‏‏عَنْ الْوَلِيدِ بْنِ كَثِيرٍ، ‏‏‏‏‏‏عَنْ مُحَمَّدِ بْنِ جَعْفَرٍ، ‏‏‏‏‏‏عَنْ عَبْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُمَرَ، ‏‏‏‏‏‏عَنْ أَبِيهِ، ‏‏‏‏‏‏قال:‏‏‏‏ سُئِلَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ عَنِ الْمَاءِ وَمَا يَنُوبُهُ مِنَ الدَّوَابِّ وَالسِّبَاعِ، ‏‏‏‏‏‏فَقَالَ:‏‏‏‏  إِذَا كَانَ الْمَاءُ قُلَّتَيْنِ لَمْ يَحْمِلِ الْخَبَثَ .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم سے اس پانی کے بارے میں پوچھا گیا جس پر چوپائے اور درندے آتے جاتے ہوں؛ تو آپ صلی اللہ علیہ وسلم نے فرمایا:  جب پانی دو قلہ ۱؎ ہو تو وہ گندگی کو اثر انداز نہیں ہونے دے گا  یعنی اسے دفع کر دے گا؟ ۲؎۔",
+      "english_translation": "It was narrated from 'Abdullah bin 'Abdullah bin 'Umar that his father said:\n The Messenger of Allah (ﷺ) was asked about water and how some animals and carnivorous beasts might drink from it. He said: 'If the water is more than two Qullahs, it will not carry filth.' [1] [1]It comes with some explanation in Sunan At Timidhi 'Abdah (one of the narrators) said:  Muhammad bin Ishaq said: 'A Qullah refers to Jirar (These are two nouns describing large casks that are used to hold water), and a Qullah is the thing that drinking water is held in. ' At-Tirmidhi said:  This is the saying of Ash Shafa'i, Ahmad and Ishaq. They say that when the water is two Qullahs then nothing makes it impure, as long as it does not change its smell, and its taste. And they say, it is approximately fifty Qirbahs (waterskins).",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "عبداللہ بن عمر رضی اللہ عنہم کہتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم سے اس پانی کے بارے میں پوچھا گیا جس پر چوپائے اور درندے آتے جاتے ہوں؛ تو آپ صلی اللہ علیہ وسلم نے فرمایا:  جب پانی دو قلہ ۱؎ ہو تو وہ گندگی کو اثر انداز نہیں ہونے دے گا  یعنی اسے دفع کر دے گا؟ ۲؎۔"
+        }
+      ],
+      "reference": {
+        "international_number": "52",
+        "arabic_number": "ترقیم  : 52"
+      },
+      "explanation": "وضاحت: ۱؎: یہ مطلب نہیں کہ وہ نجاست اٹھانے سے عاجز ہو گا کیونکہ یہ معنی لینے کی صورت میں «قلتین» (دو قلہ) کی تحدید بے معنی ہو جائے گی۔ «قُلّہ»سے مراد بڑا مٹکا ہوتا ہے کہ جس میں پانچ سو رطل پانی آتا ہے، یعنی اڑھائی مشک۔ ۲؎: حاکم کی روایت میں «لم يحمل الخبث» کی جگہ «لم ينجسه شيء»ہے، جس سے «لم يحمل الخبث» کے معنی کی وضاحت ہوتی ہے۔"
+    }
+  ]
+}

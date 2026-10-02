@@ -1,0 +1,102 @@
+VALIDATION REPORT - Book 5: The book on the day of friday
+Generated: 2026-08-12 18:32:10
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_351.json - Chapter 351
+  ✗ arabic: EMPTY
+
+  chap_352.json - Chapter 352
+  ✗ arabic: EMPTY
+
+  chap_353.json - Chapter 353
+  ✗ arabic: EMPTY
+
+  chap_354.json - Chapter 354
+  ✗ arabic: EMPTY
+
+  chap_355.json - Chapter 355
+  ✗ arabic: EMPTY
+
+  chap_356.json - Chapter 356
+  ✗ arabic: EMPTY
+
+  chap_357.json - Chapter 357
+  ✗ arabic: EMPTY
+
+  chap_358.json - Chapter 358
+  ✗ arabic: EMPTY
+
+  chap_359.json - Chapter 359
+  ✗ arabic: EMPTY
+
+  chap_360.json - Chapter 360
+  ✗ arabic: EMPTY
+
+  chap_361.json - Chapter 361
+  ✗ arabic: EMPTY
+
+  chap_362.json - Chapter 362
+  ✗ arabic: EMPTY
+
+  chap_363.json - Chapter 363
+  ✗ arabic: EMPTY
+
+  chap_364.json - Chapter 364
+  ✗ arabic: EMPTY
+
+  chap_365.json - Chapter 365
+  ✗ arabic: EMPTY
+
+  chap_366.json - Chapter 366
+  ✗ arabic: EMPTY
+
+  chap_367.json - Chapter 367
+  ✗ arabic: EMPTY
+
+  chap_368.json - Chapter 368
+  ✗ arabic: EMPTY
+
+  chap_369.json - Chapter 369
+  ✗ arabic: EMPTY
+
+  chap_370.json - Chapter 370
+  ✗ arabic: EMPTY
+
+  chap_371.json - Chapter 371
+  ✗ arabic: EMPTY
+
+  chap_372.json - Chapter 372
+  ✗ arabic: EMPTY
+
+  chap_373.json - Chapter 373
+  ✗ arabic: EMPTY
+
+  chap_374.json - Chapter 374
+  ✗ arabic: EMPTY
+
+  chap_375.json - Chapter 375
+  ✗ arabic: EMPTY
+
+  chap_376.json - Chapter 376
+  ✗ arabic: EMPTY
+
+  chap_377.json - Chapter 377
+  ✗ arabic: EMPTY
+
+  chap_378.json - Chapter 378
+  ✗ arabic: EMPTY
+
+  chap_379.json - Chapter 379
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 30
+  - Book metadata: 1
+  - Chapters: 29
+  - Hadiths: 0
+================================================================================

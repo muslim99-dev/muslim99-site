@@ -1,0 +1,30 @@
+{
+  "number": 1219,
+  "arabic": "",
+  "urdu": "باب: جانور کے بدلے جانور کو ادھار بیچنا منع ہے ۔",
+  "english": "CHAPTER: Regarding Animals For Animals On Credit.",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 3356,
+      "arabic_text": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيل، ‏‏‏‏‏‏حَدَّثَنَا حَمَّادٌ، ‏‏‏‏‏‏عَنْ قَتَادَةَ، ‏‏‏‏‏‏عَنِ الْحَسَنِ، ‏‏‏‏‏‏عَنْ سَمُرَةَ، ‏‏‏‏‏‏أَنّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ  نَهَى عَنْ بَيْعِ الْحَيَوَانِ بِالْحَيَوَانِ نَسِيئَةً  .",
+      "urdu_translation": "نبی اکرم صلی اللہ علیہ وسلم نے جانور کے بدلے جانور ادھار بیچنے سے منع فرمایا ہے۔",
+      "english_translation": "Narrated Samurah (ibn Jundub): The Prophet صلی ‌اللہ ‌علیہ ‌وسلم forbade selling animals for animals when payment was to be made at a later date.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "سمرہ رضی اللہ عنہ کہتے ہیں کہ  نبی اکرم صلی اللہ علیہ وسلم نے جانور کے بدلے جانور ادھار بیچنے سے منع فرمایا ہے۔"
+        },
+        {
+          "translator": "ترجمہ: ابو عمار عمر فاروق سعیدی",
+          "text": "سیدنا سمرہ ؓ سے روایت ہے کہ نبی کریم ﷺ نے منع فرمایا ہے کہ جانور کو جانور کے بدلے ادھار بیچا جائے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "3356",
+        "arabic_number": "ترقیم  : 3356"
+      }
+    }
+  ]
+}

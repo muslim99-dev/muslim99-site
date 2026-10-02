@@ -1,0 +1,43 @@
+{
+  "number": 58,
+  "arabic": "",
+  "urdu": "کھڑے ہو کر پیشاب کرنے کے حکم کا بیان",
+  "english": "",
+  "total_hadiths": 2,
+  "hadiths": [
+    {
+      "hadith_number": 305,
+      "arabic_text": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، ‏‏‏‏‏‏حَدَّثَنَا شَرِيكٌ، ‏‏‏‏‏‏ وَهُشَيْمٌ، ‏‏‏‏‏‏ وَوَكِيعٌ، ‏‏‏‏‏‏عَنْ الْأَعْمَشِ، ‏‏‏‏‏‏عَنْ أَبِي وَائِلٍ، ‏‏‏‏‏‏عَنْ حُذَيْفَةَ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَتَى سُبَاطَةَ قَوْمٍ فَبَالَ عَلَيْهَا قَائِمًا .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم ایک قوم کے کوڑا خانہ پر آئے، اور اس پر کھڑے ہو کر پیشاب کیا۔",
+      "english_translation": "It was narrated from Hudhaifah that:\n\nThe Messenger of Allah came to the garbage dump of some people and he urinated on it standing up.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "حذیفہ رضی اللہ عنہ فرماتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم ایک قوم کے کوڑا خانہ پر آئے، اور اس پر کھڑے ہو کر پیشاب کیا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "305",
+        "arabic_number": "ترقیم  : 305"
+      }
+    },
+    {
+      "hadith_number": 306,
+      "arabic_text": "حَدَّثَنَا إِسْحَاق بْنُ مَنْصُورٍ، ‏‏‏‏‏‏حَدَّثَنَا أَبُو دَاوُدَ، ‏‏‏‏‏‏حَدَّثَنَا شُعْبَةُ، ‏‏‏‏‏‏عَنْ عَاصِمٍ، ‏‏‏‏‏‏عَنْ أَبِي وَائِلٍ، ‏‏‏‏‏‏عَنْ الْمُغِيرَةِ بْنِ شُعْبَةَ  أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَتَى سُبَاطَةَ قَوْمٍ فَبَالَ قَائِمًا .",
+      "urdu_translation": "رسول اللہ صلی اللہ علیہ وسلم ایک قوم کے کوڑا خانہ پر آئے اور کھڑے ہو کر پیشاب کیا۔",
+      "english_translation": "Shu'bah narrated from 'Asim from Abu Wa'il from Mughirah bin Shu'bah that:\n\nThe Messenger of Allah came to the garbage dump of some people and urinated while standing up. (Hasan) Shu'bah said:  That day, 'Asim said: 'Amash reported this from Abu Wa'il, from Hudhaifah, but he did not remember it (correctly). So I asked Mansur about it, and he narrated it to me from Abu Wa'il, from Hudhaifah, that the Prophet came to a dump of some people and urinated while standing.'",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "مغیرہ بن شعبہ رضی اللہ عنہ فرماتے ہیں کہ  رسول اللہ صلی اللہ علیہ وسلم ایک قوم کے کوڑا خانہ پر آئے اور کھڑے ہو کر پیشاب کیا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "306",
+        "arabic_number": "ترقیم  : 306"
+      }
+    }
+  ]
+}

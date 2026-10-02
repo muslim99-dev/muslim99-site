@@ -1,0 +1,110 @@
+VALIDATION REPORT - Book 5: 
+Generated: 2026-08-22 10:20:45
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_60.json - Chapter 60
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #224:
+    ✗ english_translation: EMPTY
+
+  Hadith #225:
+    ✗ english_translation: EMPTY
+
+  Hadith #226:
+    ✗ english_translation: EMPTY
+
+  Hadith #227:
+    ✗ english_translation: EMPTY
+
+  Hadith #228:
+    ✗ english_translation: EMPTY
+
+  chap_61.json - Chapter 61
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #229:
+    ✗ english_translation: EMPTY
+
+  Hadith #230:
+    ✗ english_translation: EMPTY
+
+  Hadith #231:
+    ✗ english_translation: EMPTY
+
+  Hadith #232:
+    ✗ english_translation: EMPTY
+
+  Hadith #233:
+    ✗ english_translation: EMPTY
+
+  Hadith #234:
+    ✗ english_translation: EMPTY
+
+  chap_62.json - Chapter 62
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #235:
+    ✗ english_translation: EMPTY
+
+  chap_63.json - Chapter 63
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #236:
+    ✗ english_translation: EMPTY
+
+  chap_64.json - Chapter 64
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #237:
+    ✗ english_translation: EMPTY
+
+  Hadith #238:
+    ✗ english_translation: EMPTY
+
+  chap_65.json - Chapter 65
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #239:
+    ✗ english_translation: EMPTY
+
+  Hadith #240:
+    ✗ english_translation: EMPTY
+
+  Hadith #241:
+    ✗ english_translation: EMPTY
+
+  chap_66.json - Chapter 66
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #242:
+    ✗ english_translation: EMPTY
+
+  Hadith #243:
+    ✗ english_translation: EMPTY
+
+  Hadith #244:
+    ✗ english_translation: EMPTY
+
+  Hadith #245:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 38
+  - Book metadata: 2
+  - Chapters: 36
+  - Hadiths: 0
+================================================================================

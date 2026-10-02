@@ -1,0 +1,207 @@
+VALIDATION REPORT - Book 25: The book of jihad
+Generated: 2026-08-13 06:09:36
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1530.json - Chapter 1530
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1531.json - Chapter 1531
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1532.json - Chapter 1532
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1533.json - Chapter 1533
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1534.json - Chapter 1534
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1535.json - Chapter 1535
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1536.json - Chapter 1536
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1537.json - Chapter 1537
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1538.json - Chapter 1538
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1539.json - Chapter 1539
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1540.json - Chapter 1540
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1541.json - Chapter 1541
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1542.json - Chapter 1542
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1543.json - Chapter 1543
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1544.json - Chapter 1544
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1545.json - Chapter 1545
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1546.json - Chapter 1546
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1547.json - Chapter 1547
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1548.json - Chapter 1548
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1549.json - Chapter 1549
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1550.json - Chapter 1550
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1551.json - Chapter 1551
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1552.json - Chapter 1552
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1553.json - Chapter 1553
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1554.json - Chapter 1554
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1555.json - Chapter 1555
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1556.json - Chapter 1556
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1557.json - Chapter 1557
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1558.json - Chapter 1558
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1559.json - Chapter 1559
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1560.json - Chapter 1560
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1561.json - Chapter 1561
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1562.json - Chapter 1562
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1563.json - Chapter 1563
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1564.json - Chapter 1564
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1565.json - Chapter 1565
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1566.json - Chapter 1566
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1567.json - Chapter 1567
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1568.json - Chapter 1568
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1569.json - Chapter 1569
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1570.json - Chapter 1570
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1571.json - Chapter 1571
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1572.json - Chapter 1572
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1573.json - Chapter 1573
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1574.json - Chapter 1574
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1575.json - Chapter 1575
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1576.json - Chapter 1576
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1577.json - Chapter 1577
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 97
+  - Book metadata: 1
+  - Chapters: 96
+  - Hadiths: 0
+================================================================================

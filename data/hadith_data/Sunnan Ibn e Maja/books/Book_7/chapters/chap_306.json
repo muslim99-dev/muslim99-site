@@ -1,0 +1,78 @@
+{
+  "number": 306,
+  "arabic": "",
+  "urdu": "جمعہ کے وقت کا بیان",
+  "english": "",
+  "total_hadiths": 4,
+  "hadiths": [
+    {
+      "hadith_number": 1099,
+      "arabic_text": "حَدَّثَنَا مُحَمَّدُ بْنُ الصَّبَّاحِ، ‏‏‏‏‏‏حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ أَبِي حَازِمٍ، ‏‏‏‏‏‏حَدَّثَنِي أَبِي، ‏‏‏‏‏‏عَنْ سَهْلِ بْنِ سَعْدٍ، ‏‏‏‏‏‏قَالَ:‏‏‏‏  مَا كُنَّا نَقِيلُ وَلَا نَتَغَدَّى إِلَّا بَعْدَ الْجُمُعَةِ .",
+      "urdu_translation": "ہم جمعہ کے بعد ہی قیلولہ کرتے، اور دوپہر کا کھانا کھایا کرتے تھے ۱؎۔",
+      "english_translation": "It was narrated that Sahl bin Sa’d said:\n\n“We did not take a Qailulah nor eat Ghada’ until after Friday (prayer).”*",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "سہل بن سعد رضی اللہ عنہ کہتے ہیں کہ  ہم جمعہ کے بعد ہی قیلولہ کرتے، اور دوپہر کا کھانا کھایا کرتے تھے ۱؎۔"
+        }
+      ],
+      "reference": {
+        "international_number": "1099",
+        "arabic_number": "ترقیم  : 1099"
+      }
+    },
+    {
+      "hadith_number": 1100,
+      "arabic_text": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، ‏‏‏‏‏‏حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، ‏‏‏‏‏‏حَدَّثَنَا يَعْلَى بْنُ الْحَارِثِ، ‏‏‏‏‏‏قَالَ:‏‏‏‏ سَمِعْتُ إِيَاسَ بْنَ سَلَمَةَ بْنِ الْأَكْوَعِ، ‏‏‏‏‏‏عَنْ أَبِيهِ، ‏‏‏‏‏‏قَالَ:‏‏‏‏  كُنَّا نُصَلِّي مَعَ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ الْجُمُعَةَ، ‏‏‏‏‏‏ثُمَّ نَرْجِعُ، ‏‏‏‏‏‏فَلَا نَرَى لِلْحِيطَانِ فَيْئًا نَسْتَظِلُّ بِهِ .",
+      "urdu_translation": "ہم نبی اکرم صلی اللہ علیہ وسلم کے ساتھ جمعہ کی نماز پڑھتے تھے، پھر گھروں کو واپس ہوتے تو دیواروں کا سایہ اتنا بھی نہ ہوتا تھا کہ ہم اس سایہ میں چل سکیں",
+      "english_translation": "Iyas bin Salamah bin Akwa’ narrated that his father said:\n\n“We used to perform Friday (prayer) with the Prophet (ﷺ), then we would return, and we would not see any shadow from the walls in which we could seek shade.”",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "سلمہ بن الاکوع رضی اللہ عنہ کہتے ہیں کہ  ہم نبی اکرم صلی اللہ علیہ وسلم کے ساتھ جمعہ کی نماز پڑھتے تھے، پھر گھروں کو واپس ہوتے تو دیواروں کا سایہ اتنا بھی نہ ہوتا تھا کہ ہم اس سایہ میں چل سکیں"
+        }
+      ],
+      "reference": {
+        "international_number": "1100",
+        "arabic_number": "ترقیم  : 1100"
+      }
+    },
+    {
+      "hadith_number": 1101,
+      "arabic_text": "حَدَّثَنَا هِشَامُ بْنُ عَمَّارٍ، ‏‏‏‏‏‏حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ سَعْدِ بْنِ عَمَّارِ بْنِ سَعْدٍ مُؤَذِّنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، ‏‏‏‏‏‏حَدَّثَنِيأَبِي، ‏‏‏‏‏‏عَنْ أَبِيهِ، ‏‏‏‏‏‏عَنْ جَدِّهِ، ‏‏‏‏‏‏أَنَّهُ كَانَ:‏‏‏‏  يُؤَذِّنُ يَوْمَ الْجُمُعَةِ عَلَى عَهْدِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِذَا كَانَ الْفَيْءُ مِثْلَ الشِّرَاكِ .",
+      "urdu_translation": "وہ رسول اللہ صلی اللہ علیہ وسلم کے زمانہ میں جمعہ کی اذان اس وقت دیتے تھے جب سایہ جوتا کے تسمے کے برابر ہو جاتا۔",
+      "english_translation": "‘Abdur-Rahman bin Sa’d bin ‘Ammar bin Sad, the Mu’adh-dhin of the Prophet (ﷺ), said:\n\n“My father told me, narrating from his father, from his grandfather, that during the time of the Messenger of Allah (ﷺ), he used to call the Adhan on Fridays when the shadow was like a sandal strap.”",
+      "status": "Zaeef",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "مؤذن رسول سعد رضی اللہ عنہ سے روایت ہے کہ  وہ رسول اللہ صلی اللہ علیہ وسلم کے زمانہ میں جمعہ کی اذان اس وقت دیتے تھے جب سایہ جوتا کے تسمے کے برابر ہو جاتا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "1101",
+        "arabic_number": "ترقیم  : 1101"
+      }
+    },
+    {
+      "hadith_number": 1102,
+      "arabic_text": "حَدَّثَنَا أَحْمَدُ بْنُ عَبْدَةَ، ‏‏‏‏‏‏حَدَّثَنَا الْمُعْتَمِرُ بْنُ سُلَيْمَانَ، ‏‏‏‏‏‏حَدَّثَنَا حُمَيْدٌ، ‏‏‏‏‏‏عَنْ أَنَسٍ، ‏‏‏‏‏‏قَالَ:‏‏‏‏  كُنَّا نُجَمِّعُ، ‏‏‏‏‏‏ثُمَّ نَرْجِعُ فَنَقِيلُ .",
+      "urdu_translation": "ہم جمعہ پڑھتے پھر لوٹ کر قیلولہ کرتے تھے",
+      "english_translation": "It was narrated that Anas said:\n\n“We used to perform the Friday (prayer), then we would return for a nap (Qailulah).”",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "انس رضی اللہ عنہ کہتے ہیں کہ  ہم جمعہ پڑھتے پھر لوٹ کر قیلولہ کرتے تھے"
+        }
+      ],
+      "reference": {
+        "international_number": "1102",
+        "arabic_number": "ترقیم  : 1102"
+      },
+      "explanation": "قیلولہ: دوپہر کے کھانے کے بعد آرام کو قیلولہ کہتے ہیں"
+    }
+  ]
+}

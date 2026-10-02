@@ -38,17 +38,10 @@ async function searchOneTerm(term: string): Promise<RetrievedVerse[]> {
   }));
 }
 
-/** The search API matches on an exact literal substring — so a natural
- * phrase like "Night of Decree" finds exactly the right 3 verses, while
- * decomposing it into single words like "night" (98 matches) or "decree"
- * (63 matches) buries the right answer in noise. Phrases are tried first,
- * from longest/most specific to shortest, and only if none of them find
- * anything does it fall back to merging individual keyword matches. */
 export async function searchQuran(question: string, limit = 5): Promise<RetrievedVerse[]> {
   const phrases = extractPhrases(question);
   const phraseResults = await Promise.all(phrases.map((p) => searchOneTerm(p).catch(() => [])));
-  // Prefer the longest phrase that actually matched something (earlier in
-  // the list = longer/more specific, from extractPhrases's ordering).
+
   const bestPhraseHit = phraseResults.find((hits) => hits.length > 0);
   if (bestPhraseHit) return bestPhraseHit.slice(0, limit);
 
@@ -70,10 +63,7 @@ export async function searchQuran(question: string, limit = 5): Promise<Retrieve
   return merged;
 }
 
-/** Candidate phrases to try as exact substrings, longest first: the whole
- * cleaned question, then sliding windows of the original words (kept in
- * their natural order, short words included, since a real phrase like
- * "Night of Decree" needs "of" to match). */
+
 function extractPhrases(question: string): string[] {
   const words = question
     .trim()
@@ -92,13 +82,6 @@ function extractPhrases(question: string): string[] {
   return phrases.slice(0, 12);
 }
 
-/**
- * Enriches retrieved verses with a short excerpt of classical tafsir
- * commentary (Ibn Kathir by default), so the model can ground answers in
- * scholarly explanation, not just the bare ayah text. Fetches are grouped
- * by surah (one request per distinct surah among the results, reused
- * across every verse from that surah) rather than one per verse.
- */
 export async function attachTafsir(
   verses: RetrievedVerse[],
   tafsirSlug = "ar-tafsir-ibn-kathir",
@@ -138,60 +121,63 @@ export type RetrievedHadith = {
 /**
  * Real hadith retrieval using the live hadith API's own /api/search
  * endpoint — a genuine keyword search across a collection's actual text
- * (Arabic/Urdu/English), not a local fetch-and-filter. Searches the most
- * commonly asked-about collections in parallel; a real full-text search
- * across all 18 on every question would be needlessly slow.
+ * (Arabic/Urdu/English), not a local fetch-and-filter.
+ *
+ * This deliberately does NOT hardcode which collections to search — it
+ * reuses searchAllCollections() from lib/hadith.ts, the exact same
+ * function the Hadith section's own cross-collection search box calls.
+ * Both read live from getCollections() at request time, so if a 19th
+ * collection is ever added to the source API, both the search UI and
+ * this AI grounding pick it up automatically — no code change needed
+ * here, matching the app's "never retrain from scratch" requirement.
  */
-export async function searchHadith(
-  question: string,
-  limit = 4,
-  collectionSlugs: string[] = ["sahih-bukhari", "sahih-muslim", "jam-e-tirmazi", "sunnan-abu-dawood"]
-): Promise<RetrievedHadith[]> {
-  const { getCollection, searchCollection, getChapter } = await import("./hadith");
+export async function searchHadith(question: string, limit = 4): Promise<RetrievedHadith[]> {
+  const { searchAllCollections, getChapter } = await import("./hadith");
   const terms = extractSearchTerms(question);
   if (terms.length === 0) return [];
-  // The search endpoint matches a single literal query, not multi-term OR —
-  // same lesson learned from the Quran search — so use the single most
-  // specific (longest) extracted term.
-  const query = terms.sort((a, b) => b.length - a.length)[0];
 
-  const results = await Promise.all(
-    collectionSlugs.map(async (slug) => {
+  // The search endpoint matches a single literal query, not multi-term OR,
+  // and hadith text is in Arabic/Urdu-script/English — never Roman-Urdu —
+  // so a Roman-Urdu question can extract several candidate words where
+  // only one or two would ever actually appear in the text (e.g. "namaz"
+  // mapped to "prayer" is searchable; a leftover connector word like
+  // "mutaliq" or "ander" never is). Picking by raw word length once
+  // picked a filler word over the real term and silently found nothing.
+  // So every candidate is tried, in priority order, until one hits.
+  let hits: Awaited<ReturnType<typeof searchAllCollections>> = [];
+  for (const term of terms) {
+    hits = await searchAllCollections(term, 2).catch(() => []);
+    if (hits.length > 0) break;
+  }
+  const top = hits.slice(0, limit);
+
+  // The search endpoint only returns a snippet + location, not the full
+  // hadith fields — fetch the actual chapter for full text, only for the
+  // handful of results that will actually be used.
+  const withText = await Promise.all(
+    top.map(async (hit) => {
       try {
-        const [collection, hits] = await Promise.all([getCollection(slug), searchCollection(slug, query, { limit })]);
-        if (!collection) return [];
-        // The search endpoint only returns a snippet + location, not the
-        // full hadith fields — fetch the actual chapter for full text.
-        const withText = await Promise.all(
-          hits.map(async (hit) => {
-            try {
-              const chapter = await getChapter(slug, hit.book, hit.chapter);
-              const h = chapter.hadiths.find((x) => x.hadith_number === hit.hadith_number);
-              const text = h?.english_translation || hit.snippet;
-              return {
-                bookName: collection.name,
-                bookSlug: slug,
-                hadithnumber: hit.hadith_number,
-                text: text.length > 400 ? text.slice(0, 400) + "…" : text
-              };
-            } catch {
-              return {
-                bookName: collection.name,
-                bookSlug: slug,
-                hadithnumber: hit.hadith_number,
-                text: hit.snippet
-              };
-            }
-          })
-        );
-        return withText;
+        const chapter = await getChapter(hit.collection, hit.book, hit.chapter);
+        const h = chapter.hadiths.find((x) => x.hadith_number === hit.hadith_number);
+        const text = h?.english_translation || hit.snippet;
+        return {
+          bookName: hit.collectionName,
+          bookSlug: hit.collection,
+          hadithnumber: hit.hadith_number,
+          text: text.length > 400 ? text.slice(0, 400) + "…" : text
+        };
       } catch {
-        return [];
+        return {
+          bookName: hit.collectionName,
+          bookSlug: hit.collection,
+          hadithnumber: hit.hadith_number,
+          text: hit.snippet
+        };
       }
     })
   );
 
-  return results.flat().slice(0, limit);
+  return withText;
 }
 
 // Users very often ask in Roman Urdu/Arabic transliteration ("namaz",
@@ -222,11 +208,26 @@ const ISLAMIC_TERM_MAP: Record<string, string> = {
   ramzan: "ramadan",
   quran: "quran",
   hadith: "hadith",
+  hadees: "hadith",
   imaan: "faith",
   iman: "faith"
 };
 
-/** Pull a handful of keywords out of a question for the search API. */
+// Common Roman-Urdu connector/filler words that survive a length>2, non-
+// English-stopword filter but never appear inside translated hadith/Quran
+// text — without this list, a query could pick "mutaliq" (roughly "about")
+// or "ander" ("inside") over the one word actually worth searching for.
+const ROMAN_URDU_FILLER = new Set([
+  "mutaliq", "ander", "andar", "muje", "mujhe", "nikal", "nikaal", "sath", "saath", "hay", "hain",
+  "kro", "karo", "kar", "kr", "wala", "wale", "wali", "jaisay", "jese", "waqt", "diya", "dedo",
+  "chahye", "chahiye", "btao", "bataye", "bata", "dain", "dijiye", "plz", "pls", "reference",
+  "refernece", "full", "complete", "detail", "batado"
+]);
+
+/** Pull keywords out of a question for the search API, with any real
+ * translated-Islamic-term matches (e.g. "namaz" -> "prayer") given
+ * priority — those are guaranteed real words the actual hadith/Quran
+ * text could contain, unlike an arbitrary Roman-Urdu leftover word. */
 export function extractSearchTerms(question: string): string[] {
   const stopwords = new Set([
     "what", "why", "how", "when", "where", "who", "which", "is", "are", "was", "were", "do", "does",
@@ -237,8 +238,16 @@ export function extractSearchTerms(question: string): string[] {
     .toLowerCase()
     .replace(/[^a-z0-9\s]/g, " ")
     .split(/\s+/)
-    .filter((w) => w.length > 2 && !stopwords.has(w));
+    .filter((w) => w.length > 2 && !stopwords.has(w) && !ROMAN_URDU_FILLER.has(w));
 
-  const words = rawWords.flatMap((w) => (ISLAMIC_TERM_MAP[w] ? [ISLAMIC_TERM_MAP[w]] : [w]));
-  return Array.from(new Set(words)).slice(0, 4);
+  const mapped: string[] = [];
+  const unmapped: string[] = [];
+  for (const w of rawWords) {
+    if (ISLAMIC_TERM_MAP[w]) mapped.push(ISLAMIC_TERM_MAP[w]);
+    else unmapped.push(w);
+  }
+  // Mapped (verified-real) terms first, then the rest in their original
+  // order — deduplicated, so callers trying candidates in sequence hit
+  // the most likely-to-match term first.
+  return Array.from(new Set([...mapped, ...unmapped])).slice(0, 6);
 }

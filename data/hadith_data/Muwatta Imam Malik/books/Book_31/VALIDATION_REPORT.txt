@@ -1,0 +1,57 @@
+VALIDATION REPORT - Book 31: 
+Generated: 2026-08-22 10:53:54
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_385.json - Chapter 385
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1293:
+    ✗ english_translation: EMPTY
+
+  Hadith #1294:
+    ✗ english_translation: EMPTY
+
+  Hadith #1295:
+    ✗ english_translation: EMPTY
+
+  chap_386.json - Chapter 386
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1296:
+    ✗ english_translation: EMPTY
+
+  chap_387.json - Chapter 387
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1297:
+    ✗ english_translation: EMPTY
+
+  chap_388.json - Chapter 388
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1298:
+    ✗ english_translation: EMPTY
+
+  chap_389.json - Chapter 389
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1299:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 19
+  - Book metadata: 2
+  - Chapters: 17
+  - Hadiths: 0
+================================================================================

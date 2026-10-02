@@ -1,0 +1,67 @@
+VALIDATION REPORT - Book 149: 
+Generated: 2026-08-15 01:13:27
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1529.json - Chapter 1529
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #8473:
+    ✗ english_translation: EMPTY
+
+  Hadith #8474:
+    ✗ english_translation: EMPTY
+
+  Hadith #8474:
+    ✗ english_translation: EMPTY
+
+  Hadith #8475:
+    ✗ english_translation: EMPTY
+
+  Hadith #8476:
+    ✗ english_translation: EMPTY
+
+  Hadith #8477:
+    ✗ english_translation: EMPTY
+
+  chap_1560.json - Chapter 1560
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #8478:
+    ✗ english_translation: EMPTY
+
+  Hadith #8479:
+    ✗ english_translation: EMPTY
+
+  chap_1561.json - Chapter 1561
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #8480:
+    ✗ english_translation: EMPTY
+
+  Hadith #8481:
+    ✗ english_translation: EMPTY
+
+  Hadith #8482:
+    ✗ english_translation: EMPTY
+
+  Hadith #8483:
+    ✗ english_translation: EMPTY
+
+  Hadith #8484:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 21
+  - Book metadata: 2
+  - Chapters: 19
+  - Hadiths: 0
+================================================================================

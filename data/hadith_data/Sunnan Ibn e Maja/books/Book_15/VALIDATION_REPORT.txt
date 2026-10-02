@@ -1,0 +1,114 @@
+VALIDATION REPORT - Book 15: The chapters on rulings
+Generated: 2026-08-13 16:44:10
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_778.json - Chapter 778
+  ✗ arabic: EMPTY
+
+  chap_779.json - Chapter 779
+  ✗ arabic: EMPTY
+
+  chap_780.json - Chapter 780
+  ✗ arabic: EMPTY
+
+  chap_781.json - Chapter 781
+  ✗ arabic: EMPTY
+
+  chap_782.json - Chapter 782
+  ✗ arabic: EMPTY
+
+  chap_783.json - Chapter 783
+  ✗ arabic: EMPTY
+
+  chap_784.json - Chapter 784
+  ✗ arabic: EMPTY
+
+  chap_785.json - Chapter 785
+  ✗ arabic: EMPTY
+
+  chap_786.json - Chapter 786
+  ✗ arabic: EMPTY
+
+  chap_787.json - Chapter 787
+  ✗ arabic: EMPTY
+
+  chap_788.json - Chapter 788
+  ✗ arabic: EMPTY
+
+  chap_789.json - Chapter 789
+  ✗ arabic: EMPTY
+
+  chap_790.json - Chapter 790
+  ✗ arabic: EMPTY
+
+  chap_791.json - Chapter 791
+  ✗ arabic: EMPTY
+
+  chap_792.json - Chapter 792
+  ✗ arabic: EMPTY
+
+  chap_793.json - Chapter 793
+  ✗ arabic: EMPTY
+
+  chap_794.json - Chapter 794
+  ✗ arabic: EMPTY
+
+  chap_795.json - Chapter 795
+  ✗ arabic: EMPTY
+
+  chap_796.json - Chapter 796
+  ✗ arabic: EMPTY
+
+  chap_797.json - Chapter 797
+  ✗ arabic: EMPTY
+
+  chap_798.json - Chapter 798
+  ✗ arabic: EMPTY
+
+  chap_799.json - Chapter 799
+  ✗ arabic: EMPTY
+
+  chap_800.json - Chapter 800
+  ✗ arabic: EMPTY
+
+  chap_801.json - Chapter 801
+  ✗ arabic: EMPTY
+
+  chap_802.json - Chapter 802
+  ✗ arabic: EMPTY
+
+  chap_803.json - Chapter 803
+  ✗ arabic: EMPTY
+
+  chap_804.json - Chapter 804
+  ✗ arabic: EMPTY
+
+  chap_805.json - Chapter 805
+  ✗ arabic: EMPTY
+
+  chap_806.json - Chapter 806
+  ✗ arabic: EMPTY
+
+  chap_807.json - Chapter 807
+  ✗ arabic: EMPTY
+
+  chap_808.json - Chapter 808
+  ✗ arabic: EMPTY
+
+  chap_809.json - Chapter 809
+  ✗ arabic: EMPTY
+
+  chap_810.json - Chapter 810
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 34
+  - Book metadata: 1
+  - Chapters: 33
+  - Hadiths: 0
+================================================================================

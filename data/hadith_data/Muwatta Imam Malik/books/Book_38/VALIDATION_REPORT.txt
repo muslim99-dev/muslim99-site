@@ -1,0 +1,93 @@
+VALIDATION REPORT - Book 38: 
+Generated: 2026-08-22 10:58:33
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_436.json - Chapter 436
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1412:
+    ✗ english_translation: EMPTY
+
+  Hadith #1413:
+    ✗ english_translation: EMPTY
+
+  chap_437.json - Chapter 437
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1414:
+    ✗ english_translation: EMPTY
+
+  Hadith #1415:
+    ✗ english_translation: EMPTY
+
+  Hadith #1416:
+    ✗ english_translation: EMPTY
+
+  chap_438.json - Chapter 438
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1417:
+    ✗ english_translation: EMPTY
+
+  Hadith #1418:
+    ✗ english_translation: EMPTY
+
+  chap_439.json - Chapter 439
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1419:
+    ✗ english_translation: EMPTY
+
+  Hadith #1420:
+    ✗ english_translation: EMPTY
+
+  Hadith #1421:
+    ✗ english_translation: EMPTY
+
+  chap_440.json - Chapter 440
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1422:
+    ✗ english_translation: EMPTY
+
+  chap_441.json - Chapter 441
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1423:
+    ✗ english_translation: EMPTY
+
+  chap_442.json - Chapter 442
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1424:
+    ✗ english_translation: EMPTY
+
+  Hadith #1425:
+    ✗ english_translation: EMPTY
+
+  chap_443.json - Chapter 443
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1426:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 33
+  - Book metadata: 2
+  - Chapters: 31
+  - Hadiths: 0
+================================================================================

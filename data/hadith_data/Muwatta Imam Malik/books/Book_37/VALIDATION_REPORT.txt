@@ -1,0 +1,36 @@
+VALIDATION REPORT - Book 37: 
+Generated: 2026-08-22 10:57:54
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_434.json - Chapter 434
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1408:
+    ✗ english_translation: EMPTY
+
+  Hadith #1409:
+    ✗ english_translation: EMPTY
+
+  Hadith #1410:
+    ✗ english_translation: EMPTY
+
+  chap_435.json - Chapter 435
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1411:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 10
+  - Book metadata: 2
+  - Chapters: 8
+  - Hadiths: 0
+================================================================================

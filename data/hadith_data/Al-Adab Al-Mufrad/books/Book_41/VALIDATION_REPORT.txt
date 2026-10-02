@@ -1,0 +1,72 @@
+VALIDATION REPORT - Book 41: Gestures
+Generated: 2026-08-22 06:32:13
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_431.json - Chapter 431
+  ✗ english: EMPTY
+
+  Hadith #956:
+    ✗ english_translation: EMPTY
+
+  Hadith #957:
+    ✗ english_translation: EMPTY
+
+  chap_432.json - Chapter 432
+  ✗ english: EMPTY
+
+  Hadith #958:
+    ✗ english_translation: EMPTY
+
+  chap_433.json - Chapter 433
+  ✗ english: EMPTY
+
+  Hadith #959:
+    ✗ english_translation: EMPTY
+
+  Hadith #960:
+    ✗ english_translation: EMPTY
+
+  chap_434.json - Chapter 434
+  ✗ english: EMPTY
+
+  Hadith #961:
+    ✗ english_translation: EMPTY
+
+  Hadith #962:
+    ✗ english_translation: EMPTY
+
+  Hadith #963:
+    ✗ english_translation: EMPTY
+
+  chap_435.json - Chapter 435
+  ✗ english: EMPTY
+
+  Hadith #964:
+    ✗ english_translation: EMPTY
+
+  Hadith #965:
+    ✗ english_translation: EMPTY
+
+  chap_436.json - Chapter 436
+  ✗ english: EMPTY
+
+  Hadith #966:
+    ✗ english_translation: EMPTY
+
+  Hadith #967:
+    ✗ english_translation: EMPTY
+
+  chap_437.json - Chapter 437
+  ✗ english: EMPTY
+
+  Hadith #968:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 20
+  - Book metadata: 0
+  - Chapters: 20
+  - Hadiths: 0
+================================================================================

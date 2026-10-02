@@ -1,0 +1,29 @@
+VALIDATION REPORT - Book 17: 
+Generated: 2026-08-22 12:39:23
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_477.json - Chapter 477
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #506:
+    ✗ english_translation: EMPTY
+
+  Hadith #507:
+    ✗ english_translation: EMPTY
+
+  Hadith #508:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 7
+  - Book metadata: 2
+  - Chapters: 5
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,74 @@
+VALIDATION REPORT - Book 58: 
+Generated: 2026-08-14 06:56:35
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_538.json - Chapter 538
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #3096:
+    ✗ english_translation: EMPTY
+
+  Hadith #3097:
+    ✗ english_translation: EMPTY
+
+  Hadith #3098:
+    ✗ english_translation: EMPTY
+
+  Hadith #3099:
+    ✗ english_translation: EMPTY
+
+  chap_539.json - Chapter 539
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #3100:
+    ✗ english_translation: EMPTY
+
+  Hadith #3101:
+    ✗ english_translation: EMPTY
+
+  Hadith #3102:
+    ✗ english_translation: EMPTY
+
+  chap_540.json - Chapter 540
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #3103:
+    ✗ english_translation: EMPTY
+
+  Hadith #3104:
+    ✗ english_translation: EMPTY
+
+  Hadith #3105:
+    ✗ english_translation: EMPTY
+
+  Hadith #3106:
+    ✗ english_translation: EMPTY
+
+  chap_541.json - Chapter 541
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #3107:
+    ✗ english_translation: EMPTY
+
+  Hadith #3108:
+    ✗ english_translation: EMPTY
+
+  Hadith #3109:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 24
+  - Book metadata: 2
+  - Chapters: 22
+  - Hadiths: 0
+================================================================================

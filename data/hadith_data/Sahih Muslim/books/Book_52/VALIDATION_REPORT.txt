@@ -1,0 +1,15 @@
+VALIDATION REPORT - Book 52: The book of paradise , its description , its bouties and its inhabitants
+Generated: 2026-08-12 17:42:25
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_1244.json - Chapter 1244
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 1
+  - Book metadata: 0
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

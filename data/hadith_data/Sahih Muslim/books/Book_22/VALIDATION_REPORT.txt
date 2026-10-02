@@ -1,0 +1,72 @@
+VALIDATION REPORT - Book 22: The book of emancipating slaves
+Generated: 2026-08-12 15:03:00
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_642.json - Chapter 642
+  ✗ english: EMPTY
+
+  chap_643.json - Chapter 643
+  ✗ english: EMPTY
+
+  chap_644.json - Chapter 644
+  ✗ english: EMPTY
+
+  chap_645.json - Chapter 645
+  ✗ english: EMPTY
+
+  chap_646.json - Chapter 646
+  ✗ english: EMPTY
+
+  chap_647.json - Chapter 647
+  ✗ english: EMPTY
+
+  chap_648.json - Chapter 648
+  ✗ english: EMPTY
+
+  chap_649.json - Chapter 649
+  ✗ english: EMPTY
+
+  chap_650.json - Chapter 650
+  ✗ english: EMPTY
+
+  chap_651.json - Chapter 651
+  ✗ english: EMPTY
+
+  chap_652.json - Chapter 652
+  ✗ english: EMPTY
+
+  chap_653.json - Chapter 653
+  ✗ english: EMPTY
+
+  chap_654.json - Chapter 654
+  ✗ english: EMPTY
+
+  chap_655.json - Chapter 655
+  ✗ english: EMPTY
+
+  chap_656.json - Chapter 656
+  ✗ english: EMPTY
+
+  chap_657.json - Chapter 657
+  ✗ english: EMPTY
+
+  chap_658.json - Chapter 658
+  ✗ english: EMPTY
+
+  chap_659.json - Chapter 659
+  ✗ english: EMPTY
+
+  chap_660.json - Chapter 660
+  ✗ english: EMPTY
+
+  chap_661.json - Chapter 661
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 20
+  - Book metadata: 0
+  - Chapters: 20
+  - Hadiths: 0
+================================================================================

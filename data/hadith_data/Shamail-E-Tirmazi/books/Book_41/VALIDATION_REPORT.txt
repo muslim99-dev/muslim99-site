@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 41: Description of zuha prayer (chasht).
+Generated: 2026-08-17 13:45:17
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_41.json - Chapter 41
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,26 @@
+{
+  "number": 1161,
+  "arabic": "",
+  "urdu": "عورت کے ذبیحہ کا حکم",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 3182,
+      "arabic_text": "حَدَّثَنَا هَنَّادُ بْنُ السَّرِيِّ، ‏‏‏‏‏‏حَدَّثَنَا عَبْدَةُ بْنُ سُلَيْمَانَ، ‏‏‏‏‏‏عَنْ عُبَيْدِ اللَّهِ، ‏‏‏‏‏‏عَنْ نَافِعٍ، ‏‏‏‏‏‏عَنْ ابْنِ كَعْبِ بْنِ مَالِكٍ، ‏‏‏‏‏‏عَنْ أَبِيهِ أَنَّ امْرَأَةً ذَبَحَتْ شَاةً بِحَجَرٍ، ‏‏‏‏‏‏فَذُكِرَ ذَلِكَ لِرَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَلَمْ يَرَ بِهِ بَأْسًا .",
+      "urdu_translation": "ایک عورت نے ایک بکری کو پتھر سے ذبح کر دیا، پھر رسول اللہ صلی اللہ علیہ وسلم سے اس کا ذکر کیا گیا تو آپ نے اس میں کوئی حرج محسوس نہیں کیا۔",
+      "english_translation": "It was narrated from a son of Ka’b bin Malik, from his father, that a woman slaughtered a sheep with a stone, and that was mentioned to the Messenger of Allah (ﷺ), but he did not see anything wrong with that.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "کعب بن مالک رضی اللہ عنہ سے روایت ہے کہ  ایک عورت نے ایک بکری کو پتھر سے ذبح کر دیا، پھر رسول اللہ صلی اللہ علیہ وسلم سے اس کا ذکر کیا گیا تو آپ نے اس میں کوئی حرج محسوس نہیں کیا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "3182",
+        "arabic_number": "ترقیم  : 3182"
+      }
+    }
+  ]
+}

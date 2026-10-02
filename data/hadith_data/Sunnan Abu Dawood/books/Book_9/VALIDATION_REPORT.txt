@@ -1,0 +1,159 @@
+VALIDATION REPORT - Book 9: Zakat (kitab al-zakat)
+Generated: 2026-08-13 00:33:48
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_487.json - Chapter 487
+  ✗ arabic: EMPTY
+
+  chap_488.json - Chapter 488
+  ✗ arabic: EMPTY
+
+  chap_489.json - Chapter 489
+  ✗ arabic: EMPTY
+
+  chap_490.json - Chapter 490
+  ✗ arabic: EMPTY
+
+  chap_491.json - Chapter 491
+  ✗ arabic: EMPTY
+
+  chap_492.json - Chapter 492
+  ✗ arabic: EMPTY
+
+  chap_493.json - Chapter 493
+  ✗ arabic: EMPTY
+
+  chap_494.json - Chapter 494
+  ✗ arabic: EMPTY
+
+  chap_495.json - Chapter 495
+  ✗ arabic: EMPTY
+
+  Hadith #1591:
+    ✗ english_translation: EMPTY
+
+  chap_496.json - Chapter 496
+  ✗ arabic: EMPTY
+
+  chap_497.json - Chapter 497
+  ✗ arabic: EMPTY
+
+  chap_498.json - Chapter 498
+  ✗ arabic: EMPTY
+
+  chap_499.json - Chapter 499
+  ✗ arabic: EMPTY
+
+  chap_500.json - Chapter 500
+  ✗ arabic: EMPTY
+
+  chap_501.json - Chapter 501
+  ✗ arabic: EMPTY
+
+  chap_502.json - Chapter 502
+  ✗ arabic: EMPTY
+
+  chap_503.json - Chapter 503
+  ✗ arabic: EMPTY
+
+  chap_504.json - Chapter 504
+  ✗ arabic: EMPTY
+
+  chap_505.json - Chapter 505
+  ✗ arabic: EMPTY
+
+  chap_506.json - Chapter 506
+  ✗ arabic: EMPTY
+
+  chap_507.json - Chapter 507
+  ✗ arabic: EMPTY
+
+  chap_508.json - Chapter 508
+  ✗ arabic: EMPTY
+
+  chap_509.json - Chapter 509
+  ✗ arabic: EMPTY
+
+  chap_510.json - Chapter 510
+  ✗ arabic: EMPTY
+
+  chap_511.json - Chapter 511
+  ✗ arabic: EMPTY
+
+  chap_512.json - Chapter 512
+  ✗ arabic: EMPTY
+
+  chap_513.json - Chapter 513
+  ✗ arabic: EMPTY
+
+  chap_514.json - Chapter 514
+  ✗ arabic: EMPTY
+
+  chap_515.json - Chapter 515
+  ✗ arabic: EMPTY
+
+  chap_516.json - Chapter 516
+  ✗ arabic: EMPTY
+
+  chap_517.json - Chapter 517
+  ✗ arabic: EMPTY
+
+  chap_518.json - Chapter 518
+  ✗ arabic: EMPTY
+
+  chap_519.json - Chapter 519
+  ✗ arabic: EMPTY
+
+  chap_520.json - Chapter 520
+  ✗ arabic: EMPTY
+
+  chap_521.json - Chapter 521
+  ✗ arabic: EMPTY
+
+  chap_522.json - Chapter 522
+  ✗ arabic: EMPTY
+
+  chap_523.json - Chapter 523
+  ✗ arabic: EMPTY
+
+  chap_524.json - Chapter 524
+  ✗ arabic: EMPTY
+
+  chap_525.json - Chapter 525
+  ✗ arabic: EMPTY
+
+  chap_526.json - Chapter 526
+  ✗ arabic: EMPTY
+
+  chap_527.json - Chapter 527
+  ✗ arabic: EMPTY
+
+  chap_528.json - Chapter 528
+  ✗ arabic: EMPTY
+
+  chap_529.json - Chapter 529
+  ✗ arabic: EMPTY
+
+  chap_530.json - Chapter 530
+  ✗ arabic: EMPTY
+
+  chap_531.json - Chapter 531
+  ✗ arabic: EMPTY
+
+  chap_532.json - Chapter 532
+  ✗ arabic: EMPTY
+
+  chap_533.json - Chapter 533
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 49
+  - Book metadata: 1
+  - Chapters: 48
+  - Hadiths: 0
+================================================================================

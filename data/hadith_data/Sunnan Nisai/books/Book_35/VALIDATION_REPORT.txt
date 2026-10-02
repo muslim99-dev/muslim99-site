@@ -1,0 +1,35 @@
+VALIDATION REPORT - Book 35: The book of 'umra
+Generated: 2026-08-13 06:32:00
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1782.json - Chapter 1782
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1783.json - Chapter 1783
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1784.json - Chapter 1784
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1785.json - Chapter 1785
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1786.json - Chapter 1786
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 11
+  - Book metadata: 1
+  - Chapters: 10
+  - Hadiths: 0
+================================================================================

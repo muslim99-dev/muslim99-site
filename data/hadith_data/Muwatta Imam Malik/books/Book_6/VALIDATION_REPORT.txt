@@ -1,0 +1,48 @@
+VALIDATION REPORT - Book 6: 
+Generated: 2026-08-22 10:21:01
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_67.json - Chapter 67
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #246:
+    ✗ english_translation: EMPTY
+
+  Hadith #247:
+    ✗ english_translation: EMPTY
+
+  chap_68.json - Chapter 68
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #248:
+    ✗ english_translation: EMPTY
+
+  Hadith #249:
+    ✗ english_translation: EMPTY
+
+  Hadith #250:
+    ✗ english_translation: EMPTY
+
+  Hadith #251:
+    ✗ english_translation: EMPTY
+
+  Hadith #252:
+    ✗ english_translation: EMPTY
+
+  Hadith #253:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 14
+  - Book metadata: 2
+  - Chapters: 12
+  - Hadiths: 0
+================================================================================

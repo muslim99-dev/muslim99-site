@@ -1,0 +1,123 @@
+VALIDATION REPORT - Book 29: 
+Generated: 2026-08-14 03:31:17
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_2688.json - Chapter 2688
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4088:
+    ✗ english_translation: EMPTY
+
+  chap_2689.json - Chapter 2689
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4089:
+    ✗ english_translation: EMPTY
+
+  chap_2690.json - Chapter 2690
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4090:
+    ✗ english_translation: EMPTY
+
+  chap_2691.json - Chapter 2691
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4091:
+    ✗ english_translation: EMPTY
+
+  chap_2692.json - Chapter 2692
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4092:
+    ✗ english_translation: EMPTY
+
+  chap_2693.json - Chapter 2693
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4093:
+    ✗ english_translation: EMPTY
+
+  chap_2694.json - Chapter 2694
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4094:
+    ✗ english_translation: EMPTY
+
+  chap_2695.json - Chapter 2695
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4095:
+    ✗ english_translation: EMPTY
+
+  chap_2696.json - Chapter 2696
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4096:
+    ✗ english_translation: EMPTY
+
+  Hadith #4097:
+    ✗ english_translation: EMPTY
+
+  chap_2697.json - Chapter 2697
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4098:
+    ✗ english_translation: EMPTY
+
+  chap_2698.json - Chapter 2698
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4099:
+    ✗ english_translation: EMPTY
+
+  chap_2699.json - Chapter 2699
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4100:
+    ✗ english_translation: EMPTY
+
+  chap_2700.json - Chapter 2700
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4101:
+    ✗ english_translation: EMPTY
+
+  chap_2701.json - Chapter 2701
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4102:
+    ✗ english_translation: EMPTY
+
+  chap_2702.json - Chapter 2702
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #4103:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 47
+  - Book metadata: 1
+  - Chapters: 46
+  - Hadiths: 0
+================================================================================

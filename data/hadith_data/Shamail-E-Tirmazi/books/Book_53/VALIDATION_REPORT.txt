@@ -1,0 +1,18 @@
+VALIDATION REPORT - Book 53: Narration of the blessed age of the messenger of allah (peace be upon him).
+Generated: 2026-08-17 13:48:05
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_53.json - Chapter 53
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 2
+  - Book metadata: 1
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

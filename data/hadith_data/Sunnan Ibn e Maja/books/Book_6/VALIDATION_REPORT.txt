@@ -1,0 +1,72 @@
+VALIDATION REPORT - Book 6: The book on the mosques and the congregations
+Generated: 2026-08-13 15:43:04
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_204.json - Chapter 204
+  ✗ arabic: EMPTY
+
+  chap_205.json - Chapter 205
+  ✗ arabic: EMPTY
+
+  chap_206.json - Chapter 206
+  ✗ arabic: EMPTY
+
+  chap_207.json - Chapter 207
+  ✗ arabic: EMPTY
+
+  chap_208.json - Chapter 208
+  ✗ arabic: EMPTY
+
+  chap_209.json - Chapter 209
+  ✗ arabic: EMPTY
+
+  chap_210.json - Chapter 210
+  ✗ arabic: EMPTY
+
+  chap_211.json - Chapter 211
+  ✗ arabic: EMPTY
+
+  chap_212.json - Chapter 212
+  ✗ arabic: EMPTY
+
+  chap_213.json - Chapter 213
+  ✗ arabic: EMPTY
+
+  chap_214.json - Chapter 214
+  ✗ arabic: EMPTY
+
+  chap_215.json - Chapter 215
+  ✗ arabic: EMPTY
+
+  chap_216.json - Chapter 216
+  ✗ arabic: EMPTY
+
+  chap_217.json - Chapter 217
+  ✗ arabic: EMPTY
+
+  chap_218.json - Chapter 218
+  ✗ arabic: EMPTY
+
+  chap_219.json - Chapter 219
+  ✗ arabic: EMPTY
+
+  chap_220.json - Chapter 220
+  ✗ arabic: EMPTY
+
+  chap_221.json - Chapter 221
+  ✗ arabic: EMPTY
+
+  chap_222.json - Chapter 222
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 20
+  - Book metadata: 1
+  - Chapters: 19
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,35 @@
+VALIDATION REPORT - Book 37: The book of mazara'h
+Generated: 2026-08-13 06:37:14
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1829.json - Chapter 1829
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1830.json - Chapter 1830
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1831.json - Chapter 1831
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1832.json - Chapter 1832
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1833.json - Chapter 1833
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 11
+  - Book metadata: 1
+  - Chapters: 10
+  - Hadiths: 0
+================================================================================

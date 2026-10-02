@@ -1,0 +1,27 @@
+VALIDATION REPORT - Book 13: The book of prayer - funerals
+Generated: 2026-08-12 14:16:29
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_384.json - Chapter 384
+  ✗ english: EMPTY
+
+  chap_411.json - Chapter 411
+  ✗ english: EMPTY
+
+  chap_424.json - Chapter 424
+  ✗ english: EMPTY
+
+  chap_425.json - Chapter 425
+  ✗ english: EMPTY
+
+  chap_426.json - Chapter 426
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 5
+  - Book metadata: 0
+  - Chapters: 5
+  - Hadiths: 0
+================================================================================

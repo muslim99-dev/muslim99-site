@@ -1,0 +1,113 @@
+VALIDATION REPORT - Book 3: 
+Generated: 2026-08-22 07:13:49
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_3.json - Chapter 3
+  ✗ arabic: EMPTY
+  ✗ urdu: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #446:
+    ✗ english_translation: EMPTY
+
+  Hadith #447:
+    ✗ english_translation: EMPTY
+
+  Hadith #448:
+    ✗ english_translation: EMPTY
+
+  Hadith #449:
+    ✗ english_translation: EMPTY
+
+  Hadith #450:
+    ✗ english_translation: EMPTY
+
+  Hadith #451:
+    ✗ english_translation: EMPTY
+
+  Hadith #452:
+    ✗ english_translation: EMPTY
+
+  Hadith #453:
+    ✗ english_translation: EMPTY
+
+  Hadith #454:
+    ✗ english_translation: EMPTY
+
+  Hadith #455:
+    ✗ english_translation: EMPTY
+
+  Hadith #456:
+    ✗ english_translation: EMPTY
+
+  Hadith #457:
+    ✗ english_translation: EMPTY
+
+  Hadith #458:
+    ✗ english_translation: EMPTY
+
+  Hadith #459:
+    ✗ english_translation: EMPTY
+
+  Hadith #460:
+    ✗ english_translation: EMPTY
+
+  Hadith #461:
+    ✗ english_translation: EMPTY
+
+  Hadith #462:
+    ✗ urdu_translation: EMPTY
+    ✗ english_translation: EMPTY
+
+  Hadith #463:
+    ✗ english_translation: EMPTY
+
+  Hadith #464:
+    ✗ english_translation: EMPTY
+
+  Hadith #465:
+    ✗ english_translation: EMPTY
+
+  Hadith #466:
+    ✗ english_translation: EMPTY
+
+  Hadith #467:
+    ✗ urdu_translation: EMPTY
+    ✗ english_translation: EMPTY
+
+  Hadith #468:
+    ✗ english_translation: EMPTY
+
+  Hadith #469:
+    ✗ english_translation: EMPTY
+
+  Hadith #470:
+    ✗ english_translation: EMPTY
+
+  Hadith #471:
+    ✗ english_translation: EMPTY
+
+  Hadith #472:
+    ✗ english_translation: EMPTY
+
+  Hadith #473:
+    ✗ english_translation: EMPTY
+
+  Hadith #474:
+    ✗ english_translation: EMPTY
+
+  Hadith #475:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 37
+  - Book metadata: 2
+  - Chapters: 35
+  - Hadiths: 0
+================================================================================

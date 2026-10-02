@@ -1,0 +1,40 @@
+VALIDATION REPORT - Book 40: 
+Generated: 2026-08-22 13:15:28
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1094.json - Chapter 1094
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1165:
+    ✗ english_translation: EMPTY
+
+  Hadith #1174:
+    ✗ english_translation: EMPTY
+
+  chap_1103.json - Chapter 1103
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1175:
+    ✗ english_translation: EMPTY
+
+  chap_1104.json - Chapter 1104
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1176:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 12
+  - Book metadata: 2
+  - Chapters: 10
+  - Hadiths: 0
+================================================================================

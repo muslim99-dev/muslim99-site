@@ -1,0 +1,294 @@
+VALIDATION REPORT - Book 44: Chapters on manners
+Generated: 2026-08-12 20:14:57
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1459.json - Chapter 1459
+  ✗ arabic: EMPTY
+
+  chap_1719.json - Chapter 1719
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1720.json - Chapter 1720
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1721.json - Chapter 1721
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1722.json - Chapter 1722
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1723.json - Chapter 1723
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1724.json - Chapter 1724
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1725.json - Chapter 1725
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1726.json - Chapter 1726
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1727.json - Chapter 1727
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1728.json - Chapter 1728
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1729.json - Chapter 1729
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1730.json - Chapter 1730
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1731.json - Chapter 1731
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1732.json - Chapter 1732
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1733.json - Chapter 1733
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1734.json - Chapter 1734
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1735.json - Chapter 1735
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1736.json - Chapter 1736
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1737.json - Chapter 1737
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1738.json - Chapter 1738
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1739.json - Chapter 1739
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1740.json - Chapter 1740
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1741.json - Chapter 1741
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1742.json - Chapter 1742
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1743.json - Chapter 1743
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1744.json - Chapter 1744
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1745.json - Chapter 1745
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1746.json - Chapter 1746
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1747.json - Chapter 1747
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1748.json - Chapter 1748
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1749.json - Chapter 1749
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1750.json - Chapter 1750
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1751.json - Chapter 1751
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1752.json - Chapter 1752
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1753.json - Chapter 1753
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1754.json - Chapter 1754
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1755.json - Chapter 1755
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1756.json - Chapter 1756
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1757.json - Chapter 1757
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1758.json - Chapter 1758
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1759.json - Chapter 1759
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1760.json - Chapter 1760
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1761.json - Chapter 1761
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1762.json - Chapter 1762
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1763.json - Chapter 1763
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1764.json - Chapter 1764
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1765.json - Chapter 1765
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1766.json - Chapter 1766
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1767.json - Chapter 1767
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1768.json - Chapter 1768
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1769.json - Chapter 1769
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1770.json - Chapter 1770
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1771.json - Chapter 1771
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1772.json - Chapter 1772
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1773.json - Chapter 1773
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1774.json - Chapter 1774
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1775.json - Chapter 1775
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1776.json - Chapter 1776
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1777.json - Chapter 1777
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1778.json - Chapter 1778
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1779.json - Chapter 1779
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1780.json - Chapter 1780
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1781.json - Chapter 1781
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1782.json - Chapter 1782
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1783.json - Chapter 1783
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1784.json - Chapter 1784
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1785.json - Chapter 1785
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1786.json - Chapter 1786
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1787.json - Chapter 1787
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 140
+  - Book metadata: 1
+  - Chapters: 139
+  - Hadiths: 0
+================================================================================

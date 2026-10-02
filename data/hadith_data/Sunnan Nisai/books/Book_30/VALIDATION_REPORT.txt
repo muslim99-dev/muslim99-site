@@ -1,0 +1,31 @@
+VALIDATION REPORT - Book 30: The book of endowments
+Generated: 2026-08-13 06:26:58
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1759.json - Chapter 1759
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1760.json - Chapter 1760
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1761.json - Chapter 1761
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1762.json - Chapter 1762
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 9
+  - Book metadata: 1
+  - Chapters: 8
+  - Hadiths: 0
+================================================================================

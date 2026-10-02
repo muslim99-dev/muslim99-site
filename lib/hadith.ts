@@ -1,45 +1,48 @@
 /**
  * HadithProvider
  * ------------------------------------------------------------------
- * Source: a live REST API (Express + on-disk JSON, no database) serving
- * 18 classical hadith collections — Sahih Bukhari, Sahih Muslim, Musnad
- * Ahmad, Sunan Abu Dawud, Jami at-Tirmidhi, Sunan an-Nasai, Sunan Ibn
- * Majah, Muwatta Malik, Mishkat al-Masabih, Al-Adab Al-Mufrad, and more —
- * each hadith carrying Arabic text, English translation, multiple Urdu
- * translator variants, and a grading/status where the source provides
- * one. Nothing here is hardcoded or generated — every collection, book,
- * chapter, and hadith is fetched live from this API.
+ * Source: the local on-disk dataset in data/hadith_data (unzipped from
+ * hadith_data.zip) — 18 classical hadith collections, each hadith carrying
+ * Arabic text, Urdu translation (often several translator variants), an
+ * English translation where the source has one, a grading, a reference
+ * number and, for some collections, an Urdu explanation (sharh).
+ *
+ * Browsing and search read two indexes generated from that dataset by
+ * `node scripts/build-hadith-index.mjs` (data/hadith_index): a manifest of
+ * every collection/book/chapter with titles and real counts, and a compact
+ * per-collection search index. Full hadith text is read straight from the
+ * chapter JSON files. Everything is cached in memory after the first read.
+ *
+ * Server-only: uses the filesystem.
  */
+import fs from "node:fs/promises";
+import path from "node:path";
 
-const BASE_URL = "https://white-weasel-747980.hostingersite.com";
+const DATA_DIR = path.join(process.cwd(), "data", "hadith_data");
+const INDEX_DIR = path.join(process.cwd(), "data", "hadith_index");
 
-async function getJSON<T>(path: string, revalidateSeconds: number): Promise<T> {
-  const res = await fetch(`${BASE_URL}${path}`, { next: { revalidate: revalidateSeconds } });
-  if (!res.ok) throw new Error(`Hadith API request failed: ${res.status} ${path}`);
-  return res.json() as Promise<T>;
-}
-
-export type Collection = {
-  slug: string;
-  name: string;
-  name_arabic: string;
-  name_urdu: string;
-  total_hadiths: number;
-  total_books: number;
+// Survives dev-mode module reloads so the indexes aren't re-parsed per edit.
+const cache = ((globalThis as any).__hadithCache ??= {
+  manifest: null as Promise<Manifest> | null,
+  search: new Map<string, Promise<SearchRow[]>>(),
+  chapters: new Map<string, Promise<Chapter>>()
+}) as {
+  manifest: Promise<Manifest> | null;
+  search: Map<string, Promise<SearchRow[]>>;
+  chapters: Map<string, Promise<Chapter>>;
 };
 
-export async function getCollections(): Promise<Collection[]> {
-  const data = await getJSON<{ collections: Collection[] }>("/api/collections", 3600);
-  return data.collections;
+async function readJSON<T>(file: string): Promise<T> {
+  return JSON.parse(await fs.readFile(file, "utf8")) as T;
 }
 
-export async function getCollection(slug: string): Promise<Collection | undefined> {
-  try {
-    return await getJSON<Collection>(`/api/collections/${slug}`, 3600);
-  } catch {
-    return undefined;
-  }
-}
+export type ChapterSummary = {
+  number: number;
+  arabic: string;
+  urdu: string;
+  english: string;
+  total_hadiths: number;
+};
 
 export type Book = {
   collection: string;
@@ -51,25 +54,90 @@ export type Book = {
   total_hadiths: number;
 };
 
+export type Collection = {
+  slug: string;
+  name: string;
+  name_arabic: string;
+  name_urdu: string;
+  total_hadiths: number;
+  total_books: number;
+  languages: string[];
+};
+
+type ManifestCollection = Omit<Collection, "languages"> & {
+  dir: string;
+  languages: string[];
+  books: (Omit<Book, "collection"> & { chapters: ChapterSummary[] })[];
+};
+type Manifest = { collections: ManifestCollection[] };
+
+function loadManifest(): Promise<Manifest> {
+  if (!cache.manifest) {
+    cache.manifest = readJSON<Manifest>(path.join(INDEX_DIR, "manifest.json")).catch((err) => {
+      cache.manifest = null;
+      throw new Error(
+        `Hadith index missing — run "node scripts/build-hadith-index.mjs" after unzipping hadith_data.zip into data/. (${err})`
+      );
+    });
+  }
+  return cache.manifest;
+}
+
+async function findCollection(slug: string) {
+  const { collections } = await loadManifest();
+  return collections.find((c) => c.slug === slug);
+}
+
+async function findBook(slug: string, bookNumber: number) {
+  return (await findCollection(slug))?.books.find((b) => b.number === bookNumber);
+}
+
+function toCollection(c: ManifestCollection): Collection {
+  const { slug, name, name_arabic, name_urdu, total_hadiths, total_books, languages } = c;
+  return { slug, name, name_arabic, name_urdu, total_hadiths, total_books, languages };
+}
+
+function toBook(slug: string, b: ManifestCollection["books"][number]): Book {
+  const { chapters: _chapters, ...rest } = b;
+  return { collection: slug, ...rest };
+}
+
+export async function getCollections(): Promise<Collection[]> {
+  return (await loadManifest()).collections.map(toCollection);
+}
+
+export async function getCollection(slug: string): Promise<Collection | undefined> {
+  const c = await findCollection(slug);
+  return c && toCollection(c);
+}
+
 export async function getBooks(slug: string): Promise<Book[]> {
-  const data = await getJSON<{ collection: string; books: Book[] }>(`/api/collections/${slug}/books`, 3600);
-  return data.books;
+  const c = await findCollection(slug);
+  if (!c) throw new Error(`Unknown hadith collection: ${slug}`);
+  return c.books.map((b) => toBook(slug, b));
 }
 
 export async function getBook(slug: string, bookNumber: number): Promise<Book | undefined> {
-  try {
-    return await getJSON<Book>(`/api/collections/${slug}/books/${bookNumber}`, 3600);
-  } catch {
-    return undefined;
-  }
+  const b = await findBook(slug, bookNumber);
+  return b && toBook(slug, b);
+}
+
+/** Chapter titles and counts for one book, without loading hadith text. */
+export async function getChapters(slug: string, bookNumber: number): Promise<ChapterSummary[]> {
+  return (await findBook(slug, bookNumber))?.chapters ?? [];
 }
 
 export async function getChapterNumbers(slug: string, bookNumber: number): Promise<number[]> {
-  const data = await getJSON<{ chapters: { number: number }[] }>(
-    `/api/collections/${slug}/books/${bookNumber}/chapters`,
-    3600
-  );
-  return data.chapters.map((c) => c.number);
+  return (await getChapters(slug, bookNumber)).map((c) => c.number);
+}
+
+/** Previous/next chapter across book boundaries, for reader navigation. */
+export async function getAdjacentChapters(slug: string, bookNumber: number, chapterNumber: number) {
+  const c = await findCollection(slug);
+  if (!c) return { prev: null, next: null };
+  const flat = c.books.flatMap((b) => b.chapters.map((ch) => ({ book: b.number, ...ch })));
+  const i = flat.findIndex((x) => x.book === bookNumber && x.number === chapterNumber);
+  return { prev: i > 0 ? flat[i - 1] : null, next: i >= 0 && i < flat.length - 1 ? flat[i + 1] : null };
 }
 
 export type UrduTranslation = { translator: string; text: string };
@@ -81,7 +149,8 @@ export type Hadith = {
   english_translation: string;
   status?: string;
   urdu_translations?: UrduTranslation[];
-  reference?: unknown;
+  reference?: { international_number?: string; arabic_number?: string };
+  explanation?: string;
 };
 
 export type Chapter = {
@@ -96,14 +165,59 @@ export type Chapter = {
 };
 
 export async function getChapter(slug: string, bookNumber: number, chapterNumber: number): Promise<Chapter> {
-  return getJSON<Chapter>(`/api/collections/${slug}/books/${bookNumber}/chapters/${chapterNumber}`, 3600);
+  const key = `${slug}/${bookNumber}/${chapterNumber}`;
+  let pending = cache.chapters.get(key);
+  if (!pending) {
+    pending = (async () => {
+      const c = await findCollection(slug);
+      if (!c) throw new Error(`Unknown hadith collection: ${slug}`);
+      const file = path.join(DATA_DIR, c.dir, "books", `Book_${bookNumber}`, "chapters", `chap_${chapterNumber}.json`);
+      const raw = await readJSON<Omit<Chapter, "collection" | "book">>(file);
+      const hadiths = raw.hadiths ?? [];
+      return { ...raw, collection: slug, book: bookNumber, number: chapterNumber, total_hadiths: hadiths.length, hadiths };
+    })();
+    pending.catch(() => cache.chapters.delete(key));
+    // Chapters are read on demand; keep the cache bounded.
+    if (cache.chapters.size > 300) cache.chapters.delete(cache.chapters.keys().next().value!);
+    cache.chapters.set(key, pending);
+  }
+  return pending;
 }
 
-export async function getHadithByNumber(slug: string, hadithNumber: number) {
-  return getJSON<{ collection: string; book: number; chapter: number; hadith: Hadith }>(
-    `/api/collections/${slug}/hadith/${hadithNumber}`,
-    3600
-  );
+// ---------------------------------------------------------------- search
+
+/** [book, chapter, hadith_number, status, normalized text] */
+type SearchRow = [number, number, number, string, string];
+
+/** Must stay in sync with normalize() in scripts/build-hadith-index.mjs —
+ * strips Arabic diacritics and unifies letter variants so a query typed
+ * without harakat still matches fully vocalized text. */
+export function normalize(s: string): string {
+  return (s || "")
+    .toLowerCase()
+    .replace(/[ً-ٰٟۖ-ۭـ]/g, "")
+    .replace(/[أإآٱ]/g, "ا")
+    .replace(/ى/g, "ي")
+    .replace(/ة/g, "ه")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function loadSearchIndex(slug: string): Promise<SearchRow[]> {
+  let pending = cache.search.get(slug);
+  if (!pending) {
+    pending = readJSON<SearchRow[]>(path.join(INDEX_DIR, "search", `${slug}.json`));
+    pending.catch(() => cache.search.delete(slug));
+    cache.search.set(slug, pending);
+  }
+  return pending;
+}
+
+function snippetAround(text: string, at: number, length: number): string {
+  const start = Math.max(0, at - 80);
+  const end = Math.min(text.length, at + length + 160);
+  const body = text.slice(start, end).replace(/ ‖ /g, " · ");
+  return (start > 0 ? "…" : "") + body + (end < text.length ? "…" : "");
 }
 
 export type SearchResult = {
@@ -115,118 +229,93 @@ export type SearchResult = {
   snippet: string;
 };
 
+/** Phrase matches rank first, then hadiths containing every query word. */
 export async function searchCollection(
   slug: string,
   query: string,
-  options?: { book?: number; limit?: number; offset?: number }
+  options?: { book?: number; chapter?: number; limit?: number; offset?: number }
 ): Promise<SearchResult[]> {
-  const params = new URLSearchParams({ collection: slug, q: query });
-  if (options?.book) params.set("book", String(options.book));
-  if (options?.limit) params.set("limit", String(options.limit));
-  if (options?.offset) params.set("offset", String(options.offset));
-  const data = await getJSON<{ results: SearchResult[] }>(`/api/search?${params}`, 300);
-  return data.results;
+  const q = normalize(query);
+  if (!q) return [];
+  const words = q.split(" ").filter(Boolean);
+  const limit = options?.limit ?? 20;
+  const offset = options?.offset ?? 0;
+  const rows = await loadSearchIndex(slug);
+
+  const phrase: SearchResult[] = [];
+  const allWords: SearchResult[] = [];
+  const seen = new Set<number>();
+  for (const [book, chapter, n, status, text] of rows) {
+    if (options?.book && book !== options.book) continue;
+    if (options?.chapter && chapter !== options.chapter) continue;
+    if (seen.has(n)) continue;
+    const at = text.indexOf(q);
+    if (at >= 0) {
+      seen.add(n);
+      phrase.push({ collection: slug, book, chapter, hadith_number: n, status, snippet: snippetAround(text, at, q.length) });
+    } else if (words.length > 1 && allWords.length < offset + limit && words.every((w) => text.includes(w))) {
+      seen.add(n);
+      const first = text.indexOf(words[0]);
+      allWords.push({ collection: slug, book, chapter, hadith_number: n, status, snippet: snippetAround(text, first, words[0].length) });
+    }
+    if (phrase.length >= offset + limit) break;
+  }
+  return [...phrase, ...allWords].slice(offset, offset + limit);
 }
 
-/**
- * Which languages a collection actually has isn't uniform — some (e.g.
- * Sahih Bukhari, Sahih Muslim, Jami at-Tirmidhi) include an English
- * translation, others (e.g. Al-Mustadrak, Musnad Ahmad) only have Arabic
- * and Urdu. Rather than hardcode that (it could be wrong, and the source
- * doesn't publish it directly), this samples one real hadith from the
- * collection and checks which text fields are actually populated.
- */
+export async function getHadithByNumber(slug: string, hadithNumber: number) {
+  const rows = await loadSearchIndex(slug);
+  const row = rows.find((r) => r[2] === hadithNumber);
+  if (!row) throw new Error(`Hadith ${hadithNumber} not found in ${slug}`);
+  const chapter = await getChapter(slug, row[0], row[1]);
+  const hadith = chapter.hadiths.find((h) => h.hadith_number === hadithNumber)!;
+  return { collection: slug, book: row[0], chapter: row[1], hadith };
+}
+
+/** Which languages a collection actually has, computed from the data at
+ * index-build time (some collections have no English translation). */
 export async function getCollectionLanguages(slug: string): Promise<string[]> {
-  try {
-    const books = await getBooks(slug);
-    if (books.length === 0) return [];
-    for (const book of books.slice(0, 3)) {
-      const numbers = await getChapterNumbers(slug, book.number);
-      for (const chapterNumber of numbers.slice(0, 3)) {
-        try {
-          const chapter = await getChapter(slug, book.number, chapterNumber);
-          const h = chapter.hadiths?.[0];
-          if (!h) continue;
-          const langs: string[] = [];
-          if (h.arabic_text) langs.push("Arabic");
-          if (h.urdu_translation) langs.push("Urdu");
-          if (h.english_translation) langs.push("English");
-          if (langs.length > 0) return langs;
-        } catch {
-          continue;
-        }
-      }
-    }
-    return [];
-  } catch {
-    return [];
-  }
+  return (await getCollection(slug))?.languages ?? [];
 }
 
 export type BookMatch = { number: number; title: string; totalHadiths: number };
 
-/** Matches against the book's own title fields and its number — cheap,
- * since getBooks fetches every book in one call. */
 export async function searchBooks(slug: string, query: string): Promise<BookMatch[]> {
-  const q = query.trim().toLowerCase();
+  const q = normalize(query);
   if (!q) return [];
   const books = await getBooks(slug);
   return books
     .filter(
       (b) =>
         String(b.number) === q ||
-        b.english?.toLowerCase().includes(q) ||
-        b.urdu?.includes(query.trim()) ||
-        b.arabic?.includes(query.trim())
+        normalize(b.english).includes(q) ||
+        normalize(b.urdu).includes(q) ||
+        normalize(b.arabic).includes(q)
     )
     .map((b) => ({ number: b.number, title: b.english || b.urdu || `Book ${b.number}`, totalHadiths: b.total_hadiths }));
 }
 
 export type ChapterMatch = { number: number; title: string; totalHadiths: number };
 
-/** Matches against chapter titles and chapter numbers within one book.
- * There's no lightweight "chapter titles" endpoint — a chapter's title
- * only comes back together with its full hadith text — so this fetches
- * every chapter in the book (capped, since a handful of books run into
- * the hundreds of chapters) rather than every chapter in the collection. */
-export async function searchChapterTitles(
-  slug: string,
-  bookNumber: number,
-  query: string,
-  maxChapters = 80
-): Promise<ChapterMatch[]> {
-  const q = query.trim().toLowerCase();
+export async function searchChapterTitles(slug: string, bookNumber: number, query: string): Promise<ChapterMatch[]> {
+  const q = normalize(query);
   if (!q) return [];
-  const numbers = (await getChapterNumbers(slug, bookNumber)).slice(0, maxChapters);
-  const chapters = await Promise.all(
-    numbers.map(async (n) => {
-      try {
-        return await getChapter(slug, bookNumber, n);
-      } catch {
-        return null;
-      }
-    })
-  );
+  const chapters = await getChapters(slug, bookNumber);
   return chapters
-    .filter((c): c is Chapter => {
-      if (!c) return false;
-      return (
+    .filter(
+      (c) =>
         String(c.number) === q ||
-        c.english?.toLowerCase().includes(q) ||
-        c.urdu?.includes(query.trim()) ||
-        c.arabic?.includes(query.trim())
-      );
-    })
-    .map((c) => ({ number: c.number, title: c.english || c.urdu || `Chapter ${c.number}`, totalHadiths: c.total_hadiths }));
+        normalize(c.english).includes(q) ||
+        normalize(c.urdu).includes(q) ||
+        normalize(c.arabic).includes(q)
+    )
+    .map((c) => ({ number: c.number, title: c.english || c.urdu || c.arabic || `Chapter ${c.number}`, totalHadiths: c.total_hadiths }));
 }
 
 export type SearchResultWithCollection = SearchResult & { collectionName: string };
 
-/** Searches every collection in parallel (the search endpoint always
- * scopes to one collection server-side, so there's no single "search
- * everything" call — see the README's design notes on why /api/search
- * requires a collection). Used where there's no collection context yet,
- * e.g. the top-level Hadith page. */
+/** Searches every collection. Used where there's no collection context
+ * yet, e.g. the top-level Hadith page and the Ask assistant's retrieval. */
 export async function searchAllCollections(query: string, limitPerCollection = 3): Promise<SearchResultWithCollection[]> {
   const collections = await getCollections();
   const results = await Promise.all(

@@ -1,0 +1,15 @@
+VALIDATION REPORT - Book 30: The book of oaths,muharibin,qasas( retaliation), and diyat (blood money_
+Generated: 2026-08-12 15:18:45
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_737.json - Chapter 737
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 1
+  - Book metadata: 0
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

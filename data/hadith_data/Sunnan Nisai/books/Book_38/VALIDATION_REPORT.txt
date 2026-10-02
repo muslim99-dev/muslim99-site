@@ -1,0 +1,131 @@
+VALIDATION REPORT - Book 38: The book of fighting [the prohibition of bloodshed]
+Generated: 2026-08-13 06:42:35
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1834.json - Chapter 1834
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1835.json - Chapter 1835
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1836.json - Chapter 1836
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1837.json - Chapter 1837
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1838.json - Chapter 1838
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1839.json - Chapter 1839
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1840.json - Chapter 1840
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1841.json - Chapter 1841
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1842.json - Chapter 1842
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1843.json - Chapter 1843
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1844.json - Chapter 1844
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1845.json - Chapter 1845
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1846.json - Chapter 1846
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1847.json - Chapter 1847
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1848.json - Chapter 1848
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1849.json - Chapter 1849
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1850.json - Chapter 1850
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1851.json - Chapter 1851
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1852.json - Chapter 1852
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1853.json - Chapter 1853
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1854.json - Chapter 1854
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1855.json - Chapter 1855
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1856.json - Chapter 1856
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1857.json - Chapter 1857
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1858.json - Chapter 1858
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1859.json - Chapter 1859
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1860.json - Chapter 1860
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1861.json - Chapter 1861
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_1862.json - Chapter 1862
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 59
+  - Book metadata: 1
+  - Chapters: 58
+  - Hadiths: 0
+================================================================================

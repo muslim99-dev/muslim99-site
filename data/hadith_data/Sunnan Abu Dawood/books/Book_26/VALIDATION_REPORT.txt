@@ -1,0 +1,54 @@
+VALIDATION REPORT - Book 26: Knowledge (kitab al-ilm)
+Generated: 2026-08-13 01:49:30
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1328.json - Chapter 1328
+  ✗ arabic: EMPTY
+
+  chap_1329.json - Chapter 1329
+  ✗ arabic: EMPTY
+
+  chap_1330.json - Chapter 1330
+  ✗ arabic: EMPTY
+
+  chap_1331.json - Chapter 1331
+  ✗ arabic: EMPTY
+
+  chap_1332.json - Chapter 1332
+  ✗ arabic: EMPTY
+
+  chap_1333.json - Chapter 1333
+  ✗ arabic: EMPTY
+
+  chap_1334.json - Chapter 1334
+  ✗ arabic: EMPTY
+
+  chap_1335.json - Chapter 1335
+  ✗ arabic: EMPTY
+
+  chap_1336.json - Chapter 1336
+  ✗ arabic: EMPTY
+
+  chap_1337.json - Chapter 1337
+  ✗ arabic: EMPTY
+
+  chap_1338.json - Chapter 1338
+  ✗ arabic: EMPTY
+
+  chap_1339.json - Chapter 1339
+  ✗ arabic: EMPTY
+
+  chap_1340.json - Chapter 1340
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 14
+  - Book metadata: 1
+  - Chapters: 13
+  - Hadiths: 0
+================================================================================

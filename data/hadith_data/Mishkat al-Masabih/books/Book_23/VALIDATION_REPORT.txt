@@ -1,0 +1,109 @@
+VALIDATION REPORT - Book 23: 
+Generated: 2026-08-15 05:57:55
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_199.json - Chapter 199
+  ✗ arabic: EMPTY
+
+  Hadith #4592:
+    ✗ english_translation: EMPTY
+
+  Hadith #4593:
+    ✗ english_translation: EMPTY
+
+  Hadith #4594:
+    ✗ english_translation: EMPTY
+
+  Hadith #4595:
+    ✗ english_translation: EMPTY
+
+  Hadith #4596:
+    ✗ english_translation: EMPTY
+
+  Hadith #4597:
+    ✗ english_translation: EMPTY
+
+  Hadith #4598:
+    ✗ english_translation: EMPTY
+
+  Hadith #4599:
+    ✗ english_translation: EMPTY
+
+  Hadith #4600:
+    ✗ english_translation: EMPTY
+
+  Hadith #4601:
+    ✗ english_translation: EMPTY
+
+  Hadith #4602:
+    ✗ english_translation: EMPTY
+
+  Hadith #4603:
+    ✗ english_translation: EMPTY
+
+  Hadith #4604:
+    ✗ english_translation: EMPTY
+
+  Hadith #4605:
+    ✗ english_translation: EMPTY
+
+  Hadith #4606:
+    ✗ english_translation: EMPTY
+
+  Hadith #4607:
+    ✗ english_translation: EMPTY
+
+  Hadith #4608:
+    ✗ english_translation: EMPTY
+
+  Hadith #4609:
+    ✗ english_translation: EMPTY
+
+  Hadith #4610:
+    ✗ english_translation: EMPTY
+
+  Hadith #4611:
+    ✗ english_translation: EMPTY
+
+  Hadith #4612:
+    ✗ english_translation: EMPTY
+
+  Hadith #4613:
+    ✗ english_translation: EMPTY
+
+  Hadith #4614:
+    ✗ english_translation: EMPTY
+
+  Hadith #4615:
+    ✗ english_translation: EMPTY
+
+  Hadith #4616:
+    ✗ english_translation: EMPTY
+
+  Hadith #4617:
+    ✗ english_translation: EMPTY
+
+  Hadith #4618:
+    ✗ english_translation: EMPTY
+
+  Hadith #4619:
+    ✗ english_translation: EMPTY
+
+  Hadith #4620:
+    ✗ english_translation: EMPTY
+
+  Hadith #4621:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 33
+  - Book metadata: 2
+  - Chapters: 31
+  - Hadiths: 0
+================================================================================

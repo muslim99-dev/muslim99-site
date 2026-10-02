@@ -1,0 +1,84 @@
+VALIDATION REPORT - Book 17: The book on blood money
+Generated: 2026-08-12 19:15:16
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_317.json - Chapter 317
+  ✗ arabic: EMPTY
+
+  chap_941.json - Chapter 941
+  ✗ arabic: EMPTY
+
+  chap_942.json - Chapter 942
+  ✗ arabic: EMPTY
+
+  chap_943.json - Chapter 943
+  ✗ arabic: EMPTY
+
+  chap_944.json - Chapter 944
+  ✗ arabic: EMPTY
+
+  chap_945.json - Chapter 945
+  ✗ arabic: EMPTY
+
+  chap_946.json - Chapter 946
+  ✗ arabic: EMPTY
+
+  chap_947.json - Chapter 947
+  ✗ arabic: EMPTY
+
+  chap_948.json - Chapter 948
+  ✗ arabic: EMPTY
+
+  chap_949.json - Chapter 949
+  ✗ arabic: EMPTY
+
+  chap_950.json - Chapter 950
+  ✗ arabic: EMPTY
+
+  chap_951.json - Chapter 951
+  ✗ arabic: EMPTY
+
+  chap_952.json - Chapter 952
+  ✗ arabic: EMPTY
+
+  chap_953.json - Chapter 953
+  ✗ arabic: EMPTY
+
+  chap_954.json - Chapter 954
+  ✗ arabic: EMPTY
+
+  chap_955.json - Chapter 955
+  ✗ arabic: EMPTY
+
+  chap_956.json - Chapter 956
+  ✗ arabic: EMPTY
+
+  chap_957.json - Chapter 957
+  ✗ arabic: EMPTY
+
+  chap_958.json - Chapter 958
+  ✗ arabic: EMPTY
+
+  chap_959.json - Chapter 959
+  ✗ arabic: EMPTY
+
+  chap_960.json - Chapter 960
+  ✗ arabic: EMPTY
+
+  chap_961.json - Chapter 961
+  ✗ arabic: EMPTY
+
+  chap_962.json - Chapter 962
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 24
+  - Book metadata: 1
+  - Chapters: 23
+  - Hadiths: 0
+================================================================================

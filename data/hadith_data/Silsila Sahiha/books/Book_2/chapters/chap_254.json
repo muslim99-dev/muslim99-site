@@ -1,0 +1,26 @@
+{
+  "number": 254,
+  "arabic": "",
+  "urdu": "آپ صلی اللہ علیہ وسلم کو اچھا خواب پسند تھا",
+  "english": "",
+  "total_hadiths": 1,
+  "hadiths": [
+    {
+      "hadith_number": 379,
+      "arabic_text": "-\" كان يعجبه الرؤيا الحسنة\".-\" كان يعجبه الرؤيا الحسنة\".",
+      "urdu_translation": "سیدنا انس رضی اللہ عنہ سے روایت ہے کہ اچھا خواب نبی کریم  صلی اللہ علیہ وسلم  کو پسند آتا تھا۔",
+      "english_translation": "",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: محمد محفوظ احمد",
+          "text": "سیدنا انس رضی اللہ عنہ سے روایت ہے کہ اچھا خواب نبی کریم  صلی اللہ علیہ وسلم  کو پسند آتا تھا۔"
+        }
+      ],
+      "reference": {
+        "international_number": "379",
+        "arabic_number": "ترقیم  : 2135"
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+VALIDATION REPORT - Book 35: Kunyas
+Generated: 2026-08-22 06:28:18
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_356.json - Chapter 356
+  ✗ english: EMPTY
+
+  Hadith #818:
+    ✗ english_translation: EMPTY
+
+  Hadith #819:
+    ✗ english_translation: EMPTY
+
+  chap_357.json - Chapter 357
+  ✗ english: EMPTY
+
+  Hadith #820:
+    ✗ english_translation: EMPTY
+
+  chap_358.json - Chapter 358
+  ✗ english: EMPTY
+
+  Hadith #821:
+    ✗ english_translation: EMPTY
+
+  chap_359.json - Chapter 359
+  ✗ english: EMPTY
+
+  Hadith #822:
+    ✗ english_translation: EMPTY
+
+  chap_360.json - Chapter 360
+  ✗ english: EMPTY
+
+  Hadith #823:
+    ✗ english_translation: EMPTY
+
+  chap_361.json - Chapter 361
+  ✗ english: EMPTY
+
+  Hadith #824:
+    ✗ english_translation: EMPTY
+
+  Hadith #825:
+    ✗ english_translation: EMPTY
+
+  chap_362.json - Chapter 362
+  ✗ english: EMPTY
+
+  Hadith #826:
+    ✗ english_translation: EMPTY
+
+  Hadith #827:
+    ✗ english_translation: EMPTY
+
+  chap_363.json - Chapter 363
+  ✗ english: EMPTY
+
+  Hadith #828:
+    ✗ english_translation: EMPTY
+
+  chap_364.json - Chapter 364
+  ✗ english: EMPTY
+
+  Hadith #829:
+    ✗ english_translation: EMPTY
+
+  chap_365.json - Chapter 365
+  ✗ english: EMPTY
+
+  Hadith #830:
+    ✗ english_translation: EMPTY
+
+  chap_366.json - Chapter 366
+  ✗ english: EMPTY
+
+  Hadith #831:
+    ✗ english_translation: EMPTY
+
+  Hadith #832:
+    ✗ english_translation: EMPTY
+
+  chap_367.json - Chapter 367
+  ✗ english: EMPTY
+
+  Hadith #833:
+    ✗ english_translation: EMPTY
+
+  Hadith #834:
+    ✗ english_translation: EMPTY
+
+  chap_368.json - Chapter 368
+  ✗ english: EMPTY
+
+  Hadith #835:
+    ✗ english_translation: EMPTY
+
+  Hadith #836:
+    ✗ english_translation: EMPTY
+
+  chap_369.json - Chapter 369
+  ✗ english: EMPTY
+
+  Hadith #837:
+    ✗ english_translation: EMPTY
+
+  Hadith #838:
+    ✗ english_translation: EMPTY
+
+  chap_370.json - Chapter 370
+  ✗ english: EMPTY
+
+  Hadith #839:
+    ✗ english_translation: EMPTY
+
+  chap_371.json - Chapter 371
+  ✗ english: EMPTY
+
+  Hadith #840:
+    ✗ english_translation: EMPTY
+
+  Hadith #841:
+    ✗ english_translation: EMPTY
+
+  Hadith #842:
+    ✗ english_translation: EMPTY
+
+  Hadith #843:
+    ✗ english_translation: EMPTY
+
+  Hadith #844:
+    ✗ english_translation: EMPTY
+
+  chap_372.json - Chapter 372
+  ✗ english: EMPTY
+
+  Hadith #845:
+    ✗ english_translation: EMPTY
+
+  chap_373.json - Chapter 373
+  ✗ english: EMPTY
+
+  Hadith #846:
+    ✗ english_translation: EMPTY
+
+  Hadith #847:
+    ✗ english_translation: EMPTY
+
+  Hadith #848:
+    ✗ english_translation: EMPTY
+
+  Hadith #849:
+    ✗ english_translation: EMPTY
+
+  chap_374.json - Chapter 374
+  ✗ english: EMPTY
+
+  Hadith #850:
+    ✗ english_translation: EMPTY
+
+  chap_375.json - Chapter 375
+  ✗ english: EMPTY
+
+  Hadith #851:
+    ✗ english_translation: EMPTY
+
+  chap_376.json - Chapter 376
+  ✗ english: EMPTY
+
+  Hadith #852:
+    ✗ english_translation: EMPTY
+
+  Hadith #853:
+    ✗ english_translation: EMPTY
+
+  chap_377.json - Chapter 377
+  ✗ english: EMPTY
+
+  Hadith #854:
+    ✗ english_translation: EMPTY
+
+  Hadith #855:
+    ✗ english_translation: EMPTY
+
+  chap_378.json - Chapter 378
+  ✗ english: EMPTY
+
+  Hadith #856:
+    ✗ english_translation: EMPTY
+
+  chap_379.json - Chapter 379
+  ✗ english: EMPTY
+
+  Hadith #857:
+    ✗ english_translation: EMPTY
+
+  chap_380.json - Chapter 380
+  ✗ english: EMPTY
+
+  Hadith #858:
+    ✗ english_translation: EMPTY
+
+  Hadith #859:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 67
+  - Book metadata: 0
+  - Chapters: 67
+  - Hadiths: 0
+================================================================================

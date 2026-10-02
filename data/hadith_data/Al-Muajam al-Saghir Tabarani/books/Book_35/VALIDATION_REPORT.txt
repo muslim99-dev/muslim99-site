@@ -1,0 +1,46 @@
+VALIDATION REPORT - Book 35: 
+Generated: 2026-08-22 13:10:48
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1026.json - Chapter 1026
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1092:
+    ✗ english_translation: EMPTY
+
+  Hadith #1095:
+    ✗ english_translation: EMPTY
+
+  Hadith #1096:
+    ✗ english_translation: EMPTY
+
+  Hadith #1097:
+    ✗ english_translation: EMPTY
+
+  chap_1027.json - Chapter 1027
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1093:
+    ✗ english_translation: EMPTY
+
+  chap_1028.json - Chapter 1028
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #1094:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 14
+  - Book metadata: 2
+  - Chapters: 12
+  - Hadiths: 0
+================================================================================

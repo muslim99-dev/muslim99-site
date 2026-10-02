@@ -1,0 +1,82 @@
+VALIDATION REPORT - Book 11: Good conduct
+Generated: 2026-08-22 06:07:33
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_114.json - Chapter 114
+  ✗ english: EMPTY
+
+  Hadith #221:
+    ✗ english_translation: EMPTY
+
+  Hadith #222:
+    ✗ english_translation: EMPTY
+
+  Hadith #223:
+    ✗ english_translation: EMPTY
+
+  chap_115.json - Chapter 115
+  ✗ english: EMPTY
+
+  Hadith #224:
+    ✗ english_translation: EMPTY
+
+  Hadith #225:
+    ✗ english_translation: EMPTY
+
+  Hadith #226:
+    ✗ english_translation: EMPTY
+    ✗ status: EMPTY
+
+  Hadith #227:
+    ✗ english_translation: EMPTY
+
+  chap_116.json - Chapter 116
+  ✗ english: EMPTY
+
+  Hadith #228:
+    ✗ english_translation: EMPTY
+
+  Hadith #229:
+    ✗ english_translation: EMPTY
+
+  Hadith #230:
+    ✗ english_translation: EMPTY
+
+  chap_117.json - Chapter 117
+  ✗ english: EMPTY
+
+  Hadith #231:
+    ✗ english_translation: EMPTY
+
+  Hadith #232:
+    ✗ english_translation: EMPTY
+
+  Hadith #233:
+    ✗ english_translation: EMPTY
+
+  chap_118.json - Chapter 118
+  ✗ english: EMPTY
+
+  Hadith #234:
+    ✗ english_translation: EMPTY
+
+  Hadith #235:
+    ✗ english_translation: EMPTY
+
+  chap_119.json - Chapter 119
+  ✗ english: EMPTY
+
+  Hadith #236:
+    ✗ english_translation: EMPTY
+
+  Hadith #237:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 24
+  - Book metadata: 0
+  - Chapters: 24
+  - Hadiths: 0
+================================================================================

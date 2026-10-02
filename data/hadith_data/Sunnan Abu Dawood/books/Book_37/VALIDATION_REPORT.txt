@@ -1,0 +1,36 @@
+VALIDATION REPORT - Book 37: Trials and fierce battles (kitab al-fitan wa al-malahim)
+Generated: 2026-08-13 02:11:58
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1536.json - Chapter 1536
+  ✗ arabic: EMPTY
+
+  chap_1537.json - Chapter 1537
+  ✗ arabic: EMPTY
+
+  chap_1538.json - Chapter 1538
+  ✗ arabic: EMPTY
+
+  chap_1539.json - Chapter 1539
+  ✗ arabic: EMPTY
+
+  chap_1540.json - Chapter 1540
+  ✗ arabic: EMPTY
+
+  chap_1541.json - Chapter 1541
+  ✗ arabic: EMPTY
+
+  chap_1542.json - Chapter 1542
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 8
+  - Book metadata: 1
+  - Chapters: 7
+  - Hadiths: 0
+================================================================================

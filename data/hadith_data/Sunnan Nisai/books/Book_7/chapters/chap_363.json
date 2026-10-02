@@ -1,0 +1,77 @@
+{
+  "number": 363,
+  "arabic": "",
+  "urdu": "اذان کے آخری الفاظ۔",
+  "english": "",
+  "total_hadiths": 4,
+  "hadiths": [
+    {
+      "hadith_number": 650,
+      "arabic_text": "أَخْبَرَنَا مُحَمَّدُ بْنُ مَعْدَانَ بْنِ عِيسَى، ‏‏‏‏‏‏قال:‏‏‏‏ حَدَّثَنَا الْحَسَنُ بْنُ أَعْيَنَ، ‏‏‏‏‏‏قال:‏‏‏‏ حَدَّثَنَا زُهَيْرٌ، ‏‏‏‏‏‏قال:‏‏‏‏ حَدَّثَنَا الْأَعْمَشُ، ‏‏‏‏‏‏عَنْإِبْرَاهِيمَ، ‏‏‏‏‏‏عَنْ الْأَسْوَدِ، ‏‏‏‏‏‏عَنْ بِلَالٍ، ‏‏‏‏‏‏قال:‏‏‏‏  آخِرُ الْأَذَانِ:‏‏‏‏ اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ، ‏‏‏‏‏‏لَا إِلَهَ إِلَّا اللَّهُ .",
+      "urdu_translation": "اذان کا آخری کلمہ «اللہ أكبر اللہ أكبر، لا إله إلا اللہ» ہے۔",
+      "english_translation": "It was narrated from Al-Aswad that Bilal said:\n The final words of the Adhan are: 'Allahu Akbar, Allahu Akbar; La ilaha illallah (Allah is the Greatest, Allah is the Greatest, there is none worthy of worship except Allah.)'",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "بلال رضی اللہ عنہ کہتے ہیں کہ  اذان کا آخری کلمہ «اللہ أكبر اللہ أكبر، لا إله إلا اللہ» ہے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "650",
+        "arabic_number": "ترقیم  : 650"
+      }
+    },
+    {
+      "hadith_number": 651,
+      "arabic_text": "أَخْبَرَنَا سُوَيْدٌ، ‏‏‏‏‏‏قال:‏‏‏‏ أَنْبَأَنَا عَبْدُ اللَّهِ، ‏‏‏‏‏‏عَنْ سُفْيَانَ، ‏‏‏‏‏‏عَنْ مَنْصُورٍ، ‏‏‏‏‏‏عَنْ إِبْرَاهِيمَ، ‏‏‏‏‏‏عَنْ الْأَسْوَدِ، ‏‏‏‏‏‏قال:‏‏‏‏  كَانَ آخِرُ أَذَانِ بِلَالٍ:‏‏‏‏ اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ، ‏‏‏‏‏‏لَا إِلَهَ إِلَّا اللَّهُ .",
+      "urdu_translation": "بلال رضی اللہ عنہ کی اذان کے آخری کلمات یہ تھے «اللہ أكبر اللہ أكبر، لا إله إلا اللہ»۔",
+      "english_translation": "It was narrated that Al-Aswad said:\n The final words of the Adhan of Bilal were: 'Allahu Akbar, Allahu Akbar, Allahu Akbar; La ilaha illallah (Allah is the Greatest, Allah is the Greatest, there is none worthy of worship except Allah.)'",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "اسود کہتے ہیں کہ  بلال رضی اللہ عنہ کی اذان کے آخری کلمات یہ تھے «اللہ أكبر اللہ أكبر، لا إله إلا اللہ»۔"
+        }
+      ],
+      "reference": {
+        "international_number": "651",
+        "arabic_number": "ترقیم  : 651"
+      }
+    },
+    {
+      "hadith_number": 652,
+      "arabic_text": "أَخْبَرَنَا سُوَيْدٌ، ‏‏‏‏‏‏قَالَ:‏‏‏‏ أَنْبَأَنَا عَبْدُ اللَّهِ، ‏‏‏‏‏‏عَنْ سُفْيَانَ، ‏‏‏‏‏‏عَنْ الْأَعْمَشِ، ‏‏‏‏‏‏عَنْ إِبْرَاهِيمَ، ‏‏‏‏‏‏عَنْ الْأَسْوَدِ، ‏‏‏‏‏‏مِثْلَ ذَلِكَ.",
+      "urdu_translation": "",
+      "english_translation": "(Another chain) from Ibrahim, from Al-Aswad, with similar narration.",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "اس سند سے بھی اسود سے اسی جیسی حدیث مروی ہے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "652",
+        "arabic_number": "ترقیم  : 652"
+      }
+    },
+    {
+      "hadith_number": 653,
+      "arabic_text": "أَخْبَرَنَا سُوَيْدٌ، ‏‏‏‏‏‏قال:‏‏‏‏ حَدَّثَنَا عَبْدُ اللَّهِ، ‏‏‏‏‏‏عَنْ يُونُسَ بْنِ أَبِي إِسْحَاقَ، ‏‏‏‏‏‏عَنْ مُحَارِبِ بْنِ دِثَارٍ، ‏‏‏‏‏‏قال:‏‏‏‏ حَدَّثَنِي الْأَسْوَدُ بْنُ يَزِيدَ، ‏‏‏‏‏‏عَنْ أَبِي مَحْذُورَةَ، ‏‏‏‏‏‏ أَنّ آخِرَ الْأَذَانِ:‏‏‏‏ لَا إِلَهَ إِلَّا اللَّهُ .",
+      "urdu_translation": "اذان کا آخری کلمہ «لا إله إلا اللہ» ہے۔",
+      "english_translation": "It was narrated that Muharib bin Dithar said:\n Al-Aswad bin Yazid narrated to me from Abu Mahdhurah that the final words of the Adhan are: 'La ilaha illahha (there is none worthy of worship except Allah).'",
+      "status": "Sahih",
+      "urdu_translations": [
+        {
+          "translator": "ترجمہ: ڈاکٹر عبدالرحمن بن عبدالجبار فریوائی",
+          "text": "ابو محذورہ رضی اللہ عنہ سے روایت ہے کہ  اذان کا آخری کلمہ «لا إله إلا اللہ» ہے۔"
+        }
+      ],
+      "reference": {
+        "international_number": "653",
+        "arabic_number": "ترقیم  : 653"
+      }
+    }
+  ]
+}

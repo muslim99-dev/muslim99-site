@@ -1,0 +1,17 @@
+VALIDATION REPORT - Book 42: The book of cultivation and agriculture.
+Generated: 2026-08-12 03:01:35
+================================================================================
+
+CHAPTER ISSUES:
+
+  chap_1418.json - Chapter 1418
+
+  Hadith #4954:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 1
+  - Book metadata: 0
+  - Chapters: 1
+  - Hadiths: 0
+================================================================================

@@ -1,0 +1,238 @@
+VALIDATION REPORT - Book 49: The book of adornment
+Generated: 2026-08-13 07:24:59
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_2204.json - Chapter 2204
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #5045:
+    ✗ arabic_text: EMPTY
+
+  chap_2205.json - Chapter 2205
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2206.json - Chapter 2206
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2207.json - Chapter 2207
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2208.json - Chapter 2208
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2209.json - Chapter 2209
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2210.json - Chapter 2210
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2211.json - Chapter 2211
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2212.json - Chapter 2212
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2213.json - Chapter 2213
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2214.json - Chapter 2214
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2215.json - Chapter 2215
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2216.json - Chapter 2216
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2217.json - Chapter 2217
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2218.json - Chapter 2218
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2219.json - Chapter 2219
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2220.json - Chapter 2220
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2221.json - Chapter 2221
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2222.json - Chapter 2222
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2223.json - Chapter 2223
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2224.json - Chapter 2224
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2225.json - Chapter 2225
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2226.json - Chapter 2226
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2227.json - Chapter 2227
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2228.json - Chapter 2228
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2229.json - Chapter 2229
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2230.json - Chapter 2230
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2231.json - Chapter 2231
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2232.json - Chapter 2232
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2233.json - Chapter 2233
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2234.json - Chapter 2234
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2235.json - Chapter 2235
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2236.json - Chapter 2236
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2237.json - Chapter 2237
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2238.json - Chapter 2238
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2239.json - Chapter 2239
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2240.json - Chapter 2240
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2241.json - Chapter 2241
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2242.json - Chapter 2242
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2243.json - Chapter 2243
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2244.json - Chapter 2244
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2245.json - Chapter 2245
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2246.json - Chapter 2246
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2247.json - Chapter 2247
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2248.json - Chapter 2248
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2249.json - Chapter 2249
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2250.json - Chapter 2250
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2251.json - Chapter 2251
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2252.json - Chapter 2252
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2253.json - Chapter 2253
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2254.json - Chapter 2254
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2255.json - Chapter 2255
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2256.json - Chapter 2256
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2257.json - Chapter 2257
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  chap_2258.json - Chapter 2258
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+================================================================================
+TOTAL ISSUES: 112
+  - Book metadata: 1
+  - Chapters: 111
+  - Hadiths: 0
+================================================================================

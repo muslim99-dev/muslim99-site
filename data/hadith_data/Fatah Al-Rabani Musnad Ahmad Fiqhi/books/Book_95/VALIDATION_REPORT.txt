@@ -1,0 +1,49 @@
+VALIDATION REPORT - Book 95: 
+Generated: 2026-08-14 19:45:14
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_1052.json - Chapter 1052
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6097:
+    ✗ english_translation: EMPTY
+
+  Hadith #6098:
+    ✗ english_translation: EMPTY
+
+  Hadith #6099:
+    ✗ english_translation: EMPTY
+
+  Hadith #6100:
+    ✗ english_translation: EMPTY
+
+  Hadith #6101:
+    ✗ english_translation: EMPTY
+
+  chap_1053.json - Chapter 1053
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6102:
+    ✗ english_translation: EMPTY
+
+  chap_1054.json - Chapter 1054
+  ✗ arabic: EMPTY
+  ✗ english: EMPTY
+
+  Hadith #6103:
+    ✗ english_translation: EMPTY
+
+================================================================================
+TOTAL ISSUES: 15
+  - Book metadata: 2
+  - Chapters: 13
+  - Hadiths: 0
+================================================================================

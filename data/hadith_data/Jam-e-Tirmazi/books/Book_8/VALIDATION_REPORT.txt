@@ -1,0 +1,129 @@
+VALIDATION REPORT - Book 8: The book on zakat
+Generated: 2026-08-12 18:38:46
+================================================================================
+
+BOOK METADATA (book.json):
+  ✗ arabic: EMPTY
+
+CHAPTER ISSUES:
+
+  chap_433.json - Chapter 433
+  ✗ arabic: EMPTY
+
+  chap_434.json - Chapter 434
+  ✗ arabic: EMPTY
+
+  chap_435.json - Chapter 435
+  ✗ arabic: EMPTY
+
+  chap_436.json - Chapter 436
+  ✗ arabic: EMPTY
+
+  chap_437.json - Chapter 437
+  ✗ arabic: EMPTY
+
+  chap_438.json - Chapter 438
+  ✗ arabic: EMPTY
+
+  chap_439.json - Chapter 439
+  ✗ arabic: EMPTY
+
+  chap_440.json - Chapter 440
+  ✗ arabic: EMPTY
+
+  chap_441.json - Chapter 441
+  ✗ arabic: EMPTY
+
+  chap_442.json - Chapter 442
+  ✗ arabic: EMPTY
+
+  chap_443.json - Chapter 443
+  ✗ arabic: EMPTY
+
+  chap_444.json - Chapter 444
+  ✗ arabic: EMPTY
+
+  chap_445.json - Chapter 445
+  ✗ arabic: EMPTY
+
+  chap_446.json - Chapter 446
+  ✗ arabic: EMPTY
+
+  chap_447.json - Chapter 447
+  ✗ arabic: EMPTY
+
+  chap_448.json - Chapter 448
+  ✗ arabic: EMPTY
+
+  chap_449.json - Chapter 449
+  ✗ arabic: EMPTY
+
+  chap_450.json - Chapter 450
+  ✗ arabic: EMPTY
+
+  chap_451.json - Chapter 451
+  ✗ arabic: EMPTY
+
+  chap_452.json - Chapter 452
+  ✗ arabic: EMPTY
+
+  chap_453.json - Chapter 453
+  ✗ arabic: EMPTY
+
+  chap_454.json - Chapter 454
+  ✗ arabic: EMPTY
+
+  chap_455.json - Chapter 455
+  ✗ arabic: EMPTY
+
+  chap_456.json - Chapter 456
+  ✗ arabic: EMPTY
+
+  chap_457.json - Chapter 457
+  ✗ arabic: EMPTY
+
+  chap_458.json - Chapter 458
+  ✗ arabic: EMPTY
+
+  chap_459.json - Chapter 459
+  ✗ arabic: EMPTY
+
+  chap_460.json - Chapter 460
+  ✗ arabic: EMPTY
+
+  chap_461.json - Chapter 461
+  ✗ arabic: EMPTY
+
+  chap_462.json - Chapter 462
+  ✗ arabic: EMPTY
+
+  chap_463.json - Chapter 463
+  ✗ arabic: EMPTY
+
+  chap_464.json - Chapter 464
+  ✗ arabic: EMPTY
+
+  chap_465.json - Chapter 465
+  ✗ arabic: EMPTY
+
+  chap_466.json - Chapter 466
+  ✗ arabic: EMPTY
+
+  chap_467.json - Chapter 467
+  ✗ arabic: EMPTY
+
+  chap_468.json - Chapter 468
+  ✗ arabic: EMPTY
+
+  chap_469.json - Chapter 469
+  ✗ arabic: EMPTY
+
+  chap_470.json - Chapter 470
+  ✗ arabic: EMPTY
+
+================================================================================
+TOTAL ISSUES: 39
+  - Book metadata: 1
+  - Chapters: 38
+  - Hadiths: 0
+================================================================================
