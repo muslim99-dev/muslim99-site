@@ -35,7 +35,8 @@ export const TEAM: TeamMember[] = [
   {
     name: "Talha Ghauri",
     role: "CEO & Senior Developer",
-    bio: "MERN stack developer leading Muslim99's direction and engineering, building a fast and reliable home for the Qur'an and Sunnah."
+    bio: "MERN stack developer leading Muslim99's direction and engineering, building a fast and reliable home for the Qur'an and Sunnah.",
+    photo: "/team/talha-ghauri.jpg"
   },
   {
     name: "Ali Ghauri",
