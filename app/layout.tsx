@@ -7,7 +7,7 @@ import MobileNav from "@/components/MobileNav";
 import SessionProvider from "@/components/SessionProvider";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
 import JsonLd from "@/components/JsonLd";
-import { SITE_ALT_NAMES, SITE_DESCRIPTION, SITE_NAME, SITE_SECTIONS, SITE_TAGLINE, SITE_URL, absoluteUrl } from "@/lib/site";
+import { SITE_ALT_NAMES, SITE_DESCRIPTION, SITE_EMAIL, SITE_NAME, SITE_SECTIONS, SITE_SOCIAL, SITE_TAGLINE, SITE_URL, absoluteUrl } from "@/lib/site";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const amiri = Amiri({ subsets: ["arabic"], weight: ["400", "700"], variable: "--font-arabic" });
@@ -64,7 +64,10 @@ const siteJsonLd = [
     alternateName: SITE_ALT_NAMES,
     url: SITE_URL,
     logo: absoluteUrl("/logo.png"),
-    description: SITE_DESCRIPTION
+    description: SITE_DESCRIPTION,
+    email: SITE_EMAIL,
+    ...(SITE_SOCIAL.length ? { sameAs: SITE_SOCIAL.map((s) => s.url) } : {}),
+    contactPoint: { "@type": "ContactPoint", contactType: "customer support", email: SITE_EMAIL, url: absoluteUrl("/contact") }
   },
   {
     "@context": "https://schema.org",

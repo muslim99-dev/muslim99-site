@@ -178,3 +178,17 @@ model ActiveVisitor {
 
   @@index([lastSeen])
 }
+
+// Messages sent through the Contact page (admin inbox at /admin/messages)
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  subject   String?
+  message   String   @db.Text
+  read      Boolean  @default(false)
+  emailed   Boolean  @default(false) // delivered to the team mailbox
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}

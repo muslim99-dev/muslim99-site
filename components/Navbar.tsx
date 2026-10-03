@@ -10,7 +10,9 @@ const links = [
   { href: "/qibla", label: "Qibla" },
   { href: "/calendar", label: "Calendar" },
   { href: "/duas", label: "Duas" },
-  { href: "/ask", label: "Ask" }
+  { href: "/ask", label: "Ask" },
+  { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" }
 ];
 
 export default function Navbar() {
@@ -22,7 +24,7 @@ export default function Navbar() {
           <span className="text-lg font-semibold text-teal-dark">Muslim99</span>
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-7 text-sm text-muted">
+        <nav className="hidden lg:flex items-center gap-4 xl:gap-6 text-sm text-muted">
           {links.map((l) => (
             <Link key={l.href} href={l.href} className="hover:text-primary-deep transition-colors">
               {l.label}

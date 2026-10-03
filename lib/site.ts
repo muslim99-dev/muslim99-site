@@ -11,6 +11,14 @@ export const SITE_TAGLINE = "Your Complete Islamic Companion";
 export const SITE_DESCRIPTION =
   "Muslim99 is a free Islamic website to read the Qur'an with translations and recitations, study Hadith from 18 classical collections, read Tafsir from 120+ commentaries in 30+ languages, learn authentic duas with references, and check prayer times, Qibla direction and the Hijri calendar.";
 
+export const SITE_EMAIL = "social@themuslim99.com";
+
+/** Official social profiles — shown on the Contact page and added to the
+ * Organization structured data (sameAs). Add full URLs, e.g.
+ *   { name: "Facebook", url: "https://www.facebook.com/themuslim99" }
+ * Supported icons: Facebook, Instagram, X, YouTube, TikTok, LinkedIn, WhatsApp. */
+export const SITE_SOCIAL: { name: string; url: string }[] = [];
+
 export const absoluteUrl = (path = "/") => `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
 
 /** Main sections — used for navigation structured data (sitelinks hints),
