@@ -25,7 +25,14 @@ export default function TeamCard({ member }: { member: TeamMember }) {
       <span aria-hidden className="absolute inset-x-0 top-0 h-20 bg-gradient-to-br from-teal-dark via-[#0E5558] to-primary-deep" />
       <div className="relative h-28 w-28 overflow-hidden rounded-full bg-aqua ring-4 ring-white shadow-card">
         {member.photo ? (
-          <Image src={member.photo} alt={`${member.name}, ${member.role}`} fill sizes="112px" className="object-cover" />
+          <Image
+            src={member.photo}
+            alt={`${member.name}, ${member.role}`}
+            fill
+            sizes="112px"
+            className="object-cover"
+            unoptimized={member.photo.endsWith(".svg")}
+          />
         ) : (
           <span className="grid h-full w-full place-items-center text-3xl font-semibold text-primary-deep">{initials(member.name)}</span>
         )}

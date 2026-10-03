@@ -61,9 +61,9 @@ export default async function About() {
     description: SITE_DESCRIPTION,
     isPartOf: { "@id": `${SITE_URL}/#website` },
     about: { "@id": `${SITE_URL}/#organization` },
-    ...(TEAM.length
+    ...(TEAM.some((m) => !m.placeholder)
       ? {
-          mentions: TEAM.map((m) => ({
+          mentions: TEAM.filter((m) => !m.placeholder).map((m) => ({
             "@type": "Person",
             name: m.name,
             jobTitle: m.role,
@@ -194,7 +194,7 @@ export default async function About() {
                 The people behind {SITE_NAME}
               </h2>
             </div>
-            <div className={`mx-auto mt-10 grid gap-6 sm:grid-cols-2 ${TEAM.length >= 3 ? "lg:grid-cols-3" : "max-w-3xl"}`}>
+            <div className={`mx-auto mt-10 grid gap-6 sm:grid-cols-2 ${TEAM.length === 4 ? "lg:grid-cols-4" : TEAM.length >= 3 ? "lg:grid-cols-3" : "max-w-3xl"}`}>
               {TEAM.map((m) => (
                 <TeamCard key={m.name} member={m} />
               ))}
