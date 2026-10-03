@@ -24,7 +24,6 @@ export type TeamMember = {
   placeholder?: boolean;
 };
 
-// Entries marked `placeholder` are samples — replace them with real people.
 export const TEAM: TeamMember[] = [
   {
     name: "Hafiz Abdullah Qureshi",
@@ -34,27 +33,15 @@ export const TEAM: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/abdullah-hamid-a83420241/"
   },
   {
-    name: "Developer Name",
+    name: "Talha Ghauri",
+    role: "CEO & Senior Developer",
+    bio: "MERN stack developer leading Muslim99's direction and engineering, building a fast and reliable home for the Qur'an and Sunnah."
+  },
+  {
+    name: "Ali Ghauri",
     role: "Lead Developer",
-    bio: "Builds the Qur'an, Hadith and Tafsir readers and keeps Muslim99 fast and reliable.",
-    photo: "/team/placeholder.svg",
-    linkedin: "https://www.linkedin.com/",
-    placeholder: true
-  },
-  {
-    name: "Scholar Name",
-    role: "Islamic Content Reviewer",
-    bio: "Reviews translations, sources and references so every text rests on firm ground.",
-    photo: "/team/placeholder.svg",
-    linkedin: "https://www.linkedin.com/",
-    placeholder: true
-  },
-  {
-    name: "Designer Name",
-    role: "UI/UX Designer",
-    bio: "Designs a calm, beautiful reading experience in every language Muslim99 supports.",
-    photo: "/team/placeholder.svg",
-    linkedin: "https://www.linkedin.com/",
-    placeholder: true
+    bio: "MERN stack developer who leads development of Muslim99's features, from the readers and search to the tools Muslims use every day.",
+    photo: "/team/ali-ghauri.jpg",
+    linkedin: "https://www.linkedin.com/in/alighauri/"
   }
 ];
