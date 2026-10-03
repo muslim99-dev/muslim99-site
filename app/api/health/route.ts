@@ -13,8 +13,7 @@ export async function GET() {
     DATABASE_URL: Boolean(process.env.DATABASE_URL),
     DATABASE_URL_looks_valid: /^postgres(ql)?:\/\//.test(process.env.DATABASE_URL ?? ""),
     NEXTAUTH_SECRET: Boolean(process.env.NEXTAUTH_SECRET),
-    NEXTAUTH_URL: process.env.NEXTAUTH_URL ?? null,
-    ADMIN_EMAILS_set: Boolean(process.env.ADMIN_EMAILS)
+    NEXTAUTH_URL: process.env.NEXTAUTH_URL ?? null
   };
 
   try {

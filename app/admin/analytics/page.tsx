@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
-import { adminEmails, isAdminEmail } from "@/lib/analytics";
+import { isAdminEmail } from "@/lib/analytics";
 import AnalyticsDashboard from "@/components/admin/AnalyticsDashboard";
 
 export const metadata = { title: "Traffic analytics — Muslim99 Admin", robots: { index: false, follow: false } };
@@ -39,12 +39,6 @@ export default async function AnalyticsPage() {
     return (
       <Gate title="Admins only">
         <p>This account doesn&apos;t have access to analytics.</p>
-        {adminEmails().length === 0 && (
-          <p className="mt-3 rounded-xl bg-bg px-4 py-3 text-xs">
-            No admins are configured yet. Add <code className="font-mono">ADMIN_EMAILS</code> (comma-separated emails) to the
-            environment variables and redeploy.
-          </p>
-        )}
       </Gate>
     );
   }

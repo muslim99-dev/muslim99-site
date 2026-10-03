@@ -69,13 +69,10 @@ export function cleanPath(path: unknown) {
 
 export const ONLINE_WINDOW_MS = 60 * 1000; // heartbeat every 15s; a minute of silence = gone
 
-export function adminEmails() {
-  return (process.env.ADMIN_EMAILS ?? "")
-    .split(",")
-    .map((e) => e.trim().toLowerCase())
-    .filter(Boolean);
-}
+/** The only account allowed to see analytics. Fixed in code on purpose:
+ * no environment variable or database change can grant anyone else access. */
+export const ANALYTICS_ADMIN_EMAIL = "hafizabdullahqurashi1@gmail.com";
 
 export function isAdminEmail(email: string | null | undefined) {
-  return !!email && adminEmails().includes(email.toLowerCase());
+  return !!email && email.trim().toLowerCase() === ANALYTICS_ADMIN_EMAIL;
 }
