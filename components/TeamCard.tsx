@@ -21,7 +21,7 @@ function LinkedInIcon() {
 /** A team member card: photo (or initials), name, role, short bio, LinkedIn. */
 export default function TeamCard({ member }: { member: TeamMember }) {
   return (
-    <article className="group relative flex flex-col items-center overflow-hidden rounded-card border border-border bg-white px-6 pb-6 pt-10 text-center shadow-sm transition-all hover:-translate-y-1 hover:shadow-card">
+    <article className="group relative flex h-full flex-col items-center overflow-hidden rounded-card border border-border bg-white px-6 pb-6 pt-10 text-center shadow-sm transition-all hover:-translate-y-1 hover:shadow-card">
       <span aria-hidden className="absolute inset-x-0 top-0 h-20 bg-gradient-to-br from-teal-dark via-[#0E5558] to-primary-deep" />
       <div className="relative h-28 w-28 overflow-hidden rounded-full bg-aqua ring-4 ring-white shadow-card">
         {member.photo ? (
@@ -39,14 +39,14 @@ export default function TeamCard({ member }: { member: TeamMember }) {
       </div>
       <h3 className="mt-4 text-lg font-semibold text-teal-dark">{member.name}</h3>
       <p className="mt-0.5 text-sm font-medium text-gold">{member.role}</p>
-      {member.bio && <p className="mt-3 text-sm leading-relaxed text-muted">{member.bio}</p>}
+      {member.bio && <p className="mb-5 mt-3 text-sm leading-relaxed text-muted">{member.bio}</p>}
       {member.linkedin && (
         <a
           href={member.linkedin}
           target="_blank"
           rel="noopener noreferrer"
           aria-label={`${member.name} on LinkedIn`}
-          className="mt-5 inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium text-[#0A66C2] transition-colors hover:border-[#0A66C2] hover:bg-[#0A66C2] hover:text-white"
+          className="mt-auto inline-flex translate-y-0 items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium text-[#0A66C2] transition-colors hover:border-[#0A66C2] hover:bg-[#0A66C2] hover:text-white"
         >
           <LinkedInIcon />
           LinkedIn

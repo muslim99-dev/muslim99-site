@@ -24,15 +24,14 @@ export type TeamMember = {
   placeholder?: boolean;
 };
 
-// Placeholder cards — replace each with the real person's details and photo.
+// Entries marked `placeholder` are samples — replace them with real people.
 export const TEAM: TeamMember[] = [
   {
-    name: "Founder Name",
-    role: "Founder & CEO",
-    bio: "Leads Muslim99's vision of authentic Islamic knowledge, free and open to everyone.",
-    photo: "/team/placeholder.svg",
-    linkedin: "https://www.linkedin.com/",
-    placeholder: true
+    name: "Hafiz Abdullah Qureshi",
+    role: "Founder & Senior Developer",
+    bio: "MERN stack developer who founded Muslim99 and builds its Qur'an, Hadith and Tafsir platform — free, authentic and open to everyone.",
+    photo: "/team/hafiz-abdullah-qureshi.jpg",
+    linkedin: "https://www.linkedin.com/in/abdullah-hamid-a83420241/"
   },
   {
     name: "Developer Name",
