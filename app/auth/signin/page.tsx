@@ -16,10 +16,17 @@ export default function SignInPage() {
     e.preventDefault();
     setError(null);
     setLoading(true);
-    const res = await signIn("credentials", { email, password, redirect: false });
+    let res;
+    try {
+      res = await signIn("credentials", { email, password, redirect: false });
+    } catch {
+      setLoading(false);
+      setError("Couldn't reach the server. Check your connection and try again.");
+      return;
+    }
     setLoading(false);
-    if (res?.error) {
-      setError("Incorrect email or password.");
+    if (!res || res.error) {
+      setError(res?.error === "CredentialsSignin" || !res ? "Incorrect email or password." : "Sign-in is temporarily unavailable. Please try again shortly.");
       return;
     }
     // Return to the page that asked for sign-in (e.g. bookmarking a hadith);

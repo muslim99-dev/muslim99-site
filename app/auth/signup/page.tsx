@@ -18,20 +18,31 @@ export default function SignUpPage() {
     setError(null);
     setLoading(true);
 
-    const res = await fetch("/api/auth/signup", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name, email, password })
-    });
-    const data = await res.json();
+    let signInRes;
+    try {
+      const res = await fetch("/api/auth/signup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, password })
+      });
+      // A server error can come back without a JSON body — never leave the button spinning.
+      const data = await res.json().catch(() => ({}));
 
-    if (!res.ok) {
-      setError(data.error || "Something went wrong.");
+      if (!res.ok) {
+        setError(
+          data.error ||
+            (res.status >= 500 ? "The server couldn't create your account right now. Please try again in a moment." : "Something went wrong.")
+        );
+        setLoading(false);
+        return;
+      }
+
+      signInRes = await signIn("credentials", { email, password, redirect: false });
+    } catch {
+      setError("Couldn't reach the server. Check your connection and try again.");
       setLoading(false);
       return;
     }
-
-    const signInRes = await signIn("credentials", { email, password, redirect: false });
     setLoading(false);
     if (signInRes?.error) {
       router.push("/auth/signin");
