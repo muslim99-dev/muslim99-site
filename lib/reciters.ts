@@ -16,6 +16,9 @@
  * ones) — tapping any verse's play button plays the full surah from
  * the beginning with that reciter's voice (see surahAudioUrl).
  *
+ * A reciter can have both: per-verse files (used for "verse by verse")
+ * and a timed full-surah file (used for gapless "continuous" playback).
+ *
  * timingRecitationId: for a handful of reciters, quran.com's backend
  * (api.qurancdn.com) publishes exact per-verse timestamps for the
  * full-surah recording, keyed by their own numeric recitation id.
@@ -54,7 +57,7 @@ export const RECITERS: Reciter[] = [
   { id: "ar.abdurrasheedsufishubahanasim", name: "Abdur-Rasheed Sufi (Shu'bah from Asim)", arabic: "عبد الرشيد صوفي (شعبة عن عاصم)", mode: "surah" },
   { id: "ar.abuabdullahmuniraltounsi", name: "Abu Abdullah Munir at-Tounsi", arabic: "أبو عبد الله منير التونسي", mode: "surah" },
   { id: "ar.abubakraldhabi", name: "Abu Bakr adh-Dhabi", arabic: "أبو بكر الذهبي", mode: "surah" },
-  { id: "ar.shaatree", name: "Abu Bakr Ash-Shaatree", arabic: "أبو بكر الشاطري", mode: "ayah" },
+  { id: "ar.shaatree", name: "Abu Bakr Ash-Shaatree", arabic: "أبو بكر الشاطري", mode: "ayah", timingRecitationId: 4 },
   { id: "ar.adilkalbani", name: "Adil al-Kalbani", arabic: "عادل الكلباني", mode: "surah" },
   { id: "ar.ahmadalhawashy", name: "Ahmad al-Hawashy", arabic: "أحمد الحواشي", mode: "surah" },
   { id: "ar.ahmadkhaderaltarabulsi", name: "Ahmad Khader at-Tarabulsi", arabic: "أحمد خضر الطرابلسي", mode: "surah" },
@@ -72,7 +75,7 @@ export const RECITERS: Reciter[] = [
   { id: "ar.alhusaynialazazichildren", name: "al-Husayni al-Azazi (with children)", arabic: "الحسيني العزازي (مع الأطفال)", mode: "surah" },
   { id: "ar.obeikan", name: "al-Obeikan", arabic: "العبيكان", mode: "surah" },
   { id: "ar.alzainmohamedahmed", name: "al-Zain Mohamed Ahmed", arabic: "الزين محمد أحمد", mode: "surah" },
-  { id: "ar.alafasy", name: "Alafasy", arabic: "مشاري العفاسي", mode: "ayah" },
+  { id: "ar.alafasy", name: "Alafasy", arabic: "مشاري العفاسي", mode: "ayah", timingRecitationId: 7 },
   { id: "ar.aliabdurrahmanalhuthaify", name: "Ali Abdur-Rahman al-Huthaify", arabic: "علي عبد الرحمن الحذيفي", mode: "surah" },
   { id: "ar.aliabdurrahmanalhuthaifyqaloon", name: "Ali Abdur-Rahman al-Huthaify (Qaloon)", arabic: "علي عبد الرحمن الحذيفي (قالون)", mode: "surah" },
   { id: "ar.alihajjajsouissi", name: "Ali Hajjaj Souissi", arabic: "علي حجاج السويسي", mode: "surah" },
@@ -92,7 +95,7 @@ export const RECITERS: Reciter[] = [
   { id: "ar.hassansaleh", name: "Hassan Saleh", arabic: "حسن صالح", mode: "surah" },
   { id: "ar.hatemfarid", name: "Hatem Farid", arabic: "حاتم فريد", mode: "surah" },
   { id: "ar.hudhaify", name: "Hudhaify", arabic: "علي بن عبدالرحمن الحذيفي", mode: "ayah" },
-  { id: "ar.husary", name: "Husary", arabic: "محمود خليل الحصري", mode: "ayah" },
+  { id: "ar.husary", name: "Husary", arabic: "محمود خليل الحصري", mode: "ayah", timingRecitationId: 6 },
   { id: "qdc.husarymuallim", name: "Husary (Muallim, verse-repeat)", arabic: "محمود خليل الحصري (المعلم)", mode: "surah", timingRecitationId: 12 },
   { id: "ar.husarymujawwad", name: "Husary (Mujawwad)", arabic: "محمود خليل الحصري (المجود)", mode: "ayah" },
   { id: "ar.ibrahimaldossari", name: "Ibrahim ad-Dossari", arabic: "إبراهيم الدوسري", mode: "surah" },
