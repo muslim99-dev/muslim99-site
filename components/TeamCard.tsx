@@ -42,7 +42,7 @@ export default function TeamCard({ member }: { member: TeamMember }) {
       {member.bio && <p className="mb-5 mt-3 text-sm leading-relaxed text-muted">{member.bio}</p>}
       {member.linkedin && (
         <a
-          href={member.linkedin}
+          href={/^https?:\/\//i.test(member.linkedin) ? member.linkedin : `https://${member.linkedin.replace(/^\/+/, "")}`}
           target="_blank"
           rel="noopener noreferrer"
           aria-label={`${member.name} on LinkedIn`}

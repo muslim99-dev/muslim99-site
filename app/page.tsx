@@ -2,10 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import DailyAyah from "@/components/DailyAyah";
 import JsonLd from "@/components/JsonLd";
-import { SITE_DESCRIPTION, SITE_FAQ, SITE_NAME, SITE_SECTIONS, SITE_TAGLINE } from "@/lib/site";
-import { getCollections } from "@/lib/hadith";
-import { TAFSIRS, tafsirLanguages } from "@/lib/tafsir";
-import { totalDuas } from "@/lib/duas";
+import { SITE_DESCRIPTION, SITE_FAQ, SITE_FEATURES, SITE_FOUNDER, SITE_HIGHLIGHTS, SITE_NAME, SITE_OVERVIEW, SITE_SECTIONS, SITE_SOCIAL, SITE_TAGLINE } from "@/lib/site";
 
 export const metadata = {
   title: { absolute: `${SITE_NAME} — ${SITE_TAGLINE} | Quran, Hadith, Tafsir & Duas` },
@@ -31,16 +28,7 @@ const reciters = [
   { id: "ar.sudais", name: "Abdur-Rahman As-Sudais", country: "Saudi Arabia" }
 ];
 
-export default async function Home() {
-  const collections = await getCollections().catch(() => []);
-  const hadithCount = collections.reduce((n, c) => n + c.total_hadiths, 0);
-  const stats = [
-    { value: "114", label: "Surahs of the Qur'an" },
-    { value: String(collections.length || 18), label: "Hadith collections" },
-    { value: hadithCount ? `${Math.floor(hadithCount / 1000)}k+` : "90k+", label: "Hadiths" },
-    { value: String(TAFSIRS.length), label: `Tafsirs in ${tafsirLanguages().length} languages` },
-    { value: `${totalDuas}`, label: "Duas with references" }
-  ];
+export default function Home() {
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -56,7 +44,7 @@ export default async function Home() {
             <Image src="/logo.png" alt="Muslim99" width={56} height={56} className="rounded-2xl" />
             <h1 className="mt-6 text-4xl sm:text-5xl font-semibold leading-[1.1] text-teal-dark">
               <span className="block text-primary-deep">Muslim99</span>
-              Your Complete Islamic Companion
+              {SITE_TAGLINE}
             </h1>
             <p className="mt-5 text-[17px] leading-relaxed text-muted max-w-lg">
               Read the Quran, listen to beautiful recitations, explore Hadith and Tafsir, find prayer times, locate
@@ -158,15 +146,49 @@ export default async function Home() {
               <h2 id="about-muslim99" className="mt-2 text-2xl sm:text-3xl font-semibold text-teal-dark">
                 What is Muslim99?
               </h2>
-              <p className="mt-4 text-[17px] leading-relaxed text-muted">{SITE_FAQ[0].a}</p>
-              <dl className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
-                {stats.map((s) => (
+              <p className="mt-2 text-sm font-medium text-gold">{SITE_TAGLINE} · Founded by {SITE_FOUNDER.name}</p>
+              {SITE_OVERVIEW.map((p) => (
+                <p key={p.slice(0, 24)} className="mt-4 text-[16px] leading-relaxed text-muted">
+                  {p}
+                </p>
+              ))}
+              <dl className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
+                {SITE_HIGHLIGHTS.map((s) => (
                   <div key={s.label} className="rounded-card border border-border bg-bg p-4">
-                    <dt className="text-xs text-muted">{s.label}</dt>
-                    <dd className="mt-1 text-2xl font-semibold text-teal-dark">{s.value}</dd>
+                    <dd className="text-2xl font-semibold text-teal-dark">{s.value}</dd>
+                    <dt className="mt-1 text-xs font-medium text-teal-dark">{s.label}</dt>
+                    <p className="text-[11px] text-muted">{s.detail}</p>
                   </div>
                 ))}
               </dl>
+              <h3 className="mt-8 text-sm font-semibold uppercase tracking-[0.14em] text-teal-dark">Features</h3>
+              <ul className="mt-3 grid gap-x-6 gap-y-2 text-sm text-muted sm:grid-cols-2">
+                {SITE_FEATURES.map((f) => (
+                  <li key={f} className="flex items-start gap-2">
+                    <span aria-hidden className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                    {f}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-6 text-sm text-muted">
+                Founder:{" "}
+                <a href={SITE_FOUNDER.linkedin} target="_blank" rel="noopener noreferrer" className="font-medium text-primary-deep hover:underline">
+                  {SITE_FOUNDER.name}
+                </a>
+                {SITE_SOCIAL.length > 0 && (
+                  <>
+                    {" "}· Follow Muslim99 on{" "}
+                    {SITE_SOCIAL.map((s, i) => (
+                      <span key={s.url}>
+                        {i > 0 && " and "}
+                        <a href={s.url} target="_blank" rel="noopener noreferrer" className="font-medium text-primary-deep hover:underline">
+                          {s.name}
+                        </a>
+                      </span>
+                    ))}
+                  </>
+                )}
+              </p>
             </div>
             <nav aria-label="Muslim99 sections">
               <ul className="divide-y divide-border rounded-card border border-border">

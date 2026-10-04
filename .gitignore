@@ -18,3 +18,4 @@ dev_*.log
 
 # Qur'an SQLite source (269 MB); extracted into data/quran_db by scripts/build-quran-db.mjs
 quran.db
+.next-check/

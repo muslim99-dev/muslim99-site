@@ -77,6 +77,11 @@ export default async function HadithChapterPage({ params }: { params: Params }) 
           <p className="mt-3 text-xs text-muted">
             {chapter.total_hadiths} {chapter.total_hadiths === 1 ? "hadith" : "hadiths"} in this chapter
           </p>
+          {collection.translation_note && (
+            <p className="mx-auto mt-4 max-w-2xl rounded-2xl bg-[#FBF7EA] px-4 py-2.5 text-xs leading-relaxed text-teal-dark/80 ring-1 ring-gold/30">
+              {collection.translation_note}
+            </p>
+          )}
         </div>
       </header>
 
@@ -96,7 +101,7 @@ export default async function HadithChapterPage({ params }: { params: Params }) 
         {chapter.hadiths.length === 0 ? (
           <ErrorCard title="No hadiths in this chapter." detail="The source dataset has no entries here." />
         ) : (
-          <HadithChapterView chapter={chapter} collectionName={collection.name} />
+          <HadithChapterView chapter={chapter} collectionName={collection.name} unverifiedTranslations={!!collection.translation_note} />
         )}
       </div>
 

@@ -16,18 +16,25 @@
  * Counts come from the files actually present, not the collection.json /
  * book.json metadata, which overstates some collections (e.g. Musannaf).
  *
+ * Collections in data/hadith_extra (imported from the Hadith API Toon dataset
+ * by scripts/import-hadith-toon.py) use the same layout with gzipped chapter
+ * files, and carry an author, intro, source and translation note.
+ *
  * Run after replacing the dataset:  node scripts/build-hadith-index.mjs
  */
 import fs from "node:fs";
 import path from "node:path";
 import zlib from "node:zlib";
 
-const ROOT = path.join(process.cwd(), "data", "hadith_data");
+const ROOTS = [path.join(process.cwd(), "data", "hadith_data"), path.join(process.cwd(), "data", "hadith_extra")];
 const OUT = path.join(process.cwd(), "data", "hadith_index");
 
 const slugify = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const num = (name) => Number(name.match(/(\d+)/)?.[1]);
-const readJSON = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
+const readJSON = (p) => {
+  const buf = fs.readFileSync(p);
+  return JSON.parse((p.endsWith(".gz") ? zlib.gunzipSync(buf) : buf).toString("utf8"));
+};
 
 // Must stay in sync with normalize() in lib/hadith.ts.
 function normalize(s) {
@@ -49,8 +56,11 @@ const writeGz = (file, data) => {
 fs.rmSync(OUT, { recursive: true, force: true });
 
 const collections = [];
-for (const dir of fs.readdirSync(ROOT).sort()) {
-  const colPath = path.join(ROOT, dir);
+const dirs = ROOTS.filter((r) => fs.existsSync(r)).flatMap((root) =>
+  fs.readdirSync(root).sort().map((dir) => ({ root, dir }))
+);
+for (const { root, dir } of dirs) {
+  const colPath = path.join(root, dir);
   if (!fs.statSync(colPath).isDirectory()) continue;
   const meta = readJSON(path.join(colPath, "collection.json"));
   const slug = slugify(dir);
@@ -68,7 +78,7 @@ for (const dir of fs.readdirSync(ROOT).sort()) {
     // so in a fresh checkout the folder is missing entirely.
     const chaptersDir = path.join(bookPath, "chapters");
     const chapterFiles = (fs.existsSync(chaptersDir) ? fs.readdirSync(chaptersDir) : [])
-      .filter((f) => f.endsWith(".json"))
+      .filter((f) => f.endsWith(".json") || f.endsWith(".json.gz"))
       .sort((a, b) => num(a) - num(b));
     if (chapterFiles.length === 0) continue; // nothing to read — don't list an empty book
 
@@ -120,6 +130,11 @@ for (const dir of fs.readdirSync(ROOT).sort()) {
     name: meta.name || dir,
     name_arabic: meta.name_arabic || "",
     name_urdu: meta.name_urdu || "",
+    ...(meta.author && { author: meta.author }),
+    ...(meta.intro && { intro: meta.intro }),
+    ...(meta.intro_urdu && { intro_urdu: meta.intro_urdu }),
+    ...(meta.source && { source: meta.source }),
+    ...(meta.translation_note && { translation_note: meta.translation_note }),
     total_hadiths: books.reduce((s, b) => s + b.total_hadiths, 0),
     total_books: books.length,
     languages: ["Arabic", "Urdu", "English"].filter((l) => languages.has(l)),

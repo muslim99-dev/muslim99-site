@@ -26,7 +26,11 @@ export default async function HadithCollectionPage({ params }: { params: { book:
       <Breadcrumbs items={[{ label: "Hadith", href: "/hadith" }, { label: collection.name }]} />
 
       <div className="mt-4">
-        <PageHero eyebrow="Collection" title={collection.name} arabic={collection.name_urdu}>
+        <PageHero
+          eyebrow={collection.author ? `Collection · ${collection.author}` : "Collection"}
+          title={collection.name}
+          arabic={collection.name_urdu}
+        >
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div className="grid grid-cols-3 gap-3 sm:max-w-lg">
               <HeroStat value={collection.total_books} label="Books" />
@@ -37,6 +41,30 @@ export default async function HadithCollectionPage({ params }: { params: { book:
           </div>
         </PageHero>
       </div>
+
+      {(collection.intro || collection.translation_note) && (
+        <section className="mt-6 grid gap-4 lg:grid-cols-[1fr_340px]">
+          {collection.intro && (
+            <div className="rounded-card border border-border bg-white p-5 sm:p-6">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-gold">About this book</p>
+              {collection.author && <p className="mt-1 text-sm font-medium text-teal-dark">Compiled by {collection.author}</p>}
+              <p className="mt-3 text-[15px] leading-relaxed text-teal-dark/85">{collection.intro}</p>
+              {collection.intro_urdu && (
+                <p dir="rtl" lang="ur" className="mt-4 border-t border-border pt-4 text-right font-urdu text-base leading-[2.2] text-teal-dark/85">
+                  {collection.intro_urdu}
+                </p>
+              )}
+            </div>
+          )}
+          {collection.translation_note && (
+            <aside className="h-fit rounded-card border border-gold/40 bg-[#FBF7EA] p-5 text-sm leading-relaxed text-teal-dark/85">
+              <p className="font-semibold text-teal-dark">About the translations</p>
+              <p className="mt-2">{collection.translation_note}</p>
+              {collection.source && <p className="mt-3 text-xs text-muted">Source: {collection.source}</p>}
+            </aside>
+          )}
+        </section>
+      )}
 
       <div className="mt-6 empty:hidden">
         <ContinueReading slug={params.book} />

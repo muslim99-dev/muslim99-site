@@ -17,6 +17,17 @@ function referenceLabel(h: Hadith) {
   return intl && intl !== String(h.hadith_number) ? `Ref. ${intl}` : null;
 }
 
+function UnverifiedTag() {
+  return (
+    <span
+      title="Not checked against a published translation — may be machine-translated. Rely on the Arabic."
+      className="rounded-full bg-gold/15 px-2 py-0.5 text-[9px] font-semibold normal-case tracking-normal text-[#9A7B1C]"
+    >
+      Unverified translation
+    </span>
+  );
+}
+
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
     <p className="mb-2 flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.16em] text-primary-deep">
@@ -76,7 +87,8 @@ function HadithCard({
   arabicSize,
   highlighted,
   isSaved,
-  onToggle
+  onToggle,
+  unverified
 }: {
   h: Hadith;
   loc: HadithLocation;
@@ -86,6 +98,7 @@ function HadithCard({
   highlighted: boolean;
   isSaved: (loc: HadithLocation, kind: SavedKind) => boolean;
   onToggle: (loc: HadithLocation, kind: SavedKind) => void;
+  unverified?: boolean;
 }) {
   const [copied, setCopied] = useState<"text" | "link" | null>(null);
   const ref = referenceLabel(h);
@@ -155,14 +168,14 @@ function HadithCard({
 
         {show.english && h.english_translation && (
           <div>
-            <SectionLabel>English</SectionLabel>
+            <SectionLabel>English{unverified && <UnverifiedTag />}</SectionLabel>
             <p className="whitespace-pre-line text-[15px] leading-relaxed text-teal-dark/90">{h.english_translation}</p>
           </div>
         )}
 
         {show.urdu && h.urdu_translation && (
           <div>
-            <SectionLabel>اردو ترجمہ · Urdu</SectionLabel>
+            <SectionLabel>اردو ترجمہ · Urdu{unverified && <UnverifiedTag />}</SectionLabel>
             <p dir="rtl" lang="ur" className="whitespace-pre-line text-right font-urdu text-[17px] leading-[2.4] text-teal-dark/90">
               {h.urdu_translation}
             </p>
@@ -173,7 +186,15 @@ function HadithCard({
   );
 }
 
-export default function HadithChapterView({ chapter, collectionName }: { chapter: Chapter; collectionName: string }) {
+export default function HadithChapterView({
+  chapter,
+  collectionName,
+  unverifiedTranslations = false
+}: {
+  chapter: Chapter;
+  collectionName: string;
+  unverifiedTranslations?: boolean;
+}) {
   const available: Record<Lang, boolean> = {
     arabic: chapter.hadiths.some((h) => h.arabic_text),
     english: chapter.hadiths.some((h) => h.english_translation),
@@ -292,6 +313,7 @@ export default function HadithChapterView({ chapter, collectionName }: { chapter
             isSaved={isSaved}
             onToggle={toggleSaved}
             collectionName={collectionName}
+            unverified={unverifiedTranslations}
             show={show}
             arabicSize={ARABIC_SIZES[sizeIndex]}
             highlighted={targetHadith === String(h.hadith_number)}

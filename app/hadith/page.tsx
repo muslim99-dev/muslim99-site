@@ -7,7 +7,7 @@ import { ErrorCard, HeroStat, LanguageTags, PageHero } from "@/components/hadith
 export const metadata = {
   title: "Hadith Collections — Sahih Bukhari, Sahih Muslim & More | Muslim99",
   description:
-    "Read and search 18 classical hadith collections — Sahih Bukhari, Sahih Muslim, Abu Dawood, Tirmidhi, Nasa'i, Ibn Majah, Muwatta Malik, Musnad Ahmad and more — in Arabic with Urdu and English translations and gradings.",
+    "Read and search 37 classical hadith collections — Sahih Bukhari, Sahih Muslim, Abu Dawood, Tirmidhi, Nasa'i, Ibn Majah, Muwatta Malik, Musnad Ahmad and more — in Arabic with Urdu and English translations and gradings.",
   alternates: { canonical: "/hadith" }
 };
 

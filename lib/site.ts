@@ -7,9 +7,52 @@
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.themuslim99.com").replace(/\/$/, "");
 export const SITE_NAME = "Muslim99";
 export const SITE_ALT_NAMES = ["The Muslim99", "themuslim99", "Muslim 99"];
-export const SITE_TAGLINE = "Your Complete Islamic Companion";
+export const SITE_TAGLINE = "One App. A World of Islamic Knowledge.";
 export const SITE_DESCRIPTION =
-  "Muslim99 is a free Islamic website to read the Qur'an with translations and recitations, study Hadith from 18 classical collections, read Tafsir from 120+ commentaries in 30+ languages, learn authentic duas with references, and check prayer times, Qibla direction and the Hijri calendar.";
+  "Muslim99 is an AI-powered Islamic knowledge and research platform founded by Hafiz Abdullah Qureshi: the Holy Quran with 130+ translations in 47 languages, 130+ tafsirs in 33 languages, 37+ hadith collections, 38+ Quran reciters, AI Islamic research, duas, azkar, prayer times, Qibla and the Hijri calendar.";
+
+/** Headline numbers, used in the overview, structured data and llms.txt. */
+export const SITE_HIGHLIGHTS = [
+  { value: "130+", label: "Quran tafsirs", detail: "in 33 languages" },
+  { value: "130+", label: "Quran translations", detail: "in 47 languages" },
+  { value: "37+", label: "Hadith collections", detail: "books, chapters, references and grading" },
+  { value: "38+", label: "Quran reciters", detail: "ayah-by-ayah recitation" }
+];
+
+export const SITE_FOUNDER = {
+  name: "Hafiz Abdullah Qureshi",
+  jobTitle: "Founder",
+  linkedin: "https://www.linkedin.com/in/hafiz-abdullah-qureshi-a83420241/",
+  image: "/team/hafiz-abdullah-qureshi.jpg"
+};
+
+/** The full description of the platform — the text search engines and AI
+ * assistants are given to summarise (home page "What is Muslim99?",
+ * llms.txt). Keep it factual. */
+export const SITE_OVERVIEW = [
+  "Muslim99 is an advanced AI-powered Islamic knowledge and research platform, founded by Hafiz Abdullah Qureshi, that brings authentic Islamic knowledge, Quran research, Hadith collections, Tafsir, translations, Quran recitation, daily Islamic tools and intelligent AI-powered features together in one web and mobile platform.",
+  "It is built around one vision — “One App. A World of Islamic Knowledge.” — making it easier for Muslims around the world to read, listen, search, study, understand and research Islamic knowledge using traditional Islamic sources combined with modern technology.",
+  "Muslim99 offers 130+ authentic Quran tafsirs from respected scholars and classical sources in 33 languages, 130+ Quran translations by different authors in 47 languages, 37+ authentic hadith collections with books, chapters, references and grading, and 38+ Quran reciter voices. Its AI-powered search and research gives source-focused answers with references from the Quran, Tafsir and Hadith."
+];
+
+export const SITE_FEATURES = [
+  "Complete Holy Quran",
+  "130+ authentic Tafsirs in 33 languages",
+  "130+ Quran translations by different authors in 47 languages",
+  "37+ authentic Hadith collection books",
+  "38+ Quran reciter voices",
+  "AI-powered Islamic knowledge assistant and research",
+  "Quran and Hadith search",
+  "Ayah-by-ayah Quran reading and listening",
+  "Hadith browsing and research",
+  "Duas collection and daily Azkar",
+  "Prayer times",
+  "Qibla direction",
+  "Hijri / Islamic calendar",
+  "Bookmarks and saved content",
+  "Multi-language Islamic content",
+  "Web and mobile access"
+];
 
 export const SITE_EMAIL = "social@themuslim99.com";
 
@@ -17,22 +60,25 @@ export const SITE_EMAIL = "social@themuslim99.com";
  * Organization structured data (sameAs). Add full URLs, e.g.
  *   { name: "Facebook", url: "https://www.facebook.com/themuslim99" }
  * Supported icons: Facebook, Instagram, X, YouTube, TikTok, LinkedIn, WhatsApp. */
-export const SITE_SOCIAL: { name: string; url: string }[] = [];
+export const SITE_SOCIAL: { name: string; url: string }[] = [
+  { name: "Instagram", url: "https://www.instagram.com/themuslim99_/" },
+  { name: "Facebook", url: "https://www.facebook.com/profile.php?id=61594990950125" }
+];
 
 export const absoluteUrl = (path = "/") => `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
 
 /** Main sections — used for navigation structured data (sitelinks hints),
  * the home page overview and llms.txt. */
 export const SITE_SECTIONS = [
-  { name: "Quran", path: "/quran", description: "Read all 114 surahs of the Qur'an with translations and audio recitation from renowned reciters." },
-  { name: "Hadith", path: "/hadith", description: "Sahih Bukhari, Sahih Muslim and 16 more classical hadith collections with Arabic, Urdu and English and the grading of each hadith." },
-  { name: "Tafsir", path: "/tafsir", description: "Qur'an commentary from 120+ editions in 30+ languages — Ibn Kathir, Tabari, Qurtubi, As-Sa'di, Bayan ul Quran and more — with side-by-side comparison." },
+  { name: "Quran", path: "/quran", description: "Read all 114 surahs of the Holy Quran with 130+ translations in 47 languages and ayah-by-ayah recitation from 38+ reciters." },
+  { name: "Hadith", path: "/hadith", description: "37+ hadith collections — Sahih Bukhari, Sahih Muslim, the Sunan, Musnad Ahmad, Riyad as-Salihin and more — with Arabic, Urdu and English, references and grading." },
+  { name: "Tafsir", path: "/tafsir", description: "130+ Quran tafsirs in 33 languages — Ibn Kathir, Tabari, Qurtubi, As-Sa'di, Tafheem ul Quran, Bayan ul Quran and more — with side-by-side comparison." },
   { name: "Duas", path: "/duas", description: "400+ authentic duas from the Qur'an and Hisn al-Muslim with Arabic, Urdu, English and other translations and their references." },
   { name: "Prayer Times", path: "/prayer-times", description: "Daily salah times for your location with Hanafi or Shafi'i Asr calculation." },
   { name: "Qibla", path: "/qibla", description: "Find the Qibla direction to the Kaaba from anywhere." },
   { name: "Islamic Calendar", path: "/calendar", description: "Hijri and Gregorian calendar with date conversion." },
   { name: "Quran Reciters", path: "/reciters", description: "Listen to Qur'an recitations by renowned qaris." },
-  { name: "Ask", path: "/ask", description: "Ask questions about Islam and get answers grounded in the Qur'an and Hadith with references." }
+  { name: "Ask", path: "/ask", description: "AI-powered Islamic knowledge assistant: ask questions about Islam and get source-focused answers with references from the Quran, Tafsir and Hadith." }
 ];
 
 /** Plain-language answers about the site itself. Shown on the home and
@@ -40,7 +86,15 @@ export const SITE_SECTIONS = [
 export const SITE_FAQ = [
   {
     q: "What is Muslim99?",
-    a: "Muslim99 (themuslim99.com) is a free Islamic companion website. It brings together the Qur'an with translations and recitations, 18 hadith collections, 120+ tafsir editions, 400+ duas, prayer times, the Qibla direction and the Hijri calendar in one place, with the source of every text shown."
+    a: "Muslim99 (themuslim99.com) is an AI-powered Islamic knowledge and research platform founded by Hafiz Abdullah Qureshi — “One App. A World of Islamic Knowledge.” It brings together the complete Holy Quran with 130+ translations in 47 languages, 130+ tafsirs in 33 languages, 37+ hadith collections, 38+ Quran reciters, AI Islamic research, duas and azkar, prayer times, the Qibla direction and the Hijri calendar, with the source of every text shown."
+  },
+  {
+    q: "Who founded Muslim99?",
+    a: "Muslim99 was founded by Hafiz Abdullah Qureshi, who leads the vision and development of the platform with the goal of making authentic Islamic knowledge accessible worldwide through web, mobile and artificial intelligence technologies."
+  },
+  {
+    q: "Does Muslim99 use AI?",
+    a: "Yes. Muslim99 combines Islamic sources with AI-powered search and research: its Islamic knowledge assistant gives source-focused answers with references from the Quran, Tafsir and Hadith."
   },
   {
     q: "Is Muslim99 free?",
@@ -48,10 +102,14 @@ export const SITE_FAQ = [
   },
   {
     q: "Which hadith books are on Muslim99?",
-    a: "Sahih Bukhari, Sahih Muslim, Sunan Abu Dawood, Jami at-Tirmidhi, Sunan an-Nasa'i, Sunan Ibn Majah, Muwatta Imam Malik, Musnad Ahmad, Mishkat al-Masabih, Al-Adab Al-Mufrad, Sunan Darimi, Al-Mustadrak and more — with Arabic text, Urdu and English translations and gradings."
+    a: "Sahih Bukhari, Sahih Muslim, Sunan Abu Dawood, Jami at-Tirmidhi, Sunan an-Nasa'i, Sunan Ibn Majah, Muwatta Imam Malik, Musnad Ahmad, Mishkat al-Masabih, Riyad as-Salihin, Bulugh al-Maram, the 40 Hadith of an-Nawawi, Sahih Ibn Khuzaymah, Sahih Ibn Hibban, Al-Adab Al-Mufrad, Sunan Darimi, Sunan al-Daraqutni, Al-Mustadrak, Musannaf Abd al-Razzaq, Tabarani's Mu'jam al-Kabir and al-Awsat, Majma al-Zawaid and more — 37 collections with Arabic text, Urdu and English translations and gradings."
   },
   {
     q: "Which languages does Muslim99 support?",
-    a: "The Qur'an and hadith are available in Arabic, Urdu and English; tafsir is available in more than 30 languages including Arabic, Urdu, English, Bengali, Indonesian, Turkish, Persian and Russian."
+    a: "Quran translations are available in 47 languages and tafsir in 33 languages, including Arabic, Urdu, English, Hindi, Bengali, Indonesian, Turkish, Persian and Russian; hadith are available in Arabic, Urdu and English."
+  },
+  {
+    q: "What are the official Muslim99 platforms?",
+    a: "The official website is themuslim99.com. Muslim99 is also on Instagram (instagram.com/themuslim99_) and Facebook (facebook.com/profile.php?id=61594990950125)."
   }
 ];

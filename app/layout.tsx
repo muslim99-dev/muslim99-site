@@ -7,7 +7,7 @@ import MobileNav from "@/components/MobileNav";
 import SessionProvider from "@/components/SessionProvider";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
 import JsonLd from "@/components/JsonLd";
-import { SITE_ALT_NAMES, SITE_DESCRIPTION, SITE_EMAIL, SITE_NAME, SITE_SECTIONS, SITE_SOCIAL, SITE_TAGLINE, SITE_URL, absoluteUrl } from "@/lib/site";
+import { SITE_ALT_NAMES, SITE_DESCRIPTION, SITE_EMAIL, SITE_FEATURES, SITE_FOUNDER, SITE_NAME, SITE_SECTIONS, SITE_SOCIAL, SITE_TAGLINE, SITE_URL, absoluteUrl } from "@/lib/site";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const amiri = Amiri({ subsets: ["arabic"], weight: ["400", "700"], variable: "--font-arabic" });
@@ -64,10 +64,38 @@ const siteJsonLd = [
     alternateName: SITE_ALT_NAMES,
     url: SITE_URL,
     logo: absoluteUrl("/logo.png"),
+    slogan: SITE_TAGLINE,
     description: SITE_DESCRIPTION,
     email: SITE_EMAIL,
+    founder: { "@id": `${SITE_URL}/#founder` },
+    knowsAbout: ["Quran", "Tafsir", "Hadith", "Quran translation", "Quran recitation", "Islamic research", "Duas", "Prayer times"],
     ...(SITE_SOCIAL.length ? { sameAs: SITE_SOCIAL.map((s) => s.url) } : {}),
     contactPoint: { "@type": "ContactPoint", contactType: "customer support", email: SITE_EMAIL, url: absoluteUrl("/contact") }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": `${SITE_URL}/#founder`,
+    name: SITE_FOUNDER.name,
+    jobTitle: `${SITE_FOUNDER.jobTitle}, ${SITE_NAME}`,
+    image: absoluteUrl(SITE_FOUNDER.image),
+    url: absoluteUrl("/about"),
+    sameAs: [SITE_FOUNDER.linkedin],
+    worksFor: { "@id": `${SITE_URL}/#organization` }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "@id": `${SITE_URL}/#app`,
+    name: SITE_NAME,
+    url: SITE_URL,
+    description: SITE_DESCRIPTION,
+    applicationCategory: "EducationalApplication",
+    operatingSystem: "Web, Android, iOS",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    featureList: SITE_FEATURES,
+    author: { "@id": `${SITE_URL}/#founder` },
+    publisher: { "@id": `${SITE_URL}/#organization` }
   },
   {
     "@context": "https://schema.org",

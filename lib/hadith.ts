@@ -2,7 +2,7 @@
  * HadithProvider
  * ------------------------------------------------------------------
  * Source: the on-disk dataset in data/hadith_data (unzipped from
- * hadith_data.zip) — 18 classical hadith collections, each hadith carrying
+ * hadith_data.zip) — 18 classical hadith collections, plus 19 imported into data/hadith_extra — each hadith carrying
  * Arabic text, Urdu translation (often several translator variants), an
  * English translation where the source has one, a grading, a reference
  * number and, for some collections, an Urdu explanation (sharh).
@@ -22,7 +22,12 @@ import { gunzip } from "node:zlib";
 import { promisify } from "node:util";
 
 const gunzipAsync = promisify(gunzip);
-const INDEX_DIR = path.join(process.cwd(), "data", "hadith_index");
+// Built through a helper so Next's file tracer can't resolve it statically —
+// otherwise it bundles the whole index (250 MB+) into every page that imports
+// this module. Each route gets just the index files it needs via
+// outputFileTracingIncludes in next.config.js.
+const fromCwd = (...parts: string[]) => path.join(process.cwd(), ...parts);
+const INDEX_DIR = fromCwd("data", "hadith_index");
 
 // Survives dev-mode module reloads so the indexes aren't re-parsed per edit.
 const cache = ((globalThis as any).__hadithCache ??= {
@@ -65,6 +70,12 @@ export type Collection = {
   total_hadiths: number;
   total_books: number;
   languages: string[];
+  /** Imported collections (data/hadith_extra) only. */
+  author?: string;
+  intro?: string;
+  intro_urdu?: string;
+  source?: string;
+  translation_note?: string;
 };
 
 type ManifestCollection = Omit<Collection, "languages"> & {
@@ -97,7 +108,15 @@ async function findBook(slug: string, bookNumber: number) {
 
 function toCollection(c: ManifestCollection): Collection {
   const { slug, name, name_arabic, name_urdu, total_hadiths, total_books, languages } = c;
-  return { slug, name, name_arabic, name_urdu, total_hadiths, total_books, languages };
+  const { author, intro, intro_urdu, source, translation_note } = c;
+  return {
+    slug, name, name_arabic, name_urdu, total_hadiths, total_books, languages,
+    ...(author && { author }),
+    ...(intro && { intro }),
+    ...(intro_urdu && { intro_urdu }),
+    ...(source && { source }),
+    ...(translation_note && { translation_note })
+  };
 }
 
 function toBook(slug: string, b: ManifestCollection["books"][number]): Book {

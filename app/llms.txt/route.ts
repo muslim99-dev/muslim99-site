@@ -1,4 +1,17 @@
-import { SITE_DESCRIPTION, SITE_FAQ, SITE_NAME, SITE_SECTIONS, SITE_TAGLINE, SITE_URL, absoluteUrl } from "@/lib/site";
+import {
+  SITE_DESCRIPTION,
+  SITE_FAQ,
+  SITE_FEATURES,
+  SITE_FOUNDER,
+  SITE_HIGHLIGHTS,
+  SITE_NAME,
+  SITE_OVERVIEW,
+  SITE_SECTIONS,
+  SITE_SOCIAL,
+  SITE_TAGLINE,
+  SITE_URL,
+  absoluteUrl
+} from "@/lib/site";
 
 export const dynamic = "force-static";
 
@@ -8,9 +21,23 @@ export function GET() {
   const body = [
     `# ${SITE_NAME}`,
     "",
-    `> ${SITE_TAGLINE}. ${SITE_DESCRIPTION}`,
+    `> ${SITE_TAGLINE} ${SITE_DESCRIPTION}`,
     "",
-    `Website: ${SITE_URL}`,
+    `Founded by ${SITE_FOUNDER.name} (${SITE_FOUNDER.linkedin})`,
+    "",
+    ...SITE_OVERVIEW.flatMap((p) => [p, ""]),
+    "## Highlights",
+    "",
+    ...SITE_HIGHLIGHTS.map((h) => `- ${h.value} ${h.label} — ${h.detail}`),
+    "",
+    "## Features",
+    "",
+    ...SITE_FEATURES.map((f) => `- ${f}`),
+    "",
+    "## Official platforms",
+    "",
+    `- Website: ${SITE_URL}`,
+    ...SITE_SOCIAL.map((s) => `- ${s.name}: ${s.url}`),
     "",
     "## Sections",
     "",
