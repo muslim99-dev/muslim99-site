@@ -30,7 +30,7 @@ export const TEAM: TeamMember[] = [
     role: "Founder & Senior Developer",
     bio: "MERN stack developer who founded Muslim99 and builds its Qur'an, Hadith and Tafsir platform — free, authentic and open to everyone.",
     photo: "/team/hafiz-abdullah-qureshi.jpg",
-    linkedin: "https://www.linkedin.com/in/abdullah-hamid-a83420241/"
+    linkedin: "www.linkedin.com/in/hafiz-abdullah-qureshi-a83420241/"
   },
   {
     name: "Talha Ghauri",
