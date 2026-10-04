@@ -65,6 +65,12 @@ export const SITE_SOCIAL: { name: string; url: string }[] = [
   { name: "Facebook", url: "https://www.facebook.com/profile.php?id=61594990950125" }
 ];
 
+/** Mobile apps. `url: null` = not released yet (shown as "Coming soon"). */
+export const SITE_APPS = {
+  android: { store: "Google Play", url: "https://play.google.com/store/apps/details?id=com.muslim99" as string | null },
+  ios: { store: "App Store", url: null as string | null }
+};
+
 export const absoluteUrl = (path = "/") => `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
 
 /** Main sections — used for navigation structured data (sitelinks hints),
@@ -110,6 +116,6 @@ export const SITE_FAQ = [
   },
   {
     q: "What are the official Muslim99 platforms?",
-    a: "The official website is themuslim99.com. Muslim99 is also on Instagram (instagram.com/themuslim99_) and Facebook (facebook.com/profile.php?id=61594990950125)."
+    a: "The official website is themuslim99.com. The Muslim99 Android app is on Google Play (play.google.com/store/apps/details?id=com.muslim99) and the iPhone app is coming soon to the App Store. Muslim99 is also on Instagram (instagram.com/themuslim99_) and Facebook (facebook.com/profile.php?id=61594990950125)."
   }
 ];

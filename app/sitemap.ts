@@ -34,6 +34,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...SITE_SECTIONS.map((s) => entry(s.path, 0.9, "daily")),
     entry("/about", 0.6, "monthly"),
     entry("/contact", 0.3, "yearly"),
+    entry("/download-app", 0.7, "monthly"),
     entry("/privacy", 0.2, "yearly"),
     entry("/terms", 0.2, "yearly"),
     ...surahs.map((n) => entry(`/quran/${n}`, 0.8, "monthly")),

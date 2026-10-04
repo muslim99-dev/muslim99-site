@@ -14,7 +14,7 @@ export default function AccountMenu() {
     return (
       <Link
         href="/auth/signin"
-        className="rounded-full border border-border px-4 py-2 text-sm font-medium text-teal-dark hover:border-primary hover:text-primary-deep transition-colors"
+        className="whitespace-nowrap rounded-full border border-border px-4 py-2 text-sm font-medium text-teal-dark hover:border-primary hover:text-primary-deep transition-colors"
       >
         Sign In
       </Link>
