@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getSurahList } from "@/lib/quranApi";
-import { TAFSIRS, getEditionCoverage, getTafsir } from "@/lib/tafsir";
+import { TAFSIRS, getTafsir } from "@/lib/tafsir";
+import { getEditionCoverage } from "@/lib/tafsirData";
 import { Breadcrumbs, HeroStat, PageHero } from "@/components/hadith/HadithUI";
 import SurahGrid from "@/components/tafsir/SurahGrid";
 import TafsirSearch from "@/components/tafsir/TafsirSearch";

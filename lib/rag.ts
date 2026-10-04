@@ -87,7 +87,7 @@ export async function attachTafsir(
   tafsirSlug = "ar-tafsir-ibn-kathir",
   maxChars = 500
 ): Promise<(RetrievedVerse & { tafsir?: string })[]> {
-  const { getTafsirForSurah } = await import("./tafsir");
+  const { getTafsirForSurah } = await import("./tafsirData");
   const surahNumbers = Array.from(new Set(verses.map((v) => v.surahNumber)));
 
   const tafsirBySurah = new Map<number, Map<number, string>>();

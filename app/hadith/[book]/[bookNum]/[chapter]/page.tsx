@@ -39,7 +39,7 @@ export default async function HadithChapterPage({ params }: { params: Params }) 
   const chapterLink = (c: { book: number; number: number }) => `/hadith/${params.book}/${c.book}/${c.number}`;
 
   return (
-    <div className="mx-auto max-w-4xl px-5 lg:px-8 py-8">
+    <div className="mx-auto max-w-app px-5 lg:px-8 py-8">
       <Breadcrumbs
         items={[
           { label: "Hadith", href: "/hadith" },

@@ -15,3 +15,6 @@ data/hadith_index/
 
 # Local dev server logs
 dev_*.log
+
+# Qur'an SQLite source (269 MB); extracted into data/quran_db by scripts/build-quran-db.mjs
+quran.db

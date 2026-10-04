@@ -80,6 +80,26 @@ async function getQuranComTranslation(resourceId: number, surahNumber: number): 
 
 type SurahEdition = { ayahs: Ayah[]; englishName: string; name: string; numberOfAyahs: number; revelationType: string };
 
+/** Arabic (Uthmani script) of a surah with its translation, aligned by
+ * ayah number — `translationFor` returns the text for an ayah. Used for
+ * translations served from this site's own files (lib/quranDb.ts). */
+export async function getSurahArabicWith(number: number, translationFor: (ayah: number) => string) {
+  const arabic = await getJSON<SurahEdition>(`${BASE}/surah/${number}/quran-uthmani`);
+  return {
+    number,
+    name: arabic.name,
+    englishName: arabic.englishName,
+    revelationType: arabic.revelationType,
+    numberOfAyahs: arabic.numberOfAyahs,
+    ayahs: arabic.ayahs.map((a) => ({
+      numberInSurah: a.numberInSurah,
+      globalNumber: a.number,
+      arabic: a.text,
+      translation: translationFor(a.numberInSurah)
+    }))
+  };
+}
+
 /** Arabic (Uthmani script) + one translation edition, aligned by ayah. */
 export async function getSurahWithTranslation(
   number: number,

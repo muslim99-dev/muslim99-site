@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getTafsir, searchTafsir } from "@/lib/tafsir";
+import { getTafsir } from "@/lib/tafsir";
+import { searchTafsir } from "@/lib/tafsirData";
 
 export async function GET(req: NextRequest) {
   const p = req.nextUrl.searchParams;

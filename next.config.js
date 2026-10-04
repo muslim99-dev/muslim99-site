@@ -9,6 +9,10 @@ const manifest = "data/hadith_index/manifest.json.gz";
 const search = "data/hadith_index/search/**";
 const chapters = "data/hadith_index/chapters/**";
 
+// Translations and Urdu tafsirs extracted from quran.db (scripts/build-quran-db.mjs).
+const qdbTranslations = "data/quran_db/translations/**";
+const qdbTafsir = "data/quran_db/tafsir/**";
+
 const nextConfig = {
   reactStrictMode: true,
   images: {
@@ -16,7 +20,7 @@ const nextConfig = {
   },
   experimental: {
     outputFileTracingExcludes: {
-      "*": ["data/hadith_data/**", "hadith_data.zip"]
+      "*": ["data/hadith_data/**", "hadith_data.zip", "quran.db"]
     },
     outputFileTracingIncludes: {
       "/hadith": [manifest],
@@ -28,7 +32,10 @@ const nextConfig = {
       "/hadith/saved": [manifest],
       "/sitemap.xml": [manifest],
       "/": [manifest],
-      "/api/ask": [manifest, search, chapters]
+      "/api/ask": [manifest, search, chapters],
+      "/quran/[surah]": [qdbTranslations],
+      "/tafsir/[surah]": [qdbTafsir],
+      "/api/tafsir-search": [qdbTafsir]
     }
   }
 };

@@ -11,6 +11,10 @@
  * A few entries (id prefixed "qdc.") aren't in alquran.cloud's catalog
  * at all and are instead fetched live from quran.com's own translation
  * resources by numeric id — see getQuranComTranslation in quranApi.ts.
+ *
+ * Entries with an id prefixed "m99." are served from this site's own files
+ * (data/quran_db, extracted from quran.db by scripts/build-quran-db.mjs) —
+ * see lib/quranDb.ts.
  */
 
 export type TranslationEdition = {
@@ -139,6 +143,17 @@ export const TRANSLATIONS: TranslationEdition[] = [
   { id: "ru.kuliev-alsaadi", author: "Kuliev & as-Saadi", language: "Russian" },
   { id: "ce.magomedov", author: "Chechen by Magomedov", language: "Chechen" },
   { id: "qdc.158", author: "Dr. Israr Ahmad (Bayan-ul-Quran)", language: "Urdu" },
+  { id: "m99.ur-kilani", author: "Abdul Rehman Kilani", language: "Urdu" },
+  { id: "m99.ur-bhutvi", author: "Abdul Salam Bhutvi", language: "Urdu" },
+  { id: "m99.ur-islahi", author: "Amin Ahsan Islahi", language: "Urdu" },
+  { id: "m99.ur-aslamsiddiqui", author: "Dr. Muhammad Aslam Siddiqui", language: "Urdu" },
+  { id: "m99.ur-muftinaeem", author: "Mufti Naeem", language: "Urdu" },
+  { id: "m99.ur-taqiusmani", author: "Mufti Taqi Usmani (Aasan Tarjuma-e-Quran)", language: "Urdu" },
+  { id: "m99.ur-noorulamin", author: "Noor ul Amin", language: "Urdu" },
+  { id: "m99.ur-riffataijaz", author: "Riffat Aijaz", language: "Urdu" },
+  { id: "m99.ur-nighathashmi", author: "Ustaza Nighat Hashmi", language: "Urdu" },
+  { id: "m99.en-taqiusmani", author: "Mufti Taqi Usmani", language: "English" },
+  { id: "m99.hi-palanpuri", author: "Maulana Palanpuri", language: "Hindi" },
 ];
 
 export const DEFAULT_TRANSLATION_ID = "en.sahih";

@@ -1,4 +1,5 @@
-import { getSurahList, getSurahWithTranslation } from "@/lib/quranApi";
+import { getSurahList } from "@/lib/quranApi";
+import { getSurahWithAnyTranslation } from "@/lib/quranDb";
 import { DEFAULT_TRANSLATION_ID, findTranslation } from "@/lib/translations";
 import SurahReaderClient from "@/components/SurahReaderClient";
 import { notFound } from "next/navigation";
@@ -27,7 +28,7 @@ export default async function SurahPage({
 
   let data;
   try {
-    data = await getSurahWithTranslation(surahNumber, editionId);
+    data = await getSurahWithAnyTranslation(surahNumber, editionId);
   } catch {
     data = null;
   }
@@ -42,7 +43,7 @@ export default async function SurahPage({
   }
 
   return (
-    <div className="mx-auto max-w-3xl px-5 lg:px-0 py-8">
+    <div className="mx-auto max-w-app px-5 lg:px-8 py-8">
       <SurahReaderClient
         surahNumber={data.number}
         englishName={data.englishName}

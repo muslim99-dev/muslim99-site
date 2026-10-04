@@ -5,7 +5,7 @@ export const metadata = { title: "My Hadith — Muslim99" };
 
 export default function SavedHadithPage() {
   return (
-    <div className="mx-auto max-w-4xl px-5 lg:px-8 py-8">
+    <div className="mx-auto max-w-app px-5 lg:px-8 py-8">
       <Breadcrumbs items={[{ label: "Hadith", href: "/hadith" }, { label: "My Hadith" }]} />
       <div className="mt-4">
         <PageHero

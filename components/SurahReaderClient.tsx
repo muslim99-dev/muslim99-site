@@ -6,7 +6,8 @@ import { useRouter, usePathname } from "next/navigation";
 import { useSession } from "next-auth/react";
 import { ayahAudioUrl, surahAudioUrl, getSurahTiming, type VerseTiming } from "@/lib/quranApi";
 import { RECITERS, DEFAULT_RECITER_ID, findReciter } from "@/lib/reciters";
-import { TRANSLATIONS, findTranslation } from "@/lib/translations";
+import { findTranslation } from "@/lib/translations";
+import TranslationChooser from "@/components/TranslationChooser";
 import { TRANSLATION_VOICES } from "@/lib/translationVoices";
 
 type AyahRow = { numberInSurah: number; globalNumber: number; arabic: string; translation: string };
@@ -76,23 +77,11 @@ export default function SurahReaderClient({
   const router = useRouter();
   const pathname = usePathname();
   const translation = findTranslation(editionId);
-  const [langFilter, setLangFilter] = useState(translation.language);
-  const languages = Array.from(new Set(TRANSLATIONS.map((t) => t.language))).sort();
-  const visibleTranslations = TRANSLATIONS.filter((t) => t.language === langFilter);
+  const translationRtl = ["Urdu", "Arabic", "Persian", "Pashto", "Sindhi", "Uyghur", "Divehi"].includes(translation.language);
 
   function changeTranslation(id: string) {
     router.push(`${pathname}?translation=${id}`);
   }
-
-  function changeLangFilter(lang: string) {
-    setLangFilter(lang);
-    const first = TRANSLATIONS.find((t) => t.language === lang);
-    if (first) changeTranslation(first.id);
-  }
-
-  useEffect(() => {
-    setLangFilter(translation.language);
-  }, [translation.language]);
 
   // Saved preferences (per browser).
   useEffect(() => {
@@ -446,61 +435,41 @@ export default function SurahReaderClient({
         </div>
       </div>
 
-      {/* Translation language + translator */}
-      <div className="mt-4 flex flex-wrap items-center gap-2 rounded-card border border-border bg-white px-4 py-3">
-        <span className="text-xs font-medium text-teal-dark shrink-0">Translation language</span>
-        <select
-          value={langFilter}
-          onChange={(e) => changeLangFilter(e.target.value)}
-          className="rounded-full border border-border px-3 py-1.5 bg-white text-xs"
-          aria-label="Translation language"
-        >
-          {languages.map((lang) => (
-            <option key={lang} value={lang}>
-              {lang}
-            </option>
-          ))}
-        </select>
-        <select
-          value={editionId}
-          onChange={(e) => changeTranslation(e.target.value)}
-          className="rounded-full border border-border px-3 py-1.5 bg-white text-xs flex-1 min-w-[180px]"
-          aria-label="Translator"
-        >
-          {visibleTranslations.map((t) => (
-            <option key={t.id} value={t.id}>
-              {t.author}
-            </option>
-          ))}
-        </select>
-      </div>
-
-      {/* Translation audio narration */}
-      <div className="mt-3 flex flex-wrap items-center gap-2 rounded-card border border-border bg-white px-4 py-3">
-        <span className="text-xs font-medium text-teal-dark shrink-0">Translation audio</span>
-        <select
-          value={translationVoiceId}
-          onChange={(e) => setTranslationVoiceId(e.target.value)}
-          className="rounded-full border border-border px-3 py-1.5 bg-white text-xs"
-          aria-label="Translation audio narrator"
-        >
-          <option value="">None</option>
-          {TRANSLATION_VOICES.map((v) => (
-            <option key={v.id} value={v.id}>
-              {v.language} — {v.narrator}
-            </option>
-          ))}
-        </select>
-        {translationVoiceId && hasVerseFiles && (
-          <label className="flex items-center gap-1.5 rounded-full border border-border px-3 py-1.5 text-xs">
-            <input type="checkbox" checked={readWithTranslation} onChange={(e) => setReadWithTranslation(e.target.checked)} />
-            Play translation after each verse
-          </label>
-        )}
-        {translationVoiceId && !hasVerseFiles && (
-          <span className="text-[11px] text-muted">Tap the speaker icon on a verse to hear its translation.</span>
-        )}
-      </div>
+      {/* Translation + translation audio */}
+      <TranslationChooser value={translation} onChange={changeTranslation}>
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="flex items-center gap-1.5 text-xs font-medium text-teal-dark">
+            <svg viewBox="0 0 24 24" className="h-4 w-4 text-primary" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+              <path d="M3 18v-6a9 9 0 0 1 18 0v6" />
+              <path d="M21 19a2 2 0 0 1-2 2h-1v-6h3zM3 19a2 2 0 0 0 2 2h1v-6H3z" />
+            </svg>
+            Listen to the meaning
+          </span>
+          <select
+            value={translationVoiceId}
+            onChange={(e) => setTranslationVoiceId(e.target.value)}
+            className="rounded-full border border-border bg-white px-3 py-1.5 text-xs text-teal-dark"
+            aria-label="Translation audio narrator"
+          >
+            <option value="">Off</option>
+            {TRANSLATION_VOICES.map((v) => (
+              <option key={v.id} value={v.id}>
+                {v.language} — {v.narrator}
+              </option>
+            ))}
+          </select>
+          {translationVoiceId && hasVerseFiles && (
+            <label className="flex cursor-pointer items-center gap-1.5 rounded-full border border-border bg-white px-3 py-1.5 text-xs text-teal-dark">
+              <input type="checkbox" className="accent-primary" checked={readWithTranslation} onChange={(e) => setReadWithTranslation(e.target.checked)} />
+              Play after each verse
+            </label>
+          )}
+          {translationVoiceId && !hasVerseFiles && (
+            <span className="text-[11px] text-muted">Tap the speaker icon on a verse to hear its translation.</span>
+          )}
+          {!translationVoiceId && <span className="text-[11px] text-muted">Recorded narration is available in {TRANSLATION_VOICES.length} languages.</span>}
+        </div>
+      </TranslationChooser>
 
       <p className="text-[11px] text-muted mt-3">
         Translation: {translation.author} ({translation.language}) · Reciter: {reciter.name} · {capability}
@@ -580,7 +549,14 @@ export default function SurahReaderClient({
               <p dir="rtl" style={{ fontSize }} className="font-quran text-teal-dark mt-4 text-right">
                 {a.arabic}
               </p>
-              {showTranslation && <p className="mt-3 text-[15px] leading-relaxed text-muted">{a.translation}</p>}
+              {showTranslation && (
+                <p
+                  dir={translationRtl ? "rtl" : undefined}
+                  className={`mt-3 text-muted ${translationRtl ? "font-urdu text-right text-lg leading-[2.2]" : "text-[15px] leading-relaxed"}`}
+                >
+                  {a.translation}
+                </p>
+              )}
             </div>
           );
         })}
@@ -588,7 +564,7 @@ export default function SurahReaderClient({
 
       {/* Player bar */}
       <div className="fixed inset-x-0 bottom-16 z-40 px-3 md:bottom-4">
-        <div className="mx-auto max-w-3xl rounded-card border border-border bg-white/95 px-4 py-3 shadow-card backdrop-blur">
+        <div className="mx-auto max-w-[calc(1200px-4rem)] rounded-card border border-border bg-white/95 px-4 py-3 shadow-card backdrop-blur">
           <div className="flex items-center gap-3">
             <div className="min-w-0 flex-1">
               <p className="truncate text-xs font-medium text-teal-dark">{reciter.name}</p>

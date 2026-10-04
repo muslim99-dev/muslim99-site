@@ -20,26 +20,40 @@ export default function SurahListClient({ surahs }: { surahs: SurahMeta[] }) {
 
   return (
     <div>
-      <div className="flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between">
-        <div className="flex gap-2">
+      <div className="rounded-card border border-border bg-white p-3 shadow-sm sm:p-4">
+        <div className="relative">
+          <svg aria-hidden viewBox="0 0 24 24" className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-teal-dark" fill="none" stroke="currentColor" strokeWidth="2">
+            <circle cx="11" cy="11" r="7" />
+            <path d="m20 20-3.5-3.5" />
+          </svg>
+          <input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder={`Search all ${surahs.length} surahs by name, meaning or number…`}
+            aria-label="Search surahs"
+            className="w-full rounded-full border border-border bg-bg py-3 pl-12 pr-4 text-sm outline-none transition-colors focus:border-primary focus:bg-white sm:text-base"
+          />
+        </div>
+        <div className="mt-3 flex flex-wrap items-center gap-2 px-1">
           {(["All", "Meccan", "Medinan"] as const).map((f) => (
             <button
               key={f}
               onClick={() => setFilter(f)}
-              className={`rounded-full px-4 py-1.5 text-sm border transition-colors ${
-                filter === f ? "bg-primary text-white border-primary" : "border-border text-muted hover:border-primary"
+              aria-pressed={filter === f}
+              className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
+                filter === f ? "bg-teal-dark text-white" : "bg-bg text-teal-dark hover:bg-aqua"
               }`}
             >
-              {f === "All" ? "All" : f === "Meccan" ? "Makki" : "Madani"}
+              {f === "All" ? "All surahs" : f === "Meccan" ? "Makki" : "Madani"}{" "}
+              <span className="opacity-60">{f === "All" ? surahs.length : surahs.filter((s) => s.revelationType === f).length}</span>
             </button>
           ))}
+          {query.trim() && (
+            <span className="ml-auto text-xs text-muted">
+              {filtered.length} result{filtered.length === 1 ? "" : "s"}
+            </span>
+          )}
         </div>
-        <input
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search surah by name or number..."
-          className="rounded-full border border-border bg-white px-4 py-2 text-sm w-full sm:w-72 outline-none focus:border-primary"
-        />
       </div>
 
       <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
