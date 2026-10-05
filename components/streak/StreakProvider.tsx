@@ -170,7 +170,7 @@ function RestoreBox({ s, compact = false }: { s: StreakView; compact?: boolean }
 }
 
 /** Header badge (🔥 + count) with a panel. Renders nothing when signed out. */
-export function StreakBadge() {
+export function StreakBadge({ className = "" }: { className?: string }) {
   const { streak } = useStreak();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -191,7 +191,7 @@ export function StreakBadge() {
   const lit = streak.current > 0;
 
   return (
-    <div className="relative" ref={ref}>
+    <div className={`relative ${className}`} ref={ref}>
       <button
         onClick={() => setOpen(!open)}
         aria-expanded={open}
