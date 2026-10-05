@@ -1,12 +1,15 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import Pagination, { PAGE_SIZE } from "@/components/tafsir/Pagination";
 import Link from "next/link";
 import type { SurahMeta } from "@/lib/quranApi";
 
 export default function SurahListClient({ surahs }: { surahs: SurahMeta[] }) {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<"All" | "Meccan" | "Medinan">("All");
+  const [page, setPage] = useState(1);
+  const topRef = useRef<HTMLDivElement>(null);
 
   const filtered = useMemo(() => {
     return surahs.filter((s) => {
@@ -17,6 +20,19 @@ export default function SurahListClient({ surahs }: { surahs: SurahMeta[] }) {
       return matchesFilter && matchesQuery;
     });
   }, [surahs, query, filter]);
+
+  // A new search or filter starts from the first page.
+  useEffect(() => {
+    setPage(1);
+  }, [query, filter]);
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const current = Math.min(page, totalPages);
+  const shown = filtered.slice((current - 1) * PAGE_SIZE, current * PAGE_SIZE);
+  function go(p: number) {
+    setPage(p);
+    topRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 
   return (
     <div>
@@ -56,8 +72,8 @@ export default function SurahListClient({ surahs }: { surahs: SurahMeta[] }) {
         </div>
       </div>
 
-      <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        {filtered.map((s) => (
+      <div ref={topRef} className="mt-6 grid scroll-mt-24 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        {shown.map((s) => (
           <Link
             key={s.number}
             href={`/quran/${s.number}`}
@@ -81,6 +97,7 @@ export default function SurahListClient({ surahs }: { surahs: SurahMeta[] }) {
         ))}
         {filtered.length === 0 && <p className="text-sm text-muted col-span-2 py-8 text-center">No surah matches your search.</p>}
       </div>
+      <Pagination page={current} total={totalPages} count={filtered.length} label="surahs" onChange={go} />
     </div>
   );
 }

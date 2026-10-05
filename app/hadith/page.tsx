@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getCollections, type Collection } from "@/lib/hadith";
 import HadithSearchBox from "@/components/HadithSearchBox";
 import ContinueReading from "@/components/hadith/ContinueReading";
+import PagedGrid from "@/components/PagedGrid";
 import { ErrorCard, HeroStat, LanguageTags, PageHero } from "@/components/hadith/HadithUI";
 
 export const metadata = {
@@ -145,10 +146,14 @@ export default async function HadithPage() {
         <section className="mt-12">
           <h2 className="text-lg font-semibold text-teal-dark">More Collections</h2>
           <p className="text-sm text-muted">Musnads, Sunans, compilations and specialised works</p>
-          <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {others.map((c) => (
-              <CollectionCard key={c.slug} c={c} />
-            ))}
+          <div className="mt-4">
+            <PagedGrid
+              label="collections"
+              className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"
+              items={others.map((c) => (
+                <CollectionCard key={c.slug} c={c} />
+              ))}
+            />
           </div>
         </section>
       )}

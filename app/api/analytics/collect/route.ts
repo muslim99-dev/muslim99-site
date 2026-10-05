@@ -14,8 +14,19 @@ const MAX_DURATION_MS = 4 * 3600_000; // a tab left open all night isn't a 9-hou
  *   end  — the visitor left the page or hid the tab, with final engaged time
  * Always answers 204 — analytics must never break or slow the site.
  */
+/** Only the live site's traffic is real. Local dev servers and Vercel
+ * preview deployments share the production database, so their visits
+ * would otherwise be counted as visitors (without a country). */
+function isLiveTraffic(req: NextRequest) {
+  if (process.env.NODE_ENV !== "production") return false;
+  if (process.env.VERCEL_ENV && process.env.VERCEL_ENV !== "production") return false;
+  const host = (req.headers.get("host") ?? "").split(":")[0];
+  return !/^(localhost|127\.0\.0\.1|0\.0\.0\.0|\[::1\])$/.test(host) && !host.endsWith(".local");
+}
+
 export async function POST(req: NextRequest) {
   try {
+    if (!isLiveTraffic(req)) return new NextResponse(null, { status: 204 });
     const ua = req.headers.get("user-agent") ?? "";
     if (isBot(ua)) return new NextResponse(null, { status: 204 });
 
