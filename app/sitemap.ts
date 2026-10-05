@@ -3,8 +3,10 @@ import { absoluteUrl, SITE_SECTIONS } from "@/lib/site";
 import { getBooks, getCollections } from "@/lib/hadith";
 import { TAFSIRS } from "@/lib/tafsir";
 import { getDuaCategories } from "@/lib/duas";
+import { getSitemapPosts } from "@/lib/blog";
 
-export const revalidate = 86400;
+// Hourly, so newly published blog posts are listed quickly.
+export const revalidate = 3600;
 
 type Entry = MetadataRoute.Sitemap[number];
 
@@ -29,8 +31,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // hadith index unavailable — the section pages are still listed
   }
 
+  const posts = await getSitemapPosts().catch(() => []);
+
   return [
     entry("/", 1, "daily"),
+    entry("/blog", 0.8, "daily"),
+    ...posts.map((p) => ({ url: absoluteUrl(`/blog/${p.slug}`), lastModified: p.updatedAt, changeFrequency: "monthly" as const, priority: 0.7 })),
     ...SITE_SECTIONS.map((s) => entry(s.path, 0.9, "daily")),
     entry("/about", 0.6, "monthly"),
     entry("/contact", 0.3, "yearly"),

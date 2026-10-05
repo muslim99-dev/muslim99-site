@@ -180,7 +180,7 @@ export default function Home() {
                     {" "}· Follow Muslim99 on{" "}
                     {SITE_SOCIAL.map((s, i) => (
                       <span key={s.url}>
-                        {i > 0 && " and "}
+                        {i > 0 && (i === SITE_SOCIAL.length - 1 ? " and " : ", ")}
                         <a href={s.url} target="_blank" rel="noopener noreferrer" className="font-medium text-primary-deep hover:underline">
                           {s.name}
                         </a>

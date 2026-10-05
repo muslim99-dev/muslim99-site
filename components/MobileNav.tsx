@@ -19,10 +19,10 @@ const more = [
   { href: "/duas", label: "Duas", icon: HandsIcon },
   { href: "/calendar", label: "Calendar", icon: CalendarIcon },
   { href: "/ask", label: "Ask", icon: ChatIcon },
+  { href: "/blog", label: "Blog", icon: PenIcon },
   { href: "/bookmarks", label: "Bookmarks", icon: BookmarkIcon },
   { href: "/about", label: "About", icon: InfoIcon },
-  { href: "/contact", label: "Contact", icon: MailIcon },
-  { href: "/settings", label: "Settings", icon: GearIcon }
+  { href: "/contact", label: "Contact", icon: MailIcon }
 ];
 
 const isActive = (pathname: string, href: string) => pathname === href || (href !== "/" && pathname.startsWith(href));
@@ -30,7 +30,7 @@ const isActive = (pathname: string, href: string) => pathname === href || (href 
 export default function MobileNav() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const moreActive = more.some((m) => isActive(pathname, m.href));
+  const moreActive = more.some((m) => isActive(pathname, m.href)) || isActive(pathname, "/settings");
 
   useEffect(() => {
     setOpen(false);
@@ -81,6 +81,9 @@ export default function MobileNav() {
                 {SITE_EMAIL}
               </a>
               <div className="flex shrink-0 gap-2">
+                <Link href="/settings" aria-label="Settings" title="Settings" className="grid h-9 w-9 place-items-center rounded-full border border-border text-teal-dark">
+                  <GearIcon />
+                </Link>
                 {SITE_SOCIAL.map((s) => (
                   <a
                     key={s.url}
@@ -237,6 +240,14 @@ function PhoneIcon({ active }: { active?: boolean }) {
     <svg {...iconProps(active)}>
       <rect x="7" y="3" width="10" height="18" rx="2.5" />
       <path d="M11 18h2" strokeLinecap="round" />
+    </svg>
+  );
+}
+function PenIcon({ active }: { active?: boolean }) {
+  return (
+    <svg {...iconProps(active)}>
+      <path d="M4 20h4L19 9a2.1 2.1 0 0 0-3-3L5 17v3Z" strokeLinejoin="round" />
+      <path d="m14.5 7.5 3 3" />
     </svg>
   );
 }

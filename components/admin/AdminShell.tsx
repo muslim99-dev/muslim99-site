@@ -16,7 +16,8 @@ function Gate({ title, children }: { title: string; children: React.ReactNode })
 
 const TABS = [
   { href: "/admin/analytics", label: "Analytics" },
-  { href: "/admin/messages", label: "Messages" }
+  { href: "/admin/messages", label: "Messages" },
+  { href: "/admin/blog", label: "Blog" }
 ];
 
 /** Server-side admin gate + admin header with tabs. Only the analytics
@@ -69,9 +70,9 @@ export default async function AdminShell({
             <Link
               key={t.href}
               href={t.href}
-              aria-current={t.href === current ? "page" : undefined}
+              aria-current={current.startsWith(t.href) ? "page" : undefined}
               className={`rounded-full px-4 py-1.5 font-medium transition-colors ${
-                t.href === current ? "bg-teal-dark text-white" : "text-muted hover:text-teal-dark"
+                current.startsWith(t.href) ? "bg-teal-dark text-white" : "text-muted hover:text-teal-dark"
               }`}
             >
               {t.label}

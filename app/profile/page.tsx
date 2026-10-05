@@ -2,6 +2,7 @@ import { getServerSession } from "next-auth";
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import { authOptions } from "@/lib/auth";
+import ChangePasswordForm from "@/components/ChangePasswordForm";
 
 export default async function ProfilePage() {
   const session = await getServerSession(authOptions);
@@ -29,6 +30,11 @@ export default async function ProfilePage() {
           <h2 className="font-medium text-teal-dark">Settings</h2>
           <p className="mt-1 text-sm text-muted">Prayer calculation, Asr madhhab, and preferences.</p>
         </Link>
+      </div>
+
+      <h2 className="mt-10 text-sm font-semibold uppercase tracking-[0.14em] text-muted">Account & security</h2>
+      <div className="mt-3">
+        <ChangePasswordForm />
       </div>
     </div>
   );

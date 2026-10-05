@@ -192,3 +192,66 @@ model ContactMessage {
 
   @@index([createdAt])
 }
+
+// --- Blog (written in the admin panel at /admin/blog) ---
+
+enum BlogStatus {
+  DRAFT
+  PUBLISHED
+}
+
+model BlogPost {
+  id              String     @id @default(cuid())
+  slug            String     @unique
+  title           String
+  excerpt         String     @db.Text
+  content         String     @db.Text // Markdown
+  coverImage      String? // URL — an uploaded BlogImage (/api/blog-image/<id>) or an external https URL
+  coverAlt        String?
+  category        String     @default("General")
+  tags            String[]   @default([])
+  status          BlogStatus @default(DRAFT)
+  featured        Boolean    @default(false)
+  authorName      String
+  metaTitle       String?
+  metaDescription String?
+  views           Int        @default(0)
+  publishedAt     DateTime?
+  createdAt       DateTime   @default(now())
+  updatedAt       DateTime   @updatedAt
+
+  @@index([status, publishedAt])
+  @@index([category])
+}
+
+// Images uploaded from the blog editor, stored in the database (the site's
+// serverless hosting has no persistent disk). Served by /api/blog-image/<id>.
+model BlogImage {
+  id        String   @id @default(cuid())
+  mime      String
+  size      Int
+  data      Bytes
+  createdAt DateTime @default(now())
+}
+
+// Sign-ups waiting for their email code. The account (User) is created only
+// after the code is verified; rows expire and are replaced on a new request.
+model PendingSignup {
+  email        String   @id
+  name         String?
+  passwordHash String
+  codeHash     String // sha256 of the code — the code itself is never stored
+  expiresAt    DateTime
+  attempts     Int      @default(0)
+  sentAt       DateTime @default(now())
+  createdAt    DateTime @default(now())
+}
+
+// "Forgot password" codes. One row per email; only the code's hash is stored.
+model PasswordReset {
+  email     String   @id
+  codeHash  String
+  expiresAt DateTime
+  attempts  Int      @default(0)
+  sentAt    DateTime @default(now())
+}

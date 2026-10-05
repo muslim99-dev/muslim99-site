@@ -169,6 +169,33 @@ export async function getAnalytics(range: Range, timeZone: string) {
       GROUP BY 1`
   ]);
 
+  // Registered accounts (admin-only data — the stats API is admin-gated).
+  const [userTotal, userVerified, usersNew, usersPrev, pendingSignups, recentUsers, signupRows] = await Promise.all([
+    prisma.user.count(),
+    prisma.user.count({ where: { emailVerified: { not: null } } }),
+    prisma.user.count({ where: { createdAt: { gte: since } } }),
+    prisma.user.count({ where: { createdAt: { gte: prevSince, lt: since } } }),
+    prisma.pendingSignup.count({ where: { expiresAt: { gte: now } } }),
+    prisma.user.findMany({
+      orderBy: { createdAt: "desc" },
+      take: 25,
+      select: { id: true, name: true, email: true, createdAt: true, emailVerified: true }
+    }),
+    // Sign-ups per day for the last 30 days, in the viewer's time zone.
+    prisma.$queryRaw<{ day: Date; users: bigint }[]>`
+      WITH series AS (
+        SELECT generate_series(
+          date_trunc('day', (now() AT TIME ZONE ${timeZone})) - interval '29 days',
+          date_trunc('day', (now() AT TIME ZONE ${timeZone})),
+          interval '1 day'
+        ) AS d
+      )
+      SELECT s.d AS day, count(u.id) AS users
+      FROM series s
+      LEFT JOIN "User" u ON date_trunc('day', (u."createdAt" AT TIME ZONE 'UTC') AT TIME ZONE ${timeZone}) = s.d
+      GROUP BY s.d ORDER BY s.d`
+  ]);
+
   // How long each online visitor has been on the site (their current visit
   // = page views in the last 4 hours).
   const onlineIds = online.map((o) => o.visitorId);
@@ -230,7 +257,22 @@ export async function getAnalytics(range: Range, timeZone: string) {
     devices,
     browsers,
     systems,
-    recent: recent.map((r) => ({ ...r, createdAt: r.createdAt.toISOString() }))
+    recent: recent.map((r) => ({ ...r, createdAt: r.createdAt.toISOString() })),
+    users: {
+      total: userTotal,
+      verified: userVerified,
+      newInRange: usersNew,
+      newPrevious: usersPrev,
+      pending: pendingSignups,
+      perDay: signupRows.map((r) => ({ day: new Date(r.day).toISOString().slice(0, 10), users: n(r.users) })),
+      recent: recentUsers.map((u) => ({
+        id: u.id,
+        name: u.name,
+        email: u.email,
+        createdAt: u.createdAt.toISOString(),
+        verified: Boolean(u.emailVerified)
+      }))
+    }
   };
 }
 

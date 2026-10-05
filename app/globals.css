@@ -110,3 +110,31 @@ body {
   --viz-up: #3ecf3e;
   --viz-down: #f07070;
 }
+
+/* Blog article body (rendered Markdown) — public posts and the editor preview */
+.blog-prose { color: #2c4a4c; font-size: 1.0625rem; line-height: 1.85; overflow-wrap: anywhere; }
+.blog-prose > * + * { margin-top: 1.15em; }
+.blog-prose h2 { margin-top: 2.1em; font-size: 1.55rem; line-height: 1.3; font-weight: 650; color: #123e40; scroll-margin-top: 6rem; }
+.blog-prose h3 { margin-top: 1.8em; font-size: 1.25rem; line-height: 1.35; font-weight: 650; color: #123e40; scroll-margin-top: 6rem; }
+.blog-prose h4 { margin-top: 1.6em; font-size: 1.05rem; font-weight: 650; color: #123e40; }
+.blog-prose a { color: #087d82; font-weight: 500; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(8, 125, 130, 0.35); }
+.blog-prose a:hover { text-decoration-color: currentColor; }
+.blog-prose strong { color: #123e40; font-weight: 650; }
+.blog-prose ul, .blog-prose ol { padding-left: 1.4em; }
+.blog-prose ul { list-style: disc; }
+.blog-prose ol { list-style: decimal; }
+.blog-prose li + li { margin-top: 0.4em; }
+.blog-prose li::marker { color: #18a5a8; }
+.blog-prose blockquote { border-left: 3px solid #c9a84c; background: #fbf7ea; border-radius: 0 14px 14px 0; padding: 0.9em 1.2em; color: #3b5557; font-style: italic; }
+.blog-prose blockquote p + p { margin-top: 0.6em; }
+.blog-prose code { background: #eef7f7; border-radius: 6px; padding: 0.12em 0.4em; font-size: 0.9em; }
+.blog-prose pre { background: #123e40; color: #e7f4f4; border-radius: 16px; padding: 1em 1.2em; overflow-x: auto; font-size: 0.9em; }
+.blog-prose pre code { background: transparent; padding: 0; }
+.blog-prose hr { border: 0; border-top: 1px solid #dceaea; margin: 2.2em 0; }
+.blog-prose figure img, .blog-prose img { border-radius: 18px; width: 100%; height: auto; }
+.blog-prose figcaption { margin-top: 0.5em; text-align: center; font-size: 0.85rem; color: #6b8486; }
+.blog-prose table { width: 100%; border-collapse: collapse; font-size: 0.95em; display: block; overflow-x: auto; }
+.blog-prose th, .blog-prose td { border: 1px solid #dceaea; padding: 0.55em 0.8em; text-align: left; }
+.blog-prose th { background: #eef7f7; color: #123e40; font-weight: 600; }
+/* Arabic / Urdu paragraphs typed in the editor keep their script direction */
+.blog-prose p:dir(rtl), .blog-prose li:dir(rtl) { text-align: right; }

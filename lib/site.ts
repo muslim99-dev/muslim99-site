@@ -62,7 +62,8 @@ export const SITE_EMAIL = "social@themuslim99.com";
  * Supported icons: Facebook, Instagram, X, YouTube, TikTok, LinkedIn, WhatsApp. */
 export const SITE_SOCIAL: { name: string; url: string }[] = [
   { name: "Instagram", url: "https://www.instagram.com/themuslim99_/" },
-  { name: "Facebook", url: "https://www.facebook.com/profile.php?id=61594990950125" }
+  { name: "Facebook", url: "https://www.facebook.com/profile.php?id=61594990950125" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/company/themuslim99/" }
 ];
 
 /** Mobile apps. `url: null` = not released yet (shown as "Coming soon"). */
@@ -116,6 +117,6 @@ export const SITE_FAQ = [
   },
   {
     q: "What are the official Muslim99 platforms?",
-    a: "The official website is themuslim99.com. The Muslim99 Android app is on Google Play (play.google.com/store/apps/details?id=com.muslim99) and the iPhone app is coming soon to the App Store. Muslim99 is also on Instagram (instagram.com/themuslim99_) and Facebook (facebook.com/profile.php?id=61594990950125)."
+    a: "The official website is themuslim99.com. The Muslim99 Android app is on Google Play (play.google.com/store/apps/details?id=com.muslim99) and the iPhone app is coming soon to the App Store. Muslim99 is also on Instagram (instagram.com/themuslim99_), Facebook (facebook.com/profile.php?id=61594990950125) and LinkedIn (linkedin.com/company/themuslim99)."
   }
 ];

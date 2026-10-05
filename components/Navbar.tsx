@@ -11,6 +11,7 @@ const links = [
   { href: "/calendar", label: "Calendar" },
   { href: "/duas", label: "Duas" },
   { href: "/ask", label: "Ask" },
+  { href: "/blog", label: "Blog" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" }
 ];
@@ -18,13 +19,14 @@ const links = [
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-white/90 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-app items-center justify-between px-5 lg:px-8">
-        <Link href="/" className="flex items-center gap-2.5 shrink-0">
+      {/* Logo, menu and actions spaced evenly: the gap before and after the menu is the same. */}
+      <div className="mx-auto flex h-16 max-w-app items-center justify-between gap-6 px-5 lg:px-8">
+        <Link href="/" className="flex shrink-0 items-center gap-2.5">
           <Image src="/logo.png" alt="Muslim99" width={36} height={36} className="rounded-lg" />
           <span className="text-lg font-semibold text-teal-dark">Muslim99</span>
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-4 xl:gap-6 text-sm text-muted">
+        <nav className="hidden items-center gap-4 text-sm text-muted lg:flex xl:gap-5">
           {links.map((l) => (
             <Link key={l.href} href={l.href} className="whitespace-nowrap hover:text-primary-deep transition-colors">
               {l.label}
@@ -32,19 +34,13 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <div className="hidden md:flex shrink-0 items-center gap-3">
-          <button
-            aria-label="Search"
-            className="grid h-9 w-9 place-items-center rounded-full border border-border text-muted hover:text-primary-deep hover:border-primary transition-colors"
-          >
-            <SearchIcon />
-          </button>
+        <div className="hidden shrink-0 items-center gap-3 md:flex">
           <AccountMenu />
           <Link
             href="/download-app"
             aria-label="Download the Muslim99 app"
             title="Download the Muslim99 app"
-            className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-primary px-3.5 py-2 text-sm font-medium text-white shadow-sm xl:px-4 transition-colors hover:bg-primary-deep"
+            className="inline-flex h-10 shrink-0 items-center gap-1.5 rounded-full bg-primary px-3.5 text-sm font-medium text-white shadow-sm transition-colors hover:bg-primary-deep xl:px-4"
           >
             <DownloadIcon />
             <span className="hidden xl:inline">Download Now</span>
@@ -60,26 +56,12 @@ export default function Navbar() {
             <DownloadIcon />
             Get App
           </Link>
-          <button
-            aria-label="Search"
-            className="grid h-9 w-9 place-items-center rounded-full border border-border text-muted"
-          >
-            <SearchIcon />
-          </button>
         </div>
       </div>
     </header>
   );
 }
 
-function SearchIcon() {
-  return (
-    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-      <circle cx="11" cy="11" r="7" />
-      <path d="M21 21l-4.3-4.3" strokeLinecap="round" />
-    </svg>
-  );
-}
 
 function DownloadIcon() {
   return (

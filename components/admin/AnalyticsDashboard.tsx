@@ -184,6 +184,62 @@ function MinuteBars({ data }: { data: AnalyticsData["lastMinutes"] }) {
   );
 }
 
+/** New accounts per day over the last 30 days (single series bars). */
+function SignupBars({ data }: { data: AnalyticsData["users"]["perDay"] }) {
+  const [ref, width] = useWidth<HTMLDivElement>();
+  const [hover, setHover] = useState<number | null>(null);
+  const height = 120;
+  const max = niceMax(Math.max(1, ...data.map((d) => d.users)));
+  const gap = 2;
+  const barW = Math.max(2, (width - gap * (data.length - 1)) / data.length);
+  const h = (v: number) => (v / max) * (height - 4);
+  const dayLabel = (d: string) => new Date(`${d}T00:00:00`).toLocaleDateString("en", { day: "numeric", month: "short" });
+
+  return (
+    <div ref={ref} className="relative">
+      <svg width={width} height={height + 20} role="img" aria-label="New registered users per day, last 30 days">
+        <line x1={0} x2={width} y1={height} y2={height} stroke="var(--viz-axis)" />
+        {data.map((d, i) => {
+          const x = i * (barW + gap);
+          const bh = h(d.users);
+          return (
+            <g key={d.day} onPointerEnter={() => setHover(i)} onPointerLeave={() => setHover(null)}>
+              <rect x={x} y={0} width={barW + gap} height={height} fill="transparent" />
+              {d.users > 0 && (
+                <path
+                  d={(() => {
+                    const r = Math.min(4, bh, barW / 2);
+                    return `M${x},${height} V${height - bh + r} Q${x},${height - bh} ${x + r},${height - bh} H${x + barW - r} Q${x + barW},${height - bh} ${x + barW},${height - bh + r} V${height} Z`;
+                  })()}
+                  fill="var(--viz-1)"
+                  opacity={hover === null || hover === i ? 1 : 0.45}
+                />
+              )}
+            </g>
+          );
+        })}
+        <text x={0} y={height + 15} fontSize={11} fill="var(--viz-muted)">
+          {data.length ? dayLabel(data[0].day) : ""}
+        </text>
+        <text x={width} y={height + 15} fontSize={11} fill="var(--viz-muted)" textAnchor="end">
+          today
+        </text>
+      </svg>
+      {hover !== null && (
+        <div
+          className="pointer-events-none absolute -top-2 z-10 -translate-x-1/2 -translate-y-full rounded-lg border border-[var(--viz-border)] bg-[var(--viz-surface)] px-2.5 py-1.5 text-xs shadow-card"
+          style={{ left: Math.min(Math.max(hover * (barW + gap) + barW / 2, 50), width - 50) }}
+        >
+          <strong className="text-[var(--viz-ink)]">
+            {data[hover].users} new {data[hover].users === 1 ? "user" : "users"}
+          </strong>
+          <span className="block text-[var(--viz-muted)]">{dayLabel(data[hover].day)}</span>
+        </div>
+      )}
+    </div>
+  );
+}
+
 /** Views and unique visitors over time — one axis, two series. */
 function TrendChart({ data, unit }: { data: AnalyticsData["trend"]; unit: "hour" | "day" }) {
   const [ref, width] = useWidth<HTMLDivElement>();
@@ -647,6 +703,86 @@ export default function AnalyticsDashboard() {
                 <div>
                   <p className="mb-2 text-xs font-medium text-[var(--viz-muted)]">Operating systems</p>
                   <Ranked rows={data.systems} total={total} />
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          {/* ---------- Registered users ---------- */}
+          <div className="mt-4">
+            <Card title="Registered users" subtitle="Accounts created on Muslim99 · new sign-ups verify their email with a code">
+              <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+                {[
+                  { label: "Total users", value: fmt(data.users.total), note: <span className="text-[var(--viz-muted)]">all time</span> },
+                  { label: `New, ${rangeLabel}`, value: fmt(data.users.newInRange), note: <Delta now={data.users.newInRange} prev={data.users.newPrevious} /> },
+                  {
+                    label: "Email verified",
+                    value: fmt(data.users.verified),
+                    note: (
+                      <span className="text-[var(--viz-muted)]">
+                        {data.users.total ? Math.round((data.users.verified / data.users.total) * 100) : 0}% of accounts
+                      </span>
+                    )
+                  },
+                  { label: "Awaiting code", value: fmt(data.users.pending), note: <span className="text-[var(--viz-muted)]">sign-ups not yet verified</span> }
+                ].map((t) => (
+                  <div key={t.label} className="rounded-2xl border border-[var(--viz-border)] p-4">
+                    <p className="text-xs font-medium uppercase tracking-wide text-[var(--viz-muted)]">{t.label}</p>
+                    <p className="mt-1.5 text-2xl font-semibold text-[var(--viz-ink)]" style={{ fontVariantNumeric: "tabular-nums" }}>
+                      {t.value}
+                    </p>
+                    <div className="mt-0.5 text-xs">{t.note}</div>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-5 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.3fr)]">
+                <div>
+                  <p className="mb-2 text-xs font-medium text-[var(--viz-ink-2)]">
+                    New users per day · last 30 days · {fmt(data.users.perDay.reduce((n, d) => n + d.users, 0))} total
+                  </p>
+                  <SignupBars data={data.users.perDay} />
+                </div>
+                <div className="min-w-0">
+                  <p className="mb-2 text-xs font-medium text-[var(--viz-ink-2)]">Latest sign-ups</p>
+                  {data.users.recent.length ? (
+                    <div className="max-h-[260px] overflow-auto">
+                      <table className="w-full min-w-[420px] text-sm">
+                        <thead className="sticky top-0 bg-[var(--viz-surface)] text-left text-xs text-[var(--viz-muted)]">
+                          <tr>
+                            <th className="pb-2 font-medium">User</th>
+                            <th className="pb-2 font-medium">Status</th>
+                            <th className="pb-2 text-right font-medium">Joined</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {data.users.recent.map((u) => (
+                            <tr key={u.id} className="border-t border-[var(--viz-border)]">
+                              <td className="max-w-[240px] py-2 pr-3">
+                                <span className="block truncate text-[var(--viz-ink)]">{u.name || "—"}</span>
+                                <span className="block truncate text-xs text-[var(--viz-muted)]">{u.email}</span>
+                              </td>
+                              <td className="whitespace-nowrap py-2 pr-3 text-xs">
+                                {u.verified ? (
+                                  <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 font-medium text-emerald-700">
+                                    <span aria-hidden>✓</span> Verified
+                                  </span>
+                                ) : (
+                                  <span className="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2 py-0.5 font-medium text-slate-600">
+                                    <span aria-hidden>–</span> Not verified
+                                  </span>
+                                )}
+                              </td>
+                              <td className="whitespace-nowrap py-2 text-right text-xs text-[var(--viz-ink-2)]" title={new Date(u.createdAt).toLocaleString()}>
+                                {timeAgo(u.createdAt, now)}
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  ) : (
+                    <p className="py-6 text-center text-sm text-[var(--viz-muted)]">No registered users yet</p>
+                  )}
                 </div>
               </div>
             </Card>

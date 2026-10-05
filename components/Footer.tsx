@@ -4,7 +4,7 @@ import SocialIcon from "@/components/SocialIcon";
 import { SITE_EMAIL, SITE_NAME, SITE_SOCIAL, SITE_TAGLINE } from "@/lib/site";
 
 const cols = [
-  { title: "Explore", links: [["Quran", "/quran"], ["Hadith", "/hadith"], ["Tafsir", "/tafsir"], ["Duas", "/duas"]] },
+  { title: "Explore", links: [["Quran", "/quran"], ["Hadith", "/hadith"], ["Tafsir", "/tafsir"], ["Duas", "/duas"], ["Blog", "/blog"]] },
   { title: "Tools", links: [["Prayer Times", "/prayer-times"], ["Qibla", "/qibla"], ["Calendar", "/calendar"], ["Reciters", "/reciters"]] },
   { title: "Muslim99", links: [["About", "/about"], ["Get the App", "/download-app"], ["Privacy", "/privacy"], ["Terms", "/terms"], ["Contact", "/contact"]] }
 ];
