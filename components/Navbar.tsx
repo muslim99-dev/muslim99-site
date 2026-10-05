@@ -24,9 +24,9 @@ const links = ALL_LINKS.filter((l) => ASK_ENABLED || l.href !== "/ask");
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-white/90 backdrop-blur">
-      {/* Logo, menu and actions spaced evenly: the gap before and after the menu is the same. */}
-      <div className="mx-auto flex h-16 max-w-app items-center justify-between gap-6 px-5 lg:px-8">
-        <Link href="/" className="flex shrink-0 items-center gap-2.5">
+      {/* Three columns on desktop so the menu sits exactly in the centre of the page. */}
+      <div className="mx-auto flex h-16 max-w-app items-center justify-between gap-6 px-5 lg:grid lg:grid-cols-[1fr_auto_1fr] lg:px-8">
+        <Link href="/" className="flex shrink-0 items-center gap-2.5 justify-self-start">
           <Image src="/logo.png" alt="Muslim99" width={36} height={36} className="rounded-lg" />
           <span className="text-lg font-semibold text-teal-dark">Muslim99</span>
         </Link>
@@ -39,7 +39,7 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <div className="hidden shrink-0 items-center gap-3 md:flex">
+        <div className="hidden shrink-0 items-center gap-3 justify-self-end md:flex">
           {/* No room for the badge beside the full menu on small laptops — it's in the account menu there. */}
           <div className="lg:hidden xl:block">
             <StreakBadge />
