@@ -57,13 +57,16 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-2 md:hidden">
-          <StreakBadge />
+          <StreakBadge compact />
+          <AccountMenu compact />
           <Link
             href="/download-app"
-            className="inline-flex items-center gap-1 rounded-full bg-primary px-3 py-1.5 text-xs font-semibold text-white"
+            aria-label="Get the Muslim99 app"
+            className="inline-flex h-9 items-center gap-1 rounded-full bg-primary px-3 text-xs font-semibold text-white"
           >
             <DownloadIcon />
-            Get App
+            <span className="hidden min-[400px]:inline">Get App</span>
+            <span className="min-[400px]:hidden">App</span>
           </Link>
         </div>
       </div>

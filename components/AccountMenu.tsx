@@ -6,7 +6,8 @@ import { useEffect, useRef, useState } from "react";
 import { useSession, signOut } from "next-auth/react";
 import { Flame, useStreak } from "@/components/streak/StreakProvider";
 
-export default function AccountMenu() {
+/** `compact`: smaller version for the phone header. */
+export default function AccountMenu({ compact = false }: { compact?: boolean }) {
   const { data: session, status } = useSession();
   const { streak } = useStreak();
   const [open, setOpen] = useState(false);
@@ -31,14 +32,16 @@ export default function AccountMenu() {
   }, [open]);
 
   if (status === "loading") {
-    return <div className="h-10 w-20 rounded-full bg-aqua/60 animate-pulse" />;
+    return <div className={`${compact ? "h-9 w-9" : "h-10 w-20"} rounded-full bg-aqua/60 animate-pulse`} />;
   }
 
   if (!session) {
     return (
       <Link
         href="/auth/signin"
-        className="inline-flex h-10 items-center whitespace-nowrap rounded-full border border-border px-4 text-sm font-medium text-teal-dark hover:border-primary hover:text-primary-deep transition-colors"
+        className={`inline-flex items-center whitespace-nowrap rounded-full border border-border font-medium text-teal-dark hover:border-primary hover:text-primary-deep transition-colors ${
+          compact ? "h-9 px-3.5 text-xs" : "h-10 px-4 text-sm"
+        }`}
       >
         Sign In
       </Link>
@@ -66,7 +69,7 @@ export default function AccountMenu() {
           aria-haspopup="menu"
           aria-label={isAdmin ? "Account menu (admin)" : "Account menu"}
           title={name}
-          className="relative grid h-10 w-10 place-items-center rounded-full bg-gradient-to-br from-primary to-primary-deep text-xs font-semibold text-white ring-2 ring-white transition-shadow hover:ring-aqua"
+          className={`relative grid ${compact ? "h-9 w-9" : "h-10 w-10"} place-items-center rounded-full bg-gradient-to-br from-primary to-primary-deep text-xs font-semibold text-white ring-2 ring-white transition-shadow hover:ring-aqua`}
         >
           {initials}
           {isAdmin && (

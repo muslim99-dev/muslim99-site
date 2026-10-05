@@ -170,7 +170,7 @@ function RestoreBox({ s, compact = false }: { s: StreakView; compact?: boolean }
 }
 
 /** Header badge (🔥 + count) with a panel. Renders nothing when signed out. */
-export function StreakBadge({ className = "" }: { className?: string }) {
+export function StreakBadge({ className = "", compact = false }: { className?: string; compact?: boolean }) {
   const { streak } = useStreak();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -197,7 +197,7 @@ export function StreakBadge({ className = "" }: { className?: string }) {
         aria-expanded={open}
         aria-label={`Daily streak: ${streak.current} ${streak.current === 1 ? "day" : "days"}`}
         title={`${streak.current}-day streak`}
-        className={`relative inline-flex h-10 items-center gap-1 rounded-full border px-3 text-sm font-semibold transition-colors ${
+        className={`relative inline-flex items-center gap-1 rounded-full border font-semibold transition-colors ${compact ? "h-9 px-2.5 text-xs" : "h-10 px-3 text-sm"} ${
           lit ? "border-[#F7C08A] bg-[#FFF6EA] text-[#C25A1E] hover:border-[#F2862E]" : "border-border bg-white text-muted hover:border-primary"
         }`}
       >
