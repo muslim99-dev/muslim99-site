@@ -15,7 +15,7 @@ export const SITE_DESCRIPTION =
 export const SITE_HIGHLIGHTS = [
   { value: "130+", label: "Quran tafsirs", detail: "in 33 languages" },
   { value: "130+", label: "Quran translations", detail: "in 47 languages" },
-  { value: "37+", label: "Hadith collections", detail: "books, chapters, references and grading" },
+  { value: "37+", label: "Hadith collections", detail: "references & grading" },
   { value: "38+", label: "Quran reciters", detail: "ayah-by-ayah recitation" }
 ];
 
@@ -72,21 +72,27 @@ export const SITE_APPS = {
   ios: { store: "App Store", url: null as string | null }
 };
 
+/** The Ask (AI) section is hidden for now: no links, the page redirects
+ * home and its API is off. Set to true to bring it back. */
+export const ASK_ENABLED = false;
+
 export const absoluteUrl = (path = "/") => `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
 
 /** Main sections — used for navigation structured data (sitelinks hints),
  * the home page overview and llms.txt. */
-export const SITE_SECTIONS = [
-  { name: "Quran", path: "/quran", description: "Read all 114 surahs of the Holy Quran with 130+ translations in 47 languages and ayah-by-ayah recitation from 38+ reciters." },
-  { name: "Hadith", path: "/hadith", description: "37+ hadith collections — Sahih Bukhari, Sahih Muslim, the Sunan, Musnad Ahmad, Riyad as-Salihin and more — with Arabic, Urdu and English, references and grading." },
-  { name: "Tafsir", path: "/tafsir", description: "130+ Quran tafsirs in 33 languages — Ibn Kathir, Tabari, Qurtubi, As-Sa'di, Tafheem ul Quran, Bayan ul Quran and more — with side-by-side comparison." },
-  { name: "Duas", path: "/duas", description: "400+ authentic duas from the Qur'an and Hisn al-Muslim with Arabic, Urdu, English and other translations and their references." },
-  { name: "Prayer Times", path: "/prayer-times", description: "Daily salah times for your location with Hanafi or Shafi'i Asr calculation." },
-  { name: "Qibla", path: "/qibla", description: "Find the Qibla direction to the Kaaba from anywhere." },
-  { name: "Islamic Calendar", path: "/calendar", description: "Hijri and Gregorian calendar with date conversion." },
-  { name: "Quran Reciters", path: "/reciters", description: "Listen to Qur'an recitations by renowned qaris." },
-  { name: "Ask", path: "/ask", description: "AI-powered Islamic knowledge assistant: ask questions about Islam and get source-focused answers with references from the Quran, Tafsir and Hadith." }
+const ALL_SECTIONS = [
+  { name: "Quran", path: "/quran", short: "All 114 surahs, 130+ translations and recitations.", description: "Read all 114 surahs of the Holy Quran with 130+ translations in 47 languages and ayah-by-ayah recitation from 38+ reciters." },
+  { name: "Hadith", path: "/hadith", short: "37+ collections with references and grading.", description: "37+ hadith collections — Sahih Bukhari, Sahih Muslim, the Sunan, Musnad Ahmad, Riyad as-Salihin and more — with Arabic, Urdu and English, references and grading." },
+  { name: "Tafsir", path: "/tafsir", short: "130+ tafsirs in 33 languages.", description: "130+ Quran tafsirs in 33 languages — Ibn Kathir, Tabari, Qurtubi, As-Sa'di, Tafheem ul Quran, Bayan ul Quran and more — with side-by-side comparison." },
+  { name: "Duas", path: "/duas", short: "400+ authentic duas with references.", description: "400+ authentic duas from the Qur'an and Hisn al-Muslim with Arabic, Urdu, English and other translations and their references." },
+  { name: "Prayer Times", path: "/prayer-times", short: "Daily salah times for your location.", description: "Daily salah times for your location with Hanafi or Shafi'i Asr calculation." },
+  { name: "Qibla", path: "/qibla", short: "Qibla direction from anywhere.", description: "Find the Qibla direction to the Kaaba from anywhere." },
+  { name: "Islamic Calendar", path: "/calendar", short: "Hijri and Gregorian dates.", description: "Hijri and Gregorian calendar with date conversion." },
+  { name: "Quran Reciters", path: "/reciters", short: "Recitations by renowned qaris.", description: "Listen to Qur'an recitations by renowned qaris." },
+  { name: "Ask", path: "/ask", short: "AI answers with Quran and Hadith references.", description: "AI-powered Islamic knowledge assistant: ask questions about Islam and get source-focused answers with references from the Quran, Tafsir and Hadith." }
 ];
+export const SITE_SECTIONS = ALL_SECTIONS.filter((s) => ASK_ENABLED || s.path !== "/ask");
+
 
 /** Plain-language answers about the site itself. Shown on the home and
  * About pages and mirrored in FAQPage structured data. */

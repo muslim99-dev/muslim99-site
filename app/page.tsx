@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import DailyAyah from "@/components/DailyAyah";
 import JsonLd from "@/components/JsonLd";
-import { SITE_DESCRIPTION, SITE_FAQ, SITE_FEATURES, SITE_FOUNDER, SITE_HIGHLIGHTS, SITE_NAME, SITE_OVERVIEW, SITE_SECTIONS, SITE_SOCIAL, SITE_TAGLINE } from "@/lib/site";
+import { SITE_DESCRIPTION, SITE_FAQ, SITE_FOUNDER, SITE_HIGHLIGHTS, SITE_NAME, SITE_SECTIONS, SITE_SOCIAL, SITE_TAGLINE } from "@/lib/site";
 
 export const metadata = {
   title: { absolute: `${SITE_NAME} — ${SITE_TAGLINE} | Quran, Hadith, Tafsir & Duas` },
@@ -147,11 +147,10 @@ export default function Home() {
                 What is Muslim99?
               </h2>
               <p className="mt-2 text-sm font-medium text-gold">{SITE_TAGLINE} · Founded by {SITE_FOUNDER.name}</p>
-              {SITE_OVERVIEW.map((p) => (
-                <p key={p.slice(0, 24)} className="mt-4 text-[16px] leading-relaxed text-muted">
-                  {p}
-                </p>
-              ))}
+              <p className="mt-4 text-[16px] leading-relaxed text-muted">
+                An AI-powered Islamic knowledge platform: the Holy Quran with translations and recitations, Hadith, Tafsir, duas,
+                prayer times and Qibla — authentic sources, in one place.
+              </p>
               <dl className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
                 {SITE_HIGHLIGHTS.map((s) => (
                   <div key={s.label} className="rounded-card border border-border bg-bg p-4">
@@ -161,15 +160,6 @@ export default function Home() {
                   </div>
                 ))}
               </dl>
-              <h3 className="mt-8 text-sm font-semibold uppercase tracking-[0.14em] text-teal-dark">Features</h3>
-              <ul className="mt-3 grid gap-x-6 gap-y-2 text-sm text-muted sm:grid-cols-2">
-                {SITE_FEATURES.map((f) => (
-                  <li key={f} className="flex items-start gap-2">
-                    <span aria-hidden className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                    {f}
-                  </li>
-                ))}
-              </ul>
               <p className="mt-6 text-sm text-muted">
                 Founder:{" "}
                 <a href={SITE_FOUNDER.linkedin} target="_blank" rel="noopener noreferrer" className="font-medium text-primary-deep hover:underline">
@@ -189,6 +179,12 @@ export default function Home() {
                   </>
                 )}
               </p>
+              <Link
+                href="/about"
+                className="mt-5 inline-flex items-center gap-1.5 rounded-full border border-border px-4 py-2 text-sm font-medium text-teal-dark transition-colors hover:border-primary hover:text-primary-deep"
+              >
+                Learn more about Muslim99 <span aria-hidden>→</span>
+              </Link>
             </div>
             <nav aria-label="Muslim99 sections">
               <ul className="divide-y divide-border rounded-card border border-border">
@@ -197,7 +193,7 @@ export default function Home() {
                     <Link href={s.path} className="group flex items-start justify-between gap-4 px-5 py-4 hover:bg-aqua/30 transition-colors">
                       <span>
                         <span className="block font-medium text-teal-dark group-hover:text-primary-deep">{s.name}</span>
-                        <span className="mt-0.5 block text-sm text-muted">{s.description}</span>
+                        <span className="mt-0.5 block text-sm text-muted">{s.short}</span>
                       </span>
                       <span aria-hidden className="mt-1 text-muted group-hover:text-primary-deep">→</span>
                     </Link>

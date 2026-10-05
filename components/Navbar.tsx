@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import AccountMenu from "@/components/AccountMenu";
+import { ASK_ENABLED } from "@/lib/site";
 import { StreakBadge } from "@/components/streak/StreakProvider";
 
-const links = [
+const ALL_LINKS = [
   { href: "/quran", label: "Quran" },
   { href: "/hadith", label: "Hadith" },
   { href: "/tafsir", label: "Tafsir" },
@@ -16,6 +17,9 @@ const links = [
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" }
 ];
+
+const links = ALL_LINKS.filter((l) => ASK_ENABLED || l.href !== "/ask");
+
 
 export default function Navbar() {
   return (

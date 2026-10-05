@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import SocialIcon from "@/components/SocialIcon";
-import { SITE_EMAIL, SITE_NAME, SITE_SOCIAL } from "@/lib/site";
+import { ASK_ENABLED, SITE_EMAIL, SITE_NAME, SITE_SOCIAL } from "@/lib/site";
 
 const items = [
   { href: "/", label: "Home", icon: HomeIcon },
@@ -18,7 +18,7 @@ const more = [
   { href: "/qibla", label: "Qibla", icon: CompassIcon },
   { href: "/duas", label: "Duas", icon: HandsIcon },
   { href: "/calendar", label: "Calendar", icon: CalendarIcon },
-  { href: "/ask", label: "Ask", icon: ChatIcon },
+  ...(ASK_ENABLED ? [{ href: "/ask", label: "Ask", icon: ChatIcon }] : []),
   { href: "/blog", label: "Blog", icon: PenIcon },
   { href: "/bookmarks", label: "Bookmarks", icon: BookmarkIcon },
   { href: "/about", label: "About", icon: InfoIcon },

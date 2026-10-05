@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { ASK_ENABLED } from "@/lib/site";
 import { searchQuran, attachTafsir, searchHadith } from "@/lib/rag";
 import { askGroq } from "@/lib/groq";
 import { TAFSIRS } from "@/lib/tafsir";
@@ -8,6 +9,7 @@ import { RECITERS } from "@/lib/reciters";
 import { TRANSLATION_VOICES } from "@/lib/translationVoices";
 
 export async function POST(req: NextRequest) {
+  if (!ASK_ENABLED) return NextResponse.json({ error: "Ask is not available right now." }, { status: 404 });
   let question: string;
   let language: string;
   try {
