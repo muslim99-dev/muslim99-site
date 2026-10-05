@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import AccountMenu from "@/components/AccountMenu";
+import { StreakBadge } from "@/components/streak/StreakProvider";
 
 const links = [
   { href: "/quran", label: "Quran" },
@@ -26,7 +27,7 @@ export default function Navbar() {
           <span className="text-lg font-semibold text-teal-dark">Muslim99</span>
         </Link>
 
-        <nav className="hidden items-center gap-4 text-sm text-muted lg:flex xl:gap-5">
+        <nav className="hidden items-center gap-4 text-sm text-muted lg:flex">
           {links.map((l) => (
             <Link key={l.href} href={l.href} className="whitespace-nowrap hover:text-primary-deep transition-colors">
               {l.label}
@@ -35,6 +36,10 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden shrink-0 items-center gap-3 md:flex">
+          {/* No room for the badge beside the full menu on small laptops — it's in the account menu there. */}
+          <div className="lg:hidden xl:block">
+            <StreakBadge />
+          </div>
           <AccountMenu />
           <Link
             href="/download-app"
@@ -43,12 +48,13 @@ export default function Navbar() {
             className="inline-flex h-10 shrink-0 items-center gap-1.5 rounded-full bg-primary px-3.5 text-sm font-medium text-white shadow-sm transition-colors hover:bg-primary-deep xl:px-4"
           >
             <DownloadIcon />
-            <span className="hidden xl:inline">Download Now</span>
+            <span className="hidden xl:inline">Download App</span>
             <span className="lg:hidden">Get App</span>
           </Link>
         </div>
 
         <div className="flex items-center gap-2 md:hidden">
+          <StreakBadge />
           <Link
             href="/download-app"
             className="inline-flex items-center gap-1 rounded-full bg-primary px-3 py-1.5 text-xs font-semibold text-white"

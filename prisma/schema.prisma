@@ -66,6 +66,8 @@ model User {
   readingProgress ReadingProgress?
   khatmahs        Khatmah[]
   prayerSettings  PrayerSettings?
+  streak          UserStreak?
+  streakDays      StreakDay[]
 }
 
 enum BookmarkType {
@@ -254,4 +256,31 @@ model PasswordReset {
   expiresAt DateTime
   attempts  Int      @default(0)
   sentAt    DateTime @default(now())
+}
+
+// --- Daily streak (signed-in users) ---
+// Dates are calendar days ("YYYY-MM-DD") in the user's own time zone.
+model UserStreak {
+  userId         String   @id
+  current        Int      @default(0)
+  longest        Int      @default(0)
+  lastDate       String? // last day the user opened the site
+  restoreCredits Int      @default(5) // refilled to 5 every month
+  creditsMonth   String? // "YYYY-MM" the credits belong to
+  brokenStreak   Int      @default(0) // streak lost on brokenOn, restorable that day
+  brokenOn       String?
+  missedDays     Int      @default(0) // days missed — the restore costs this many credits
+  updatedAt      DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model StreakDay {
+  userId   String
+  date     String
+  restored Boolean @default(false) // a missed day filled in with a restore credit
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, date])
 }

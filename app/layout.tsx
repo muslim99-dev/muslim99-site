@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MobileNav from "@/components/MobileNav";
 import SessionProvider from "@/components/SessionProvider";
+import StreakProvider from "@/components/streak/StreakProvider";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
 import JsonLd from "@/components/JsonLd";
 import { SITE_ALT_NAMES, SITE_DESCRIPTION, SITE_EMAIL, SITE_FEATURES, SITE_FOUNDER, SITE_NAME, SITE_SECTIONS, SITE_SOCIAL, SITE_TAGLINE, SITE_URL, absoluteUrl } from "@/lib/site";
@@ -128,11 +129,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="font-sans antialiased min-h-screen flex flex-col pb-16 md:pb-0">
         <JsonLd data={siteJsonLd} />
         <SessionProvider>
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
-          <MobileNav />
-          <AnalyticsTracker />
+          <StreakProvider>
+            <Navbar />
+            <main className="flex-1">{children}</main>
+            <Footer />
+            <MobileNav />
+            <AnalyticsTracker />
+          </StreakProvider>
         </SessionProvider>
       </body>
     </html>

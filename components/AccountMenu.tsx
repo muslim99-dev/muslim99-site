@@ -4,9 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { useSession, signOut } from "next-auth/react";
+import { Flame, useStreak } from "@/components/streak/StreakProvider";
 
 export default function AccountMenu() {
   const { data: session, status } = useSession();
+  const { streak } = useStreak();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
@@ -78,6 +80,17 @@ export default function AccountMenu() {
               {session.user?.email && <p className="truncate text-xs text-muted">{session.user.email}</p>}
             </div>
             <div className="py-1.5">
+              {streak && (
+                <Link href="/profile" className={`${item} flex items-center justify-between`} role="menuitem">
+                  <span className="flex items-center gap-2">
+                    <Flame lit={streak.current > 0} className="h-4 w-4" />
+                    Daily streak
+                  </span>
+                  <span className="font-semibold">
+                    {streak.current} {streak.current === 1 ? "day" : "days"}
+                  </span>
+                </Link>
+              )}
               <Link href="/profile" className={item} role="menuitem">
                 Profile
               </Link>

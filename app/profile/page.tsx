@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import Link from "next/link";
 import { authOptions } from "@/lib/auth";
 import ChangePasswordForm from "@/components/ChangePasswordForm";
+import ProfileStreakCard from "@/components/streak/ProfileStreakCard";
 
 export default async function ProfilePage() {
   const session = await getServerSession(authOptions);
@@ -13,7 +14,11 @@ export default async function ProfilePage() {
       <h1 className="text-2xl font-semibold text-teal-dark">Assalamu Alaikum, {session.user?.name || session.user?.email}</h1>
       <p className="mt-1 text-sm text-muted">Manage your Muslim99 account and Quran journey.</p>
 
-      <div className="mt-8 grid gap-4 sm:grid-cols-2">
+      <div className="mt-8">
+        <ProfileStreakCard />
+      </div>
+
+      <div className="mt-4 grid gap-4 sm:grid-cols-2">
         <Link href="/bookmarks" className="rounded-card border border-border bg-white p-5 hover:border-primary transition-colors">
           <h2 className="font-medium text-teal-dark">Bookmarks</h2>
           <p className="mt-1 text-sm text-muted">Your saved Ayahs, Duas, and more.</p>
